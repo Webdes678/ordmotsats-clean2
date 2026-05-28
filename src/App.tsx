@@ -1,36 +1,75 @@
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import { Routes, Route, useNavigate, useParams } from "react-router-dom"
 import "./App.css"
 
 import { words } from "./data/words"
+import wordlist from "./data/swe_wordlist.txt?raw"
+
+// Process global wordlist for autocomplete helper
+const allWords = wordlist
+  .split("\n")
+  .map((w) => w.trim().toLowerCase())
+  .filter(Boolean)
+  .filter((word) => word.length >= 3 && word.length <= 15)
+  .filter((word) => !word.endsWith("ens") && !word.endsWith("arnas") && !word.endsWith("ande") && !word.endsWith("het"))
+
+// Reusable search bar used across pages
+function SearchBar({ initialValue = "" }: { initialValue?: string }) {
+  const navigate = useNavigate()
+  
+  // Initialize with empty text if we want a fresh search bar on result pages, 
+  // or use initialValue if you want it populated on the absolute first home load.
+  const [query, setQuery] = useState("")
+
+  const suggestions = allWords
+    .filter((word) => query.trim() !== "" && word.startsWith(query.toLowerCase().trim()))
+    .slice(0, 8)
+
+  const handleSearch = (searchTarget: string) => {
+    const clean = searchTarget.toLowerCase().trim()
+    if (clean) {
+      navigate(`/ord/${clean}`)
+      setQuery("") // 👈 Clears out the text string instantly
+    }
+  }
+
+  return (
+    <div className="search-container">
+      <div className="search">
+        <input
+          value={query}
+          onChange={(e) => setQuery(e.target.value)}
+          onKeyDown={(e) => {
+            if (e.key === "Enter") handleSearch(query)
+          }}
+          placeholder="Sök efter ett ord, t.ex. stor, snabb, glad..."
+        />
+        <button onClick={() => handleSearch(query)}>Sök</button>
+      </div>
+
+      {query && suggestions.length > 0 && (
+        <div className="suggestions">
+          {suggestions.map((word) => (
+            <button key={word} onClick={() => handleSearch(word)}>
+              {word}
+            </button>
+          ))}
+        </div>
+      )}
+    </div>
+  )
+}
 
 function HomePage() {
   const navigate = useNavigate()
 
-  document.title = "Motsatsord – hitta svenska motsatsord"
-
-  const [query, setQuery] = useState("")
-  const [searchWord, setSearchWord] = useState("")
-
-  const cleanQuery = searchWord.toLowerCase().trim()
-
-  const result = words[cleanQuery as keyof typeof words]
-
-  const suggestions = Object.keys(words)
-    .filter((word) => word.startsWith(query.toLowerCase().trim()))
-    .slice(0, 8)
+  useEffect(() => {
+    document.title = "Motsatsord – Hitta svenska motsatsord"
+  }, [])
 
   const searches = [
-    "stor ↔ liten",
-    "snabb ↔ långsam",
-    "varm ↔ kall",
-    "glad ↔ ledsen",
-    "ljus ↔ mörk",
-    "hög ↔ låg",
-    "rik ↔ fattig",
-    "ung ↔ gammal",
-    "full ↔ tom",
-    "öppen ↔ stängd",
+    "stor ↔ liten", "snabb ↔ långsam", "varm ↔ kall", "glad ↔ ledsen", "ljus ↔ mörk",
+    "hög ↔ låg", "rik ↔ fattig", "ung ↔ gammal", "full ↔ tom", "öppen ↔ stängd"
   ]
 
   return (
@@ -39,147 +78,50 @@ function HomePage() {
         <div className="logo" onClick={() => navigate("/")}>
           motsatsord<span>.se</span>
         </div>
-
       </header>
 
       <section className="hero">
-        {!searchWord && (
-          <>
-            <h1>
-              Hitta <span>motsatsen</span> till vilket svenskt ord som helst
-            </h1>
+        <h1>Hitta <span>motsatsen</span> till vilket svenskt ord som helst</h1>
+        <p>Skriv in ett ord så visar vi motsatsord, exempel och liknande ord.</p>
 
-            <p>
-              Skriv in ett ord så visar vi motsatsord, exempel och liknande ord.
-            </p>
-          </>
-        )}
+        <SearchBar />
 
-        <div className="search">
-          <input
-            value={query}
-            onChange={(e) => {
-              setQuery(e.target.value)
-              setSearchWord("")
-            }}
-            onKeyDown={(e) => {
-              if (e.key === "Enter") {
-                navigate(`/ord/${query.toLowerCase().trim()}`)
-              }
-            }}
-            placeholder="Sök efter ett ord, t.ex. stor, snabb, glad..."
-          />
-
-          <button
-            onClick={() => {
-              navigate(`/ord/${query.toLowerCase().trim()}`)
-            }}
-          >
-            Sök
-          </button>
-        </div>
-
-        {query && !searchWord && suggestions.length > 0 && (
-          <div className="suggestions">
-            {suggestions.map((word) => (
+        <div className="popular">
+          <h3>POPULÄRA SÖKNINGAR</h3>
+          <div className="chips">
+            {searches.map((item) => (
               <button
-                key={word}
+                key={item}
                 onClick={() => {
+                  const word = item.split(" ↔ ")[0]
                   navigate(`/ord/${word}`)
                 }}
               >
-                {word}
+                {item}
               </button>
             ))}
           </div>
-        )}
-        {searchWord && result && (
-          <>
-            <button
-              className="back-button"
-              onClick={() => {
-                setQuery("")
-                setSearchWord("")
-              }}
-            >
-              ← Tillbaka
-            </button>
+        </div>
 
-            <div className="word-page">
-              <div className="word-card">
-                <p>Motsatsord till</p>
-
-                <h1>{cleanQuery}</h1>
-
-                <h2>
-                  ↔ <span>{result.opposite}</span>
-                </h2>
-              </div>
-
-              <h3>Exempelmeningar</h3>
-
-              <div className="examples">
-                {result.examples.map((example) => (
-                  <div key={example}>{example}</div>
-                ))}
-              </div>
-
-              <h3>Liknande ord</h3>
-
-              <div className="related">
-                {result.related.map((word) => (
-                  <span key={word}>{word}</span>
-                ))}
-              </div>
-            </div>
-          </>
-        )}
-
-        {searchWord && !result && (
-          <div className="result-card">
-            <p>Inget motsatsord hittades.</p>
+        <div className="cards">
+          <div>
+            <h2>Snabbt</h2>
+            <p>Resultat på en sekund.</p>
           </div>
-        )}
-
-        {!searchWord && (
-          <>
-            <div className="popular">
-              <h3>POPULÄRA SÖKNINGAR</h3>
-
-              <div className="chips">
-                {searches.map((item) => (
-                  <button
-                    key={item}
-                    onClick={() => {
-                      const word = item.split(" ↔ ")[0]
-                      navigate(`/ord/${word}`)
-                    }}
-                  >
-                    {item}
-                  </button>
-                ))}
-              </div>
-            </div>
-
-            <div className="cards">
-              <div>
-                <h2>Snabbt</h2>
-                <p>Resultat på en sekund.</p>
-              </div>
-
-              <div>
-                <h2>Enkelt</h2>
-                <p>En sökruta. Inga distraktioner.</p>
-              </div>
-
-              <div>
-                <h2>Gratis</h2>
-                <p>Inga konton, inga annonser.</p>
-              </div>
-            </div>
-          </>
-        )}
+          <div>
+            <h2>Enkelt</h2>
+            <p>En sökruta. Inga distraktioner.</p>
+          </div>
+          <div>
+            <h2>Gratis</h2>
+            <p>Inga konton, inga annonser.</p>
+          </div>
+        </div>
       </section>
+
+      <footer className="footer">
+        © 2026 motsatsord.se · Hitta motsatsen till svenska ord
+      </footer>
     </main>
   )
 }
@@ -187,22 +129,13 @@ function HomePage() {
 function WordPage() {
   const navigate = useNavigate()
   const { word } = useParams()
+  const cleanWord = word?.toLowerCase().trim() || ""
 
-  const result = words[word as keyof typeof words]
-  
-  document.title = `Motsatsord till ${word} – motsatsord.se`
+  const result = words[cleanWord as keyof typeof words]
 
-  if (!word || !result) {
-    return (
-      <main className="page">
-        <section className="hero">
-          <div className="result-card">
-            <p>Inget motsatsord hittades.</p>
-          </div>
-        </section>
-      </main>
-    )
-  }
+  useEffect(() => {
+    document.title = `Motsatsord till ${cleanWord} – motsatsord.se`
+  }, [cleanWord])
 
   return (
     <main className="page">
@@ -213,51 +146,61 @@ function WordPage() {
       </header>
 
       <section className="hero">
-        <button
-          className="back-button"
-          onClick={() => window.history.back()}
-        >
-          ← Tillbaka
+        <button className="back-button" onClick={() => navigate("/")}>
+          ← Till startsidan
         </button>
 
-        <div className="word-page">
-          <div className="word-card">
-            <p>Motsatsord till</p>
+        {/* Keeps the search flow alive right inside the word component */}
+        <SearchBar initialValue={cleanWord} />
 
-            <h1>{word}</h1>
+        {result ? (
+          <div className="word-page">
+            <div className="word-card">
+              <p>Motsatsord till</p>
+              <h1>{cleanWord}</h1>
+              <h2>
+                ↔ <span>{result.opposite}</span>
+              </h2>
+            </div>
 
-            <h2>
-              ↔ <span>{result.opposite}</span>
-            </h2>
+            {result.examples && result.examples.length > 0 && (
+              <>
+                <h3>Exempelmeningar</h3>
+                <div className="examples">
+                  {result.examples.map((example) => (
+                    <div key={example}>{example}</div>
+                  ))}
+                </div>
+              </>
+            )}
+
+            {result.related && result.related.length > 0 && (
+              <>
+                <h3>Liknande ord</h3>
+                <div className="related">
+                  {result.related.map((relatedWord) => (
+                    <button key={relatedWord} onClick={() => navigate(`/ord/${relatedWord}`)}>
+                      {relatedWord}
+                    </button>
+                  ))}
+                </div>
+              </>
+            )}
           </div>
-
-          <h3>Exempelmeningar</h3>
-
-          <div className="examples">
-            {result.examples.map((example) => (
-              <div key={example}>{example}</div>
-            ))}
+        ) : (
+          <div className="result-card" style={{ marginTop: '24px' }}>
+            <p>Inget motsatsord hittades för <strong>{cleanWord}</strong> än.</p>
           </div>
-
-          <h3>Liknande ord</h3>
-
-          <div className="related">
-            {result.related.map((relatedWord) => (
-              <button
-                key={relatedWord}
-                onClick={() => {
-                  navigate(`/ord/${relatedWord}`)
-                }}
-              >
-                {relatedWord}
-              </button>
-            ))}
-          </div>
-        </div>
+        )}
       </section>
+
+      <footer className="footer">
+        © 2026 motsatsord.se · Hitta motsatsen till svenska ord
+      </footer>
     </main>
   )
 }
+
 function App() {
   return (
     <Routes>
@@ -266,4 +209,5 @@ function App() {
     </Routes>
   )
 }
+
 export default App
