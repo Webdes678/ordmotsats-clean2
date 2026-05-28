@@ -18,7 +18,6 @@ function SearchBar() {
   const navigate = useNavigate()
 
   // Initialize with empty text if we want a fresh search bar on result pages, 
-  // or use initialValue if you want it populated on the absolute first home load.
   const [query, setQuery] = useState("")
 
   const suggestions = allWords
