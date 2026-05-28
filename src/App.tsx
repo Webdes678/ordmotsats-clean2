@@ -14,9 +14,9 @@ const allWords = wordlist
   .filter((word) => !word.endsWith("ens") && !word.endsWith("arnas") && !word.endsWith("ande") && !word.endsWith("het"))
 
 // Reusable search bar used across pages
-function SearchBar({ initialValue = "" }: { initialValue?: string }) {
+function SearchBar() {
   const navigate = useNavigate()
-  
+
   // Initialize with empty text if we want a fresh search bar on result pages, 
   // or use initialValue if you want it populated on the absolute first home load.
   const [query, setQuery] = useState("")
@@ -151,7 +151,7 @@ function WordPage() {
         </button>
 
         {/* Keeps the search flow alive right inside the word component */}
-        <SearchBar initialValue={cleanWord} />
+        <SearchBar />
 
         {result ? (
           <div className="word-page">
