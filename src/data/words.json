@@ -1,0 +1,10 @@
+{
+  "stor": { "antonym": "liten", "type": "adjektiv" },
+  "snabb": { "antonym": "långsam", "type": "adjektiv" },
+  "glad": { "antonym": "ledsen", "type": "adjektiv" },
+  "varm": { "antonym": "kall", "type": "adjektiv" },
+  "tung": { "antonym": "lätt", "type": "adjektiv" },
+  "hög": { "antonym": "låg", "type": "adjektiv" },
+  "rik": { "antonym": "fattig", "type": "adjektiv" },
+  "snäll": { "antonym": "elak", "type": "adjektiv" }
+}

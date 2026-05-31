@@ -2,21 +2,16 @@ import { useState, useEffect } from "react"
 import { Routes, Route, useNavigate, useParams } from "react-router-dom"
 import "./App.css"
 
+// Här importerar vi din ordlista helt utan att krascha Vite
 import { words } from "./data/words"
-import wordlist from "./data/swe_wordlist.txt?raw"
 
-// Process global wordlist for autocomplete helper
-const allWords = wordlist
-  .split("\n")
-  .map((w) => w.trim().toLowerCase())
-  .filter(Boolean)
-  .filter((word) => word.length >= 3 && word.length <= 15)
-  .filter((word) => !word.endsWith("ens") && !word.endsWith("arnas") && !word.endsWith("ande") && !word.endsWith("het"))
+// Detta drar automatiskt ut ALLA ord i din words.ts så att din autocomplete fungerar direkt
+const allWords = Object.keys(words)
 
-// Reusable search bar used across pages
-function SearchBar({ initialValue = "" }: { initialValue?: string }) {
+// Återanvändbar sökkomponent som matchar din CSS perfekt
+function SearchBar() {
   const navigate = useNavigate()
-  const [query, setQuery] = useState(initialValue) // Using it here again
+  const [query, setQuery] = useState("")
 
   const suggestions = allWords
     .filter((word) => query.trim() !== "" && word.startsWith(query.toLowerCase().trim()))
@@ -26,7 +21,7 @@ function SearchBar({ initialValue = "" }: { initialValue?: string }) {
     const clean = searchTarget.toLowerCase().trim()
     if (clean) {
       navigate(`/ord/${clean}`)
-      setQuery("") 
+      setQuery("")
     }
   }
 
@@ -128,6 +123,7 @@ function WordPage() {
   const { word } = useParams()
   const cleanWord = word?.toLowerCase().trim() || ""
 
+  // Hämtar matchningen och mappar mot din strukturs egenskaper (opposite, examples, related)
   const result = words[cleanWord as keyof typeof words]
 
   useEffect(() => {
@@ -147,8 +143,7 @@ function WordPage() {
           ← Till startsidan
         </button>
 
-        {/* Keeps the search flow alive right inside the word component */}
-        <SearchBar initialValue={cleanWord} />
+        <SearchBar />
 
         {result ? (
           <div className="word-page">
@@ -164,7 +159,7 @@ function WordPage() {
               <>
                 <h3>Exempelmeningar</h3>
                 <div className="examples">
-                  {result.examples.map((example) => (
+                  {(result.examples || []).map((example: string) => (
                     <div key={example}>{example}</div>
                   ))}
                 </div>
@@ -175,7 +170,7 @@ function WordPage() {
               <>
                 <h3>Liknande ord</h3>
                 <div className="related">
-                  {result.related.map((relatedWord) => (
+                  {(result.related || []).map((relatedWord: string) => (
                     <button key={relatedWord} onClick={() => navigate(`/ord/${relatedWord}`)}>
                       {relatedWord}
                     </button>
