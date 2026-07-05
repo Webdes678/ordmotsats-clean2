@@ -68,7 +68,10 @@ function HomePage() {
     <main className="page">
       <header className="header">
         <div className="logo" onClick={() => navigate("/")}>
-          motsatsord<span>.se</span>
+          <img src="/favicon.png" alt="Motsatsord logo" className="logo-icon" />
+          <span>
+            motsatsord<span>.se</span>
+          </span>
         </div>
       </header>
 
