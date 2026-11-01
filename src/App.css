@@ -409,3 +409,35 @@ body {
   height: 38px;
   object-fit: contain;
 }
+/* Crawlable word links use the same pill treatment as buttons. */
+.chips a,
+.related a {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.chips a {
+  min-height: 37px;
+  border: 1px solid #d5e1ef;
+  background: white;
+  padding: 0 16px;
+  border-radius: 999px;
+  color: #020711;
+  font-size: 13px;
+}
+
+.related a {
+  background: white;
+  border: 1px solid #d5e1ef;
+  border-radius: 999px;
+  padding: 10px 16px;
+  font-size: 14px;
+  color: #020711;
+}
+
+.word-description,
+.dictionary-note {
+  color: #536174;
+  line-height: 1.6;
+}
