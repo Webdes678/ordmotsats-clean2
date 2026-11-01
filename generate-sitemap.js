@@ -4,7 +4,7 @@ import path from 'path';
 function generateSitemap() {
   console.log("🗺️ Starting sitemap generation...");
   
-  const baseUrl = 'https://motsatsord.se';
+  const baseUrl = 'https://www.motsatsord.se';
   const wordsTsPath = path.join(process.cwd(), 'src', 'data', 'words.ts');
   const outputPath = path.join(process.cwd(), 'public', 'sitemap.xml');
 
