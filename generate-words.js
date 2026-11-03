@@ -1136,6 +1136,465 @@ const curatedPairs = [
       "En mätning av temperaturen är objektiv.",
       "En åsikt om vilken film som är bäst är subjektiv."
     ]
+  },
+  {
+    "a": "plural",
+    "b": "singular",
+    "description": "Singular är en form för en enda. Plural är en form för flera.",
+    "examples": [
+      "Ordet ”bil” står i singular och ”bilar” står i plural.",
+      "Rubriken använder singular, men listan under använder plural."
+    ]
+  },
+  {
+    "a": "automatisk",
+    "b": "manuell",
+    "description": "Automatisk betyder att något sker av sig självt enligt ett system. Manuell betyder att en person styr eller gör det.",
+    "examples": [
+      "Dörren öppnas automatiskt, men reservlåset är manuellt.",
+      "Maskinen har ett automatiskt läge och ett manuellt läge."
+    ]
+  },
+  {
+    "a": "borta",
+    "b": "hemma",
+    "description": "Hemma betyder på den plats där man bor. Borta betyder att man inte är där.",
+    "examples": [
+      "Hon är hemma i kväll men borta i morgon.",
+      "När katten var borta längtade barnen tills den var hemma igen."
+    ]
+  },
+  {
+    "a": "konkav",
+    "b": "konvex",
+    "description": "En konkav yta buktar inåt. En konvex yta buktar utåt.",
+    "examples": [
+      "Skålens insida är konkav och utsidan är konvex.",
+      "En konkav lins och en konvex lins böjer ljus på olika sätt."
+    ]
+  },
+  {
+    "a": "bekräfta",
+    "b": "dementera",
+    "description": "Bekräfta betyder att säga att en uppgift stämmer. Dementera betyder att säga att den inte stämmer.",
+    "examples": [
+      "Företaget bekräftade nyheten, medan myndigheten dementerade ryktet.",
+      "Hon ville varken bekräfta eller dementera uppgiften."
+    ]
+  },
+  {
+    "a": "horisontell",
+    "b": "vertikal",
+    "description": "Horisontell betyder vågrät. Vertikal betyder lodrät.",
+    "examples": [
+      "Bordsskivan är horisontell och bordsbenet är vertikalt.",
+      "Rita först en horisontell linje och sedan en vertikal."
+    ]
+  },
+  {
+    "a": "vass",
+    "b": "trubbig",
+    "description": "Vass betyder att en kant eller spets lätt kan skära eller sticka. Trubbig betyder att den inte är skarp.",
+    "examples": [
+      "Den nya kniven är vass, men den gamla är trubbig.",
+      "En vass penna ger en tunn linje; en trubbig penna ger en bredare."
+    ]
+  },
+  {
+    "a": "aerob",
+    "b": "anaerob",
+    "description": "Aerob betyder att syre används. Anaerob betyder att processen sker utan syre.",
+    "examples": [
+      "Lugn löpning är ofta aerob träning, medan en kort maxinsats kan vara anaerob.",
+      "Bakterien kan växa aerobt med syre eller anaerobt utan syre."
+    ]
+  },
+  {
+    "a": "obligatorisk",
+    "b": "valfri",
+    "description": "Obligatorisk betyder att något måste göras. Valfri betyder att man själv får välja.",
+    "examples": [
+      "Första uppgiften är obligatorisk och den andra är valfri.",
+      "Närvaro är obligatorisk på måndagen men valfri på fredagen."
+    ]
+  },
+  {
+    "a": "självisk",
+    "b": "osjälvisk",
+    "description": "Självisk betyder att främst tänka på sig själv. Osjälvisk betyder att också sätta andras behov först.",
+    "examples": [
+      "Det var själviskt att ta allt, men osjälviskt att dela med sig.",
+      "Hon gjorde en osjälvisk insats i stället för ett själviskt val."
+    ]
+  },
+  {
+    "a": "professionell",
+    "b": "oprofessionell",
+    "description": "Professionell betyder här att arbeta kunnigt och korrekt. Oprofessionell betyder att inte göra det.",
+    "examples": [
+      "Bemötandet var professionellt och lugnt, men det första svaret var oprofessionellt.",
+      "En professionell rapport är tydlig; en oprofessionell kan vara slarvig."
+    ]
+  },
+  {
+    "a": "nedåt",
+    "b": "uppåt",
+    "description": "Nedåt är riktningen mot en lägre plats. Uppåt är riktningen mot en högre plats.",
+    "examples": [
+      "Hissen gick uppåt och trappan ledde nedåt.",
+      "Pilen åt vänster pekar nedåt och den andra pekar uppåt."
+    ]
+  },
+  {
+    "a": "tur",
+    "b": "otur",
+    "description": "Tur betyder att något bra händer av en slump. Otur betyder att något dåligt händer av en slump.",
+    "examples": [
+      "Vi hade tur och hann med tåget; han hade otur och missade det.",
+      "Det var otur att det regnade, men tur att vi hade paraply."
+    ]
+  },
+  {
+    "a": "global",
+    "b": "lokal",
+    "description": "Global betyder att något gäller hela världen. Lokal betyder att det gäller ett mindre område eller en viss plats.",
+    "examples": [
+      "Klimatet är en global fråga, medan busstiden är en lokal fråga.",
+      "Företaget säljer globalt men har också en lokal butik."
+    ]
+  },
+  {
+    "a": "reversibel",
+    "b": "irreversibel",
+    "description": "Reversibel betyder att något kan göras om eller återställas. Irreversibel betyder att det inte kan återställas.",
+    "examples": [
+      "Ändringen är reversibel och kan tas tillbaka.",
+      "Skadan blev irreversibel, medan den mindre förändringen var reversibel."
+    ]
+  },
+  {
+    "a": "föregående",
+    "b": "nästa",
+    "description": "Föregående betyder den som kom närmast före. Nästa betyder den som kommer närmast efter.",
+    "examples": [
+      "Det föregående kapitlet var kortare än nästa.",
+      "Vi rättade felet från föregående vecka inför nästa vecka."
+    ]
+  },
+  {
+    "a": "explosion",
+    "b": "implosion",
+    "description": "En explosion pressar material utåt. En implosion innebär att något kollapsar inåt.",
+    "examples": [
+      "Trycket orsakade en explosion utåt, inte en implosion inåt.",
+      "Vid en explosion sprids delar utåt; vid en implosion faller de inåt."
+    ]
+  },
+  {
+    "a": "mottagare",
+    "b": "sändare",
+    "description": "En sändare skickar en signal eller ett meddelande. En mottagare tar emot det.",
+    "examples": [
+      "Radions sändare skickar signalen till mottagaren.",
+      "Brevet har en sändare och en mottagare."
+    ]
+  },
+  {
+    "a": "öppning",
+    "b": "stängning",
+    "description": "Öppning betyder att något öppnas eller börjar vara öppet. Stängning betyder att det stängs.",
+    "examples": [
+      "Butikens öppning är klockan nio och stängningen är klockan sex.",
+      "Dörrens öppning gick lätt, men stängningen krävde mer kraft."
+    ]
+  },
+  {
+    "a": "högertrafik",
+    "b": "vänstertrafik",
+    "description": "Högertrafik betyder att fordon kör på höger sida. Vänstertrafik betyder att de kör på vänster sida.",
+    "examples": [
+      "Sverige har högertrafik, medan Storbritannien har vänstertrafik.",
+      "Vid gränsen bytte vägen från vänstertrafik till högertrafik."
+    ]
+  },
+  {
+    "a": "köpare",
+    "b": "säljare",
+    "description": "En köpare betalar för något. En säljare erbjuder och säljer det.",
+    "examples": [
+      "Köparen betalade och säljaren lämnade över varan.",
+      "Avtalet skrevs under av både köpare och säljare."
+    ]
+  },
+  {
+    "a": "ankomst",
+    "b": "avfärd",
+    "description": "Ankomst är när någon eller något kommer fram. Avfärd är när resan börjar från en plats.",
+    "examples": [
+      "Tågets avfärd är klockan åtta och ankomsten klockan tio.",
+      "Vi väntade på hennes ankomst efter deras tidiga avfärd."
+    ]
+  },
+  {
+    "a": "generalisera",
+    "b": "specialisera",
+    "description": "Generalisera betyder att göra en bred slutsats eller göra något mer allmänt. Specialisera betyder att inrikta sig på ett smalare område.",
+    "examples": [
+      "Det är svårt att generalisera från ett enda fall.",
+      "Forskaren försökte generalisera resultaten men valde sedan att specialisera analysen på en åldersgrupp."
+    ]
+  },
+  {
+    "a": "permanent",
+    "b": "temporär",
+    "description": "Permanent betyder varaktig. Temporär betyder att något bara gäller under en begränsad tid.",
+    "examples": [
+      "Bron är en permanent lösning, medan färjan var temporär.",
+      "Hon fick först ett temporärt rum och senare ett permanent."
+    ]
+  },
+  {
+    "a": "emigrera",
+    "b": "immigrera",
+    "description": "Emigrera betyder att flytta ut från ett land. Immigrera betyder att flytta in i ett land.",
+    "examples": [
+      "Familjen emigrerade från Sverige och immigrerade till Kanada.",
+      "Samma flytt kan beskrivas som att emigrera från ett land och immigrera till ett annat."
+    ]
+  },
+  {
+    "a": "invandring",
+    "b": "utvandring",
+    "description": "Invandring är flytt in i ett land. Utvandring är flytt ut ur ett land.",
+    "examples": [
+      "Statistiken visar både invandring till landet och utvandring från det.",
+      "Samma person räknas som utvandring i ursprungslandet och invandring i det nya landet."
+    ]
+  },
+  {
+    "a": "inandning",
+    "b": "utandning",
+    "description": "Inandning betyder att luft dras in i lungorna. Utandning betyder att luft pressas ut.",
+    "examples": [
+      "En lugn inandning följdes av en lång utandning.",
+      "Övningen växlar mellan fyra sekunders inandning och sex sekunders utandning."
+    ]
+  },
+  {
+    "a": "frånvaro",
+    "b": "närvaro",
+    "description": "Närvaro betyder att någon är på plats. Frånvaro betyder att personen inte är där.",
+    "examples": [
+      "Läraren noterade både elevernas närvaro och deras frånvaro.",
+      "Hennes närvaro märktes direkt efter en veckas frånvaro."
+    ]
+  },
+  {
+    "a": "inomlands",
+    "b": "utomlands",
+    "description": "Inomlands betyder i det egna landet. Utomlands betyder i ett annat land.",
+    "examples": [
+      "Vi reste inomlands i somras och utomlands i vintras.",
+      "Paketet kan skickas både inomlands och utomlands."
+    ]
+  },
+  {
+    "a": "inifrån",
+    "b": "utifrån",
+    "description": "Inifrån betyder från insidan. Utifrån betyder från utsidan.",
+    "examples": [
+      "Dörren låstes inifrån och öppnades utifrån.",
+      "Huset såg litet ut utifrån men rymligt inifrån."
+    ]
+  },
+  {
+    "a": "inländsk",
+    "b": "utländsk",
+    "description": "Inländsk betyder från det egna landet. Utländsk betyder från ett annat land.",
+    "examples": [
+      "Butiken säljer både inländsk och utländsk frukt.",
+      "Den inländska filmen tävlade mot flera utländska filmer."
+    ]
+  },
+  {
+    "a": "dystopi",
+    "b": "utopi",
+    "description": "En utopi skildrar ett idealiskt samhälle. En dystopi skildrar ett samhälle där mycket har gått fel.",
+    "examples": [
+      "Boken börjar som en utopi men utvecklas till en dystopi.",
+      "En utopi visar drömsamhället, medan en dystopi visar en mörk framtid."
+    ]
+  },
+  {
+    "a": "aktning",
+    "b": "förakt",
+    "description": "Aktning betyder respekt. Förakt betyder stark brist på respekt.",
+    "examples": [
+      "Hon talade om läraren med aktning, inte med förakt.",
+      "Hans mod väckte aktning, medan hans grymhet väckte förakt."
+    ]
+  },
+  {
+    "a": "transitiv",
+    "b": "intransitiv",
+    "description": "Ett transitivt verb kan ha ett direkt objekt. Ett intransitivt verb används utan direkt objekt.",
+    "examples": [
+      "I ”hon öppnar dörren” är verbet transitivt.",
+      "I ”barnet sover” är verbet intransitivt, medan ”barnet läser boken” har ett transitivt verb."
+    ]
+  },
+  {
+    "a": "kryptering",
+    "b": "avkryptering",
+    "description": "Kryptering gör information svårläst utan rätt nyckel. Avkryptering gör den läsbar igen.",
+    "examples": [
+      "Meddelandet skyddades med kryptering och öppnades med avkryptering.",
+      "Rätt nyckel behövs för både kryptering och avkryptering."
+    ]
+  },
+  {
+    "a": "inflation",
+    "b": "deflation",
+    "description": "Inflation är en allmän ökning av prisnivån. Deflation är en allmän minskning av prisnivån.",
+    "examples": [
+      "Landet gick från låg inflation till en kort period av deflation.",
+      "Vid inflation stiger den allmänna prisnivån; vid deflation sjunker den."
+    ]
+  },
+  {
+    "a": "godkänd",
+    "b": "underkänd",
+    "description": "Godkänd betyder att kraven är uppfyllda. Underkänd betyder att de inte är det.",
+    "examples": [
+      "Uppsatsen blev godkänd, men det första utkastet var underkänt.",
+      "Ett godkänt prov uppfyller kraven; ett underkänt gör inte det."
+    ]
+  },
+  {
+    "a": "liggande",
+    "b": "stående",
+    "description": "Liggande och stående beskriver olika lägen eller format.",
+    "examples": [
+      "Bilden finns i både liggande och stående format.",
+      "Ställ flaskan stående och lägg boken liggande."
+    ]
+  },
+  {
+    "a": "nerför",
+    "b": "uppför",
+    "description": "Nerför betyder i riktning ned längs en lutning. Uppför betyder i riktning upp längs den.",
+    "examples": [
+      "Det gick snabbt nerför backen men långsamt uppför.",
+      "Vi cyklade uppför på vägen dit och nerför på vägen hem."
+    ]
+  },
+  {
+    "a": "funktionell",
+    "b": "dysfunktionell",
+    "description": "Funktionell betyder att något fungerar på ett ändamålsenligt sätt. Dysfunktionell betyder att det fungerar dåligt eller skadligt.",
+    "examples": [
+      "Gruppen blev funktionell efter att ha löst sitt dysfunktionella arbetssätt.",
+      "Ett funktionellt system hjälper användaren; ett dysfunktionellt skapar problem."
+    ]
+  },
+  {
+    "a": "förstärka",
+    "b": "försvaga",
+    "description": "Förstärka betyder att göra något starkare. Försvaga betyder att göra det svagare.",
+    "examples": [
+      "Högtalaren förstärker ljudet, medan väggen försvagar det.",
+      "Träningen kan förstärka musklerna och sjukdom kan försvaga dem."
+    ]
+  },
+  {
+    "a": "gles",
+    "b": "tät",
+    "description": "Gles betyder att det är långt mellan delarna. Tät betyder att delarna sitter nära varandra.",
+    "examples": [
+      "Skogen var gles nära vägen och tät längre in.",
+      "Ett glest tyg släpper igenom mer ljus än ett tätt."
+    ]
+  },
+  {
+    "a": "dominant",
+    "b": "recessiv",
+    "description": "Dominant och recessiv beskriver hur genvarianter kan påverka en ärftlig egenskap.",
+    "examples": [
+      "En dominant genvariant kan märkas när bara en kopia finns.",
+      "En recessiv genvariant märks ofta först när två kopior finns, till skillnad från en dominant."
+    ]
+  },
+  {
+    "a": "anspänd",
+    "b": "avspänd",
+    "description": "Anspänd betyder spänd eller nervös. Avspänd betyder lugn och avslappnad.",
+    "examples": [
+      "Hon var anspänd före samtalet men avspänd efteråt.",
+      "Stämningen gick från anspänd till avspänd när problemet löstes."
+    ]
+  },
+  {
+    "a": "invärtes",
+    "b": "utvärtes",
+    "description": "Invärtes betyder inne i kroppen. Utvärtes betyder på kroppens utsida.",
+    "examples": [
+      "Läkemedlet ska tas invärtes, medan salvan används utvärtes.",
+      "Vissa läkemedel tas invärtes och andra används utvärtes."
+    ]
+  },
+  {
+    "a": "extern",
+    "b": "intern",
+    "description": "Intern betyder inom en organisation eller ett system. Extern betyder utanför det.",
+    "examples": [
+      "Det interna mötet följdes av ett externt möte med kunden.",
+      "Företaget använder både intern personal och externa konsulter."
+    ]
+  },
+  {
+    "a": "dynamisk",
+    "b": "statisk",
+    "description": "Dynamisk betyder att något förändras eller rör sig. Statisk betyder att det är fast eller oföränderligt i sammanhanget.",
+    "examples": [
+      "Diagrammet är dynamiskt och uppdateras, medan bilden är statisk.",
+      "En dynamisk övning innehåller rörelse; en statisk hålls stilla."
+    ]
+  },
+  {
+    "a": "destruktiv",
+    "b": "konstruktiv",
+    "description": "Konstruktiv betyder att bidra till en lösning. Destruktiv betyder att skada eller försvåra.",
+    "examples": [
+      "Hon gav konstruktiv kritik i stället för destruktiva kommentarer.",
+      "Samtalet blev konstruktivt efter en destruktiv början."
+    ]
+  },
+  {
+    "a": "nedanstående",
+    "b": "ovanstående",
+    "description": "Ovanstående syftar på något tidigare eller högre upp i texten. Nedanstående syftar på något som kommer senare eller står längre ner.",
+    "examples": [
+      "Ovanstående exempel förklaras i den nedanstående tabellen.",
+      "Följ den ovanstående regeln och svara på de nedanstående frågorna."
+    ]
+  },
+  {
+    "a": "kortvarig",
+    "b": "långvarig",
+    "description": "Kortvarig betyder att något pågår en kort tid. Långvarig betyder att det pågår länge.",
+    "examples": [
+      "Regnet var kortvarigt, men torkan blev långvarig.",
+      "En kortvarig lösning räckte inte för det långvariga problemet."
+    ]
+  },
+  {
+    "a": "minskning",
+    "b": "ökning",
+    "description": "En minskning betyder att något blir mindre. En ökning betyder att det blir större.",
+    "examples": [
+      "En minskning av priset gav en ökning av försäljningen.",
+      "Rapporten visar en minskning av kostnaderna och en ökning av intäkterna."
+    ]
   }
 ];
 
