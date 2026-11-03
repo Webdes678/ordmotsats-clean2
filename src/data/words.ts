@@ -1296,5 +1296,1479 @@ export const words = {
     "related": [
       "alltid"
     ]
+  },
+  "hata": {
+    "opposite": "älska",
+    "description": "Hata betyder att känna stark motvilja. Älska betyder att tycka mycket om någon eller något.",
+    "examples": [
+      "Jag älskar den här låten, men min bror hatar den.",
+      "Hon älskar att simma men hatar att frysa."
+    ],
+    "related": [
+      "älska"
+    ]
+  },
+  "älska": {
+    "opposite": "hata",
+    "description": "Hata betyder att känna stark motvilja. Älska betyder att tycka mycket om någon eller något.",
+    "examples": [
+      "Jag älskar den här låten, men min bror hatar den.",
+      "Hon älskar att simma men hatar att frysa."
+    ],
+    "related": [
+      "hata"
+    ]
+  },
+  "ordning": {
+    "opposite": "oordning",
+    "description": "Ordning betyder att saker ligger där de ska. Oordning betyder att saker ligger huller om buller.",
+    "examples": [
+      "Det var oordning på skrivbordet före städningen och ordning efteråt.",
+      "Hon gillar ordning i köket men har ofta oordning i garderoben."
+    ],
+    "related": [
+      "oordning"
+    ]
+  },
+  "oordning": {
+    "opposite": "ordning",
+    "description": "Ordning betyder att saker ligger där de ska. Oordning betyder att saker ligger huller om buller.",
+    "examples": [
+      "Det var oordning på skrivbordet före städningen och ordning efteråt.",
+      "Hon gillar ordning i köket men har ofta oordning i garderoben."
+    ],
+    "related": [
+      "ordning"
+    ]
+  },
+  "irrelevant": {
+    "opposite": "relevant",
+    "description": "Relevant betyder att något hör till saken. Irrelevant betyder att det inte gör det.",
+    "examples": [
+      "Frågan om priset är relevant, men frågan om färgen är irrelevant här.",
+      "Läraren bad oss ta med relevant information och lämna bort det som var irrelevant."
+    ],
+    "related": [
+      "relevant"
+    ]
+  },
+  "relevant": {
+    "opposite": "irrelevant",
+    "description": "Relevant betyder att något hör till saken. Irrelevant betyder att det inte gör det.",
+    "examples": [
+      "Frågan om priset är relevant, men frågan om färgen är irrelevant här.",
+      "Läraren bad oss ta med relevant information och lämna bort det som var irrelevant."
+    ],
+    "related": [
+      "irrelevant"
+    ]
+  },
+  "modern": {
+    "opposite": "omodern",
+    "description": "Modern betyder att något passar vår tid. Omodern betyder att det upplevs som gammaldags.",
+    "examples": [
+      "Den nya datorn är modern, men den gamla modellen är omodern.",
+      "Hon bytte ut den omoderna lampan mot en modern."
+    ],
+    "related": [
+      "omodern"
+    ]
+  },
+  "omodern": {
+    "opposite": "modern",
+    "description": "Modern betyder att något passar vår tid. Omodern betyder att det upplevs som gammaldags.",
+    "examples": [
+      "Den nya datorn är modern, men den gamla modellen är omodern.",
+      "Hon bytte ut den omoderna lampan mot en modern."
+    ],
+    "related": [
+      "modern"
+    ]
+  },
+  "oändlig": {
+    "opposite": "ändlig",
+    "description": "Ändlig betyder att något har ett slut. Oändlig betyder att det saknar slut.",
+    "examples": [
+      "Resan var ändlig, även om den kändes oändlig.",
+      "En vecka är ändlig, men väntan kan kännas oändlig."
+    ],
+    "related": [
+      "ändlig"
+    ]
+  },
+  "ändlig": {
+    "opposite": "oändlig",
+    "description": "Ändlig betyder att något har ett slut. Oändlig betyder att det saknar slut.",
+    "examples": [
+      "Resan var ändlig, även om den kändes oändlig.",
+      "En vecka är ändlig, men väntan kan kännas oändlig."
+    ],
+    "related": [
+      "oändlig"
+    ]
+  },
+  "begriplig": {
+    "opposite": "obegriplig",
+    "description": "Begriplig betyder lätt att förstå. Obegriplig betyder svår att förstå.",
+    "examples": [
+      "Förklaringen blev begriplig när läraren ritade en bild.",
+      "Texten var obegriplig för mig först men begriplig efter genomgången."
+    ],
+    "related": [
+      "obegriplig"
+    ]
+  },
+  "obegriplig": {
+    "opposite": "begriplig",
+    "description": "Begriplig betyder lätt att förstå. Obegriplig betyder svår att förstå.",
+    "examples": [
+      "Förklaringen blev begriplig när läraren ritade en bild.",
+      "Texten var obegriplig för mig först men begriplig efter genomgången."
+    ],
+    "related": [
+      "begriplig"
+    ]
+  },
+  "behaglig": {
+    "opposite": "obehaglig",
+    "description": "Behaglig betyder att något känns skönt. Obehaglig betyder att det känns otrevligt.",
+    "examples": [
+      "Det var behagligt varmt inne och obehagligt kallt ute.",
+      "Doften var behaglig, men ljudet var obehagligt."
+    ],
+    "related": [
+      "obehaglig"
+    ]
+  },
+  "obehaglig": {
+    "opposite": "behaglig",
+    "description": "Behaglig betyder att något känns skönt. Obehaglig betyder att det känns otrevligt.",
+    "examples": [
+      "Det var behagligt varmt inne och obehagligt kallt ute.",
+      "Doften var behaglig, men ljudet var obehagligt."
+    ],
+    "related": [
+      "behaglig"
+    ]
+  },
+  "jämn": {
+    "opposite": "ojämn",
+    "description": "Jämn betyder här slät eller utan stora skillnader. Ojämn betyder att ytan eller nivån varierar.",
+    "examples": [
+      "Vägen var jämn i början och ojämn längre fram.",
+      "Bordet stod stadigt på det jämna golvet men vickade på det ojämna."
+    ],
+    "related": [
+      "ojämn"
+    ]
+  },
+  "ojämn": {
+    "opposite": "jämn",
+    "description": "Jämn betyder här slät eller utan stora skillnader. Ojämn betyder att ytan eller nivån varierar.",
+    "examples": [
+      "Vägen var jämn i början och ojämn längre fram.",
+      "Bordet stod stadigt på det jämna golvet men vickade på det ojämna."
+    ],
+    "related": [
+      "jämn"
+    ]
+  },
+  "oviktig": {
+    "opposite": "viktig",
+    "description": "Viktig betyder att något spelar stor roll. Oviktig betyder att det inte spelar stor roll.",
+    "examples": [
+      "Det är viktigt att komma i tid, men färgen på pennan är oviktig.",
+      "Hon lade de viktiga pappren överst och de oviktiga underst."
+    ],
+    "related": [
+      "viktig"
+    ]
+  },
+  "viktig": {
+    "opposite": "oviktig",
+    "description": "Viktig betyder att något spelar stor roll. Oviktig betyder att det inte spelar stor roll.",
+    "examples": [
+      "Det är viktigt att komma i tid, men färgen på pennan är oviktig.",
+      "Hon lade de viktiga pappren överst och de oviktiga underst."
+    ],
+    "related": [
+      "oviktig"
+    ]
+  },
+  "möjlig": {
+    "opposite": "omöjlig",
+    "description": "Möjlig betyder att något går att göra. Omöjlig betyder att det inte går.",
+    "examples": [
+      "Det är möjligt att gå till skolan, men omöjligt att gå genom den stängda dörren.",
+      "Uppgiften såg omöjlig ut först men blev möjlig med hjälp."
+    ],
+    "related": [
+      "omöjlig"
+    ]
+  },
+  "omöjlig": {
+    "opposite": "möjlig",
+    "description": "Möjlig betyder att något går att göra. Omöjlig betyder att det inte går.",
+    "examples": [
+      "Det är möjligt att gå till skolan, men omöjligt att gå genom den stängda dörren.",
+      "Uppgiften såg omöjlig ut först men blev möjlig med hjälp."
+    ],
+    "related": [
+      "möjlig"
+    ]
+  },
+  "opålitlig": {
+    "opposite": "pålitlig",
+    "description": "Pålitlig betyder att man kan lita på någon eller något. Opålitlig betyder att man inte kan det.",
+    "examples": [
+      "Den gamla klockan var opålitlig och gick ofta fel.",
+      "Vi valde en pålitlig cykel i stället för en opålitlig."
+    ],
+    "related": [
+      "pålitlig"
+    ]
+  },
+  "pålitlig": {
+    "opposite": "opålitlig",
+    "description": "Pålitlig betyder att man kan lita på någon eller något. Opålitlig betyder att man inte kan det.",
+    "examples": [
+      "Den gamla klockan var opålitlig och gick ofta fel.",
+      "Vi valde en pålitlig cykel i stället för en opålitlig."
+    ],
+    "related": [
+      "opålitlig"
+    ]
+  },
+  "oärlig": {
+    "opposite": "ärlig",
+    "description": "Ärlig betyder att säga sanningen. Oärlig betyder att inte göra det.",
+    "examples": [
+      "Hon var ärlig och berättade vad som hänt.",
+      "Det var oärligt att dölja felet, så han valde att vara ärlig."
+    ],
+    "related": [
+      "ärlig"
+    ]
+  },
+  "ärlig": {
+    "opposite": "oärlig",
+    "description": "Ärlig betyder att säga sanningen. Oärlig betyder att inte göra det.",
+    "examples": [
+      "Hon var ärlig och berättade vad som hänt.",
+      "Det var oärligt att dölja felet, så han valde att vara ärlig."
+    ],
+    "related": [
+      "oärlig"
+    ]
+  },
+  "ofullständig": {
+    "opposite": "fullständig",
+    "description": "Fullständig betyder att alla delar finns med. Ofullständig betyder att något saknas.",
+    "examples": [
+      "Listan var ofullständig tills vi lade till det sista namnet.",
+      "En fullständig adress har gatunamn och nummer; en ofullständig adress kan sakna numret."
+    ],
+    "related": [
+      "fullständig"
+    ]
+  },
+  "fullständig": {
+    "opposite": "ofullständig",
+    "description": "Fullständig betyder att alla delar finns med. Ofullständig betyder att något saknas.",
+    "examples": [
+      "Listan var ofullständig tills vi lade till det sista namnet.",
+      "En fullständig adress har gatunamn och nummer; en ofullständig adress kan sakna numret."
+    ],
+    "related": [
+      "ofullständig"
+    ]
+  },
+  "farlig": {
+    "opposite": "ofarlig",
+    "description": "Farlig betyder att något kan skada. Ofarlig betyder att det inte väntas skada.",
+    "examples": [
+      "Det är farligt att röra en het spis, men ofarligt att röra en kall tallrik.",
+      "Ett vasst glas kan vara farligt, men en mjuk kudde är ofarlig."
+    ],
+    "related": [
+      "ofarlig"
+    ]
+  },
+  "ofarlig": {
+    "opposite": "farlig",
+    "description": "Farlig betyder att något kan skada. Ofarlig betyder att det inte väntas skada.",
+    "examples": [
+      "Det är farligt att röra en het spis, men ofarligt att röra en kall tallrik.",
+      "Ett vasst glas kan vara farligt, men en mjuk kudde är ofarlig."
+    ],
+    "related": [
+      "farlig"
+    ]
+  },
+  "osannolik": {
+    "opposite": "sannolik",
+    "description": "Sannolik betyder att något troligen händer. Osannolik betyder att det troligen inte händer.",
+    "examples": [
+      "Det är sannolikt att det regnar när himlen är mörk.",
+      "Det är osannolikt att vi hinner om tåget redan har gått."
+    ],
+    "related": [
+      "sannolik"
+    ]
+  },
+  "sannolik": {
+    "opposite": "osannolik",
+    "description": "Sannolik betyder att något troligen händer. Osannolik betyder att det troligen inte händer.",
+    "examples": [
+      "Det är sannolikt att det regnar när himlen är mörk.",
+      "Det är osannolikt att vi hinner om tåget redan har gått."
+    ],
+    "related": [
+      "osannolik"
+    ]
+  },
+  "färdig": {
+    "opposite": "ofärdig",
+    "description": "Färdig betyder att något är klart. Ofärdig betyder att det ännu inte är klart.",
+    "examples": [
+      "Maten var ofärdig när gästerna kom men färdig en stund senare.",
+      "Hon visade den färdiga teckningen och sparade den ofärdiga."
+    ],
+    "related": [
+      "ofärdig"
+    ]
+  },
+  "ofärdig": {
+    "opposite": "färdig",
+    "description": "Färdig betyder att något är klart. Ofärdig betyder att det ännu inte är klart.",
+    "examples": [
+      "Maten var ofärdig när gästerna kom men färdig en stund senare.",
+      "Hon visade den färdiga teckningen och sparade den ofärdiga."
+    ],
+    "related": [
+      "färdig"
+    ]
+  },
+  "orättvis": {
+    "opposite": "rättvis",
+    "description": "Rättvis betyder att behandla människor på ett rimligt och lika sätt. Orättvis betyder att inte göra det.",
+    "examples": [
+      "Det var rättvist att alla fick samma chans.",
+      "Hon tyckte att regeln var orättvis eftersom bara några fick vara med."
+    ],
+    "related": [
+      "rättvis"
+    ]
+  },
+  "rättvis": {
+    "opposite": "orättvis",
+    "description": "Rättvis betyder att behandla människor på ett rimligt och lika sätt. Orättvis betyder att inte göra det.",
+    "examples": [
+      "Det var rättvist att alla fick samma chans.",
+      "Hon tyckte att regeln var orättvis eftersom bara några fick vara med."
+    ],
+    "related": [
+      "orättvis"
+    ]
+  },
+  "oskyldig": {
+    "opposite": "skyldig",
+    "description": "Skyldig betyder här att ha gjort det som någon anklagas för. Oskyldig betyder att inte ha gjort det.",
+    "examples": [
+      "Hon var oskyldig och hade inte tagit boken.",
+      "Den skyldige erkände, och den oskyldige fick en ursäkt."
+    ],
+    "related": [
+      "skyldig"
+    ]
+  },
+  "skyldig": {
+    "opposite": "oskyldig",
+    "description": "Skyldig betyder här att ha gjort det som någon anklagas för. Oskyldig betyder att inte ha gjort det.",
+    "examples": [
+      "Hon var oskyldig och hade inte tagit boken.",
+      "Den skyldige erkände, och den oskyldige fick en ursäkt."
+    ],
+    "related": [
+      "oskyldig"
+    ]
+  },
+  "ovänlig": {
+    "opposite": "vänlig",
+    "description": "Vänlig betyder att vara trevlig mot andra. Ovänlig betyder att vara otrevlig.",
+    "examples": [
+      "Hon hälsade vänligt på den nya eleven.",
+      "Hans ovänliga svar gjorde henne ledsen, så han försökte svara vänligt nästa gång."
+    ],
+    "related": [
+      "vänlig"
+    ]
+  },
+  "vänlig": {
+    "opposite": "ovänlig",
+    "description": "Vänlig betyder att vara trevlig mot andra. Ovänlig betyder att vara otrevlig.",
+    "examples": [
+      "Hon hälsade vänligt på den nya eleven.",
+      "Hans ovänliga svar gjorde henne ledsen, så han försökte svara vänligt nästa gång."
+    ],
+    "related": [
+      "ovänlig"
+    ]
+  },
+  "osynlig": {
+    "opposite": "synlig",
+    "description": "Synlig betyder att något går att se. Osynlig betyder att det inte går att se.",
+    "examples": [
+      "Månen var synlig i går men osynlig bakom molnen i dag.",
+      "Bläcket blev osynligt när det torkade."
+    ],
+    "related": [
+      "synlig"
+    ]
+  },
+  "synlig": {
+    "opposite": "osynlig",
+    "description": "Synlig betyder att något går att se. Osynlig betyder att det inte går att se.",
+    "examples": [
+      "Månen var synlig i går men osynlig bakom molnen i dag.",
+      "Bläcket blev osynligt när det torkade."
+    ],
+    "related": [
+      "osynlig"
+    ]
+  },
+  "tacksam": {
+    "opposite": "otacksam",
+    "description": "Tacksam betyder att uppskatta hjälp eller en gåva. Otacksam betyder att inte visa uppskattning.",
+    "examples": [
+      "Hon var tacksam för hjälpen och tackade direkt.",
+      "Hans otacksamma svar gjorde vännen ledsen, så han bad om ursäkt."
+    ],
+    "related": [
+      "otacksam"
+    ]
+  },
+  "otacksam": {
+    "opposite": "tacksam",
+    "description": "Tacksam betyder att uppskatta hjälp eller en gåva. Otacksam betyder att inte visa uppskattning.",
+    "examples": [
+      "Hon var tacksam för hjälpen och tackade direkt.",
+      "Hans otacksamma svar gjorde vännen ledsen, så han bad om ursäkt."
+    ],
+    "related": [
+      "tacksam"
+    ]
+  },
+  "sams": {
+    "opposite": "osams",
+    "description": "Sams betyder att man kommer överens. Osams betyder att man har bråkat eller inte kommer överens.",
+    "examples": [
+      "Barnen var osams om leksaken men blev sams igen.",
+      "Vi var sams i går och är fortfarande sams i dag."
+    ],
+    "related": [
+      "osams"
+    ]
+  },
+  "osams": {
+    "opposite": "sams",
+    "description": "Sams betyder att man kommer överens. Osams betyder att man har bråkat eller inte kommer överens.",
+    "examples": [
+      "Barnen var osams om leksaken men blev sams igen.",
+      "Vi var sams i går och är fortfarande sams i dag."
+    ],
+    "related": [
+      "sams"
+    ]
+  },
+  "uppmärksam": {
+    "opposite": "ouppmärksam",
+    "description": "Uppmärksam betyder att man märker vad som händer. Ouppmärksam betyder att man missar det.",
+    "examples": [
+      "Den uppmärksamma eleven hörde frågan direkt.",
+      "Jag var ouppmärksam och missade när bussen kom."
+    ],
+    "related": [
+      "ouppmärksam"
+    ]
+  },
+  "ouppmärksam": {
+    "opposite": "uppmärksam",
+    "description": "Uppmärksam betyder att man märker vad som händer. Ouppmärksam betyder att man missar det.",
+    "examples": [
+      "Den uppmärksamma eleven hörde frågan direkt.",
+      "Jag var ouppmärksam och missade när bussen kom."
+    ],
+    "related": [
+      "uppmärksam"
+    ]
+  },
+  "skicklig": {
+    "opposite": "oskicklig",
+    "description": "Skicklig betyder att någon är bra på något. Oskicklig betyder att någon saknar den förmågan.",
+    "examples": [
+      "Hon är skicklig på att laga cyklar.",
+      "Jag var oskicklig i början men blev skickligare med övning."
+    ],
+    "related": [
+      "oskicklig"
+    ]
+  },
+  "oskicklig": {
+    "opposite": "skicklig",
+    "description": "Skicklig betyder att någon är bra på något. Oskicklig betyder att någon saknar den förmågan.",
+    "examples": [
+      "Hon är skicklig på att laga cyklar.",
+      "Jag var oskicklig i början men blev skickligare med övning."
+    ],
+    "related": [
+      "skicklig"
+    ]
+  },
+  "gilla": {
+    "opposite": "ogilla",
+    "description": "Gilla betyder att tycka om något. Ogilla betyder att inte tycka om det.",
+    "examples": [
+      "Jag gillar te men ogillar kaffe.",
+      "Hon ogillade filmen, men hennes vän gillade den."
+    ],
+    "related": [
+      "ogilla"
+    ]
+  },
+  "ogilla": {
+    "opposite": "gilla",
+    "description": "Gilla betyder att tycka om något. Ogilla betyder att inte tycka om det.",
+    "examples": [
+      "Jag gillar te men ogillar kaffe.",
+      "Hon ogillade filmen, men hennes vän gillade den."
+    ],
+    "related": [
+      "gilla"
+    ]
+  },
+  "laglig": {
+    "opposite": "olaglig",
+    "description": "Laglig betyder att något är tillåtet enligt lagen. Olaglig betyder att det bryter mot lagen.",
+    "examples": [
+      "En laglig handling följer lagen; en olaglig gör inte det.",
+      "Domaren avgjorde om handlingen var laglig eller olaglig."
+    ],
+    "related": [
+      "olaglig"
+    ]
+  },
+  "olaglig": {
+    "opposite": "laglig",
+    "description": "Laglig betyder att något är tillåtet enligt lagen. Olaglig betyder att det bryter mot lagen.",
+    "examples": [
+      "En laglig handling följer lagen; en olaglig gör inte det.",
+      "Domaren avgjorde om handlingen var laglig eller olaglig."
+    ],
+    "related": [
+      "laglig"
+    ]
+  },
+  "moralisk": {
+    "opposite": "omoralisk",
+    "description": "Moralisk betyder här att något anses rätt. Omoralisk betyder att det anses fel.",
+    "examples": [
+      "Hon tyckte att det var moraliskt att hjälpa grannen.",
+      "Det vore omoraliskt att lura någon som litar på dig."
+    ],
+    "related": [
+      "omoralisk"
+    ]
+  },
+  "omoralisk": {
+    "opposite": "moralisk",
+    "description": "Moralisk betyder här att något anses rätt. Omoralisk betyder att det anses fel.",
+    "examples": [
+      "Hon tyckte att det var moraliskt att hjälpa grannen.",
+      "Det vore omoraliskt att lura någon som litar på dig."
+    ],
+    "related": [
+      "moralisk"
+    ]
+  },
+  "förutsägbar": {
+    "opposite": "oförutsägbar",
+    "description": "Förutsägbar betyder att det är lätt att gissa vad som händer. Oförutsägbar betyder att det är svårt.",
+    "examples": [
+      "Filmens slut var förutsägbart; vi gissade det tidigt.",
+      "Vädret var oförutsägbart och ändrades flera gånger."
+    ],
+    "related": [
+      "oförutsägbar"
+    ]
+  },
+  "oförutsägbar": {
+    "opposite": "förutsägbar",
+    "description": "Förutsägbar betyder att det är lätt att gissa vad som händer. Oförutsägbar betyder att det är svårt.",
+    "examples": [
+      "Filmens slut var förutsägbart; vi gissade det tidigt.",
+      "Vädret var oförutsägbart och ändrades flera gånger."
+    ],
+    "related": [
+      "förutsägbar"
+    ]
+  },
+  "tillräcklig": {
+    "opposite": "otillräcklig",
+    "description": "Tillräcklig betyder att något räcker. Otillräcklig betyder att det inte räcker.",
+    "examples": [
+      "En liter vatten var tillräckligt för maten.",
+      "Tiden var otillräcklig, så vi hann inte bli klara."
+    ],
+    "related": [
+      "otillräcklig"
+    ]
+  },
+  "otillräcklig": {
+    "opposite": "tillräcklig",
+    "description": "Tillräcklig betyder att något räcker. Otillräcklig betyder att det inte räcker.",
+    "examples": [
+      "En liter vatten var tillräckligt för maten.",
+      "Tiden var otillräcklig, så vi hann inte bli klara."
+    ],
+    "related": [
+      "tillräcklig"
+    ]
+  },
+  "sårbar": {
+    "opposite": "osårbar",
+    "description": "Sårbar betyder att någon eller något lätt kan skadas. Osårbar betyder att det inte kan skadas.",
+    "examples": [
+      "Den lilla plantan är sårbar i kylan.",
+      "Hjälten i sagan var osårbar och kunde inte skadas."
+    ],
+    "related": [
+      "osårbar"
+    ]
+  },
+  "osårbar": {
+    "opposite": "sårbar",
+    "description": "Sårbar betyder att någon eller något lätt kan skadas. Osårbar betyder att det inte kan skadas.",
+    "examples": [
+      "Den lilla plantan är sårbar i kylan.",
+      "Hjälten i sagan var osårbar och kunde inte skadas."
+    ],
+    "related": [
+      "sårbar"
+    ]
+  },
+  "användbar": {
+    "opposite": "oanvändbar",
+    "description": "Användbar betyder att något går att använda. Oanvändbar betyder att det inte gör det.",
+    "examples": [
+      "Den hela stolen är användbar, men den trasiga är oanvändbar.",
+      "Kartans gamla uppgifter gjorde den oanvändbar."
+    ],
+    "related": [
+      "oanvändbar"
+    ]
+  },
+  "oanvändbar": {
+    "opposite": "användbar",
+    "description": "Användbar betyder att något går att använda. Oanvändbar betyder att det inte gör det.",
+    "examples": [
+      "Den hela stolen är användbar, men den trasiga är oanvändbar.",
+      "Kartans gamla uppgifter gjorde den oanvändbar."
+    ],
+    "related": [
+      "användbar"
+    ]
+  },
+  "giltig": {
+    "opposite": "ogiltig",
+    "description": "Giltig betyder att något fortfarande gäller. Ogiltig betyder att det inte gäller.",
+    "examples": [
+      "Biljetten är giltig i dag men ogiltig i morgon.",
+      "Mitt gamla kort var ogiltigt, så jag använde det nya giltiga kortet."
+    ],
+    "related": [
+      "ogiltig"
+    ]
+  },
+  "ogiltig": {
+    "opposite": "giltig",
+    "description": "Giltig betyder att något fortfarande gäller. Ogiltig betyder att det inte gäller.",
+    "examples": [
+      "Biljetten är giltig i dag men ogiltig i morgon.",
+      "Mitt gamla kort var ogiltigt, så jag använde det nya giltiga kortet."
+    ],
+    "related": [
+      "giltig"
+    ]
+  },
+  "intresserad": {
+    "opposite": "ointresserad",
+    "description": "Intresserad betyder att vilja veta mer. Ointresserad betyder att inte vilja det.",
+    "examples": [
+      "Hon var intresserad av boken och läste vidare.",
+      "Han var ointresserad av fotboll men intresserad av musik."
+    ],
+    "related": [
+      "ointresserad"
+    ]
+  },
+  "ointresserad": {
+    "opposite": "intresserad",
+    "description": "Intresserad betyder att vilja veta mer. Ointresserad betyder att inte vilja det.",
+    "examples": [
+      "Hon var intresserad av boken och läste vidare.",
+      "Han var ointresserad av fotboll men intresserad av musik."
+    ],
+    "related": [
+      "intresserad"
+    ]
+  },
+  "symmetrisk": {
+    "opposite": "osymmetrisk",
+    "description": "Symmetrisk betyder att två sidor har samma form. Osymmetrisk betyder att de skiljer sig åt.",
+    "examples": [
+      "Fjärilens vingar ser symmetriska ut.",
+      "Teckningen var osymmetrisk eftersom ena sidan var större."
+    ],
+    "related": [
+      "osymmetrisk"
+    ]
+  },
+  "osymmetrisk": {
+    "opposite": "symmetrisk",
+    "description": "Symmetrisk betyder att två sidor har samma form. Osymmetrisk betyder att de skiljer sig åt.",
+    "examples": [
+      "Fjärilens vingar ser symmetriska ut.",
+      "Teckningen var osymmetrisk eftersom ena sidan var större."
+    ],
+    "related": [
+      "symmetrisk"
+    ]
+  },
+  "artig": {
+    "opposite": "oartig",
+    "description": "Artig betyder att visa hänsyn och gott uppförande. Oartig betyder att inte göra det.",
+    "examples": [
+      "Det är artigt att säga tack.",
+      "Han var oartig när han avbröt henne, men bad sedan artigt om ursäkt."
+    ],
+    "related": [
+      "oartig"
+    ]
+  },
+  "oartig": {
+    "opposite": "artig",
+    "description": "Artig betyder att visa hänsyn och gott uppförande. Oartig betyder att inte göra det.",
+    "examples": [
+      "Det är artigt att säga tack.",
+      "Han var oartig när han avbröt henne, men bad sedan artigt om ursäkt."
+    ],
+    "related": [
+      "artig"
+    ]
+  },
+  "saltad": {
+    "opposite": "osaltad",
+    "description": "Saltad betyder att salt har tillsatts. Osaltad betyder att inget salt har tillsatts.",
+    "examples": [
+      "Jag valde osaltat smör i stället för saltat.",
+      "Nötterna i den blå påsen är saltade och de andra är osaltade."
+    ],
+    "related": [
+      "osaltad"
+    ]
+  },
+  "osaltad": {
+    "opposite": "saltad",
+    "description": "Saltad betyder att salt har tillsatts. Osaltad betyder att inget salt har tillsatts.",
+    "examples": [
+      "Jag valde osaltat smör i stället för saltat.",
+      "Nötterna i den blå påsen är saltade och de andra är osaltade."
+    ],
+    "related": [
+      "saltad"
+    ]
+  },
+  "översatt": {
+    "opposite": "oöversatt",
+    "description": "Översatt betyder att texten finns på ett annat språk. Oöversatt betyder att den fortfarande är på originalspråket.",
+    "examples": [
+      "Boken var översatt till svenska, men brevet var oöversatt.",
+      "Den översatta texten var lätt att läsa; den oöversatta var svårare."
+    ],
+    "related": [
+      "oöversatt"
+    ]
+  },
+  "oöversatt": {
+    "opposite": "översatt",
+    "description": "Översatt betyder att texten finns på ett annat språk. Oöversatt betyder att den fortfarande är på originalspråket.",
+    "examples": [
+      "Boken var översatt till svenska, men brevet var oöversatt.",
+      "Den översatta texten var lätt att läsa; den oöversatta var svårare."
+    ],
+    "related": [
+      "översatt"
+    ]
+  },
+  "gynnsam": {
+    "opposite": "ogynnsam",
+    "description": "Gynnsam betyder att något hjälper ett resultat. Ogynnsam betyder att det gör resultatet svårare.",
+    "examples": [
+      "Vädret var gynnsamt för sådden på våren.",
+      "Den långa torkan gav växterna ogynnsamma villkor."
+    ],
+    "related": [
+      "ogynnsam"
+    ]
+  },
+  "ogynnsam": {
+    "opposite": "gynnsam",
+    "description": "Gynnsam betyder att något hjälper ett resultat. Ogynnsam betyder att det gör resultatet svårare.",
+    "examples": [
+      "Vädret var gynnsamt för sådden på våren.",
+      "Den långa torkan gav växterna ogynnsamma villkor."
+    ],
+    "related": [
+      "gynnsam"
+    ]
+  },
+  "konsekvent": {
+    "opposite": "inkonsekvent",
+    "description": "Konsekvent betyder att göra på samma sätt varje gång. Inkonsekvent betyder att man ändrar sig utan tydlig anledning.",
+    "examples": [
+      "Hon var konsekvent och följde samma regel varje dag.",
+      "Regeln blev inkonsekvent när den bara gällde vissa elever."
+    ],
+    "related": [
+      "inkonsekvent"
+    ]
+  },
+  "inkonsekvent": {
+    "opposite": "konsekvent",
+    "description": "Konsekvent betyder att göra på samma sätt varje gång. Inkonsekvent betyder att man ändrar sig utan tydlig anledning.",
+    "examples": [
+      "Hon var konsekvent och följde samma regel varje dag.",
+      "Regeln blev inkonsekvent när den bara gällde vissa elever."
+    ],
+    "related": [
+      "konsekvent"
+    ]
+  },
+  "åtkomlig": {
+    "opposite": "oåtkomlig",
+    "description": "Åtkomlig betyder att man kan nå något. Oåtkomlig betyder att man inte kan nå det.",
+    "examples": [
+      "Boken på den låga hyllan är åtkomlig för barnet.",
+      "Boken högst upp är oåtkomlig utan en stege."
+    ],
+    "related": [
+      "oåtkomlig"
+    ]
+  },
+  "oåtkomlig": {
+    "opposite": "åtkomlig",
+    "description": "Åtkomlig betyder att man kan nå något. Oåtkomlig betyder att man inte kan nå det.",
+    "examples": [
+      "Boken på den låga hyllan är åtkomlig för barnet.",
+      "Boken högst upp är oåtkomlig utan en stege."
+    ],
+    "related": [
+      "åtkomlig"
+    ]
+  },
+  "behörig": {
+    "opposite": "obehörig",
+    "description": "Behörig betyder att man har rätt till något, till exempel att gå in. Obehörig betyder att man saknar den rätten.",
+    "examples": [
+      "Bara behörig personal får gå in i rummet.",
+      "En obehörig person försökte öppna dörren men kom inte in."
+    ],
+    "related": [
+      "obehörig"
+    ]
+  },
+  "obehörig": {
+    "opposite": "behörig",
+    "description": "Behörig betyder att man har rätt till något, till exempel att gå in. Obehörig betyder att man saknar den rätten.",
+    "examples": [
+      "Bara behörig personal får gå in i rummet.",
+      "En obehörig person försökte öppna dörren men kom inte in."
+    ],
+    "related": [
+      "behörig"
+    ]
+  },
+  "avsiktlig": {
+    "opposite": "oavsiktlig",
+    "description": "Avsiktlig betyder att något görs med mening. Oavsiktlig betyder att det sker utan mening.",
+    "examples": [
+      "Hon välte glaset av misstag; det var oavsiktligt.",
+      "Han knackade avsiktligt på dörren för att väcka sin vän."
+    ],
+    "related": [
+      "oavsiktlig"
+    ]
+  },
+  "oavsiktlig": {
+    "opposite": "avsiktlig",
+    "description": "Avsiktlig betyder att något görs med mening. Oavsiktlig betyder att det sker utan mening.",
+    "examples": [
+      "Hon välte glaset av misstag; det var oavsiktligt.",
+      "Han knackade avsiktligt på dörren för att väcka sin vän."
+    ],
+    "related": [
+      "avsiktlig"
+    ]
+  },
+  "tillåten": {
+    "opposite": "otillåten",
+    "description": "Tillåten betyder att något är tillåtet. Otillåten betyder att det inte är tillåtet.",
+    "examples": [
+      "På vår gård är cykling tillåten på vägen men otillåten på gångbanan.",
+      "Det var tillåtet att ta bilder, men otillåtet att använda blixt."
+    ],
+    "related": [
+      "otillåten"
+    ]
+  },
+  "otillåten": {
+    "opposite": "tillåten",
+    "description": "Tillåten betyder att något är tillåtet. Otillåten betyder att det inte är tillåtet.",
+    "examples": [
+      "På vår gård är cykling tillåten på vägen men otillåten på gångbanan.",
+      "Det var tillåtet att ta bilder, men otillåtet att använda blixt."
+    ],
+    "related": [
+      "tillåten"
+    ]
+  },
+  "beväpnad": {
+    "opposite": "obeväpnad",
+    "description": "Beväpnad betyder att någon bär ett vapen. Obeväpnad betyder att personen inte gör det.",
+    "examples": [
+      "Vakten i filmen var beväpnad, men besökaren var obeväpnad.",
+      "I sagan var riddaren beväpnad, men bybon var obeväpnad."
+    ],
+    "related": [
+      "obeväpnad"
+    ]
+  },
+  "obeväpnad": {
+    "opposite": "beväpnad",
+    "description": "Beväpnad betyder att någon bär ett vapen. Obeväpnad betyder att personen inte gör det.",
+    "examples": [
+      "Vakten i filmen var beväpnad, men besökaren var obeväpnad.",
+      "I sagan var riddaren beväpnad, men bybon var obeväpnad."
+    ],
+    "related": [
+      "beväpnad"
+    ]
+  },
+  "dödlig": {
+    "opposite": "odödlig",
+    "description": "Dödlig betyder att kunna dö. Odödlig betyder att aldrig dö, som i en saga.",
+    "examples": [
+      "Människor är dödliga, men gudarna i sagan är odödliga.",
+      "I berättelsen var hjälten odödlig, medan hans vän var dödlig."
+    ],
+    "related": [
+      "odödlig"
+    ]
+  },
+  "odödlig": {
+    "opposite": "dödlig",
+    "description": "Dödlig betyder att kunna dö. Odödlig betyder att aldrig dö, som i en saga.",
+    "examples": [
+      "Människor är dödliga, men gudarna i sagan är odödliga.",
+      "I berättelsen var hjälten odödlig, medan hans vän var dödlig."
+    ],
+    "related": [
+      "dödlig"
+    ]
+  },
+  "sportslig": {
+    "opposite": "osportslig",
+    "description": "Sportslig betyder att spela rättvist och visa respekt. Osportslig betyder att göra tvärtom.",
+    "examples": [
+      "Hon var sportslig och gratulerade vinnaren.",
+      "Det var osportsligt att fuska under matchen."
+    ],
+    "related": [
+      "osportslig"
+    ]
+  },
+  "osportslig": {
+    "opposite": "sportslig",
+    "description": "Sportslig betyder att spela rättvist och visa respekt. Osportslig betyder att göra tvärtom.",
+    "examples": [
+      "Hon var sportslig och gratulerade vinnaren.",
+      "Det var osportsligt att fuska under matchen."
+    ],
+    "related": [
+      "sportslig"
+    ]
+  },
+  "somna": {
+    "opposite": "vakna",
+    "description": "Somna betyder att börja sova. Vakna betyder att sluta sova.",
+    "examples": [
+      "Jag somnade sent och vaknade tidigt.",
+      "Barnet vaknade när klockan ringde och somnade igen."
+    ],
+    "related": [
+      "vakna"
+    ]
+  },
+  "vakna": {
+    "opposite": "somna",
+    "description": "Somna betyder att börja sova. Vakna betyder att sluta sova.",
+    "examples": [
+      "Jag somnade sent och vaknade tidigt.",
+      "Barnet vaknade när klockan ringde och somnade igen."
+    ],
+    "related": [
+      "somna"
+    ]
+  },
+  "lögn": {
+    "opposite": "sanning",
+    "description": "En lögn är något man säger fast man vet att det inte stämmer. En sanning är något som stämmer.",
+    "examples": [
+      "Han berättade en lögn först men sade sanningen senare.",
+      "Det är bättre att säga sanningen än att hitta på en lögn."
+    ],
+    "related": [
+      "sanning"
+    ]
+  },
+  "sanning": {
+    "opposite": "lögn",
+    "description": "En lögn är något man säger fast man vet att det inte stämmer. En sanning är något som stämmer.",
+    "examples": [
+      "Han berättade en lögn först men sade sanningen senare.",
+      "Det är bättre att säga sanningen än att hitta på en lögn."
+    ],
+    "related": [
+      "lögn"
+    ]
+  },
+  "ja": {
+    "opposite": "nej",
+    "description": "Ja används för att säga att man håller med eller vill. Nej används för att säga att man inte vill eller inte håller med.",
+    "examples": [
+      "Hon svarade ja på frågan, men han svarade nej.",
+      "Jag sade nej först och ja när jag hade tänkt efter."
+    ],
+    "related": [
+      "nej"
+    ]
+  },
+  "nej": {
+    "opposite": "ja",
+    "description": "Ja används för att säga att man håller med eller vill. Nej används för att säga att man inte vill eller inte håller med.",
+    "examples": [
+      "Hon svarade ja på frågan, men han svarade nej.",
+      "Jag sade nej först och ja när jag hade tänkt efter."
+    ],
+    "related": [
+      "ja"
+    ]
+  },
+  "kort": {
+    "opposite": "lång",
+    "description": "Kort och lång kan beskriva hur lång något är.",
+    "examples": [
+      "Det korta repet räckte inte, så vi tog ett långt.",
+      "Vägen till skolan är kort, men vägen till havet är lång."
+    ],
+    "related": [
+      "lång"
+    ]
+  },
+  "lång": {
+    "opposite": "kort",
+    "description": "Kort och lång kan beskriva hur lång något är.",
+    "examples": [
+      "Det korta repet räckte inte, så vi tog ett långt.",
+      "Vägen till skolan är kort, men vägen till havet är lång."
+    ],
+    "related": [
+      "kort"
+    ]
+  },
+  "öppna": {
+    "opposite": "stänga",
+    "description": "Öppna betyder att göra så att man kan gå in eller se in. Stänga betyder att göra tvärtom.",
+    "examples": [
+      "Hon öppnade dörren när gästen kom och stängde den sedan.",
+      "Vi öppnar fönstret när det är varmt och stänger det när det är kallt."
+    ],
+    "related": [
+      "stänga"
+    ]
+  },
+  "stänga": {
+    "opposite": "öppna",
+    "description": "Öppna betyder att göra så att man kan gå in eller se in. Stänga betyder att göra tvärtom.",
+    "examples": [
+      "Hon öppnade dörren när gästen kom och stängde den sedan.",
+      "Vi öppnar fönstret när det är varmt och stänger det när det är kallt."
+    ],
+    "related": [
+      "öppna"
+    ]
+  },
+  "flyta": {
+    "opposite": "sjunka",
+    "description": "Flyta betyder att hålla sig uppe på vatten. Sjunka betyder att röra sig ner under ytan.",
+    "examples": [
+      "Träbiten flöt, men stenen sjönk.",
+      "Båten började sjunka när den fick ett hål; tidigare flöt den."
+    ],
+    "related": [
+      "sjunka"
+    ]
+  },
+  "sjunka": {
+    "opposite": "flyta",
+    "description": "Flyta betyder att hålla sig uppe på vatten. Sjunka betyder att röra sig ner under ytan.",
+    "examples": [
+      "Träbiten flöt, men stenen sjönk.",
+      "Båten började sjunka när den fick ett hål; tidigare flöt den."
+    ],
+    "related": [
+      "flyta"
+    ]
+  },
+  "sällsynt": {
+    "opposite": "vanlig",
+    "description": "Sällsynt betyder att något händer eller finns sällan. Vanlig betyder att det händer eller finns ofta.",
+    "examples": [
+      "Den här fågeln är sällsynt här, men sparvar är vanliga.",
+      "En sällsynt fågel sågs i skogen, medan kråkor var vanliga."
+    ],
+    "related": [
+      "vanlig"
+    ]
+  },
+  "vanlig": {
+    "opposite": "sällsynt",
+    "description": "Sällsynt betyder att något händer eller finns sällan. Vanlig betyder att det händer eller finns ofta.",
+    "examples": [
+      "Den här fågeln är sällsynt här, men sparvar är vanliga.",
+      "En sällsynt fågel sågs i skogen, medan kråkor var vanliga."
+    ],
+    "related": [
+      "sällsynt"
+    ]
+  },
+  "förbättra": {
+    "opposite": "försämra",
+    "description": "Förbättra betyder att göra något bättre. Försämra betyder att göra det sämre.",
+    "examples": [
+      "Vi förbättrade vägen genom att laga hålen.",
+      "Regnet försämrade sikten, men solen förbättrade den igen."
+    ],
+    "related": [
+      "försämra"
+    ]
+  },
+  "försämra": {
+    "opposite": "förbättra",
+    "description": "Förbättra betyder att göra något bättre. Försämra betyder att göra det sämre.",
+    "examples": [
+      "Vi förbättrade vägen genom att laga hålen.",
+      "Regnet försämrade sikten, men solen förbättrade den igen."
+    ],
+    "related": [
+      "förbättra"
+    ]
+  },
+  "tam": {
+    "opposite": "vild",
+    "description": "Tam betyder att ett djur är vant vid människor. Vild betyder att det lever fritt och inte är tamt.",
+    "examples": [
+      "Hunden är tam, men vargen är vild.",
+      "Katten hemma är tam; katten i sagan var vild."
+    ],
+    "related": [
+      "vild"
+    ]
+  },
+  "vild": {
+    "opposite": "tam",
+    "description": "Tam betyder att ett djur är vant vid människor. Vild betyder att det lever fritt och inte är tamt.",
+    "examples": [
+      "Hunden är tam, men vargen är vild.",
+      "Katten hemma är tam; katten i sagan var vild."
+    ],
+    "related": [
+      "tam"
+    ]
+  },
+  "fördel": {
+    "opposite": "nackdel",
+    "description": "En fördel är något bra med ett val. En nackdel är något dåligt med det.",
+    "examples": [
+      "En fördel med tåget är att man kan vila. En nackdel är att det kan vara sent.",
+      "Vi skrev upp både fördelar och nackdelar innan vi valde."
+    ],
+    "related": [
+      "nackdel"
+    ]
+  },
+  "nackdel": {
+    "opposite": "fördel",
+    "description": "En fördel är något bra med ett val. En nackdel är något dåligt med det.",
+    "examples": [
+      "En fördel med tåget är att man kan vila. En nackdel är att det kan vara sent.",
+      "Vi skrev upp både fördelar och nackdelar innan vi valde."
+    ],
+    "related": [
+      "fördel"
+    ]
+  },
+  "inkomst": {
+    "opposite": "utgift",
+    "description": "En inkomst är pengar som kommer in. En utgift är pengar som betalas ut.",
+    "examples": [
+      "Lönen är en inkomst och hyran är en utgift.",
+      "Vi skrev upp varje inkomst och utgift för månaden."
+    ],
+    "related": [
+      "utgift"
+    ]
+  },
+  "utgift": {
+    "opposite": "inkomst",
+    "description": "En inkomst är pengar som kommer in. En utgift är pengar som betalas ut.",
+    "examples": [
+      "Lönen är en inkomst och hyran är en utgift.",
+      "Vi skrev upp varje inkomst och utgift för månaden."
+    ],
+    "related": [
+      "inkomst"
+    ]
+  },
+  "optimist": {
+    "opposite": "pessimist",
+    "description": "En optimist tror ofta att det går bra. En pessimist tror oftare att det går dåligt.",
+    "examples": [
+      "Optimisten trodde att solen skulle komma, men pessimisten väntade regn.",
+      "Hon var optimist inför resan, medan han var pessimist."
+    ],
+    "related": [
+      "pessimist"
+    ]
+  },
+  "pessimist": {
+    "opposite": "optimist",
+    "description": "En optimist tror ofta att det går bra. En pessimist tror oftare att det går dåligt.",
+    "examples": [
+      "Optimisten trodde att solen skulle komma, men pessimisten väntade regn.",
+      "Hon var optimist inför resan, medan han var pessimist."
+    ],
+    "related": [
+      "optimist"
+    ]
+  },
+  "ofta": {
+    "opposite": "sällan",
+    "description": "Ofta betyder många gånger. Sällan betyder få gånger.",
+    "examples": [
+      "Jag går ofta till biblioteket men sällan till museet.",
+      "Hon lagar ofta mat hemma och äter sällan ute."
+    ],
+    "related": [
+      "sällan"
+    ]
+  },
+  "sällan": {
+    "opposite": "ofta",
+    "description": "Ofta betyder många gånger. Sällan betyder få gånger.",
+    "examples": [
+      "Jag går ofta till biblioteket men sällan till museet.",
+      "Hon lagar ofta mat hemma och äter sällan ute."
+    ],
+    "related": [
+      "ofta"
+    ]
+  },
+  "förenkla": {
+    "opposite": "försvåra",
+    "description": "Förenkla betyder att göra något lättare. Försvåra betyder att göra det svårare.",
+    "examples": [
+      "Den tydliga kartan förenklade resan.",
+      "Regnet försvårade promenaden, men bättre skor förenklade den."
+    ],
+    "related": [
+      "försvåra"
+    ]
+  },
+  "försvåra": {
+    "opposite": "förenkla",
+    "description": "Förenkla betyder att göra något lättare. Försvåra betyder att göra det svårare.",
+    "examples": [
+      "Den tydliga kartan förenklade resan.",
+      "Regnet försvårade promenaden, men bättre skor förenklade den."
+    ],
+    "related": [
+      "förenkla"
+    ]
+  },
+  "export": {
+    "opposite": "import",
+    "description": "Export betyder att sälja varor till andra länder. Import betyder att köpa varor från andra länder.",
+    "examples": [
+      "Sverige exporterar vissa varor och importerar andra.",
+      "Företagets export ökade när fler länder köpte dess varor."
+    ],
+    "related": [
+      "import"
+    ]
+  },
+  "import": {
+    "opposite": "export",
+    "description": "Export betyder att sälja varor till andra länder. Import betyder att köpa varor från andra länder.",
+    "examples": [
+      "Sverige exporterar vissa varor och importerar andra.",
+      "Företagets export ökade när fler länder köpte dess varor."
+    ],
+    "related": [
+      "export"
+    ]
+  },
+  "inomhus": {
+    "opposite": "utomhus",
+    "description": "Inomhus betyder inne i ett hus. Utomhus betyder ute.",
+    "examples": [
+      "Vi lekte utomhus när solen sken och inomhus när det regnade.",
+      "Mötet var inomhus, men lunchen åt vi utomhus."
+    ],
+    "related": [
+      "utomhus"
+    ]
+  },
+  "utomhus": {
+    "opposite": "inomhus",
+    "description": "Inomhus betyder inne i ett hus. Utomhus betyder ute.",
+    "examples": [
+      "Vi lekte utomhus när solen sken och inomhus när det regnade.",
+      "Mötet var inomhus, men lunchen åt vi utomhus."
+    ],
+    "related": [
+      "inomhus"
+    ]
+  },
+  "skriftlig": {
+    "opposite": "muntlig",
+    "description": "Skriftlig betyder med text. Muntlig betyder med tal.",
+    "examples": [
+      "Provet hade en skriftlig del och en muntlig del.",
+      "Jag fick ett muntligt svar först och ett skriftligt svar senare."
+    ],
+    "related": [
+      "muntlig"
+    ]
+  },
+  "muntlig": {
+    "opposite": "skriftlig",
+    "description": "Skriftlig betyder med text. Muntlig betyder med tal.",
+    "examples": [
+      "Provet hade en skriftlig del och en muntlig del.",
+      "Jag fick ett muntligt svar först och ett skriftligt svar senare."
+    ],
+    "related": [
+      "skriftlig"
+    ]
+  },
+  "plus": {
+    "opposite": "minus",
+    "description": "Plus används när man lägger till. Minus används när man tar bort.",
+    "examples": [
+      "Två plus tre blir fem, men fem minus tre blir två.",
+      "Hon skrev ett plustecken i stället för ett minustecken."
+    ],
+    "related": [
+      "minus"
+    ]
+  },
+  "minus": {
+    "opposite": "plus",
+    "description": "Plus används när man lägger till. Minus används när man tar bort.",
+    "examples": [
+      "Två plus tre blir fem, men fem minus tre blir två.",
+      "Hon skrev ett plustecken i stället för ett minustecken."
+    ],
+    "related": [
+      "plus"
+    ]
+  },
+  "före": {
+    "opposite": "efter",
+    "description": "Före betyder tidigare än något annat. Efter betyder senare än något annat.",
+    "examples": [
+      "Vi åt före filmen och tog en promenad efter den.",
+      "Hon kom före mig och gick efter mig."
+    ],
+    "related": [
+      "efter"
+    ]
+  },
+  "efter": {
+    "opposite": "före",
+    "description": "Före betyder tidigare än något annat. Efter betyder senare än något annat.",
+    "examples": [
+      "Vi åt före filmen och tog en promenad efter den.",
+      "Hon kom före mig och gick efter mig."
+    ],
+    "related": [
+      "före"
+    ]
+  },
+  "norr": {
+    "opposite": "söder",
+    "description": "Norr och söder är motsatta väderstreck.",
+    "examples": [
+      "Staden ligger norr om sjön, medan byn ligger söder om den.",
+      "Vi reste norrut på morgonen och söderut på kvällen."
+    ],
+    "related": [
+      "söder"
+    ]
+  },
+  "söder": {
+    "opposite": "norr",
+    "description": "Norr och söder är motsatta väderstreck.",
+    "examples": [
+      "Staden ligger norr om sjön, medan byn ligger söder om den.",
+      "Vi reste norrut på morgonen och söderut på kvällen."
+    ],
+    "related": [
+      "norr"
+    ]
+  },
+  "objektiv": {
+    "opposite": "subjektiv",
+    "description": "Objektiv betyder att försöka beskriva fakta utan egna åsikter. Subjektiv betyder att egna åsikter påverkar.",
+    "examples": [
+      "En mätning av temperaturen är objektiv.",
+      "En åsikt om vilken film som är bäst är subjektiv."
+    ],
+    "related": [
+      "subjektiv"
+    ]
+  },
+  "subjektiv": {
+    "opposite": "objektiv",
+    "description": "Objektiv betyder att försöka beskriva fakta utan egna åsikter. Subjektiv betyder att egna åsikter påverkar.",
+    "examples": [
+      "En mätning av temperaturen är objektiv.",
+      "En åsikt om vilken film som är bäst är subjektiv."
+    ],
+    "related": [
+      "objektiv"
+    ]
   }
 } as const;
