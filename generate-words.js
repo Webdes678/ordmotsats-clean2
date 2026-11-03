@@ -300,6 +300,241 @@ const curatedPairs = [
       "En vän hjälper dig, medan en fiende motarbetar dig."
     ]
   }
+,
+  {
+    "a": "rik",
+    "b": "fattig",
+    "description": "Rik och fattig beskriver motsatta grader av tillgångar.",
+    "examples": [
+      "Den rika familjen skänkte pengar till fattiga barn.",
+      "Han blev rik på idéer, även om han inte var rik på pengar."
+    ]
+  },
+  {
+    "a": "vacker",
+    "b": "ful",
+    "description": "Vacker och ful beskriver motsatta estetiska omdömen.",
+    "examples": [
+      "Den vackra byggnaden stod bredvid ett fult skjul.",
+      "Hon tyckte att tavlan var vacker, medan hennes bror tyckte att den var ful."
+    ]
+  },
+  {
+    "a": "modig",
+    "b": "rädd",
+    "description": "Modig och rädd beskriver olika sätt att möta fara eller osäkerhet.",
+    "examples": [
+      "Den modiga brandmannen gick in medan den rädda mannen väntade utanför.",
+      "Hon var modig nog att säga ifrån trots att hon var rädd."
+    ]
+  },
+  {
+    "a": "trygg",
+    "b": "otrygg",
+    "description": "Trygg och otrygg beskriver om någon känner säkerhet eller osäkerhet.",
+    "examples": [
+      "Barnet kände sig tryggt hemma men otryggt på den mörka vägen.",
+      "En trygg miljö kan hjälpa den som känner sig otrygg."
+    ]
+  },
+  {
+    "a": "smart",
+    "b": "dum",
+    "description": "Smart och dum används som motsatser när man beskriver klokhet eller omdöme.",
+    "examples": [
+      "Det var ett smart beslut att fråga, inte ett dumt misstag.",
+      "En smart lösning gjorde den dumma regeln onödig."
+    ]
+  },
+  {
+    "a": "mätt",
+    "b": "hungrig",
+    "description": "Mätt och hungrig beskriver om man har ätit tillräckligt eller behöver mat.",
+    "examples": [
+      "Efter lunchen var hon mätt, men före maten var hon hungrig.",
+      "Barnen gick från hungriga till mätta efter middagen."
+    ]
+  },
+  {
+    "a": "lugn",
+    "b": "stressad",
+    "description": "Lugn och stressad beskriver motsatta känslotillstånd.",
+    "examples": [
+      "Han var lugn före provet men blev stressad när tiden tog slut.",
+      "En promenad hjälper mig att känna mig lugn när jag är stressad."
+    ]
+  },
+  {
+    "a": "nära",
+    "b": "långt",
+    "description": "Nära och långt beskriver kort respektive stort avstånd.",
+    "examples": [
+      "Skolan ligger nära, men sjukhuset ligger långt bort.",
+      "Vi bor nära stationen och långt från flygplatsen."
+    ]
+  },
+  {
+    "a": "tjock",
+    "b": "tunn",
+    "description": "Tjock och tunn beskriver motsatta grader av bredd eller täthet.",
+    "examples": [
+      "Boken är tjock, medan häftet är tunt.",
+      "Hon tog på sig en tjock jacka över den tunna tröjan."
+    ]
+  },
+  {
+    "a": "höger",
+    "b": "vänster",
+    "description": "Höger och vänster anger motsatta sidor eller riktningar.",
+    "examples": [
+      "Sväng höger vid bron och sedan vänster vid torget.",
+      "Han skriver med höger hand men sparkar med vänster fot."
+    ]
+  },
+  {
+    "a": "upp",
+    "b": "ner",
+    "description": "Upp och ner anger motsatta riktningar.",
+    "examples": [
+      "Hissen åkte upp först och sedan ner igen.",
+      "Ballongen steg upp medan stenen föll ner."
+    ]
+  },
+  {
+    "a": "in",
+    "b": "ut",
+    "description": "In och ut anger motsatta riktningar över en gräns.",
+    "examples": [
+      "Katten gick in genom dörren och sedan ut i trädgården.",
+      "Ta in cykeln när det regnar och ställ ut den när solen skiner."
+    ]
+  },
+  {
+    "a": "dag",
+    "b": "natt",
+    "description": "Dag och natt är dygnets ljusa respektive mörka del.",
+    "examples": [
+      "På dagen arbetar hon och på natten sover hon.",
+      "Det är ljust på dagen och mörkt på natten."
+    ]
+  },
+  {
+    "a": "fred",
+    "b": "krig",
+    "description": "Fred och krig beskriver frånvaro respektive förekomst av väpnad konflikt.",
+    "examples": [
+      "Efter många år av krig hoppades människorna på fred.",
+      "Avtalet avslutade kriget och inledde en period av fred."
+    ]
+  },
+  {
+    "a": "liv",
+    "b": "död",
+    "description": "Liv och död beskriver att leva respektive att inte längre leva.",
+    "examples": [
+      "Berättelsen handlar om liv och död.",
+      "Läkaren kämpade för patientens liv och familjen sörjde efter dödsfallet."
+    ]
+  },
+  {
+    "a": "tillåta",
+    "b": "förbjuda",
+    "description": "Tillåta och förbjuda beskriver att ge respektive neka tillstånd.",
+    "examples": [
+      "Skolan tillåter cyklar på gården men förbjuder dem i korridoren.",
+      "Lagen tillåter vissa saker och förbjuder andra."
+    ]
+  },
+  {
+    "a": "spara",
+    "b": "slösa",
+    "description": "Spara och slösa beskriver att använda resurser varsamt respektive utan eftertanke.",
+    "examples": [
+      "Hon försökte spara pengar i stället för att slösa dem.",
+      "Vi sparar vatten när det är torrt och slösar inte med det."
+    ]
+  },
+  {
+    "a": "minnas",
+    "b": "glömma",
+    "description": "Minnas och glömma beskriver att komma ihåg respektive inte komma ihåg.",
+    "examples": [
+      "Jag minns mötet tydligt men har glömt vad vi åt.",
+      "Skriv ner adressen så att du inte ska glömma den."
+    ]
+  },
+  {
+    "a": "lyckas",
+    "b": "misslyckas",
+    "description": "Lyckas och misslyckas beskriver att nå respektive inte nå ett mål.",
+    "examples": [
+      "Hon lyckades med uppgiften efter att först ha misslyckats.",
+      "Man kan misslyckas en gång och lyckas nästa gång."
+    ]
+  },
+  {
+    "a": "bygga",
+    "b": "riva",
+    "description": "Bygga och riva beskriver att uppföra respektive ta bort en konstruktion.",
+    "examples": [
+      "De ska bygga en ny bro och riva den gamla.",
+      "Hantverkarna byggde väggen och rev den senare."
+    ]
+  },
+  {
+    "a": "aktiv",
+    "b": "passiv",
+    "description": "Aktiv och passiv beskriver att delta eller agera respektive att inte göra det.",
+    "examples": [
+      "Eleven var aktiv under diskussionen men passiv under föreläsningen.",
+      "En aktiv medlem hjälper till, medan en passiv medlem mest lyssnar."
+    ]
+  },
+  {
+    "a": "positiv",
+    "b": "negativ",
+    "description": "Positiv och negativ beskriver motsatta värderingar eller riktningar.",
+    "examples": [
+      "Hon var positiv till förslaget, medan han var negativ.",
+      "Testresultatet var negativt, men läkarens besked var positivt."
+    ]
+  },
+  {
+    "a": "närvarande",
+    "b": "frånvarande",
+    "description": "Närvarande och frånvarande beskriver att vara på plats respektive inte vara där.",
+    "examples": [
+      "De flesta elever var närvarande, men två var frånvarande.",
+      "Läraren noterade vilka som var närvarande och frånvarande."
+    ]
+  },
+  {
+    "a": "många",
+    "b": "få",
+    "description": "Många och få beskriver stor respektive liten mängd.",
+    "examples": [
+      "Många kom tidigt, men få stannade sent.",
+      "Det fanns många äpplen och få päron."
+    ]
+  },
+  {
+    "a": "mer",
+    "b": "mindre",
+    "description": "Mer och mindre beskriver större respektive mindre mängd eller grad.",
+    "examples": [
+      "Vill du ha mer kaffe eller mindre socker?",
+      "Hon tränar mer på sommaren och mindre på vintern."
+    ]
+  },
+  {
+    "a": "alltid",
+    "b": "aldrig",
+    "description": "Alltid och aldrig beskriver motsatta frekvenser.",
+    "examples": [
+      "Han kommer alltid i tid och kommer aldrig för sent.",
+      "Jag brukar alltid låsa dörren och aldrig lämna den öppen."
+    ]
+  }
 ];
 
 const words = {};
