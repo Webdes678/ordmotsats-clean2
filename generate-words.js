@@ -6,368 +6,367 @@ const curatedPairs = [
   {
     "a": "stor",
     "b": "liten",
-    "description": "Stor och liten beskriver motsatta storlekar.",
+    "description": "Stor och liten beskriver hur stort något är.",
     "examples": [
-      "Den stora resväskan stod bredvid den lilla väskan.",
+      "Huset är stort, men stugan är liten.",
       "Vi valde ett stort bord i stället för ett litet."
     ]
   },
   {
     "a": "snabb",
     "b": "långsam",
-    "description": "Snabb och långsam beskriver olika hastighet.",
+    "description": "Snabb och långsam beskriver hur fort något går.",
     "examples": [
-      "Den snabba cyklisten passerade den långsamma gruppen.",
-      "En snabb dator svarar fortare än en långsam dator."
+      "Haren är snabb, men snigeln är långsam.",
+      "Den snabba cyklisten körde förbi den långsamma cyklisten."
     ]
   },
   {
     "a": "varm",
     "b": "kall",
-    "description": "Varm och kall beskriver motsatta temperaturer.",
+    "description": "Varm och kall beskriver olika temperaturer.",
     "examples": [
-      "Teet är varmt, medan saften är kall.",
-      "En varm jacka hjälper under en kall vinterdag."
+      "Teet är varmt, men saften är kall.",
+      "På sommaren är luften ofta varm. På vintern är den ofta kall."
     ]
   },
   {
     "a": "glad",
     "b": "ledsen",
-    "description": "Glad och ledsen beskriver motsatta känslolägen.",
+    "description": "Glad och ledsen beskriver olika känslor.",
     "examples": [
-      "Maja blev glad över nyheten, men hennes vän blev ledsen.",
-      "Han kände sig glad efter samtalet och ledsen när det tog slut."
+      "Hon blev glad när hon vann och ledsen när hon förlorade.",
+      "Han var ledsen på morgonen men glad efter besöket."
     ]
   },
   {
     "a": "ljus",
     "b": "mörk",
-    "description": "Ljus och mörk beskriver motsatta grader av ljus eller färg.",
+    "description": "Ljus och mörk kan beskriva ett rum eller en färg.",
     "examples": [
       "Rummet är ljust på dagen och mörkt på natten.",
-      "En ljus färg syns tydligt mot en mörk bakgrund."
+      "Hon valde en ljus tröja och mörka byxor."
     ]
   },
   {
     "a": "hög",
     "b": "låg",
-    "description": "Hög och låg beskriver motsatta nivåer eller höjder.",
+    "description": "Hög och låg kan beskriva en höjd eller en nivå.",
     "examples": [
       "Det höga huset står bredvid ett lågt hus.",
-      "Musiken var för hög, så vi sänkte volymen till en låg nivå."
+      "Hyllan är för hög för mig. Jag behöver en lägre hylla."
     ]
   },
   {
     "a": "ung",
     "b": "gammal",
-    "description": "Ung och gammal beskriver motsatta åldrar.",
+    "description": "Ung och gammal beskriver olika åldrar. När gammal handlar om en sak kan motsatsen i stället vara ny.",
     "examples": [
-      "Den unga hunden lekte med den gamla hunden.",
-      "Hon är ung, medan hennes farfar är gammal."
+      "Den unga hunden leker med den gamla hunden.",
+      "Trädet vid huset är gammalt, men trädet vid grinden är ungt."
     ]
   },
   {
     "a": "full",
     "b": "tom",
-    "description": "Full och tom beskriver om något innehåller mycket eller ingenting.",
+    "description": "Full betyder här att det inte finns plats för mer. Tom betyder att inget finns i.",
     "examples": [
-      "Glaset är fullt, medan koppen är tom.",
-      "Den fulla bussen körde förbi en nästan tom hållplats."
+      "Glaset är fullt, men koppen är tom.",
+      "Lådan var tom innan vi fyllde den. Nu är den full."
     ]
   },
   {
     "a": "öppen",
     "b": "stängd",
-    "description": "Öppen och stängd beskriver motsatta lägen för exempelvis en dörr eller butik.",
+    "description": "Öppen och stängd kan beskriva en dörr eller en butik.",
     "examples": [
       "Butiken är öppen på dagen och stängd på natten.",
-      "Dörren stod öppen, men fönstret var stängt."
+      "Dörren är öppen, men fönstret är stängt."
     ]
   },
   {
     "a": "lätt",
     "b": "svår",
-    "description": "Lätt och svår beskriver hur enkel eller krävande en uppgift är.",
+    "description": "Här handlar lätt och svår om hur enkel en uppgift är. När lätt handlar om vikt är motsatsen tung.",
     "examples": [
       "Den första uppgiften var lätt, men nästa var svår.",
-      "Det är lätt att följa en tydlig instruktion; utan den blir uppgiften svår."
+      "Provet var svårt för mig men lätt för min kompis."
     ]
   },
   {
     "a": "enkel",
     "b": "komplicerad",
-    "description": "Enkel och komplicerad beskriver motsatta grader av komplexitet.",
+    "description": "Enkel betyder att något är lätt att förstå eller göra. Komplicerad betyder att något har många delar eller är svårt att förstå.",
     "examples": [
       "Regeln är enkel, men undantaget är komplicerat.",
-      "Hon gav en enkel förklaring av ett komplicerat problem."
+      "Den enkla planen var lätt att följa. Den komplicerade planen var svår att följa."
     ]
   },
   {
     "a": "ren",
     "b": "smutsig",
-    "description": "Ren och smutsig beskriver om något saknar eller har smuts.",
+    "description": "Ren betyder att något är utan smuts. Smutsig betyder att det finns smuts på något.",
     "examples": [
-      "Skjortan var ren innan den hamnade i den smutsiga tvättkorgen.",
-      "Han tvättade den smutsiga bilen tills den blev ren."
+      "Skjortan är ren, men byxorna är smutsiga.",
+      "Bilen var smutsig före tvätten och ren efteråt."
     ]
   },
   {
     "a": "stark",
     "b": "svag",
-    "description": "Stark och svag beskriver motsatta grader av kraft eller intensitet.",
+    "description": "Stark och svag kan beskriva kraft, vind eller smak.",
     "examples": [
-      "Kaffet är starkt, men teet är svagt.",
-      "Den starka vinden avtog till en svag bris."
+      "Den starka vinden blev svagare under kvällen.",
+      "Kaffet är starkt i dag. I går var det svagt."
     ]
   },
   {
     "a": "hård",
     "b": "mjuk",
-    "description": "Hård och mjuk beskriver motsatta grader av fasthet.",
+    "description": "Hård och mjuk beskriver hur något känns när man trycker på det.",
     "examples": [
       "Kudden är mjuk, men bänken är hård.",
-      "Brödet blev hårt när det torkade, medan nybakat bröd är mjukt."
+      "Brödet är mjukt när det är färskt och hårt när det har torkat."
     ]
   },
   {
     "a": "tidig",
     "b": "sen",
-    "description": "Tidig och sen beskriver när något sker i förhållande till en tidpunkt.",
+    "description": "Tidig och sen beskriver när något händer jämfört med en bestämd tid.",
     "examples": [
-      "Tåget var tidigt, men bussen var sen.",
-      "Hon kom tidigt till mötet och hennes kollega kom sent."
+      "Det första tåget var tidigt, men nästa tåg var sent.",
+      "Vi åt en tidig lunch och en sen middag."
     ]
   },
   {
     "a": "billig",
     "b": "dyr",
-    "description": "Billig och dyr beskriver om något kostar lite eller mycket.",
+    "description": "Billig betyder att något kostar lite. Dyr betyder att något kostar mycket.",
     "examples": [
-      "Den billiga pennan kostar tio kronor; den dyra kostar hundra.",
-      "Vi hittade en billig lunch i närheten av den dyra restaurangen."
+      "Den billiga pennan kostar tio kronor. Den dyra kostar hundra.",
+      "Vi valde ett billigt hotell i stället för ett dyrt."
     ]
   },
   {
     "a": "bred",
     "b": "smal",
-    "description": "Bred och smal beskriver motsatta mått från sida till sida.",
+    "description": "Bred och smal beskriver hur mycket plats något tar från sida till sida.",
     "examples": [
-      "Den breda vägen smalnar av till en smal gränd.",
+      "Den breda vägen leder till en smal gränd.",
       "Vi valde en bred hylla i stället för en smal."
     ]
   },
   {
     "a": "torr",
     "b": "våt",
-    "description": "Torr och våt beskriver om något saknar eller har fukt.",
+    "description": "Torr betyder att något inte är vått. Våt betyder att det finns vatten eller annan vätska på eller i något.",
     "examples": [
-      "Handduken är torr, men jackan är fortfarande våt.",
-      "Efter regnet var marken våt och stenarna torra."
+      "Handduken är torr, men jackan är våt.",
+      "Skorna var våta efter regnet. Nu är de torra."
     ]
   },
   {
     "a": "tyst",
     "b": "högljudd",
-    "description": "Tyst och högljudd beskriver olika ljudnivåer.",
+    "description": "Tyst och högljudd beskriver hur mycket ljud någon eller något gör.",
     "examples": [
-      "Biblioteket är tyst, men gatan utanför är högljudd.",
-      "Ett tyst rum kan kännas skönt efter en högljudd konsert."
+      "Klassen var högljudd på rasten men tyst under provet.",
+      "Han var högljudd under matchen och tyst på vägen hem."
     ]
   },
   {
     "a": "snäll",
     "b": "elak",
-    "description": "Snäll och elak beskriver motsatta sätt att behandla andra.",
+    "description": "Snäll och elak beskriver hur någon behandlar andra.",
     "examples": [
-      "Den snälla grannen hjälpte oss, medan den elaka figuren förstörde leken.",
-      "Hon var snäll mot den nya eleven, trots att någon annan varit elak."
+      "Det är snällt att hjälpa och elakt att retas.",
+      "Hon är snäll mot sin vän och säger inga elaka saker."
     ]
   },
   {
     "a": "frisk",
     "b": "sjuk",
-    "description": "Frisk och sjuk beskriver motsatta hälsotillstånd.",
+    "description": "Frisk och sjuk beskriver hur någon mår. Frisk betyder här att inte vara sjuk.",
     "examples": [
-      "Hon var frisk hela vintern, men blev sjuk på våren.",
-      "Barnet stannade hemma eftersom det var sjukt och inte friskt nog för skolan."
+      "Hon var sjuk i går men är frisk i dag.",
+      "Barnet stannade hemma när det var sjukt och gick till skolan när det var friskt."
     ]
   },
   {
     "a": "rätt",
     "b": "fel",
-    "description": "Rätt och fel beskriver om något stämmer eller inte.",
+    "description": "Rätt betyder här att något stämmer. Fel betyder att det inte stämmer.",
     "examples": [
-      "Ditt svar är rätt; mitt första svar var fel.",
-      "Det är rätt att kontrollera uppgiften om något verkar fel."
+      "Ditt svar är rätt, men mitt svar är fel.",
+      "Jag skrev fel nummer först och rätt nummer sedan."
     ]
   },
   {
     "a": "äkta",
     "b": "falsk",
-    "description": "Äkta och falsk beskriver om något är genuint eller förfalskat.",
+    "description": "Äkta betyder här att något är vad det sägs vara. Falsk betyder att det är gjort för att verka äkta.",
     "examples": [
-      "Signaturen var äkta, men dokumentet var falskt.",
-      "Experten såg skillnad på en äkta tavla och en falsk kopia."
+      "Den här sedeln är äkta, men den där är falsk.",
+      "Experten såg skillnad på en äkta tavla och en falsk tavla."
     ]
   },
   {
     "a": "rolig",
     "b": "tråkig",
-    "description": "Rolig och tråkig beskriver om något väcker glädje eller känns långsamt och ointressant.",
+    "description": "Rolig och tråkig beskriver hur någon upplever en sak eller en händelse.",
     "examples": [
-      "Filmen var rolig, men föreläsningen efteråt var tråkig.",
-      "Vi hade en rolig kväll efter en tråkig dag på kontoret."
+      "Filmen var rolig, men boken var tråkig.",
+      "Vi hade en rolig kväll efter en tråkig dag."
     ]
   },
   {
     "a": "pigg",
     "b": "trött",
-    "description": "Pigg och trött beskriver motsatta grader av vakenhet och energi.",
+    "description": "Pigg betyder att man har energi. Trött betyder att man behöver vila eller sova.",
     "examples": [
-      "Efter en god natts sömn var jag pigg, men på kvällen blev jag trött.",
-      "Katten var pigg på morgonen och trött efter leken."
+      "Jag är pigg på morgonen och trött på kvällen.",
+      "Efter en god natts sömn var hon pigg. Före läggdags var hon trött."
     ]
   },
   {
     "a": "bra",
     "b": "dålig",
-    "description": "Bra och dålig uttrycker en positiv respektive negativ bedömning.",
+    "description": "Bra och dålig beskriver om vi tycker att något fungerar väl eller mindre väl.",
     "examples": [
       "Vädret var bra i går men dåligt i dag.",
-      "En bra plan kan hjälpa när något går dåligt."
+      "Skorna är bra för en promenad men dåliga för löpning."
     ]
   },
   {
     "a": "köpa",
     "b": "sälja",
-    "description": "Köpa och sälja beskriver motsatta sidor av ett köp.",
+    "description": "Köpa och sälja beskriver samma affär från två håll. Köparen betalar och säljaren får pengarna.",
     "examples": [
-      "Vi ska köpa en cykel av butiken som säljer den.",
-      "Hon köpte den gamla stolen och sålde sitt skrivbord."
+      "Jag köper en cykel av dig, och du säljer den till mig.",
+      "Butiken säljer bröd som kunderna köper."
     ]
   },
   {
     "a": "öka",
     "b": "minska",
-    "description": "Öka och minska beskriver om en mängd eller nivå blir större eller mindre.",
+    "description": "Öka betyder att något blir större eller mer. Minska betyder att något blir mindre.",
     "examples": [
-      "Vi ökade hastigheten och minskade den sedan igen.",
-      "Företaget vill öka försäljningen och minska kostnaderna."
+      "Antalet besökare ökade på sommaren och minskade på hösten.",
+      "Vi ökade värmen när vi frös och minskade den när det blev för varmt."
     ]
   },
   {
     "a": "tända",
     "b": "släcka",
-    "description": "Tända och släcka beskriver att starta respektive avsluta en låga eller ett ljus.",
+    "description": "Tända betyder att få något att lysa eller brinna. Släcka betyder att få det att sluta lysa eller brinna.",
     "examples": [
-      "Han tände lampan när det blev mörkt och släckte den när han gick.",
-      "Tänd ett ljus när du läser och släck det innan du lämnar rummet."
+      "Hon tände lampan när hon kom och släckte den när hon gick.",
+      "Vi tänder ljusen till middagen och släcker dem efteråt."
     ]
   },
   {
     "a": "vinna",
     "b": "förlora",
-    "description": "Vinna och förlora beskriver motsatta resultat i en tävling eller match.",
+    "description": "Vinna och förlora beskriver olika resultat i en match eller tävling.",
     "examples": [
-      "Laget ville vinna finalen men visste att det kunde förlora.",
-      "Man kan vinna en match och ändå förlora nästa."
+      "Vårt lag vann, och det andra laget förlorade.",
+      "Vi vann den första matchen men förlorade den andra."
     ]
   },
   {
     "a": "börja",
     "b": "sluta",
-    "description": "Börja och sluta markerar starten respektive slutet på något.",
+    "description": "Börja betyder att något startar. Sluta betyder att något tar slut.",
     "examples": [
       "Mötet började klockan nio och slutade klockan tio.",
-      "Hon började läsa på morgonen och slutade när biblioteket stängde."
+      "Hon började läsa efter lunch och slutade före middagen."
     ]
   },
   {
     "a": "skratta",
     "b": "gråta",
-    "description": "Skratta och gråta är olika känslomässiga reaktioner.",
+    "description": "Skratta och gråta används ofta som motsatser när man talar om känslor. Men man kan också gråta av glädje eller skratta när man är nervös.",
     "examples": [
-      "Barnet skrattade åt skämtet men grät när ballongen flög iväg.",
-      "Ibland kan man skratta av glädje och gråta av sorg."
+      "Barnet skrattade åt skämtet men grät när ballongen gick sönder.",
+      "Hon grät när hon slog sig och skrattade när pappa skojade."
     ]
   },
   {
     "a": "vän",
     "b": "fiende",
-    "description": "Vän och fiende beskriver motsatta relationer mellan personer eller grupper.",
+    "description": "En vän är någon man tycker om och litar på. En fiende är någon som vill en illa eller som man är i konflikt med.",
     "examples": [
-      "I berättelsen blev den gamla fienden till slut en vän.",
-      "En vän hjälper dig, medan en fiende motarbetar dig."
+      "I sagan blev den gamla fienden en vän.",
+      "Hjälten fick hjälp av sina vänner och kämpade mot sina fiender."
     ]
-  }
-,
+  },
   {
     "a": "rik",
     "b": "fattig",
-    "description": "Rik och fattig beskriver motsatta grader av tillgångar.",
+    "description": "Rik betyder här att ha mycket pengar. Fattig betyder att ha lite pengar.",
     "examples": [
-      "Den rika familjen skänkte pengar till fattiga barn.",
-      "Han blev rik på idéer, även om han inte var rik på pengar."
+      "Hon var fattig som barn men blev rik som vuxen.",
+      "Den rika mannen gav pengar till en fattig familj."
     ]
   },
   {
     "a": "vacker",
     "b": "ful",
-    "description": "Vacker och ful beskriver motsatta estetiska omdömen.",
+    "description": "Vacker och ful beskriver vad någon tycker om hur något ser ut.",
     "examples": [
-      "Den vackra byggnaden stod bredvid ett fult skjul.",
-      "Hon tyckte att tavlan var vacker, medan hennes bror tyckte att den var ful."
+      "Hon tyckte att tavlan var vacker, men han tyckte att den var ful.",
+      "Huset var fult före målningen och vackert efteråt."
     ]
   },
   {
     "a": "modig",
     "b": "rädd",
-    "description": "Modig och rädd beskriver olika sätt att möta fara eller osäkerhet.",
+    "description": "Modig och rädd används ibland som motsatser. Men man kan vara rädd och ändå vara modig, eftersom mod handlar om att våga trots rädslan.",
     "examples": [
-      "Den modiga brandmannen gick in medan den rädda mannen väntade utanför.",
-      "Hon var modig nog att säga ifrån trots att hon var rädd."
+      "Hon var rädd för att tala inför klassen men var modig och försökte ändå.",
+      "Han kände sig rädd före hoppet och modig efteråt."
     ]
   },
   {
     "a": "trygg",
     "b": "otrygg",
-    "description": "Trygg och otrygg beskriver om någon känner säkerhet eller osäkerhet.",
+    "description": "Trygg betyder att känna sig säker. Otrygg betyder att känna sig osäker eller rädd.",
     "examples": [
       "Barnet kände sig tryggt hemma men otryggt på den mörka vägen.",
-      "En trygg miljö kan hjälpa den som känner sig otrygg."
+      "Hon kände sig otrygg ensam men trygg när hennes vän kom."
     ]
   },
   {
     "a": "smart",
     "b": "dum",
-    "description": "Smart och dum används som motsatser när man beskriver klokhet eller omdöme.",
+    "description": "Smart betyder här klok. Dum betyder här oklok. Orden beskriver en idé eller ett beslut.",
     "examples": [
-      "Det var ett smart beslut att fråga, inte ett dumt misstag.",
-      "En smart lösning gjorde den dumma regeln onödig."
+      "Det var smart att spara biljetten och dumt att kasta den.",
+      "Vi valde en smart lösning i stället för en dum."
     ]
   },
   {
     "a": "mätt",
     "b": "hungrig",
-    "description": "Mätt och hungrig beskriver om man har ätit tillräckligt eller behöver mat.",
+    "description": "Mätt betyder att ha ätit tillräckligt. Hungrig betyder att vilja eller behöva äta.",
     "examples": [
-      "Efter lunchen var hon mätt, men före maten var hon hungrig.",
-      "Barnen gick från hungriga till mätta efter middagen."
+      "Hon var hungrig före lunchen och mätt efteråt.",
+      "Barnen kom hungriga till bordet och gick därifrån mätta."
     ]
   },
   {
     "a": "lugn",
     "b": "stressad",
-    "description": "Lugn och stressad beskriver motsatta känslotillstånd.",
+    "description": "Lugn och stressad beskriver hur man kan känna sig.",
     "examples": [
-      "Han var lugn före provet men blev stressad när tiden tog slut.",
-      "En promenad hjälper mig att känna mig lugn när jag är stressad."
+      "Hon var stressad före provet och lugn efteråt.",
+      "Jag känner mig stressad när jag har bråttom och lugn när jag har gott om tid."
     ]
   },
   {
     "a": "nära",
     "b": "långt",
-    "description": "Nära och långt beskriver kort respektive stort avstånd.",
+    "description": "Nära betyder på kort avstånd. Långt betyder på stort avstånd.",
     "examples": [
       "Skolan ligger nära, men sjukhuset ligger långt bort.",
       "Vi bor nära stationen och långt från flygplatsen."
@@ -376,163 +375,163 @@ const curatedPairs = [
   {
     "a": "tjock",
     "b": "tunn",
-    "description": "Tjock och tunn beskriver motsatta grader av bredd eller täthet.",
+    "description": "Tjock och tunn beskriver ett mått, till exempel hur mycket papper det finns i en bok.",
     "examples": [
-      "Boken är tjock, medan häftet är tunt.",
+      "Boken är tjock, men häftet är tunt.",
       "Hon tog på sig en tjock jacka över den tunna tröjan."
     ]
   },
   {
     "a": "höger",
     "b": "vänster",
-    "description": "Höger och vänster anger motsatta sidor eller riktningar.",
+    "description": "Höger och vänster är motsatta sidor eller riktningar.",
     "examples": [
-      "Sväng höger vid bron och sedan vänster vid torget.",
-      "Han skriver med höger hand men sparkar med vänster fot."
+      "Sväng höger vid bron och vänster vid torget.",
+      "Han håller boken i höger hand och pennan i vänster hand."
     ]
   },
   {
     "a": "upp",
     "b": "ner",
-    "description": "Upp och ner anger motsatta riktningar.",
+    "description": "Upp och ner är motsatta riktningar.",
     "examples": [
       "Hissen åkte upp först och sedan ner igen.",
-      "Ballongen steg upp medan stenen föll ner."
+      "Bollen kastades upp och föll sedan ner."
     ]
   },
   {
     "a": "in",
     "b": "ut",
-    "description": "In och ut anger motsatta riktningar över en gräns.",
+    "description": "In och ut är motsatta riktningar, till exempel genom en dörr.",
     "examples": [
-      "Katten gick in genom dörren och sedan ut i trädgården.",
-      "Ta in cykeln när det regnar och ställ ut den när solen skiner."
+      "Katten gick in i huset och sedan ut i trädgården.",
+      "Vi gick in när det började regna och ut när regnet slutade."
     ]
   },
   {
     "a": "dag",
     "b": "natt",
-    "description": "Dag och natt är dygnets ljusa respektive mörka del.",
+    "description": "Dag är den ljusa delen av dygnet. Natt är den mörka delen.",
     "examples": [
-      "På dagen arbetar hon och på natten sover hon.",
-      "Det är ljust på dagen och mörkt på natten."
+      "Hon arbetar på dagen och sover på natten.",
+      "Butiken är öppen på dagen och stängd på natten."
     ]
   },
   {
     "a": "fred",
     "b": "krig",
-    "description": "Fred och krig beskriver frånvaro respektive förekomst av väpnad konflikt.",
+    "description": "Fred betyder här att det inte är krig. Krig är en väpnad konflikt mellan länder eller grupper.",
     "examples": [
-      "Efter många år av krig hoppades människorna på fred.",
-      "Avtalet avslutade kriget och inledde en period av fred."
+      "Efter många år av krig blev det fred.",
+      "Familjen flydde från kriget och hoppades på fred."
     ]
   },
   {
     "a": "liv",
     "b": "död",
-    "description": "Liv och död beskriver att leva respektive att inte längre leva.",
+    "description": "Liv handlar om att leva. Död betyder att livet har tagit slut.",
     "examples": [
-      "Berättelsen handlar om liv och död.",
-      "Läkaren kämpade för patientens liv och familjen sörjde efter dödsfallet."
+      "Boken handlar om liv och död.",
+      "Döden är slutet på livet."
     ]
   },
   {
     "a": "tillåta",
     "b": "förbjuda",
-    "description": "Tillåta och förbjuda beskriver att ge respektive neka tillstånd.",
+    "description": "Tillåta betyder att säga att något får göras. Förbjuda betyder att säga att det inte får göras.",
     "examples": [
-      "Skolan tillåter cyklar på gården men förbjuder dem i korridoren.",
-      "Lagen tillåter vissa saker och förbjuder andra."
+      "Skolan tillåter cykling på gården men förbjuder cykling i korridoren.",
+      "Bad är tillåtet vid stranden men förbjudet vid hamnen."
     ]
   },
   {
     "a": "spara",
     "b": "slösa",
-    "description": "Spara och slösa beskriver att använda resurser varsamt respektive utan eftertanke.",
+    "description": "Spara kan betyda att lägga undan något eller använda mindre av det. Slösa betyder att använda mer än vad som behövs.",
     "examples": [
-      "Hon försökte spara pengar i stället för att slösa dem.",
-      "Vi sparar vatten när det är torrt och slösar inte med det."
+      "Hon sparar pengar varje månad i stället för att slösa bort dem.",
+      "Stäng kranen för att spara vatten. Låt den inte rinna och slösa med vattnet."
     ]
   },
   {
     "a": "minnas",
     "b": "glömma",
-    "description": "Minnas och glömma beskriver att komma ihåg respektive inte komma ihåg.",
+    "description": "Minnas betyder att komma ihåg. Glömma betyder att inte komma ihåg.",
     "examples": [
-      "Jag minns mötet tydligt men har glömt vad vi åt.",
-      "Skriv ner adressen så att du inte ska glömma den."
+      "Jag minns ditt namn men har glömt din adress.",
+      "Hon mindes mötet, men han hade glömt det."
     ]
   },
   {
     "a": "lyckas",
     "b": "misslyckas",
-    "description": "Lyckas och misslyckas beskriver att nå respektive inte nå ett mål.",
+    "description": "Lyckas betyder att nå sitt mål. Misslyckas betyder att inte nå sitt mål.",
     "examples": [
       "Hon lyckades med uppgiften efter att först ha misslyckats.",
-      "Man kan misslyckas en gång och lyckas nästa gång."
+      "Vi misslyckades första gången men lyckades nästa gång."
     ]
   },
   {
     "a": "bygga",
     "b": "riva",
-    "description": "Bygga och riva beskriver att uppföra respektive ta bort en konstruktion.",
+    "description": "Bygga betyder att sätta ihop något, till exempel ett hus. Riva betyder här att ta ner det som har byggts.",
     "examples": [
       "De ska bygga en ny bro och riva den gamla.",
-      "Hantverkarna byggde väggen och rev den senare."
+      "Först rev de muren. Sedan byggde de en ny."
     ]
   },
   {
     "a": "aktiv",
     "b": "passiv",
-    "description": "Aktiv och passiv beskriver att delta eller agera respektive att inte göra det.",
+    "description": "Aktiv betyder här att vara med och göra något. Passiv betyder att mest vänta eller se på.",
     "examples": [
-      "Eleven var aktiv under diskussionen men passiv under föreläsningen.",
-      "En aktiv medlem hjälper till, medan en passiv medlem mest lyssnar."
+      "Hon var aktiv på mötet och gav förslag. Han var passiv och lyssnade.",
+      "En aktiv spelare deltar i spelet. En passiv spelare står mest stilla."
     ]
   },
   {
     "a": "positiv",
     "b": "negativ",
-    "description": "Positiv och negativ beskriver motsatta värderingar eller riktningar.",
+    "description": "Positiv och negativ beskriver här vad någon tycker om något.",
     "examples": [
-      "Hon var positiv till förslaget, medan han var negativ.",
-      "Testresultatet var negativt, men läkarens besked var positivt."
+      "Hon var positiv till förslaget, men han var negativ.",
+      "Jag var negativ till planen först men blev positiv när jag fick veta mer."
     ]
   },
   {
     "a": "närvarande",
     "b": "frånvarande",
-    "description": "Närvarande och frånvarande beskriver att vara på plats respektive inte vara där.",
+    "description": "Närvarande betyder att vara på plats. Frånvarande betyder att inte vara där.",
     "examples": [
       "De flesta elever var närvarande, men två var frånvarande.",
-      "Läraren noterade vilka som var närvarande och frånvarande."
+      "Hon var frånvarande på måndagen och närvarande på tisdagen."
     ]
   },
   {
     "a": "många",
     "b": "få",
-    "description": "Många och få beskriver stor respektive liten mängd.",
+    "description": "Många och få beskriver ett stort eller litet antal.",
     "examples": [
-      "Många kom tidigt, men få stannade sent.",
-      "Det fanns många äpplen och få päron."
+      "Det fanns många äpplen och få päron.",
+      "Många kom till festen, men få stannade till slutet."
     ]
   },
   {
     "a": "mer",
     "b": "mindre",
-    "description": "Mer och mindre beskriver större respektive mindre mängd eller grad.",
+    "description": "Mer och mindre beskriver en större eller mindre mängd.",
     "examples": [
-      "Vill du ha mer kaffe eller mindre socker?",
+      "Jag vill ha mer kaffe, men hon vill ha mindre.",
       "Hon tränar mer på sommaren och mindre på vintern."
     ]
   },
   {
     "a": "alltid",
     "b": "aldrig",
-    "description": "Alltid och aldrig beskriver motsatta frekvenser.",
+    "description": "Alltid betyder varje gång. Aldrig betyder inte en enda gång.",
     "examples": [
-      "Han kommer alltid i tid och kommer aldrig för sent.",
-      "Jag brukar alltid låsa dörren och aldrig lämna den öppen."
+      "Hon låser alltid dörren och lämnar den aldrig olåst.",
+      "Han tar alltid bussen till jobbet och kör aldrig bil dit."
     ]
   }
 ];
