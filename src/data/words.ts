@@ -1,9 +1,9 @@
 export const words = {
   "stor": {
     "opposite": "liten",
-    "description": "Stor och liten beskriver motsatta storlekar.",
+    "description": "Stor och liten beskriver hur stort något är.",
     "examples": [
-      "Den stora resväskan stod bredvid den lilla väskan.",
+      "Huset är stort, men stugan är liten.",
       "Vi valde ett stort bord i stället för ett litet."
     ],
     "related": [
@@ -12,9 +12,9 @@ export const words = {
   },
   "liten": {
     "opposite": "stor",
-    "description": "Stor och liten beskriver motsatta storlekar.",
+    "description": "Stor och liten beskriver hur stort något är.",
     "examples": [
-      "Den stora resväskan stod bredvid den lilla väskan.",
+      "Huset är stort, men stugan är liten.",
       "Vi valde ett stort bord i stället för ett litet."
     ],
     "related": [
@@ -23,10 +23,10 @@ export const words = {
   },
   "snabb": {
     "opposite": "långsam",
-    "description": "Snabb och långsam beskriver olika hastighet.",
+    "description": "Snabb och långsam beskriver hur fort något går.",
     "examples": [
-      "Den snabba cyklisten passerade den långsamma gruppen.",
-      "En snabb dator svarar fortare än en långsam dator."
+      "Haren är snabb, men snigeln är långsam.",
+      "Den snabba cyklisten körde förbi den långsamma cyklisten."
     ],
     "related": [
       "långsam"
@@ -34,10 +34,10 @@ export const words = {
   },
   "långsam": {
     "opposite": "snabb",
-    "description": "Snabb och långsam beskriver olika hastighet.",
+    "description": "Snabb och långsam beskriver hur fort något går.",
     "examples": [
-      "Den snabba cyklisten passerade den långsamma gruppen.",
-      "En snabb dator svarar fortare än en långsam dator."
+      "Haren är snabb, men snigeln är långsam.",
+      "Den snabba cyklisten körde förbi den långsamma cyklisten."
     ],
     "related": [
       "snabb"
@@ -45,10 +45,10 @@ export const words = {
   },
   "varm": {
     "opposite": "kall",
-    "description": "Varm och kall beskriver motsatta temperaturer.",
+    "description": "Varm och kall beskriver olika temperaturer.",
     "examples": [
-      "Teet är varmt, medan saften är kall.",
-      "En varm jacka hjälper under en kall vinterdag."
+      "Teet är varmt, men saften är kall.",
+      "På sommaren är luften ofta varm. På vintern är den ofta kall."
     ],
     "related": [
       "kall"
@@ -56,10 +56,10 @@ export const words = {
   },
   "kall": {
     "opposite": "varm",
-    "description": "Varm och kall beskriver motsatta temperaturer.",
+    "description": "Varm och kall beskriver olika temperaturer.",
     "examples": [
-      "Teet är varmt, medan saften är kall.",
-      "En varm jacka hjälper under en kall vinterdag."
+      "Teet är varmt, men saften är kall.",
+      "På sommaren är luften ofta varm. På vintern är den ofta kall."
     ],
     "related": [
       "varm"
@@ -67,10 +67,10 @@ export const words = {
   },
   "glad": {
     "opposite": "ledsen",
-    "description": "Glad och ledsen beskriver motsatta känslolägen.",
+    "description": "Glad och ledsen beskriver olika känslor.",
     "examples": [
-      "Maja blev glad över nyheten, men hennes vän blev ledsen.",
-      "Han kände sig glad efter samtalet och ledsen när det tog slut."
+      "Hon blev glad när hon vann och ledsen när hon förlorade.",
+      "Han var ledsen på morgonen men glad efter besöket."
     ],
     "related": [
       "ledsen"
@@ -78,10 +78,10 @@ export const words = {
   },
   "ledsen": {
     "opposite": "glad",
-    "description": "Glad och ledsen beskriver motsatta känslolägen.",
+    "description": "Glad och ledsen beskriver olika känslor.",
     "examples": [
-      "Maja blev glad över nyheten, men hennes vän blev ledsen.",
-      "Han kände sig glad efter samtalet och ledsen när det tog slut."
+      "Hon blev glad när hon vann och ledsen när hon förlorade.",
+      "Han var ledsen på morgonen men glad efter besöket."
     ],
     "related": [
       "glad"
@@ -89,10 +89,10 @@ export const words = {
   },
   "ljus": {
     "opposite": "mörk",
-    "description": "Ljus och mörk beskriver motsatta grader av ljus eller färg.",
+    "description": "Ljus och mörk kan beskriva ett rum eller en färg.",
     "examples": [
       "Rummet är ljust på dagen och mörkt på natten.",
-      "En ljus färg syns tydligt mot en mörk bakgrund."
+      "Hon valde en ljus tröja och mörka byxor."
     ],
     "related": [
       "mörk"
@@ -100,10 +100,10 @@ export const words = {
   },
   "mörk": {
     "opposite": "ljus",
-    "description": "Ljus och mörk beskriver motsatta grader av ljus eller färg.",
+    "description": "Ljus och mörk kan beskriva ett rum eller en färg.",
     "examples": [
       "Rummet är ljust på dagen och mörkt på natten.",
-      "En ljus färg syns tydligt mot en mörk bakgrund."
+      "Hon valde en ljus tröja och mörka byxor."
     ],
     "related": [
       "ljus"
@@ -111,10 +111,10 @@ export const words = {
   },
   "hög": {
     "opposite": "låg",
-    "description": "Hög och låg beskriver motsatta nivåer eller höjder.",
+    "description": "Hög och låg kan beskriva en höjd eller en nivå.",
     "examples": [
       "Det höga huset står bredvid ett lågt hus.",
-      "Musiken var för hög, så vi sänkte volymen till en låg nivå."
+      "Hyllan är för hög för mig. Jag behöver en lägre hylla."
     ],
     "related": [
       "låg"
@@ -122,10 +122,10 @@ export const words = {
   },
   "låg": {
     "opposite": "hög",
-    "description": "Hög och låg beskriver motsatta nivåer eller höjder.",
+    "description": "Hög och låg kan beskriva en höjd eller en nivå.",
     "examples": [
       "Det höga huset står bredvid ett lågt hus.",
-      "Musiken var för hög, så vi sänkte volymen till en låg nivå."
+      "Hyllan är för hög för mig. Jag behöver en lägre hylla."
     ],
     "related": [
       "hög"
@@ -133,10 +133,10 @@ export const words = {
   },
   "ung": {
     "opposite": "gammal",
-    "description": "Ung och gammal beskriver motsatta åldrar.",
+    "description": "Ung och gammal beskriver olika åldrar. När gammal handlar om en sak kan motsatsen i stället vara ny.",
     "examples": [
-      "Den unga hunden lekte med den gamla hunden.",
-      "Hon är ung, medan hennes farfar är gammal."
+      "Den unga hunden leker med den gamla hunden.",
+      "Trädet vid huset är gammalt, men trädet vid grinden är ungt."
     ],
     "related": [
       "gammal"
@@ -144,10 +144,10 @@ export const words = {
   },
   "gammal": {
     "opposite": "ung",
-    "description": "Ung och gammal beskriver motsatta åldrar.",
+    "description": "Ung och gammal beskriver olika åldrar. När gammal handlar om en sak kan motsatsen i stället vara ny.",
     "examples": [
-      "Den unga hunden lekte med den gamla hunden.",
-      "Hon är ung, medan hennes farfar är gammal."
+      "Den unga hunden leker med den gamla hunden.",
+      "Trädet vid huset är gammalt, men trädet vid grinden är ungt."
     ],
     "related": [
       "ung"
@@ -155,10 +155,10 @@ export const words = {
   },
   "full": {
     "opposite": "tom",
-    "description": "Full och tom beskriver om något innehåller mycket eller ingenting.",
+    "description": "Full betyder här att det inte finns plats för mer. Tom betyder att inget finns i.",
     "examples": [
-      "Glaset är fullt, medan koppen är tom.",
-      "Den fulla bussen körde förbi en nästan tom hållplats."
+      "Glaset är fullt, men koppen är tom.",
+      "Lådan var tom innan vi fyllde den. Nu är den full."
     ],
     "related": [
       "tom"
@@ -166,10 +166,10 @@ export const words = {
   },
   "tom": {
     "opposite": "full",
-    "description": "Full och tom beskriver om något innehåller mycket eller ingenting.",
+    "description": "Full betyder här att det inte finns plats för mer. Tom betyder att inget finns i.",
     "examples": [
-      "Glaset är fullt, medan koppen är tom.",
-      "Den fulla bussen körde förbi en nästan tom hållplats."
+      "Glaset är fullt, men koppen är tom.",
+      "Lådan var tom innan vi fyllde den. Nu är den full."
     ],
     "related": [
       "full"
@@ -177,10 +177,10 @@ export const words = {
   },
   "öppen": {
     "opposite": "stängd",
-    "description": "Öppen och stängd beskriver motsatta lägen för exempelvis en dörr eller butik.",
+    "description": "Öppen och stängd kan beskriva en dörr eller en butik.",
     "examples": [
       "Butiken är öppen på dagen och stängd på natten.",
-      "Dörren stod öppen, men fönstret var stängt."
+      "Dörren är öppen, men fönstret är stängt."
     ],
     "related": [
       "stängd"
@@ -188,10 +188,10 @@ export const words = {
   },
   "stängd": {
     "opposite": "öppen",
-    "description": "Öppen och stängd beskriver motsatta lägen för exempelvis en dörr eller butik.",
+    "description": "Öppen och stängd kan beskriva en dörr eller en butik.",
     "examples": [
       "Butiken är öppen på dagen och stängd på natten.",
-      "Dörren stod öppen, men fönstret var stängt."
+      "Dörren är öppen, men fönstret är stängt."
     ],
     "related": [
       "öppen"
@@ -199,10 +199,10 @@ export const words = {
   },
   "lätt": {
     "opposite": "svår",
-    "description": "Lätt och svår beskriver hur enkel eller krävande en uppgift är.",
+    "description": "Här handlar lätt och svår om hur enkel en uppgift är. När lätt handlar om vikt är motsatsen tung.",
     "examples": [
       "Den första uppgiften var lätt, men nästa var svår.",
-      "Det är lätt att följa en tydlig instruktion; utan den blir uppgiften svår."
+      "Provet var svårt för mig men lätt för min kompis."
     ],
     "related": [
       "svår"
@@ -210,10 +210,10 @@ export const words = {
   },
   "svår": {
     "opposite": "lätt",
-    "description": "Lätt och svår beskriver hur enkel eller krävande en uppgift är.",
+    "description": "Här handlar lätt och svår om hur enkel en uppgift är. När lätt handlar om vikt är motsatsen tung.",
     "examples": [
       "Den första uppgiften var lätt, men nästa var svår.",
-      "Det är lätt att följa en tydlig instruktion; utan den blir uppgiften svår."
+      "Provet var svårt för mig men lätt för min kompis."
     ],
     "related": [
       "lätt"
@@ -221,10 +221,10 @@ export const words = {
   },
   "enkel": {
     "opposite": "komplicerad",
-    "description": "Enkel och komplicerad beskriver motsatta grader av komplexitet.",
+    "description": "Enkel betyder att något är lätt att förstå eller göra. Komplicerad betyder att något har många delar eller är svårt att förstå.",
     "examples": [
       "Regeln är enkel, men undantaget är komplicerat.",
-      "Hon gav en enkel förklaring av ett komplicerat problem."
+      "Den enkla planen var lätt att följa. Den komplicerade planen var svår att följa."
     ],
     "related": [
       "komplicerad"
@@ -232,10 +232,10 @@ export const words = {
   },
   "komplicerad": {
     "opposite": "enkel",
-    "description": "Enkel och komplicerad beskriver motsatta grader av komplexitet.",
+    "description": "Enkel betyder att något är lätt att förstå eller göra. Komplicerad betyder att något har många delar eller är svårt att förstå.",
     "examples": [
       "Regeln är enkel, men undantaget är komplicerat.",
-      "Hon gav en enkel förklaring av ett komplicerat problem."
+      "Den enkla planen var lätt att följa. Den komplicerade planen var svår att följa."
     ],
     "related": [
       "enkel"
@@ -243,10 +243,10 @@ export const words = {
   },
   "ren": {
     "opposite": "smutsig",
-    "description": "Ren och smutsig beskriver om något saknar eller har smuts.",
+    "description": "Ren betyder att något är utan smuts. Smutsig betyder att det finns smuts på något.",
     "examples": [
-      "Skjortan var ren innan den hamnade i den smutsiga tvättkorgen.",
-      "Han tvättade den smutsiga bilen tills den blev ren."
+      "Skjortan är ren, men byxorna är smutsiga.",
+      "Bilen var smutsig före tvätten och ren efteråt."
     ],
     "related": [
       "smutsig"
@@ -254,10 +254,10 @@ export const words = {
   },
   "smutsig": {
     "opposite": "ren",
-    "description": "Ren och smutsig beskriver om något saknar eller har smuts.",
+    "description": "Ren betyder att något är utan smuts. Smutsig betyder att det finns smuts på något.",
     "examples": [
-      "Skjortan var ren innan den hamnade i den smutsiga tvättkorgen.",
-      "Han tvättade den smutsiga bilen tills den blev ren."
+      "Skjortan är ren, men byxorna är smutsiga.",
+      "Bilen var smutsig före tvätten och ren efteråt."
     ],
     "related": [
       "ren"
@@ -265,10 +265,10 @@ export const words = {
   },
   "stark": {
     "opposite": "svag",
-    "description": "Stark och svag beskriver motsatta grader av kraft eller intensitet.",
+    "description": "Stark och svag kan beskriva kraft, vind eller smak.",
     "examples": [
-      "Kaffet är starkt, men teet är svagt.",
-      "Den starka vinden avtog till en svag bris."
+      "Den starka vinden blev svagare under kvällen.",
+      "Kaffet är starkt i dag. I går var det svagt."
     ],
     "related": [
       "svag"
@@ -276,10 +276,10 @@ export const words = {
   },
   "svag": {
     "opposite": "stark",
-    "description": "Stark och svag beskriver motsatta grader av kraft eller intensitet.",
+    "description": "Stark och svag kan beskriva kraft, vind eller smak.",
     "examples": [
-      "Kaffet är starkt, men teet är svagt.",
-      "Den starka vinden avtog till en svag bris."
+      "Den starka vinden blev svagare under kvällen.",
+      "Kaffet är starkt i dag. I går var det svagt."
     ],
     "related": [
       "stark"
@@ -287,10 +287,10 @@ export const words = {
   },
   "hård": {
     "opposite": "mjuk",
-    "description": "Hård och mjuk beskriver motsatta grader av fasthet.",
+    "description": "Hård och mjuk beskriver hur något känns när man trycker på det.",
     "examples": [
       "Kudden är mjuk, men bänken är hård.",
-      "Brödet blev hårt när det torkade, medan nybakat bröd är mjukt."
+      "Brödet är mjukt när det är färskt och hårt när det har torkat."
     ],
     "related": [
       "mjuk"
@@ -298,10 +298,10 @@ export const words = {
   },
   "mjuk": {
     "opposite": "hård",
-    "description": "Hård och mjuk beskriver motsatta grader av fasthet.",
+    "description": "Hård och mjuk beskriver hur något känns när man trycker på det.",
     "examples": [
       "Kudden är mjuk, men bänken är hård.",
-      "Brödet blev hårt när det torkade, medan nybakat bröd är mjukt."
+      "Brödet är mjukt när det är färskt och hårt när det har torkat."
     ],
     "related": [
       "hård"
@@ -309,10 +309,10 @@ export const words = {
   },
   "tidig": {
     "opposite": "sen",
-    "description": "Tidig och sen beskriver när något sker i förhållande till en tidpunkt.",
+    "description": "Tidig och sen beskriver när något händer jämfört med en bestämd tid.",
     "examples": [
-      "Tåget var tidigt, men bussen var sen.",
-      "Hon kom tidigt till mötet och hennes kollega kom sent."
+      "Det första tåget var tidigt, men nästa tåg var sent.",
+      "Vi åt en tidig lunch och en sen middag."
     ],
     "related": [
       "sen"
@@ -320,10 +320,10 @@ export const words = {
   },
   "sen": {
     "opposite": "tidig",
-    "description": "Tidig och sen beskriver när något sker i förhållande till en tidpunkt.",
+    "description": "Tidig och sen beskriver när något händer jämfört med en bestämd tid.",
     "examples": [
-      "Tåget var tidigt, men bussen var sen.",
-      "Hon kom tidigt till mötet och hennes kollega kom sent."
+      "Det första tåget var tidigt, men nästa tåg var sent.",
+      "Vi åt en tidig lunch och en sen middag."
     ],
     "related": [
       "tidig"
@@ -331,10 +331,10 @@ export const words = {
   },
   "billig": {
     "opposite": "dyr",
-    "description": "Billig och dyr beskriver om något kostar lite eller mycket.",
+    "description": "Billig betyder att något kostar lite. Dyr betyder att något kostar mycket.",
     "examples": [
-      "Den billiga pennan kostar tio kronor; den dyra kostar hundra.",
-      "Vi hittade en billig lunch i närheten av den dyra restaurangen."
+      "Den billiga pennan kostar tio kronor. Den dyra kostar hundra.",
+      "Vi valde ett billigt hotell i stället för ett dyrt."
     ],
     "related": [
       "dyr"
@@ -342,10 +342,10 @@ export const words = {
   },
   "dyr": {
     "opposite": "billig",
-    "description": "Billig och dyr beskriver om något kostar lite eller mycket.",
+    "description": "Billig betyder att något kostar lite. Dyr betyder att något kostar mycket.",
     "examples": [
-      "Den billiga pennan kostar tio kronor; den dyra kostar hundra.",
-      "Vi hittade en billig lunch i närheten av den dyra restaurangen."
+      "Den billiga pennan kostar tio kronor. Den dyra kostar hundra.",
+      "Vi valde ett billigt hotell i stället för ett dyrt."
     ],
     "related": [
       "billig"
@@ -353,9 +353,9 @@ export const words = {
   },
   "bred": {
     "opposite": "smal",
-    "description": "Bred och smal beskriver motsatta mått från sida till sida.",
+    "description": "Bred och smal beskriver hur mycket plats något tar från sida till sida.",
     "examples": [
-      "Den breda vägen smalnar av till en smal gränd.",
+      "Den breda vägen leder till en smal gränd.",
       "Vi valde en bred hylla i stället för en smal."
     ],
     "related": [
@@ -364,9 +364,9 @@ export const words = {
   },
   "smal": {
     "opposite": "bred",
-    "description": "Bred och smal beskriver motsatta mått från sida till sida.",
+    "description": "Bred och smal beskriver hur mycket plats något tar från sida till sida.",
     "examples": [
-      "Den breda vägen smalnar av till en smal gränd.",
+      "Den breda vägen leder till en smal gränd.",
       "Vi valde en bred hylla i stället för en smal."
     ],
     "related": [
@@ -375,10 +375,10 @@ export const words = {
   },
   "torr": {
     "opposite": "våt",
-    "description": "Torr och våt beskriver om något saknar eller har fukt.",
+    "description": "Torr betyder att något inte är vått. Våt betyder att det finns vatten eller annan vätska på eller i något.",
     "examples": [
-      "Handduken är torr, men jackan är fortfarande våt.",
-      "Efter regnet var marken våt och stenarna torra."
+      "Handduken är torr, men jackan är våt.",
+      "Skorna var våta efter regnet. Nu är de torra."
     ],
     "related": [
       "våt"
@@ -386,10 +386,10 @@ export const words = {
   },
   "våt": {
     "opposite": "torr",
-    "description": "Torr och våt beskriver om något saknar eller har fukt.",
+    "description": "Torr betyder att något inte är vått. Våt betyder att det finns vatten eller annan vätska på eller i något.",
     "examples": [
-      "Handduken är torr, men jackan är fortfarande våt.",
-      "Efter regnet var marken våt och stenarna torra."
+      "Handduken är torr, men jackan är våt.",
+      "Skorna var våta efter regnet. Nu är de torra."
     ],
     "related": [
       "torr"
@@ -397,10 +397,10 @@ export const words = {
   },
   "tyst": {
     "opposite": "högljudd",
-    "description": "Tyst och högljudd beskriver olika ljudnivåer.",
+    "description": "Tyst och högljudd beskriver hur mycket ljud någon eller något gör.",
     "examples": [
-      "Biblioteket är tyst, men gatan utanför är högljudd.",
-      "Ett tyst rum kan kännas skönt efter en högljudd konsert."
+      "Klassen var högljudd på rasten men tyst under provet.",
+      "Han var högljudd under matchen och tyst på vägen hem."
     ],
     "related": [
       "högljudd"
@@ -408,10 +408,10 @@ export const words = {
   },
   "högljudd": {
     "opposite": "tyst",
-    "description": "Tyst och högljudd beskriver olika ljudnivåer.",
+    "description": "Tyst och högljudd beskriver hur mycket ljud någon eller något gör.",
     "examples": [
-      "Biblioteket är tyst, men gatan utanför är högljudd.",
-      "Ett tyst rum kan kännas skönt efter en högljudd konsert."
+      "Klassen var högljudd på rasten men tyst under provet.",
+      "Han var högljudd under matchen och tyst på vägen hem."
     ],
     "related": [
       "tyst"
@@ -419,10 +419,10 @@ export const words = {
   },
   "snäll": {
     "opposite": "elak",
-    "description": "Snäll och elak beskriver motsatta sätt att behandla andra.",
+    "description": "Snäll och elak beskriver hur någon behandlar andra.",
     "examples": [
-      "Den snälla grannen hjälpte oss, medan den elaka figuren förstörde leken.",
-      "Hon var snäll mot den nya eleven, trots att någon annan varit elak."
+      "Det är snällt att hjälpa och elakt att retas.",
+      "Hon är snäll mot sin vän och säger inga elaka saker."
     ],
     "related": [
       "elak"
@@ -430,10 +430,10 @@ export const words = {
   },
   "elak": {
     "opposite": "snäll",
-    "description": "Snäll och elak beskriver motsatta sätt att behandla andra.",
+    "description": "Snäll och elak beskriver hur någon behandlar andra.",
     "examples": [
-      "Den snälla grannen hjälpte oss, medan den elaka figuren förstörde leken.",
-      "Hon var snäll mot den nya eleven, trots att någon annan varit elak."
+      "Det är snällt att hjälpa och elakt att retas.",
+      "Hon är snäll mot sin vän och säger inga elaka saker."
     ],
     "related": [
       "snäll"
@@ -441,10 +441,10 @@ export const words = {
   },
   "frisk": {
     "opposite": "sjuk",
-    "description": "Frisk och sjuk beskriver motsatta hälsotillstånd.",
+    "description": "Frisk och sjuk beskriver hur någon mår. Frisk betyder här att inte vara sjuk.",
     "examples": [
-      "Hon var frisk hela vintern, men blev sjuk på våren.",
-      "Barnet stannade hemma eftersom det var sjukt och inte friskt nog för skolan."
+      "Hon var sjuk i går men är frisk i dag.",
+      "Barnet stannade hemma när det var sjukt och gick till skolan när det var friskt."
     ],
     "related": [
       "sjuk"
@@ -452,10 +452,10 @@ export const words = {
   },
   "sjuk": {
     "opposite": "frisk",
-    "description": "Frisk och sjuk beskriver motsatta hälsotillstånd.",
+    "description": "Frisk och sjuk beskriver hur någon mår. Frisk betyder här att inte vara sjuk.",
     "examples": [
-      "Hon var frisk hela vintern, men blev sjuk på våren.",
-      "Barnet stannade hemma eftersom det var sjukt och inte friskt nog för skolan."
+      "Hon var sjuk i går men är frisk i dag.",
+      "Barnet stannade hemma när det var sjukt och gick till skolan när det var friskt."
     ],
     "related": [
       "frisk"
@@ -463,10 +463,10 @@ export const words = {
   },
   "rätt": {
     "opposite": "fel",
-    "description": "Rätt och fel beskriver om något stämmer eller inte.",
+    "description": "Rätt betyder här att något stämmer. Fel betyder att det inte stämmer.",
     "examples": [
-      "Ditt svar är rätt; mitt första svar var fel.",
-      "Det är rätt att kontrollera uppgiften om något verkar fel."
+      "Ditt svar är rätt, men mitt svar är fel.",
+      "Jag skrev fel nummer först och rätt nummer sedan."
     ],
     "related": [
       "fel"
@@ -474,10 +474,10 @@ export const words = {
   },
   "fel": {
     "opposite": "rätt",
-    "description": "Rätt och fel beskriver om något stämmer eller inte.",
+    "description": "Rätt betyder här att något stämmer. Fel betyder att det inte stämmer.",
     "examples": [
-      "Ditt svar är rätt; mitt första svar var fel.",
-      "Det är rätt att kontrollera uppgiften om något verkar fel."
+      "Ditt svar är rätt, men mitt svar är fel.",
+      "Jag skrev fel nummer först och rätt nummer sedan."
     ],
     "related": [
       "rätt"
@@ -485,10 +485,10 @@ export const words = {
   },
   "äkta": {
     "opposite": "falsk",
-    "description": "Äkta och falsk beskriver om något är genuint eller förfalskat.",
+    "description": "Äkta betyder här att något är vad det sägs vara. Falsk betyder att det är gjort för att verka äkta.",
     "examples": [
-      "Signaturen var äkta, men dokumentet var falskt.",
-      "Experten såg skillnad på en äkta tavla och en falsk kopia."
+      "Den här sedeln är äkta, men den där är falsk.",
+      "Experten såg skillnad på en äkta tavla och en falsk tavla."
     ],
     "related": [
       "falsk"
@@ -496,10 +496,10 @@ export const words = {
   },
   "falsk": {
     "opposite": "äkta",
-    "description": "Äkta och falsk beskriver om något är genuint eller förfalskat.",
+    "description": "Äkta betyder här att något är vad det sägs vara. Falsk betyder att det är gjort för att verka äkta.",
     "examples": [
-      "Signaturen var äkta, men dokumentet var falskt.",
-      "Experten såg skillnad på en äkta tavla och en falsk kopia."
+      "Den här sedeln är äkta, men den där är falsk.",
+      "Experten såg skillnad på en äkta tavla och en falsk tavla."
     ],
     "related": [
       "äkta"
@@ -507,10 +507,10 @@ export const words = {
   },
   "rolig": {
     "opposite": "tråkig",
-    "description": "Rolig och tråkig beskriver om något väcker glädje eller känns långsamt och ointressant.",
+    "description": "Rolig och tråkig beskriver hur någon upplever en sak eller en händelse.",
     "examples": [
-      "Filmen var rolig, men föreläsningen efteråt var tråkig.",
-      "Vi hade en rolig kväll efter en tråkig dag på kontoret."
+      "Filmen var rolig, men boken var tråkig.",
+      "Vi hade en rolig kväll efter en tråkig dag."
     ],
     "related": [
       "tråkig"
@@ -518,10 +518,10 @@ export const words = {
   },
   "tråkig": {
     "opposite": "rolig",
-    "description": "Rolig och tråkig beskriver om något väcker glädje eller känns långsamt och ointressant.",
+    "description": "Rolig och tråkig beskriver hur någon upplever en sak eller en händelse.",
     "examples": [
-      "Filmen var rolig, men föreläsningen efteråt var tråkig.",
-      "Vi hade en rolig kväll efter en tråkig dag på kontoret."
+      "Filmen var rolig, men boken var tråkig.",
+      "Vi hade en rolig kväll efter en tråkig dag."
     ],
     "related": [
       "rolig"
@@ -529,10 +529,10 @@ export const words = {
   },
   "pigg": {
     "opposite": "trött",
-    "description": "Pigg och trött beskriver motsatta grader av vakenhet och energi.",
+    "description": "Pigg betyder att man har energi. Trött betyder att man behöver vila eller sova.",
     "examples": [
-      "Efter en god natts sömn var jag pigg, men på kvällen blev jag trött.",
-      "Katten var pigg på morgonen och trött efter leken."
+      "Jag är pigg på morgonen och trött på kvällen.",
+      "Efter en god natts sömn var hon pigg. Före läggdags var hon trött."
     ],
     "related": [
       "trött"
@@ -540,10 +540,10 @@ export const words = {
   },
   "trött": {
     "opposite": "pigg",
-    "description": "Pigg och trött beskriver motsatta grader av vakenhet och energi.",
+    "description": "Pigg betyder att man har energi. Trött betyder att man behöver vila eller sova.",
     "examples": [
-      "Efter en god natts sömn var jag pigg, men på kvällen blev jag trött.",
-      "Katten var pigg på morgonen och trött efter leken."
+      "Jag är pigg på morgonen och trött på kvällen.",
+      "Efter en god natts sömn var hon pigg. Före läggdags var hon trött."
     ],
     "related": [
       "pigg"
@@ -551,10 +551,10 @@ export const words = {
   },
   "bra": {
     "opposite": "dålig",
-    "description": "Bra och dålig uttrycker en positiv respektive negativ bedömning.",
+    "description": "Bra och dålig beskriver om vi tycker att något fungerar väl eller mindre väl.",
     "examples": [
       "Vädret var bra i går men dåligt i dag.",
-      "En bra plan kan hjälpa när något går dåligt."
+      "Skorna är bra för en promenad men dåliga för löpning."
     ],
     "related": [
       "dålig"
@@ -562,10 +562,10 @@ export const words = {
   },
   "dålig": {
     "opposite": "bra",
-    "description": "Bra och dålig uttrycker en positiv respektive negativ bedömning.",
+    "description": "Bra och dålig beskriver om vi tycker att något fungerar väl eller mindre väl.",
     "examples": [
       "Vädret var bra i går men dåligt i dag.",
-      "En bra plan kan hjälpa när något går dåligt."
+      "Skorna är bra för en promenad men dåliga för löpning."
     ],
     "related": [
       "bra"
@@ -573,10 +573,10 @@ export const words = {
   },
   "köpa": {
     "opposite": "sälja",
-    "description": "Köpa och sälja beskriver motsatta sidor av ett köp.",
+    "description": "Köpa och sälja beskriver samma affär från två håll. Köparen betalar och säljaren får pengarna.",
     "examples": [
-      "Vi ska köpa en cykel av butiken som säljer den.",
-      "Hon köpte den gamla stolen och sålde sitt skrivbord."
+      "Jag köper en cykel av dig, och du säljer den till mig.",
+      "Butiken säljer bröd som kunderna köper."
     ],
     "related": [
       "sälja"
@@ -584,10 +584,10 @@ export const words = {
   },
   "sälja": {
     "opposite": "köpa",
-    "description": "Köpa och sälja beskriver motsatta sidor av ett köp.",
+    "description": "Köpa och sälja beskriver samma affär från två håll. Köparen betalar och säljaren får pengarna.",
     "examples": [
-      "Vi ska köpa en cykel av butiken som säljer den.",
-      "Hon köpte den gamla stolen och sålde sitt skrivbord."
+      "Jag köper en cykel av dig, och du säljer den till mig.",
+      "Butiken säljer bröd som kunderna köper."
     ],
     "related": [
       "köpa"
@@ -595,10 +595,10 @@ export const words = {
   },
   "öka": {
     "opposite": "minska",
-    "description": "Öka och minska beskriver om en mängd eller nivå blir större eller mindre.",
+    "description": "Öka betyder att något blir större eller mer. Minska betyder att något blir mindre.",
     "examples": [
-      "Vi ökade hastigheten och minskade den sedan igen.",
-      "Företaget vill öka försäljningen och minska kostnaderna."
+      "Antalet besökare ökade på sommaren och minskade på hösten.",
+      "Vi ökade värmen när vi frös och minskade den när det blev för varmt."
     ],
     "related": [
       "minska"
@@ -606,10 +606,10 @@ export const words = {
   },
   "minska": {
     "opposite": "öka",
-    "description": "Öka och minska beskriver om en mängd eller nivå blir större eller mindre.",
+    "description": "Öka betyder att något blir större eller mer. Minska betyder att något blir mindre.",
     "examples": [
-      "Vi ökade hastigheten och minskade den sedan igen.",
-      "Företaget vill öka försäljningen och minska kostnaderna."
+      "Antalet besökare ökade på sommaren och minskade på hösten.",
+      "Vi ökade värmen när vi frös och minskade den när det blev för varmt."
     ],
     "related": [
       "öka"
@@ -617,10 +617,10 @@ export const words = {
   },
   "tända": {
     "opposite": "släcka",
-    "description": "Tända och släcka beskriver att starta respektive avsluta en låga eller ett ljus.",
+    "description": "Tända betyder att få något att lysa eller brinna. Släcka betyder att få det att sluta lysa eller brinna.",
     "examples": [
-      "Han tände lampan när det blev mörkt och släckte den när han gick.",
-      "Tänd ett ljus när du läser och släck det innan du lämnar rummet."
+      "Hon tände lampan när hon kom och släckte den när hon gick.",
+      "Vi tänder ljusen till middagen och släcker dem efteråt."
     ],
     "related": [
       "släcka"
@@ -628,10 +628,10 @@ export const words = {
   },
   "släcka": {
     "opposite": "tända",
-    "description": "Tända och släcka beskriver att starta respektive avsluta en låga eller ett ljus.",
+    "description": "Tända betyder att få något att lysa eller brinna. Släcka betyder att få det att sluta lysa eller brinna.",
     "examples": [
-      "Han tände lampan när det blev mörkt och släckte den när han gick.",
-      "Tänd ett ljus när du läser och släck det innan du lämnar rummet."
+      "Hon tände lampan när hon kom och släckte den när hon gick.",
+      "Vi tänder ljusen till middagen och släcker dem efteråt."
     ],
     "related": [
       "tända"
@@ -639,10 +639,10 @@ export const words = {
   },
   "vinna": {
     "opposite": "förlora",
-    "description": "Vinna och förlora beskriver motsatta resultat i en tävling eller match.",
+    "description": "Vinna och förlora beskriver olika resultat i en match eller tävling.",
     "examples": [
-      "Laget ville vinna finalen men visste att det kunde förlora.",
-      "Man kan vinna en match och ändå förlora nästa."
+      "Vårt lag vann, och det andra laget förlorade.",
+      "Vi vann den första matchen men förlorade den andra."
     ],
     "related": [
       "förlora"
@@ -650,10 +650,10 @@ export const words = {
   },
   "förlora": {
     "opposite": "vinna",
-    "description": "Vinna och förlora beskriver motsatta resultat i en tävling eller match.",
+    "description": "Vinna och förlora beskriver olika resultat i en match eller tävling.",
     "examples": [
-      "Laget ville vinna finalen men visste att det kunde förlora.",
-      "Man kan vinna en match och ändå förlora nästa."
+      "Vårt lag vann, och det andra laget förlorade.",
+      "Vi vann den första matchen men förlorade den andra."
     ],
     "related": [
       "vinna"
@@ -661,10 +661,10 @@ export const words = {
   },
   "börja": {
     "opposite": "sluta",
-    "description": "Börja och sluta markerar starten respektive slutet på något.",
+    "description": "Börja betyder att något startar. Sluta betyder att något tar slut.",
     "examples": [
       "Mötet började klockan nio och slutade klockan tio.",
-      "Hon började läsa på morgonen och slutade när biblioteket stängde."
+      "Hon började läsa efter lunch och slutade före middagen."
     ],
     "related": [
       "sluta"
@@ -672,10 +672,10 @@ export const words = {
   },
   "sluta": {
     "opposite": "börja",
-    "description": "Börja och sluta markerar starten respektive slutet på något.",
+    "description": "Börja betyder att något startar. Sluta betyder att något tar slut.",
     "examples": [
       "Mötet började klockan nio och slutade klockan tio.",
-      "Hon började läsa på morgonen och slutade när biblioteket stängde."
+      "Hon började läsa efter lunch och slutade före middagen."
     ],
     "related": [
       "börja"
@@ -683,10 +683,10 @@ export const words = {
   },
   "skratta": {
     "opposite": "gråta",
-    "description": "Skratta och gråta är olika känslomässiga reaktioner.",
+    "description": "Skratta och gråta används ofta som motsatser när man talar om känslor. Men man kan också gråta av glädje eller skratta när man är nervös.",
     "examples": [
-      "Barnet skrattade åt skämtet men grät när ballongen flög iväg.",
-      "Ibland kan man skratta av glädje och gråta av sorg."
+      "Barnet skrattade åt skämtet men grät när ballongen gick sönder.",
+      "Hon grät när hon slog sig och skrattade när pappa skojade."
     ],
     "related": [
       "gråta"
@@ -694,10 +694,10 @@ export const words = {
   },
   "gråta": {
     "opposite": "skratta",
-    "description": "Skratta och gråta är olika känslomässiga reaktioner.",
+    "description": "Skratta och gråta används ofta som motsatser när man talar om känslor. Men man kan också gråta av glädje eller skratta när man är nervös.",
     "examples": [
-      "Barnet skrattade åt skämtet men grät när ballongen flög iväg.",
-      "Ibland kan man skratta av glädje och gråta av sorg."
+      "Barnet skrattade åt skämtet men grät när ballongen gick sönder.",
+      "Hon grät när hon slog sig och skrattade när pappa skojade."
     ],
     "related": [
       "skratta"
@@ -705,10 +705,10 @@ export const words = {
   },
   "vän": {
     "opposite": "fiende",
-    "description": "Vän och fiende beskriver motsatta relationer mellan personer eller grupper.",
+    "description": "En vän är någon man tycker om och litar på. En fiende är någon som vill en illa eller som man är i konflikt med.",
     "examples": [
-      "I berättelsen blev den gamla fienden till slut en vän.",
-      "En vän hjälper dig, medan en fiende motarbetar dig."
+      "I sagan blev den gamla fienden en vän.",
+      "Hjälten fick hjälp av sina vänner och kämpade mot sina fiender."
     ],
     "related": [
       "fiende"
@@ -716,13 +716,585 @@ export const words = {
   },
   "fiende": {
     "opposite": "vän",
-    "description": "Vän och fiende beskriver motsatta relationer mellan personer eller grupper.",
+    "description": "En vän är någon man tycker om och litar på. En fiende är någon som vill en illa eller som man är i konflikt med.",
     "examples": [
-      "I berättelsen blev den gamla fienden till slut en vän.",
-      "En vän hjälper dig, medan en fiende motarbetar dig."
+      "I sagan blev den gamla fienden en vän.",
+      "Hjälten fick hjälp av sina vänner och kämpade mot sina fiender."
     ],
     "related": [
       "vän"
+    ]
+  },
+  "rik": {
+    "opposite": "fattig",
+    "description": "Rik betyder här att ha mycket pengar. Fattig betyder att ha lite pengar.",
+    "examples": [
+      "Hon var fattig som barn men blev rik som vuxen.",
+      "Den rika mannen gav pengar till en fattig familj."
+    ],
+    "related": [
+      "fattig"
+    ]
+  },
+  "fattig": {
+    "opposite": "rik",
+    "description": "Rik betyder här att ha mycket pengar. Fattig betyder att ha lite pengar.",
+    "examples": [
+      "Hon var fattig som barn men blev rik som vuxen.",
+      "Den rika mannen gav pengar till en fattig familj."
+    ],
+    "related": [
+      "rik"
+    ]
+  },
+  "vacker": {
+    "opposite": "ful",
+    "description": "Vacker och ful beskriver vad någon tycker om hur något ser ut.",
+    "examples": [
+      "Hon tyckte att tavlan var vacker, men han tyckte att den var ful.",
+      "Huset var fult före målningen och vackert efteråt."
+    ],
+    "related": [
+      "ful"
+    ]
+  },
+  "ful": {
+    "opposite": "vacker",
+    "description": "Vacker och ful beskriver vad någon tycker om hur något ser ut.",
+    "examples": [
+      "Hon tyckte att tavlan var vacker, men han tyckte att den var ful.",
+      "Huset var fult före målningen och vackert efteråt."
+    ],
+    "related": [
+      "vacker"
+    ]
+  },
+  "modig": {
+    "opposite": "rädd",
+    "description": "Modig och rädd används ibland som motsatser. Men man kan vara rädd och ändå vara modig, eftersom mod handlar om att våga trots rädslan.",
+    "examples": [
+      "Hon var rädd för att tala inför klassen men var modig och försökte ändå.",
+      "Han kände sig rädd före hoppet och modig efteråt."
+    ],
+    "related": [
+      "rädd"
+    ]
+  },
+  "rädd": {
+    "opposite": "modig",
+    "description": "Modig och rädd används ibland som motsatser. Men man kan vara rädd och ändå vara modig, eftersom mod handlar om att våga trots rädslan.",
+    "examples": [
+      "Hon var rädd för att tala inför klassen men var modig och försökte ändå.",
+      "Han kände sig rädd före hoppet och modig efteråt."
+    ],
+    "related": [
+      "modig"
+    ]
+  },
+  "trygg": {
+    "opposite": "otrygg",
+    "description": "Trygg betyder att känna sig säker. Otrygg betyder att känna sig osäker eller rädd.",
+    "examples": [
+      "Barnet kände sig tryggt hemma men otryggt på den mörka vägen.",
+      "Hon kände sig otrygg ensam men trygg när hennes vän kom."
+    ],
+    "related": [
+      "otrygg"
+    ]
+  },
+  "otrygg": {
+    "opposite": "trygg",
+    "description": "Trygg betyder att känna sig säker. Otrygg betyder att känna sig osäker eller rädd.",
+    "examples": [
+      "Barnet kände sig tryggt hemma men otryggt på den mörka vägen.",
+      "Hon kände sig otrygg ensam men trygg när hennes vän kom."
+    ],
+    "related": [
+      "trygg"
+    ]
+  },
+  "smart": {
+    "opposite": "dum",
+    "description": "Smart betyder här klok. Dum betyder här oklok. Orden beskriver en idé eller ett beslut.",
+    "examples": [
+      "Det var smart att spara biljetten och dumt att kasta den.",
+      "Vi valde en smart lösning i stället för en dum."
+    ],
+    "related": [
+      "dum"
+    ]
+  },
+  "dum": {
+    "opposite": "smart",
+    "description": "Smart betyder här klok. Dum betyder här oklok. Orden beskriver en idé eller ett beslut.",
+    "examples": [
+      "Det var smart att spara biljetten och dumt att kasta den.",
+      "Vi valde en smart lösning i stället för en dum."
+    ],
+    "related": [
+      "smart"
+    ]
+  },
+  "mätt": {
+    "opposite": "hungrig",
+    "description": "Mätt betyder att ha ätit tillräckligt. Hungrig betyder att vilja eller behöva äta.",
+    "examples": [
+      "Hon var hungrig före lunchen och mätt efteråt.",
+      "Barnen kom hungriga till bordet och gick därifrån mätta."
+    ],
+    "related": [
+      "hungrig"
+    ]
+  },
+  "hungrig": {
+    "opposite": "mätt",
+    "description": "Mätt betyder att ha ätit tillräckligt. Hungrig betyder att vilja eller behöva äta.",
+    "examples": [
+      "Hon var hungrig före lunchen och mätt efteråt.",
+      "Barnen kom hungriga till bordet och gick därifrån mätta."
+    ],
+    "related": [
+      "mätt"
+    ]
+  },
+  "lugn": {
+    "opposite": "stressad",
+    "description": "Lugn och stressad beskriver hur man kan känna sig.",
+    "examples": [
+      "Hon var stressad före provet och lugn efteråt.",
+      "Jag känner mig stressad när jag har bråttom och lugn när jag har gott om tid."
+    ],
+    "related": [
+      "stressad"
+    ]
+  },
+  "stressad": {
+    "opposite": "lugn",
+    "description": "Lugn och stressad beskriver hur man kan känna sig.",
+    "examples": [
+      "Hon var stressad före provet och lugn efteråt.",
+      "Jag känner mig stressad när jag har bråttom och lugn när jag har gott om tid."
+    ],
+    "related": [
+      "lugn"
+    ]
+  },
+  "nära": {
+    "opposite": "långt",
+    "description": "Nära betyder på kort avstånd. Långt betyder på stort avstånd.",
+    "examples": [
+      "Skolan ligger nära, men sjukhuset ligger långt bort.",
+      "Vi bor nära stationen och långt från flygplatsen."
+    ],
+    "related": [
+      "långt"
+    ]
+  },
+  "långt": {
+    "opposite": "nära",
+    "description": "Nära betyder på kort avstånd. Långt betyder på stort avstånd.",
+    "examples": [
+      "Skolan ligger nära, men sjukhuset ligger långt bort.",
+      "Vi bor nära stationen och långt från flygplatsen."
+    ],
+    "related": [
+      "nära"
+    ]
+  },
+  "tjock": {
+    "opposite": "tunn",
+    "description": "Tjock och tunn beskriver ett mått, till exempel hur mycket papper det finns i en bok.",
+    "examples": [
+      "Boken är tjock, men häftet är tunt.",
+      "Hon tog på sig en tjock jacka över den tunna tröjan."
+    ],
+    "related": [
+      "tunn"
+    ]
+  },
+  "tunn": {
+    "opposite": "tjock",
+    "description": "Tjock och tunn beskriver ett mått, till exempel hur mycket papper det finns i en bok.",
+    "examples": [
+      "Boken är tjock, men häftet är tunt.",
+      "Hon tog på sig en tjock jacka över den tunna tröjan."
+    ],
+    "related": [
+      "tjock"
+    ]
+  },
+  "höger": {
+    "opposite": "vänster",
+    "description": "Höger och vänster är motsatta sidor eller riktningar.",
+    "examples": [
+      "Sväng höger vid bron och vänster vid torget.",
+      "Han håller boken i höger hand och pennan i vänster hand."
+    ],
+    "related": [
+      "vänster"
+    ]
+  },
+  "vänster": {
+    "opposite": "höger",
+    "description": "Höger och vänster är motsatta sidor eller riktningar.",
+    "examples": [
+      "Sväng höger vid bron och vänster vid torget.",
+      "Han håller boken i höger hand och pennan i vänster hand."
+    ],
+    "related": [
+      "höger"
+    ]
+  },
+  "upp": {
+    "opposite": "ner",
+    "description": "Upp och ner är motsatta riktningar.",
+    "examples": [
+      "Hissen åkte upp först och sedan ner igen.",
+      "Bollen kastades upp och föll sedan ner."
+    ],
+    "related": [
+      "ner"
+    ]
+  },
+  "ner": {
+    "opposite": "upp",
+    "description": "Upp och ner är motsatta riktningar.",
+    "examples": [
+      "Hissen åkte upp först och sedan ner igen.",
+      "Bollen kastades upp och föll sedan ner."
+    ],
+    "related": [
+      "upp"
+    ]
+  },
+  "in": {
+    "opposite": "ut",
+    "description": "In och ut är motsatta riktningar, till exempel genom en dörr.",
+    "examples": [
+      "Katten gick in i huset och sedan ut i trädgården.",
+      "Vi gick in när det började regna och ut när regnet slutade."
+    ],
+    "related": [
+      "ut"
+    ]
+  },
+  "ut": {
+    "opposite": "in",
+    "description": "In och ut är motsatta riktningar, till exempel genom en dörr.",
+    "examples": [
+      "Katten gick in i huset och sedan ut i trädgården.",
+      "Vi gick in när det började regna och ut när regnet slutade."
+    ],
+    "related": [
+      "in"
+    ]
+  },
+  "dag": {
+    "opposite": "natt",
+    "description": "Dag är den ljusa delen av dygnet. Natt är den mörka delen.",
+    "examples": [
+      "Hon arbetar på dagen och sover på natten.",
+      "Butiken är öppen på dagen och stängd på natten."
+    ],
+    "related": [
+      "natt"
+    ]
+  },
+  "natt": {
+    "opposite": "dag",
+    "description": "Dag är den ljusa delen av dygnet. Natt är den mörka delen.",
+    "examples": [
+      "Hon arbetar på dagen och sover på natten.",
+      "Butiken är öppen på dagen och stängd på natten."
+    ],
+    "related": [
+      "dag"
+    ]
+  },
+  "fred": {
+    "opposite": "krig",
+    "description": "Fred betyder här att det inte är krig. Krig är en väpnad konflikt mellan länder eller grupper.",
+    "examples": [
+      "Efter många år av krig blev det fred.",
+      "Familjen flydde från kriget och hoppades på fred."
+    ],
+    "related": [
+      "krig"
+    ]
+  },
+  "krig": {
+    "opposite": "fred",
+    "description": "Fred betyder här att det inte är krig. Krig är en väpnad konflikt mellan länder eller grupper.",
+    "examples": [
+      "Efter många år av krig blev det fred.",
+      "Familjen flydde från kriget och hoppades på fred."
+    ],
+    "related": [
+      "fred"
+    ]
+  },
+  "liv": {
+    "opposite": "död",
+    "description": "Liv handlar om att leva. Död betyder att livet har tagit slut.",
+    "examples": [
+      "Boken handlar om liv och död.",
+      "Döden är slutet på livet."
+    ],
+    "related": [
+      "död"
+    ]
+  },
+  "död": {
+    "opposite": "liv",
+    "description": "Liv handlar om att leva. Död betyder att livet har tagit slut.",
+    "examples": [
+      "Boken handlar om liv och död.",
+      "Döden är slutet på livet."
+    ],
+    "related": [
+      "liv"
+    ]
+  },
+  "tillåta": {
+    "opposite": "förbjuda",
+    "description": "Tillåta betyder att säga att något får göras. Förbjuda betyder att säga att det inte får göras.",
+    "examples": [
+      "Skolan tillåter cykling på gården men förbjuder cykling i korridoren.",
+      "Bad är tillåtet vid stranden men förbjudet vid hamnen."
+    ],
+    "related": [
+      "förbjuda"
+    ]
+  },
+  "förbjuda": {
+    "opposite": "tillåta",
+    "description": "Tillåta betyder att säga att något får göras. Förbjuda betyder att säga att det inte får göras.",
+    "examples": [
+      "Skolan tillåter cykling på gården men förbjuder cykling i korridoren.",
+      "Bad är tillåtet vid stranden men förbjudet vid hamnen."
+    ],
+    "related": [
+      "tillåta"
+    ]
+  },
+  "spara": {
+    "opposite": "slösa",
+    "description": "Spara kan betyda att lägga undan något eller använda mindre av det. Slösa betyder att använda mer än vad som behövs.",
+    "examples": [
+      "Hon sparar pengar varje månad i stället för att slösa bort dem.",
+      "Stäng kranen för att spara vatten. Låt den inte rinna och slösa med vattnet."
+    ],
+    "related": [
+      "slösa"
+    ]
+  },
+  "slösa": {
+    "opposite": "spara",
+    "description": "Spara kan betyda att lägga undan något eller använda mindre av det. Slösa betyder att använda mer än vad som behövs.",
+    "examples": [
+      "Hon sparar pengar varje månad i stället för att slösa bort dem.",
+      "Stäng kranen för att spara vatten. Låt den inte rinna och slösa med vattnet."
+    ],
+    "related": [
+      "spara"
+    ]
+  },
+  "minnas": {
+    "opposite": "glömma",
+    "description": "Minnas betyder att komma ihåg. Glömma betyder att inte komma ihåg.",
+    "examples": [
+      "Jag minns ditt namn men har glömt din adress.",
+      "Hon mindes mötet, men han hade glömt det."
+    ],
+    "related": [
+      "glömma"
+    ]
+  },
+  "glömma": {
+    "opposite": "minnas",
+    "description": "Minnas betyder att komma ihåg. Glömma betyder att inte komma ihåg.",
+    "examples": [
+      "Jag minns ditt namn men har glömt din adress.",
+      "Hon mindes mötet, men han hade glömt det."
+    ],
+    "related": [
+      "minnas"
+    ]
+  },
+  "lyckas": {
+    "opposite": "misslyckas",
+    "description": "Lyckas betyder att nå sitt mål. Misslyckas betyder att inte nå sitt mål.",
+    "examples": [
+      "Hon lyckades med uppgiften efter att först ha misslyckats.",
+      "Vi misslyckades första gången men lyckades nästa gång."
+    ],
+    "related": [
+      "misslyckas"
+    ]
+  },
+  "misslyckas": {
+    "opposite": "lyckas",
+    "description": "Lyckas betyder att nå sitt mål. Misslyckas betyder att inte nå sitt mål.",
+    "examples": [
+      "Hon lyckades med uppgiften efter att först ha misslyckats.",
+      "Vi misslyckades första gången men lyckades nästa gång."
+    ],
+    "related": [
+      "lyckas"
+    ]
+  },
+  "bygga": {
+    "opposite": "riva",
+    "description": "Bygga betyder att sätta ihop något, till exempel ett hus. Riva betyder här att ta ner det som har byggts.",
+    "examples": [
+      "De ska bygga en ny bro och riva den gamla.",
+      "Först rev de muren. Sedan byggde de en ny."
+    ],
+    "related": [
+      "riva"
+    ]
+  },
+  "riva": {
+    "opposite": "bygga",
+    "description": "Bygga betyder att sätta ihop något, till exempel ett hus. Riva betyder här att ta ner det som har byggts.",
+    "examples": [
+      "De ska bygga en ny bro och riva den gamla.",
+      "Först rev de muren. Sedan byggde de en ny."
+    ],
+    "related": [
+      "bygga"
+    ]
+  },
+  "aktiv": {
+    "opposite": "passiv",
+    "description": "Aktiv betyder här att vara med och göra något. Passiv betyder att mest vänta eller se på.",
+    "examples": [
+      "Hon var aktiv på mötet och gav förslag. Han var passiv och lyssnade.",
+      "En aktiv spelare deltar i spelet. En passiv spelare står mest stilla."
+    ],
+    "related": [
+      "passiv"
+    ]
+  },
+  "passiv": {
+    "opposite": "aktiv",
+    "description": "Aktiv betyder här att vara med och göra något. Passiv betyder att mest vänta eller se på.",
+    "examples": [
+      "Hon var aktiv på mötet och gav förslag. Han var passiv och lyssnade.",
+      "En aktiv spelare deltar i spelet. En passiv spelare står mest stilla."
+    ],
+    "related": [
+      "aktiv"
+    ]
+  },
+  "positiv": {
+    "opposite": "negativ",
+    "description": "Positiv och negativ beskriver här vad någon tycker om något.",
+    "examples": [
+      "Hon var positiv till förslaget, men han var negativ.",
+      "Jag var negativ till planen först men blev positiv när jag fick veta mer."
+    ],
+    "related": [
+      "negativ"
+    ]
+  },
+  "negativ": {
+    "opposite": "positiv",
+    "description": "Positiv och negativ beskriver här vad någon tycker om något.",
+    "examples": [
+      "Hon var positiv till förslaget, men han var negativ.",
+      "Jag var negativ till planen först men blev positiv när jag fick veta mer."
+    ],
+    "related": [
+      "positiv"
+    ]
+  },
+  "närvarande": {
+    "opposite": "frånvarande",
+    "description": "Närvarande betyder att vara på plats. Frånvarande betyder att inte vara där.",
+    "examples": [
+      "De flesta elever var närvarande, men två var frånvarande.",
+      "Hon var frånvarande på måndagen och närvarande på tisdagen."
+    ],
+    "related": [
+      "frånvarande"
+    ]
+  },
+  "frånvarande": {
+    "opposite": "närvarande",
+    "description": "Närvarande betyder att vara på plats. Frånvarande betyder att inte vara där.",
+    "examples": [
+      "De flesta elever var närvarande, men två var frånvarande.",
+      "Hon var frånvarande på måndagen och närvarande på tisdagen."
+    ],
+    "related": [
+      "närvarande"
+    ]
+  },
+  "många": {
+    "opposite": "få",
+    "description": "Många och få beskriver ett stort eller litet antal.",
+    "examples": [
+      "Det fanns många äpplen och få päron.",
+      "Många kom till festen, men få stannade till slutet."
+    ],
+    "related": [
+      "få"
+    ]
+  },
+  "få": {
+    "opposite": "många",
+    "description": "Många och få beskriver ett stort eller litet antal.",
+    "examples": [
+      "Det fanns många äpplen och få päron.",
+      "Många kom till festen, men få stannade till slutet."
+    ],
+    "related": [
+      "många"
+    ]
+  },
+  "mer": {
+    "opposite": "mindre",
+    "description": "Mer och mindre beskriver en större eller mindre mängd.",
+    "examples": [
+      "Jag vill ha mer kaffe, men hon vill ha mindre.",
+      "Hon tränar mer på sommaren och mindre på vintern."
+    ],
+    "related": [
+      "mindre"
+    ]
+  },
+  "mindre": {
+    "opposite": "mer",
+    "description": "Mer och mindre beskriver en större eller mindre mängd.",
+    "examples": [
+      "Jag vill ha mer kaffe, men hon vill ha mindre.",
+      "Hon tränar mer på sommaren och mindre på vintern."
+    ],
+    "related": [
+      "mer"
+    ]
+  },
+  "alltid": {
+    "opposite": "aldrig",
+    "description": "Alltid betyder varje gång. Aldrig betyder inte en enda gång.",
+    "examples": [
+      "Hon låser alltid dörren och lämnar den aldrig olåst.",
+      "Han tar alltid bussen till jobbet och kör aldrig bil dit."
+    ],
+    "related": [
+      "aldrig"
+    ]
+  },
+  "aldrig": {
+    "opposite": "alltid",
+    "description": "Alltid betyder varje gång. Aldrig betyder inte en enda gång.",
+    "examples": [
+      "Hon låser alltid dörren och lämnar den aldrig olåst.",
+      "Han tar alltid bussen till jobbet och kör aldrig bil dit."
+    ],
+    "related": [
+      "alltid"
     ]
   }
 } as const;
