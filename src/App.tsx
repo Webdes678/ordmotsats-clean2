@@ -132,7 +132,7 @@ function HomePage() {
         </div>
       </section>
 
-      <footer className="footer">© 2026 motsatsord.se · Svenska motsatsord</footer>
+      <footer className="footer">© 2026 motsatsord.se · Svenska motsatsord · Ordpar med stöd av <a href="https://sv.wiktionary.org/">Wiktionary</a> (<a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>)</footer>
     </main>
   )
 }
@@ -204,7 +204,7 @@ function WordPage() {
         )}
       </section>
 
-      <footer className="footer">© 2026 motsatsord.se · Svenska motsatsord</footer>
+      <footer className="footer">© 2026 motsatsord.se · Svenska motsatsord · Ordpar med stöd av <a href="https://sv.wiktionary.org/">Wiktionary</a> (<a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>)</footer>
     </main>
   )
 }
