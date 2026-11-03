@@ -2770,5 +2770,1127 @@ export const words = {
     "related": [
       "objektiv"
     ]
+  },
+  "plural": {
+    "opposite": "singular",
+    "description": "Singular är en form för en enda. Plural är en form för flera.",
+    "examples": [
+      "Ordet ”bil” står i singular och ”bilar” står i plural.",
+      "Rubriken använder singular, men listan under använder plural."
+    ],
+    "related": [
+      "singular"
+    ]
+  },
+  "singular": {
+    "opposite": "plural",
+    "description": "Singular är en form för en enda. Plural är en form för flera.",
+    "examples": [
+      "Ordet ”bil” står i singular och ”bilar” står i plural.",
+      "Rubriken använder singular, men listan under använder plural."
+    ],
+    "related": [
+      "plural"
+    ]
+  },
+  "automatisk": {
+    "opposite": "manuell",
+    "description": "Automatisk betyder att något sker av sig självt enligt ett system. Manuell betyder att en person styr eller gör det.",
+    "examples": [
+      "Dörren öppnas automatiskt, men reservlåset är manuellt.",
+      "Maskinen har ett automatiskt läge och ett manuellt läge."
+    ],
+    "related": [
+      "manuell"
+    ]
+  },
+  "manuell": {
+    "opposite": "automatisk",
+    "description": "Automatisk betyder att något sker av sig självt enligt ett system. Manuell betyder att en person styr eller gör det.",
+    "examples": [
+      "Dörren öppnas automatiskt, men reservlåset är manuellt.",
+      "Maskinen har ett automatiskt läge och ett manuellt läge."
+    ],
+    "related": [
+      "automatisk"
+    ]
+  },
+  "borta": {
+    "opposite": "hemma",
+    "description": "Hemma betyder på den plats där man bor. Borta betyder att man inte är där.",
+    "examples": [
+      "Hon är hemma i kväll men borta i morgon.",
+      "När katten var borta längtade barnen tills den var hemma igen."
+    ],
+    "related": [
+      "hemma"
+    ]
+  },
+  "hemma": {
+    "opposite": "borta",
+    "description": "Hemma betyder på den plats där man bor. Borta betyder att man inte är där.",
+    "examples": [
+      "Hon är hemma i kväll men borta i morgon.",
+      "När katten var borta längtade barnen tills den var hemma igen."
+    ],
+    "related": [
+      "borta"
+    ]
+  },
+  "konkav": {
+    "opposite": "konvex",
+    "description": "En konkav yta buktar inåt. En konvex yta buktar utåt.",
+    "examples": [
+      "Skålens insida är konkav och utsidan är konvex.",
+      "En konkav lins och en konvex lins böjer ljus på olika sätt."
+    ],
+    "related": [
+      "konvex"
+    ]
+  },
+  "konvex": {
+    "opposite": "konkav",
+    "description": "En konkav yta buktar inåt. En konvex yta buktar utåt.",
+    "examples": [
+      "Skålens insida är konkav och utsidan är konvex.",
+      "En konkav lins och en konvex lins böjer ljus på olika sätt."
+    ],
+    "related": [
+      "konkav"
+    ]
+  },
+  "bekräfta": {
+    "opposite": "dementera",
+    "description": "Bekräfta betyder att säga att en uppgift stämmer. Dementera betyder att säga att den inte stämmer.",
+    "examples": [
+      "Företaget bekräftade nyheten, medan myndigheten dementerade ryktet.",
+      "Hon ville varken bekräfta eller dementera uppgiften."
+    ],
+    "related": [
+      "dementera"
+    ]
+  },
+  "dementera": {
+    "opposite": "bekräfta",
+    "description": "Bekräfta betyder att säga att en uppgift stämmer. Dementera betyder att säga att den inte stämmer.",
+    "examples": [
+      "Företaget bekräftade nyheten, medan myndigheten dementerade ryktet.",
+      "Hon ville varken bekräfta eller dementera uppgiften."
+    ],
+    "related": [
+      "bekräfta"
+    ]
+  },
+  "horisontell": {
+    "opposite": "vertikal",
+    "description": "Horisontell betyder vågrät. Vertikal betyder lodrät.",
+    "examples": [
+      "Bordsskivan är horisontell och bordsbenet är vertikalt.",
+      "Rita först en horisontell linje och sedan en vertikal."
+    ],
+    "related": [
+      "vertikal"
+    ]
+  },
+  "vertikal": {
+    "opposite": "horisontell",
+    "description": "Horisontell betyder vågrät. Vertikal betyder lodrät.",
+    "examples": [
+      "Bordsskivan är horisontell och bordsbenet är vertikalt.",
+      "Rita först en horisontell linje och sedan en vertikal."
+    ],
+    "related": [
+      "horisontell"
+    ]
+  },
+  "vass": {
+    "opposite": "trubbig",
+    "description": "Vass betyder att en kant eller spets lätt kan skära eller sticka. Trubbig betyder att den inte är skarp.",
+    "examples": [
+      "Den nya kniven är vass, men den gamla är trubbig.",
+      "En vass penna ger en tunn linje; en trubbig penna ger en bredare."
+    ],
+    "related": [
+      "trubbig"
+    ]
+  },
+  "trubbig": {
+    "opposite": "vass",
+    "description": "Vass betyder att en kant eller spets lätt kan skära eller sticka. Trubbig betyder att den inte är skarp.",
+    "examples": [
+      "Den nya kniven är vass, men den gamla är trubbig.",
+      "En vass penna ger en tunn linje; en trubbig penna ger en bredare."
+    ],
+    "related": [
+      "vass"
+    ]
+  },
+  "aerob": {
+    "opposite": "anaerob",
+    "description": "Aerob betyder att syre används. Anaerob betyder att processen sker utan syre.",
+    "examples": [
+      "Lugn löpning är ofta aerob träning, medan en kort maxinsats kan vara anaerob.",
+      "Bakterien kan växa aerobt med syre eller anaerobt utan syre."
+    ],
+    "related": [
+      "anaerob"
+    ]
+  },
+  "anaerob": {
+    "opposite": "aerob",
+    "description": "Aerob betyder att syre används. Anaerob betyder att processen sker utan syre.",
+    "examples": [
+      "Lugn löpning är ofta aerob träning, medan en kort maxinsats kan vara anaerob.",
+      "Bakterien kan växa aerobt med syre eller anaerobt utan syre."
+    ],
+    "related": [
+      "aerob"
+    ]
+  },
+  "obligatorisk": {
+    "opposite": "valfri",
+    "description": "Obligatorisk betyder att något måste göras. Valfri betyder att man själv får välja.",
+    "examples": [
+      "Första uppgiften är obligatorisk och den andra är valfri.",
+      "Närvaro är obligatorisk på måndagen men valfri på fredagen."
+    ],
+    "related": [
+      "valfri"
+    ]
+  },
+  "valfri": {
+    "opposite": "obligatorisk",
+    "description": "Obligatorisk betyder att något måste göras. Valfri betyder att man själv får välja.",
+    "examples": [
+      "Första uppgiften är obligatorisk och den andra är valfri.",
+      "Närvaro är obligatorisk på måndagen men valfri på fredagen."
+    ],
+    "related": [
+      "obligatorisk"
+    ]
+  },
+  "självisk": {
+    "opposite": "osjälvisk",
+    "description": "Självisk betyder att främst tänka på sig själv. Osjälvisk betyder att också sätta andras behov först.",
+    "examples": [
+      "Det var själviskt att ta allt, men osjälviskt att dela med sig.",
+      "Hon gjorde en osjälvisk insats i stället för ett själviskt val."
+    ],
+    "related": [
+      "osjälvisk"
+    ]
+  },
+  "osjälvisk": {
+    "opposite": "självisk",
+    "description": "Självisk betyder att främst tänka på sig själv. Osjälvisk betyder att också sätta andras behov först.",
+    "examples": [
+      "Det var själviskt att ta allt, men osjälviskt att dela med sig.",
+      "Hon gjorde en osjälvisk insats i stället för ett själviskt val."
+    ],
+    "related": [
+      "självisk"
+    ]
+  },
+  "professionell": {
+    "opposite": "oprofessionell",
+    "description": "Professionell betyder här att arbeta kunnigt och korrekt. Oprofessionell betyder att inte göra det.",
+    "examples": [
+      "Bemötandet var professionellt och lugnt, men det första svaret var oprofessionellt.",
+      "En professionell rapport är tydlig; en oprofessionell kan vara slarvig."
+    ],
+    "related": [
+      "oprofessionell"
+    ]
+  },
+  "oprofessionell": {
+    "opposite": "professionell",
+    "description": "Professionell betyder här att arbeta kunnigt och korrekt. Oprofessionell betyder att inte göra det.",
+    "examples": [
+      "Bemötandet var professionellt och lugnt, men det första svaret var oprofessionellt.",
+      "En professionell rapport är tydlig; en oprofessionell kan vara slarvig."
+    ],
+    "related": [
+      "professionell"
+    ]
+  },
+  "nedåt": {
+    "opposite": "uppåt",
+    "description": "Nedåt är riktningen mot en lägre plats. Uppåt är riktningen mot en högre plats.",
+    "examples": [
+      "Hissen gick uppåt och trappan ledde nedåt.",
+      "Pilen åt vänster pekar nedåt och den andra pekar uppåt."
+    ],
+    "related": [
+      "uppåt"
+    ]
+  },
+  "uppåt": {
+    "opposite": "nedåt",
+    "description": "Nedåt är riktningen mot en lägre plats. Uppåt är riktningen mot en högre plats.",
+    "examples": [
+      "Hissen gick uppåt och trappan ledde nedåt.",
+      "Pilen åt vänster pekar nedåt och den andra pekar uppåt."
+    ],
+    "related": [
+      "nedåt"
+    ]
+  },
+  "tur": {
+    "opposite": "otur",
+    "description": "Tur betyder att något bra händer av en slump. Otur betyder att något dåligt händer av en slump.",
+    "examples": [
+      "Vi hade tur och hann med tåget; han hade otur och missade det.",
+      "Det var otur att det regnade, men tur att vi hade paraply."
+    ],
+    "related": [
+      "otur"
+    ]
+  },
+  "otur": {
+    "opposite": "tur",
+    "description": "Tur betyder att något bra händer av en slump. Otur betyder att något dåligt händer av en slump.",
+    "examples": [
+      "Vi hade tur och hann med tåget; han hade otur och missade det.",
+      "Det var otur att det regnade, men tur att vi hade paraply."
+    ],
+    "related": [
+      "tur"
+    ]
+  },
+  "global": {
+    "opposite": "lokal",
+    "description": "Global betyder att något gäller hela världen. Lokal betyder att det gäller ett mindre område eller en viss plats.",
+    "examples": [
+      "Klimatet är en global fråga, medan busstiden är en lokal fråga.",
+      "Företaget säljer globalt men har också en lokal butik."
+    ],
+    "related": [
+      "lokal"
+    ]
+  },
+  "lokal": {
+    "opposite": "global",
+    "description": "Global betyder att något gäller hela världen. Lokal betyder att det gäller ett mindre område eller en viss plats.",
+    "examples": [
+      "Klimatet är en global fråga, medan busstiden är en lokal fråga.",
+      "Företaget säljer globalt men har också en lokal butik."
+    ],
+    "related": [
+      "global"
+    ]
+  },
+  "reversibel": {
+    "opposite": "irreversibel",
+    "description": "Reversibel betyder att något kan göras om eller återställas. Irreversibel betyder att det inte kan återställas.",
+    "examples": [
+      "Ändringen är reversibel och kan tas tillbaka.",
+      "Skadan blev irreversibel, medan den mindre förändringen var reversibel."
+    ],
+    "related": [
+      "irreversibel"
+    ]
+  },
+  "irreversibel": {
+    "opposite": "reversibel",
+    "description": "Reversibel betyder att något kan göras om eller återställas. Irreversibel betyder att det inte kan återställas.",
+    "examples": [
+      "Ändringen är reversibel och kan tas tillbaka.",
+      "Skadan blev irreversibel, medan den mindre förändringen var reversibel."
+    ],
+    "related": [
+      "reversibel"
+    ]
+  },
+  "föregående": {
+    "opposite": "nästa",
+    "description": "Föregående betyder den som kom närmast före. Nästa betyder den som kommer närmast efter.",
+    "examples": [
+      "Det föregående kapitlet var kortare än nästa.",
+      "Vi rättade felet från föregående vecka inför nästa vecka."
+    ],
+    "related": [
+      "nästa"
+    ]
+  },
+  "nästa": {
+    "opposite": "föregående",
+    "description": "Föregående betyder den som kom närmast före. Nästa betyder den som kommer närmast efter.",
+    "examples": [
+      "Det föregående kapitlet var kortare än nästa.",
+      "Vi rättade felet från föregående vecka inför nästa vecka."
+    ],
+    "related": [
+      "föregående"
+    ]
+  },
+  "explosion": {
+    "opposite": "implosion",
+    "description": "En explosion pressar material utåt. En implosion innebär att något kollapsar inåt.",
+    "examples": [
+      "Trycket orsakade en explosion utåt, inte en implosion inåt.",
+      "Vid en explosion sprids delar utåt; vid en implosion faller de inåt."
+    ],
+    "related": [
+      "implosion"
+    ]
+  },
+  "implosion": {
+    "opposite": "explosion",
+    "description": "En explosion pressar material utåt. En implosion innebär att något kollapsar inåt.",
+    "examples": [
+      "Trycket orsakade en explosion utåt, inte en implosion inåt.",
+      "Vid en explosion sprids delar utåt; vid en implosion faller de inåt."
+    ],
+    "related": [
+      "explosion"
+    ]
+  },
+  "mottagare": {
+    "opposite": "sändare",
+    "description": "En sändare skickar en signal eller ett meddelande. En mottagare tar emot det.",
+    "examples": [
+      "Radions sändare skickar signalen till mottagaren.",
+      "Brevet har en sändare och en mottagare."
+    ],
+    "related": [
+      "sändare"
+    ]
+  },
+  "sändare": {
+    "opposite": "mottagare",
+    "description": "En sändare skickar en signal eller ett meddelande. En mottagare tar emot det.",
+    "examples": [
+      "Radions sändare skickar signalen till mottagaren.",
+      "Brevet har en sändare och en mottagare."
+    ],
+    "related": [
+      "mottagare"
+    ]
+  },
+  "öppning": {
+    "opposite": "stängning",
+    "description": "Öppning betyder att något öppnas eller börjar vara öppet. Stängning betyder att det stängs.",
+    "examples": [
+      "Butikens öppning är klockan nio och stängningen är klockan sex.",
+      "Dörrens öppning gick lätt, men stängningen krävde mer kraft."
+    ],
+    "related": [
+      "stängning"
+    ]
+  },
+  "stängning": {
+    "opposite": "öppning",
+    "description": "Öppning betyder att något öppnas eller börjar vara öppet. Stängning betyder att det stängs.",
+    "examples": [
+      "Butikens öppning är klockan nio och stängningen är klockan sex.",
+      "Dörrens öppning gick lätt, men stängningen krävde mer kraft."
+    ],
+    "related": [
+      "öppning"
+    ]
+  },
+  "högertrafik": {
+    "opposite": "vänstertrafik",
+    "description": "Högertrafik betyder att fordon kör på höger sida. Vänstertrafik betyder att de kör på vänster sida.",
+    "examples": [
+      "Sverige har högertrafik, medan Storbritannien har vänstertrafik.",
+      "Vid gränsen bytte vägen från vänstertrafik till högertrafik."
+    ],
+    "related": [
+      "vänstertrafik"
+    ]
+  },
+  "vänstertrafik": {
+    "opposite": "högertrafik",
+    "description": "Högertrafik betyder att fordon kör på höger sida. Vänstertrafik betyder att de kör på vänster sida.",
+    "examples": [
+      "Sverige har högertrafik, medan Storbritannien har vänstertrafik.",
+      "Vid gränsen bytte vägen från vänstertrafik till högertrafik."
+    ],
+    "related": [
+      "högertrafik"
+    ]
+  },
+  "köpare": {
+    "opposite": "säljare",
+    "description": "En köpare betalar för något. En säljare erbjuder och säljer det.",
+    "examples": [
+      "Köparen betalade och säljaren lämnade över varan.",
+      "Avtalet skrevs under av både köpare och säljare."
+    ],
+    "related": [
+      "säljare"
+    ]
+  },
+  "säljare": {
+    "opposite": "köpare",
+    "description": "En köpare betalar för något. En säljare erbjuder och säljer det.",
+    "examples": [
+      "Köparen betalade och säljaren lämnade över varan.",
+      "Avtalet skrevs under av både köpare och säljare."
+    ],
+    "related": [
+      "köpare"
+    ]
+  },
+  "ankomst": {
+    "opposite": "avfärd",
+    "description": "Ankomst är när någon eller något kommer fram. Avfärd är när resan börjar från en plats.",
+    "examples": [
+      "Tågets avfärd är klockan åtta och ankomsten klockan tio.",
+      "Vi väntade på hennes ankomst efter deras tidiga avfärd."
+    ],
+    "related": [
+      "avfärd"
+    ]
+  },
+  "avfärd": {
+    "opposite": "ankomst",
+    "description": "Ankomst är när någon eller något kommer fram. Avfärd är när resan börjar från en plats.",
+    "examples": [
+      "Tågets avfärd är klockan åtta och ankomsten klockan tio.",
+      "Vi väntade på hennes ankomst efter deras tidiga avfärd."
+    ],
+    "related": [
+      "ankomst"
+    ]
+  },
+  "generalisera": {
+    "opposite": "specialisera",
+    "description": "Generalisera betyder att göra en bred slutsats eller göra något mer allmänt. Specialisera betyder att inrikta sig på ett smalare område.",
+    "examples": [
+      "Det är svårt att generalisera från ett enda fall.",
+      "Forskaren försökte generalisera resultaten men valde sedan att specialisera analysen på en åldersgrupp."
+    ],
+    "related": [
+      "specialisera"
+    ]
+  },
+  "specialisera": {
+    "opposite": "generalisera",
+    "description": "Generalisera betyder att göra en bred slutsats eller göra något mer allmänt. Specialisera betyder att inrikta sig på ett smalare område.",
+    "examples": [
+      "Det är svårt att generalisera från ett enda fall.",
+      "Forskaren försökte generalisera resultaten men valde sedan att specialisera analysen på en åldersgrupp."
+    ],
+    "related": [
+      "generalisera"
+    ]
+  },
+  "permanent": {
+    "opposite": "temporär",
+    "description": "Permanent betyder varaktig. Temporär betyder att något bara gäller under en begränsad tid.",
+    "examples": [
+      "Bron är en permanent lösning, medan färjan var temporär.",
+      "Hon fick först ett temporärt rum och senare ett permanent."
+    ],
+    "related": [
+      "temporär"
+    ]
+  },
+  "temporär": {
+    "opposite": "permanent",
+    "description": "Permanent betyder varaktig. Temporär betyder att något bara gäller under en begränsad tid.",
+    "examples": [
+      "Bron är en permanent lösning, medan färjan var temporär.",
+      "Hon fick först ett temporärt rum och senare ett permanent."
+    ],
+    "related": [
+      "permanent"
+    ]
+  },
+  "emigrera": {
+    "opposite": "immigrera",
+    "description": "Emigrera betyder att flytta ut från ett land. Immigrera betyder att flytta in i ett land.",
+    "examples": [
+      "Familjen emigrerade från Sverige och immigrerade till Kanada.",
+      "Samma flytt kan beskrivas som att emigrera från ett land och immigrera till ett annat."
+    ],
+    "related": [
+      "immigrera"
+    ]
+  },
+  "immigrera": {
+    "opposite": "emigrera",
+    "description": "Emigrera betyder att flytta ut från ett land. Immigrera betyder att flytta in i ett land.",
+    "examples": [
+      "Familjen emigrerade från Sverige och immigrerade till Kanada.",
+      "Samma flytt kan beskrivas som att emigrera från ett land och immigrera till ett annat."
+    ],
+    "related": [
+      "emigrera"
+    ]
+  },
+  "invandring": {
+    "opposite": "utvandring",
+    "description": "Invandring är flytt in i ett land. Utvandring är flytt ut ur ett land.",
+    "examples": [
+      "Statistiken visar både invandring till landet och utvandring från det.",
+      "Samma person räknas som utvandring i ursprungslandet och invandring i det nya landet."
+    ],
+    "related": [
+      "utvandring"
+    ]
+  },
+  "utvandring": {
+    "opposite": "invandring",
+    "description": "Invandring är flytt in i ett land. Utvandring är flytt ut ur ett land.",
+    "examples": [
+      "Statistiken visar både invandring till landet och utvandring från det.",
+      "Samma person räknas som utvandring i ursprungslandet och invandring i det nya landet."
+    ],
+    "related": [
+      "invandring"
+    ]
+  },
+  "inandning": {
+    "opposite": "utandning",
+    "description": "Inandning betyder att luft dras in i lungorna. Utandning betyder att luft pressas ut.",
+    "examples": [
+      "En lugn inandning följdes av en lång utandning.",
+      "Övningen växlar mellan fyra sekunders inandning och sex sekunders utandning."
+    ],
+    "related": [
+      "utandning"
+    ]
+  },
+  "utandning": {
+    "opposite": "inandning",
+    "description": "Inandning betyder att luft dras in i lungorna. Utandning betyder att luft pressas ut.",
+    "examples": [
+      "En lugn inandning följdes av en lång utandning.",
+      "Övningen växlar mellan fyra sekunders inandning och sex sekunders utandning."
+    ],
+    "related": [
+      "inandning"
+    ]
+  },
+  "frånvaro": {
+    "opposite": "närvaro",
+    "description": "Närvaro betyder att någon är på plats. Frånvaro betyder att personen inte är där.",
+    "examples": [
+      "Läraren noterade både elevernas närvaro och deras frånvaro.",
+      "Hennes närvaro märktes direkt efter en veckas frånvaro."
+    ],
+    "related": [
+      "närvaro"
+    ]
+  },
+  "närvaro": {
+    "opposite": "frånvaro",
+    "description": "Närvaro betyder att någon är på plats. Frånvaro betyder att personen inte är där.",
+    "examples": [
+      "Läraren noterade både elevernas närvaro och deras frånvaro.",
+      "Hennes närvaro märktes direkt efter en veckas frånvaro."
+    ],
+    "related": [
+      "frånvaro"
+    ]
+  },
+  "inomlands": {
+    "opposite": "utomlands",
+    "description": "Inomlands betyder i det egna landet. Utomlands betyder i ett annat land.",
+    "examples": [
+      "Vi reste inomlands i somras och utomlands i vintras.",
+      "Paketet kan skickas både inomlands och utomlands."
+    ],
+    "related": [
+      "utomlands"
+    ]
+  },
+  "utomlands": {
+    "opposite": "inomlands",
+    "description": "Inomlands betyder i det egna landet. Utomlands betyder i ett annat land.",
+    "examples": [
+      "Vi reste inomlands i somras och utomlands i vintras.",
+      "Paketet kan skickas både inomlands och utomlands."
+    ],
+    "related": [
+      "inomlands"
+    ]
+  },
+  "inifrån": {
+    "opposite": "utifrån",
+    "description": "Inifrån betyder från insidan. Utifrån betyder från utsidan.",
+    "examples": [
+      "Dörren låstes inifrån och öppnades utifrån.",
+      "Huset såg litet ut utifrån men rymligt inifrån."
+    ],
+    "related": [
+      "utifrån"
+    ]
+  },
+  "utifrån": {
+    "opposite": "inifrån",
+    "description": "Inifrån betyder från insidan. Utifrån betyder från utsidan.",
+    "examples": [
+      "Dörren låstes inifrån och öppnades utifrån.",
+      "Huset såg litet ut utifrån men rymligt inifrån."
+    ],
+    "related": [
+      "inifrån"
+    ]
+  },
+  "inländsk": {
+    "opposite": "utländsk",
+    "description": "Inländsk betyder från det egna landet. Utländsk betyder från ett annat land.",
+    "examples": [
+      "Butiken säljer både inländsk och utländsk frukt.",
+      "Den inländska filmen tävlade mot flera utländska filmer."
+    ],
+    "related": [
+      "utländsk"
+    ]
+  },
+  "utländsk": {
+    "opposite": "inländsk",
+    "description": "Inländsk betyder från det egna landet. Utländsk betyder från ett annat land.",
+    "examples": [
+      "Butiken säljer både inländsk och utländsk frukt.",
+      "Den inländska filmen tävlade mot flera utländska filmer."
+    ],
+    "related": [
+      "inländsk"
+    ]
+  },
+  "dystopi": {
+    "opposite": "utopi",
+    "description": "En utopi skildrar ett idealiskt samhälle. En dystopi skildrar ett samhälle där mycket har gått fel.",
+    "examples": [
+      "Boken börjar som en utopi men utvecklas till en dystopi.",
+      "En utopi visar drömsamhället, medan en dystopi visar en mörk framtid."
+    ],
+    "related": [
+      "utopi"
+    ]
+  },
+  "utopi": {
+    "opposite": "dystopi",
+    "description": "En utopi skildrar ett idealiskt samhälle. En dystopi skildrar ett samhälle där mycket har gått fel.",
+    "examples": [
+      "Boken börjar som en utopi men utvecklas till en dystopi.",
+      "En utopi visar drömsamhället, medan en dystopi visar en mörk framtid."
+    ],
+    "related": [
+      "dystopi"
+    ]
+  },
+  "aktning": {
+    "opposite": "förakt",
+    "description": "Aktning betyder respekt. Förakt betyder stark brist på respekt.",
+    "examples": [
+      "Hon talade om läraren med aktning, inte med förakt.",
+      "Hans mod väckte aktning, medan hans grymhet väckte förakt."
+    ],
+    "related": [
+      "förakt"
+    ]
+  },
+  "förakt": {
+    "opposite": "aktning",
+    "description": "Aktning betyder respekt. Förakt betyder stark brist på respekt.",
+    "examples": [
+      "Hon talade om läraren med aktning, inte med förakt.",
+      "Hans mod väckte aktning, medan hans grymhet väckte förakt."
+    ],
+    "related": [
+      "aktning"
+    ]
+  },
+  "transitiv": {
+    "opposite": "intransitiv",
+    "description": "Ett transitivt verb kan ha ett direkt objekt. Ett intransitivt verb används utan direkt objekt.",
+    "examples": [
+      "I ”hon öppnar dörren” är verbet transitivt.",
+      "I ”barnet sover” är verbet intransitivt, medan ”barnet läser boken” har ett transitivt verb."
+    ],
+    "related": [
+      "intransitiv"
+    ]
+  },
+  "intransitiv": {
+    "opposite": "transitiv",
+    "description": "Ett transitivt verb kan ha ett direkt objekt. Ett intransitivt verb används utan direkt objekt.",
+    "examples": [
+      "I ”hon öppnar dörren” är verbet transitivt.",
+      "I ”barnet sover” är verbet intransitivt, medan ”barnet läser boken” har ett transitivt verb."
+    ],
+    "related": [
+      "transitiv"
+    ]
+  },
+  "kryptering": {
+    "opposite": "avkryptering",
+    "description": "Kryptering gör information svårläst utan rätt nyckel. Avkryptering gör den läsbar igen.",
+    "examples": [
+      "Meddelandet skyddades med kryptering och öppnades med avkryptering.",
+      "Rätt nyckel behövs för både kryptering och avkryptering."
+    ],
+    "related": [
+      "avkryptering"
+    ]
+  },
+  "avkryptering": {
+    "opposite": "kryptering",
+    "description": "Kryptering gör information svårläst utan rätt nyckel. Avkryptering gör den läsbar igen.",
+    "examples": [
+      "Meddelandet skyddades med kryptering och öppnades med avkryptering.",
+      "Rätt nyckel behövs för både kryptering och avkryptering."
+    ],
+    "related": [
+      "kryptering"
+    ]
+  },
+  "inflation": {
+    "opposite": "deflation",
+    "description": "Inflation är en allmän ökning av prisnivån. Deflation är en allmän minskning av prisnivån.",
+    "examples": [
+      "Landet gick från låg inflation till en kort period av deflation.",
+      "Vid inflation stiger den allmänna prisnivån; vid deflation sjunker den."
+    ],
+    "related": [
+      "deflation"
+    ]
+  },
+  "deflation": {
+    "opposite": "inflation",
+    "description": "Inflation är en allmän ökning av prisnivån. Deflation är en allmän minskning av prisnivån.",
+    "examples": [
+      "Landet gick från låg inflation till en kort period av deflation.",
+      "Vid inflation stiger den allmänna prisnivån; vid deflation sjunker den."
+    ],
+    "related": [
+      "inflation"
+    ]
+  },
+  "godkänd": {
+    "opposite": "underkänd",
+    "description": "Godkänd betyder att kraven är uppfyllda. Underkänd betyder att de inte är det.",
+    "examples": [
+      "Uppsatsen blev godkänd, men det första utkastet var underkänt.",
+      "Ett godkänt prov uppfyller kraven; ett underkänt gör inte det."
+    ],
+    "related": [
+      "underkänd"
+    ]
+  },
+  "underkänd": {
+    "opposite": "godkänd",
+    "description": "Godkänd betyder att kraven är uppfyllda. Underkänd betyder att de inte är det.",
+    "examples": [
+      "Uppsatsen blev godkänd, men det första utkastet var underkänt.",
+      "Ett godkänt prov uppfyller kraven; ett underkänt gör inte det."
+    ],
+    "related": [
+      "godkänd"
+    ]
+  },
+  "liggande": {
+    "opposite": "stående",
+    "description": "Liggande och stående beskriver olika lägen eller format.",
+    "examples": [
+      "Bilden finns i både liggande och stående format.",
+      "Ställ flaskan stående och lägg boken liggande."
+    ],
+    "related": [
+      "stående"
+    ]
+  },
+  "stående": {
+    "opposite": "liggande",
+    "description": "Liggande och stående beskriver olika lägen eller format.",
+    "examples": [
+      "Bilden finns i både liggande och stående format.",
+      "Ställ flaskan stående och lägg boken liggande."
+    ],
+    "related": [
+      "liggande"
+    ]
+  },
+  "nerför": {
+    "opposite": "uppför",
+    "description": "Nerför betyder i riktning ned längs en lutning. Uppför betyder i riktning upp längs den.",
+    "examples": [
+      "Det gick snabbt nerför backen men långsamt uppför.",
+      "Vi cyklade uppför på vägen dit och nerför på vägen hem."
+    ],
+    "related": [
+      "uppför"
+    ]
+  },
+  "uppför": {
+    "opposite": "nerför",
+    "description": "Nerför betyder i riktning ned längs en lutning. Uppför betyder i riktning upp längs den.",
+    "examples": [
+      "Det gick snabbt nerför backen men långsamt uppför.",
+      "Vi cyklade uppför på vägen dit och nerför på vägen hem."
+    ],
+    "related": [
+      "nerför"
+    ]
+  },
+  "funktionell": {
+    "opposite": "dysfunktionell",
+    "description": "Funktionell betyder att något fungerar på ett ändamålsenligt sätt. Dysfunktionell betyder att det fungerar dåligt eller skadligt.",
+    "examples": [
+      "Gruppen blev funktionell efter att ha löst sitt dysfunktionella arbetssätt.",
+      "Ett funktionellt system hjälper användaren; ett dysfunktionellt skapar problem."
+    ],
+    "related": [
+      "dysfunktionell"
+    ]
+  },
+  "dysfunktionell": {
+    "opposite": "funktionell",
+    "description": "Funktionell betyder att något fungerar på ett ändamålsenligt sätt. Dysfunktionell betyder att det fungerar dåligt eller skadligt.",
+    "examples": [
+      "Gruppen blev funktionell efter att ha löst sitt dysfunktionella arbetssätt.",
+      "Ett funktionellt system hjälper användaren; ett dysfunktionellt skapar problem."
+    ],
+    "related": [
+      "funktionell"
+    ]
+  },
+  "förstärka": {
+    "opposite": "försvaga",
+    "description": "Förstärka betyder att göra något starkare. Försvaga betyder att göra det svagare.",
+    "examples": [
+      "Högtalaren förstärker ljudet, medan väggen försvagar det.",
+      "Träningen kan förstärka musklerna och sjukdom kan försvaga dem."
+    ],
+    "related": [
+      "försvaga"
+    ]
+  },
+  "försvaga": {
+    "opposite": "förstärka",
+    "description": "Förstärka betyder att göra något starkare. Försvaga betyder att göra det svagare.",
+    "examples": [
+      "Högtalaren förstärker ljudet, medan väggen försvagar det.",
+      "Träningen kan förstärka musklerna och sjukdom kan försvaga dem."
+    ],
+    "related": [
+      "förstärka"
+    ]
+  },
+  "gles": {
+    "opposite": "tät",
+    "description": "Gles betyder att det är långt mellan delarna. Tät betyder att delarna sitter nära varandra.",
+    "examples": [
+      "Skogen var gles nära vägen och tät längre in.",
+      "Ett glest tyg släpper igenom mer ljus än ett tätt."
+    ],
+    "related": [
+      "tät"
+    ]
+  },
+  "tät": {
+    "opposite": "gles",
+    "description": "Gles betyder att det är långt mellan delarna. Tät betyder att delarna sitter nära varandra.",
+    "examples": [
+      "Skogen var gles nära vägen och tät längre in.",
+      "Ett glest tyg släpper igenom mer ljus än ett tätt."
+    ],
+    "related": [
+      "gles"
+    ]
+  },
+  "dominant": {
+    "opposite": "recessiv",
+    "description": "Dominant och recessiv beskriver hur genvarianter kan påverka en ärftlig egenskap.",
+    "examples": [
+      "En dominant genvariant kan märkas när bara en kopia finns.",
+      "En recessiv genvariant märks ofta först när två kopior finns, till skillnad från en dominant."
+    ],
+    "related": [
+      "recessiv"
+    ]
+  },
+  "recessiv": {
+    "opposite": "dominant",
+    "description": "Dominant och recessiv beskriver hur genvarianter kan påverka en ärftlig egenskap.",
+    "examples": [
+      "En dominant genvariant kan märkas när bara en kopia finns.",
+      "En recessiv genvariant märks ofta först när två kopior finns, till skillnad från en dominant."
+    ],
+    "related": [
+      "dominant"
+    ]
+  },
+  "anspänd": {
+    "opposite": "avspänd",
+    "description": "Anspänd betyder spänd eller nervös. Avspänd betyder lugn och avslappnad.",
+    "examples": [
+      "Hon var anspänd före samtalet men avspänd efteråt.",
+      "Stämningen gick från anspänd till avspänd när problemet löstes."
+    ],
+    "related": [
+      "avspänd"
+    ]
+  },
+  "avspänd": {
+    "opposite": "anspänd",
+    "description": "Anspänd betyder spänd eller nervös. Avspänd betyder lugn och avslappnad.",
+    "examples": [
+      "Hon var anspänd före samtalet men avspänd efteråt.",
+      "Stämningen gick från anspänd till avspänd när problemet löstes."
+    ],
+    "related": [
+      "anspänd"
+    ]
+  },
+  "invärtes": {
+    "opposite": "utvärtes",
+    "description": "Invärtes betyder inne i kroppen. Utvärtes betyder på kroppens utsida.",
+    "examples": [
+      "Läkemedlet ska tas invärtes, medan salvan används utvärtes.",
+      "Vissa läkemedel tas invärtes och andra används utvärtes."
+    ],
+    "related": [
+      "utvärtes"
+    ]
+  },
+  "utvärtes": {
+    "opposite": "invärtes",
+    "description": "Invärtes betyder inne i kroppen. Utvärtes betyder på kroppens utsida.",
+    "examples": [
+      "Läkemedlet ska tas invärtes, medan salvan används utvärtes.",
+      "Vissa läkemedel tas invärtes och andra används utvärtes."
+    ],
+    "related": [
+      "invärtes"
+    ]
+  },
+  "extern": {
+    "opposite": "intern",
+    "description": "Intern betyder inom en organisation eller ett system. Extern betyder utanför det.",
+    "examples": [
+      "Det interna mötet följdes av ett externt möte med kunden.",
+      "Företaget använder både intern personal och externa konsulter."
+    ],
+    "related": [
+      "intern"
+    ]
+  },
+  "intern": {
+    "opposite": "extern",
+    "description": "Intern betyder inom en organisation eller ett system. Extern betyder utanför det.",
+    "examples": [
+      "Det interna mötet följdes av ett externt möte med kunden.",
+      "Företaget använder både intern personal och externa konsulter."
+    ],
+    "related": [
+      "extern"
+    ]
+  },
+  "dynamisk": {
+    "opposite": "statisk",
+    "description": "Dynamisk betyder att något förändras eller rör sig. Statisk betyder att det är fast eller oföränderligt i sammanhanget.",
+    "examples": [
+      "Diagrammet är dynamiskt och uppdateras, medan bilden är statisk.",
+      "En dynamisk övning innehåller rörelse; en statisk hålls stilla."
+    ],
+    "related": [
+      "statisk"
+    ]
+  },
+  "statisk": {
+    "opposite": "dynamisk",
+    "description": "Dynamisk betyder att något förändras eller rör sig. Statisk betyder att det är fast eller oföränderligt i sammanhanget.",
+    "examples": [
+      "Diagrammet är dynamiskt och uppdateras, medan bilden är statisk.",
+      "En dynamisk övning innehåller rörelse; en statisk hålls stilla."
+    ],
+    "related": [
+      "dynamisk"
+    ]
+  },
+  "destruktiv": {
+    "opposite": "konstruktiv",
+    "description": "Konstruktiv betyder att bidra till en lösning. Destruktiv betyder att skada eller försvåra.",
+    "examples": [
+      "Hon gav konstruktiv kritik i stället för destruktiva kommentarer.",
+      "Samtalet blev konstruktivt efter en destruktiv början."
+    ],
+    "related": [
+      "konstruktiv"
+    ]
+  },
+  "konstruktiv": {
+    "opposite": "destruktiv",
+    "description": "Konstruktiv betyder att bidra till en lösning. Destruktiv betyder att skada eller försvåra.",
+    "examples": [
+      "Hon gav konstruktiv kritik i stället för destruktiva kommentarer.",
+      "Samtalet blev konstruktivt efter en destruktiv början."
+    ],
+    "related": [
+      "destruktiv"
+    ]
+  },
+  "nedanstående": {
+    "opposite": "ovanstående",
+    "description": "Ovanstående syftar på något tidigare eller högre upp i texten. Nedanstående syftar på något som kommer senare eller står längre ner.",
+    "examples": [
+      "Ovanstående exempel förklaras i den nedanstående tabellen.",
+      "Följ den ovanstående regeln och svara på de nedanstående frågorna."
+    ],
+    "related": [
+      "ovanstående"
+    ]
+  },
+  "ovanstående": {
+    "opposite": "nedanstående",
+    "description": "Ovanstående syftar på något tidigare eller högre upp i texten. Nedanstående syftar på något som kommer senare eller står längre ner.",
+    "examples": [
+      "Ovanstående exempel förklaras i den nedanstående tabellen.",
+      "Följ den ovanstående regeln och svara på de nedanstående frågorna."
+    ],
+    "related": [
+      "nedanstående"
+    ]
+  },
+  "kortvarig": {
+    "opposite": "långvarig",
+    "description": "Kortvarig betyder att något pågår en kort tid. Långvarig betyder att det pågår länge.",
+    "examples": [
+      "Regnet var kortvarigt, men torkan blev långvarig.",
+      "En kortvarig lösning räckte inte för det långvariga problemet."
+    ],
+    "related": [
+      "långvarig"
+    ]
+  },
+  "långvarig": {
+    "opposite": "kortvarig",
+    "description": "Kortvarig betyder att något pågår en kort tid. Långvarig betyder att det pågår länge.",
+    "examples": [
+      "Regnet var kortvarigt, men torkan blev långvarig.",
+      "En kortvarig lösning räckte inte för det långvariga problemet."
+    ],
+    "related": [
+      "kortvarig"
+    ]
+  },
+  "minskning": {
+    "opposite": "ökning",
+    "description": "En minskning betyder att något blir mindre. En ökning betyder att det blir större.",
+    "examples": [
+      "En minskning av priset gav en ökning av försäljningen.",
+      "Rapporten visar en minskning av kostnaderna och en ökning av intäkterna."
+    ],
+    "related": [
+      "ökning"
+    ]
+  },
+  "ökning": {
+    "opposite": "minskning",
+    "description": "En minskning betyder att något blir mindre. En ökning betyder att det blir större.",
+    "examples": [
+      "En minskning av priset gav en ökning av försäljningen.",
+      "Rapporten visar en minskning av kostnaderna och en ökning av intäkterna."
+    ],
+    "related": [
+      "minskning"
+    ]
   }
 } as const;
