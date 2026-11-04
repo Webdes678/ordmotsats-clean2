@@ -177,6 +177,33 @@ a {
   line-height: 1.5;
 }
 
+.hero-panel > .review-note {
+  width: fit-content;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin: 14px auto 0;
+  color: #3f5c7b;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.review-note span {
+  width: 22px;
+  height: 22px;
+  flex: none;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  color: #fff;
+  background: var(--blue);
+  font-size: 12px;
+  font-weight: 900;
+}
+
 .search-container {
   width: 100%;
   position: relative;
@@ -190,7 +217,7 @@ a {
 
 .search {
   width: 100%;
-  height: 68px;
+  height: 72px;
   display: flex;
   align-items: center;
   overflow: hidden;
@@ -338,18 +365,25 @@ a {
 }
 
 .popular {
-  width: min(900px, calc(100% - 48px));
+  width: min(1100px, calc(100% - 48px));
   margin: 88px auto 0;
   text-align: center;
 }
 
 .popular h2 {
-  margin: 0 0 18px;
+  margin: 0 0 8px;
   color: #55708d;
   font-size: 13px;
   font-weight: 850;
   letter-spacing: 1.1px;
   text-transform: uppercase;
+}
+
+.popular > p {
+  margin: 0 0 20px;
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.5;
 }
 
 .chips {
@@ -374,7 +408,7 @@ a {
 .chips a {
   min-height: 39px;
   padding: 0 17px;
-  font-size: 13px;
+  font-size: 14px;
 }
 
 .chips a:hover,
@@ -604,6 +638,11 @@ a {
   .hero-panel > p {
     margin-bottom: 23px;
     font-size: 16px;
+  }
+
+  .hero-panel > .review-note {
+    margin-top: 12px;
+    font-size: 12px;
   }
 
   .search {
