@@ -1595,6 +1595,456 @@ const curatedPairs = [
       "En minskning av priset gav en ökning av försäljningen.",
       "Rapporten visar en minskning av kostnaderna och en ökning av intäkterna."
     ]
+  },
+  {
+    "a": "underskott",
+    "b": "överskott",
+    "description": "Underskott betyder att det finns mindre än vad som behövs. Överskott betyder att det finns mer än vad som behövs.",
+    "examples": [
+      "Budgeten visade underskott förra året men överskott i år.",
+      "Ett underskott på varor kan senare bli ett överskott."
+    ]
+  },
+  {
+    "a": "defensiv",
+    "b": "offensiv",
+    "description": "Defensiv betyder inriktad på att försvara. Offensiv betyder inriktad på att anfalla eller ta initiativ.",
+    "examples": [
+      "Laget spelade defensivt i första halvlek och offensivt i den andra.",
+      "En defensiv taktik skyddar målet, medan en offensiv taktik skapar målchanser."
+    ]
+  },
+  {
+    "a": "bildlig",
+    "b": "bokstavlig",
+    "description": "Bildlig betyder att ord används överfört. Bokstavlig betyder att orden ska förstås precis som de står.",
+    "examples": [
+      "Uttrycket att ha is i magen är bildligt, inte bokstavligt.",
+      "Hon tolkade skämtet bokstavligt fast det var bildligt menat."
+    ]
+  },
+  {
+    "a": "inledning",
+    "b": "avslutning",
+    "description": "En inledning är början på något. En avslutning är den sista delen.",
+    "examples": [
+      "Talets inledning var kort, men avslutningen var längre.",
+      "Boken har en spännande inledning och en tydlig avslutning."
+    ]
+  },
+  {
+    "a": "epilog",
+    "b": "prolog",
+    "description": "En prolog står i början av ett verk. En epilog står i slutet.",
+    "examples": [
+      "Romanen börjar med en prolog och slutar med en epilog.",
+      "I prologen möter vi huvudpersonen, och i epilogen får vi veta hur det gick."
+    ]
+  },
+  {
+    "a": "ingång",
+    "b": "utgång",
+    "description": "En ingång är en väg in. En utgång är en väg ut.",
+    "examples": [
+      "Vi gick in genom huvudingången och lämnade huset genom en annan utgång.",
+      "Ingången finns till vänster och utgången till höger."
+    ]
+  },
+  {
+    "a": "exklusive",
+    "b": "inklusive",
+    "description": "Exklusive betyder utan att något räknas med. Inklusive betyder att det räknas med.",
+    "examples": [
+      "Priset är 200 kronor exklusive moms och 250 kronor inklusive moms.",
+      "Resan kostar mindre exklusive frukost än inklusive frukost."
+    ]
+  },
+  {
+    "a": "underskatta",
+    "b": "överskatta",
+    "description": "Att underskatta är att bedöma något som mindre än det är. Att överskatta är att bedöma det som större än det är.",
+    "examples": [
+      "Underskatta inte uppgiften, men överskatta inte heller svårigheten.",
+      "Hon underskattade tiden och överskattade sin hastighet."
+    ]
+  },
+  {
+    "a": "exteriör",
+    "b": "interiör",
+    "description": "Exteriör är utsidan av en byggnad eller ett föremål. Interiör är insidan.",
+    "examples": [
+      "Husets exteriör är vit, medan interiören är färgstark.",
+      "De renoverade både byggnadens exteriör och dess interiör."
+    ]
+  },
+  {
+    "a": "jakande",
+    "b": "nekande",
+    "description": "Ett jakande svar betyder ja. Ett nekande svar betyder nej.",
+    "examples": [
+      "Hon gav ett jakande svar, men han svarade nekande.",
+      "En nick kan vara jakande och en huvudskakning nekande."
+    ]
+  },
+  {
+    "a": "insida",
+    "b": "utsida",
+    "description": "Insidan är den del som finns inuti något. Utsidan är den yttre delen.",
+    "examples": [
+      "Koppen är vit på insidan och blå på utsidan.",
+      "Tvätta både väskans insida och utsida."
+    ]
+  },
+  {
+    "a": "synkron",
+    "b": "asynkron",
+    "description": "Synkron betyder att saker sker samtidigt eller i takt. Asynkron betyder att de inte behöver ske samtidigt.",
+    "examples": [
+      "Ett synkront möte sker i realtid, medan en asynkron diskussion kan fortsätta senare.",
+      "Undervisningen kan vara synkron på morgonen och asynkron på eftermiddagen."
+    ]
+  },
+  {
+    "a": "höglänt",
+    "b": "låglänt",
+    "description": "Höglänt mark ligger högt. Låglänt mark ligger lågt.",
+    "examples": [
+      "Byn ligger höglänt, men åkern är låglänt.",
+      "Höglänta områden är ofta torrare än låglänta områden."
+    ]
+  },
+  {
+    "a": "ansvarsfull",
+    "b": "ansvarslös",
+    "description": "Ansvarsfull betyder att någon tar ansvar. Ansvarslös betyder att någon inte gör det.",
+    "examples": [
+      "Det var ansvarsfullt att kontrollera allt och ansvarslöst att strunta i reglerna.",
+      "En ansvarsfull förare kör försiktigt, medan en ansvarslös förare tar onödiga risker."
+    ]
+  },
+  {
+    "a": "indata",
+    "b": "utdata",
+    "description": "Indata är information som matas in i ett system. Utdata är information som systemet lämnar.",
+    "examples": [
+      "Programmet läser indata och skapar utdata.",
+      "Felaktiga indata kan ge felaktiga utdata."
+    ]
+  },
+  {
+    "a": "inmatning",
+    "b": "utmatning",
+    "description": "Inmatning för information in i ett system. Utmatning för information ut ur systemet.",
+    "examples": [
+      "Tangentbordet används för inmatning och skärmen för utmatning.",
+      "Kontrollera inmatningen innan du granskar utmatningen."
+    ]
+  },
+  {
+    "a": "makroskopisk",
+    "b": "mikroskopisk",
+    "description": "Makroskopisk beskriver något som kan ses utan mikroskop. Mikroskopisk beskriver något mycket litet.",
+    "examples": [
+      "Sprickan är makroskopisk, men bakterien är mikroskopisk.",
+      "Vi började med en makroskopisk bild och gick sedan ner till mikroskopisk nivå."
+    ]
+  },
+  {
+    "a": "nedtrappning",
+    "b": "upptrappning",
+    "description": "Nedtrappning betyder att något minskas stegvis. Upptrappning betyder att det ökas stegvis.",
+    "examples": [
+      "Efter en upptrappning av konflikten följde en försiktig nedtrappning.",
+      "Läkaren planerade först en upptrappning och senare en nedtrappning av dosen."
+    ]
+  },
+  {
+    "a": "kortlivad",
+    "b": "långlivad",
+    "description": "Kortlivad betyder att något varar en kort tid. Långlivad betyder att det varar länge.",
+    "examples": [
+      "Trenden blev kortlivad, men traditionen är långlivad.",
+      "En kortlivad blomma kan växa på en långlivad buske."
+    ]
+  },
+  {
+    "a": "inåt",
+    "b": "utåt",
+    "description": "Inåt betyder mot insidan. Utåt betyder mot utsidan.",
+    "examples": [
+      "Dörren öppnas inåt, medan grinden öppnas utåt.",
+      "Vik kanterna inåt och pressa sedan mitten utåt."
+    ]
+  },
+  {
+    "a": "misstro",
+    "b": "tilltro",
+    "description": "Misstro är brist på förtroende. Tilltro är förtroende för någon eller något.",
+    "examples": [
+      "Efter misstron växte en försiktig tilltro fram.",
+      "Hon kände misstro mot ryktet men tilltro till forskningen."
+    ]
+  },
+  {
+    "a": "fantasifull",
+    "b": "fantasilös",
+    "description": "Fantasifull betyder full av nya idéer. Fantasilös betyder att fantasi och nya idéer saknas.",
+    "examples": [
+      "Berättelsen var fantasifull, men slutet kändes fantasilöst.",
+      "En fantasifull lösning ersatte det fantasilösa förslaget."
+    ]
+  },
+  {
+    "a": "förbättring",
+    "b": "försämring",
+    "description": "En förbättring betyder att något blir bättre. En försämring betyder att det blir sämre.",
+    "examples": [
+      "Den nya behandlingen gav en förbättring, inte en försämring.",
+      "Efter veckor av försämring kom äntligen en tydlig förbättring."
+    ]
+  },
+  {
+    "a": "avstigning",
+    "b": "påstigning",
+    "description": "Påstigning betyder att resenärer går ombord. Avstigning betyder att de går av.",
+    "examples": [
+      "Vänta med påstigning tills all avstigning är klar.",
+      "Påstigning sker fram och avstigning bak."
+    ]
+  },
+  {
+    "a": "centralisering",
+    "b": "decentralisering",
+    "description": "Centralisering samlar ansvar eller beslut på ett ställe. Decentralisering fördelar dem på flera ställen.",
+    "examples": [
+      "Centralisering gav en gemensam ledning, medan decentralisering gav lokala kontor mer ansvar.",
+      "Organisationen gick från centralisering till decentralisering."
+    ]
+  },
+  {
+    "a": "inbetalning",
+    "b": "utbetalning",
+    "description": "En inbetalning är pengar som kommer in på ett konto. En utbetalning är pengar som betalas ut.",
+    "examples": [
+      "Din inbetalning registrerades före dagens utbetalning.",
+      "Företaget väntar på kundens inbetalning innan en utbetalning kan göras."
+    ]
+  },
+  {
+    "a": "deltidsanställd",
+    "b": "heltidsanställd",
+    "description": "En deltidsanställd arbetar en del av heltid. En heltidsanställd arbetar heltid.",
+    "examples": [
+      "Hon var först deltidsanställd och blev sedan heltidsanställd.",
+      "En heltidsanställd arbetar fler timmar än en deltidsanställd."
+    ]
+  },
+  {
+    "a": "högintensiv",
+    "b": "lågintensiv",
+    "description": "Högintensiv betyder att något sker med hög kraft eller aktivitet. Lågintensiv betyder att nivån är låg.",
+    "examples": [
+      "Passet började lågintensivt och avslutades högintensivt.",
+      "Högintensiv träning kräver mer ansträngning än lågintensiv träning."
+    ]
+  },
+  {
+    "a": "dubbelsäng",
+    "b": "enkelsäng",
+    "description": "En dubbelsäng är avsedd för två personer. En enkelsäng är avsedd för en person.",
+    "examples": [
+      "Rummet har en dubbelsäng, medan det mindre rummet har en enkelsäng.",
+      "De bytte ut två enkelsängar mot en dubbelsäng."
+    ]
+  },
+  {
+    "a": "födelseår",
+    "b": "dödsår",
+    "description": "Födelseår är året då någon föddes. Dödsår är året då någon dog.",
+    "examples": [
+      "På stenen står både hennes födelseår och dödsår.",
+      "Födelseåret var 1902 och dödsåret 1987."
+    ]
+  },
+  {
+    "a": "köldvåg",
+    "b": "värmebölja",
+    "description": "En köldvåg är en period med ovanligt kallt väder. En värmebölja är en period med ovanligt varmt väder.",
+    "examples": [
+      "Vintern gav en köldvåg och sommaren en värmebölja.",
+      "Efter förra månadens köldvåg kom plötsligt en värmebölja."
+    ]
+  },
+  {
+    "a": "lastning",
+    "b": "lossning",
+    "description": "Lastning betyder att varor läggs på ett fordon. Lossning betyder att de tas av.",
+    "examples": [
+      "Lastning sker på morgonen och lossning efter ankomsten.",
+      "Föraren hjälper till med både lastning och lossning."
+    ]
+  },
+  {
+    "a": "underdel",
+    "b": "överdel",
+    "description": "Underdelen är den nedre delen av något. Överdelen är den övre delen.",
+    "examples": [
+      "Skåpets underdel är mörk och överdelen är ljus.",
+      "Fäst först underdelen och sedan överdelen."
+    ]
+  },
+  {
+    "a": "skattehöjning",
+    "b": "skattesänkning",
+    "description": "En skattehöjning innebär att skatten ökar. En skattesänkning innebär att skatten minskar.",
+    "examples": [
+      "Förslaget ändrades från en skattehöjning till en skattesänkning.",
+      "En skattehöjning ger högre skatt, medan en skattesänkning ger lägre skatt."
+    ]
+  },
+  {
+    "a": "kortfristig",
+    "b": "långfristig",
+    "description": "Kortfristig gäller en kort tidsperiod. Långfristig gäller en lång tidsperiod.",
+    "examples": [
+      "Företaget behöver både kortfristig finansiering och en långfristig plan.",
+      "En kortfristig skuld betalas tidigare än en långfristig skuld."
+    ]
+  },
+  {
+    "a": "kalluft",
+    "b": "varmluft",
+    "description": "Kalluft är luft med låg temperatur. Varmluft är luft med hög temperatur.",
+    "examples": [
+      "Fläkten blåser kalluft nu men varmluft på vintern.",
+      "Kalluft sjunker ofta, medan varmluft stiger."
+    ]
+  },
+  {
+    "a": "bakficka",
+    "b": "framficka",
+    "description": "En bakficka sitter på baksidan av ett plagg. En framficka sitter på framsidan.",
+    "examples": [
+      "Plånboken låg i bakfickan och nyckeln i framfickan.",
+      "Jeansen har två bakfickor och två framfickor."
+    ]
+  },
+  {
+    "a": "primärkälla",
+    "b": "sekundärkälla",
+    "description": "En primärkälla ger förstahandsinformation. En sekundärkälla återger eller tolkar information från andra källor.",
+    "examples": [
+      "Dagboken är en primärkälla, medan läroboken är en sekundärkälla.",
+      "Kontrollera uppgiften i en primärkälla och använd sekundärkällan som bakgrund."
+    ]
+  },
+  {
+    "a": "bruttolön",
+    "b": "nettolön",
+    "description": "Bruttolön är lön före skatt. Nettolön är det som återstår efter skatt och andra avdrag.",
+    "examples": [
+      "Bruttolönen står överst på beskedet och nettolönen längst ner.",
+      "Nettolönen är lägre än bruttolönen eftersom skatt har dragits av."
+    ]
+  },
+  {
+    "a": "inflöde",
+    "b": "utflöde",
+    "description": "Inflöde är något som strömmar in. Utflöde är något som strömmar ut.",
+    "examples": [
+      "Sjöns inflöde var större än dess utflöde.",
+      "Företaget jämför inflödet av pengar med utflödet."
+    ]
+  },
+  {
+    "a": "nedtill",
+    "b": "upptill",
+    "description": "Nedtill betyder i den nedre delen. Upptill betyder i den övre delen.",
+    "examples": [
+      "Skåpet är blått nedtill och vitt upptill.",
+      "Skriv namnet upptill och datumet nedtill."
+    ]
+  },
+  {
+    "a": "innerkant",
+    "b": "ytterkant",
+    "description": "Innerkanten ligger närmast mitten eller insidan. Ytterkanten ligger längst ut.",
+    "examples": [
+      "Sy längs innerkanten och klipp vid ytterkanten.",
+      "Tallriken är vit i mitten och blå vid ytterkanten, medan innerkanten har ett smalt mönster."
+    ]
+  },
+  {
+    "a": "krympning",
+    "b": "svällning",
+    "description": "Krympning betyder att något blir mindre. Svällning betyder att det blir större eller tjockare.",
+    "examples": [
+      "Torkning kan ge krympning, medan fukt kan ge svällning.",
+      "Materialets krympning på vintern och svällning på sommaren måste räknas med."
+    ]
+  },
+  {
+    "a": "säljbar",
+    "b": "osäljbar",
+    "description": "Säljbar betyder att något går att sälja. Osäljbar betyder att det inte går att sälja.",
+    "examples": [
+      "Den hela varan är säljbar, men den skadade är osäljbar.",
+      "Efter reparationen blev produkten säljbar i stället för osäljbar."
+    ]
+  },
+  {
+    "a": "upplöslig",
+    "b": "oupplöslig",
+    "description": "Upplöslig betyder att ett ämne kan lösas i en vätska. Oupplöslig betyder att det inte kan lösas där.",
+    "examples": [
+      "Salt är upplösligt i vatten, men sand är i stort sett oupplöslig.",
+      "Ett upplösligt ämne försvinner i lösningen, medan ett oupplösligt ämne blir kvar."
+    ]
+  },
+  {
+    "a": "rekordhög",
+    "b": "rekordlåg",
+    "description": "Rekordhög betyder högre än någonsin tidigare. Rekordlåg betyder lägre än någonsin tidigare.",
+    "examples": [
+      "Temperaturen var rekordhög i juli och rekordlåg i januari.",
+      "Efter en rekordhög försäljning följde en rekordlåg månad."
+    ]
+  },
+  {
+    "a": "längsgående",
+    "b": "tvärgående",
+    "description": "Längsgående betyder i samma riktning som längden. Tvärgående betyder tvärs över längdriktningen.",
+    "examples": [
+      "Bron har längsgående balkar och tvärgående stöd.",
+      "Det längsgående spåret korsas av en tvärgående linje."
+    ]
+  },
+  {
+    "a": "offentligägd",
+    "b": "privatägd",
+    "description": "Offentligägd betyder ägd av staten, en region eller en kommun. Privatägd betyder ägd av privata personer eller företag.",
+    "examples": [
+      "Det ena bolaget är offentligägt och det andra privatägt.",
+      "En offentligägd verksamhet kan säljas och bli privatägd."
+    ]
+  },
+  {
+    "a": "kortsiktig",
+    "b": "långsiktig",
+    "description": "Kortsiktig gäller den närmaste tiden. Långsiktig gäller en längre tid framåt.",
+    "examples": [
+      "Den kortsiktiga lösningen hjälpte i dag, men vi behöver också en långsiktig plan.",
+      "En kortsiktig vinst kan skada ett långsiktigt mål."
+    ]
+  },
+  {
+    "a": "högkonjunktur",
+    "b": "lågkonjunktur",
+    "description": "Högkonjunktur är en period med stark ekonomi och hög aktivitet. Lågkonjunktur är en period med svagare ekonomi och lägre aktivitet.",
+    "examples": [
+      "Arbetslösheten sjunker ofta i högkonjunktur och stiger i lågkonjunktur.",
+      "Efter flera år av högkonjunktur gick ekonomin in i en lågkonjunktur."
+    ]
   }
 ];
 
