@@ -3892,5 +3892,1105 @@ export const words = {
     "related": [
       "minskning"
     ]
+  },
+  "underskott": {
+    "opposite": "överskott",
+    "description": "Underskott betyder att det finns mindre än vad som behövs. Överskott betyder att det finns mer än vad som behövs.",
+    "examples": [
+      "Budgeten visade underskott förra året men överskott i år.",
+      "Ett underskott på varor kan senare bli ett överskott."
+    ],
+    "related": [
+      "överskott"
+    ]
+  },
+  "överskott": {
+    "opposite": "underskott",
+    "description": "Underskott betyder att det finns mindre än vad som behövs. Överskott betyder att det finns mer än vad som behövs.",
+    "examples": [
+      "Budgeten visade underskott förra året men överskott i år.",
+      "Ett underskott på varor kan senare bli ett överskott."
+    ],
+    "related": [
+      "underskott"
+    ]
+  },
+  "defensiv": {
+    "opposite": "offensiv",
+    "description": "Defensiv betyder inriktad på att försvara. Offensiv betyder inriktad på att anfalla eller ta initiativ.",
+    "examples": [
+      "Laget spelade defensivt i första halvlek och offensivt i den andra.",
+      "En defensiv taktik skyddar målet, medan en offensiv taktik skapar målchanser."
+    ],
+    "related": [
+      "offensiv"
+    ]
+  },
+  "offensiv": {
+    "opposite": "defensiv",
+    "description": "Defensiv betyder inriktad på att försvara. Offensiv betyder inriktad på att anfalla eller ta initiativ.",
+    "examples": [
+      "Laget spelade defensivt i första halvlek och offensivt i den andra.",
+      "En defensiv taktik skyddar målet, medan en offensiv taktik skapar målchanser."
+    ],
+    "related": [
+      "defensiv"
+    ]
+  },
+  "bildlig": {
+    "opposite": "bokstavlig",
+    "description": "Bildlig betyder att ord används överfört. Bokstavlig betyder att orden ska förstås precis som de står.",
+    "examples": [
+      "Uttrycket att ha is i magen är bildligt, inte bokstavligt.",
+      "Hon tolkade skämtet bokstavligt fast det var bildligt menat."
+    ],
+    "related": [
+      "bokstavlig"
+    ]
+  },
+  "bokstavlig": {
+    "opposite": "bildlig",
+    "description": "Bildlig betyder att ord används överfört. Bokstavlig betyder att orden ska förstås precis som de står.",
+    "examples": [
+      "Uttrycket att ha is i magen är bildligt, inte bokstavligt.",
+      "Hon tolkade skämtet bokstavligt fast det var bildligt menat."
+    ],
+    "related": [
+      "bildlig"
+    ]
+  },
+  "inledning": {
+    "opposite": "avslutning",
+    "description": "En inledning är början på något. En avslutning är den sista delen.",
+    "examples": [
+      "Talets inledning var kort, men avslutningen var längre.",
+      "Boken har en spännande inledning och en tydlig avslutning."
+    ],
+    "related": [
+      "avslutning"
+    ]
+  },
+  "avslutning": {
+    "opposite": "inledning",
+    "description": "En inledning är början på något. En avslutning är den sista delen.",
+    "examples": [
+      "Talets inledning var kort, men avslutningen var längre.",
+      "Boken har en spännande inledning och en tydlig avslutning."
+    ],
+    "related": [
+      "inledning"
+    ]
+  },
+  "epilog": {
+    "opposite": "prolog",
+    "description": "En prolog står i början av ett verk. En epilog står i slutet.",
+    "examples": [
+      "Romanen börjar med en prolog och slutar med en epilog.",
+      "I prologen möter vi huvudpersonen, och i epilogen får vi veta hur det gick."
+    ],
+    "related": [
+      "prolog"
+    ]
+  },
+  "prolog": {
+    "opposite": "epilog",
+    "description": "En prolog står i början av ett verk. En epilog står i slutet.",
+    "examples": [
+      "Romanen börjar med en prolog och slutar med en epilog.",
+      "I prologen möter vi huvudpersonen, och i epilogen får vi veta hur det gick."
+    ],
+    "related": [
+      "epilog"
+    ]
+  },
+  "ingång": {
+    "opposite": "utgång",
+    "description": "En ingång är en väg in. En utgång är en väg ut.",
+    "examples": [
+      "Vi gick in genom huvudingången och lämnade huset genom en annan utgång.",
+      "Ingången finns till vänster och utgången till höger."
+    ],
+    "related": [
+      "utgång"
+    ]
+  },
+  "utgång": {
+    "opposite": "ingång",
+    "description": "En ingång är en väg in. En utgång är en väg ut.",
+    "examples": [
+      "Vi gick in genom huvudingången och lämnade huset genom en annan utgång.",
+      "Ingången finns till vänster och utgången till höger."
+    ],
+    "related": [
+      "ingång"
+    ]
+  },
+  "exklusive": {
+    "opposite": "inklusive",
+    "description": "Exklusive betyder utan att något räknas med. Inklusive betyder att det räknas med.",
+    "examples": [
+      "Priset är 200 kronor exklusive moms och 250 kronor inklusive moms.",
+      "Resan kostar mindre exklusive frukost än inklusive frukost."
+    ],
+    "related": [
+      "inklusive"
+    ]
+  },
+  "inklusive": {
+    "opposite": "exklusive",
+    "description": "Exklusive betyder utan att något räknas med. Inklusive betyder att det räknas med.",
+    "examples": [
+      "Priset är 200 kronor exklusive moms och 250 kronor inklusive moms.",
+      "Resan kostar mindre exklusive frukost än inklusive frukost."
+    ],
+    "related": [
+      "exklusive"
+    ]
+  },
+  "underskatta": {
+    "opposite": "överskatta",
+    "description": "Att underskatta är att bedöma något som mindre än det är. Att överskatta är att bedöma det som större än det är.",
+    "examples": [
+      "Underskatta inte uppgiften, men överskatta inte heller svårigheten.",
+      "Hon underskattade tiden och överskattade sin hastighet."
+    ],
+    "related": [
+      "överskatta"
+    ]
+  },
+  "överskatta": {
+    "opposite": "underskatta",
+    "description": "Att underskatta är att bedöma något som mindre än det är. Att överskatta är att bedöma det som större än det är.",
+    "examples": [
+      "Underskatta inte uppgiften, men överskatta inte heller svårigheten.",
+      "Hon underskattade tiden och överskattade sin hastighet."
+    ],
+    "related": [
+      "underskatta"
+    ]
+  },
+  "exteriör": {
+    "opposite": "interiör",
+    "description": "Exteriör är utsidan av en byggnad eller ett föremål. Interiör är insidan.",
+    "examples": [
+      "Husets exteriör är vit, medan interiören är färgstark.",
+      "De renoverade både byggnadens exteriör och dess interiör."
+    ],
+    "related": [
+      "interiör"
+    ]
+  },
+  "interiör": {
+    "opposite": "exteriör",
+    "description": "Exteriör är utsidan av en byggnad eller ett föremål. Interiör är insidan.",
+    "examples": [
+      "Husets exteriör är vit, medan interiören är färgstark.",
+      "De renoverade både byggnadens exteriör och dess interiör."
+    ],
+    "related": [
+      "exteriör"
+    ]
+  },
+  "jakande": {
+    "opposite": "nekande",
+    "description": "Ett jakande svar betyder ja. Ett nekande svar betyder nej.",
+    "examples": [
+      "Hon gav ett jakande svar, men han svarade nekande.",
+      "En nick kan vara jakande och en huvudskakning nekande."
+    ],
+    "related": [
+      "nekande"
+    ]
+  },
+  "nekande": {
+    "opposite": "jakande",
+    "description": "Ett jakande svar betyder ja. Ett nekande svar betyder nej.",
+    "examples": [
+      "Hon gav ett jakande svar, men han svarade nekande.",
+      "En nick kan vara jakande och en huvudskakning nekande."
+    ],
+    "related": [
+      "jakande"
+    ]
+  },
+  "insida": {
+    "opposite": "utsida",
+    "description": "Insidan är den del som finns inuti något. Utsidan är den yttre delen.",
+    "examples": [
+      "Koppen är vit på insidan och blå på utsidan.",
+      "Tvätta både väskans insida och utsida."
+    ],
+    "related": [
+      "utsida"
+    ]
+  },
+  "utsida": {
+    "opposite": "insida",
+    "description": "Insidan är den del som finns inuti något. Utsidan är den yttre delen.",
+    "examples": [
+      "Koppen är vit på insidan och blå på utsidan.",
+      "Tvätta både väskans insida och utsida."
+    ],
+    "related": [
+      "insida"
+    ]
+  },
+  "synkron": {
+    "opposite": "asynkron",
+    "description": "Synkron betyder att saker sker samtidigt eller i takt. Asynkron betyder att de inte behöver ske samtidigt.",
+    "examples": [
+      "Ett synkront möte sker i realtid, medan en asynkron diskussion kan fortsätta senare.",
+      "Undervisningen kan vara synkron på morgonen och asynkron på eftermiddagen."
+    ],
+    "related": [
+      "asynkron"
+    ]
+  },
+  "asynkron": {
+    "opposite": "synkron",
+    "description": "Synkron betyder att saker sker samtidigt eller i takt. Asynkron betyder att de inte behöver ske samtidigt.",
+    "examples": [
+      "Ett synkront möte sker i realtid, medan en asynkron diskussion kan fortsätta senare.",
+      "Undervisningen kan vara synkron på morgonen och asynkron på eftermiddagen."
+    ],
+    "related": [
+      "synkron"
+    ]
+  },
+  "höglänt": {
+    "opposite": "låglänt",
+    "description": "Höglänt mark ligger högt. Låglänt mark ligger lågt.",
+    "examples": [
+      "Byn ligger höglänt, men åkern är låglänt.",
+      "Höglänta områden är ofta torrare än låglänta områden."
+    ],
+    "related": [
+      "låglänt"
+    ]
+  },
+  "låglänt": {
+    "opposite": "höglänt",
+    "description": "Höglänt mark ligger högt. Låglänt mark ligger lågt.",
+    "examples": [
+      "Byn ligger höglänt, men åkern är låglänt.",
+      "Höglänta områden är ofta torrare än låglänta områden."
+    ],
+    "related": [
+      "höglänt"
+    ]
+  },
+  "ansvarsfull": {
+    "opposite": "ansvarslös",
+    "description": "Ansvarsfull betyder att någon tar ansvar. Ansvarslös betyder att någon inte gör det.",
+    "examples": [
+      "Det var ansvarsfullt att kontrollera allt och ansvarslöst att strunta i reglerna.",
+      "En ansvarsfull förare kör försiktigt, medan en ansvarslös förare tar onödiga risker."
+    ],
+    "related": [
+      "ansvarslös"
+    ]
+  },
+  "ansvarslös": {
+    "opposite": "ansvarsfull",
+    "description": "Ansvarsfull betyder att någon tar ansvar. Ansvarslös betyder att någon inte gör det.",
+    "examples": [
+      "Det var ansvarsfullt att kontrollera allt och ansvarslöst att strunta i reglerna.",
+      "En ansvarsfull förare kör försiktigt, medan en ansvarslös förare tar onödiga risker."
+    ],
+    "related": [
+      "ansvarsfull"
+    ]
+  },
+  "indata": {
+    "opposite": "utdata",
+    "description": "Indata är information som matas in i ett system. Utdata är information som systemet lämnar.",
+    "examples": [
+      "Programmet läser indata och skapar utdata.",
+      "Felaktiga indata kan ge felaktiga utdata."
+    ],
+    "related": [
+      "utdata"
+    ]
+  },
+  "utdata": {
+    "opposite": "indata",
+    "description": "Indata är information som matas in i ett system. Utdata är information som systemet lämnar.",
+    "examples": [
+      "Programmet läser indata och skapar utdata.",
+      "Felaktiga indata kan ge felaktiga utdata."
+    ],
+    "related": [
+      "indata"
+    ]
+  },
+  "inmatning": {
+    "opposite": "utmatning",
+    "description": "Inmatning för information in i ett system. Utmatning för information ut ur systemet.",
+    "examples": [
+      "Tangentbordet används för inmatning och skärmen för utmatning.",
+      "Kontrollera inmatningen innan du granskar utmatningen."
+    ],
+    "related": [
+      "utmatning"
+    ]
+  },
+  "utmatning": {
+    "opposite": "inmatning",
+    "description": "Inmatning för information in i ett system. Utmatning för information ut ur systemet.",
+    "examples": [
+      "Tangentbordet används för inmatning och skärmen för utmatning.",
+      "Kontrollera inmatningen innan du granskar utmatningen."
+    ],
+    "related": [
+      "inmatning"
+    ]
+  },
+  "makroskopisk": {
+    "opposite": "mikroskopisk",
+    "description": "Makroskopisk beskriver något som kan ses utan mikroskop. Mikroskopisk beskriver något mycket litet.",
+    "examples": [
+      "Sprickan är makroskopisk, men bakterien är mikroskopisk.",
+      "Vi började med en makroskopisk bild och gick sedan ner till mikroskopisk nivå."
+    ],
+    "related": [
+      "mikroskopisk"
+    ]
+  },
+  "mikroskopisk": {
+    "opposite": "makroskopisk",
+    "description": "Makroskopisk beskriver något som kan ses utan mikroskop. Mikroskopisk beskriver något mycket litet.",
+    "examples": [
+      "Sprickan är makroskopisk, men bakterien är mikroskopisk.",
+      "Vi började med en makroskopisk bild och gick sedan ner till mikroskopisk nivå."
+    ],
+    "related": [
+      "makroskopisk"
+    ]
+  },
+  "nedtrappning": {
+    "opposite": "upptrappning",
+    "description": "Nedtrappning betyder att något minskas stegvis. Upptrappning betyder att det ökas stegvis.",
+    "examples": [
+      "Efter en upptrappning av konflikten följde en försiktig nedtrappning.",
+      "Läkaren planerade först en upptrappning och senare en nedtrappning av dosen."
+    ],
+    "related": [
+      "upptrappning"
+    ]
+  },
+  "upptrappning": {
+    "opposite": "nedtrappning",
+    "description": "Nedtrappning betyder att något minskas stegvis. Upptrappning betyder att det ökas stegvis.",
+    "examples": [
+      "Efter en upptrappning av konflikten följde en försiktig nedtrappning.",
+      "Läkaren planerade först en upptrappning och senare en nedtrappning av dosen."
+    ],
+    "related": [
+      "nedtrappning"
+    ]
+  },
+  "kortlivad": {
+    "opposite": "långlivad",
+    "description": "Kortlivad betyder att något varar en kort tid. Långlivad betyder att det varar länge.",
+    "examples": [
+      "Trenden blev kortlivad, men traditionen är långlivad.",
+      "En kortlivad blomma kan växa på en långlivad buske."
+    ],
+    "related": [
+      "långlivad"
+    ]
+  },
+  "långlivad": {
+    "opposite": "kortlivad",
+    "description": "Kortlivad betyder att något varar en kort tid. Långlivad betyder att det varar länge.",
+    "examples": [
+      "Trenden blev kortlivad, men traditionen är långlivad.",
+      "En kortlivad blomma kan växa på en långlivad buske."
+    ],
+    "related": [
+      "kortlivad"
+    ]
+  },
+  "inåt": {
+    "opposite": "utåt",
+    "description": "Inåt betyder mot insidan. Utåt betyder mot utsidan.",
+    "examples": [
+      "Dörren öppnas inåt, medan grinden öppnas utåt.",
+      "Vik kanterna inåt och pressa sedan mitten utåt."
+    ],
+    "related": [
+      "utåt"
+    ]
+  },
+  "utåt": {
+    "opposite": "inåt",
+    "description": "Inåt betyder mot insidan. Utåt betyder mot utsidan.",
+    "examples": [
+      "Dörren öppnas inåt, medan grinden öppnas utåt.",
+      "Vik kanterna inåt och pressa sedan mitten utåt."
+    ],
+    "related": [
+      "inåt"
+    ]
+  },
+  "misstro": {
+    "opposite": "tilltro",
+    "description": "Misstro är brist på förtroende. Tilltro är förtroende för någon eller något.",
+    "examples": [
+      "Efter misstron växte en försiktig tilltro fram.",
+      "Hon kände misstro mot ryktet men tilltro till forskningen."
+    ],
+    "related": [
+      "tilltro"
+    ]
+  },
+  "tilltro": {
+    "opposite": "misstro",
+    "description": "Misstro är brist på förtroende. Tilltro är förtroende för någon eller något.",
+    "examples": [
+      "Efter misstron växte en försiktig tilltro fram.",
+      "Hon kände misstro mot ryktet men tilltro till forskningen."
+    ],
+    "related": [
+      "misstro"
+    ]
+  },
+  "fantasifull": {
+    "opposite": "fantasilös",
+    "description": "Fantasifull betyder full av nya idéer. Fantasilös betyder att fantasi och nya idéer saknas.",
+    "examples": [
+      "Berättelsen var fantasifull, men slutet kändes fantasilöst.",
+      "En fantasifull lösning ersatte det fantasilösa förslaget."
+    ],
+    "related": [
+      "fantasilös"
+    ]
+  },
+  "fantasilös": {
+    "opposite": "fantasifull",
+    "description": "Fantasifull betyder full av nya idéer. Fantasilös betyder att fantasi och nya idéer saknas.",
+    "examples": [
+      "Berättelsen var fantasifull, men slutet kändes fantasilöst.",
+      "En fantasifull lösning ersatte det fantasilösa förslaget."
+    ],
+    "related": [
+      "fantasifull"
+    ]
+  },
+  "förbättring": {
+    "opposite": "försämring",
+    "description": "En förbättring betyder att något blir bättre. En försämring betyder att det blir sämre.",
+    "examples": [
+      "Den nya behandlingen gav en förbättring, inte en försämring.",
+      "Efter veckor av försämring kom äntligen en tydlig förbättring."
+    ],
+    "related": [
+      "försämring"
+    ]
+  },
+  "försämring": {
+    "opposite": "förbättring",
+    "description": "En förbättring betyder att något blir bättre. En försämring betyder att det blir sämre.",
+    "examples": [
+      "Den nya behandlingen gav en förbättring, inte en försämring.",
+      "Efter veckor av försämring kom äntligen en tydlig förbättring."
+    ],
+    "related": [
+      "förbättring"
+    ]
+  },
+  "avstigning": {
+    "opposite": "påstigning",
+    "description": "Påstigning betyder att resenärer går ombord. Avstigning betyder att de går av.",
+    "examples": [
+      "Vänta med påstigning tills all avstigning är klar.",
+      "Påstigning sker fram och avstigning bak."
+    ],
+    "related": [
+      "påstigning"
+    ]
+  },
+  "påstigning": {
+    "opposite": "avstigning",
+    "description": "Påstigning betyder att resenärer går ombord. Avstigning betyder att de går av.",
+    "examples": [
+      "Vänta med påstigning tills all avstigning är klar.",
+      "Påstigning sker fram och avstigning bak."
+    ],
+    "related": [
+      "avstigning"
+    ]
+  },
+  "centralisering": {
+    "opposite": "decentralisering",
+    "description": "Centralisering samlar ansvar eller beslut på ett ställe. Decentralisering fördelar dem på flera ställen.",
+    "examples": [
+      "Centralisering gav en gemensam ledning, medan decentralisering gav lokala kontor mer ansvar.",
+      "Organisationen gick från centralisering till decentralisering."
+    ],
+    "related": [
+      "decentralisering"
+    ]
+  },
+  "decentralisering": {
+    "opposite": "centralisering",
+    "description": "Centralisering samlar ansvar eller beslut på ett ställe. Decentralisering fördelar dem på flera ställen.",
+    "examples": [
+      "Centralisering gav en gemensam ledning, medan decentralisering gav lokala kontor mer ansvar.",
+      "Organisationen gick från centralisering till decentralisering."
+    ],
+    "related": [
+      "centralisering"
+    ]
+  },
+  "inbetalning": {
+    "opposite": "utbetalning",
+    "description": "En inbetalning är pengar som kommer in på ett konto. En utbetalning är pengar som betalas ut.",
+    "examples": [
+      "Din inbetalning registrerades före dagens utbetalning.",
+      "Företaget väntar på kundens inbetalning innan en utbetalning kan göras."
+    ],
+    "related": [
+      "utbetalning"
+    ]
+  },
+  "utbetalning": {
+    "opposite": "inbetalning",
+    "description": "En inbetalning är pengar som kommer in på ett konto. En utbetalning är pengar som betalas ut.",
+    "examples": [
+      "Din inbetalning registrerades före dagens utbetalning.",
+      "Företaget väntar på kundens inbetalning innan en utbetalning kan göras."
+    ],
+    "related": [
+      "inbetalning"
+    ]
+  },
+  "deltidsanställd": {
+    "opposite": "heltidsanställd",
+    "description": "En deltidsanställd arbetar en del av heltid. En heltidsanställd arbetar heltid.",
+    "examples": [
+      "Hon var först deltidsanställd och blev sedan heltidsanställd.",
+      "En heltidsanställd arbetar fler timmar än en deltidsanställd."
+    ],
+    "related": [
+      "heltidsanställd"
+    ]
+  },
+  "heltidsanställd": {
+    "opposite": "deltidsanställd",
+    "description": "En deltidsanställd arbetar en del av heltid. En heltidsanställd arbetar heltid.",
+    "examples": [
+      "Hon var först deltidsanställd och blev sedan heltidsanställd.",
+      "En heltidsanställd arbetar fler timmar än en deltidsanställd."
+    ],
+    "related": [
+      "deltidsanställd"
+    ]
+  },
+  "högintensiv": {
+    "opposite": "lågintensiv",
+    "description": "Högintensiv betyder att något sker med hög kraft eller aktivitet. Lågintensiv betyder att nivån är låg.",
+    "examples": [
+      "Passet började lågintensivt och avslutades högintensivt.",
+      "Högintensiv träning kräver mer ansträngning än lågintensiv träning."
+    ],
+    "related": [
+      "lågintensiv"
+    ]
+  },
+  "lågintensiv": {
+    "opposite": "högintensiv",
+    "description": "Högintensiv betyder att något sker med hög kraft eller aktivitet. Lågintensiv betyder att nivån är låg.",
+    "examples": [
+      "Passet började lågintensivt och avslutades högintensivt.",
+      "Högintensiv träning kräver mer ansträngning än lågintensiv träning."
+    ],
+    "related": [
+      "högintensiv"
+    ]
+  },
+  "dubbelsäng": {
+    "opposite": "enkelsäng",
+    "description": "En dubbelsäng är avsedd för två personer. En enkelsäng är avsedd för en person.",
+    "examples": [
+      "Rummet har en dubbelsäng, medan det mindre rummet har en enkelsäng.",
+      "De bytte ut två enkelsängar mot en dubbelsäng."
+    ],
+    "related": [
+      "enkelsäng"
+    ]
+  },
+  "enkelsäng": {
+    "opposite": "dubbelsäng",
+    "description": "En dubbelsäng är avsedd för två personer. En enkelsäng är avsedd för en person.",
+    "examples": [
+      "Rummet har en dubbelsäng, medan det mindre rummet har en enkelsäng.",
+      "De bytte ut två enkelsängar mot en dubbelsäng."
+    ],
+    "related": [
+      "dubbelsäng"
+    ]
+  },
+  "födelseår": {
+    "opposite": "dödsår",
+    "description": "Födelseår är året då någon föddes. Dödsår är året då någon dog.",
+    "examples": [
+      "På stenen står både hennes födelseår och dödsår.",
+      "Födelseåret var 1902 och dödsåret 1987."
+    ],
+    "related": [
+      "dödsår"
+    ]
+  },
+  "dödsår": {
+    "opposite": "födelseår",
+    "description": "Födelseår är året då någon föddes. Dödsår är året då någon dog.",
+    "examples": [
+      "På stenen står både hennes födelseår och dödsår.",
+      "Födelseåret var 1902 och dödsåret 1987."
+    ],
+    "related": [
+      "födelseår"
+    ]
+  },
+  "köldvåg": {
+    "opposite": "värmebölja",
+    "description": "En köldvåg är en period med ovanligt kallt väder. En värmebölja är en period med ovanligt varmt väder.",
+    "examples": [
+      "Vintern gav en köldvåg och sommaren en värmebölja.",
+      "Efter förra månadens köldvåg kom plötsligt en värmebölja."
+    ],
+    "related": [
+      "värmebölja"
+    ]
+  },
+  "värmebölja": {
+    "opposite": "köldvåg",
+    "description": "En köldvåg är en period med ovanligt kallt väder. En värmebölja är en period med ovanligt varmt väder.",
+    "examples": [
+      "Vintern gav en köldvåg och sommaren en värmebölja.",
+      "Efter förra månadens köldvåg kom plötsligt en värmebölja."
+    ],
+    "related": [
+      "köldvåg"
+    ]
+  },
+  "lastning": {
+    "opposite": "lossning",
+    "description": "Lastning betyder att varor läggs på ett fordon. Lossning betyder att de tas av.",
+    "examples": [
+      "Lastning sker på morgonen och lossning efter ankomsten.",
+      "Föraren hjälper till med både lastning och lossning."
+    ],
+    "related": [
+      "lossning"
+    ]
+  },
+  "lossning": {
+    "opposite": "lastning",
+    "description": "Lastning betyder att varor läggs på ett fordon. Lossning betyder att de tas av.",
+    "examples": [
+      "Lastning sker på morgonen och lossning efter ankomsten.",
+      "Föraren hjälper till med både lastning och lossning."
+    ],
+    "related": [
+      "lastning"
+    ]
+  },
+  "underdel": {
+    "opposite": "överdel",
+    "description": "Underdelen är den nedre delen av något. Överdelen är den övre delen.",
+    "examples": [
+      "Skåpets underdel är mörk och överdelen är ljus.",
+      "Fäst först underdelen och sedan överdelen."
+    ],
+    "related": [
+      "överdel"
+    ]
+  },
+  "överdel": {
+    "opposite": "underdel",
+    "description": "Underdelen är den nedre delen av något. Överdelen är den övre delen.",
+    "examples": [
+      "Skåpets underdel är mörk och överdelen är ljus.",
+      "Fäst först underdelen och sedan överdelen."
+    ],
+    "related": [
+      "underdel"
+    ]
+  },
+  "skattehöjning": {
+    "opposite": "skattesänkning",
+    "description": "En skattehöjning innebär att skatten ökar. En skattesänkning innebär att skatten minskar.",
+    "examples": [
+      "Förslaget ändrades från en skattehöjning till en skattesänkning.",
+      "En skattehöjning ger högre skatt, medan en skattesänkning ger lägre skatt."
+    ],
+    "related": [
+      "skattesänkning"
+    ]
+  },
+  "skattesänkning": {
+    "opposite": "skattehöjning",
+    "description": "En skattehöjning innebär att skatten ökar. En skattesänkning innebär att skatten minskar.",
+    "examples": [
+      "Förslaget ändrades från en skattehöjning till en skattesänkning.",
+      "En skattehöjning ger högre skatt, medan en skattesänkning ger lägre skatt."
+    ],
+    "related": [
+      "skattehöjning"
+    ]
+  },
+  "kortfristig": {
+    "opposite": "långfristig",
+    "description": "Kortfristig gäller en kort tidsperiod. Långfristig gäller en lång tidsperiod.",
+    "examples": [
+      "Företaget behöver både kortfristig finansiering och en långfristig plan.",
+      "En kortfristig skuld betalas tidigare än en långfristig skuld."
+    ],
+    "related": [
+      "långfristig"
+    ]
+  },
+  "långfristig": {
+    "opposite": "kortfristig",
+    "description": "Kortfristig gäller en kort tidsperiod. Långfristig gäller en lång tidsperiod.",
+    "examples": [
+      "Företaget behöver både kortfristig finansiering och en långfristig plan.",
+      "En kortfristig skuld betalas tidigare än en långfristig skuld."
+    ],
+    "related": [
+      "kortfristig"
+    ]
+  },
+  "kalluft": {
+    "opposite": "varmluft",
+    "description": "Kalluft är luft med låg temperatur. Varmluft är luft med hög temperatur.",
+    "examples": [
+      "Fläkten blåser kalluft nu men varmluft på vintern.",
+      "Kalluft sjunker ofta, medan varmluft stiger."
+    ],
+    "related": [
+      "varmluft"
+    ]
+  },
+  "varmluft": {
+    "opposite": "kalluft",
+    "description": "Kalluft är luft med låg temperatur. Varmluft är luft med hög temperatur.",
+    "examples": [
+      "Fläkten blåser kalluft nu men varmluft på vintern.",
+      "Kalluft sjunker ofta, medan varmluft stiger."
+    ],
+    "related": [
+      "kalluft"
+    ]
+  },
+  "bakficka": {
+    "opposite": "framficka",
+    "description": "En bakficka sitter på baksidan av ett plagg. En framficka sitter på framsidan.",
+    "examples": [
+      "Plånboken låg i bakfickan och nyckeln i framfickan.",
+      "Jeansen har två bakfickor och två framfickor."
+    ],
+    "related": [
+      "framficka"
+    ]
+  },
+  "framficka": {
+    "opposite": "bakficka",
+    "description": "En bakficka sitter på baksidan av ett plagg. En framficka sitter på framsidan.",
+    "examples": [
+      "Plånboken låg i bakfickan och nyckeln i framfickan.",
+      "Jeansen har två bakfickor och två framfickor."
+    ],
+    "related": [
+      "bakficka"
+    ]
+  },
+  "primärkälla": {
+    "opposite": "sekundärkälla",
+    "description": "En primärkälla ger förstahandsinformation. En sekundärkälla återger eller tolkar information från andra källor.",
+    "examples": [
+      "Dagboken är en primärkälla, medan läroboken är en sekundärkälla.",
+      "Kontrollera uppgiften i en primärkälla och använd sekundärkällan som bakgrund."
+    ],
+    "related": [
+      "sekundärkälla"
+    ]
+  },
+  "sekundärkälla": {
+    "opposite": "primärkälla",
+    "description": "En primärkälla ger förstahandsinformation. En sekundärkälla återger eller tolkar information från andra källor.",
+    "examples": [
+      "Dagboken är en primärkälla, medan läroboken är en sekundärkälla.",
+      "Kontrollera uppgiften i en primärkälla och använd sekundärkällan som bakgrund."
+    ],
+    "related": [
+      "primärkälla"
+    ]
+  },
+  "bruttolön": {
+    "opposite": "nettolön",
+    "description": "Bruttolön är lön före skatt. Nettolön är det som återstår efter skatt och andra avdrag.",
+    "examples": [
+      "Bruttolönen står överst på beskedet och nettolönen längst ner.",
+      "Nettolönen är lägre än bruttolönen eftersom skatt har dragits av."
+    ],
+    "related": [
+      "nettolön"
+    ]
+  },
+  "nettolön": {
+    "opposite": "bruttolön",
+    "description": "Bruttolön är lön före skatt. Nettolön är det som återstår efter skatt och andra avdrag.",
+    "examples": [
+      "Bruttolönen står överst på beskedet och nettolönen längst ner.",
+      "Nettolönen är lägre än bruttolönen eftersom skatt har dragits av."
+    ],
+    "related": [
+      "bruttolön"
+    ]
+  },
+  "inflöde": {
+    "opposite": "utflöde",
+    "description": "Inflöde är något som strömmar in. Utflöde är något som strömmar ut.",
+    "examples": [
+      "Sjöns inflöde var större än dess utflöde.",
+      "Företaget jämför inflödet av pengar med utflödet."
+    ],
+    "related": [
+      "utflöde"
+    ]
+  },
+  "utflöde": {
+    "opposite": "inflöde",
+    "description": "Inflöde är något som strömmar in. Utflöde är något som strömmar ut.",
+    "examples": [
+      "Sjöns inflöde var större än dess utflöde.",
+      "Företaget jämför inflödet av pengar med utflödet."
+    ],
+    "related": [
+      "inflöde"
+    ]
+  },
+  "nedtill": {
+    "opposite": "upptill",
+    "description": "Nedtill betyder i den nedre delen. Upptill betyder i den övre delen.",
+    "examples": [
+      "Skåpet är blått nedtill och vitt upptill.",
+      "Skriv namnet upptill och datumet nedtill."
+    ],
+    "related": [
+      "upptill"
+    ]
+  },
+  "upptill": {
+    "opposite": "nedtill",
+    "description": "Nedtill betyder i den nedre delen. Upptill betyder i den övre delen.",
+    "examples": [
+      "Skåpet är blått nedtill och vitt upptill.",
+      "Skriv namnet upptill och datumet nedtill."
+    ],
+    "related": [
+      "nedtill"
+    ]
+  },
+  "innerkant": {
+    "opposite": "ytterkant",
+    "description": "Innerkanten ligger närmast mitten eller insidan. Ytterkanten ligger längst ut.",
+    "examples": [
+      "Sy längs innerkanten och klipp vid ytterkanten.",
+      "Tallriken är vit i mitten och blå vid ytterkanten, medan innerkanten har ett smalt mönster."
+    ],
+    "related": [
+      "ytterkant"
+    ]
+  },
+  "ytterkant": {
+    "opposite": "innerkant",
+    "description": "Innerkanten ligger närmast mitten eller insidan. Ytterkanten ligger längst ut.",
+    "examples": [
+      "Sy längs innerkanten och klipp vid ytterkanten.",
+      "Tallriken är vit i mitten och blå vid ytterkanten, medan innerkanten har ett smalt mönster."
+    ],
+    "related": [
+      "innerkant"
+    ]
+  },
+  "krympning": {
+    "opposite": "svällning",
+    "description": "Krympning betyder att något blir mindre. Svällning betyder att det blir större eller tjockare.",
+    "examples": [
+      "Torkning kan ge krympning, medan fukt kan ge svällning.",
+      "Materialets krympning på vintern och svällning på sommaren måste räknas med."
+    ],
+    "related": [
+      "svällning"
+    ]
+  },
+  "svällning": {
+    "opposite": "krympning",
+    "description": "Krympning betyder att något blir mindre. Svällning betyder att det blir större eller tjockare.",
+    "examples": [
+      "Torkning kan ge krympning, medan fukt kan ge svällning.",
+      "Materialets krympning på vintern och svällning på sommaren måste räknas med."
+    ],
+    "related": [
+      "krympning"
+    ]
+  },
+  "säljbar": {
+    "opposite": "osäljbar",
+    "description": "Säljbar betyder att något går att sälja. Osäljbar betyder att det inte går att sälja.",
+    "examples": [
+      "Den hela varan är säljbar, men den skadade är osäljbar.",
+      "Efter reparationen blev produkten säljbar i stället för osäljbar."
+    ],
+    "related": [
+      "osäljbar"
+    ]
+  },
+  "osäljbar": {
+    "opposite": "säljbar",
+    "description": "Säljbar betyder att något går att sälja. Osäljbar betyder att det inte går att sälja.",
+    "examples": [
+      "Den hela varan är säljbar, men den skadade är osäljbar.",
+      "Efter reparationen blev produkten säljbar i stället för osäljbar."
+    ],
+    "related": [
+      "säljbar"
+    ]
+  },
+  "upplöslig": {
+    "opposite": "oupplöslig",
+    "description": "Upplöslig betyder att ett ämne kan lösas i en vätska. Oupplöslig betyder att det inte kan lösas där.",
+    "examples": [
+      "Salt är upplösligt i vatten, men sand är i stort sett oupplöslig.",
+      "Ett upplösligt ämne försvinner i lösningen, medan ett oupplösligt ämne blir kvar."
+    ],
+    "related": [
+      "oupplöslig"
+    ]
+  },
+  "oupplöslig": {
+    "opposite": "upplöslig",
+    "description": "Upplöslig betyder att ett ämne kan lösas i en vätska. Oupplöslig betyder att det inte kan lösas där.",
+    "examples": [
+      "Salt är upplösligt i vatten, men sand är i stort sett oupplöslig.",
+      "Ett upplösligt ämne försvinner i lösningen, medan ett oupplösligt ämne blir kvar."
+    ],
+    "related": [
+      "upplöslig"
+    ]
+  },
+  "rekordhög": {
+    "opposite": "rekordlåg",
+    "description": "Rekordhög betyder högre än någonsin tidigare. Rekordlåg betyder lägre än någonsin tidigare.",
+    "examples": [
+      "Temperaturen var rekordhög i juli och rekordlåg i januari.",
+      "Efter en rekordhög försäljning följde en rekordlåg månad."
+    ],
+    "related": [
+      "rekordlåg"
+    ]
+  },
+  "rekordlåg": {
+    "opposite": "rekordhög",
+    "description": "Rekordhög betyder högre än någonsin tidigare. Rekordlåg betyder lägre än någonsin tidigare.",
+    "examples": [
+      "Temperaturen var rekordhög i juli och rekordlåg i januari.",
+      "Efter en rekordhög försäljning följde en rekordlåg månad."
+    ],
+    "related": [
+      "rekordhög"
+    ]
+  },
+  "längsgående": {
+    "opposite": "tvärgående",
+    "description": "Längsgående betyder i samma riktning som längden. Tvärgående betyder tvärs över längdriktningen.",
+    "examples": [
+      "Bron har längsgående balkar och tvärgående stöd.",
+      "Det längsgående spåret korsas av en tvärgående linje."
+    ],
+    "related": [
+      "tvärgående"
+    ]
+  },
+  "tvärgående": {
+    "opposite": "längsgående",
+    "description": "Längsgående betyder i samma riktning som längden. Tvärgående betyder tvärs över längdriktningen.",
+    "examples": [
+      "Bron har längsgående balkar och tvärgående stöd.",
+      "Det längsgående spåret korsas av en tvärgående linje."
+    ],
+    "related": [
+      "längsgående"
+    ]
+  },
+  "offentligägd": {
+    "opposite": "privatägd",
+    "description": "Offentligägd betyder ägd av staten, en region eller en kommun. Privatägd betyder ägd av privata personer eller företag.",
+    "examples": [
+      "Det ena bolaget är offentligägt och det andra privatägt.",
+      "En offentligägd verksamhet kan säljas och bli privatägd."
+    ],
+    "related": [
+      "privatägd"
+    ]
+  },
+  "privatägd": {
+    "opposite": "offentligägd",
+    "description": "Offentligägd betyder ägd av staten, en region eller en kommun. Privatägd betyder ägd av privata personer eller företag.",
+    "examples": [
+      "Det ena bolaget är offentligägt och det andra privatägt.",
+      "En offentligägd verksamhet kan säljas och bli privatägd."
+    ],
+    "related": [
+      "offentligägd"
+    ]
+  },
+  "kortsiktig": {
+    "opposite": "långsiktig",
+    "description": "Kortsiktig gäller den närmaste tiden. Långsiktig gäller en längre tid framåt.",
+    "examples": [
+      "Den kortsiktiga lösningen hjälpte i dag, men vi behöver också en långsiktig plan.",
+      "En kortsiktig vinst kan skada ett långsiktigt mål."
+    ],
+    "related": [
+      "långsiktig"
+    ]
+  },
+  "långsiktig": {
+    "opposite": "kortsiktig",
+    "description": "Kortsiktig gäller den närmaste tiden. Långsiktig gäller en längre tid framåt.",
+    "examples": [
+      "Den kortsiktiga lösningen hjälpte i dag, men vi behöver också en långsiktig plan.",
+      "En kortsiktig vinst kan skada ett långsiktigt mål."
+    ],
+    "related": [
+      "kortsiktig"
+    ]
+  },
+  "högkonjunktur": {
+    "opposite": "lågkonjunktur",
+    "description": "Högkonjunktur är en period med stark ekonomi och hög aktivitet. Lågkonjunktur är en period med svagare ekonomi och lägre aktivitet.",
+    "examples": [
+      "Arbetslösheten sjunker ofta i högkonjunktur och stiger i lågkonjunktur.",
+      "Efter flera år av högkonjunktur gick ekonomin in i en lågkonjunktur."
+    ],
+    "related": [
+      "lågkonjunktur"
+    ]
+  },
+  "lågkonjunktur": {
+    "opposite": "högkonjunktur",
+    "description": "Högkonjunktur är en period med stark ekonomi och hög aktivitet. Lågkonjunktur är en period med svagare ekonomi och lägre aktivitet.",
+    "examples": [
+      "Arbetslösheten sjunker ofta i högkonjunktur och stiger i lågkonjunktur.",
+      "Efter flera år av högkonjunktur gick ekonomin in i en lågkonjunktur."
+    ],
+    "related": [
+      "högkonjunktur"
+    ]
   }
 } as const;
