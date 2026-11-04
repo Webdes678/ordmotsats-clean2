@@ -42,7 +42,17 @@ function updateSeo(title: string, description: string, canonical?: string, noind
   }
 }
 
-function SearchBar() {
+type SearchBarProps = {
+  buttonLabel?: string
+  placeholder?: string
+  variant?: "default" | "hero"
+}
+
+function SearchBar({
+  buttonLabel = "Sök",
+  placeholder = "Sök bland kontrollerade ordpar, t.ex. stor eller glad",
+  variant = "default",
+}: SearchBarProps) {
   const navigate = useNavigate()
   const [query, setQuery] = useState("")
 
@@ -59,17 +69,19 @@ function SearchBar() {
   }
 
   return (
-    <div className="search-container">
+    <div className={`search-container search-container--${variant}`}>
       <div className="search">
+        <span className="search-icon" aria-hidden="true">⌕</span>
         <input
+          aria-label="Sök efter ett svenskt ord"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
           onKeyDown={(e) => {
             if (e.key === "Enter") handleSearch(query)
           }}
-          placeholder="Sök bland kontrollerade ordpar, t.ex. stor eller glad"
+          placeholder={placeholder}
         />
-        <button onClick={() => handleSearch(query)}>Sök</button>
+        <button type="button" onClick={() => handleSearch(query)}>{buttonLabel}</button>
       </div>
 
       {query && suggestions.length > 0 && (
@@ -85,9 +97,25 @@ function SearchBar() {
   )
 }
 
-function HomePage() {
-  const navigate = useNavigate()
+function SiteHeader({ showNavigation = false }: { showNavigation?: boolean }) {
+  return (
+    <header className="site-header">
+      <Link className="logo" to="/" aria-label="motsatsord.se startsida">
+        <span className="logo-mark" aria-hidden="true">↔</span>
+        <span>motsatsord<span>.se</span></span>
+      </Link>
 
+      {showNavigation && (
+        <nav className="site-nav" aria-label="Huvudmeny">
+          <a href="#popular-words">Ordlista</a>
+          <a href="#about">Om</a>
+        </nav>
+      )}
+    </header>
+  )
+}
+
+function HomePage() {
   useEffect(() => {
     updateSeo(
       "Motsatsord – svenska ordpar och antonymer",
@@ -97,38 +125,42 @@ function HomePage() {
   }, [])
 
   return (
-    <main className="page">
-      <header className="header">
-        <div className="logo" onClick={() => navigate("/")}>
-          <img src="/favicon.png" alt="Motsatsord logo" className="logo-icon" />
-          <span>motsatsord<span>.se</span></span>
+    <main className="page home-page">
+      <SiteHeader showNavigation />
+
+      <section className="home-hero">
+        <div className="hero-panel">
+          <span className="hero-eyebrow">Hitta rätt ord direkt</span>
+          <h1>Vilket ord söker du motsatsen till?</h1>
+          <p>Skriv ett svenskt ord så hjälper vi dig.</p>
+          <SearchBar
+            buttonLabel="Hitta motsatsen"
+            placeholder="Till exempel: snabb"
+            variant="hero"
+          />
+
+          <div className="featured-pair" aria-label="Exempel på motsatsord: snabb och långsam">
+            <Link to="/ord/snabb">snabb</Link>
+            <span aria-hidden="true">↔</span>
+            <Link to="/ord/l%C3%A5ngsam">långsam</Link>
+          </div>
         </div>
-      </header>
 
-      <section className="hero">
-        <h1>Hitta motsatsord till vanliga svenska ord</h1>
-        <p>Se kontrollerade ordpar, korta förklaringar och exempelmeningar.</p>
-        <SearchBar />
-
-        <div className="popular">
-          <h3>VANLIGA ORDPAR</h3>
+        <div className="popular" id="popular-words">
+          <h2>Prova ett vanligt ord</h2>
           <div className="chips">
-            {popularWords.map((word) => (
+            {popularWords.slice(0, 6).map((word) => (
               <Link key={word} to={"/ord/" + encodeURIComponent(word)}>
-                {word} ↔ {words[word as keyof typeof words].opposite}
+                {word}
               </Link>
             ))}
           </div>
         </div>
 
-        <p className="dictionary-note">
-          Ordlistan fokuserar på ordpar och exempel som har granskats. Fler ord läggs till efter kontroll.
-        </p>
-
-        <div className="cards">
-          <div><h2>Tydligt</h2><p>Varje ordpar har exempel i sitt sammanhang.</p></div>
-          <div><h2>Enkelt</h2><p>Sök direkt bland orden i ordlistan.</p></div>
-          <div><h2>Gratis</h2><p>Slå upp ord utan konto.</p></div>
+        <div className="trust-row" id="about">
+          <div><span aria-hidden="true">✓</span><strong>Granskade ordpar</strong></div>
+          <div><span aria-hidden="true">✓</span><strong>Tydliga meningar</strong></div>
+          <div><span aria-hidden="true">✓</span><strong>Alltid gratis</strong></div>
         </div>
       </section>
 
@@ -138,7 +170,6 @@ function HomePage() {
 }
 
 function WordPage() {
-  const navigate = useNavigate()
   const { word } = useParams()
   const cleanWord = word?.toLowerCase().trim() || ""
   const result = words[cleanWord as keyof typeof words]
@@ -163,12 +194,10 @@ function WordPage() {
   const browseWords = popularWords.filter((candidate) => candidate !== cleanWord && candidate !== result?.opposite)
 
   return (
-    <main className="page">
-      <header className="header">
-        <div className="logo" onClick={() => navigate("/")}>motsatsord<span>.se</span></div>
-      </header>
+    <main className="page word-page-shell">
+      <SiteHeader />
 
-      <section className="hero">
+      <section className="word-hero">
         <Link className="back-button" to="/">← Till startsidan</Link>
         <SearchBar />
 
@@ -219,3 +248,4 @@ function App() {
 }
 
 export default App
+
