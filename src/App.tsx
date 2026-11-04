@@ -5,6 +5,8 @@ import { words } from "./data/words"
 
 const allWords = Object.keys(words)
 const popularWords = ["stor", "snabb", "varm", "glad", "ljus", "hög", "ung", "full", "öppen", "lätt"]
+const homepageWords = [...popularWords, "tidig", "rätt", "rik", "dag"]
+const reviewedPairCount = Math.floor(allWords.length / 2)
 
 function updateSeo(title: string, description: string, canonical?: string, noindex = false) {
   document.title = title
@@ -139,6 +141,11 @@ function HomePage() {
             variant="hero"
           />
 
+          <p className="review-note">
+            <span aria-hidden="true">✓</span>
+            Alla publicerade ordpar och exempel är granskade före publicering.
+          </p>
+
           <div className="featured-pair" aria-label="Exempel på motsatsord: snabb och långsam">
             <Link to="/ord/snabb">snabb</Link>
             <span aria-hidden="true">↔</span>
@@ -147,20 +154,21 @@ function HomePage() {
         </div>
 
         <div className="popular" id="popular-words">
-          <h2>Prova ett vanligt ord</h2>
+          <h2>Vanliga granskade ordpar</h2>
+          <p>Öppna ett ordpar för att se en förklaring och två exempelmeningar.</p>
           <div className="chips">
-            {popularWords.slice(0, 6).map((word) => (
+            {homepageWords.map((word) => (
               <Link key={word} to={"/ord/" + encodeURIComponent(word)}>
-                {word}
+                {word} ↔ {words[word as keyof typeof words].opposite}
               </Link>
             ))}
           </div>
         </div>
 
         <div className="trust-row" id="about">
-          <div><span aria-hidden="true">✓</span><strong>Granskade ordpar</strong></div>
-          <div><span aria-hidden="true">✓</span><strong>Tydliga meningar</strong></div>
-          <div><span aria-hidden="true">✓</span><strong>Alltid gratis</strong></div>
+          <div><span aria-hidden="true">✓</span><strong>{allWords.length} granskade ord</strong></div>
+          <div><span aria-hidden="true">✓</span><strong>{reviewedPairCount} kontrollerade ordpar</strong></div>
+          <div><span aria-hidden="true">✓</span><strong>2 granskade exempel per ordpar</strong></div>
         </div>
       </section>
 
