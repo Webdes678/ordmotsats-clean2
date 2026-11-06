@@ -6092,5 +6092,1105 @@ export const words = {
     "related": [
       "avta"
     ]
+  },
+  "optimism": {
+    "opposite": "pessimism",
+    "description": "Optimism är en tro på att det kommer att gå bra. Pessimism är en förväntan att det kommer att gå dåligt.",
+    "examples": [
+      "Hennes optimism gav gruppen hopp, medan hans pessimism gjorde dem tveksamma.",
+      "Trots all pessimism behöll hon sin optimism."
+    ],
+    "related": [
+      "pessimism"
+    ]
+  },
+  "pessimism": {
+    "opposite": "optimism",
+    "description": "Optimism är en tro på att det kommer att gå bra. Pessimism är en förväntan att det kommer att gå dåligt.",
+    "examples": [
+      "Hennes optimism gav gruppen hopp, medan hans pessimism gjorde dem tveksamma.",
+      "Trots all pessimism behöll hon sin optimism."
+    ],
+    "related": [
+      "optimism"
+    ]
+  },
+  "optimistisk": {
+    "opposite": "pessimistisk",
+    "description": "Optimistisk betyder hoppfull inför framtiden. Pessimistisk betyder att man väntar sig ett sämre resultat.",
+    "examples": [
+      "Hon är optimistisk om planen, men han är pessimistisk.",
+      "Prognosen gick från pessimistisk till mer optimistisk."
+    ],
+    "related": [
+      "pessimistisk"
+    ]
+  },
+  "pessimistisk": {
+    "opposite": "optimistisk",
+    "description": "Optimistisk betyder hoppfull inför framtiden. Pessimistisk betyder att man väntar sig ett sämre resultat.",
+    "examples": [
+      "Hon är optimistisk om planen, men han är pessimistisk.",
+      "Prognosen gick från pessimistisk till mer optimistisk."
+    ],
+    "related": [
+      "optimistisk"
+    ]
+  },
+  "explodera": {
+    "opposite": "implodera",
+    "description": "Explodera betyder att brista utåt. Implodera betyder att falla samman inåt.",
+    "examples": [
+      "En behållare kan explodera av högt inre tryck eller implodera av högt yttre tryck.",
+      "Stjärnan började implodera innan materialet kunde explodera utåt."
+    ],
+    "related": [
+      "implodera"
+    ]
+  },
+  "implodera": {
+    "opposite": "explodera",
+    "description": "Explodera betyder att brista utåt. Implodera betyder att falla samman inåt.",
+    "examples": [
+      "En behållare kan explodera av högt inre tryck eller implodera av högt yttre tryck.",
+      "Stjärnan började implodera innan materialet kunde explodera utåt."
+    ],
+    "related": [
+      "explodera"
+    ]
+  },
+  "altruistisk": {
+    "opposite": "egoistisk",
+    "description": "Altruistisk betyder inriktad på andras bästa. Egoistisk betyder främst inriktad på det egna bästa.",
+    "examples": [
+      "Det altruistiska beslutet hjälpte många, medan det egoistiska beslutet bara gynnade en person.",
+      "Hon handlade altruistiskt i stället för egoistiskt."
+    ],
+    "related": [
+      "egoistisk"
+    ]
+  },
+  "egoistisk": {
+    "opposite": "altruistisk",
+    "description": "Altruistisk betyder inriktad på andras bästa. Egoistisk betyder främst inriktad på det egna bästa.",
+    "examples": [
+      "Det altruistiska beslutet hjälpte många, medan det egoistiska beslutet bara gynnade en person.",
+      "Hon handlade altruistiskt i stället för egoistiskt."
+    ],
+    "related": [
+      "altruistisk"
+    ]
+  },
+  "enfärgad": {
+    "opposite": "flerfärgad",
+    "description": "Enfärgad betyder att något har en färg. Flerfärgad betyder att det har flera färger.",
+    "examples": [
+      "Den ena tröjan är enfärgad och den andra flerfärgad.",
+      "Hon bytte den flerfärgade mattan mot en enfärgad."
+    ],
+    "related": [
+      "flerfärgad"
+    ]
+  },
+  "flerfärgad": {
+    "opposite": "enfärgad",
+    "description": "Enfärgad betyder att något har en färg. Flerfärgad betyder att det har flera färger.",
+    "examples": [
+      "Den ena tröjan är enfärgad och den andra flerfärgad.",
+      "Hon bytte den flerfärgade mattan mot en enfärgad."
+    ],
+    "related": [
+      "enfärgad"
+    ]
+  },
+  "fullkomlig": {
+    "opposite": "ofullkomlig",
+    "description": "Fullkomlig betyder fullständig eller utan brister. Ofullkomlig betyder att brister finns.",
+    "examples": [
+      "Ingen lösning är fullkomlig, men den första var särskilt ofullkomlig.",
+      "Resultatet gick från ofullkomligt till nästan fullkomligt."
+    ],
+    "related": [
+      "ofullkomlig"
+    ]
+  },
+  "ofullkomlig": {
+    "opposite": "fullkomlig",
+    "description": "Fullkomlig betyder fullständig eller utan brister. Ofullkomlig betyder att brister finns.",
+    "examples": [
+      "Ingen lösning är fullkomlig, men den första var särskilt ofullkomlig.",
+      "Resultatet gick från ofullkomligt till nästan fullkomligt."
+    ],
+    "related": [
+      "fullkomlig"
+    ]
+  },
+  "trångsynt": {
+    "opposite": "vidsynt",
+    "description": "Trångsynt betyder ovillig att acceptera andra perspektiv. Vidsynt betyder öppen för olika idéer.",
+    "examples": [
+      "Ett trångsynt synsätt ersattes av ett mer vidsynt.",
+      "Hon är vidsynt och försöker undvika trångsynta bedömningar."
+    ],
+    "related": [
+      "vidsynt"
+    ]
+  },
+  "vidsynt": {
+    "opposite": "trångsynt",
+    "description": "Trångsynt betyder ovillig att acceptera andra perspektiv. Vidsynt betyder öppen för olika idéer.",
+    "examples": [
+      "Ett trångsynt synsätt ersattes av ett mer vidsynt.",
+      "Hon är vidsynt och försöker undvika trångsynta bedömningar."
+    ],
+    "related": [
+      "trångsynt"
+    ]
+  },
+  "monogam": {
+    "opposite": "polygam",
+    "description": "Monogam betyder att ha en partner åt gången. Polygam betyder att ha flera partners samtidigt.",
+    "examples": [
+      "Arten är oftast monogam, men en närbesläktad art är polygam.",
+      "Ett monogamt system skiljer sig från ett polygamt."
+    ],
+    "related": [
+      "polygam"
+    ]
+  },
+  "polygam": {
+    "opposite": "monogam",
+    "description": "Monogam betyder att ha en partner åt gången. Polygam betyder att ha flera partners samtidigt.",
+    "examples": [
+      "Arten är oftast monogam, men en närbesläktad art är polygam.",
+      "Ett monogamt system skiljer sig från ett polygamt."
+    ],
+    "related": [
+      "monogam"
+    ]
+  },
+  "exponentiera": {
+    "opposite": "logaritmera",
+    "description": "Att exponentiera och att logaritmera är omvända matematiska operationer.",
+    "examples": [
+      "Exponentiera värdet för att återgå efter att du har logaritmerat det.",
+      "Programmet kan både logaritmera och exponentiera tal."
+    ],
+    "related": [
+      "logaritmera"
+    ]
+  },
+  "logaritmera": {
+    "opposite": "exponentiera",
+    "description": "Att exponentiera och att logaritmera är omvända matematiska operationer.",
+    "examples": [
+      "Exponentiera värdet för att återgå efter att du har logaritmerat det.",
+      "Programmet kan både logaritmera och exponentiera tal."
+    ],
+    "related": [
+      "exponentiera"
+    ]
+  },
+  "medlut": {
+    "opposite": "motlut",
+    "description": "Medlut är en sträcka som lutar nedåt i färdriktningen. Motlut är en sträcka som lutar uppåt.",
+    "examples": [
+      "Cykeln rullade snabbt i medlutet men långsamt i motlutet.",
+      "Efter ett långt motlut kom ett välkommet medlut."
+    ],
+    "related": [
+      "motlut"
+    ]
+  },
+  "motlut": {
+    "opposite": "medlut",
+    "description": "Medlut är en sträcka som lutar nedåt i färdriktningen. Motlut är en sträcka som lutar uppåt.",
+    "examples": [
+      "Cykeln rullade snabbt i medlutet men långsamt i motlutet.",
+      "Efter ett långt motlut kom ett välkommet medlut."
+    ],
+    "related": [
+      "medlut"
+    ]
+  },
+  "förindustriell": {
+    "opposite": "postindustriell",
+    "description": "Förindustriell beskriver tiden före industrialiseringen. Postindustriell beskriver tiden efter industrisamhällets dominerande fas.",
+    "examples": [
+      "Byn hade en förindustriell ekonomi, medan staden blev postindustriell.",
+      "Studien jämför förindustriella samhällen med postindustriella samhällen."
+    ],
+    "related": [
+      "postindustriell"
+    ]
+  },
+  "postindustriell": {
+    "opposite": "förindustriell",
+    "description": "Förindustriell beskriver tiden före industrialiseringen. Postindustriell beskriver tiden efter industrisamhällets dominerande fas.",
+    "examples": [
+      "Byn hade en förindustriell ekonomi, medan staden blev postindustriell.",
+      "Studien jämför förindustriella samhällen med postindustriella samhällen."
+    ],
+    "related": [
+      "förindustriell"
+    ]
+  },
+  "benign": {
+    "opposite": "malign",
+    "description": "Benign betyder godartad. Malign betyder elakartad.",
+    "examples": [
+      "Provet visade att tumören var benign och inte malign.",
+      "En benign förändring behandlas annorlunda än en malign."
+    ],
+    "related": [
+      "malign"
+    ]
+  },
+  "malign": {
+    "opposite": "benign",
+    "description": "Benign betyder godartad. Malign betyder elakartad.",
+    "examples": [
+      "Provet visade att tumören var benign och inte malign.",
+      "En benign förändring behandlas annorlunda än en malign."
+    ],
+    "related": [
+      "benign"
+    ]
+  },
+  "samarbetsovillig": {
+    "opposite": "samarbetsvillig",
+    "description": "Samarbetsovillig betyder att någon inte vill samarbeta. Samarbetsvillig betyder att någon gärna samarbetar.",
+    "examples": [
+      "Han var först samarbetsovillig men blev senare samarbetsvillig.",
+      "En samarbetsvillig grupp löser uppgiften lättare än en samarbetsovillig."
+    ],
+    "related": [
+      "samarbetsvillig"
+    ]
+  },
+  "samarbetsvillig": {
+    "opposite": "samarbetsovillig",
+    "description": "Samarbetsovillig betyder att någon inte vill samarbeta. Samarbetsvillig betyder att någon gärna samarbetar.",
+    "examples": [
+      "Han var först samarbetsovillig men blev senare samarbetsvillig.",
+      "En samarbetsvillig grupp löser uppgiften lättare än en samarbetsovillig."
+    ],
+    "related": [
+      "samarbetsovillig"
+    ]
+  },
+  "oöversiktlig": {
+    "opposite": "översiktlig",
+    "description": "Oöversiktlig betyder svår att få en helhetsbild av. Översiktlig betyder att helheten är lätt att se.",
+    "examples": [
+      "Den gamla tabellen var oöversiktlig, men den nya är översiktlig.",
+      "Gör kartan mer översiktlig och mindre oöversiktlig."
+    ],
+    "related": [
+      "översiktlig"
+    ]
+  },
+  "översiktlig": {
+    "opposite": "oöversiktlig",
+    "description": "Oöversiktlig betyder svår att få en helhetsbild av. Översiktlig betyder att helheten är lätt att se.",
+    "examples": [
+      "Den gamla tabellen var oöversiktlig, men den nya är översiktlig.",
+      "Gör kartan mer översiktlig och mindre oöversiktlig."
+    ],
+    "related": [
+      "oöversiktlig"
+    ]
+  },
+  "betydlig": {
+    "opposite": "obetydlig",
+    "description": "Betydlig betyder stor eller märkbar. Obetydlig betyder liten eller knappt märkbar.",
+    "examples": [
+      "Kostnaden var betydlig, medan skillnaden i tid var obetydlig.",
+      "En obetydlig förändring ledde senare till en betydlig förbättring."
+    ],
+    "related": [
+      "obetydlig"
+    ]
+  },
+  "obetydlig": {
+    "opposite": "betydlig",
+    "description": "Betydlig betyder stor eller märkbar. Obetydlig betyder liten eller knappt märkbar.",
+    "examples": [
+      "Kostnaden var betydlig, medan skillnaden i tid var obetydlig.",
+      "En obetydlig förändring ledde senare till en betydlig förbättring."
+    ],
+    "related": [
+      "betydlig"
+    ]
+  },
+  "efterled": {
+    "opposite": "förled",
+    "description": "Ett förled står först i en sammansättning. Ett efterled står sist.",
+    "examples": [
+      "I ordet sommarhus är sommar förled och hus efterled.",
+      "Byt förled men behåll samma efterled."
+    ],
+    "related": [
+      "förled"
+    ]
+  },
+  "förled": {
+    "opposite": "efterled",
+    "description": "Ett förled står först i en sammansättning. Ett efterled står sist.",
+    "examples": [
+      "I ordet sommarhus är sommar förled och hus efterled.",
+      "Byt förled men behåll samma efterled."
+    ],
+    "related": [
+      "efterled"
+    ]
+  },
+  "abiotisk": {
+    "opposite": "biotisk",
+    "description": "Abiotisk rör icke-levande faktorer. Biotisk rör levande organismer.",
+    "examples": [
+      "Temperatur är en abiotisk faktor, medan konkurrens mellan arter är en biotisk faktor.",
+      "Miljön påverkas av både abiotiska och biotiska förhållanden."
+    ],
+    "related": [
+      "biotisk"
+    ]
+  },
+  "biotisk": {
+    "opposite": "abiotisk",
+    "description": "Abiotisk rör icke-levande faktorer. Biotisk rör levande organismer.",
+    "examples": [
+      "Temperatur är en abiotisk faktor, medan konkurrens mellan arter är en biotisk faktor.",
+      "Miljön påverkas av både abiotiska och biotiska förhållanden."
+    ],
+    "related": [
+      "abiotisk"
+    ]
+  },
+  "konsumtion": {
+    "opposite": "produktion",
+    "description": "Produktion skapar varor eller tjänster. Konsumtion använder dem.",
+    "examples": [
+      "Produktionen ökade för att möta en högre konsumtion.",
+      "Företaget jämför produktion med konsumtion varje månad."
+    ],
+    "related": [
+      "produktion"
+    ]
+  },
+  "produktion": {
+    "opposite": "konsumtion",
+    "description": "Produktion skapar varor eller tjänster. Konsumtion använder dem.",
+    "examples": [
+      "Produktionen ökade för att möta en högre konsumtion.",
+      "Företaget jämför produktion med konsumtion varje månad."
+    ],
+    "related": [
+      "konsumtion"
+    ]
+  },
+  "dysfemism": {
+    "opposite": "eufemism",
+    "description": "En eufemism mildrar ett uttryck. En dysfemism gör uttrycket hårdare eller mer nedsättande.",
+    "examples": [
+      "Hon använde en eufemism för att låta vänlig, medan han valde en dysfemism.",
+      "Samma sak kan beskrivas med en eufemism eller en dysfemism."
+    ],
+    "related": [
+      "eufemism"
+    ]
+  },
+  "eufemism": {
+    "opposite": "dysfemism",
+    "description": "En eufemism mildrar ett uttryck. En dysfemism gör uttrycket hårdare eller mer nedsättande.",
+    "examples": [
+      "Hon använde en eufemism för att låta vänlig, medan han valde en dysfemism.",
+      "Samma sak kan beskrivas med en eufemism eller en dysfemism."
+    ],
+    "related": [
+      "dysfemism"
+    ]
+  },
+  "aphelium": {
+    "opposite": "perihelium",
+    "description": "Aphelium är den punkt där ett objekt är längst från solen. Perihelium är punkten närmast solen.",
+    "examples": [
+      "Planeten rör sig längst bort vid aphelium och närmast vid perihelium.",
+      "Avståndet är större i aphelium än i perihelium."
+    ],
+    "related": [
+      "perihelium"
+    ]
+  },
+  "perihelium": {
+    "opposite": "aphelium",
+    "description": "Aphelium är den punkt där ett objekt är längst från solen. Perihelium är punkten närmast solen.",
+    "examples": [
+      "Planeten rör sig längst bort vid aphelium och närmast vid perihelium.",
+      "Avståndet är större i aphelium än i perihelium."
+    ],
+    "related": [
+      "aphelium"
+    ]
+  },
+  "apogeum": {
+    "opposite": "perigeum",
+    "description": "Apogeum är den punkt i en bana som ligger längst från jorden. Perigeum är punkten närmast jorden.",
+    "examples": [
+      "Månen är längre bort i apogeum och närmare i perigeum.",
+      "Satellitens bana går mellan perigeum och apogeum."
+    ],
+    "related": [
+      "perigeum"
+    ]
+  },
+  "perigeum": {
+    "opposite": "apogeum",
+    "description": "Apogeum är den punkt i en bana som ligger längst från jorden. Perigeum är punkten närmast jorden.",
+    "examples": [
+      "Månen är längre bort i apogeum och närmare i perigeum.",
+      "Satellitens bana går mellan perigeum och apogeum."
+    ],
+    "related": [
+      "apogeum"
+    ]
+  },
+  "feminin": {
+    "opposite": "maskulin",
+    "description": "Feminin betyder kvinnligt präglad. Maskulin betyder manligt präglad.",
+    "examples": [
+      "Formen beskrevs som feminin, medan den andra kallades maskulin.",
+      "Språket använder både feminina och maskulina former."
+    ],
+    "related": [
+      "maskulin"
+    ]
+  },
+  "maskulin": {
+    "opposite": "feminin",
+    "description": "Feminin betyder kvinnligt präglad. Maskulin betyder manligt präglad.",
+    "examples": [
+      "Formen beskrevs som feminin, medan den andra kallades maskulin.",
+      "Språket använder både feminina och maskulina former."
+    ],
+    "related": [
+      "feminin"
+    ]
+  },
+  "kvinnlig": {
+    "opposite": "manlig",
+    "description": "Kvinnlig betyder som hör till eller gäller kvinnor. Manlig betyder som hör till eller gäller män.",
+    "examples": [
+      "Tävlingen har en kvinnlig och en manlig klass.",
+      "Den kvinnliga huvudrollen möter den manliga huvudrollen."
+    ],
+    "related": [
+      "manlig"
+    ]
+  },
+  "manlig": {
+    "opposite": "kvinnlig",
+    "description": "Kvinnlig betyder som hör till eller gäller kvinnor. Manlig betyder som hör till eller gäller män.",
+    "examples": [
+      "Tävlingen har en kvinnlig och en manlig klass.",
+      "Den kvinnliga huvudrollen möter den manliga huvudrollen."
+    ],
+    "related": [
+      "kvinnlig"
+    ]
+  },
+  "ordfattig": {
+    "opposite": "ordrik",
+    "description": "Ordfattig betyder att få ord används. Ordrik betyder att många ord används.",
+    "examples": [
+      "Texten var ordfattig, men talet var mycket ordrikt.",
+      "En ordrik förklaring ersatte det ordfattiga svaret."
+    ],
+    "related": [
+      "ordrik"
+    ]
+  },
+  "ordrik": {
+    "opposite": "ordfattig",
+    "description": "Ordfattig betyder att få ord används. Ordrik betyder att många ord används.",
+    "examples": [
+      "Texten var ordfattig, men talet var mycket ordrikt.",
+      "En ordrik förklaring ersatte det ordfattiga svaret."
+    ],
+    "related": [
+      "ordfattig"
+    ]
+  },
+  "inom": {
+    "opposite": "utom",
+    "description": "Inom betyder på insidan av en gräns. Utom betyder utanför gränsen.",
+    "examples": [
+      "Alla inom området var säkra, men de utom området fick vänta.",
+      "Regeln gäller inom landet men inte utom landet."
+    ],
+    "related": [
+      "utom"
+    ]
+  },
+  "utom": {
+    "opposite": "inom",
+    "description": "Inom betyder på insidan av en gräns. Utom betyder utanför gränsen.",
+    "examples": [
+      "Alla inom området var säkra, men de utom området fick vänta.",
+      "Regeln gäller inom landet men inte utom landet."
+    ],
+    "related": [
+      "inom"
+    ]
+  },
+  "ihop": {
+    "opposite": "isär",
+    "description": "Ihop betyder tillsammans eller sammanfogat. Isär betyder åtskilt.",
+    "examples": [
+      "Sätt ihop delarna och ta sedan isär dem igen.",
+      "Böckerna stod ihop först men flyttades isär."
+    ],
+    "related": [
+      "isär"
+    ]
+  },
+  "isär": {
+    "opposite": "ihop",
+    "description": "Ihop betyder tillsammans eller sammanfogat. Isär betyder åtskilt.",
+    "examples": [
+      "Sätt ihop delarna och ta sedan isär dem igen.",
+      "Böckerna stod ihop först men flyttades isär."
+    ],
+    "related": [
+      "ihop"
+    ]
+  },
+  "baklänges": {
+    "opposite": "framåt",
+    "description": "Baklänges betyder i riktning bakåt. Framåt betyder i riktning mot framsidan eller framtiden.",
+    "examples": [
+      "Han gick baklänges några steg och fortsatte sedan framåt.",
+      "Filmen spelades först baklänges och sedan framåt."
+    ],
+    "related": [
+      "framåt"
+    ]
+  },
+  "framåt": {
+    "opposite": "baklänges",
+    "description": "Baklänges betyder i riktning bakåt. Framåt betyder i riktning mot framsidan eller framtiden.",
+    "examples": [
+      "Han gick baklänges några steg och fortsatte sedan framåt.",
+      "Filmen spelades först baklänges och sedan framåt."
+    ],
+    "related": [
+      "baklänges"
+    ]
+  },
+  "skriftspråk": {
+    "opposite": "talspråk",
+    "description": "Skriftspråk används i skrift. Talspråk används när vi talar.",
+    "examples": [
+      "Uttrycket är vanligt i talspråk men ovanligt i skriftspråk.",
+      "Skriftspråket är mer formellt än talspråket i exemplet."
+    ],
+    "related": [
+      "talspråk"
+    ]
+  },
+  "talspråk": {
+    "opposite": "skriftspråk",
+    "description": "Skriftspråk används i skrift. Talspråk används när vi talar.",
+    "examples": [
+      "Uttrycket är vanligt i talspråk men ovanligt i skriftspråk.",
+      "Skriftspråket är mer formellt än talspråket i exemplet."
+    ],
+    "related": [
+      "skriftspråk"
+    ]
+  },
+  "excentrisk": {
+    "opposite": "koncentrisk",
+    "description": "Excentrisk betyder att mittpunkterna inte sammanfaller. Koncentrisk betyder att former har samma mittpunkt.",
+    "examples": [
+      "De koncentriska cirklarna har samma centrum, men den excentriska cirkeln ligger förskjuten.",
+      "Lagret kan monteras koncentriskt eller excentriskt."
+    ],
+    "related": [
+      "koncentrisk"
+    ]
+  },
+  "koncentrisk": {
+    "opposite": "excentrisk",
+    "description": "Excentrisk betyder att mittpunkterna inte sammanfaller. Koncentrisk betyder att former har samma mittpunkt.",
+    "examples": [
+      "De koncentriska cirklarna har samma centrum, men den excentriska cirkeln ligger förskjuten.",
+      "Lagret kan monteras koncentriskt eller excentriskt."
+    ],
+    "related": [
+      "excentrisk"
+    ]
+  },
+  "höstdagjämning": {
+    "opposite": "vårdagjämning",
+    "description": "Vårdagjämningen inträffar på våren. Höstdagjämningen inträffar på hösten.",
+    "examples": [
+      "Dagarna blir längre efter vårdagjämningen och kortare efter höstdagjämningen.",
+      "Tiden mellan vårdagjämning och höstdagjämning omfattar sommarhalvåret."
+    ],
+    "related": [
+      "vårdagjämning"
+    ]
+  },
+  "vårdagjämning": {
+    "opposite": "höstdagjämning",
+    "description": "Vårdagjämningen inträffar på våren. Höstdagjämningen inträffar på hösten.",
+    "examples": [
+      "Dagarna blir längre efter vårdagjämningen och kortare efter höstdagjämningen.",
+      "Tiden mellan vårdagjämning och höstdagjämning omfattar sommarhalvåret."
+    ],
+    "related": [
+      "höstdagjämning"
+    ]
+  },
+  "impopularitet": {
+    "opposite": "popularitet",
+    "description": "Popularitet betyder att något är omtyckt. Impopularitet betyder att det inte är omtyckt.",
+    "examples": [
+      "Förslaget växte i popularitet efter en period av impopularitet.",
+      "Hög popularitet kan snabbt bytas mot impopularitet."
+    ],
+    "related": [
+      "popularitet"
+    ]
+  },
+  "popularitet": {
+    "opposite": "impopularitet",
+    "description": "Popularitet betyder att något är omtyckt. Impopularitet betyder att det inte är omtyckt.",
+    "examples": [
+      "Förslaget växte i popularitet efter en period av impopularitet.",
+      "Hög popularitet kan snabbt bytas mot impopularitet."
+    ],
+    "related": [
+      "impopularitet"
+    ]
+  },
+  "illegal": {
+    "opposite": "legal",
+    "description": "Legal betyder tillåten enligt lag. Illegal betyder förbjuden enligt lag.",
+    "examples": [
+      "Verksamheten var illegal men blev senare legal.",
+      "En legal handling följer lagen, medan en illegal handling bryter mot den."
+    ],
+    "related": [
+      "legal"
+    ]
+  },
+  "legal": {
+    "opposite": "illegal",
+    "description": "Legal betyder tillåten enligt lag. Illegal betyder förbjuden enligt lag.",
+    "examples": [
+      "Verksamheten var illegal men blev senare legal.",
+      "En legal handling följer lagen, medan en illegal handling bryter mot den."
+    ],
+    "related": [
+      "illegal"
+    ]
+  },
+  "heterodox": {
+    "opposite": "ortodox",
+    "description": "Ortodox betyder att följa en etablerad lära. Heterodox betyder att avvika från den.",
+    "examples": [
+      "Den ortodoxa tolkningen utmanades av en heterodox idé.",
+      "Han lämnade den heterodoxa gruppen för en mer ortodox riktning."
+    ],
+    "related": [
+      "ortodox"
+    ]
+  },
+  "ortodox": {
+    "opposite": "heterodox",
+    "description": "Ortodox betyder att följa en etablerad lära. Heterodox betyder att avvika från den.",
+    "examples": [
+      "Den ortodoxa tolkningen utmanades av en heterodox idé.",
+      "Han lämnade den heterodoxa gruppen för en mer ortodox riktning."
+    ],
+    "related": [
+      "heterodox"
+    ]
+  },
+  "entydig": {
+    "opposite": "tvetydig",
+    "description": "Entydig betyder att bara en tolkning är rimlig. Tvetydig betyder att flera tolkningar är möjliga.",
+    "examples": [
+      "Instruktionen var entydig, men svaret blev tvetydigt.",
+      "Skriv om den tvetydiga meningen så att den blir entydig."
+    ],
+    "related": [
+      "tvetydig"
+    ]
+  },
+  "tvetydig": {
+    "opposite": "entydig",
+    "description": "Entydig betyder att bara en tolkning är rimlig. Tvetydig betyder att flera tolkningar är möjliga.",
+    "examples": [
+      "Instruktionen var entydig, men svaret blev tvetydigt.",
+      "Skriv om den tvetydiga meningen så att den blir entydig."
+    ],
+    "related": [
+      "entydig"
+    ]
+  },
+  "encellig": {
+    "opposite": "flercellig",
+    "description": "En encellig organism består av en cell. En flercellig organism består av många celler.",
+    "examples": [
+      "En bakterie är encellig, medan en människa är flercellig.",
+      "Mikroskopet visade både encelliga och flercelliga organismer."
+    ],
+    "related": [
+      "flercellig"
+    ]
+  },
+  "flercellig": {
+    "opposite": "encellig",
+    "description": "En encellig organism består av en cell. En flercellig organism består av många celler.",
+    "examples": [
+      "En bakterie är encellig, medan en människa är flercellig.",
+      "Mikroskopet visade både encelliga och flercelliga organismer."
+    ],
+    "related": [
+      "encellig"
+    ]
+  },
+  "hövlig": {
+    "opposite": "ohövlig",
+    "description": "Hövlig betyder artig. Ohövlig betyder oartig.",
+    "examples": [
+      "Hon gav ett hövligt svar trots den ohövliga frågan.",
+      "Var hövlig och undvik en ohövlig ton."
+    ],
+    "related": [
+      "ohövlig"
+    ]
+  },
+  "ohövlig": {
+    "opposite": "hövlig",
+    "description": "Hövlig betyder artig. Ohövlig betyder oartig.",
+    "examples": [
+      "Hon gav ett hövligt svar trots den ohövliga frågan.",
+      "Var hövlig och undvik en ohövlig ton."
+    ],
+    "related": [
+      "hövlig"
+    ]
+  },
+  "osjälvständighet": {
+    "opposite": "självständighet",
+    "description": "Självständighet betyder att kunna bestämma och agera på egen hand. Osjälvständighet betyder beroende av andra.",
+    "examples": [
+      "Övningen tränar självständighet och minskar osjälvständighet.",
+      "Landet gick från osjälvständighet till självständighet."
+    ],
+    "related": [
+      "självständighet"
+    ]
+  },
+  "självständighet": {
+    "opposite": "osjälvständighet",
+    "description": "Självständighet betyder att kunna bestämma och agera på egen hand. Osjälvständighet betyder beroende av andra.",
+    "examples": [
+      "Övningen tränar självständighet och minskar osjälvständighet.",
+      "Landet gick från osjälvständighet till självständighet."
+    ],
+    "related": [
+      "osjälvständighet"
+    ]
+  },
+  "kryddstark": {
+    "opposite": "kryddsvag",
+    "description": "Kryddstark mat har kraftig kryddning. Kryddsvag mat har mild kryddning.",
+    "examples": [
+      "Grytan är kryddstark, men soppan är kryddsvag.",
+      "Hon valde den kryddsvaga såsen i stället för den kryddstarka."
+    ],
+    "related": [
+      "kryddsvag"
+    ]
+  },
+  "kryddsvag": {
+    "opposite": "kryddstark",
+    "description": "Kryddstark mat har kraftig kryddning. Kryddsvag mat har mild kryddning.",
+    "examples": [
+      "Grytan är kryddstark, men soppan är kryddsvag.",
+      "Hon valde den kryddsvaga såsen i stället för den kryddstarka."
+    ],
+    "related": [
+      "kryddstark"
+    ]
+  },
+  "pietetsfull": {
+    "opposite": "pietetslös",
+    "description": "Pietetsfull betyder respektfull mot något värdefullt eller gammalt. Pietetslös betyder utan sådan respekt.",
+    "examples": [
+      "Huset renoverades pietetsfullt i stället för pietetslöst.",
+      "En pietetsfull restaurering bevarar detaljer som en pietetslös ändring kan förstöra."
+    ],
+    "related": [
+      "pietetslös"
+    ]
+  },
+  "pietetslös": {
+    "opposite": "pietetsfull",
+    "description": "Pietetsfull betyder respektfull mot något värdefullt eller gammalt. Pietetslös betyder utan sådan respekt.",
+    "examples": [
+      "Huset renoverades pietetsfullt i stället för pietetslöst.",
+      "En pietetsfull restaurering bevarar detaljer som en pietetslös ändring kan förstöra."
+    ],
+    "related": [
+      "pietetsfull"
+    ]
+  },
+  "oxidation": {
+    "opposite": "reduktion",
+    "description": "Oxidation innebär att elektroner avges. Reduktion innebär att elektroner tas upp.",
+    "examples": [
+      "Oxidation och reduktion sker samtidigt i en redoxreaktion.",
+      "Ämnet genomgick oxidation, medan det andra genomgick reduktion."
+    ],
+    "related": [
+      "reduktion"
+    ]
+  },
+  "reduktion": {
+    "opposite": "oxidation",
+    "description": "Oxidation innebär att elektroner avges. Reduktion innebär att elektroner tas upp.",
+    "examples": [
+      "Oxidation och reduktion sker samtidigt i en redoxreaktion.",
+      "Ämnet genomgick oxidation, medan det andra genomgick reduktion."
+    ],
+    "related": [
+      "oxidation"
+    ]
+  },
+  "endotermisk": {
+    "opposite": "exotermisk",
+    "description": "En endotermisk process tar upp värme. En exotermisk process avger värme.",
+    "examples": [
+      "Smältning är endotermisk, medan förbränning är exotermisk.",
+      "Den endotermiska reaktionen kylde omgivningen och den exoterma värmde den."
+    ],
+    "related": [
+      "exotermisk"
+    ]
+  },
+  "exotermisk": {
+    "opposite": "endotermisk",
+    "description": "En endotermisk process tar upp värme. En exotermisk process avger värme.",
+    "examples": [
+      "Smältning är endotermisk, medan förbränning är exotermisk.",
+      "Den endotermiska reaktionen kylde omgivningen och den exoterma värmde den."
+    ],
+    "related": [
+      "endotermisk"
+    ]
+  },
+  "devalvera": {
+    "opposite": "revalvera",
+    "description": "Att devalvera är att sänka en valutas officiella värde. Att revalvera är att höja det.",
+    "examples": [
+      "Regeringen valde att devalvera valutan men diskuterade senare att revalvera den.",
+      "Att devalvera och att revalvera ger motsatta förändringar i växelkursen."
+    ],
+    "related": [
+      "revalvera"
+    ]
+  },
+  "revalvera": {
+    "opposite": "devalvera",
+    "description": "Att devalvera är att sänka en valutas officiella värde. Att revalvera är att höja det.",
+    "examples": [
+      "Regeringen valde att devalvera valutan men diskuterade senare att revalvera den.",
+      "Att devalvera och att revalvera ger motsatta förändringar i växelkursen."
+    ],
+    "related": [
+      "devalvera"
+    ]
+  },
+  "antipati": {
+    "opposite": "sympati",
+    "description": "Sympati är en känsla av gillande eller medkänsla. Antipati är en känsla av motvilja.",
+    "examples": [
+      "Hon kände sympati för den ena personen och antipati mot den andra.",
+      "Den första antipatin växte senare till sympati."
+    ],
+    "related": [
+      "sympati"
+    ]
+  },
+  "sympati": {
+    "opposite": "antipati",
+    "description": "Sympati är en känsla av gillande eller medkänsla. Antipati är en känsla av motvilja.",
+    "examples": [
+      "Hon kände sympati för den ena personen och antipati mot den andra.",
+      "Den första antipatin växte senare till sympati."
+    ],
+    "related": [
+      "antipati"
+    ]
+  },
+  "asymmetri": {
+    "opposite": "symmetri",
+    "description": "Symmetri betyder att delar speglar eller balanserar varandra. Asymmetri betyder att denna balans saknas.",
+    "examples": [
+      "Fjärilen visar tydlig symmetri, medan målningen bygger på asymmetri.",
+      "Arkitekten blandade symmetri med avsiktlig asymmetri."
+    ],
+    "related": [
+      "symmetri"
+    ]
+  },
+  "symmetri": {
+    "opposite": "asymmetri",
+    "description": "Symmetri betyder att delar speglar eller balanserar varandra. Asymmetri betyder att denna balans saknas.",
+    "examples": [
+      "Fjärilen visar tydlig symmetri, medan målningen bygger på asymmetri.",
+      "Arkitekten blandade symmetri med avsiktlig asymmetri."
+    ],
+    "related": [
+      "asymmetri"
+    ]
+  },
+  "crescendo": {
+    "opposite": "diminuendo",
+    "description": "Crescendo betyder att musiken blir starkare. Diminuendo betyder att den blir svagare.",
+    "examples": [
+      "Stycket byggs upp med ett crescendo och avslutas med ett diminuendo.",
+      "Efter ett långt crescendo följde ett snabbt diminuendo."
+    ],
+    "related": [
+      "diminuendo"
+    ]
+  },
+  "diminuendo": {
+    "opposite": "crescendo",
+    "description": "Crescendo betyder att musiken blir starkare. Diminuendo betyder att den blir svagare.",
+    "examples": [
+      "Stycket byggs upp med ett crescendo och avslutas med ett diminuendo.",
+      "Efter ett långt crescendo följde ett snabbt diminuendo."
+    ],
+    "related": [
+      "crescendo"
+    ]
+  },
+  "endogen": {
+    "opposite": "exogen",
+    "description": "Endogen betyder att något har sitt ursprung inifrån. Exogen betyder att det kommer utifrån.",
+    "examples": [
+      "Den endogena processen drivs inifrån systemet och den exogena av yttre faktorer.",
+      "Modellen skiljer mellan endogena och exogena orsaker."
+    ],
+    "related": [
+      "exogen"
+    ]
+  },
+  "exogen": {
+    "opposite": "endogen",
+    "description": "Endogen betyder att något har sitt ursprung inifrån. Exogen betyder att det kommer utifrån.",
+    "examples": [
+      "Den endogena processen drivs inifrån systemet och den exogena av yttre faktorer.",
+      "Modellen skiljer mellan endogena och exogena orsaker."
+    ],
+    "related": [
+      "endogen"
+    ]
+  },
+  "heterozygot": {
+    "opposite": "homozygot",
+    "description": "Heterozygot betyder att två genvarianter är olika. Homozygot betyder att de är lika.",
+    "examples": [
+      "Individen är heterozygot för den ena genen och homozygot för den andra.",
+      "Ett heterozygot anlag har två olika alleler, medan ett homozygot har två lika."
+    ],
+    "related": [
+      "homozygot"
+    ]
+  },
+  "homozygot": {
+    "opposite": "heterozygot",
+    "description": "Heterozygot betyder att två genvarianter är olika. Homozygot betyder att de är lika.",
+    "examples": [
+      "Individen är heterozygot för den ena genen och homozygot för den andra.",
+      "Ett heterozygot anlag har två olika alleler, medan ett homozygot har två lika."
+    ],
+    "related": [
+      "heterozygot"
+    ]
+  },
+  "irreguljär": {
+    "opposite": "reguljär",
+    "description": "Reguljär betyder regelbunden eller enligt reglerna. Irreguljär betyder oregelbunden eller avvikande.",
+    "examples": [
+      "Trafiken var reguljär på dagen men irreguljär på natten.",
+      "En irreguljär form ersatte den reguljära formen."
+    ],
+    "related": [
+      "reguljär"
+    ]
+  },
+  "reguljär": {
+    "opposite": "irreguljär",
+    "description": "Reguljär betyder regelbunden eller enligt reglerna. Irreguljär betyder oregelbunden eller avvikande.",
+    "examples": [
+      "Trafiken var reguljär på dagen men irreguljär på natten.",
+      "En irreguljär form ersatte den reguljära formen."
+    ],
+    "related": [
+      "irreguljär"
+    ]
+  },
+  "glesna": {
+    "opposite": "tätna",
+    "description": "Glesna betyder att bli mindre tät. Tätna betyder att bli tätare.",
+    "examples": [
+      "Molnen började glesna på morgonen men tätna igen på kvällen.",
+      "Skogen glesnar nära vägen och tätnar längre in."
+    ],
+    "related": [
+      "tätna"
+    ]
+  },
+  "tätna": {
+    "opposite": "glesna",
+    "description": "Glesna betyder att bli mindre tät. Tätna betyder att bli tätare.",
+    "examples": [
+      "Molnen började glesna på morgonen men tätna igen på kvällen.",
+      "Skogen glesnar nära vägen och tätnar längre in."
+    ],
+    "related": [
+      "glesna"
+    ]
+  },
+  "småskalig": {
+    "opposite": "storskalig",
+    "description": "Småskalig betyder genomförd i liten omfattning. Storskalig betyder genomförd i stor omfattning.",
+    "examples": [
+      "Projektet började småskaligt och blev senare storskaligt.",
+      "Småskalig odling kräver andra metoder än storskalig odling."
+    ],
+    "related": [
+      "storskalig"
+    ]
+  },
+  "storskalig": {
+    "opposite": "småskalig",
+    "description": "Småskalig betyder genomförd i liten omfattning. Storskalig betyder genomförd i stor omfattning.",
+    "examples": [
+      "Projektet började småskaligt och blev senare storskaligt.",
+      "Småskalig odling kräver andra metoder än storskalig odling."
+    ],
+    "related": [
+      "småskalig"
+    ]
   }
 } as const;
