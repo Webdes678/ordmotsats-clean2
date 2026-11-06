@@ -4745,6 +4745,456 @@ const curatedPairs = [
       "Utställningen öppnade med vernissage och slutade med finissage.",
       "Vi besökte både vernissagen och finissagen."
     ]
+  },
+  {
+    "a": "kortsiktighet",
+    "b": "långsiktighet",
+    "description": "Kortsiktighet fokuserar på det som händer snart. Långsiktighet tar hänsyn till en längre tid.",
+    "examples": [
+      "Beslutet präglades av kortsiktighet i stället för långsiktighet.",
+      "Långsiktighet kan ge bättre resultat än kortsiktighet."
+    ]
+  },
+  {
+    "a": "exhalera",
+    "b": "inhalera",
+    "description": "Att exhalera är att andas ut. Att inhalera är att andas in.",
+    "examples": [
+      "Hon inhalerade lugnt och exhalerade långsamt.",
+      "Läkaren bad honom inhalera och sedan exhalera."
+    ]
+  },
+  {
+    "a": "bibetydelse",
+    "b": "grundbetydelse",
+    "description": "Grundbetydelsen är ett ords huvudsakliga betydelse. En bibetydelse är en extra eller indirekt betydelse.",
+    "examples": [
+      "Ordet har en tydlig grundbetydelse och en bildlig bibetydelse.",
+      "Ordboken skiljer mellan grundbetydelsen och ordets bibetydelse."
+    ]
+  },
+  {
+    "a": "lättlöslig",
+    "b": "svårlöslig",
+    "description": "Något lättlösligt löses upp enkelt. Något svårlösligt löses upp med svårighet.",
+    "examples": [
+      "Sockret är lättlösligt, men ämnet i provröret är svårlösligt.",
+      "Ett lättlösligt pulver försvinner snabbare i vatten än ett svårlösligt."
+    ]
+  },
+  {
+    "a": "anisotropi",
+    "b": "isotropi",
+    "description": "Isotropi innebär samma egenskaper i alla riktningar. Anisotropi innebär att egenskaperna beror på riktningen.",
+    "examples": [
+      "Glaset visar isotropi, medan materialet bredvid visar anisotropi.",
+      "Forskaren jämförde isotropi med anisotropi i kristallen."
+    ]
+  },
+  {
+    "a": "färgstark",
+    "b": "färgsvag",
+    "description": "Färgstark betyder att färgerna är tydliga och intensiva. Färgsvag betyder att färgerna är svaga eller dämpade.",
+    "examples": [
+      "Affischen är färgstark, men kopian är färgsvag.",
+      "En färgstark bild syns tydligare än en färgsvag."
+    ]
+  },
+  {
+    "a": "likfärgad",
+    "b": "olikfärgad",
+    "description": "Likfärgade saker har samma eller mycket lik färg. Olikfärgade saker har olika färger.",
+    "examples": [
+      "De likfärgade tröjorna låg bredvid de olikfärgade.",
+      "Fåglarna var likfärgade på ryggen men olikfärgade på bröstet."
+    ]
+  },
+  {
+    "a": "underlägsenhet",
+    "b": "överlägsenhet",
+    "description": "Underlägsenhet innebär att vara sämre eller svagare i en jämförelse. Överlägsenhet innebär att vara bättre eller starkare.",
+    "examples": [
+      "Laget gick från underlägsenhet till överlägsenhet efter pausen.",
+      "Resultatet visade maskinens överlägsenhet och den äldre modellens underlägsenhet."
+    ]
+  },
+  {
+    "a": "förenlighet",
+    "b": "oförenlighet",
+    "description": "Förenlighet betyder att saker kan fungera tillsammans. Oförenlighet betyder att de inte kan förenas eller kombineras.",
+    "examples": [
+      "Testet visade förenlighet mellan systemen, inte oförenlighet.",
+      "Deras krav präglades av oförenlighet snarare än förenlighet."
+    ]
+  },
+  {
+    "a": "flexibilitet",
+    "b": "rigiditet",
+    "description": "Flexibilitet innebär att lätt kunna anpassas. Rigiditet innebär stelhet och liten möjlighet till förändring.",
+    "examples": [
+      "Planen gav flexibilitet i stället för rigiditet.",
+      "Materialets flexibilitet kontrasterar mot metallens rigiditet."
+    ]
+  },
+  {
+    "a": "fullständighet",
+    "b": "ofullständighet",
+    "description": "Fullständighet innebär att inget viktigt saknas. Ofullständighet innebär att något saknas.",
+    "examples": [
+      "Rapportens fullständighet uppskattades, men bilagans ofullständighet kritiserades.",
+      "Kontrollen visar om uppgifterna har fullständighet eller ofullständighet."
+    ]
+  },
+  {
+    "a": "ljushet",
+    "b": "mörkhet",
+    "description": "Ljushet beskriver hur ljust något är. Mörkhet beskriver hur mörkt något är.",
+    "examples": [
+      "Bildens ljushet ökade och dess mörkhet minskade.",
+      "Rummet växlade mellan ljushet på dagen och mörkhet på natten."
+    ]
+  },
+  {
+    "a": "dödlighet",
+    "b": "odödlighet",
+    "description": "Dödlighet innebär att kunna dö. Odödlighet innebär att aldrig dö.",
+    "examples": [
+      "Människans dödlighet står i kontrast till sagogudens odödlighet.",
+      "Berättelsen handlar om dödlighet och drömmen om odödlighet."
+    ]
+  },
+  {
+    "a": "ditåt",
+    "b": "hitåt",
+    "description": "Ditåt betyder i riktning bort mot en annan plats. Hitåt betyder i riktning mot platsen där talaren är.",
+    "examples": [
+      "Gå inte ditåt, kom hitåt.",
+      "Hon pekade först ditåt och sedan hitåt."
+    ]
+  },
+  {
+    "a": "medspelare",
+    "b": "motspelare",
+    "description": "En medspelare spelar i samma lag. En motspelare spelar på den andra sidan.",
+    "examples": [
+      "Hon passade sin medspelare och rundade en motspelare.",
+      "Varje medspelare hjälpte laget medan motspelarna försvarade sig."
+    ]
+  },
+  {
+    "a": "osjälviskhet",
+    "b": "själviskhet",
+    "description": "Osjälviskhet innebär att tänka på andra. Själviskhet innebär att främst tänka på sig själv.",
+    "examples": [
+      "Hennes osjälviskhet uppskattades, medan hans själviskhet väckte irritation.",
+      "Att dela med sig visar osjälviskhet snarare än själviskhet."
+    ]
+  },
+  {
+    "a": "bemärkt",
+    "b": "obemärkt",
+    "description": "Bemärkt betyder uppmärksammad eller framstående. Obemärkt betyder utan att bli uppmärksammad.",
+    "examples": [
+      "Den bemärkta gästen kunde inte lämna festen obemärkt.",
+      "Hon blev bemärkt för sin forskning, medan arbetet tidigare hade varit obemärkt."
+    ]
+  },
+  {
+    "a": "oöversättbar",
+    "b": "översättbar",
+    "description": "Något översättbart kan återges på ett annat språk. Något oöversättbart kan inte återges fullt ut.",
+    "examples": [
+      "Den enkla meningen är översättbar, men ordleken är nästan oöversättbar.",
+      "Vissa uttryck är lätt översättbara och andra oöversättbara."
+    ]
+  },
+  {
+    "a": "vanvördig",
+    "b": "vördnadsfull",
+    "description": "Vanvördig betyder respektlös. Vördnadsfull betyder fylld av respekt.",
+    "examples": [
+      "Kommentaren var vanvördig, men talet var vördnadsfullt.",
+      "Han bytte från en vanvördig ton till en vördnadsfull."
+    ]
+  },
+  {
+    "a": "högerparentes",
+    "b": "vänsterparentes",
+    "description": "En vänsterparentes öppnar en parentes. En högerparentes avslutar den.",
+    "examples": [
+      "Skriv en vänsterparentes före ordet och en högerparentes efter.",
+      "Varje vänsterparentes måste ha en högerparentes."
+    ]
+  },
+  {
+    "a": "inkompressibel",
+    "b": "kompressibel",
+    "description": "Ett kompressibelt ämne kan pressas ihop. Ett inkompressibelt ämne kan i praktiken inte pressas ihop.",
+    "examples": [
+      "Gas är kompressibel, medan vätskan behandlas som inkompressibel.",
+      "Modellen skiljer mellan kompressibelt och inkompressibelt flöde."
+    ]
+  },
+  {
+    "a": "muntligen",
+    "b": "skriftligen",
+    "description": "Muntligen betyder med tal. Skriftligen betyder i skriven form.",
+    "examples": [
+      "Beskedet gavs först muntligen och sedan skriftligen.",
+      "Du kan svara muntligen eller skriftligen."
+    ]
+  },
+  {
+    "a": "känsloskäl",
+    "b": "sakskäl",
+    "description": "Känsloskäl bygger på känslor. Sakskäl bygger på fakta och relevanta omständigheter.",
+    "examples": [
+      "Hon skilde mellan känsloskäl och sakskäl.",
+      "Beslutet bör vila på sakskäl, inte bara känsloskäl."
+    ]
+  },
+  {
+    "a": "känsloargument",
+    "b": "sakargument",
+    "description": "Ett känsloargument vädjar till känslor. Ett sakargument bygger på fakta och logik.",
+    "examples": [
+      "Debatten innehöll både känsloargument och sakargument.",
+      "Ett sakargument övertygade mer än känsloargumentet."
+    ]
+  },
+  {
+    "a": "bakfot",
+    "b": "framfot",
+    "description": "En framfot är den främre delen eller foten. En bakfot är den bakre.",
+    "examples": [
+      "Djuret skadade en framfot men stödde sig på sin bakfot.",
+      "Spåren från framfoten låg framför spåren från bakfoten."
+    ]
+  },
+  {
+    "a": "imperfektiv",
+    "b": "perfektiv",
+    "description": "Imperfektiv aspekt beskriver en pågående eller ofullbordad handling. Perfektiv aspekt beskriver handlingen som avslutad eller hel.",
+    "examples": [
+      "Språket skiljer mellan imperfektiv och perfektiv aspekt.",
+      "Den imperfektiva formen betonar förloppet, den perfektiva resultatet."
+    ]
+  },
+  {
+    "a": "hjälpsamhet",
+    "b": "ohjälpsamhet",
+    "description": "Hjälpsamhet innebär en vilja att hjälpa. Ohjälpsamhet innebär att inte vara till hjälp.",
+    "examples": [
+      "Personalens hjälpsamhet gjorde skillnad, men den tidigare ohjälpsamheten hade skapat problem.",
+      "Hon möttes av hjälpsamhet i stället för ohjälpsamhet."
+    ]
+  },
+  {
+    "a": "arbetsförmåga",
+    "b": "arbetsoförmåga",
+    "description": "Arbetsförmåga är förmågan att arbeta. Arbetsoförmåga innebär att man inte kan arbeta.",
+    "examples": [
+      "Läkaren bedömde både arbetsförmåga och arbetsoförmåga.",
+      "Efter vilan återfick han sin arbetsförmåga efter en period av arbetsoförmåga."
+    ]
+  },
+  {
+    "a": "gammaltestamentlig",
+    "b": "nytestamentlig",
+    "description": "Gammaltestamentlig hör till Gamla testamentet. Nytestamentlig hör till Nya testamentet.",
+    "examples": [
+      "Kursen tar upp både gammaltestamentliga och nytestamentliga texter.",
+      "Motivet har en gammaltestamentlig bakgrund och en nytestamentlig tolkning."
+    ]
+  },
+  {
+    "a": "inpendling",
+    "b": "utpendling",
+    "description": "Inpendling är resor in till en ort för arbete eller studier. Utpendling är resor från orten.",
+    "examples": [
+      "Kommunen har stor inpendling på morgonen och utpendling på kvällen.",
+      "Statistiken jämför inpendling med utpendling."
+    ]
+  },
+  {
+    "a": "kontaktbar",
+    "b": "okontaktbar",
+    "description": "Kontaktbar betyder att en person går att få kontakt med. Okontaktbar betyder att personen inte reagerar på kontaktförsök.",
+    "examples": [
+      "Patienten var först okontaktbar men blev senare kontaktbar.",
+      "Räddningspersonalen kontrollerade om personen var kontaktbar eller okontaktbar."
+    ]
+  },
+  {
+    "a": "ingångspsalm",
+    "b": "utgångspsalm",
+    "description": "En ingångspsalm sjungs i början av en gudstjänst. En utgångspsalm sjungs i slutet.",
+    "examples": [
+      "Gudstjänsten började med en ingångspsalm och slutade med en utgångspsalm.",
+      "Kören övade både ingångspsalmen och utgångspsalmen."
+    ]
+  },
+  {
+    "a": "arvmonarki",
+    "b": "valmonarki",
+    "description": "I en arvmonarki ärvs tronen. I en valmonarki utses monarken genom val.",
+    "examples": [
+      "Landet gick från valmonarki till arvmonarki.",
+      "Historikern jämförde arvmonarki med valmonarki."
+    ]
+  },
+  {
+    "a": "högerparti",
+    "b": "vänsterparti",
+    "description": "Ett högerparti hör till den politiska högern. Ett vänsterparti hör till den politiska vänstern.",
+    "examples": [
+      "Debatten hölls mellan ett högerparti och ett vänsterparti.",
+      "Väljaren jämförde högerpartiets förslag med vänsterpartiets."
+    ]
+  },
+  {
+    "a": "lönesänkning",
+    "b": "löneökning",
+    "description": "En lönesänkning minskar lönen. En löneökning höjer lönen.",
+    "examples": [
+      "De anställda ville ha en löneökning, inte en lönesänkning.",
+      "Avtalet gav löneökning efter en period med lönesänkning."
+    ]
+  },
+  {
+    "a": "blyfri",
+    "b": "blyhaltig",
+    "description": "Blyfri betyder utan bly. Blyhaltig betyder att något innehåller bly.",
+    "examples": [
+      "Färgen ska vara blyfri och inte blyhaltig.",
+      "Provet visade om materialet var blyfritt eller blyhaltigt."
+    ]
+  },
+  {
+    "a": "folkminskning",
+    "b": "folkökning",
+    "description": "Folkminskning innebär att befolkningen blir mindre. Folkökning innebär att den blir större.",
+    "examples": [
+      "Utflyttning gav folkminskning, medan inflyttning senare gav folkökning.",
+      "Rapporten jämför kommuner med folkökning och folkminskning."
+    ]
+  },
+  {
+    "a": "bredspårig",
+    "b": "smalspårig",
+    "description": "Bredspårig beskriver en järnväg med bred spårvidd. Smalspårig beskriver en med smal spårvidd.",
+    "examples": [
+      "Den bredspåriga banan möter en smalspårig järnväg.",
+      "Museet visar både bredspåriga och smalspåriga lok."
+    ]
+  },
+  {
+    "a": "akterskepp",
+    "b": "förskepp",
+    "description": "Förskeppet är den främre delen av ett fartyg. Akterskeppet är den bakre delen.",
+    "examples": [
+      "Besättningen arbetade både i förskeppet och i akterskeppet.",
+      "Skadan satt i förskeppet, inte i akterskeppet."
+    ]
+  },
+  {
+    "a": "småsyskon",
+    "b": "storasyskon",
+    "description": "Ett småsyskon är yngre än personen man jämför med. Ett storasyskon är äldre.",
+    "examples": [
+      "Hon är storasyskon till sin bror och småsyskon till sin syster.",
+      "Ett storasyskon hjälpte sitt småsyskon med läxan."
+    ]
+  },
+  {
+    "a": "uddamålsförlust",
+    "b": "uddamålsvinst",
+    "description": "En uddamålsförlust är en förlust med ett mål. En uddamålsvinst är en seger med ett mål.",
+    "examples": [
+      "Första matchen slutade med uddamålsförlust och den andra med uddamålsvinst.",
+      "Laget vände en uddamålsförlust till en uddamålsvinst i returen."
+    ]
+  },
+  {
+    "a": "dubbelradig",
+    "b": "enkelradig",
+    "description": "Dubbelradig betyder ordnad i två rader. Enkelradig betyder ordnad i en rad.",
+    "examples": [
+      "Kavajen finns som dubbelradig och enkelradig.",
+      "Den dubbelradiga planteringen tar mer plats än den enkelradiga."
+    ]
+  },
+  {
+    "a": "fertilitet",
+    "b": "infertilitet",
+    "description": "Fertilitet är förmågan att få avkomma. Infertilitet innebär nedsatt eller saknad sådan förmåga.",
+    "examples": [
+      "Undersökningen gällde både fertilitet och infertilitet.",
+      "Behandlingen kan förbättra fertilitet vid vissa former av infertilitet."
+    ]
+  },
+  {
+    "a": "undertryck",
+    "b": "övertryck",
+    "description": "Undertryck är lägre tryck än omgivningen. Övertryck är högre tryck än omgivningen.",
+    "examples": [
+      "Fläkten skapade undertryck i rummet och övertryck i kanalen.",
+      "Mätaren visar om det råder undertryck eller övertryck."
+    ]
+  },
+  {
+    "a": "ditfärd",
+    "b": "hitfärd",
+    "description": "Ditfärden är resan till en plats. Hitfärden är resan därifrån mot platsen där man befinner sig.",
+    "examples": [
+      "Ditfärden tog längre tid än hitfärden.",
+      "Vi planerade både ditfärd och hitfärd."
+    ]
+  },
+  {
+    "a": "distansundervisning",
+    "b": "närundervisning",
+    "description": "Distansundervisning sker på avstånd. Närundervisning sker med lärare och elever på samma plats.",
+    "examples": [
+      "Skolan erbjuder både distansundervisning och närundervisning.",
+      "Hon bytte från distansundervisning till närundervisning."
+    ]
+  },
+  {
+    "a": "nederhylla",
+    "b": "överhylla",
+    "description": "En nederhylla sitter längre ner. En överhylla sitter längre upp.",
+    "examples": [
+      "Skorna står på nederhyllan och väskorna på överhyllan.",
+      "Flytta boken från överhyllan till nederhyllan."
+    ]
+  },
+  {
+    "a": "högervriden",
+    "b": "vänstervriden",
+    "description": "Högervriden betyder vriden åt höger. Vänstervriden betyder vriden åt vänster.",
+    "examples": [
+      "Den ena spiralen är högervriden och den andra vänstervriden.",
+      "Kontrollera om gängan är höger- eller vänstervriden."
+    ]
+  },
+  {
+    "a": "kreditgivare",
+    "b": "kredittagare",
+    "description": "En kreditgivare lånar ut pengar eller ger kredit. En kredittagare tar emot krediten.",
+    "examples": [
+      "Banken är kreditgivare och företaget kredittagare.",
+      "Avtalet gäller mellan kreditgivaren och kredittagaren."
+    ]
+  },
+  {
+    "a": "dödsattest",
+    "b": "födelseattest",
+    "description": "En födelseattest intygar en födelse. En dödsattest intygar ett dödsfall.",
+    "examples": [
+      "Arkivet innehåller både födelseattest och dödsattest.",
+      "Födelseattesten utfärdades i början av livet och dödsattesten i slutet."
+    ]
   }
 ];
 
@@ -4772,5 +5222,3 @@ fs.writeFileSync(
   'utf-8',
 );
 console.log('Generated ' + Object.keys(words).length + ' curated word pages.');
-
-
