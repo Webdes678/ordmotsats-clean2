@@ -3395,6 +3395,456 @@ const curatedPairs = [
       "Sväng högerut vid bron och sedan vänsterut vid skolan.",
       "Den ena pilen pekar högerut och den andra vänsterut."
     ]
+  },
+  {
+    "a": "begagnad",
+    "b": "ny",
+    "description": "Begagnad betyder tidigare använd. Ny betyder oanvänd eller nyligen tillverkad.",
+    "examples": [
+      "Hon köpte en begagnad bil i stället för en ny.",
+      "Den nya datorn kostar mer än den begagnade."
+    ]
+  },
+  {
+    "a": "allmän",
+    "b": "privat",
+    "description": "Allmän betyder öppen eller gemensam för många. Privat betyder personlig eller inte offentlig.",
+    "examples": [
+      "Parken är allmän, men trädgården är privat.",
+      "Den allmänna informationen skiljs från den privata."
+    ]
+  },
+  {
+    "a": "prima",
+    "b": "sekunda",
+    "description": "Prima betecknar högsta kvalitet. Sekunda betecknar lägre eller andrasorterad kvalitet.",
+    "examples": [
+      "Butiken säljer både prima och sekunda varor.",
+      "Det prima virket kostar mer än det sekunda."
+    ]
+  },
+  {
+    "a": "salt",
+    "b": "söt",
+    "description": "Salt och söt beskriver motsatta grundsmaker.",
+    "examples": [
+      "Soppan är salt, medan kakan är söt.",
+      "Hon valde ett sött mellanmål efter den salta maten."
+    ]
+  },
+  {
+    "a": "antipartikel",
+    "b": "partikel",
+    "description": "En antipartikel har motsatta kvanttal mot sin motsvarande partikel.",
+    "examples": [
+      "Elektronen är en partikel och positronen dess antipartikel.",
+      "När en partikel möter sin antipartikel kan de förintas."
+    ]
+  },
+  {
+    "a": "derivera",
+    "b": "integrera",
+    "description": "Att derivera och integrera är omvända matematiska operationer.",
+    "examples": [
+      "Derivera funktionen och integrera sedan resultatet.",
+      "Studenten lärde sig både derivera och integrera."
+    ]
+  },
+  {
+    "a": "hyperonym",
+    "b": "hyponym",
+    "description": "En hyperonym är ett överordnat ord. En hyponym är ett mer specifikt underordnat ord.",
+    "examples": [
+      "Fordon är hyperonym till bil, och bil är hyponym till fordon.",
+      "Träd är en hyperonym och ek en hyponym."
+    ]
+  },
+  {
+    "a": "holonym",
+    "b": "meronym",
+    "description": "En holonym betecknar en helhet. En meronym betecknar en del av helheten.",
+    "examples": [
+      "Bil är holonym till hjul, och hjul är meronym till bil.",
+      "Kropp är en holonym och hand en meronym."
+    ]
+  },
+  {
+    "a": "antonymi",
+    "b": "synonymi",
+    "description": "Antonymi är en relation mellan motsatser. Synonymi är en relation mellan ord med liknande betydelse.",
+    "examples": [
+      "Varm och kall visar antonymi, medan glad och lycklig visar synonymi.",
+      "Uppgiften skiljer mellan antonymi och synonymi."
+    ]
+  },
+  {
+    "a": "fjärma",
+    "b": "närma",
+    "description": "Fjärma betyder att öka avståndet. Närma betyder att minska avståndet.",
+    "examples": [
+      "Båten började fjärma sig från land och senare närma sig hamnen.",
+      "Hon ville närma grupperna till varandra, inte fjärma dem."
+    ]
+  },
+  {
+    "a": "avslå",
+    "b": "bevilja",
+    "description": "Avslå betyder att säga nej till en ansökan. Bevilja betyder att godkänna den.",
+    "examples": [
+      "Myndigheten kan bevilja ansökan eller avslå den.",
+      "Den första begäran avslogs, men den andra beviljades."
+    ]
+  },
+  {
+    "a": "anställa",
+    "b": "avskeda",
+    "description": "Anställa betyder att ge någon arbete. Avskeda betyder att avsluta personens anställning.",
+    "examples": [
+      "Företaget ska anställa två personer men avskeda en.",
+      "Hon anställdes i våras och riskerar inte att avskedas."
+    ]
+  },
+  {
+    "a": "avråda",
+    "b": "tillråda",
+    "description": "Avråda betyder att rekommendera någon att låta bli. Tillråda betyder att rekommendera handlingen.",
+    "examples": [
+      "Läkaren avrådde från hård träning men tillrådde vila.",
+      "Experten kan avråda från ett val och tillråda ett annat."
+    ]
+  },
+  {
+    "a": "ankomma",
+    "b": "avgå",
+    "description": "Ankomma betyder att komma fram. Avgå betyder att lämna en plats.",
+    "examples": [
+      "Tåget avgår klockan åtta och ankommer klockan tio.",
+      "Bussen hann avgå innan det andra tåget ankom."
+    ]
+  },
+  {
+    "a": "avfart",
+    "b": "påfart",
+    "description": "En avfart leder bort från en större väg. En påfart leder in på den.",
+    "examples": [
+      "Ta nästa avfart och använd sedan påfarten tillbaka.",
+      "Påfarten ligger strax efter avfarten."
+    ]
+  },
+  {
+    "a": "maximum",
+    "b": "minimum",
+    "description": "Maximum är det högsta värdet. Minimum är det lägsta.",
+    "examples": [
+      "Temperaturens maximum var tjugo grader och dess minimum fem.",
+      "Kurvan har både ett maximum och ett minimum."
+    ]
+  },
+  {
+    "a": "adagio",
+    "b": "allegro",
+    "description": "Adagio anger långsamt tempo. Allegro anger snabbt och livligt tempo.",
+    "examples": [
+      "Stycket börjar i adagio och övergår till allegro.",
+      "Dirigenten spelade allegro snabbare än adagio."
+    ]
+  },
+  {
+    "a": "medurs",
+    "b": "moturs",
+    "description": "Medurs följer klockans riktning. Moturs går i motsatt riktning.",
+    "examples": [
+      "Vrid ratten medurs för att stänga och moturs för att öppna.",
+      "Den ena pilen går medurs och den andra moturs."
+    ]
+  },
+  {
+    "a": "adekvat",
+    "b": "inadekvat",
+    "description": "Adekvat betyder lämplig och tillräcklig. Inadekvat betyder olämplig eller otillräcklig.",
+    "examples": [
+      "Svaret var adekvat, men förklaringen var inadekvat.",
+      "En inadekvat åtgärd ersattes av en adekvat."
+    ]
+  },
+  {
+    "a": "maximivärde",
+    "b": "minimivärde",
+    "description": "Maximivärdet är det största tillåtna eller uppmätta värdet. Minimivärdet är det minsta.",
+    "examples": [
+      "Mätningen låg mellan minimivärdet och maximivärdet.",
+      "Ange både maximivärde och minimivärde."
+    ]
+  },
+  {
+    "a": "osäkerhet",
+    "b": "säkerhet",
+    "description": "Säkerhet innebär trygghet eller visshet. Osäkerhet innebär risk eller tvekan.",
+    "examples": [
+      "Tydliga regler ökade säkerheten och minskade osäkerheten.",
+      "Osäkerheten ersattes av större säkerhet."
+    ]
+  },
+  {
+    "a": "nödvändig",
+    "b": "onödig",
+    "description": "Nödvändig betyder att något behövs. Onödig betyder att det inte behövs.",
+    "examples": [
+      "Vatten är nödvändigt, men extra dekoration är onödig.",
+      "Ta med det nödvändiga och lämna det onödiga."
+    ]
+  },
+  {
+    "a": "styrka",
+    "b": "svaghet",
+    "description": "En styrka är en stark eller fördelaktig egenskap. En svaghet är en brist eller sårbarhet.",
+    "examples": [
+      "Snabbheten är lagets styrka och uthålligheten dess svaghet.",
+      "Analysen visar både styrkor och svagheter."
+    ]
+  },
+  {
+    "a": "tillbakadragen",
+    "b": "utåtriktad",
+    "description": "Tillbakadragen betyder reserverad och tyst. Utåtriktad betyder social och öppen.",
+    "examples": [
+      "Hon är tillbakadragen i stora grupper men utåtriktad bland vänner.",
+      "Den utåtriktade eleven pratade mer än den tillbakadragna."
+    ]
+  },
+  {
+    "a": "underlägsen",
+    "b": "överlägsen",
+    "description": "Underlägsen betyder sämre eller svagare i en jämförelse. Överlägsen betyder bättre eller starkare.",
+    "examples": [
+      "Den gamla modellen var underlägsen den nya, som var tekniskt överlägsen.",
+      "Laget kände sig underlägset men blev senare överlägset."
+    ]
+  },
+  {
+    "a": "nominell",
+    "b": "reell",
+    "description": "Nominell beskriver ett angivet värde. Reell beskriver det verkliga värdet efter relevanta justeringar.",
+    "examples": [
+      "Den nominella lönen steg, men den reella lönen sjönk.",
+      "Räntan kan anges som nominell eller reell."
+    ]
+  },
+  {
+    "a": "oväntad",
+    "b": "väntad",
+    "description": "Väntad betyder förutsedd. Oväntad betyder att något inte förutsågs.",
+    "examples": [
+      "Den väntade leveransen följdes av en oväntad försening.",
+      "Resultatet var oväntat trots en väntad utveckling."
+    ]
+  },
+  {
+    "a": "förutsedd",
+    "b": "oförutsedd",
+    "description": "Förutsedd betyder att något har kunnat förutsägas. Oförutsedd betyder att det kom utan förvarning.",
+    "examples": [
+      "Planen täcker både förutsedda och oförutsedda kostnader.",
+      "Den förutsedda risken hanterades, men den oförutsedda skapade problem."
+    ]
+  },
+  {
+    "a": "orolig",
+    "b": "rofylld",
+    "description": "Orolig betyder bekymrad eller rastlös. Rofylld betyder lugn och fridfull.",
+    "examples": [
+      "Gatan var orolig på kvällen men rofylld på morgonen.",
+      "Hon gick från orolig till rofylld efter beskedet."
+    ]
+  },
+  {
+    "a": "avhängig",
+    "b": "oavhängig",
+    "description": "Avhängig betyder beroende av något. Oavhängig betyder självständig och oberoende.",
+    "examples": [
+      "Beslutet är avhängigt vädret, men den andra planen är oavhängig.",
+      "En oavhängig granskning ska inte vara avhängig ledningen."
+    ]
+  },
+  {
+    "a": "attrahera",
+    "b": "repellera",
+    "description": "Attrahera betyder att dra till sig. Repellera betyder att stöta bort.",
+    "examples": [
+      "Olika laddningar attraherar varandra, medan lika laddningar repellerar.",
+      "Magneten kan attrahera en pol och repellera den andra."
+    ]
+  },
+  {
+    "a": "oskicklighet",
+    "b": "skicklighet",
+    "description": "Skicklighet är god förmåga. Oskicklighet är bristande förmåga.",
+    "examples": [
+      "Arbetet visade skicklighet, inte oskicklighet.",
+      "Övning kan ersätta oskicklighet med skicklighet."
+    ]
+  },
+  {
+    "a": "gäst",
+    "b": "värd",
+    "description": "En gäst blir mottagen. En värd tar emot gästen.",
+    "examples": [
+      "Värden hälsade varje gäst välkommen.",
+      "Hon var gäst i går och värd i dag."
+    ]
+  },
+  {
+    "a": "nämnare",
+    "b": "täljare",
+    "description": "Täljaren står över bråkstrecket. Nämnaren står under.",
+    "examples": [
+      "I bråket tre fjärdedelar är tre täljare och fyra nämnare.",
+      "Dividera täljaren med nämnaren."
+    ]
+  },
+  {
+    "a": "divergent",
+    "b": "konvergent",
+    "description": "Divergent betyder att något går isär. Konvergent betyder att det närmar sig samma punkt eller värde.",
+    "examples": [
+      "Den ena talföljden är konvergent och den andra divergent.",
+      "Strålarna blir divergenta efter att först ha varit konvergenta."
+    ]
+  },
+  {
+    "a": "allting",
+    "b": "ingenting",
+    "description": "Allting betyder allt som finns eller avses. Ingenting betyder inte något alls.",
+    "examples": [
+      "Hon berättade allting och dolde ingenting.",
+      "Allting var klart, men ingenting var enkelt."
+    ]
+  },
+  {
+    "a": "inkompetens",
+    "b": "kompetens",
+    "description": "Kompetens är tillräcklig kunskap och förmåga. Inkompetens är brist på detta.",
+    "examples": [
+      "Uppgiften kräver kompetens och får inte präglas av inkompetens.",
+      "Utbildningen ökade kompetensen och minskade inkompetensen."
+    ]
+  },
+  {
+    "a": "anspråksfull",
+    "b": "anspråkslös",
+    "description": "Anspråksfull betyder krävande eller påkostad. Anspråkslös betyder enkel och blygsam.",
+    "examples": [
+      "Restaurangen är anspråksfull, medan kaféet är anspråkslöst.",
+      "Hon valde en anspråkslös stil framför en anspråksfull."
+    ]
+  },
+  {
+    "a": "luttrad",
+    "b": "naiv",
+    "description": "Luttrad betyder erfaren och svår att överraska. Naiv betyder godtrogen eller oerfaren.",
+    "examples": [
+      "Den luttrade reportern var mindre naiv än praktikanten.",
+      "Han var naiv som ung men blev luttrad med tiden."
+    ]
+  },
+  {
+    "a": "avväpna",
+    "b": "beväpna",
+    "description": "Avväpna betyder att ta bort vapen. Beväpna betyder att utrusta med vapen.",
+    "examples": [
+      "Vakterna avväpnade gruppen som tidigare hade beväpnats.",
+      "Att beväpna och avväpna är motsatta handlingar."
+    ]
+  },
+  {
+    "a": "underskrida",
+    "b": "överskrida",
+    "description": "Underskrida betyder att ligga under en gräns. Överskrida betyder att gå över den.",
+    "examples": [
+      "Kostnaden får varken underskrida minimikravet eller överskrida budgeten.",
+      "Temperaturen underskred noll och överskred senare tio grader."
+    ]
+  },
+  {
+    "a": "undervärdera",
+    "b": "övervärdera",
+    "description": "Undervärdera betyder att bedöma värdet för lågt. Övervärdera betyder att bedöma det för högt.",
+    "examples": [
+      "Marknaden kan undervärdera ett företag och övervärdera ett annat.",
+      "Försök att varken undervärdera riskerna eller övervärdera dem."
+    ]
+  },
+  {
+    "a": "avigsida",
+    "b": "rätsida",
+    "description": "Avigsidan är baksidan av ett tyg eller arbete. Rätsidan är den sida som ska synas.",
+    "examples": [
+      "Sy från avigsidan och vänd sedan rätsidan utåt.",
+      "Tygets rätsida är blankare än avigsidan."
+    ]
+  },
+  {
+    "a": "kvinnonamn",
+    "b": "mansnamn",
+    "description": "Kvinnonamn används traditionellt om kvinnor. Mansnamn används traditionellt om män.",
+    "examples": [
+      "Listan innehåller både kvinnonamn och mansnamn.",
+      "Det första är ett kvinnonamn och det andra ett mansnamn."
+    ]
+  },
+  {
+    "a": "oumbärlig",
+    "b": "umbärlig",
+    "description": "Oumbärlig betyder nödvändig och svår att ersätta. Umbärlig betyder möjlig att vara utan.",
+    "examples": [
+      "Vatten är oumbärligt, medan dekorationen är umbärlig.",
+      "Det oumbärliga verktyget behölls och det umbärliga togs bort."
+    ]
+  },
+  {
+    "a": "måttlig",
+    "b": "omåttlig",
+    "description": "Måttlig betyder begränsad och rimlig. Omåttlig betyder överdriven eller utan måtta.",
+    "examples": [
+      "En måttlig ökning är lättare att hantera än en omåttlig.",
+      "Hon åt måttligt, inte omåttligt."
+    ]
+  },
+  {
+    "a": "billigt",
+    "b": "dyrt",
+    "description": "Billigt betyder till lågt pris. Dyrt betyder till högt pris.",
+    "examples": [
+      "Det är billigt att åka buss men dyrt att ta taxi.",
+      "Hon köpte billigt och sålde dyrt."
+    ]
+  },
+  {
+    "a": "fallgirig",
+    "b": "lovgirig",
+    "description": "Fallgirig beskriver en segelbåt som gärna svänger från vinden. Lovgirig beskriver en båt som gärna svänger mot vinden.",
+    "examples": [
+      "Båten var fallgirig före justeringen och lovgirig efter den.",
+      "En fallgirig båt beter sig motsatt en lovgirig."
+    ]
+  },
+  {
+    "a": "lovart",
+    "b": "lä",
+    "description": "Lovart är sidan mot vinden. Lä är sidan bort från vinden.",
+    "examples": [
+      "Vinden träffar båten från lovart och läsidan skyddas.",
+      "Vi stod i lä medan seglet vändes mot lovart."
+    ]
+  },
+  {
+    "a": "monopol",
+    "b": "polypol",
+    "description": "Monopol har en enda säljare. Polypol har många säljare och köpare.",
+    "examples": [
+      "Marknaden gick från monopol till polypol.",
+      "Ett monopol saknar den konkurrens som finns i en polypol."
+    ]
   }
 ];
 
