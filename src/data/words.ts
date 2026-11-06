@@ -9392,5 +9392,1105 @@ export const words = {
     "related": [
       "monopol"
     ]
+  },
+  "efternamn": {
+    "opposite": "förnamn",
+    "description": "Förnamnet identifierar personen individuellt. Efternamnet visar vanligen familje- eller släkttillhörighet.",
+    "examples": [
+      "Skriv förnamn först och efternamn sist.",
+      "Hennes förnamn är Sara och hennes efternamn är Lind."
+    ],
+    "related": [
+      "förnamn"
+    ]
+  },
+  "förnamn": {
+    "opposite": "efternamn",
+    "description": "Förnamnet identifierar personen individuellt. Efternamnet visar vanligen familje- eller släkttillhörighet.",
+    "examples": [
+      "Skriv förnamn först och efternamn sist.",
+      "Hennes förnamn är Sara och hennes efternamn är Lind."
+    ],
+    "related": [
+      "efternamn"
+    ]
+  },
+  "bas": {
+    "opposite": "syra",
+    "description": "En bas tar upp vätejoner eller avger hydroxidjoner. En syra avger vätejoner.",
+    "examples": [
+      "Tvål är basisk, medan citronsaft innehåller syra.",
+      "När bas och syra reagerar kan de neutralisera varandra."
+    ],
+    "related": [
+      "syra"
+    ]
+  },
+  "syra": {
+    "opposite": "bas",
+    "description": "En bas tar upp vätejoner eller avger hydroxidjoner. En syra avger vätejoner.",
+    "examples": [
+      "Tvål är basisk, medan citronsaft innehåller syra.",
+      "När bas och syra reagerar kan de neutralisera varandra."
+    ],
+    "related": [
+      "bas"
+    ]
+  },
+  "klave": {
+    "opposite": "krona",
+    "description": "Krona och klave är myntets två motsatta sidor.",
+    "examples": [
+      "Myntet landade med krona upp i stället för klave.",
+      "Vi singlade slant och valde mellan krona och klave."
+    ],
+    "related": [
+      "krona"
+    ]
+  },
+  "krona": {
+    "opposite": "klave",
+    "description": "Krona och klave är myntets två motsatta sidor.",
+    "examples": [
+      "Myntet landade med krona upp i stället för klave.",
+      "Vi singlade slant och valde mellan krona och klave."
+    ],
+    "related": [
+      "klave"
+    ]
+  },
+  "eftermiddag": {
+    "opposite": "förmiddag",
+    "description": "Förmiddagen är tiden före middag. Eftermiddagen är tiden efter middag.",
+    "examples": [
+      "Mötet börjar på förmiddagen och slutar på eftermiddagen.",
+      "Hon arbetar förmiddag i dag och eftermiddag i morgon."
+    ],
+    "related": [
+      "förmiddag"
+    ]
+  },
+  "förmiddag": {
+    "opposite": "eftermiddag",
+    "description": "Förmiddagen är tiden före middag. Eftermiddagen är tiden efter middag.",
+    "examples": [
+      "Mötet börjar på förmiddagen och slutar på eftermiddagen.",
+      "Hon arbetar förmiddag i dag och eftermiddag i morgon."
+    ],
+    "related": [
+      "eftermiddag"
+    ]
+  },
+  "källa": {
+    "opposite": "sänka",
+    "description": "En källa tillför något till ett system. En sänka tar upp eller avlägsnar det.",
+    "examples": [
+      "Skogen kan vara en sänka för koldioxid, medan en skorsten är en källa.",
+      "Modellen innehåller både en källa och en sänka."
+    ],
+    "related": [
+      "sänka"
+    ]
+  },
+  "sänka": {
+    "opposite": "källa",
+    "description": "En källa tillför något till ett system. En sänka tar upp eller avlägsnar det.",
+    "examples": [
+      "Skogen kan vara en sänka för koldioxid, medan en skorsten är en källa.",
+      "Modellen innehåller både en källa och en sänka."
+    ],
+    "related": [
+      "källa"
+    ]
+  },
+  "jätteliten": {
+    "opposite": "jättestor",
+    "description": "Jätteliten betyder mycket liten. Jättestor betyder mycket stor.",
+    "examples": [
+      "Den ena lådan är jätteliten och den andra jättestor.",
+      "En jättestor hund stod bredvid en jätteliten valp."
+    ],
+    "related": [
+      "jättestor"
+    ]
+  },
+  "jättestor": {
+    "opposite": "jätteliten",
+    "description": "Jätteliten betyder mycket liten. Jättestor betyder mycket stor.",
+    "examples": [
+      "Den ena lådan är jätteliten och den andra jättestor.",
+      "En jättestor hund stod bredvid en jätteliten valp."
+    ],
+    "related": [
+      "jätteliten"
+    ]
+  },
+  "väster": {
+    "opposite": "öst",
+    "description": "Väster och öst är motsatta väderstreck.",
+    "examples": [
+      "Solen går upp i öst och ner i väster.",
+      "De reste från öst till väster."
+    ],
+    "related": [
+      "öst"
+    ]
+  },
+  "öst": {
+    "opposite": "väster",
+    "description": "Väster och öst är motsatta väderstreck.",
+    "examples": [
+      "Solen går upp i öst och ner i väster.",
+      "De reste från öst till väster."
+    ],
+    "related": [
+      "väster"
+    ]
+  },
+  "produkt": {
+    "opposite": "reaktant",
+    "description": "En reaktant förbrukas i en kemisk reaktion. En produkt bildas av reaktionen.",
+    "examples": [
+      "Reaktanten omvandlades till en ny produkt.",
+      "Skriv reaktanterna före pilen och produkterna efter."
+    ],
+    "related": [
+      "reaktant"
+    ]
+  },
+  "reaktant": {
+    "opposite": "produkt",
+    "description": "En reaktant förbrukas i en kemisk reaktion. En produkt bildas av reaktionen.",
+    "examples": [
+      "Reaktanten omvandlades till en ny produkt.",
+      "Skriv reaktanterna före pilen och produkterna efter."
+    ],
+    "related": [
+      "produkt"
+    ]
+  },
+  "hyperonymi": {
+    "opposite": "hyponymi",
+    "description": "Hyperonymi är relationen till ett överordnat begrepp. Hyponymi är relationen till ett underordnat begrepp.",
+    "examples": [
+      "Relationen från bil till fordon är hyponymi, medan den omvända är hyperonymi.",
+      "Övningen skiljer mellan hyperonymi och hyponymi."
+    ],
+    "related": [
+      "hyponymi"
+    ]
+  },
+  "hyponymi": {
+    "opposite": "hyperonymi",
+    "description": "Hyperonymi är relationen till ett överordnat begrepp. Hyponymi är relationen till ett underordnat begrepp.",
+    "examples": [
+      "Relationen från bil till fordon är hyponymi, medan den omvända är hyperonymi.",
+      "Övningen skiljer mellan hyperonymi och hyponymi."
+    ],
+    "related": [
+      "hyperonymi"
+    ]
+  },
+  "holonymi": {
+    "opposite": "meronymi",
+    "description": "Holonymi går från del till helhet. Meronymi går från helhet till del.",
+    "examples": [
+      "Relationen från hjul till bil är meronymi, och den omvända är holonymi.",
+      "Ordlistan visar både holonymi och meronymi."
+    ],
+    "related": [
+      "meronymi"
+    ]
+  },
+  "meronymi": {
+    "opposite": "holonymi",
+    "description": "Holonymi går från del till helhet. Meronymi går från helhet till del.",
+    "examples": [
+      "Relationen från hjul till bil är meronymi, och den omvända är holonymi.",
+      "Ordlistan visar både holonymi och meronymi."
+    ],
+    "related": [
+      "holonymi"
+    ]
+  },
+  "abducera": {
+    "opposite": "adducera",
+    "description": "Abducera betyder att föra en kroppsdel bort från mittlinjen. Adducera betyder att föra den mot mittlinjen.",
+    "examples": [
+      "Lyft armen åt sidan för att abducera den och sänk den för att adducera.",
+      "Muskeln kan både abducera och adducera benet."
+    ],
+    "related": [
+      "adducera"
+    ]
+  },
+  "adducera": {
+    "opposite": "abducera",
+    "description": "Abducera betyder att föra en kroppsdel bort från mittlinjen. Adducera betyder att föra den mot mittlinjen.",
+    "examples": [
+      "Lyft armen åt sidan för att abducera den och sänk den för att adducera.",
+      "Muskeln kan både abducera och adducera benet."
+    ],
+    "related": [
+      "abducera"
+    ]
+  },
+  "fira": {
+    "opposite": "hala",
+    "description": "Fira betyder att sänka med rep. Hala betyder att dra in eller upp med rep.",
+    "examples": [
+      "Besättningen halade upp seglet och firade senare ner det.",
+      "Fira lasten försiktigt och hala upp den igen."
+    ],
+    "related": [
+      "hala"
+    ]
+  },
+  "hala": {
+    "opposite": "fira",
+    "description": "Fira betyder att sänka med rep. Hala betyder att dra in eller upp med rep.",
+    "examples": [
+      "Besättningen halade upp seglet och firade senare ner det.",
+      "Fira lasten försiktigt och hala upp den igen."
+    ],
+    "related": [
+      "fira"
+    ]
+  },
+  "inter-": {
+    "opposite": "intra-",
+    "description": "Prefixet inter- betyder mellan. Prefixet intra- betyder inom.",
+    "examples": [
+      "Internationell gäller mellan nationer, medan intranationell gäller inom en nation.",
+      "Inter- och intra- visar två olika relationer."
+    ],
+    "related": [
+      "intra-"
+    ]
+  },
+  "intra-": {
+    "opposite": "inter-",
+    "description": "Prefixet inter- betyder mellan. Prefixet intra- betyder inom.",
+    "examples": [
+      "Internationell gäller mellan nationer, medan intranationell gäller inom en nation.",
+      "Inter- och intra- visar två olika relationer."
+    ],
+    "related": [
+      "inter-"
+    ]
+  },
+  "nordpolen": {
+    "opposite": "sydpolen",
+    "description": "Nordpolen är jordens nordligaste punkt. Sydpolen är den sydligaste.",
+    "examples": [
+      "En linje genom jorden kan gå från Nordpolen till Sydpolen.",
+      "Nordpolen ligger i Arktis och Sydpolen i Antarktis."
+    ],
+    "related": [
+      "sydpolen"
+    ]
+  },
+  "sydpolen": {
+    "opposite": "nordpolen",
+    "description": "Nordpolen är jordens nordligaste punkt. Sydpolen är den sydligaste.",
+    "examples": [
+      "En linje genom jorden kan gå från Nordpolen till Sydpolen.",
+      "Nordpolen ligger i Arktis och Sydpolen i Antarktis."
+    ],
+    "related": [
+      "nordpolen"
+    ]
+  },
+  "appellativ": {
+    "opposite": "egennamn",
+    "description": "Ett appellativ är ett allmänt namn. Ett egennamn betecknar en bestämd person, plats eller sak.",
+    "examples": [
+      "Stad är appellativ, medan Stockholm är egennamn.",
+      "Skriv egennamnet med stor bokstav men inte alltid appellativet."
+    ],
+    "related": [
+      "egennamn"
+    ]
+  },
+  "egennamn": {
+    "opposite": "appellativ",
+    "description": "Ett appellativ är ett allmänt namn. Ett egennamn betecknar en bestämd person, plats eller sak.",
+    "examples": [
+      "Stad är appellativ, medan Stockholm är egennamn.",
+      "Skriv egennamnet med stor bokstav men inte alltid appellativet."
+    ],
+    "related": [
+      "appellativ"
+    ]
+  },
+  "inget": {
+    "opposite": "något",
+    "description": "Inget betyder inte något alls. Något betyder en sak eller en viss mängd.",
+    "examples": [
+      "Det fanns inget i lådan i går men något i den i dag.",
+      "Hon hörde något, medan jag hörde inget."
+    ],
+    "related": [
+      "något"
+    ]
+  },
+  "något": {
+    "opposite": "inget",
+    "description": "Inget betyder inte något alls. Något betyder en sak eller en viss mängd.",
+    "examples": [
+      "Det fanns inget i lådan i går men något i den i dag.",
+      "Hon hörde något, medan jag hörde inget."
+    ],
+    "related": [
+      "inget"
+    ]
+  },
+  "infimum": {
+    "opposite": "supremum",
+    "description": "Infimum är den största undre gränsen. Supremum är den minsta övre gränsen.",
+    "examples": [
+      "Mängden har både ett infimum och ett supremum.",
+      "Supremum begränsar uppåt och infimum nedåt."
+    ],
+    "related": [
+      "supremum"
+    ]
+  },
+  "supremum": {
+    "opposite": "infimum",
+    "description": "Infimum är den största undre gränsen. Supremum är den minsta övre gränsen.",
+    "examples": [
+      "Mängden har både ett infimum och ett supremum.",
+      "Supremum begränsar uppåt och infimum nedåt."
+    ],
+    "related": [
+      "infimum"
+    ]
+  },
+  "böjningsform": {
+    "opposite": "grundform",
+    "description": "Grundformen är ordets uppslagsform. En böjningsform visar exempelvis tid, antal eller bestämdhet.",
+    "examples": [
+      "Springa är grundform och sprang en böjningsform.",
+      "Sök ordet i grundform, inte bara i en böjningsform."
+    ],
+    "related": [
+      "grundform"
+    ]
+  },
+  "grundform": {
+    "opposite": "böjningsform",
+    "description": "Grundformen är ordets uppslagsform. En böjningsform visar exempelvis tid, antal eller bestämdhet.",
+    "examples": [
+      "Springa är grundform och sprang en böjningsform.",
+      "Sök ordet i grundform, inte bara i en böjningsform."
+    ],
+    "related": [
+      "böjningsform"
+    ]
+  },
+  "humant": {
+    "opposite": "inhumant",
+    "description": "Humant betyder på ett medmänskligt sätt. Inhumant betyder på ett omänskligt eller grymt sätt.",
+    "examples": [
+      "Djuren behandlades humant, inte inhumant.",
+      "Ett inhumant straff ersattes av ett humant."
+    ],
+    "related": [
+      "inhumant"
+    ]
+  },
+  "inhumant": {
+    "opposite": "humant",
+    "description": "Humant betyder på ett medmänskligt sätt. Inhumant betyder på ett omänskligt eller grymt sätt.",
+    "examples": [
+      "Djuren behandlades humant, inte inhumant.",
+      "Ett inhumant straff ersattes av ett humant."
+    ],
+    "related": [
+      "humant"
+    ]
+  },
+  "ental": {
+    "opposite": "flertal",
+    "description": "Ental avser en. Flertal avser fler än en.",
+    "examples": [
+      "Katt står i ental och katter i flertal.",
+      "Ändra meningen från ental till flertal."
+    ],
+    "related": [
+      "flertal"
+    ]
+  },
+  "flertal": {
+    "opposite": "ental",
+    "description": "Ental avser en. Flertal avser fler än en.",
+    "examples": [
+      "Katt står i ental och katter i flertal.",
+      "Ändra meningen från ental till flertal."
+    ],
+    "related": [
+      "ental"
+    ]
+  },
+  "lågtrafik": {
+    "opposite": "rusningstrafik",
+    "description": "Lågtrafik är en period med lite trafik. Rusningstrafik är en period med mycket trafik.",
+    "examples": [
+      "Resan går snabbare i lågtrafik än i rusningstrafik.",
+      "Priset är lägre under lågtrafik och högre under rusningstrafik."
+    ],
+    "related": [
+      "rusningstrafik"
+    ]
+  },
+  "rusningstrafik": {
+    "opposite": "lågtrafik",
+    "description": "Lågtrafik är en period med lite trafik. Rusningstrafik är en period med mycket trafik.",
+    "examples": [
+      "Resan går snabbare i lågtrafik än i rusningstrafik.",
+      "Priset är lägre under lågtrafik och högre under rusningstrafik."
+    ],
+    "related": [
+      "lågtrafik"
+    ]
+  },
+  "hyresgäst": {
+    "opposite": "hyresvärd",
+    "description": "Hyresgästen hyr en bostad eller lokal. Hyresvärden hyr ut den.",
+    "examples": [
+      "Hyresgästen betalade hyran till hyresvärden.",
+      "Både hyresvärd och hyresgäst skrev under avtalet."
+    ],
+    "related": [
+      "hyresvärd"
+    ]
+  },
+  "hyresvärd": {
+    "opposite": "hyresgäst",
+    "description": "Hyresgästen hyr en bostad eller lokal. Hyresvärden hyr ut den.",
+    "examples": [
+      "Hyresgästen betalade hyran till hyresvärden.",
+      "Både hyresvärd och hyresgäst skrev under avtalet."
+    ],
+    "related": [
+      "hyresgäst"
+    ]
+  },
+  "efterrätt": {
+    "opposite": "förrätt",
+    "description": "Förrätten serveras före huvudrätten. Efterrätten serveras efter den.",
+    "examples": [
+      "Vi åt soppa till förrätt och glass till efterrätt.",
+      "Förrätten inledde måltiden och efterrätten avslutade den."
+    ],
+    "related": [
+      "förrätt"
+    ]
+  },
+  "förrätt": {
+    "opposite": "efterrätt",
+    "description": "Förrätten serveras före huvudrätten. Efterrätten serveras efter den.",
+    "examples": [
+      "Vi åt soppa till förrätt och glass till efterrätt.",
+      "Förrätten inledde måltiden och efterrätten avslutade den."
+    ],
+    "related": [
+      "efterrätt"
+    ]
+  },
+  "x-kromosom": {
+    "opposite": "y-kromosom",
+    "description": "X-kromosomen och Y-kromosomen är två olika könskromosomer hos människor.",
+    "examples": [
+      "Cellen innehöll en X-kromosom och en Y-kromosom.",
+      "X-kromosomen är större än Y-kromosomen."
+    ],
+    "related": [
+      "y-kromosom"
+    ]
+  },
+  "y-kromosom": {
+    "opposite": "x-kromosom",
+    "description": "X-kromosomen och Y-kromosomen är två olika könskromosomer hos människor.",
+    "examples": [
+      "Cellen innehöll en X-kromosom och en Y-kromosom.",
+      "X-kromosomen är större än Y-kromosomen."
+    ],
+    "related": [
+      "x-kromosom"
+    ]
+  },
+  "nordan": {
+    "opposite": "sunnan",
+    "description": "Nordan är vind från norr. Sunnan är vind från söder.",
+    "examples": [
+      "En kall nordan ersattes av en mild sunnan.",
+      "Flaggan vände när vinden gick från nordan till sunnan."
+    ],
+    "related": [
+      "sunnan"
+    ]
+  },
+  "sunnan": {
+    "opposite": "nordan",
+    "description": "Nordan är vind från norr. Sunnan är vind från söder.",
+    "examples": [
+      "En kall nordan ersattes av en mild sunnan.",
+      "Flaggan vände när vinden gick från nordan till sunnan."
+    ],
+    "related": [
+      "nordan"
+    ]
+  },
+  "västan": {
+    "opposite": "östan",
+    "description": "Västan är vind från väster. Östan är vind från öster.",
+    "examples": [
+      "Västan blåste på morgonen och östan på kvällen.",
+      "Sjömannen skiljer mellan västan och östan."
+    ],
+    "related": [
+      "östan"
+    ]
+  },
+  "östan": {
+    "opposite": "västan",
+    "description": "Västan är vind från väster. Östan är vind från öster.",
+    "examples": [
+      "Västan blåste på morgonen och östan på kvällen.",
+      "Sjömannen skiljer mellan västan och östan."
+    ],
+    "related": [
+      "västan"
+    ]
+  },
+  "inlänning": {
+    "opposite": "utlänning",
+    "description": "En inlänning hör till det egna landet. En utlänning kommer från ett annat land.",
+    "examples": [
+      "Regeln gäller både inlänningar och utlänningar.",
+      "Han var utlänning där men inlänning i sitt hemland."
+    ],
+    "related": [
+      "utlänning"
+    ]
+  },
+  "utlänning": {
+    "opposite": "inlänning",
+    "description": "En inlänning hör till det egna landet. En utlänning kommer från ett annat land.",
+    "examples": [
+      "Regeln gäller både inlänningar och utlänningar.",
+      "Han var utlänning där men inlänning i sitt hemland."
+    ],
+    "related": [
+      "inlänning"
+    ]
+  },
+  "endoterm": {
+    "opposite": "exoterm",
+    "description": "Endoterm betyder att värme tas upp. Exoterm betyder att värme avges.",
+    "examples": [
+      "Reaktionen är endoterm när den tar upp värme och exoterm när den avger värme.",
+      "En endoterm process kylde omgivningen, medan en exoterm värmde den."
+    ],
+    "related": [
+      "exoterm"
+    ]
+  },
+  "exoterm": {
+    "opposite": "endoterm",
+    "description": "Endoterm betyder att värme tas upp. Exoterm betyder att värme avges.",
+    "examples": [
+      "Reaktionen är endoterm när den tar upp värme och exoterm när den avger värme.",
+      "En endoterm process kylde omgivningen, medan en exoterm värmde den."
+    ],
+    "related": [
+      "endoterm"
+    ]
+  },
+  "postludium": {
+    "opposite": "preludium",
+    "description": "Ett preludium kommer före huvudverket. Ett postludium kommer efter.",
+    "examples": [
+      "Konserten började med ett preludium och slutade med ett postludium.",
+      "Organisten spelade både preludium och postludium."
+    ],
+    "related": [
+      "preludium"
+    ]
+  },
+  "preludium": {
+    "opposite": "postludium",
+    "description": "Ett preludium kommer före huvudverket. Ett postludium kommer efter.",
+    "examples": [
+      "Konserten började med ett preludium och slutade med ett postludium.",
+      "Organisten spelade både preludium och postludium."
+    ],
+    "related": [
+      "postludium"
+    ]
+  },
+  "arvinge": {
+    "opposite": "arvlåtare",
+    "description": "Arvlåtaren är personen som lämnar ett arv. Arvingen är personen som tar emot det.",
+    "examples": [
+      "Arvingen fick egendom efter arvlåtaren.",
+      "Testamentet klargör relationen mellan arvlåtare och arvinge."
+    ],
+    "related": [
+      "arvlåtare"
+    ]
+  },
+  "arvlåtare": {
+    "opposite": "arvinge",
+    "description": "Arvlåtaren är personen som lämnar ett arv. Arvingen är personen som tar emot det.",
+    "examples": [
+      "Arvingen fick egendom efter arvlåtaren.",
+      "Testamentet klargör relationen mellan arvlåtare och arvinge."
+    ],
+    "related": [
+      "arvinge"
+    ]
+  },
+  "debitor": {
+    "opposite": "kreditor",
+    "description": "En debitor är skyldig pengar. En kreditor har rätt att få betalt.",
+    "examples": [
+      "Debitor betalade skulden till kreditor.",
+      "Avtalet anger både debitors och kreditors ansvar."
+    ],
+    "related": [
+      "kreditor"
+    ]
+  },
+  "kreditor": {
+    "opposite": "debitor",
+    "description": "En debitor är skyldig pengar. En kreditor har rätt att få betalt.",
+    "examples": [
+      "Debitor betalade skulden till kreditor.",
+      "Avtalet anger både debitors och kreditors ansvar."
+    ],
+    "related": [
+      "debitor"
+    ]
+  },
+  "kvinnokön": {
+    "opposite": "mankön",
+    "description": "Kvinnokön och mankön betecknar kvinnligt respektive manligt kön.",
+    "examples": [
+      "Formuläret skiljde mellan kvinnokön och mankön.",
+      "Arten har individer av både kvinnokön och mankön."
+    ],
+    "related": [
+      "mankön"
+    ]
+  },
+  "mankön": {
+    "opposite": "kvinnokön",
+    "description": "Kvinnokön och mankön betecknar kvinnligt respektive manligt kön.",
+    "examples": [
+      "Formuläret skiljde mellan kvinnokön och mankön.",
+      "Arten har individer av både kvinnokön och mankön."
+    ],
+    "related": [
+      "kvinnokön"
+    ]
+  },
+  "högerled": {
+    "opposite": "vänsterled",
+    "description": "Vänsterledet står till vänster om ett likhetstecken. Högerledet står till höger.",
+    "examples": [
+      "Förenkla vänsterledet och högerledet var för sig.",
+      "Efter beräkningen är högerled och vänsterled lika."
+    ],
+    "related": [
+      "vänsterled"
+    ]
+  },
+  "vänsterled": {
+    "opposite": "högerled",
+    "description": "Vänsterledet står till vänster om ett likhetstecken. Högerledet står till höger.",
+    "examples": [
+      "Förenkla vänsterledet och högerledet var för sig.",
+      "Efter beräkningen är högerled och vänsterled lika."
+    ],
+    "related": [
+      "högerled"
+    ]
+  },
+  "monogen": {
+    "opposite": "polygen",
+    "description": "Monogen betyder styrd av en gen. Polygen betyder styrd av flera gener.",
+    "examples": [
+      "Egenskapen är monogen, medan längd ofta är polygen.",
+      "En polygen sjukdom är mer komplex än en monogen."
+    ],
+    "related": [
+      "polygen"
+    ]
+  },
+  "polygen": {
+    "opposite": "monogen",
+    "description": "Monogen betyder styrd av en gen. Polygen betyder styrd av flera gener.",
+    "examples": [
+      "Egenskapen är monogen, medan längd ofta är polygen.",
+      "En polygen sjukdom är mer komplex än en monogen."
+    ],
+    "related": [
+      "monogen"
+    ]
+  },
+  "högmosse": {
+    "opposite": "lågmosse",
+    "description": "En högmosse får främst vatten från nederbörd. En lågmosse påverkas även av grund- eller ytvatten.",
+    "examples": [
+      "Högmossen ligger upphöjd, medan lågmossen får vatten från omgivningen.",
+      "Området innehåller både högmosse och lågmosse."
+    ],
+    "related": [
+      "lågmosse"
+    ]
+  },
+  "lågmosse": {
+    "opposite": "högmosse",
+    "description": "En högmosse får främst vatten från nederbörd. En lågmosse påverkas även av grund- eller ytvatten.",
+    "examples": [
+      "Högmossen ligger upphöjd, medan lågmossen får vatten från omgivningen.",
+      "Området innehåller både högmosse och lågmosse."
+    ],
+    "related": [
+      "högmosse"
+    ]
+  },
+  "ingenstädes": {
+    "opposite": "någonstädes",
+    "description": "Ingenstädes betyder inte på någon plats. Någonstädes betyder på någon plats.",
+    "examples": [
+      "Nyckeln fanns ingenstädes här men måste ligga någonstädes.",
+      "Han sökte någonstädes där ingenstädes verkade självklart."
+    ],
+    "related": [
+      "någonstädes"
+    ]
+  },
+  "någonstädes": {
+    "opposite": "ingenstädes",
+    "description": "Ingenstädes betyder inte på någon plats. Någonstädes betyder på någon plats.",
+    "examples": [
+      "Nyckeln fanns ingenstädes här men måste ligga någonstädes.",
+      "Han sökte någonstädes där ingenstädes verkade självklart."
+    ],
+    "related": [
+      "ingenstädes"
+    ]
+  },
+  "giltigförklara": {
+    "opposite": "ogiltigförklara",
+    "description": "Giltigförklara betyder att förklara något giltigt. Ogiltigförklara betyder att upphäva dess giltighet.",
+    "examples": [
+      "Domstolen kan giltigförklara avtalet eller ogiltigförklara det.",
+      "Beslutet ogiltigförklarades efter att först ha giltigförklarats."
+    ],
+    "related": [
+      "ogiltigförklara"
+    ]
+  },
+  "ogiltigförklara": {
+    "opposite": "giltigförklara",
+    "description": "Giltigförklara betyder att förklara något giltigt. Ogiltigförklara betyder att upphäva dess giltighet.",
+    "examples": [
+      "Domstolen kan giltigförklara avtalet eller ogiltigförklara det.",
+      "Beslutet ogiltigförklarades efter att först ha giltigförklarats."
+    ],
+    "related": [
+      "giltigförklara"
+    ]
+  },
+  "fördragsam": {
+    "opposite": "ofördragsam",
+    "description": "Fördragsam betyder tolerant och tålmodig. Ofördragsam betyder intolerant.",
+    "examples": [
+      "Hon var fördragsam i diskussionen, medan han var ofördragsam.",
+      "Ett fördragsamt klimat ersatte det ofördragsamma."
+    ],
+    "related": [
+      "ofördragsam"
+    ]
+  },
+  "ofördragsam": {
+    "opposite": "fördragsam",
+    "description": "Fördragsam betyder tolerant och tålmodig. Ofördragsam betyder intolerant.",
+    "examples": [
+      "Hon var fördragsam i diskussionen, medan han var ofördragsam.",
+      "Ett fördragsamt klimat ersatte det ofördragsamma."
+    ],
+    "related": [
+      "fördragsam"
+    ]
+  },
+  "eftersats": {
+    "opposite": "försats",
+    "description": "Försatsen kommer först i en konstruktion eller mening. Eftersatsen kommer efter.",
+    "examples": [
+      "Villkoret står i försatsen och följden i eftersatsen.",
+      "Läs både försats och eftersats."
+    ],
+    "related": [
+      "försats"
+    ]
+  },
+  "försats": {
+    "opposite": "eftersats",
+    "description": "Försatsen kommer först i en konstruktion eller mening. Eftersatsen kommer efter.",
+    "examples": [
+      "Villkoret står i försatsen och följden i eftersatsen.",
+      "Läs både försats och eftersats."
+    ],
+    "related": [
+      "eftersats"
+    ]
+  },
+  "apokryfisk": {
+    "opposite": "kanonisk",
+    "description": "Kanonisk betyder erkänd som del av en officiell kanon. Apokryfisk betyder att texten står utanför den.",
+    "examples": [
+      "Den kanoniska texten jämfördes med en apokryfisk.",
+      "Berättelsen är apokryfisk och inte kanonisk."
+    ],
+    "related": [
+      "kanonisk"
+    ]
+  },
+  "kanonisk": {
+    "opposite": "apokryfisk",
+    "description": "Kanonisk betyder erkänd som del av en officiell kanon. Apokryfisk betyder att texten står utanför den.",
+    "examples": [
+      "Den kanoniska texten jämfördes med en apokryfisk.",
+      "Berättelsen är apokryfisk och inte kanonisk."
+    ],
+    "related": [
+      "apokryfisk"
+    ]
+  },
+  "defragmentera": {
+    "opposite": "fragmentera",
+    "description": "Fragmentera betyder att dela upp i spridda delar. Defragmentera betyder att ordna delarna mer sammanhängande.",
+    "examples": [
+      "Filer kan fragmenteras och senare defragmenteras.",
+      "Programmet defragmenterar det som tidigare fragmenterats."
+    ],
+    "related": [
+      "fragmentera"
+    ]
+  },
+  "fragmentera": {
+    "opposite": "defragmentera",
+    "description": "Fragmentera betyder att dela upp i spridda delar. Defragmentera betyder att ordna delarna mer sammanhängande.",
+    "examples": [
+      "Filer kan fragmenteras och senare defragmenteras.",
+      "Programmet defragmenterar det som tidigare fragmenterats."
+    ],
+    "related": [
+      "defragmentera"
+    ]
+  },
+  "bakdel": {
+    "opposite": "framdel",
+    "description": "Bakdelen är den bakre delen. Framdelen är den främre.",
+    "examples": [
+      "Skadan satt på bilens framdel, inte på bakdelen.",
+      "Montera framdelen före bakdelen."
+    ],
+    "related": [
+      "framdel"
+    ]
+  },
+  "framdel": {
+    "opposite": "bakdel",
+    "description": "Bakdelen är den bakre delen. Framdelen är den främre.",
+    "examples": [
+      "Skadan satt på bilens framdel, inte på bakdelen.",
+      "Montera framdelen före bakdelen."
+    ],
+    "related": [
+      "bakdel"
+    ]
+  },
+  "anständig": {
+    "opposite": "anstötlig",
+    "description": "Anständig betyder passande och respektabel. Anstötlig betyder stötande eller olämplig.",
+    "examples": [
+      "Språket var anständigt, men bilden ansågs anstötlig.",
+      "Byt det anstötliga uttrycket mot ett anständigt."
+    ],
+    "related": [
+      "anstötlig"
+    ]
+  },
+  "anstötlig": {
+    "opposite": "anständig",
+    "description": "Anständig betyder passande och respektabel. Anstötlig betyder stötande eller olämplig.",
+    "examples": [
+      "Språket var anständigt, men bilden ansågs anstötlig.",
+      "Byt det anstötliga uttrycket mot ett anständigt."
+    ],
+    "related": [
+      "anständig"
+    ]
+  },
+  "läglig": {
+    "opposite": "oläglig",
+    "description": "Läglig betyder passande i tid. Oläglig betyder att tidpunkten är dålig.",
+    "examples": [
+      "Besöket kom vid en läglig tid, men samtalet var olägligt.",
+      "En oläglig paus ersattes av en läglig."
+    ],
+    "related": [
+      "oläglig"
+    ]
+  },
+  "oläglig": {
+    "opposite": "läglig",
+    "description": "Läglig betyder passande i tid. Oläglig betyder att tidpunkten är dålig.",
+    "examples": [
+      "Besöket kom vid en läglig tid, men samtalet var olägligt.",
+      "En oläglig paus ersattes av en läglig."
+    ],
+    "related": [
+      "läglig"
+    ]
+  },
+  "makrokosmos": {
+    "opposite": "mikrokosmos",
+    "description": "Makrokosmos är världen eller helheten i stor skala. Mikrokosmos är en liten värld som speglar helheten.",
+    "examples": [
+      "Universum beskrivs som makrokosmos och människan som mikrokosmos.",
+      "Romanens by är ett mikrokosmos av ett större makrokosmos."
+    ],
+    "related": [
+      "mikrokosmos"
+    ]
+  },
+  "mikrokosmos": {
+    "opposite": "makrokosmos",
+    "description": "Makrokosmos är världen eller helheten i stor skala. Mikrokosmos är en liten värld som speglar helheten.",
+    "examples": [
+      "Universum beskrivs som makrokosmos och människan som mikrokosmos.",
+      "Romanens by är ett mikrokosmos av ett större makrokosmos."
+    ],
+    "related": [
+      "makrokosmos"
+    ]
+  },
+  "exon": {
+    "opposite": "intron",
+    "description": "Ett exon finns kvar i moget RNA. Ett intron klipps normalt bort.",
+    "examples": [
+      "Genen innehåller både exon och intron.",
+      "Intronerna togs bort och exonerna fogades samman."
+    ],
+    "related": [
+      "intron"
+    ]
+  },
+  "intron": {
+    "opposite": "exon",
+    "description": "Ett exon finns kvar i moget RNA. Ett intron klipps normalt bort.",
+    "examples": [
+      "Genen innehåller både exon och intron.",
+      "Intronerna togs bort och exonerna fogades samman."
+    ],
+    "related": [
+      "exon"
+    ]
+  },
+  "avslutningsvis": {
+    "opposite": "inledningsvis",
+    "description": "Inledningsvis betyder i början. Avslutningsvis betyder i slutet.",
+    "examples": [
+      "Inledningsvis beskrev hon problemet och avslutningsvis lösningen.",
+      "Han var tveksam inledningsvis men positiv avslutningsvis."
+    ],
+    "related": [
+      "inledningsvis"
+    ]
+  },
+  "inledningsvis": {
+    "opposite": "avslutningsvis",
+    "description": "Inledningsvis betyder i början. Avslutningsvis betyder i slutet.",
+    "examples": [
+      "Inledningsvis beskrev hon problemet och avslutningsvis lösningen.",
+      "Han var tveksam inledningsvis men positiv avslutningsvis."
+    ],
+    "related": [
+      "avslutningsvis"
+    ]
+  },
+  "fruktsamhet": {
+    "opposite": "ofruktsamhet",
+    "description": "Fruktsamhet är förmåga att få avkomma eller ge skörd. Ofruktsamhet är avsaknad av denna förmåga.",
+    "examples": [
+      "Behandlingen förbättrade fruktsamheten och minskade ofruktsamheten.",
+      "Jorden gick från ofruktsamhet till större fruktsamhet."
+    ],
+    "related": [
+      "ofruktsamhet"
+    ]
+  },
+  "ofruktsamhet": {
+    "opposite": "fruktsamhet",
+    "description": "Fruktsamhet är förmåga att få avkomma eller ge skörd. Ofruktsamhet är avsaknad av denna förmåga.",
+    "examples": [
+      "Behandlingen förbättrade fruktsamheten och minskade ofruktsamheten.",
+      "Jorden gick från ofruktsamhet till större fruktsamhet."
+    ],
+    "related": [
+      "fruktsamhet"
+    ]
+  },
+  "muntligt": {
+    "opposite": "skriftligt",
+    "description": "Muntligt betyder med tal. Skriftligt betyder i text.",
+    "examples": [
+      "Beskedet gavs muntligt och bekräftades skriftligt.",
+      "Du kan svara muntligt eller skriftligt."
+    ],
+    "related": [
+      "skriftligt"
+    ]
+  },
+  "skriftligt": {
+    "opposite": "muntligt",
+    "description": "Muntligt betyder med tal. Skriftligt betyder i text.",
+    "examples": [
+      "Beskedet gavs muntligt och bekräftades skriftligt.",
+      "Du kan svara muntligt eller skriftligt."
+    ],
+    "related": [
+      "muntligt"
+    ]
+  },
+  "inandas": {
+    "opposite": "utandas",
+    "description": "Inandas betyder att dra in luft. Utandas betyder att släppa ut luft.",
+    "examples": [
+      "Vi inandas syre och utandas koldioxid.",
+      "Inandas långsamt och utandas lugnt."
+    ],
+    "related": [
+      "utandas"
+    ]
+  },
+  "utandas": {
+    "opposite": "inandas",
+    "description": "Inandas betyder att dra in luft. Utandas betyder att släppa ut luft.",
+    "examples": [
+      "Vi inandas syre och utandas koldioxid.",
+      "Inandas långsamt och utandas lugnt."
+    ],
+    "related": [
+      "inandas"
+    ]
   }
 } as const;
