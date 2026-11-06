@@ -7445,6 +7445,456 @@ const curatedPairs = [
       "Kontakten är jordad, men den gamla är ojordad.",
       "Använd jordad utrustning i stället för ojordad där det krävs."
     ]
+  },
+  {
+    "a": "rensad",
+    "b": "orensad",
+    "description": "Rensad betyder att oönskade delar har tagits bort. Orensad betyder att rensning inte har gjorts.",
+    "examples": [
+      "Fisken är rensad, men den andra är orensad.",
+      "Rensa den orensade svampen tills den är rensad."
+    ]
+  },
+  {
+    "a": "tvättad",
+    "b": "otvättad",
+    "description": "Tvättad betyder rengjord med vatten eller tvättmedel. Otvättad betyder att den inte har tvättats.",
+    "examples": [
+      "Den tvättade tröjan ligger bredvid den otvättade.",
+      "Tvätta den otvättade frukten innan den äts."
+    ]
+  },
+  {
+    "a": "diskad",
+    "b": "odiskad",
+    "description": "Diskad betyder rengjord efter användning i köket. Odiskad betyder att den inte har diskats.",
+    "examples": [
+      "Tallriken är diskad, men glaset är odiskat.",
+      "Ställ den diskade koppen skild från den odiskade."
+    ]
+  },
+  {
+    "a": "skalad",
+    "b": "oskalad",
+    "description": "Skalad betyder att skalet har tagits bort. Oskalad betyder att skalet finns kvar.",
+    "examples": [
+      "Potatisen finns både skalad och oskalad.",
+      "Skala den oskalade moroten tills den är skalad."
+    ]
+  },
+  {
+    "a": "öppnad",
+    "b": "oöppnad",
+    "description": "Öppnad betyder att förpackning eller behållare har öppnats. Oöppnad betyder att den fortfarande är försluten.",
+    "examples": [
+      "Den öppnade burken står bredvid den oöppnade.",
+      "Spara den oöppnade flaskan och använd den öppnade först."
+    ]
+  },
+  {
+    "a": "läst",
+    "b": "oläst",
+    "description": "Läst betyder att texten har blivit läst. Oläst betyder att ingen ännu har läst den.",
+    "examples": [
+      "Brevet är läst, men meddelandet är oläst.",
+      "Hon flyttade boken från oläst till läst."
+    ]
+  },
+  {
+    "a": "skriven",
+    "b": "oskriven",
+    "description": "Skriven betyder uttryckt i text. Oskriven betyder att den inte har skrivits ner.",
+    "examples": [
+      "Regeln är skriven, medan traditionen är oskriven.",
+      "En oskriven idé blev en skriven plan."
+    ]
+  },
+  {
+    "a": "signerad",
+    "b": "osignerad",
+    "description": "Signerad betyder försedd med en underskrift. Osignerad betyder att underskrift saknas.",
+    "examples": [
+      "Avtalet är signerat, men bilagan är osignerad.",
+      "Skriv under den osignerade blanketten så att den blir signerad."
+    ]
+  },
+  {
+    "a": "märkt",
+    "b": "omärkt",
+    "description": "Märkt betyder försedd med en etikett eller markering. Omärkt betyder utan märkning.",
+    "examples": [
+      "Lådan är märkt, men påsen är omärkt.",
+      "Märk den omärkta kabeln och håll den skild från den märkta."
+    ]
+  },
+  {
+    "a": "bemannad",
+    "b": "obemannad",
+    "description": "Bemannad betyder att personal finns på plats. Obemannad betyder utan personal.",
+    "examples": [
+      "Stationen är bemannad på dagen och obemannad på natten.",
+      "En bemannad kassa står bredvid en obemannad automat."
+    ]
+  },
+  {
+    "a": "bevakad",
+    "b": "obevakad",
+    "description": "Bevakad betyder övervakad eller skyddad av bevakning. Obevakad betyder utan bevakning.",
+    "examples": [
+      "Parkeringen är bevakad, men cykelstället är obevakat.",
+      "Lämna inte väskan obevakad på den bevakade platsen."
+    ]
+  },
+  {
+    "a": "låst",
+    "b": "olåst",
+    "description": "Låst betyder stängd med lås. Olåst betyder att låset inte är aktiverat.",
+    "examples": [
+      "Ytterdörren är låst, men innerdörren är olåst.",
+      "Lås den olåsta dörren så att den blir låst."
+    ]
+  },
+  {
+    "a": "tänd",
+    "b": "släckt",
+    "description": "Tänd betyder att en lampa eller eld brinner. Släckt betyder att ljuset eller elden har stängts av.",
+    "examples": [
+      "Lampan är tänd, men ljuset i hallen är släckt.",
+      "Släck det tända ljuset så att det blir släckt."
+    ]
+  },
+  {
+    "a": "uppvärmd",
+    "b": "ouppvärmd",
+    "description": "Uppvärmd betyder att värme har tillförts. Ouppvärmd betyder att den inte har värmts.",
+    "examples": [
+      "Rummet är uppvärmt, men förrådet är ouppvärmt.",
+      "Den uppvärmda maten är varmare än den ouppvärmda."
+    ]
+  },
+  {
+    "a": "kyld",
+    "b": "okyld",
+    "description": "Kyld betyder nedkyld eller förvarad kallt. Okyld betyder att den inte har kylts.",
+    "examples": [
+      "Drycken serveras kyld, medan brödet är okylt.",
+      "Ställ den okylda varan bredvid den kylda."
+    ]
+  },
+  {
+    "a": "fryst",
+    "b": "ofryst",
+    "description": "Fryst betyder nedkyld tills den har frusit. Ofryst betyder att den inte är fryst.",
+    "examples": [
+      "Bären finns både frysta och ofrysta.",
+      "Den frysta fisken ligger skild från den ofrysta."
+    ]
+  },
+  {
+    "a": "pastöriserad",
+    "b": "opastöriserad",
+    "description": "Pastöriserad betyder värmebehandlad för att minska skadliga mikroorganismer. Opastöriserad betyder utan sådan behandling.",
+    "examples": [
+      "Mjölken är pastöriserad, men provet är opastöriserat.",
+      "Etiketten visar om drycken är pastöriserad eller opastöriserad."
+    ]
+  },
+  {
+    "a": "steril",
+    "b": "osteril",
+    "description": "Steril betyder fri från levande mikroorganismer. Osteril betyder att sådan sterilitet saknas.",
+    "examples": [
+      "Instrumentet är sterilt, men ytan bredvid är osteril.",
+      "Håll steril utrustning skild från osteril."
+    ]
+  },
+  {
+    "a": "renad",
+    "b": "orenad",
+    "description": "Renad betyder att föroreningar har avlägsnats. Orenad betyder att rening inte har gjorts.",
+    "examples": [
+      "Vattnet är renat, men avloppsvattnet är orenat.",
+      "Anläggningen gör orenad luft renad."
+    ]
+  },
+  {
+    "a": "behandlad",
+    "b": "obehandlad",
+    "description": "Behandlad betyder att någon åtgärd eller behandling har utförts. Obehandlad betyder utan behandling.",
+    "examples": [
+      "Träet är behandlat utomhus men obehandlat inomhus.",
+      "Jämför den behandlade ytan med den obehandlade."
+    ]
+  },
+  {
+    "a": "målad",
+    "b": "omålad",
+    "description": "Målad betyder täckt med färg. Omålad betyder utan färgskikt.",
+    "examples": [
+      "Väggen är målad, men dörren är omålad.",
+      "Den målade brädan ligger bredvid den omålade."
+    ]
+  },
+  {
+    "a": "polerad",
+    "b": "opolerad",
+    "description": "Polerad betyder bearbetad till en slät och blank yta. Opolerad betyder utan sådan bearbetning.",
+    "examples": [
+      "Stenen är polerad på ena sidan och opolerad på den andra.",
+      "Den polerade metallen blänker mer än den opolerade."
+    ]
+  },
+  {
+    "a": "rostfri",
+    "b": "rostig",
+    "description": "Rostfri betyder motståndskraftig mot rost. Rostig betyder angripen av rost.",
+    "examples": [
+      "Skruven är rostfri, men den gamla spiken är rostig.",
+      "Byt den rostiga delen mot en rostfri."
+    ]
+  },
+  {
+    "a": "vattentät",
+    "b": "otät",
+    "description": "Vattentät betyder att vatten inte tränger igenom. Otät betyder att vätska eller luft kan läcka.",
+    "examples": [
+      "Den nya flaskan är vattentät, men locket är otätt.",
+      "Testet visar om sömmen är vattentät eller otät."
+    ]
+  },
+  {
+    "a": "doftande",
+    "b": "doftlös",
+    "description": "Doftande betyder att avge en tydlig doft. Doftlös betyder utan märkbar doft.",
+    "examples": [
+      "Blomman är doftande, men den andra är doftlös.",
+      "Krämen finns som doftande och doftlös."
+    ]
+  },
+  {
+    "a": "färgrik",
+    "b": "färglös",
+    "description": "Färgrik betyder fylld av många eller starka färger. Färglös betyder utan tydlig färg.",
+    "examples": [
+      "Målningen är färgrik, medan skissen är färglös.",
+      "Den färgrika vätskan blev färglös efter reningen."
+    ]
+  },
+  {
+    "a": "vindstilla",
+    "b": "blåsig",
+    "description": "Vindstilla betyder utan märkbar vind. Blåsig betyder att det blåser mycket.",
+    "examples": [
+      "Morgonen var vindstilla, men eftermiddagen blev blåsig.",
+      "Viken är vindstilla medan udden är blåsig."
+    ]
+  },
+  {
+    "a": "regnig",
+    "b": "solig",
+    "description": "Regnig betyder präglad av regn. Solig betyder präglad av solsken.",
+    "examples": [
+      "Måndagen var regnig, men tisdagen blev solig.",
+      "Semestern började regnigt och slutade soligt."
+    ]
+  },
+  {
+    "a": "stillastående",
+    "b": "rinnande",
+    "description": "Stillastående betyder att inte röra sig. Rinnande betyder att strömma fram.",
+    "examples": [
+      "Dammen har stillastående vatten, medan bäcken har rinnande.",
+      "Rinnande vatten är i rörelse, stillastående vatten är det inte."
+    ]
+  },
+  {
+    "a": "frusen",
+    "b": "upptinad",
+    "description": "Frusen betyder att ha blivit fast av kyla. Upptinad betyder att ha tinat efter att ha varit frusen.",
+    "examples": [
+      "Maten är frusen nu men blir upptinad senare.",
+      "Håll frusen mat skild från upptinad."
+    ]
+  },
+  {
+    "a": "välkommen",
+    "b": "ovälkommen",
+    "description": "Välkommen betyder önskad och mottagen med glädje. Ovälkommen betyder inte önskad.",
+    "examples": [
+      "Hjälpen var välkommen, men störningen var ovälkommen.",
+      "Gästen kände sig välkommen i stället för ovälkommen."
+    ]
+  },
+  {
+    "a": "inbjuden",
+    "b": "oinbjuden",
+    "description": "Inbjuden betyder att ha fått en inbjudan. Oinbjuden betyder att komma utan inbjudan.",
+    "examples": [
+      "De inbjudna gästerna kom först, den oinbjudna senare.",
+      "Endast inbjudna personer får gå in, inte oinbjudna."
+    ]
+  },
+  {
+    "a": "bokad",
+    "b": "obokad",
+    "description": "Bokad betyder reserverad i förväg. Obokad betyder att ingen bokning finns.",
+    "examples": [
+      "Tiden klockan tio är bokad, men tiden elva är obokad.",
+      "Hon tog den obokade platsen eftersom den andra var bokad."
+    ]
+  },
+  {
+    "a": "övervakad",
+    "b": "oövervakad",
+    "description": "Övervakad betyder kontrollerad genom tillsyn eller teknik. Oövervakad betyder utan sådan tillsyn.",
+    "examples": [
+      "Provet var övervakat, men pausen var oövervakad.",
+      "Systemet skiljer övervakad trafik från oövervakad."
+    ]
+  },
+  {
+    "a": "lagrad",
+    "b": "olagrad",
+    "description": "Lagrad betyder sparad för senare användning eller mognad. Olagrad betyder att den inte har lagrats.",
+    "examples": [
+      "Filen är lagrad, men ändringen är olagrad.",
+      "Osten finns som lagrad och olagrad."
+    ]
+  },
+  {
+    "a": "sparad",
+    "b": "osparad",
+    "description": "Sparad betyder bevarad i minne eller för framtiden. Osparad betyder att den inte har sparats.",
+    "examples": [
+      "Texten är sparad, men den senaste ändringen är osparad.",
+      "Spara det osparade arbetet så att det blir sparat."
+    ]
+  },
+  {
+    "a": "levererad",
+    "b": "olevererad",
+    "description": "Levererad betyder att varan har kommit fram. Olevererad betyder att leveransen ännu saknas.",
+    "examples": [
+      "Det första paketet är levererat, det andra olevererat.",
+      "Listan visar levererade och olevererade beställningar."
+    ]
+  },
+  {
+    "a": "beställd",
+    "b": "obeställd",
+    "description": "Beställd betyder efterfrågad genom en beställning. Obeställd betyder att ingen beställning har gjorts.",
+    "examples": [
+      "Varan är beställd, men tillbehöret är obeställt.",
+      "Skicka bara beställda produkter, inte obeställda."
+    ]
+  },
+  {
+    "a": "betrodd",
+    "b": "misstänkt",
+    "description": "Betrodd betyder ansedd som pålitlig. Misstänkt betyder att någon kan ha gjort något fel.",
+    "examples": [
+      "Den betrodda medarbetaren förhördes inte som misstänkt.",
+      "Han gick från betrodd rådgivare till misstänkt person."
+    ]
+  },
+  {
+    "a": "inramad",
+    "b": "oramad",
+    "description": "Inramad betyder placerad i en ram. Oramad betyder utan ram.",
+    "examples": [
+      "Tavlan är inramad, men affischen är oramad.",
+      "Den inramade bilden kostar mer än den oramade."
+    ]
+  },
+  {
+    "a": "inplastad",
+    "b": "oplastad",
+    "description": "Inplastad betyder täckt eller förpackad i plast. Oplastad betyder utan plastöverdrag.",
+    "examples": [
+      "Boken är inplastad, men tidningen är oplastad.",
+      "Välj den oplastade varan i stället för den inplastade."
+    ]
+  },
+  {
+    "a": "förseglad",
+    "b": "oförseglad",
+    "description": "Förseglad betyder stängd med en obruten försegling. Oförseglad betyder utan sådan försegling.",
+    "examples": [
+      "Kuvertet är förseglat, men kartongen är oförseglad.",
+      "Kontrollera att den oförseglade flaskan inte säljs som förseglad."
+    ]
+  },
+  {
+    "a": "förpackad",
+    "b": "oförpackad",
+    "description": "Förpackad betyder placerad i en förpackning. Oförpackad betyder utan förpackning.",
+    "examples": [
+      "Varan finns både förpackad och oförpackad.",
+      "Den förpackade frukten låg bredvid den oförpackade."
+    ]
+  },
+  {
+    "a": "adresserad",
+    "b": "oadresserad",
+    "description": "Adresserad betyder försedd med mottagarens adress. Oadresserad betyder utan adress.",
+    "examples": [
+      "Brevet är adresserat, men vykortet är oadresserat.",
+      "Skriv adress på det oadresserade kuvertet så att det blir adresserat."
+    ]
+  },
+  {
+    "a": "frankerad",
+    "b": "ofrankerad",
+    "description": "Frankerad betyder försedd med rätt porto. Ofrankerad betyder utan porto.",
+    "examples": [
+      "Kuvertet är frankerat, men paketet är ofrankerat.",
+      "Posta det frankerade brevet och komplettera det ofrankerade."
+    ]
+  },
+  {
+    "a": "stämplad",
+    "b": "ostämplad",
+    "description": "Stämplad betyder försedd med en stämpel. Ostämplad betyder utan stämpel.",
+    "examples": [
+      "Biljetten är stämplad, men den andra är ostämplad.",
+      "Kontrollanten skiljer stämplade biljetter från ostämplade."
+    ]
+  },
+  {
+    "a": "daterad",
+    "b": "odaterad",
+    "description": "Daterad betyder försedd med ett datum. Odaterad betyder utan datum.",
+    "examples": [
+      "Brevet är daterat, men anteckningen är odaterad.",
+      "Arkivet skiljer daterade dokument från odaterade."
+    ]
+  },
+  {
+    "a": "numrerad",
+    "b": "onumrerad",
+    "description": "Numrerad betyder försedd med ett nummer. Onumrerad betyder utan nummer.",
+    "examples": [
+      "Sidorna är numrerade, men bilagorna är onumrerade.",
+      "Ge den onumrerade platsen ett nummer så att den blir numrerad."
+    ]
+  },
+  {
+    "a": "räknad",
+    "b": "oräknad",
+    "description": "Räknad betyder att antalet har fastställts. Oräknad betyder att den ännu inte har räknats.",
+    "examples": [
+      "Sedlarna är räknade, men mynten är oräknade.",
+      "Räkna den oräknade högen och lägg den vid den räknade."
+    ]
+  },
+  {
+    "a": "vägd",
+    "b": "ovägd",
+    "description": "Vägd betyder att vikten har mätts. Ovägd betyder att den ännu inte har vägts.",
+    "examples": [
+      "Väskan är vägd, men lådan är ovägd.",
+      "Väg den ovägda varan och märk den som vägd."
+    ]
   }
 ];
 
