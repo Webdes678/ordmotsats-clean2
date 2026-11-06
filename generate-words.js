@@ -2495,6 +2495,456 @@ const curatedPairs = [
       "Vinden började avta på kvällen men väntas tillta i morgon.",
       "Smärtan tilltog först och började sedan avta."
     ]
+  },
+  {
+    "a": "optimism",
+    "b": "pessimism",
+    "description": "Optimism är en tro på att det kommer att gå bra. Pessimism är en förväntan att det kommer att gå dåligt.",
+    "examples": [
+      "Hennes optimism gav gruppen hopp, medan hans pessimism gjorde dem tveksamma.",
+      "Trots all pessimism behöll hon sin optimism."
+    ]
+  },
+  {
+    "a": "optimistisk",
+    "b": "pessimistisk",
+    "description": "Optimistisk betyder hoppfull inför framtiden. Pessimistisk betyder att man väntar sig ett sämre resultat.",
+    "examples": [
+      "Hon är optimistisk om planen, men han är pessimistisk.",
+      "Prognosen gick från pessimistisk till mer optimistisk."
+    ]
+  },
+  {
+    "a": "explodera",
+    "b": "implodera",
+    "description": "Explodera betyder att brista utåt. Implodera betyder att falla samman inåt.",
+    "examples": [
+      "En behållare kan explodera av högt inre tryck eller implodera av högt yttre tryck.",
+      "Stjärnan började implodera innan materialet kunde explodera utåt."
+    ]
+  },
+  {
+    "a": "altruistisk",
+    "b": "egoistisk",
+    "description": "Altruistisk betyder inriktad på andras bästa. Egoistisk betyder främst inriktad på det egna bästa.",
+    "examples": [
+      "Det altruistiska beslutet hjälpte många, medan det egoistiska beslutet bara gynnade en person.",
+      "Hon handlade altruistiskt i stället för egoistiskt."
+    ]
+  },
+  {
+    "a": "enfärgad",
+    "b": "flerfärgad",
+    "description": "Enfärgad betyder att något har en färg. Flerfärgad betyder att det har flera färger.",
+    "examples": [
+      "Den ena tröjan är enfärgad och den andra flerfärgad.",
+      "Hon bytte den flerfärgade mattan mot en enfärgad."
+    ]
+  },
+  {
+    "a": "fullkomlig",
+    "b": "ofullkomlig",
+    "description": "Fullkomlig betyder fullständig eller utan brister. Ofullkomlig betyder att brister finns.",
+    "examples": [
+      "Ingen lösning är fullkomlig, men den första var särskilt ofullkomlig.",
+      "Resultatet gick från ofullkomligt till nästan fullkomligt."
+    ]
+  },
+  {
+    "a": "trångsynt",
+    "b": "vidsynt",
+    "description": "Trångsynt betyder ovillig att acceptera andra perspektiv. Vidsynt betyder öppen för olika idéer.",
+    "examples": [
+      "Ett trångsynt synsätt ersattes av ett mer vidsynt.",
+      "Hon är vidsynt och försöker undvika trångsynta bedömningar."
+    ]
+  },
+  {
+    "a": "monogam",
+    "b": "polygam",
+    "description": "Monogam betyder att ha en partner åt gången. Polygam betyder att ha flera partners samtidigt.",
+    "examples": [
+      "Arten är oftast monogam, men en närbesläktad art är polygam.",
+      "Ett monogamt system skiljer sig från ett polygamt."
+    ]
+  },
+  {
+    "a": "exponentiera",
+    "b": "logaritmera",
+    "description": "Att exponentiera och att logaritmera är omvända matematiska operationer.",
+    "examples": [
+      "Exponentiera värdet för att återgå efter att du har logaritmerat det.",
+      "Programmet kan både logaritmera och exponentiera tal."
+    ]
+  },
+  {
+    "a": "medlut",
+    "b": "motlut",
+    "description": "Medlut är en sträcka som lutar nedåt i färdriktningen. Motlut är en sträcka som lutar uppåt.",
+    "examples": [
+      "Cykeln rullade snabbt i medlutet men långsamt i motlutet.",
+      "Efter ett långt motlut kom ett välkommet medlut."
+    ]
+  },
+  {
+    "a": "förindustriell",
+    "b": "postindustriell",
+    "description": "Förindustriell beskriver tiden före industrialiseringen. Postindustriell beskriver tiden efter industrisamhällets dominerande fas.",
+    "examples": [
+      "Byn hade en förindustriell ekonomi, medan staden blev postindustriell.",
+      "Studien jämför förindustriella samhällen med postindustriella samhällen."
+    ]
+  },
+  {
+    "a": "benign",
+    "b": "malign",
+    "description": "Benign betyder godartad. Malign betyder elakartad.",
+    "examples": [
+      "Provet visade att tumören var benign och inte malign.",
+      "En benign förändring behandlas annorlunda än en malign."
+    ]
+  },
+  {
+    "a": "samarbetsovillig",
+    "b": "samarbetsvillig",
+    "description": "Samarbetsovillig betyder att någon inte vill samarbeta. Samarbetsvillig betyder att någon gärna samarbetar.",
+    "examples": [
+      "Han var först samarbetsovillig men blev senare samarbetsvillig.",
+      "En samarbetsvillig grupp löser uppgiften lättare än en samarbetsovillig."
+    ]
+  },
+  {
+    "a": "oöversiktlig",
+    "b": "översiktlig",
+    "description": "Oöversiktlig betyder svår att få en helhetsbild av. Översiktlig betyder att helheten är lätt att se.",
+    "examples": [
+      "Den gamla tabellen var oöversiktlig, men den nya är översiktlig.",
+      "Gör kartan mer översiktlig och mindre oöversiktlig."
+    ]
+  },
+  {
+    "a": "betydlig",
+    "b": "obetydlig",
+    "description": "Betydlig betyder stor eller märkbar. Obetydlig betyder liten eller knappt märkbar.",
+    "examples": [
+      "Kostnaden var betydlig, medan skillnaden i tid var obetydlig.",
+      "En obetydlig förändring ledde senare till en betydlig förbättring."
+    ]
+  },
+  {
+    "a": "efterled",
+    "b": "förled",
+    "description": "Ett förled står först i en sammansättning. Ett efterled står sist.",
+    "examples": [
+      "I ordet sommarhus är sommar förled och hus efterled.",
+      "Byt förled men behåll samma efterled."
+    ]
+  },
+  {
+    "a": "abiotisk",
+    "b": "biotisk",
+    "description": "Abiotisk rör icke-levande faktorer. Biotisk rör levande organismer.",
+    "examples": [
+      "Temperatur är en abiotisk faktor, medan konkurrens mellan arter är en biotisk faktor.",
+      "Miljön påverkas av både abiotiska och biotiska förhållanden."
+    ]
+  },
+  {
+    "a": "konsumtion",
+    "b": "produktion",
+    "description": "Produktion skapar varor eller tjänster. Konsumtion använder dem.",
+    "examples": [
+      "Produktionen ökade för att möta en högre konsumtion.",
+      "Företaget jämför produktion med konsumtion varje månad."
+    ]
+  },
+  {
+    "a": "dysfemism",
+    "b": "eufemism",
+    "description": "En eufemism mildrar ett uttryck. En dysfemism gör uttrycket hårdare eller mer nedsättande.",
+    "examples": [
+      "Hon använde en eufemism för att låta vänlig, medan han valde en dysfemism.",
+      "Samma sak kan beskrivas med en eufemism eller en dysfemism."
+    ]
+  },
+  {
+    "a": "aphelium",
+    "b": "perihelium",
+    "description": "Aphelium är den punkt där ett objekt är längst från solen. Perihelium är punkten närmast solen.",
+    "examples": [
+      "Planeten rör sig längst bort vid aphelium och närmast vid perihelium.",
+      "Avståndet är större i aphelium än i perihelium."
+    ]
+  },
+  {
+    "a": "apogeum",
+    "b": "perigeum",
+    "description": "Apogeum är den punkt i en bana som ligger längst från jorden. Perigeum är punkten närmast jorden.",
+    "examples": [
+      "Månen är längre bort i apogeum och närmare i perigeum.",
+      "Satellitens bana går mellan perigeum och apogeum."
+    ]
+  },
+  {
+    "a": "feminin",
+    "b": "maskulin",
+    "description": "Feminin betyder kvinnligt präglad. Maskulin betyder manligt präglad.",
+    "examples": [
+      "Formen beskrevs som feminin, medan den andra kallades maskulin.",
+      "Språket använder både feminina och maskulina former."
+    ]
+  },
+  {
+    "a": "kvinnlig",
+    "b": "manlig",
+    "description": "Kvinnlig betyder som hör till eller gäller kvinnor. Manlig betyder som hör till eller gäller män.",
+    "examples": [
+      "Tävlingen har en kvinnlig och en manlig klass.",
+      "Den kvinnliga huvudrollen möter den manliga huvudrollen."
+    ]
+  },
+  {
+    "a": "ordfattig",
+    "b": "ordrik",
+    "description": "Ordfattig betyder att få ord används. Ordrik betyder att många ord används.",
+    "examples": [
+      "Texten var ordfattig, men talet var mycket ordrikt.",
+      "En ordrik förklaring ersatte det ordfattiga svaret."
+    ]
+  },
+  {
+    "a": "inom",
+    "b": "utom",
+    "description": "Inom betyder på insidan av en gräns. Utom betyder utanför gränsen.",
+    "examples": [
+      "Alla inom området var säkra, men de utom området fick vänta.",
+      "Regeln gäller inom landet men inte utom landet."
+    ]
+  },
+  {
+    "a": "ihop",
+    "b": "isär",
+    "description": "Ihop betyder tillsammans eller sammanfogat. Isär betyder åtskilt.",
+    "examples": [
+      "Sätt ihop delarna och ta sedan isär dem igen.",
+      "Böckerna stod ihop först men flyttades isär."
+    ]
+  },
+  {
+    "a": "baklänges",
+    "b": "framåt",
+    "description": "Baklänges betyder i riktning bakåt. Framåt betyder i riktning mot framsidan eller framtiden.",
+    "examples": [
+      "Han gick baklänges några steg och fortsatte sedan framåt.",
+      "Filmen spelades först baklänges och sedan framåt."
+    ]
+  },
+  {
+    "a": "skriftspråk",
+    "b": "talspråk",
+    "description": "Skriftspråk används i skrift. Talspråk används när vi talar.",
+    "examples": [
+      "Uttrycket är vanligt i talspråk men ovanligt i skriftspråk.",
+      "Skriftspråket är mer formellt än talspråket i exemplet."
+    ]
+  },
+  {
+    "a": "excentrisk",
+    "b": "koncentrisk",
+    "description": "Excentrisk betyder att mittpunkterna inte sammanfaller. Koncentrisk betyder att former har samma mittpunkt.",
+    "examples": [
+      "De koncentriska cirklarna har samma centrum, men den excentriska cirkeln ligger förskjuten.",
+      "Lagret kan monteras koncentriskt eller excentriskt."
+    ]
+  },
+  {
+    "a": "höstdagjämning",
+    "b": "vårdagjämning",
+    "description": "Vårdagjämningen inträffar på våren. Höstdagjämningen inträffar på hösten.",
+    "examples": [
+      "Dagarna blir längre efter vårdagjämningen och kortare efter höstdagjämningen.",
+      "Tiden mellan vårdagjämning och höstdagjämning omfattar sommarhalvåret."
+    ]
+  },
+  {
+    "a": "impopularitet",
+    "b": "popularitet",
+    "description": "Popularitet betyder att något är omtyckt. Impopularitet betyder att det inte är omtyckt.",
+    "examples": [
+      "Förslaget växte i popularitet efter en period av impopularitet.",
+      "Hög popularitet kan snabbt bytas mot impopularitet."
+    ]
+  },
+  {
+    "a": "illegal",
+    "b": "legal",
+    "description": "Legal betyder tillåten enligt lag. Illegal betyder förbjuden enligt lag.",
+    "examples": [
+      "Verksamheten var illegal men blev senare legal.",
+      "En legal handling följer lagen, medan en illegal handling bryter mot den."
+    ]
+  },
+  {
+    "a": "heterodox",
+    "b": "ortodox",
+    "description": "Ortodox betyder att följa en etablerad lära. Heterodox betyder att avvika från den.",
+    "examples": [
+      "Den ortodoxa tolkningen utmanades av en heterodox idé.",
+      "Han lämnade den heterodoxa gruppen för en mer ortodox riktning."
+    ]
+  },
+  {
+    "a": "entydig",
+    "b": "tvetydig",
+    "description": "Entydig betyder att bara en tolkning är rimlig. Tvetydig betyder att flera tolkningar är möjliga.",
+    "examples": [
+      "Instruktionen var entydig, men svaret blev tvetydigt.",
+      "Skriv om den tvetydiga meningen så att den blir entydig."
+    ]
+  },
+  {
+    "a": "encellig",
+    "b": "flercellig",
+    "description": "En encellig organism består av en cell. En flercellig organism består av många celler.",
+    "examples": [
+      "En bakterie är encellig, medan en människa är flercellig.",
+      "Mikroskopet visade både encelliga och flercelliga organismer."
+    ]
+  },
+  {
+    "a": "hövlig",
+    "b": "ohövlig",
+    "description": "Hövlig betyder artig. Ohövlig betyder oartig.",
+    "examples": [
+      "Hon gav ett hövligt svar trots den ohövliga frågan.",
+      "Var hövlig och undvik en ohövlig ton."
+    ]
+  },
+  {
+    "a": "osjälvständighet",
+    "b": "självständighet",
+    "description": "Självständighet betyder att kunna bestämma och agera på egen hand. Osjälvständighet betyder beroende av andra.",
+    "examples": [
+      "Övningen tränar självständighet och minskar osjälvständighet.",
+      "Landet gick från osjälvständighet till självständighet."
+    ]
+  },
+  {
+    "a": "kryddstark",
+    "b": "kryddsvag",
+    "description": "Kryddstark mat har kraftig kryddning. Kryddsvag mat har mild kryddning.",
+    "examples": [
+      "Grytan är kryddstark, men soppan är kryddsvag.",
+      "Hon valde den kryddsvaga såsen i stället för den kryddstarka."
+    ]
+  },
+  {
+    "a": "pietetsfull",
+    "b": "pietetslös",
+    "description": "Pietetsfull betyder respektfull mot något värdefullt eller gammalt. Pietetslös betyder utan sådan respekt.",
+    "examples": [
+      "Huset renoverades pietetsfullt i stället för pietetslöst.",
+      "En pietetsfull restaurering bevarar detaljer som en pietetslös ändring kan förstöra."
+    ]
+  },
+  {
+    "a": "oxidation",
+    "b": "reduktion",
+    "description": "Oxidation innebär att elektroner avges. Reduktion innebär att elektroner tas upp.",
+    "examples": [
+      "Oxidation och reduktion sker samtidigt i en redoxreaktion.",
+      "Ämnet genomgick oxidation, medan det andra genomgick reduktion."
+    ]
+  },
+  {
+    "a": "endotermisk",
+    "b": "exotermisk",
+    "description": "En endotermisk process tar upp värme. En exotermisk process avger värme.",
+    "examples": [
+      "Smältning är endotermisk, medan förbränning är exotermisk.",
+      "Den endotermiska reaktionen kylde omgivningen och den exoterma värmde den."
+    ]
+  },
+  {
+    "a": "devalvera",
+    "b": "revalvera",
+    "description": "Att devalvera är att sänka en valutas officiella värde. Att revalvera är att höja det.",
+    "examples": [
+      "Regeringen valde att devalvera valutan men diskuterade senare att revalvera den.",
+      "Att devalvera och att revalvera ger motsatta förändringar i växelkursen."
+    ]
+  },
+  {
+    "a": "antipati",
+    "b": "sympati",
+    "description": "Sympati är en känsla av gillande eller medkänsla. Antipati är en känsla av motvilja.",
+    "examples": [
+      "Hon kände sympati för den ena personen och antipati mot den andra.",
+      "Den första antipatin växte senare till sympati."
+    ]
+  },
+  {
+    "a": "asymmetri",
+    "b": "symmetri",
+    "description": "Symmetri betyder att delar speglar eller balanserar varandra. Asymmetri betyder att denna balans saknas.",
+    "examples": [
+      "Fjärilen visar tydlig symmetri, medan målningen bygger på asymmetri.",
+      "Arkitekten blandade symmetri med avsiktlig asymmetri."
+    ]
+  },
+  {
+    "a": "crescendo",
+    "b": "diminuendo",
+    "description": "Crescendo betyder att musiken blir starkare. Diminuendo betyder att den blir svagare.",
+    "examples": [
+      "Stycket byggs upp med ett crescendo och avslutas med ett diminuendo.",
+      "Efter ett långt crescendo följde ett snabbt diminuendo."
+    ]
+  },
+  {
+    "a": "endogen",
+    "b": "exogen",
+    "description": "Endogen betyder att något har sitt ursprung inifrån. Exogen betyder att det kommer utifrån.",
+    "examples": [
+      "Den endogena processen drivs inifrån systemet och den exogena av yttre faktorer.",
+      "Modellen skiljer mellan endogena och exogena orsaker."
+    ]
+  },
+  {
+    "a": "heterozygot",
+    "b": "homozygot",
+    "description": "Heterozygot betyder att två genvarianter är olika. Homozygot betyder att de är lika.",
+    "examples": [
+      "Individen är heterozygot för den ena genen och homozygot för den andra.",
+      "Ett heterozygot anlag har två olika alleler, medan ett homozygot har två lika."
+    ]
+  },
+  {
+    "a": "irreguljär",
+    "b": "reguljär",
+    "description": "Reguljär betyder regelbunden eller enligt reglerna. Irreguljär betyder oregelbunden eller avvikande.",
+    "examples": [
+      "Trafiken var reguljär på dagen men irreguljär på natten.",
+      "En irreguljär form ersatte den reguljära formen."
+    ]
+  },
+  {
+    "a": "glesna",
+    "b": "tätna",
+    "description": "Glesna betyder att bli mindre tät. Tätna betyder att bli tätare.",
+    "examples": [
+      "Molnen började glesna på morgonen men tätna igen på kvällen.",
+      "Skogen glesnar nära vägen och tätnar längre in."
+    ]
+  },
+  {
+    "a": "småskalig",
+    "b": "storskalig",
+    "description": "Småskalig betyder genomförd i liten omfattning. Storskalig betyder genomförd i stor omfattning.",
+    "examples": [
+      "Projektet började småskaligt och blev senare storskaligt.",
+      "Småskalig odling kräver andra metoder än storskalig odling."
+    ]
   }
 ];
 
