@@ -4765,6 +4765,12 @@ for (const pair of curatedPairs) {
 }
 
 const outputPath = path.join(process.cwd(), 'src', 'data', 'words.ts');
-fs.writeFileSync(outputPath, 'export const words = ' + JSON.stringify(words, null, 2) + ' as const;\n', 'utf-8');
+const wordEntryType = "export type WordEntry = Readonly<Record<'opposite' | 'description', string> & Record<'examples' | 'related', readonly string[]>>;\n\n";
+fs.writeFileSync(
+  outputPath,
+  wordEntryType + 'export const words: Record<string, WordEntry> = ' + JSON.stringify(words, null, 2) + ';\n',
+  'utf-8',
+);
 console.log('Generated ' + Object.keys(words).length + ' curated word pages.');
+
 
