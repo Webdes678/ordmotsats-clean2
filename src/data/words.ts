@@ -11594,6 +11594,1105 @@ export const words: Record<string, WordEntry> = {
     "related": [
       "finissage"
     ]
+  },
+  "kortsiktighet": {
+    "opposite": "långsiktighet",
+    "description": "Kortsiktighet fokuserar på det som händer snart. Långsiktighet tar hänsyn till en längre tid.",
+    "examples": [
+      "Beslutet präglades av kortsiktighet i stället för långsiktighet.",
+      "Långsiktighet kan ge bättre resultat än kortsiktighet."
+    ],
+    "related": [
+      "långsiktighet"
+    ]
+  },
+  "långsiktighet": {
+    "opposite": "kortsiktighet",
+    "description": "Kortsiktighet fokuserar på det som händer snart. Långsiktighet tar hänsyn till en längre tid.",
+    "examples": [
+      "Beslutet präglades av kortsiktighet i stället för långsiktighet.",
+      "Långsiktighet kan ge bättre resultat än kortsiktighet."
+    ],
+    "related": [
+      "kortsiktighet"
+    ]
+  },
+  "exhalera": {
+    "opposite": "inhalera",
+    "description": "Att exhalera är att andas ut. Att inhalera är att andas in.",
+    "examples": [
+      "Hon inhalerade lugnt och exhalerade långsamt.",
+      "Läkaren bad honom inhalera och sedan exhalera."
+    ],
+    "related": [
+      "inhalera"
+    ]
+  },
+  "inhalera": {
+    "opposite": "exhalera",
+    "description": "Att exhalera är att andas ut. Att inhalera är att andas in.",
+    "examples": [
+      "Hon inhalerade lugnt och exhalerade långsamt.",
+      "Läkaren bad honom inhalera och sedan exhalera."
+    ],
+    "related": [
+      "exhalera"
+    ]
+  },
+  "bibetydelse": {
+    "opposite": "grundbetydelse",
+    "description": "Grundbetydelsen är ett ords huvudsakliga betydelse. En bibetydelse är en extra eller indirekt betydelse.",
+    "examples": [
+      "Ordet har en tydlig grundbetydelse och en bildlig bibetydelse.",
+      "Ordboken skiljer mellan grundbetydelsen och ordets bibetydelse."
+    ],
+    "related": [
+      "grundbetydelse"
+    ]
+  },
+  "grundbetydelse": {
+    "opposite": "bibetydelse",
+    "description": "Grundbetydelsen är ett ords huvudsakliga betydelse. En bibetydelse är en extra eller indirekt betydelse.",
+    "examples": [
+      "Ordet har en tydlig grundbetydelse och en bildlig bibetydelse.",
+      "Ordboken skiljer mellan grundbetydelsen och ordets bibetydelse."
+    ],
+    "related": [
+      "bibetydelse"
+    ]
+  },
+  "lättlöslig": {
+    "opposite": "svårlöslig",
+    "description": "Något lättlösligt löses upp enkelt. Något svårlösligt löses upp med svårighet.",
+    "examples": [
+      "Sockret är lättlösligt, men ämnet i provröret är svårlösligt.",
+      "Ett lättlösligt pulver försvinner snabbare i vatten än ett svårlösligt."
+    ],
+    "related": [
+      "svårlöslig"
+    ]
+  },
+  "svårlöslig": {
+    "opposite": "lättlöslig",
+    "description": "Något lättlösligt löses upp enkelt. Något svårlösligt löses upp med svårighet.",
+    "examples": [
+      "Sockret är lättlösligt, men ämnet i provröret är svårlösligt.",
+      "Ett lättlösligt pulver försvinner snabbare i vatten än ett svårlösligt."
+    ],
+    "related": [
+      "lättlöslig"
+    ]
+  },
+  "anisotropi": {
+    "opposite": "isotropi",
+    "description": "Isotropi innebär samma egenskaper i alla riktningar. Anisotropi innebär att egenskaperna beror på riktningen.",
+    "examples": [
+      "Glaset visar isotropi, medan materialet bredvid visar anisotropi.",
+      "Forskaren jämförde isotropi med anisotropi i kristallen."
+    ],
+    "related": [
+      "isotropi"
+    ]
+  },
+  "isotropi": {
+    "opposite": "anisotropi",
+    "description": "Isotropi innebär samma egenskaper i alla riktningar. Anisotropi innebär att egenskaperna beror på riktningen.",
+    "examples": [
+      "Glaset visar isotropi, medan materialet bredvid visar anisotropi.",
+      "Forskaren jämförde isotropi med anisotropi i kristallen."
+    ],
+    "related": [
+      "anisotropi"
+    ]
+  },
+  "färgstark": {
+    "opposite": "färgsvag",
+    "description": "Färgstark betyder att färgerna är tydliga och intensiva. Färgsvag betyder att färgerna är svaga eller dämpade.",
+    "examples": [
+      "Affischen är färgstark, men kopian är färgsvag.",
+      "En färgstark bild syns tydligare än en färgsvag."
+    ],
+    "related": [
+      "färgsvag"
+    ]
+  },
+  "färgsvag": {
+    "opposite": "färgstark",
+    "description": "Färgstark betyder att färgerna är tydliga och intensiva. Färgsvag betyder att färgerna är svaga eller dämpade.",
+    "examples": [
+      "Affischen är färgstark, men kopian är färgsvag.",
+      "En färgstark bild syns tydligare än en färgsvag."
+    ],
+    "related": [
+      "färgstark"
+    ]
+  },
+  "likfärgad": {
+    "opposite": "olikfärgad",
+    "description": "Likfärgade saker har samma eller mycket lik färg. Olikfärgade saker har olika färger.",
+    "examples": [
+      "De likfärgade tröjorna låg bredvid de olikfärgade.",
+      "Fåglarna var likfärgade på ryggen men olikfärgade på bröstet."
+    ],
+    "related": [
+      "olikfärgad"
+    ]
+  },
+  "olikfärgad": {
+    "opposite": "likfärgad",
+    "description": "Likfärgade saker har samma eller mycket lik färg. Olikfärgade saker har olika färger.",
+    "examples": [
+      "De likfärgade tröjorna låg bredvid de olikfärgade.",
+      "Fåglarna var likfärgade på ryggen men olikfärgade på bröstet."
+    ],
+    "related": [
+      "likfärgad"
+    ]
+  },
+  "underlägsenhet": {
+    "opposite": "överlägsenhet",
+    "description": "Underlägsenhet innebär att vara sämre eller svagare i en jämförelse. Överlägsenhet innebär att vara bättre eller starkare.",
+    "examples": [
+      "Laget gick från underlägsenhet till överlägsenhet efter pausen.",
+      "Resultatet visade maskinens överlägsenhet och den äldre modellens underlägsenhet."
+    ],
+    "related": [
+      "överlägsenhet"
+    ]
+  },
+  "överlägsenhet": {
+    "opposite": "underlägsenhet",
+    "description": "Underlägsenhet innebär att vara sämre eller svagare i en jämförelse. Överlägsenhet innebär att vara bättre eller starkare.",
+    "examples": [
+      "Laget gick från underlägsenhet till överlägsenhet efter pausen.",
+      "Resultatet visade maskinens överlägsenhet och den äldre modellens underlägsenhet."
+    ],
+    "related": [
+      "underlägsenhet"
+    ]
+  },
+  "förenlighet": {
+    "opposite": "oförenlighet",
+    "description": "Förenlighet betyder att saker kan fungera tillsammans. Oförenlighet betyder att de inte kan förenas eller kombineras.",
+    "examples": [
+      "Testet visade förenlighet mellan systemen, inte oförenlighet.",
+      "Deras krav präglades av oförenlighet snarare än förenlighet."
+    ],
+    "related": [
+      "oförenlighet"
+    ]
+  },
+  "oförenlighet": {
+    "opposite": "förenlighet",
+    "description": "Förenlighet betyder att saker kan fungera tillsammans. Oförenlighet betyder att de inte kan förenas eller kombineras.",
+    "examples": [
+      "Testet visade förenlighet mellan systemen, inte oförenlighet.",
+      "Deras krav präglades av oförenlighet snarare än förenlighet."
+    ],
+    "related": [
+      "förenlighet"
+    ]
+  },
+  "flexibilitet": {
+    "opposite": "rigiditet",
+    "description": "Flexibilitet innebär att lätt kunna anpassas. Rigiditet innebär stelhet och liten möjlighet till förändring.",
+    "examples": [
+      "Planen gav flexibilitet i stället för rigiditet.",
+      "Materialets flexibilitet kontrasterar mot metallens rigiditet."
+    ],
+    "related": [
+      "rigiditet"
+    ]
+  },
+  "rigiditet": {
+    "opposite": "flexibilitet",
+    "description": "Flexibilitet innebär att lätt kunna anpassas. Rigiditet innebär stelhet och liten möjlighet till förändring.",
+    "examples": [
+      "Planen gav flexibilitet i stället för rigiditet.",
+      "Materialets flexibilitet kontrasterar mot metallens rigiditet."
+    ],
+    "related": [
+      "flexibilitet"
+    ]
+  },
+  "fullständighet": {
+    "opposite": "ofullständighet",
+    "description": "Fullständighet innebär att inget viktigt saknas. Ofullständighet innebär att något saknas.",
+    "examples": [
+      "Rapportens fullständighet uppskattades, men bilagans ofullständighet kritiserades.",
+      "Kontrollen visar om uppgifterna har fullständighet eller ofullständighet."
+    ],
+    "related": [
+      "ofullständighet"
+    ]
+  },
+  "ofullständighet": {
+    "opposite": "fullständighet",
+    "description": "Fullständighet innebär att inget viktigt saknas. Ofullständighet innebär att något saknas.",
+    "examples": [
+      "Rapportens fullständighet uppskattades, men bilagans ofullständighet kritiserades.",
+      "Kontrollen visar om uppgifterna har fullständighet eller ofullständighet."
+    ],
+    "related": [
+      "fullständighet"
+    ]
+  },
+  "ljushet": {
+    "opposite": "mörkhet",
+    "description": "Ljushet beskriver hur ljust något är. Mörkhet beskriver hur mörkt något är.",
+    "examples": [
+      "Bildens ljushet ökade och dess mörkhet minskade.",
+      "Rummet växlade mellan ljushet på dagen och mörkhet på natten."
+    ],
+    "related": [
+      "mörkhet"
+    ]
+  },
+  "mörkhet": {
+    "opposite": "ljushet",
+    "description": "Ljushet beskriver hur ljust något är. Mörkhet beskriver hur mörkt något är.",
+    "examples": [
+      "Bildens ljushet ökade och dess mörkhet minskade.",
+      "Rummet växlade mellan ljushet på dagen och mörkhet på natten."
+    ],
+    "related": [
+      "ljushet"
+    ]
+  },
+  "dödlighet": {
+    "opposite": "odödlighet",
+    "description": "Dödlighet innebär att kunna dö. Odödlighet innebär att aldrig dö.",
+    "examples": [
+      "Människans dödlighet står i kontrast till sagogudens odödlighet.",
+      "Berättelsen handlar om dödlighet och drömmen om odödlighet."
+    ],
+    "related": [
+      "odödlighet"
+    ]
+  },
+  "odödlighet": {
+    "opposite": "dödlighet",
+    "description": "Dödlighet innebär att kunna dö. Odödlighet innebär att aldrig dö.",
+    "examples": [
+      "Människans dödlighet står i kontrast till sagogudens odödlighet.",
+      "Berättelsen handlar om dödlighet och drömmen om odödlighet."
+    ],
+    "related": [
+      "dödlighet"
+    ]
+  },
+  "ditåt": {
+    "opposite": "hitåt",
+    "description": "Ditåt betyder i riktning bort mot en annan plats. Hitåt betyder i riktning mot platsen där talaren är.",
+    "examples": [
+      "Gå inte ditåt, kom hitåt.",
+      "Hon pekade först ditåt och sedan hitåt."
+    ],
+    "related": [
+      "hitåt"
+    ]
+  },
+  "hitåt": {
+    "opposite": "ditåt",
+    "description": "Ditåt betyder i riktning bort mot en annan plats. Hitåt betyder i riktning mot platsen där talaren är.",
+    "examples": [
+      "Gå inte ditåt, kom hitåt.",
+      "Hon pekade först ditåt och sedan hitåt."
+    ],
+    "related": [
+      "ditåt"
+    ]
+  },
+  "medspelare": {
+    "opposite": "motspelare",
+    "description": "En medspelare spelar i samma lag. En motspelare spelar på den andra sidan.",
+    "examples": [
+      "Hon passade sin medspelare och rundade en motspelare.",
+      "Varje medspelare hjälpte laget medan motspelarna försvarade sig."
+    ],
+    "related": [
+      "motspelare"
+    ]
+  },
+  "motspelare": {
+    "opposite": "medspelare",
+    "description": "En medspelare spelar i samma lag. En motspelare spelar på den andra sidan.",
+    "examples": [
+      "Hon passade sin medspelare och rundade en motspelare.",
+      "Varje medspelare hjälpte laget medan motspelarna försvarade sig."
+    ],
+    "related": [
+      "medspelare"
+    ]
+  },
+  "osjälviskhet": {
+    "opposite": "själviskhet",
+    "description": "Osjälviskhet innebär att tänka på andra. Själviskhet innebär att främst tänka på sig själv.",
+    "examples": [
+      "Hennes osjälviskhet uppskattades, medan hans själviskhet väckte irritation.",
+      "Att dela med sig visar osjälviskhet snarare än själviskhet."
+    ],
+    "related": [
+      "själviskhet"
+    ]
+  },
+  "själviskhet": {
+    "opposite": "osjälviskhet",
+    "description": "Osjälviskhet innebär att tänka på andra. Själviskhet innebär att främst tänka på sig själv.",
+    "examples": [
+      "Hennes osjälviskhet uppskattades, medan hans själviskhet väckte irritation.",
+      "Att dela med sig visar osjälviskhet snarare än själviskhet."
+    ],
+    "related": [
+      "osjälviskhet"
+    ]
+  },
+  "bemärkt": {
+    "opposite": "obemärkt",
+    "description": "Bemärkt betyder uppmärksammad eller framstående. Obemärkt betyder utan att bli uppmärksammad.",
+    "examples": [
+      "Den bemärkta gästen kunde inte lämna festen obemärkt.",
+      "Hon blev bemärkt för sin forskning, medan arbetet tidigare hade varit obemärkt."
+    ],
+    "related": [
+      "obemärkt"
+    ]
+  },
+  "obemärkt": {
+    "opposite": "bemärkt",
+    "description": "Bemärkt betyder uppmärksammad eller framstående. Obemärkt betyder utan att bli uppmärksammad.",
+    "examples": [
+      "Den bemärkta gästen kunde inte lämna festen obemärkt.",
+      "Hon blev bemärkt för sin forskning, medan arbetet tidigare hade varit obemärkt."
+    ],
+    "related": [
+      "bemärkt"
+    ]
+  },
+  "oöversättbar": {
+    "opposite": "översättbar",
+    "description": "Något översättbart kan återges på ett annat språk. Något oöversättbart kan inte återges fullt ut.",
+    "examples": [
+      "Den enkla meningen är översättbar, men ordleken är nästan oöversättbar.",
+      "Vissa uttryck är lätt översättbara och andra oöversättbara."
+    ],
+    "related": [
+      "översättbar"
+    ]
+  },
+  "översättbar": {
+    "opposite": "oöversättbar",
+    "description": "Något översättbart kan återges på ett annat språk. Något oöversättbart kan inte återges fullt ut.",
+    "examples": [
+      "Den enkla meningen är översättbar, men ordleken är nästan oöversättbar.",
+      "Vissa uttryck är lätt översättbara och andra oöversättbara."
+    ],
+    "related": [
+      "oöversättbar"
+    ]
+  },
+  "vanvördig": {
+    "opposite": "vördnadsfull",
+    "description": "Vanvördig betyder respektlös. Vördnadsfull betyder fylld av respekt.",
+    "examples": [
+      "Kommentaren var vanvördig, men talet var vördnadsfullt.",
+      "Han bytte från en vanvördig ton till en vördnadsfull."
+    ],
+    "related": [
+      "vördnadsfull"
+    ]
+  },
+  "vördnadsfull": {
+    "opposite": "vanvördig",
+    "description": "Vanvördig betyder respektlös. Vördnadsfull betyder fylld av respekt.",
+    "examples": [
+      "Kommentaren var vanvördig, men talet var vördnadsfullt.",
+      "Han bytte från en vanvördig ton till en vördnadsfull."
+    ],
+    "related": [
+      "vanvördig"
+    ]
+  },
+  "högerparentes": {
+    "opposite": "vänsterparentes",
+    "description": "En vänsterparentes öppnar en parentes. En högerparentes avslutar den.",
+    "examples": [
+      "Skriv en vänsterparentes före ordet och en högerparentes efter.",
+      "Varje vänsterparentes måste ha en högerparentes."
+    ],
+    "related": [
+      "vänsterparentes"
+    ]
+  },
+  "vänsterparentes": {
+    "opposite": "högerparentes",
+    "description": "En vänsterparentes öppnar en parentes. En högerparentes avslutar den.",
+    "examples": [
+      "Skriv en vänsterparentes före ordet och en högerparentes efter.",
+      "Varje vänsterparentes måste ha en högerparentes."
+    ],
+    "related": [
+      "högerparentes"
+    ]
+  },
+  "inkompressibel": {
+    "opposite": "kompressibel",
+    "description": "Ett kompressibelt ämne kan pressas ihop. Ett inkompressibelt ämne kan i praktiken inte pressas ihop.",
+    "examples": [
+      "Gas är kompressibel, medan vätskan behandlas som inkompressibel.",
+      "Modellen skiljer mellan kompressibelt och inkompressibelt flöde."
+    ],
+    "related": [
+      "kompressibel"
+    ]
+  },
+  "kompressibel": {
+    "opposite": "inkompressibel",
+    "description": "Ett kompressibelt ämne kan pressas ihop. Ett inkompressibelt ämne kan i praktiken inte pressas ihop.",
+    "examples": [
+      "Gas är kompressibel, medan vätskan behandlas som inkompressibel.",
+      "Modellen skiljer mellan kompressibelt och inkompressibelt flöde."
+    ],
+    "related": [
+      "inkompressibel"
+    ]
+  },
+  "muntligen": {
+    "opposite": "skriftligen",
+    "description": "Muntligen betyder med tal. Skriftligen betyder i skriven form.",
+    "examples": [
+      "Beskedet gavs först muntligen och sedan skriftligen.",
+      "Du kan svara muntligen eller skriftligen."
+    ],
+    "related": [
+      "skriftligen"
+    ]
+  },
+  "skriftligen": {
+    "opposite": "muntligen",
+    "description": "Muntligen betyder med tal. Skriftligen betyder i skriven form.",
+    "examples": [
+      "Beskedet gavs först muntligen och sedan skriftligen.",
+      "Du kan svara muntligen eller skriftligen."
+    ],
+    "related": [
+      "muntligen"
+    ]
+  },
+  "känsloskäl": {
+    "opposite": "sakskäl",
+    "description": "Känsloskäl bygger på känslor. Sakskäl bygger på fakta och relevanta omständigheter.",
+    "examples": [
+      "Hon skilde mellan känsloskäl och sakskäl.",
+      "Beslutet bör vila på sakskäl, inte bara känsloskäl."
+    ],
+    "related": [
+      "sakskäl"
+    ]
+  },
+  "sakskäl": {
+    "opposite": "känsloskäl",
+    "description": "Känsloskäl bygger på känslor. Sakskäl bygger på fakta och relevanta omständigheter.",
+    "examples": [
+      "Hon skilde mellan känsloskäl och sakskäl.",
+      "Beslutet bör vila på sakskäl, inte bara känsloskäl."
+    ],
+    "related": [
+      "känsloskäl"
+    ]
+  },
+  "känsloargument": {
+    "opposite": "sakargument",
+    "description": "Ett känsloargument vädjar till känslor. Ett sakargument bygger på fakta och logik.",
+    "examples": [
+      "Debatten innehöll både känsloargument och sakargument.",
+      "Ett sakargument övertygade mer än känsloargumentet."
+    ],
+    "related": [
+      "sakargument"
+    ]
+  },
+  "sakargument": {
+    "opposite": "känsloargument",
+    "description": "Ett känsloargument vädjar till känslor. Ett sakargument bygger på fakta och logik.",
+    "examples": [
+      "Debatten innehöll både känsloargument och sakargument.",
+      "Ett sakargument övertygade mer än känsloargumentet."
+    ],
+    "related": [
+      "känsloargument"
+    ]
+  },
+  "bakfot": {
+    "opposite": "framfot",
+    "description": "En framfot är den främre delen eller foten. En bakfot är den bakre.",
+    "examples": [
+      "Djuret skadade en framfot men stödde sig på sin bakfot.",
+      "Spåren från framfoten låg framför spåren från bakfoten."
+    ],
+    "related": [
+      "framfot"
+    ]
+  },
+  "framfot": {
+    "opposite": "bakfot",
+    "description": "En framfot är den främre delen eller foten. En bakfot är den bakre.",
+    "examples": [
+      "Djuret skadade en framfot men stödde sig på sin bakfot.",
+      "Spåren från framfoten låg framför spåren från bakfoten."
+    ],
+    "related": [
+      "bakfot"
+    ]
+  },
+  "imperfektiv": {
+    "opposite": "perfektiv",
+    "description": "Imperfektiv aspekt beskriver en pågående eller ofullbordad handling. Perfektiv aspekt beskriver handlingen som avslutad eller hel.",
+    "examples": [
+      "Språket skiljer mellan imperfektiv och perfektiv aspekt.",
+      "Den imperfektiva formen betonar förloppet, den perfektiva resultatet."
+    ],
+    "related": [
+      "perfektiv"
+    ]
+  },
+  "perfektiv": {
+    "opposite": "imperfektiv",
+    "description": "Imperfektiv aspekt beskriver en pågående eller ofullbordad handling. Perfektiv aspekt beskriver handlingen som avslutad eller hel.",
+    "examples": [
+      "Språket skiljer mellan imperfektiv och perfektiv aspekt.",
+      "Den imperfektiva formen betonar förloppet, den perfektiva resultatet."
+    ],
+    "related": [
+      "imperfektiv"
+    ]
+  },
+  "hjälpsamhet": {
+    "opposite": "ohjälpsamhet",
+    "description": "Hjälpsamhet innebär en vilja att hjälpa. Ohjälpsamhet innebär att inte vara till hjälp.",
+    "examples": [
+      "Personalens hjälpsamhet gjorde skillnad, men den tidigare ohjälpsamheten hade skapat problem.",
+      "Hon möttes av hjälpsamhet i stället för ohjälpsamhet."
+    ],
+    "related": [
+      "ohjälpsamhet"
+    ]
+  },
+  "ohjälpsamhet": {
+    "opposite": "hjälpsamhet",
+    "description": "Hjälpsamhet innebär en vilja att hjälpa. Ohjälpsamhet innebär att inte vara till hjälp.",
+    "examples": [
+      "Personalens hjälpsamhet gjorde skillnad, men den tidigare ohjälpsamheten hade skapat problem.",
+      "Hon möttes av hjälpsamhet i stället för ohjälpsamhet."
+    ],
+    "related": [
+      "hjälpsamhet"
+    ]
+  },
+  "arbetsförmåga": {
+    "opposite": "arbetsoförmåga",
+    "description": "Arbetsförmåga är förmågan att arbeta. Arbetsoförmåga innebär att man inte kan arbeta.",
+    "examples": [
+      "Läkaren bedömde både arbetsförmåga och arbetsoförmåga.",
+      "Efter vilan återfick han sin arbetsförmåga efter en period av arbetsoförmåga."
+    ],
+    "related": [
+      "arbetsoförmåga"
+    ]
+  },
+  "arbetsoförmåga": {
+    "opposite": "arbetsförmåga",
+    "description": "Arbetsförmåga är förmågan att arbeta. Arbetsoförmåga innebär att man inte kan arbeta.",
+    "examples": [
+      "Läkaren bedömde både arbetsförmåga och arbetsoförmåga.",
+      "Efter vilan återfick han sin arbetsförmåga efter en period av arbetsoförmåga."
+    ],
+    "related": [
+      "arbetsförmåga"
+    ]
+  },
+  "gammaltestamentlig": {
+    "opposite": "nytestamentlig",
+    "description": "Gammaltestamentlig hör till Gamla testamentet. Nytestamentlig hör till Nya testamentet.",
+    "examples": [
+      "Kursen tar upp både gammaltestamentliga och nytestamentliga texter.",
+      "Motivet har en gammaltestamentlig bakgrund och en nytestamentlig tolkning."
+    ],
+    "related": [
+      "nytestamentlig"
+    ]
+  },
+  "nytestamentlig": {
+    "opposite": "gammaltestamentlig",
+    "description": "Gammaltestamentlig hör till Gamla testamentet. Nytestamentlig hör till Nya testamentet.",
+    "examples": [
+      "Kursen tar upp både gammaltestamentliga och nytestamentliga texter.",
+      "Motivet har en gammaltestamentlig bakgrund och en nytestamentlig tolkning."
+    ],
+    "related": [
+      "gammaltestamentlig"
+    ]
+  },
+  "inpendling": {
+    "opposite": "utpendling",
+    "description": "Inpendling är resor in till en ort för arbete eller studier. Utpendling är resor från orten.",
+    "examples": [
+      "Kommunen har stor inpendling på morgonen och utpendling på kvällen.",
+      "Statistiken jämför inpendling med utpendling."
+    ],
+    "related": [
+      "utpendling"
+    ]
+  },
+  "utpendling": {
+    "opposite": "inpendling",
+    "description": "Inpendling är resor in till en ort för arbete eller studier. Utpendling är resor från orten.",
+    "examples": [
+      "Kommunen har stor inpendling på morgonen och utpendling på kvällen.",
+      "Statistiken jämför inpendling med utpendling."
+    ],
+    "related": [
+      "inpendling"
+    ]
+  },
+  "kontaktbar": {
+    "opposite": "okontaktbar",
+    "description": "Kontaktbar betyder att en person går att få kontakt med. Okontaktbar betyder att personen inte reagerar på kontaktförsök.",
+    "examples": [
+      "Patienten var först okontaktbar men blev senare kontaktbar.",
+      "Räddningspersonalen kontrollerade om personen var kontaktbar eller okontaktbar."
+    ],
+    "related": [
+      "okontaktbar"
+    ]
+  },
+  "okontaktbar": {
+    "opposite": "kontaktbar",
+    "description": "Kontaktbar betyder att en person går att få kontakt med. Okontaktbar betyder att personen inte reagerar på kontaktförsök.",
+    "examples": [
+      "Patienten var först okontaktbar men blev senare kontaktbar.",
+      "Räddningspersonalen kontrollerade om personen var kontaktbar eller okontaktbar."
+    ],
+    "related": [
+      "kontaktbar"
+    ]
+  },
+  "ingångspsalm": {
+    "opposite": "utgångspsalm",
+    "description": "En ingångspsalm sjungs i början av en gudstjänst. En utgångspsalm sjungs i slutet.",
+    "examples": [
+      "Gudstjänsten började med en ingångspsalm och slutade med en utgångspsalm.",
+      "Kören övade både ingångspsalmen och utgångspsalmen."
+    ],
+    "related": [
+      "utgångspsalm"
+    ]
+  },
+  "utgångspsalm": {
+    "opposite": "ingångspsalm",
+    "description": "En ingångspsalm sjungs i början av en gudstjänst. En utgångspsalm sjungs i slutet.",
+    "examples": [
+      "Gudstjänsten började med en ingångspsalm och slutade med en utgångspsalm.",
+      "Kören övade både ingångspsalmen och utgångspsalmen."
+    ],
+    "related": [
+      "ingångspsalm"
+    ]
+  },
+  "arvmonarki": {
+    "opposite": "valmonarki",
+    "description": "I en arvmonarki ärvs tronen. I en valmonarki utses monarken genom val.",
+    "examples": [
+      "Landet gick från valmonarki till arvmonarki.",
+      "Historikern jämförde arvmonarki med valmonarki."
+    ],
+    "related": [
+      "valmonarki"
+    ]
+  },
+  "valmonarki": {
+    "opposite": "arvmonarki",
+    "description": "I en arvmonarki ärvs tronen. I en valmonarki utses monarken genom val.",
+    "examples": [
+      "Landet gick från valmonarki till arvmonarki.",
+      "Historikern jämförde arvmonarki med valmonarki."
+    ],
+    "related": [
+      "arvmonarki"
+    ]
+  },
+  "högerparti": {
+    "opposite": "vänsterparti",
+    "description": "Ett högerparti hör till den politiska högern. Ett vänsterparti hör till den politiska vänstern.",
+    "examples": [
+      "Debatten hölls mellan ett högerparti och ett vänsterparti.",
+      "Väljaren jämförde högerpartiets förslag med vänsterpartiets."
+    ],
+    "related": [
+      "vänsterparti"
+    ]
+  },
+  "vänsterparti": {
+    "opposite": "högerparti",
+    "description": "Ett högerparti hör till den politiska högern. Ett vänsterparti hör till den politiska vänstern.",
+    "examples": [
+      "Debatten hölls mellan ett högerparti och ett vänsterparti.",
+      "Väljaren jämförde högerpartiets förslag med vänsterpartiets."
+    ],
+    "related": [
+      "högerparti"
+    ]
+  },
+  "lönesänkning": {
+    "opposite": "löneökning",
+    "description": "En lönesänkning minskar lönen. En löneökning höjer lönen.",
+    "examples": [
+      "De anställda ville ha en löneökning, inte en lönesänkning.",
+      "Avtalet gav löneökning efter en period med lönesänkning."
+    ],
+    "related": [
+      "löneökning"
+    ]
+  },
+  "löneökning": {
+    "opposite": "lönesänkning",
+    "description": "En lönesänkning minskar lönen. En löneökning höjer lönen.",
+    "examples": [
+      "De anställda ville ha en löneökning, inte en lönesänkning.",
+      "Avtalet gav löneökning efter en period med lönesänkning."
+    ],
+    "related": [
+      "lönesänkning"
+    ]
+  },
+  "blyfri": {
+    "opposite": "blyhaltig",
+    "description": "Blyfri betyder utan bly. Blyhaltig betyder att något innehåller bly.",
+    "examples": [
+      "Färgen ska vara blyfri och inte blyhaltig.",
+      "Provet visade om materialet var blyfritt eller blyhaltigt."
+    ],
+    "related": [
+      "blyhaltig"
+    ]
+  },
+  "blyhaltig": {
+    "opposite": "blyfri",
+    "description": "Blyfri betyder utan bly. Blyhaltig betyder att något innehåller bly.",
+    "examples": [
+      "Färgen ska vara blyfri och inte blyhaltig.",
+      "Provet visade om materialet var blyfritt eller blyhaltigt."
+    ],
+    "related": [
+      "blyfri"
+    ]
+  },
+  "folkminskning": {
+    "opposite": "folkökning",
+    "description": "Folkminskning innebär att befolkningen blir mindre. Folkökning innebär att den blir större.",
+    "examples": [
+      "Utflyttning gav folkminskning, medan inflyttning senare gav folkökning.",
+      "Rapporten jämför kommuner med folkökning och folkminskning."
+    ],
+    "related": [
+      "folkökning"
+    ]
+  },
+  "folkökning": {
+    "opposite": "folkminskning",
+    "description": "Folkminskning innebär att befolkningen blir mindre. Folkökning innebär att den blir större.",
+    "examples": [
+      "Utflyttning gav folkminskning, medan inflyttning senare gav folkökning.",
+      "Rapporten jämför kommuner med folkökning och folkminskning."
+    ],
+    "related": [
+      "folkminskning"
+    ]
+  },
+  "bredspårig": {
+    "opposite": "smalspårig",
+    "description": "Bredspårig beskriver en järnväg med bred spårvidd. Smalspårig beskriver en med smal spårvidd.",
+    "examples": [
+      "Den bredspåriga banan möter en smalspårig järnväg.",
+      "Museet visar både bredspåriga och smalspåriga lok."
+    ],
+    "related": [
+      "smalspårig"
+    ]
+  },
+  "smalspårig": {
+    "opposite": "bredspårig",
+    "description": "Bredspårig beskriver en järnväg med bred spårvidd. Smalspårig beskriver en med smal spårvidd.",
+    "examples": [
+      "Den bredspåriga banan möter en smalspårig järnväg.",
+      "Museet visar både bredspåriga och smalspåriga lok."
+    ],
+    "related": [
+      "bredspårig"
+    ]
+  },
+  "akterskepp": {
+    "opposite": "förskepp",
+    "description": "Förskeppet är den främre delen av ett fartyg. Akterskeppet är den bakre delen.",
+    "examples": [
+      "Besättningen arbetade både i förskeppet och i akterskeppet.",
+      "Skadan satt i förskeppet, inte i akterskeppet."
+    ],
+    "related": [
+      "förskepp"
+    ]
+  },
+  "förskepp": {
+    "opposite": "akterskepp",
+    "description": "Förskeppet är den främre delen av ett fartyg. Akterskeppet är den bakre delen.",
+    "examples": [
+      "Besättningen arbetade både i förskeppet och i akterskeppet.",
+      "Skadan satt i förskeppet, inte i akterskeppet."
+    ],
+    "related": [
+      "akterskepp"
+    ]
+  },
+  "småsyskon": {
+    "opposite": "storasyskon",
+    "description": "Ett småsyskon är yngre än personen man jämför med. Ett storasyskon är äldre.",
+    "examples": [
+      "Hon är storasyskon till sin bror och småsyskon till sin syster.",
+      "Ett storasyskon hjälpte sitt småsyskon med läxan."
+    ],
+    "related": [
+      "storasyskon"
+    ]
+  },
+  "storasyskon": {
+    "opposite": "småsyskon",
+    "description": "Ett småsyskon är yngre än personen man jämför med. Ett storasyskon är äldre.",
+    "examples": [
+      "Hon är storasyskon till sin bror och småsyskon till sin syster.",
+      "Ett storasyskon hjälpte sitt småsyskon med läxan."
+    ],
+    "related": [
+      "småsyskon"
+    ]
+  },
+  "uddamålsförlust": {
+    "opposite": "uddamålsvinst",
+    "description": "En uddamålsförlust är en förlust med ett mål. En uddamålsvinst är en seger med ett mål.",
+    "examples": [
+      "Första matchen slutade med uddamålsförlust och den andra med uddamålsvinst.",
+      "Laget vände en uddamålsförlust till en uddamålsvinst i returen."
+    ],
+    "related": [
+      "uddamålsvinst"
+    ]
+  },
+  "uddamålsvinst": {
+    "opposite": "uddamålsförlust",
+    "description": "En uddamålsförlust är en förlust med ett mål. En uddamålsvinst är en seger med ett mål.",
+    "examples": [
+      "Första matchen slutade med uddamålsförlust och den andra med uddamålsvinst.",
+      "Laget vände en uddamålsförlust till en uddamålsvinst i returen."
+    ],
+    "related": [
+      "uddamålsförlust"
+    ]
+  },
+  "dubbelradig": {
+    "opposite": "enkelradig",
+    "description": "Dubbelradig betyder ordnad i två rader. Enkelradig betyder ordnad i en rad.",
+    "examples": [
+      "Kavajen finns som dubbelradig och enkelradig.",
+      "Den dubbelradiga planteringen tar mer plats än den enkelradiga."
+    ],
+    "related": [
+      "enkelradig"
+    ]
+  },
+  "enkelradig": {
+    "opposite": "dubbelradig",
+    "description": "Dubbelradig betyder ordnad i två rader. Enkelradig betyder ordnad i en rad.",
+    "examples": [
+      "Kavajen finns som dubbelradig och enkelradig.",
+      "Den dubbelradiga planteringen tar mer plats än den enkelradiga."
+    ],
+    "related": [
+      "dubbelradig"
+    ]
+  },
+  "fertilitet": {
+    "opposite": "infertilitet",
+    "description": "Fertilitet är förmågan att få avkomma. Infertilitet innebär nedsatt eller saknad sådan förmåga.",
+    "examples": [
+      "Undersökningen gällde både fertilitet och infertilitet.",
+      "Behandlingen kan förbättra fertilitet vid vissa former av infertilitet."
+    ],
+    "related": [
+      "infertilitet"
+    ]
+  },
+  "infertilitet": {
+    "opposite": "fertilitet",
+    "description": "Fertilitet är förmågan att få avkomma. Infertilitet innebär nedsatt eller saknad sådan förmåga.",
+    "examples": [
+      "Undersökningen gällde både fertilitet och infertilitet.",
+      "Behandlingen kan förbättra fertilitet vid vissa former av infertilitet."
+    ],
+    "related": [
+      "fertilitet"
+    ]
+  },
+  "undertryck": {
+    "opposite": "övertryck",
+    "description": "Undertryck är lägre tryck än omgivningen. Övertryck är högre tryck än omgivningen.",
+    "examples": [
+      "Fläkten skapade undertryck i rummet och övertryck i kanalen.",
+      "Mätaren visar om det råder undertryck eller övertryck."
+    ],
+    "related": [
+      "övertryck"
+    ]
+  },
+  "övertryck": {
+    "opposite": "undertryck",
+    "description": "Undertryck är lägre tryck än omgivningen. Övertryck är högre tryck än omgivningen.",
+    "examples": [
+      "Fläkten skapade undertryck i rummet och övertryck i kanalen.",
+      "Mätaren visar om det råder undertryck eller övertryck."
+    ],
+    "related": [
+      "undertryck"
+    ]
+  },
+  "ditfärd": {
+    "opposite": "hitfärd",
+    "description": "Ditfärden är resan till en plats. Hitfärden är resan därifrån mot platsen där man befinner sig.",
+    "examples": [
+      "Ditfärden tog längre tid än hitfärden.",
+      "Vi planerade både ditfärd och hitfärd."
+    ],
+    "related": [
+      "hitfärd"
+    ]
+  },
+  "hitfärd": {
+    "opposite": "ditfärd",
+    "description": "Ditfärden är resan till en plats. Hitfärden är resan därifrån mot platsen där man befinner sig.",
+    "examples": [
+      "Ditfärden tog längre tid än hitfärden.",
+      "Vi planerade både ditfärd och hitfärd."
+    ],
+    "related": [
+      "ditfärd"
+    ]
+  },
+  "distansundervisning": {
+    "opposite": "närundervisning",
+    "description": "Distansundervisning sker på avstånd. Närundervisning sker med lärare och elever på samma plats.",
+    "examples": [
+      "Skolan erbjuder både distansundervisning och närundervisning.",
+      "Hon bytte från distansundervisning till närundervisning."
+    ],
+    "related": [
+      "närundervisning"
+    ]
+  },
+  "närundervisning": {
+    "opposite": "distansundervisning",
+    "description": "Distansundervisning sker på avstånd. Närundervisning sker med lärare och elever på samma plats.",
+    "examples": [
+      "Skolan erbjuder både distansundervisning och närundervisning.",
+      "Hon bytte från distansundervisning till närundervisning."
+    ],
+    "related": [
+      "distansundervisning"
+    ]
+  },
+  "nederhylla": {
+    "opposite": "överhylla",
+    "description": "En nederhylla sitter längre ner. En överhylla sitter längre upp.",
+    "examples": [
+      "Skorna står på nederhyllan och väskorna på överhyllan.",
+      "Flytta boken från överhyllan till nederhyllan."
+    ],
+    "related": [
+      "överhylla"
+    ]
+  },
+  "överhylla": {
+    "opposite": "nederhylla",
+    "description": "En nederhylla sitter längre ner. En överhylla sitter längre upp.",
+    "examples": [
+      "Skorna står på nederhyllan och väskorna på överhyllan.",
+      "Flytta boken från överhyllan till nederhyllan."
+    ],
+    "related": [
+      "nederhylla"
+    ]
+  },
+  "högervriden": {
+    "opposite": "vänstervriden",
+    "description": "Högervriden betyder vriden åt höger. Vänstervriden betyder vriden åt vänster.",
+    "examples": [
+      "Den ena spiralen är högervriden och den andra vänstervriden.",
+      "Kontrollera om gängan är höger- eller vänstervriden."
+    ],
+    "related": [
+      "vänstervriden"
+    ]
+  },
+  "vänstervriden": {
+    "opposite": "högervriden",
+    "description": "Högervriden betyder vriden åt höger. Vänstervriden betyder vriden åt vänster.",
+    "examples": [
+      "Den ena spiralen är högervriden och den andra vänstervriden.",
+      "Kontrollera om gängan är höger- eller vänstervriden."
+    ],
+    "related": [
+      "högervriden"
+    ]
+  },
+  "kreditgivare": {
+    "opposite": "kredittagare",
+    "description": "En kreditgivare lånar ut pengar eller ger kredit. En kredittagare tar emot krediten.",
+    "examples": [
+      "Banken är kreditgivare och företaget kredittagare.",
+      "Avtalet gäller mellan kreditgivaren och kredittagaren."
+    ],
+    "related": [
+      "kredittagare"
+    ]
+  },
+  "kredittagare": {
+    "opposite": "kreditgivare",
+    "description": "En kreditgivare lånar ut pengar eller ger kredit. En kredittagare tar emot krediten.",
+    "examples": [
+      "Banken är kreditgivare och företaget kredittagare.",
+      "Avtalet gäller mellan kreditgivaren och kredittagaren."
+    ],
+    "related": [
+      "kreditgivare"
+    ]
+  },
+  "dödsattest": {
+    "opposite": "födelseattest",
+    "description": "En födelseattest intygar en födelse. En dödsattest intygar ett dödsfall.",
+    "examples": [
+      "Arkivet innehåller både födelseattest och dödsattest.",
+      "Födelseattesten utfärdades i början av livet och dödsattesten i slutet."
+    ],
+    "related": [
+      "födelseattest"
+    ]
+  },
+  "födelseattest": {
+    "opposite": "dödsattest",
+    "description": "En födelseattest intygar en födelse. En dödsattest intygar ett dödsfall.",
+    "examples": [
+      "Arkivet innehåller både födelseattest och dödsattest.",
+      "Födelseattesten utfärdades i början av livet och dödsattesten i slutet."
+    ],
+    "related": [
+      "dödsattest"
+    ]
   }
 };
-
