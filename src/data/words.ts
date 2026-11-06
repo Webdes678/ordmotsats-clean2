@@ -19294,5 +19294,1105 @@ export const words: Record<string, WordEntry> = {
     "related": [
       "vägd"
     ]
+  },
+  "starta": {
+    "opposite": "stoppa",
+    "description": "Starta betyder att sätta i gång. Stoppa betyder att få något att upphöra.",
+    "examples": [
+      "Tryck på knappen för att starta och på den andra för att stoppa.",
+      "Hon startade maskinen på morgonen och stoppade den på kvällen."
+    ],
+    "related": [
+      "stoppa"
+    ]
+  },
+  "stoppa": {
+    "opposite": "starta",
+    "description": "Starta betyder att sätta i gång. Stoppa betyder att få något att upphöra.",
+    "examples": [
+      "Tryck på knappen för att starta och på den andra för att stoppa.",
+      "Hon startade maskinen på morgonen och stoppade den på kvällen."
+    ],
+    "related": [
+      "starta"
+    ]
+  },
+  "ansluta": {
+    "opposite": "frånkoppla",
+    "description": "Ansluta betyder att koppla samman. Frånkoppla betyder att bryta kopplingen.",
+    "examples": [
+      "Anslut kabeln före du frånkopplar den gamla.",
+      "Teknikern anslöt skrivaren och frånkopplade reservdelen."
+    ],
+    "related": [
+      "frånkoppla"
+    ]
+  },
+  "frånkoppla": {
+    "opposite": "ansluta",
+    "description": "Ansluta betyder att koppla samman. Frånkoppla betyder att bryta kopplingen.",
+    "examples": [
+      "Anslut kabeln före du frånkopplar den gamla.",
+      "Teknikern anslöt skrivaren och frånkopplade reservdelen."
+    ],
+    "related": [
+      "ansluta"
+    ]
+  },
+  "montera": {
+    "opposite": "demontera",
+    "description": "Montera betyder att sätta ihop. Demontera betyder att ta isär.",
+    "examples": [
+      "De monterade hyllan och demonterade den senare.",
+      "Lär dig både att montera och demontera maskinen."
+    ],
+    "related": [
+      "demontera"
+    ]
+  },
+  "demontera": {
+    "opposite": "montera",
+    "description": "Montera betyder att sätta ihop. Demontera betyder att ta isär.",
+    "examples": [
+      "De monterade hyllan och demonterade den senare.",
+      "Lär dig både att montera och demontera maskinen."
+    ],
+    "related": [
+      "montera"
+    ]
+  },
+  "låsa": {
+    "opposite": "upplåsa",
+    "description": "Låsa betyder att stänga med ett lås. Upplåsa betyder att öppna låset.",
+    "examples": [
+      "Hon låste dörren och upplåste den nästa morgon.",
+      "Nyckeln används för att låsa och upplåsa."
+    ],
+    "related": [
+      "upplåsa"
+    ]
+  },
+  "upplåsa": {
+    "opposite": "låsa",
+    "description": "Låsa betyder att stänga med ett lås. Upplåsa betyder att öppna låset.",
+    "examples": [
+      "Hon låste dörren och upplåste den nästa morgon.",
+      "Nyckeln används för att låsa och upplåsa."
+    ],
+    "related": [
+      "låsa"
+    ]
+  },
+  "aktivera": {
+    "opposite": "inaktivera",
+    "description": "Aktivera betyder att slå på en funktion. Inaktivera betyder att stänga av den.",
+    "examples": [
+      "Aktivera alarmet på kvällen och inaktivera det på morgonen.",
+      "Administratören kan aktivera eller inaktivera kontot."
+    ],
+    "related": [
+      "inaktivera"
+    ]
+  },
+  "inaktivera": {
+    "opposite": "aktivera",
+    "description": "Aktivera betyder att slå på en funktion. Inaktivera betyder att stänga av den.",
+    "examples": [
+      "Aktivera alarmet på kvällen och inaktivera det på morgonen.",
+      "Administratören kan aktivera eller inaktivera kontot."
+    ],
+    "related": [
+      "aktivera"
+    ]
+  },
+  "installera": {
+    "opposite": "avinstallera",
+    "description": "Installera betyder att lägga in och göra ett program klart. Avinstallera betyder att ta bort installationen.",
+    "examples": [
+      "Hon installerade appen och avinstallerade den senare.",
+      "Du kan installera eller avinstallera programmet i inställningarna."
+    ],
+    "related": [
+      "avinstallera"
+    ]
+  },
+  "avinstallera": {
+    "opposite": "installera",
+    "description": "Installera betyder att lägga in och göra ett program klart. Avinstallera betyder att ta bort installationen.",
+    "examples": [
+      "Hon installerade appen och avinstallerade den senare.",
+      "Du kan installera eller avinstallera programmet i inställningarna."
+    ],
+    "related": [
+      "installera"
+    ]
+  },
+  "publicera": {
+    "opposite": "avpublicera",
+    "description": "Publicera betyder att göra innehåll offentligt. Avpublicera betyder att ta bort det från offentlig visning.",
+    "examples": [
+      "Redaktören publicerade artikeln och avpublicerade den efter rättelsen.",
+      "Kontot kan publicera och avpublicera inlägg."
+    ],
+    "related": [
+      "avpublicera"
+    ]
+  },
+  "avpublicera": {
+    "opposite": "publicera",
+    "description": "Publicera betyder att göra innehåll offentligt. Avpublicera betyder att ta bort det från offentlig visning.",
+    "examples": [
+      "Redaktören publicerade artikeln och avpublicerade den efter rättelsen.",
+      "Kontot kan publicera och avpublicera inlägg."
+    ],
+    "related": [
+      "publicera"
+    ]
+  },
+  "registrera": {
+    "opposite": "avregistrera",
+    "description": "Registrera betyder att föra in i ett register. Avregistrera betyder att ta bort registreringen.",
+    "examples": [
+      "Registrera fordonet före du avregistrerar det gamla.",
+      "Hon registrerade sig för kursen och avregistrerade sig senare."
+    ],
+    "related": [
+      "avregistrera"
+    ]
+  },
+  "avregistrera": {
+    "opposite": "registrera",
+    "description": "Registrera betyder att föra in i ett register. Avregistrera betyder att ta bort registreringen.",
+    "examples": [
+      "Registrera fordonet före du avregistrerar det gamla.",
+      "Hon registrerade sig för kursen och avregistrerade sig senare."
+    ],
+    "related": [
+      "registrera"
+    ]
+  },
+  "följa": {
+    "opposite": "avfölja",
+    "description": "Följa betyder att prenumerera på någons uppdateringar. Avfölja betyder att sluta följa.",
+    "examples": [
+      "Han följde kontot men avföljde det nästa vecka.",
+      "Du kan följa eller avfölja sidan när du vill."
+    ],
+    "related": [
+      "avfölja"
+    ]
+  },
+  "avfölja": {
+    "opposite": "följa",
+    "description": "Följa betyder att prenumerera på någons uppdateringar. Avfölja betyder att sluta följa.",
+    "examples": [
+      "Han följde kontot men avföljde det nästa vecka.",
+      "Du kan följa eller avfölja sidan när du vill."
+    ],
+    "related": [
+      "följa"
+    ]
+  },
+  "prenumerera": {
+    "opposite": "avprenumerera",
+    "description": "Prenumerera betyder att anmäla sig till återkommande innehåll. Avprenumerera betyder att avsluta prenumerationen.",
+    "examples": [
+      "Hon prenumererade på brevet och avprenumererade senare.",
+      "Länken används för att prenumerera eller avprenumerera."
+    ],
+    "related": [
+      "avprenumerera"
+    ]
+  },
+  "avprenumerera": {
+    "opposite": "prenumerera",
+    "description": "Prenumerera betyder att anmäla sig till återkommande innehåll. Avprenumerera betyder att avsluta prenumerationen.",
+    "examples": [
+      "Hon prenumererade på brevet och avprenumererade senare.",
+      "Länken används för att prenumerera eller avprenumerera."
+    ],
+    "related": [
+      "prenumerera"
+    ]
+  },
+  "acceptera": {
+    "opposite": "avvisa",
+    "description": "Acceptera betyder att godta. Avvisa betyder att inte godta.",
+    "examples": [
+      "Hon accepterade det första förslaget men avvisade det andra.",
+      "Systemet kan acceptera eller avvisa ansökan."
+    ],
+    "related": [
+      "avvisa"
+    ]
+  },
+  "avvisa": {
+    "opposite": "acceptera",
+    "description": "Acceptera betyder att godta. Avvisa betyder att inte godta.",
+    "examples": [
+      "Hon accepterade det första förslaget men avvisade det andra.",
+      "Systemet kan acceptera eller avvisa ansökan."
+    ],
+    "related": [
+      "acceptera"
+    ]
+  },
+  "inkludera": {
+    "opposite": "exkludera",
+    "description": "Inkludera betyder att ta med. Exkludera betyder att lämna utanför.",
+    "examples": [
+      "Rapporten inkluderar vuxna men exkluderar barn.",
+      "Välj vilka poster du vill inkludera och exkludera."
+    ],
+    "related": [
+      "exkludera"
+    ]
+  },
+  "exkludera": {
+    "opposite": "inkludera",
+    "description": "Inkludera betyder att ta med. Exkludera betyder att lämna utanför.",
+    "examples": [
+      "Rapporten inkluderar vuxna men exkluderar barn.",
+      "Välj vilka poster du vill inkludera och exkludera."
+    ],
+    "related": [
+      "inkludera"
+    ]
+  },
+  "importera": {
+    "opposite": "exportera",
+    "description": "Importera betyder att föra in data eller varor. Exportera betyder att föra ut dem.",
+    "examples": [
+      "Programmet kan importera och exportera filer.",
+      "Landet importerar kaffe och exporterar trä."
+    ],
+    "related": [
+      "exportera"
+    ]
+  },
+  "exportera": {
+    "opposite": "importera",
+    "description": "Importera betyder att föra in data eller varor. Exportera betyder att föra ut dem.",
+    "examples": [
+      "Programmet kan importera och exportera filer.",
+      "Landet importerar kaffe och exporterar trä."
+    ],
+    "related": [
+      "importera"
+    ]
+  },
+  "ladda": {
+    "opposite": "urladda",
+    "description": "Ladda betyder att tillföra elektrisk energi. Urladda betyder att tömma den lagrade energin.",
+    "examples": [
+      "Ladda batteriet utan att urladda det helt.",
+      "Testet laddar och urladdar batteriet flera gånger."
+    ],
+    "related": [
+      "urladda"
+    ]
+  },
+  "urladda": {
+    "opposite": "ladda",
+    "description": "Ladda betyder att tillföra elektrisk energi. Urladda betyder att tömma den lagrade energin.",
+    "examples": [
+      "Ladda batteriet utan att urladda det helt.",
+      "Testet laddar och urladdar batteriet flera gånger."
+    ],
+    "related": [
+      "ladda"
+    ]
+  },
+  "kryptera": {
+    "opposite": "dekryptera",
+    "description": "Kryptera betyder att koda information så att den skyddas. Dekryptera betyder att göra den läsbar igen.",
+    "examples": [
+      "Programmet krypterar filen och dekrypterar den med rätt nyckel.",
+      "Du måste kryptera före du kan dekryptera meddelandet."
+    ],
+    "related": [
+      "dekryptera"
+    ]
+  },
+  "dekryptera": {
+    "opposite": "kryptera",
+    "description": "Kryptera betyder att koda information så att den skyddas. Dekryptera betyder att göra den läsbar igen.",
+    "examples": [
+      "Programmet krypterar filen och dekrypterar den med rätt nyckel.",
+      "Du måste kryptera före du kan dekryptera meddelandet."
+    ],
+    "related": [
+      "kryptera"
+    ]
+  },
+  "komprimera": {
+    "opposite": "dekomprimera",
+    "description": "Komprimera betyder att packa data till mindre storlek. Dekomprimera betyder att återställa den.",
+    "examples": [
+      "Komprimera mappen före du dekomprimerar den på den andra datorn.",
+      "Verktyget kan komprimera och dekomprimera filer."
+    ],
+    "related": [
+      "dekomprimera"
+    ]
+  },
+  "dekomprimera": {
+    "opposite": "komprimera",
+    "description": "Komprimera betyder att packa data till mindre storlek. Dekomprimera betyder att återställa den.",
+    "examples": [
+      "Komprimera mappen före du dekomprimerar den på den andra datorn.",
+      "Verktyget kan komprimera och dekomprimera filer."
+    ],
+    "related": [
+      "komprimera"
+    ]
+  },
+  "sortera": {
+    "opposite": "blanda",
+    "description": "Sortera betyder att ordna efter ett system. Blanda betyder att föra samman utan den ordningen.",
+    "examples": [
+      "Hon sorterade korten och blandade dem igen.",
+      "Du kan sortera listan eller blanda ordningen."
+    ],
+    "related": [
+      "blanda"
+    ]
+  },
+  "blanda": {
+    "opposite": "sortera",
+    "description": "Sortera betyder att ordna efter ett system. Blanda betyder att föra samman utan den ordningen.",
+    "examples": [
+      "Hon sorterade korten och blandade dem igen.",
+      "Du kan sortera listan eller blanda ordningen."
+    ],
+    "related": [
+      "sortera"
+    ]
+  },
+  "centralisera": {
+    "opposite": "decentralisera",
+    "description": "Centralisera betyder att samla styrning på ett ställe. Decentralisera betyder att fördela den.",
+    "examples": [
+      "Företaget centraliserade inköpen men decentraliserade besluten.",
+      "Reformen kan centralisera eller decentralisera makten."
+    ],
+    "related": [
+      "decentralisera"
+    ]
+  },
+  "decentralisera": {
+    "opposite": "centralisera",
+    "description": "Centralisera betyder att samla styrning på ett ställe. Decentralisera betyder att fördela den.",
+    "examples": [
+      "Företaget centraliserade inköpen men decentraliserade besluten.",
+      "Reformen kan centralisera eller decentralisera makten."
+    ],
+    "related": [
+      "centralisera"
+    ]
+  },
+  "nationalisera": {
+    "opposite": "privatisera",
+    "description": "Nationalisera betyder att föra över till staten. Privatisera betyder att föra över till privat ägande.",
+    "examples": [
+      "Staten nationaliserade bolaget och privatiserade det senare.",
+      "Debatten gäller om verksamheten ska nationaliseras eller privatiseras."
+    ],
+    "related": [
+      "privatisera"
+    ]
+  },
+  "privatisera": {
+    "opposite": "nationalisera",
+    "description": "Nationalisera betyder att föra över till staten. Privatisera betyder att föra över till privat ägande.",
+    "examples": [
+      "Staten nationaliserade bolaget och privatiserade det senare.",
+      "Debatten gäller om verksamheten ska nationaliseras eller privatiseras."
+    ],
+    "related": [
+      "nationalisera"
+    ]
+  },
+  "reglera": {
+    "opposite": "avreglera",
+    "description": "Reglera betyder att införa eller tillämpa regler. Avreglera betyder att ta bort reglering.",
+    "examples": [
+      "Lagen reglerar marknaden, medan reformen vill avreglera den.",
+      "Regeringen kan reglera eller avreglera verksamheten."
+    ],
+    "related": [
+      "avreglera"
+    ]
+  },
+  "avreglera": {
+    "opposite": "reglera",
+    "description": "Reglera betyder att införa eller tillämpa regler. Avreglera betyder att ta bort reglering.",
+    "examples": [
+      "Lagen reglerar marknaden, medan reformen vill avreglera den.",
+      "Regeringen kan reglera eller avreglera verksamheten."
+    ],
+    "related": [
+      "reglera"
+    ]
+  },
+  "mobilisera": {
+    "opposite": "demobilisera",
+    "description": "Mobilisera betyder att samla och göra redo. Demobilisera betyder att avveckla beredskapen.",
+    "examples": [
+      "Landet mobiliserade styrkorna och demobiliserade dem efter freden.",
+      "Planen beskriver hur man mobiliserar och demobiliserar."
+    ],
+    "related": [
+      "demobilisera"
+    ]
+  },
+  "demobilisera": {
+    "opposite": "mobilisera",
+    "description": "Mobilisera betyder att samla och göra redo. Demobilisera betyder att avveckla beredskapen.",
+    "examples": [
+      "Landet mobiliserade styrkorna och demobiliserade dem efter freden.",
+      "Planen beskriver hur man mobiliserar och demobiliserar."
+    ],
+    "related": [
+      "mobilisera"
+    ]
+  },
+  "politisera": {
+    "opposite": "avpolitisera",
+    "description": "Politisera betyder att ge något en tydligare politisk prägel. Avpolitisera betyder att minska den prägeln.",
+    "examples": [
+      "Debatten politiserade frågan, medan överenskommelsen avpolitiserade den.",
+      "Man kan politisera eller avpolitisera en myndighetsfråga."
+    ],
+    "related": [
+      "avpolitisera"
+    ]
+  },
+  "avpolitisera": {
+    "opposite": "politisera",
+    "description": "Politisera betyder att ge något en tydligare politisk prägel. Avpolitisera betyder att minska den prägeln.",
+    "examples": [
+      "Debatten politiserade frågan, medan överenskommelsen avpolitiserade den.",
+      "Man kan politisera eller avpolitisera en myndighetsfråga."
+    ],
+    "related": [
+      "politisera"
+    ]
+  },
+  "naturalisera": {
+    "opposite": "denaturalisera",
+    "description": "Naturalisera betyder att ge medborgarskap genom ett rättsligt förfarande. Denaturalisera betyder att återkalla det.",
+    "examples": [
+      "Staten naturaliserade personen men kunde senare denaturalisera honom.",
+      "Lagen anger när man får naturalisera eller denaturalisera."
+    ],
+    "related": [
+      "denaturalisera"
+    ]
+  },
+  "denaturalisera": {
+    "opposite": "naturalisera",
+    "description": "Naturalisera betyder att ge medborgarskap genom ett rättsligt förfarande. Denaturalisera betyder att återkalla det.",
+    "examples": [
+      "Staten naturaliserade personen men kunde senare denaturalisera honom.",
+      "Lagen anger när man får naturalisera eller denaturalisera."
+    ],
+    "related": [
+      "naturalisera"
+    ]
+  },
+  "skapa": {
+    "opposite": "förstöra",
+    "description": "Skapa betyder att frambringa eller bygga upp. Förstöra betyder att skada så att det upphör eller inte fungerar.",
+    "examples": [
+      "Det tar tid att skapa men kan gå snabbt att förstöra.",
+      "Hon skapade modellen och råkade förstöra kopian."
+    ],
+    "related": [
+      "förstöra"
+    ]
+  },
+  "förstöra": {
+    "opposite": "skapa",
+    "description": "Skapa betyder att frambringa eller bygga upp. Förstöra betyder att skada så att det upphör eller inte fungerar.",
+    "examples": [
+      "Det tar tid att skapa men kan gå snabbt att förstöra.",
+      "Hon skapade modellen och råkade förstöra kopian."
+    ],
+    "related": [
+      "skapa"
+    ]
+  },
+  "konstruera": {
+    "opposite": "dekonstruera",
+    "description": "Konstruera betyder att bygga upp en struktur. Dekonstruera betyder att plocka isär eller analysera strukturen.",
+    "examples": [
+      "Eleverna konstruerade texten och dekonstruerade den sedan.",
+      "Kursen lär ut att konstruera och dekonstruera argument."
+    ],
+    "related": [
+      "dekonstruera"
+    ]
+  },
+  "dekonstruera": {
+    "opposite": "konstruera",
+    "description": "Konstruera betyder att bygga upp en struktur. Dekonstruera betyder att plocka isär eller analysera strukturen.",
+    "examples": [
+      "Eleverna konstruerade texten och dekonstruerade den sedan.",
+      "Kursen lär ut att konstruera och dekonstruera argument."
+    ],
+    "related": [
+      "konstruera"
+    ]
+  },
+  "förena": {
+    "opposite": "separera",
+    "description": "Förena betyder att föra samman. Separera betyder att skilja åt.",
+    "examples": [
+      "Bron förenar öarna, medan sundet separerar dem.",
+      "Maskinen kan förena delarna och senare separera dem."
+    ],
+    "related": [
+      "separera"
+    ]
+  },
+  "separera": {
+    "opposite": "förena",
+    "description": "Förena betyder att föra samman. Separera betyder att skilja åt.",
+    "examples": [
+      "Bron förenar öarna, medan sundet separerar dem.",
+      "Maskinen kan förena delarna och senare separera dem."
+    ],
+    "related": [
+      "förena"
+    ]
+  },
+  "binda": {
+    "opposite": "lösgöra",
+    "description": "Binda betyder att fästa eller hålla fast. Lösgöra betyder att göra fri.",
+    "examples": [
+      "Repet binder lasten tills någon lösgör den.",
+      "Han band knuten och lösgjorde den senare."
+    ],
+    "related": [
+      "lösgöra"
+    ]
+  },
+  "lösgöra": {
+    "opposite": "binda",
+    "description": "Binda betyder att fästa eller hålla fast. Lösgöra betyder att göra fri.",
+    "examples": [
+      "Repet binder lasten tills någon lösgör den.",
+      "Han band knuten och lösgjorde den senare."
+    ],
+    "related": [
+      "binda"
+    ]
+  },
+  "fästa": {
+    "opposite": "lossa",
+    "description": "Fästa betyder att sätta fast. Lossa betyder att göra mindre fast eller ta bort.",
+    "examples": [
+      "Fäst skruven och lossa den vid service.",
+      "Hon fäste kroken men lossade repet."
+    ],
+    "related": [
+      "lossa"
+    ]
+  },
+  "lossa": {
+    "opposite": "fästa",
+    "description": "Fästa betyder att sätta fast. Lossa betyder att göra mindre fast eller ta bort.",
+    "examples": [
+      "Fäst skruven och lossa den vid service.",
+      "Hon fäste kroken men lossade repet."
+    ],
+    "related": [
+      "fästa"
+    ]
+  },
+  "fylla": {
+    "opposite": "tömma",
+    "description": "Fylla betyder att lägga innehåll i något. Tömma betyder att ta bort innehållet.",
+    "examples": [
+      "Fyll glaset och töm det efteråt.",
+      "Maskinen kan fylla och tömma behållaren."
+    ],
+    "related": [
+      "tömma"
+    ]
+  },
+  "tömma": {
+    "opposite": "fylla",
+    "description": "Fylla betyder att lägga innehåll i något. Tömma betyder att ta bort innehållet.",
+    "examples": [
+      "Fyll glaset och töm det efteråt.",
+      "Maskinen kan fylla och tömma behållaren."
+    ],
+    "related": [
+      "fylla"
+    ]
+  },
+  "bredda": {
+    "opposite": "smalna",
+    "description": "Bredda betyder att göra bredare. Smalna betyder att bli eller göra smalare.",
+    "examples": [
+      "De breddade vägen där den brukade smalna.",
+      "Floden breddar sig först och smalnar sedan."
+    ],
+    "related": [
+      "smalna"
+    ]
+  },
+  "smalna": {
+    "opposite": "bredda",
+    "description": "Bredda betyder att göra bredare. Smalna betyder att bli eller göra smalare.",
+    "examples": [
+      "De breddade vägen där den brukade smalna.",
+      "Floden breddar sig först och smalnar sedan."
+    ],
+    "related": [
+      "bredda"
+    ]
+  },
+  "förlänga": {
+    "opposite": "förkorta",
+    "description": "Förlänga betyder att göra längre. Förkorta betyder att göra kortare.",
+    "examples": [
+      "Hon förlängde ärmen och förkortade byxan.",
+      "Tiden kan förlängas eller förkortas."
+    ],
+    "related": [
+      "förkorta"
+    ]
+  },
+  "förkorta": {
+    "opposite": "förlänga",
+    "description": "Förlänga betyder att göra längre. Förkorta betyder att göra kortare.",
+    "examples": [
+      "Hon förlängde ärmen och förkortade byxan.",
+      "Tiden kan förlängas eller förkortas."
+    ],
+    "related": [
+      "förlänga"
+    ]
+  },
+  "mjukna": {
+    "opposite": "hårdna",
+    "description": "Mjukna betyder att bli mjukare. Hårdna betyder att bli hårdare.",
+    "examples": [
+      "Smöret mjuknar i värme, medan limmet hårdnar.",
+      "Materialet kan mjukna och sedan hårdna."
+    ],
+    "related": [
+      "hårdna"
+    ]
+  },
+  "hårdna": {
+    "opposite": "mjukna",
+    "description": "Mjukna betyder att bli mjukare. Hårdna betyder att bli hårdare.",
+    "examples": [
+      "Smöret mjuknar i värme, medan limmet hårdnar.",
+      "Materialet kan mjukna och sedan hårdna."
+    ],
+    "related": [
+      "mjukna"
+    ]
+  },
+  "värma": {
+    "opposite": "kyla",
+    "description": "Värma betyder att göra varmare. Kyla betyder att göra kallare.",
+    "examples": [
+      "Ugnen värmer maten och kylen kyler den.",
+      "Värm soppan men kyl drycken."
+    ],
+    "related": [
+      "kyla"
+    ]
+  },
+  "kyla": {
+    "opposite": "värma",
+    "description": "Värma betyder att göra varmare. Kyla betyder att göra kallare.",
+    "examples": [
+      "Ugnen värmer maten och kylen kyler den.",
+      "Värm soppan men kyl drycken."
+    ],
+    "related": [
+      "värma"
+    ]
+  },
+  "frysa": {
+    "opposite": "tina",
+    "description": "Frysa betyder att bli eller göra fast av kyla. Tina betyder att bli mjuk eller flytande igen.",
+    "examples": [
+      "Frys bären och tina dem före användning.",
+      "Vattnet fryser på natten och tinar på dagen."
+    ],
+    "related": [
+      "tina"
+    ]
+  },
+  "tina": {
+    "opposite": "frysa",
+    "description": "Frysa betyder att bli eller göra fast av kyla. Tina betyder att bli mjuk eller flytande igen.",
+    "examples": [
+      "Frys bären och tina dem före användning.",
+      "Vattnet fryser på natten och tinar på dagen."
+    ],
+    "related": [
+      "frysa"
+    ]
+  },
+  "torka": {
+    "opposite": "fukta",
+    "description": "Torka betyder att avlägsna fukt. Fukta betyder att tillföra lite fukt.",
+    "examples": [
+      "Torka ytan före du fuktar trasan.",
+      "Vinden torkar jorden och regnet fuktar den."
+    ],
+    "related": [
+      "fukta"
+    ]
+  },
+  "fukta": {
+    "opposite": "torka",
+    "description": "Torka betyder att avlägsna fukt. Fukta betyder att tillföra lite fukt.",
+    "examples": [
+      "Torka ytan före du fuktar trasan.",
+      "Vinden torkar jorden och regnet fuktar den."
+    ],
+    "related": [
+      "torka"
+    ]
+  },
+  "rena": {
+    "opposite": "förorena",
+    "description": "Rena betyder att avlägsna föroreningar. Förorena betyder att tillföra skadliga ämnen.",
+    "examples": [
+      "Filtret renar vattnet, medan utsläppet förorenar det.",
+      "Vi ska rena luften, inte förorena den."
+    ],
+    "related": [
+      "förorena"
+    ]
+  },
+  "förorena": {
+    "opposite": "rena",
+    "description": "Rena betyder att avlägsna föroreningar. Förorena betyder att tillföra skadliga ämnen.",
+    "examples": [
+      "Filtret renar vattnet, medan utsläppet förorenar det.",
+      "Vi ska rena luften, inte förorena den."
+    ],
+    "related": [
+      "rena"
+    ]
+  },
+  "samla": {
+    "opposite": "sprida",
+    "description": "Samla betyder att föra ihop. Sprida betyder att fördela åt olika håll.",
+    "examples": [
+      "Hon samlade korten och spred dem över bordet.",
+      "Vinden sprider löven som vi nyss samlade."
+    ],
+    "related": [
+      "sprida"
+    ]
+  },
+  "sprida": {
+    "opposite": "samla",
+    "description": "Samla betyder att föra ihop. Sprida betyder att fördela åt olika håll.",
+    "examples": [
+      "Hon samlade korten och spred dem över bordet.",
+      "Vinden sprider löven som vi nyss samlade."
+    ],
+    "related": [
+      "samla"
+    ]
+  },
+  "expandera": {
+    "opposite": "krympa",
+    "description": "Expandera betyder att bli större. Krympa betyder att bli mindre.",
+    "examples": [
+      "Metallen expanderar i värme och krymper i kyla.",
+      "Företaget kan expandera eller krympa."
+    ],
+    "related": [
+      "krympa"
+    ]
+  },
+  "krympa": {
+    "opposite": "expandera",
+    "description": "Expandera betyder att bli större. Krympa betyder att bli mindre.",
+    "examples": [
+      "Metallen expanderar i värme och krymper i kyla.",
+      "Företaget kan expandera eller krympa."
+    ],
+    "related": [
+      "expandera"
+    ]
+  },
+  "sända": {
+    "opposite": "motta",
+    "description": "Sända betyder att skicka en signal eller ett meddelande. Motta betyder att ta emot det.",
+    "examples": [
+      "Antennen sänder och radion mottar signalen.",
+      "Systemet kan både sända och motta data."
+    ],
+    "related": [
+      "motta"
+    ]
+  },
+  "motta": {
+    "opposite": "sända",
+    "description": "Sända betyder att skicka en signal eller ett meddelande. Motta betyder att ta emot det.",
+    "examples": [
+      "Antennen sänder och radion mottar signalen.",
+      "Systemet kan både sända och motta data."
+    ],
+    "related": [
+      "sända"
+    ]
+  },
+  "förtydliga": {
+    "opposite": "fördunkla",
+    "description": "Förtydliga betyder att göra tydligare. Fördunkla betyder att göra svårare att förstå.",
+    "examples": [
+      "Exemplet förtydligar frågan, medan jargongen fördunklar den.",
+      "Förtydliga texten i stället för att fördunkla den."
+    ],
+    "related": [
+      "fördunkla"
+    ]
+  },
+  "fördunkla": {
+    "opposite": "förtydliga",
+    "description": "Förtydliga betyder att göra tydligare. Fördunkla betyder att göra svårare att förstå.",
+    "examples": [
+      "Exemplet förtydligar frågan, medan jargongen fördunklar den.",
+      "Förtydliga texten i stället för att fördunkla den."
+    ],
+    "related": [
+      "förtydliga"
+    ]
+  },
+  "avslöja": {
+    "opposite": "dölja",
+    "description": "Avslöja betyder att göra något känt. Dölja betyder att hålla det undan.",
+    "examples": [
+      "Rapporten avslöjar det som brevet försökte dölja.",
+      "Hon dolde svaret men avslöjade det senare."
+    ],
+    "related": [
+      "dölja"
+    ]
+  },
+  "dölja": {
+    "opposite": "avslöja",
+    "description": "Avslöja betyder att göra något känt. Dölja betyder att hålla det undan.",
+    "examples": [
+      "Rapporten avslöjar det som brevet försökte dölja.",
+      "Hon dolde svaret men avslöjade det senare."
+    ],
+    "related": [
+      "avslöja"
+    ]
+  },
+  "frige": {
+    "opposite": "fängsla",
+    "description": "Frige betyder att släppa fri. Fängsla betyder att beröva någon friheten.",
+    "examples": [
+      "Domstolen kan frige den oskyldige och fängsla den dömde.",
+      "Han fängslades först och frigavs senare."
+    ],
+    "related": [
+      "fängsla"
+    ]
+  },
+  "fängsla": {
+    "opposite": "frige",
+    "description": "Frige betyder att släppa fri. Fängsla betyder att beröva någon friheten.",
+    "examples": [
+      "Domstolen kan frige den oskyldige och fängsla den dömde.",
+      "Han fängslades först och frigavs senare."
+    ],
+    "related": [
+      "frige"
+    ]
+  },
+  "behålla": {
+    "opposite": "kassera",
+    "description": "Behålla betyder att spara och fortsätta ha. Kassera betyder att göra sig av med.",
+    "examples": [
+      "Behåll den hela delen och kassera den trasiga.",
+      "Hon behöll kvittot men kasserade förpackningen."
+    ],
+    "related": [
+      "kassera"
+    ]
+  },
+  "kassera": {
+    "opposite": "behålla",
+    "description": "Behålla betyder att spara och fortsätta ha. Kassera betyder att göra sig av med.",
+    "examples": [
+      "Behåll den hela delen och kassera den trasiga.",
+      "Hon behöll kvittot men kasserade förpackningen."
+    ],
+    "related": [
+      "behålla"
+    ]
+  },
+  "förnya": {
+    "opposite": "föråldra",
+    "description": "Förnya betyder att göra ny eller aktuell igen. Föråldra betyder att göra eller bli gammalmodig.",
+    "examples": [
+      "Uppdateringen förnyar systemet, medan brist på stöd föråldrar det.",
+      "Teknik kan snabbt förnya en tjänst och föråldra en annan."
+    ],
+    "related": [
+      "föråldra"
+    ]
+  },
+  "föråldra": {
+    "opposite": "förnya",
+    "description": "Förnya betyder att göra ny eller aktuell igen. Föråldra betyder att göra eller bli gammalmodig.",
+    "examples": [
+      "Uppdateringen förnyar systemet, medan brist på stöd föråldrar det.",
+      "Teknik kan snabbt förnya en tjänst och föråldra en annan."
+    ],
+    "related": [
+      "förnya"
+    ]
+  },
+  "överlasta": {
+    "opposite": "avlasta",
+    "description": "Överlasta betyder att belasta för mycket. Avlasta betyder att minska belastningen.",
+    "examples": [
+      "För många lådor överlastar hyllan, medan stödet avlastar den.",
+      "Avlasta motorn i stället för att överlasta den."
+    ],
+    "related": [
+      "avlasta"
+    ]
+  },
+  "avlasta": {
+    "opposite": "överlasta",
+    "description": "Överlasta betyder att belasta för mycket. Avlasta betyder att minska belastningen.",
+    "examples": [
+      "För många lådor överlastar hyllan, medan stödet avlastar den.",
+      "Avlasta motorn i stället för att överlasta den."
+    ],
+    "related": [
+      "överlasta"
+    ]
+  },
+  "uppmuntra": {
+    "opposite": "avskräcka",
+    "description": "Uppmuntra betyder att ge mod eller vilja. Avskräcka betyder att få någon att avstå.",
+    "examples": [
+      "Beröm kan uppmuntra, medan hot kan avskräcka.",
+      "Skylten uppmuntrar cykling och avskräcker bilkörning."
+    ],
+    "related": [
+      "avskräcka"
+    ]
+  },
+  "avskräcka": {
+    "opposite": "uppmuntra",
+    "description": "Uppmuntra betyder att ge mod eller vilja. Avskräcka betyder att få någon att avstå.",
+    "examples": [
+      "Beröm kan uppmuntra, medan hot kan avskräcka.",
+      "Skylten uppmuntrar cykling och avskräcker bilkörning."
+    ],
+    "related": [
+      "uppmuntra"
+    ]
+  },
+  "införa": {
+    "opposite": "avskaffa",
+    "description": "Införa betyder att börja använda en regel eller ordning. Avskaffa betyder att ta bort den.",
+    "examples": [
+      "Kommunen införde avgiften och avskaffade den senare.",
+      "Förslaget vill införa en rättighet och avskaffa ett hinder."
+    ],
+    "related": [
+      "avskaffa"
+    ]
+  },
+  "avskaffa": {
+    "opposite": "införa",
+    "description": "Införa betyder att börja använda en regel eller ordning. Avskaffa betyder att ta bort den.",
+    "examples": [
+      "Kommunen införde avgiften och avskaffade den senare.",
+      "Förslaget vill införa en rättighet och avskaffa ett hinder."
+    ],
+    "related": [
+      "införa"
+    ]
+  },
+  "stabilisera": {
+    "opposite": "destabilisera",
+    "description": "Stabilisera betyder att göra stabilare. Destabilisera betyder att göra mindre stabil.",
+    "examples": [
+      "Stödet stabiliserar konstruktionen, medan skadan destabiliserar den.",
+      "Åtgärden ska stabilisera läget, inte destabilisera det."
+    ],
+    "related": [
+      "destabilisera"
+    ]
+  },
+  "destabilisera": {
+    "opposite": "stabilisera",
+    "description": "Stabilisera betyder att göra stabilare. Destabilisera betyder att göra mindre stabil.",
+    "examples": [
+      "Stödet stabiliserar konstruktionen, medan skadan destabiliserar den.",
+      "Åtgärden ska stabilisera läget, inte destabilisera det."
+    ],
+    "related": [
+      "stabilisera"
+    ]
+  },
+  "täcka": {
+    "opposite": "avtäcka",
+    "description": "Täcka betyder att lägga något över. Avtäcka betyder att ta bort täckningen.",
+    "examples": [
+      "Täcket täcker lådan tills vi avtäcker den.",
+      "De täckte målningen och avtäckte den vid invigningen."
+    ],
+    "related": [
+      "avtäcka"
+    ]
+  },
+  "avtäcka": {
+    "opposite": "täcka",
+    "description": "Täcka betyder att lägga något över. Avtäcka betyder att ta bort täckningen.",
+    "examples": [
+      "Täcket täcker lådan tills vi avtäcker den.",
+      "De täckte målningen och avtäckte den vid invigningen."
+    ],
+    "related": [
+      "täcka"
+    ]
+  },
+  "spänna": {
+    "opposite": "avspänna",
+    "description": "Spänna betyder att göra stram eller spänd. Avspänna betyder att minska spänningen.",
+    "examples": [
+      "Spänn repet och avspänn det efter användning.",
+      "Övningen spänner muskeln och hjälper sedan till att avspänna den."
+    ],
+    "related": [
+      "avspänna"
+    ]
+  },
+  "avspänna": {
+    "opposite": "spänna",
+    "description": "Spänna betyder att göra stram eller spänd. Avspänna betyder att minska spänningen.",
+    "examples": [
+      "Spänn repet och avspänn det efter användning.",
+      "Övningen spänner muskeln och hjälper sedan till att avspänna den."
+    ],
+    "related": [
+      "spänna"
+    ]
   }
 };
