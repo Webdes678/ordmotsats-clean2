@@ -5645,6 +5645,456 @@ const curatedPairs = [
       "Nämnden prövade åtgärdens tillåtlighet eller otillåtlighet.",
       "Regeln klargör både tillåtlighet och otillåtlighet."
     ]
+  },
+  {
+    "a": "köldgrad",
+    "b": "värmegrad",
+    "description": "En köldgrad är en grad under noll. En värmegrad är en grad över noll.",
+    "examples": [
+      "På morgonen var det fem köldgrader och på dagen två värmegrader.",
+      "Termometern gick från köldgrader till värmegrader."
+    ]
+  },
+  {
+    "a": "otämjbarhet",
+    "b": "tämjbarhet",
+    "description": "Tämjbarhet innebär att något kan tämjas. Otämjbarhet innebär att det inte kan tämjas.",
+    "examples": [
+      "Djurets tämjbarhet överraskade efter talet om dess otämjbarhet.",
+      "Studien jämför artens tämjbarhet och otämjbarhet."
+    ]
+  },
+  {
+    "a": "overkställbarhet",
+    "b": "verkställbarhet",
+    "description": "Verkställbarhet innebär att ett beslut kan genomföras. Overkställbarhet innebär att det inte kan genomföras.",
+    "examples": [
+      "Domstolen bedömde beslutets verkställbarhet eller overkställbarhet.",
+      "Felet ledde till overkställbarhet, men rättelsen gav verkställbarhet."
+    ]
+  },
+  {
+    "a": "kroppslighet",
+    "b": "okroppslighet",
+    "description": "Kroppslighet innebär att ha fysisk form. Okroppslighet innebär att sakna fysisk kropp.",
+    "examples": [
+      "Skulpturen uttrycker kroppslighet, medan anden symboliserar okroppslighet.",
+      "Filosofen diskuterade kroppslighet och okroppslighet."
+    ]
+  },
+  {
+    "a": "bestämbar",
+    "b": "obestämbar",
+    "description": "Bestämbar betyder möjlig att fastställa. Obestämbar betyder att den inte kan fastställas.",
+    "examples": [
+      "Värdet är bestämbart, men den andra storheten är obestämbar.",
+      "Testet visar om mängden är bestämbar eller obestämbar."
+    ]
+  },
+  {
+    "a": "dragfri",
+    "b": "dragig",
+    "description": "Dragfri betyder utan besvärande luftdrag. Dragig betyder att det drar kall luft.",
+    "examples": [
+      "Det nya rummet är dragfritt, men det gamla är dragigt.",
+      "Tätningslisten gjorde fönstret dragfritt i stället för dragigt."
+    ]
+  },
+  {
+    "a": "klangfull",
+    "b": "klanglös",
+    "description": "Klangfull betyder rik på tydlig klang. Klanglös betyder utan tydlig klang.",
+    "examples": [
+      "Klockan gav en klangfull ton, medan slaget mot träet var klanglöst.",
+      "Rösten lät klangfull i salen men klanglös i det dämpade rummet."
+    ]
+  },
+  {
+    "a": "osmältbar",
+    "b": "smältbar",
+    "description": "Smältbar betyder möjlig att smälta. Osmältbar betyder att den inte kan smälta under de aktuella villkoren.",
+    "examples": [
+      "Vaxet är smältbart, men materialet bredvid är osmältbart.",
+      "Provet visar om ämnet är smältbart eller osmältbart."
+    ]
+  },
+  {
+    "a": "finkalibrig",
+    "b": "grovkalibrig",
+    "description": "Finkalibrig betyder att ha liten kaliber. Grovkalibrig betyder att ha stor kaliber.",
+    "examples": [
+      "Den finkalibriga utrustningen låg bredvid den grovkalibriga.",
+      "Texten skiljer mellan finkalibriga och grovkalibriga vapen."
+    ]
+  },
+  {
+    "a": "oöverskådlighet",
+    "b": "överskådlighet",
+    "description": "Överskådlighet innebär att något är lätt att få överblick över. Oöverskådlighet innebär att det är svårt.",
+    "examples": [
+      "Tabellens överskådlighet hjälpte, medan rådatans oöverskådlighet försvårade arbetet.",
+      "En tydlig struktur ger överskådlighet i stället för oöverskådlighet."
+    ]
+  },
+  {
+    "a": "avpolitisering",
+    "b": "politisering",
+    "description": "Politisering gör en fråga mer politisk. Avpolitisering minskar dess politiska prägel.",
+    "examples": [
+      "Frågan gick från avpolitisering till politisering.",
+      "Debatten gäller politisering eller avpolitisering av myndigheten."
+    ]
+  },
+  {
+    "a": "oåtkomlighet",
+    "b": "åtkomlighet",
+    "description": "Åtkomlighet innebär att något går att nå. Oåtkomlighet innebär att det inte går att nå.",
+    "examples": [
+      "Rampens åtkomlighet kontrasterade mot trappans oåtkomlighet.",
+      "Felet skapade oåtkomlighet, men reparationen återställde åtkomlighet."
+    ]
+  },
+  {
+    "a": "enstavighet",
+    "b": "flerstavighet",
+    "description": "Enstavighet innebär att ett ord har en stavelse. Flerstavighet innebär att det har flera.",
+    "examples": [
+      "Ordet visar enstavighet, medan det längre ordet visar flerstavighet.",
+      "Övningen jämför enstavighet med flerstavighet."
+    ]
+  },
+  {
+    "a": "förklarlighet",
+    "b": "oförklarlighet",
+    "description": "Förklarlighet innebär att något går att förklara. Oförklarlighet innebär att en tydlig förklaring saknas.",
+    "examples": [
+      "Modellen gav händelsen förklarlighet i stället för oförklarlighet.",
+      "Forskaren diskuterade resultatets förklarlighet och oförklarlighet."
+    ]
+  },
+  {
+    "a": "antastbar",
+    "b": "oantastbar",
+    "description": "Antastbar betyder möjlig att angripa eller ifrågasätta. Oantastbar betyder skyddad från sådana angrepp.",
+    "examples": [
+      "Argumentet var antastbart, men slutsatsen framställdes som oantastbar.",
+      "Granskningen visar om beslutet är antastbart eller oantastbart."
+    ]
+  },
+  {
+    "a": "fullgången",
+    "b": "ofullgången",
+    "description": "Fullgången betyder utvecklad under hela den normala tiden. Ofullgången betyder född eller avslutad för tidigt.",
+    "examples": [
+      "Det ena barnet var fullgånget och det andra ofullgånget.",
+      "Vården skiljer mellan fullgångna och ofullgångna nyfödda."
+    ]
+  },
+  {
+    "a": "korthylsa",
+    "b": "långhylsa",
+    "description": "En korthylsa är en kort patronhylsa. En långhylsa är en längre hylsa.",
+    "examples": [
+      "Samlingen innehåller både korthylsa och långhylsa.",
+      "Mätningen avgör om det är en korthylsa eller långhylsa."
+    ]
+  },
+  {
+    "a": "temperaturhöjning",
+    "b": "temperatursänkning",
+    "description": "En temperaturhöjning gör temperaturen högre. En temperatursänkning gör den lägre.",
+    "examples": [
+      "Dagen gav en temperaturhöjning och natten en temperatursänkning.",
+      "Systemet kan skapa både temperaturhöjning och temperatursänkning."
+    ]
+  },
+  {
+    "a": "reallönehöjning",
+    "b": "reallönesänkning",
+    "description": "En reallönehöjning ökar lönens köpkraft. En reallönesänkning minskar den.",
+    "examples": [
+      "Låg inflation gav reallönehöjning i stället för reallönesänkning.",
+      "Rapporten jämför reallönehöjning med reallönesänkning."
+    ]
+  },
+  {
+    "a": "sittplatsläktare",
+    "b": "ståplatsläktare",
+    "description": "En sittplatsläktare har sittplatser. En ståplatsläktare är avsedd för stående publik.",
+    "examples": [
+      "Familjen valde sittplatsläktaren, medan klacken stod på ståplatsläktaren.",
+      "Arenan har både sittplatsläktare och ståplatsläktare."
+    ]
+  },
+  {
+    "a": "utsläppsminskning",
+    "b": "utsläppsökning",
+    "description": "En utsläppsminskning gör utsläppen mindre. En utsläppsökning gör dem större.",
+    "examples": [
+      "Åtgärden gav utsläppsminskning i stället för utsläppsökning.",
+      "Diagrammet visar först utsläppsökning och sedan utsläppsminskning."
+    ]
+  },
+  {
+    "a": "kortskallig",
+    "b": "långskallig",
+    "description": "Kortskallig beskriver en relativt kort och bred skalle. Långskallig beskriver en relativt lång och smal skalle.",
+    "examples": [
+      "Äldre facktexter skiljer mellan kortskallig och långskallig form.",
+      "Måttet användes för att beskriva formen som kortskallig eller långskallig."
+    ]
+  },
+  {
+    "a": "kulturlandskap",
+    "b": "naturlandskap",
+    "description": "Ett kulturlandskap är tydligt påverkat av människor. Ett naturlandskap är i liten grad påverkat.",
+    "examples": [
+      "Åkermarken är kulturlandskap, medan vildmarken är naturlandskap.",
+      "Vandringen går från kulturlandskap till naturlandskap."
+    ]
+  },
+  {
+    "a": "kostnadsminskning",
+    "b": "kostnadsökning",
+    "description": "En kostnadsminskning gör kostnaden lägre. En kostnadsökning gör den högre.",
+    "examples": [
+      "Effektiviseringen gav kostnadsminskning i stället för kostnadsökning.",
+      "Budgeten visar både kostnadsökning och kostnadsminskning."
+    ]
+  },
+  {
+    "a": "maximistraff",
+    "b": "minimistraff",
+    "description": "Minimistraff är det lägsta föreskrivna straffet. Maximistraff är det högsta.",
+    "examples": [
+      "Lagen anger både minimistraff och maximistraff.",
+      "Domaren höll sig över minimistraffet och under maximistraffet."
+    ]
+  },
+  {
+    "a": "gruppspelsmatch",
+    "b": "slutspelsmatch",
+    "description": "En gruppspelsmatch spelas i gruppspelet. En slutspelsmatch spelas efter gruppspelet för avancemang eller titel.",
+    "examples": [
+      "Laget vann sin gruppspelsmatch och gick vidare till en slutspelsmatch.",
+      "Trycket var större i slutspelsmatchen än i gruppspelsmatchen."
+    ]
+  },
+  {
+    "a": "träningsmatch",
+    "b": "tävlingsmatch",
+    "description": "En träningsmatch spelas som förberedelse. En tävlingsmatch ingår i en officiell tävling.",
+    "examples": [
+      "Klubben spelade en träningsmatch före årets första tävlingsmatch.",
+      "Resultatet betyder mindre i en träningsmatch än i en tävlingsmatch."
+    ]
+  },
+  {
+    "a": "lokalförening",
+    "b": "riksförening",
+    "description": "En lokalförening verkar inom ett mindre område. En riksförening verkar i hela landet.",
+    "examples": [
+      "Lokalföreningen är ansluten till en riksförening.",
+      "Frågan behandlades först av lokalföreningen och sedan av riksföreningen."
+    ]
+  },
+  {
+    "a": "inomhusmästerskap",
+    "b": "utomhusmästerskap",
+    "description": "Ett inomhusmästerskap hålls inne. Ett utomhusmästerskap hålls ute.",
+    "examples": [
+      "Hon vann inomhusmästerskapet och deltog senare i utomhusmästerskapet.",
+      "Grenen finns i både inomhusmästerskap och utomhusmästerskap."
+    ]
+  },
+  {
+    "a": "höglöneland",
+    "b": "låglöneland",
+    "description": "Ett höglöneland har relativt höga löner. Ett låglöneland har relativt låga löner.",
+    "examples": [
+      "Företaget säljer i både höglöneländer och låglöneländer.",
+      "Kostnaden skiljer sig mellan ett höglöneland och ett låglöneland."
+    ]
+  },
+  {
+    "a": "eldgivningsorder",
+    "b": "eldupphörorder",
+    "description": "En eldgivningsorder beordrar att eld ska öppnas. En eldupphörorder beordrar att elden ska upphöra.",
+    "examples": [
+      "Eldgivningsordern ersattes snabbt av en eldupphörorder.",
+      "Soldaterna måste skilja på eldgivningsorder och eldupphörorder."
+    ]
+  },
+  {
+    "a": "inrikesreporter",
+    "b": "utrikesreporter",
+    "description": "En inrikesreporter bevakar händelser inom landet. En utrikesreporter bevakar andra länder.",
+    "examples": [
+      "Inrikesreportern skrev om valet och utrikesreportern om krisen utomlands.",
+      "Redaktionen sökte både inrikesreporter och utrikesreporter."
+    ]
+  },
+  {
+    "a": "avtrappa",
+    "b": "upptrappa",
+    "description": "Att avtrappa är att minska styrka eller konflikt. Att upptrappa är att öka den.",
+    "examples": [
+      "Parterna valde att avtrappa konflikten i stället för att upptrappa den.",
+      "Ett hårt svar kan upptrappa läget, medan samtal kan avtrappa det."
+    ]
+  },
+  {
+    "a": "inomhusarena",
+    "b": "utomhusarena",
+    "description": "En inomhusarena ligger under tak. En utomhusarena ligger ute.",
+    "examples": [
+      "Vintertävlingen hölls i en inomhusarena och sommartävlingen på en utomhusarena.",
+      "Staden har både inomhusarena och utomhusarena."
+    ]
+  },
+  {
+    "a": "utgiftsminskning",
+    "b": "utgiftsökning",
+    "description": "En utgiftsminskning gör utgifterna mindre. En utgiftsökning gör dem större.",
+    "examples": [
+      "Sparandet gav utgiftsminskning i stället för utgiftsökning.",
+      "Planen visar en utgiftsökning i år och en utgiftsminskning nästa år."
+    ]
+  },
+  {
+    "a": "kursslut",
+    "b": "kursstart",
+    "description": "Kursstart är när en kurs börjar. Kursslut är när den slutar.",
+    "examples": [
+      "Information ges vid kursstart och intyg vid kursslut.",
+      "Tiden mellan kursstart och kursslut är tio veckor."
+    ]
+  },
+  {
+    "a": "grundlagsenlig",
+    "b": "grundlagsvidrig",
+    "description": "Grundlagsenlig betyder förenlig med grundlagen. Grundlagsvidrig betyder att strida mot den.",
+    "examples": [
+      "Domstolen prövar om lagen är grundlagsenlig eller grundlagsvidrig.",
+      "Förslaget ändrades från grundlagsvidrigt till grundlagsenligt."
+    ]
+  },
+  {
+    "a": "egennyttig",
+    "b": "oegennyttig",
+    "description": "Egennyttig betyder styrd av egen vinning. Oegennyttig betyder utan tanke på egen vinning.",
+    "examples": [
+      "Handlingen verkade oegennyttig, inte egennyttig.",
+      "En egennyttig lösning gynnar en själv, en oegennyttig hjälper andra."
+    ]
+  },
+  {
+    "a": "ouppsägbar",
+    "b": "uppsägbar",
+    "description": "Uppsägbar betyder att ett avtal kan sägas upp. Ouppsägbar betyder att det inte kan sägas upp under den aktuella tiden.",
+    "examples": [
+      "Det ena avtalet är uppsägbart och det andra ouppsägbart.",
+      "Kontrollera om bindningstiden gör tjänsten ouppsägbar eller uppsägbar."
+    ]
+  },
+  {
+    "a": "oöverblickbar",
+    "b": "överblickbar",
+    "description": "Överblickbar betyder lätt att få en helhetsbild av. Oöverblickbar betyder svår att överblicka.",
+    "examples": [
+      "Den korta listan är överblickbar, men hela materialet är oöverblickbart.",
+      "En sammanfattning gjorde problemet överblickbart i stället för oöverblickbart."
+    ]
+  },
+  {
+    "a": "ljusklädd",
+    "b": "mörkklädd",
+    "description": "Ljusklädd betyder klädd i ljusa färger. Mörkklädd betyder klädd i mörka färger.",
+    "examples": [
+      "Den ljusklädda personen stod bredvid den mörkklädda.",
+      "På bilden syns både ljusklädda och mörkklädda gäster."
+    ]
+  },
+  {
+    "a": "månnedgång",
+    "b": "månuppgång",
+    "description": "Månuppgång är när månen stiger över horisonten. Månnedgång är när den sjunker under den.",
+    "examples": [
+      "Vi såg månuppgång på kvällen och månnedgång på morgonen.",
+      "Tiden för månuppgång och månnedgång står i kalendern."
+    ]
+  },
+  {
+    "a": "ourskiljbar",
+    "b": "urskiljbar",
+    "description": "Urskiljbar betyder möjlig att uppfatta eller skilja ut. Ourskiljbar betyder att den inte går att urskilja.",
+    "examples": [
+      "Detaljen är urskiljbar nära håll men ourskiljbar på avstånd.",
+      "Ljudet gick från ourskiljbart till tydligt urskiljbart."
+    ]
+  },
+  {
+    "a": "inomhusaktivitet",
+    "b": "utomhusaktivitet",
+    "description": "En inomhusaktivitet sker inne. En utomhusaktivitet sker ute.",
+    "examples": [
+      "Simhallen ger en inomhusaktivitet och vandringen en utomhusaktivitet.",
+      "Programmet innehåller både inomhusaktiviteter och utomhusaktiviteter."
+    ]
+  },
+  {
+    "a": "underdomstol",
+    "b": "överdomstol",
+    "description": "En underdomstol dömer på en lägre nivå. En överdomstol prövar mål på en högre nivå.",
+    "examples": [
+      "Målet började i underdomstolen och överklagades till överdomstolen.",
+      "Överdomstolen ändrade underdomstolens beslut."
+    ]
+  },
+  {
+    "a": "denaturalisering",
+    "b": "naturalisering",
+    "description": "Naturalisering ger en person medborgarskap efter ansökan. Denaturalisering innebär att medborgarskapet tas ifrån personen.",
+    "examples": [
+      "Lagen reglerar både naturalisering och denaturalisering.",
+      "Efter naturalisering blev han medborgare, medan denaturalisering skulle upphäva det."
+    ]
+  },
+  {
+    "a": "korkning",
+    "b": "uppkorkning",
+    "description": "Korkning är att sätta i en kork. Uppkorkning är att ta ur korken.",
+    "examples": [
+      "Flaskan fick korkning på fabriken och uppkorkning vid bordet.",
+      "Verktyget används för både korkning och uppkorkning."
+    ]
+  },
+  {
+    "a": "kortdistansare",
+    "b": "långdistansare",
+    "description": "En kortdistansare tävlar på korta sträckor. En långdistansare tävlar på långa.",
+    "examples": [
+      "Kortdistansaren tränade snabbhet och långdistansaren uthållighet.",
+      "Klubben har både kortdistansare och långdistansare."
+    ]
+  },
+  {
+    "a": "havslax",
+    "b": "insjölax",
+    "description": "Havslax lever eller vandrar i havet. Insjölax lever i stora insjöar.",
+    "examples": [
+      "Studien jämför havslax med insjölax.",
+      "Havslaxen fångades vid kusten och insjölaxen i sjön."
+    ]
+  },
+  {
+    "a": "gömfröig",
+    "b": "nakenfröig",
+    "description": "Gömfröiga växter har frön inneslutna i fruktämnet. Nakenfröiga växter har frön som inte är inneslutna där.",
+    "examples": [
+      "Äppelträdet är gömfröigt och tallen nakenfröig.",
+      "Botaniken skiljer mellan gömfröiga och nakenfröiga växter."
+    ]
   }
 ];
 
