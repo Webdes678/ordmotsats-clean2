@@ -12694,5 +12694,1105 @@ export const words: Record<string, WordEntry> = {
     "related": [
       "dödsattest"
     ]
+  },
+  "högoddsare": {
+    "opposite": "lågoddsare",
+    "description": "En högoddsare bedöms ha liten chans att vinna och ger högt odds. En lågoddsare bedöms ha stor chans och ger lågt odds.",
+    "examples": [
+      "Favoriten var lågoddsare, medan utmanaren var högoddsare.",
+      "En högoddsare kan ge större vinst än en lågoddsare."
+    ],
+    "related": [
+      "lågoddsare"
+    ]
+  },
+  "lågoddsare": {
+    "opposite": "högoddsare",
+    "description": "En högoddsare bedöms ha liten chans att vinna och ger högt odds. En lågoddsare bedöms ha stor chans och ger lågt odds.",
+    "examples": [
+      "Favoriten var lågoddsare, medan utmanaren var högoddsare.",
+      "En högoddsare kan ge större vinst än en lågoddsare."
+    ],
+    "related": [
+      "högoddsare"
+    ]
+  },
+  "anfallskrig": {
+    "opposite": "försvarskrig",
+    "description": "Ett anfallskrig inleds för att angripa. Ett försvarskrig förs för att försvara sig mot ett angrepp.",
+    "examples": [
+      "Historikern skilde mellan anfallskrig och försvarskrig.",
+      "Landet beskrev striden som ett försvarskrig, inte ett anfallskrig."
+    ],
+    "related": [
+      "försvarskrig"
+    ]
+  },
+  "försvarskrig": {
+    "opposite": "anfallskrig",
+    "description": "Ett anfallskrig inleds för att angripa. Ett försvarskrig förs för att försvara sig mot ett angrepp.",
+    "examples": [
+      "Historikern skilde mellan anfallskrig och försvarskrig.",
+      "Landet beskrev striden som ett försvarskrig, inte ett anfallskrig."
+    ],
+    "related": [
+      "anfallskrig"
+    ]
+  },
+  "inbuktning": {
+    "opposite": "utbuktning",
+    "description": "En inbuktning går inåt. En utbuktning buktar utåt.",
+    "examples": [
+      "Plåten hade en inbuktning på ena sidan och en utbuktning på den andra.",
+      "Mätningen visar både inbuktning och utbuktning."
+    ],
+    "related": [
+      "utbuktning"
+    ]
+  },
+  "utbuktning": {
+    "opposite": "inbuktning",
+    "description": "En inbuktning går inåt. En utbuktning buktar utåt.",
+    "examples": [
+      "Plåten hade en inbuktning på ena sidan och en utbuktning på den andra.",
+      "Mätningen visar både inbuktning och utbuktning."
+    ],
+    "related": [
+      "inbuktning"
+    ]
+  },
+  "underhus": {
+    "opposite": "överhus",
+    "description": "I ett tvåkammarparlament är underhuset den lägre kammaren och överhuset den högre.",
+    "examples": [
+      "Förslaget antogs av underhuset men stoppades i överhuset.",
+      "Både underhus och överhus röstade om lagen."
+    ],
+    "related": [
+      "överhus"
+    ]
+  },
+  "överhus": {
+    "opposite": "underhus",
+    "description": "I ett tvåkammarparlament är underhuset den lägre kammaren och överhuset den högre.",
+    "examples": [
+      "Förslaget antogs av underhuset men stoppades i överhuset.",
+      "Både underhus och överhus röstade om lagen."
+    ],
+    "related": [
+      "underhus"
+    ]
+  },
+  "inomhusväxt": {
+    "opposite": "utomhusväxt",
+    "description": "En inomhusväxt odlas främst inne. En utomhusväxt odlas främst ute.",
+    "examples": [
+      "Orkidén är en inomhusväxt och lavendeln en utomhusväxt.",
+      "Kontrollera om plantan är inomhusväxt eller utomhusväxt."
+    ],
+    "related": [
+      "utomhusväxt"
+    ]
+  },
+  "utomhusväxt": {
+    "opposite": "inomhusväxt",
+    "description": "En inomhusväxt odlas främst inne. En utomhusväxt odlas främst ute.",
+    "examples": [
+      "Orkidén är en inomhusväxt och lavendeln en utomhusväxt.",
+      "Kontrollera om plantan är inomhusväxt eller utomhusväxt."
+    ],
+    "related": [
+      "inomhusväxt"
+    ]
+  },
+  "högtrycksområde": {
+    "opposite": "lågtrycksområde",
+    "description": "Ett högtrycksområde har högre lufttryck än omgivningen. Ett lågtrycksområde har lägre lufttryck.",
+    "examples": [
+      "Högtrycksområdet gav klart väder, medan lågtrycksområdet gav regn.",
+      "Kartan visar ett högtrycksområde bredvid ett lågtrycksområde."
+    ],
+    "related": [
+      "lågtrycksområde"
+    ]
+  },
+  "lågtrycksområde": {
+    "opposite": "högtrycksområde",
+    "description": "Ett högtrycksområde har högre lufttryck än omgivningen. Ett lågtrycksområde har lägre lufttryck.",
+    "examples": [
+      "Högtrycksområdet gav klart väder, medan lågtrycksområdet gav regn.",
+      "Kartan visar ett högtrycksområde bredvid ett lågtrycksområde."
+    ],
+    "related": [
+      "högtrycksområde"
+    ]
+  },
+  "smalände": {
+    "opposite": "tjockände",
+    "description": "Smaländen är den smalaste änden. Tjockänden är den tjockaste.",
+    "examples": [
+      "Håll i tjockänden och peka med smaländen.",
+      "Ägget har en smalände och en tjockände."
+    ],
+    "related": [
+      "tjockände"
+    ]
+  },
+  "tjockände": {
+    "opposite": "smalände",
+    "description": "Smaländen är den smalaste änden. Tjockänden är den tjockaste.",
+    "examples": [
+      "Håll i tjockänden och peka med smaländen.",
+      "Ägget har en smalände och en tjockände."
+    ],
+    "related": [
+      "smalände"
+    ]
+  },
+  "lättflytande": {
+    "opposite": "trögflytande",
+    "description": "En lättflytande vätska rinner lätt. En trögflytande vätska rinner långsamt.",
+    "examples": [
+      "Vattnet är lättflytande, men sirapen är trögflytande.",
+      "Den trögflytande oljan blev mer lättflytande när den värmdes."
+    ],
+    "related": [
+      "trögflytande"
+    ]
+  },
+  "trögflytande": {
+    "opposite": "lättflytande",
+    "description": "En lättflytande vätska rinner lätt. En trögflytande vätska rinner långsamt.",
+    "examples": [
+      "Vattnet är lättflytande, men sirapen är trögflytande.",
+      "Den trögflytande oljan blev mer lättflytande när den värmdes."
+    ],
+    "related": [
+      "lättflytande"
+    ]
+  },
+  "rotända": {
+    "opposite": "toppända",
+    "description": "Rotändan är delen närmast roten. Toppändan är delen närmast toppen.",
+    "examples": [
+      "Sätt rotändan i jorden och låt toppändan peka uppåt.",
+      "Grenen är grövre vid rotändan än vid toppändan."
+    ],
+    "related": [
+      "toppända"
+    ]
+  },
+  "toppända": {
+    "opposite": "rotända",
+    "description": "Rotändan är delen närmast roten. Toppändan är delen närmast toppen.",
+    "examples": [
+      "Sätt rotändan i jorden och låt toppändan peka uppåt.",
+      "Grenen är grövre vid rotändan än vid toppändan."
+    ],
+    "related": [
+      "rotända"
+    ]
+  },
+  "parallellkoppling": {
+    "opposite": "seriekoppling",
+    "description": "Vid parallellkoppling ligger komponenter i parallella grenar. Vid seriekoppling ligger de efter varandra i samma krets.",
+    "examples": [
+      "Lamporna kopplades först i serie och sedan med parallellkoppling.",
+      "Läraren jämförde seriekoppling med parallellkoppling."
+    ],
+    "related": [
+      "seriekoppling"
+    ]
+  },
+  "seriekoppling": {
+    "opposite": "parallellkoppling",
+    "description": "Vid parallellkoppling ligger komponenter i parallella grenar. Vid seriekoppling ligger de efter varandra i samma krets.",
+    "examples": [
+      "Lamporna kopplades först i serie och sedan med parallellkoppling.",
+      "Läraren jämförde seriekoppling med parallellkoppling."
+    ],
+    "related": [
+      "parallellkoppling"
+    ]
+  },
+  "förvinter": {
+    "opposite": "senvinter",
+    "description": "Förvintern är vinterns tidiga del. Senvintern är den sena delen.",
+    "examples": [
+      "Den första snön kom på förvintern och tövädret på senvintern.",
+      "Förvintern var mild, men senvintern blev kall."
+    ],
+    "related": [
+      "senvinter"
+    ]
+  },
+  "senvinter": {
+    "opposite": "förvinter",
+    "description": "Förvintern är vinterns tidiga del. Senvintern är den sena delen.",
+    "examples": [
+      "Den första snön kom på förvintern och tövädret på senvintern.",
+      "Förvintern var mild, men senvintern blev kall."
+    ],
+    "related": [
+      "förvinter"
+    ]
+  },
+  "ljusögd": {
+    "opposite": "mörkögd",
+    "description": "Ljusögd betyder att ha ljusa ögon. Mörkögd betyder att ha mörka ögon.",
+    "examples": [
+      "Den ljusögda katten satt bredvid den mörkögda.",
+      "I familjen finns både ljusögda och mörkögda personer."
+    ],
+    "related": [
+      "mörkögd"
+    ]
+  },
+  "mörkögd": {
+    "opposite": "ljusögd",
+    "description": "Ljusögd betyder att ha ljusa ögon. Mörkögd betyder att ha mörka ögon.",
+    "examples": [
+      "Den ljusögda katten satt bredvid den mörkögda.",
+      "I familjen finns både ljusögda och mörkögda personer."
+    ],
+    "related": [
+      "ljusögd"
+    ]
+  },
+  "förhöst": {
+    "opposite": "senhöst",
+    "description": "Förhösten är höstens tidiga del. Senhösten är den sena delen.",
+    "examples": [
+      "Förhösten var varm, men senhösten blev kylig.",
+      "Äpplena mognar på förhösten och löven faller på senhösten."
+    ],
+    "related": [
+      "senhöst"
+    ]
+  },
+  "senhöst": {
+    "opposite": "förhöst",
+    "description": "Förhösten är höstens tidiga del. Senhösten är den sena delen.",
+    "examples": [
+      "Förhösten var varm, men senhösten blev kylig.",
+      "Äpplena mognar på förhösten och löven faller på senhösten."
+    ],
+    "related": [
+      "förhöst"
+    ]
+  },
+  "beständighet": {
+    "opposite": "obeständighet",
+    "description": "Beständighet innebär att något håller eller består. Obeständighet innebär att det lätt förändras eller försvinner.",
+    "examples": [
+      "Stenen har stor beständighet, medan färgen visar obeständighet.",
+      "Testet mäter materialets beständighet och obeständighet."
+    ],
+    "related": [
+      "obeständighet"
+    ]
+  },
+  "obeständighet": {
+    "opposite": "beständighet",
+    "description": "Beständighet innebär att något håller eller består. Obeständighet innebär att det lätt förändras eller försvinner.",
+    "examples": [
+      "Stenen har stor beständighet, medan färgen visar obeständighet.",
+      "Testet mäter materialets beständighet och obeständighet."
+    ],
+    "related": [
+      "beständighet"
+    ]
+  },
+  "västvart": {
+    "opposite": "östvart",
+    "description": "Västvart betyder i riktning mot väster. Östvart betyder i riktning mot öster.",
+    "examples": [
+      "Det ena tåget går västvart och det andra östvart.",
+      "Fåglarna flög först östvart och senare västvart."
+    ],
+    "related": [
+      "östvart"
+    ]
+  },
+  "östvart": {
+    "opposite": "västvart",
+    "description": "Västvart betyder i riktning mot väster. Östvart betyder i riktning mot öster.",
+    "examples": [
+      "Det ena tåget går västvart och det andra östvart.",
+      "Fåglarna flög först östvart och senare västvart."
+    ],
+    "related": [
+      "västvart"
+    ]
+  },
+  "nordvart": {
+    "opposite": "sydvart",
+    "description": "Nordvart betyder i riktning mot norr. Sydvart betyder i riktning mot söder.",
+    "examples": [
+      "Vägen går nordvart här och sydvart på andra sidan.",
+      "De reste nordvart på våren och sydvart på hösten."
+    ],
+    "related": [
+      "sydvart"
+    ]
+  },
+  "sydvart": {
+    "opposite": "nordvart",
+    "description": "Nordvart betyder i riktning mot norr. Sydvart betyder i riktning mot söder.",
+    "examples": [
+      "Vägen går nordvart här och sydvart på andra sidan.",
+      "De reste nordvart på våren och sydvart på hösten."
+    ],
+    "related": [
+      "nordvart"
+    ]
+  },
+  "monotypisk": {
+    "opposite": "polytypisk",
+    "description": "Monotypisk betyder att en grupp bara har en typ eller art. Polytypisk betyder att den har flera.",
+    "examples": [
+      "Det ena släktet är monotypiskt och det andra polytypiskt.",
+      "Forskaren avgjorde om gruppen var monotypisk eller polytypisk."
+    ],
+    "related": [
+      "polytypisk"
+    ]
+  },
+  "polytypisk": {
+    "opposite": "monotypisk",
+    "description": "Monotypisk betyder att en grupp bara har en typ eller art. Polytypisk betyder att den har flera.",
+    "examples": [
+      "Det ena släktet är monotypiskt och det andra polytypiskt.",
+      "Forskaren avgjorde om gruppen var monotypisk eller polytypisk."
+    ],
+    "related": [
+      "monotypisk"
+    ]
+  },
+  "oparfymerad": {
+    "opposite": "parfymerad",
+    "description": "Oparfymerad betyder utan tillsatt parfym. Parfymerad betyder att parfym har tillsatts.",
+    "examples": [
+      "Hon valde oparfymerad tvål i stället för parfymerad.",
+      "Krämen finns både oparfymerad och parfymerad."
+    ],
+    "related": [
+      "parfymerad"
+    ]
+  },
+  "parfymerad": {
+    "opposite": "oparfymerad",
+    "description": "Oparfymerad betyder utan tillsatt parfym. Parfymerad betyder att parfym har tillsatts.",
+    "examples": [
+      "Hon valde oparfymerad tvål i stället för parfymerad.",
+      "Krämen finns både oparfymerad och parfymerad."
+    ],
+    "related": [
+      "oparfymerad"
+    ]
+  },
+  "medsols": {
+    "opposite": "motsols",
+    "description": "Medsols är samma riktning som visarna på en klocka. Motsols är den motsatta riktningen.",
+    "examples": [
+      "Vrid ratten medsols för att öka och motsols för att minska.",
+      "Löparna sprang ett varv medsols och ett motsols."
+    ],
+    "related": [
+      "motsols"
+    ]
+  },
+  "motsols": {
+    "opposite": "medsols",
+    "description": "Medsols är samma riktning som visarna på en klocka. Motsols är den motsatta riktningen.",
+    "examples": [
+      "Vrid ratten medsols för att öka och motsols för att minska.",
+      "Löparna sprang ett varv medsols och ett motsols."
+    ],
+    "related": [
+      "medsols"
+    ]
+  },
+  "räntehöjning": {
+    "opposite": "räntesänkning",
+    "description": "En räntehöjning gör räntan högre. En räntesänkning gör den lägre.",
+    "examples": [
+      "Efter en räntehöjning kom senare en räntesänkning.",
+      "Banken valde räntesänkning i stället för räntehöjning."
+    ],
+    "related": [
+      "räntesänkning"
+    ]
+  },
+  "räntesänkning": {
+    "opposite": "räntehöjning",
+    "description": "En räntehöjning gör räntan högre. En räntesänkning gör den lägre.",
+    "examples": [
+      "Efter en räntehöjning kom senare en räntesänkning.",
+      "Banken valde räntesänkning i stället för räntehöjning."
+    ],
+    "related": [
+      "räntehöjning"
+    ]
+  },
+  "straffbar": {
+    "opposite": "straffri",
+    "description": "Straffbar betyder att en handling kan leda till straff. Straffri betyder att den inte straffas.",
+    "examples": [
+      "Handlingen är straffbar, medan det andra beteendet är straffritt.",
+      "Domstolen prövar om personen är straffbar eller straffri."
+    ],
+    "related": [
+      "straffri"
+    ]
+  },
+  "straffri": {
+    "opposite": "straffbar",
+    "description": "Straffbar betyder att en handling kan leda till straff. Straffri betyder att den inte straffas.",
+    "examples": [
+      "Handlingen är straffbar, medan det andra beteendet är straffritt.",
+      "Domstolen prövar om personen är straffbar eller straffri."
+    ],
+    "related": [
+      "straffbar"
+    ]
+  },
+  "inomhuscykling": {
+    "opposite": "utomhuscykling",
+    "description": "Inomhuscykling sker inne, ofta på träningscykel eller bana. Utomhuscykling sker ute.",
+    "examples": [
+      "På vintern väljer hon inomhuscykling och på sommaren utomhuscykling.",
+      "Klubben erbjuder både inomhuscykling och utomhuscykling."
+    ],
+    "related": [
+      "utomhuscykling"
+    ]
+  },
+  "utomhuscykling": {
+    "opposite": "inomhuscykling",
+    "description": "Inomhuscykling sker inne, ofta på träningscykel eller bana. Utomhuscykling sker ute.",
+    "examples": [
+      "På vintern väljer hon inomhuscykling och på sommaren utomhuscykling.",
+      "Klubben erbjuder både inomhuscykling och utomhuscykling."
+    ],
+    "related": [
+      "inomhuscykling"
+    ]
+  },
+  "gammalstavning": {
+    "opposite": "nystavning",
+    "description": "Gammalstavning är en äldre stavningsform. Nystavning är en nyare reformerad stavning.",
+    "examples": [
+      "Texten använder gammalstavning, men utgåvan bredvid har nystavning.",
+      "Ordboken visar både gammalstavning och nystavning."
+    ],
+    "related": [
+      "nystavning"
+    ]
+  },
+  "nystavning": {
+    "opposite": "gammalstavning",
+    "description": "Gammalstavning är en äldre stavningsform. Nystavning är en nyare reformerad stavning.",
+    "examples": [
+      "Texten använder gammalstavning, men utgåvan bredvid har nystavning.",
+      "Ordboken visar både gammalstavning och nystavning."
+    ],
+    "related": [
+      "gammalstavning"
+    ]
+  },
+  "inflyttningskommun": {
+    "opposite": "utflyttningskommun",
+    "description": "En inflyttningskommun får fler invånare genom flyttning. En utflyttningskommun förlorar invånare genom flyttning.",
+    "examples": [
+      "Orten blev inflyttningskommun efter att ha varit utflyttningskommun.",
+      "Rapporten jämför inflyttningskommuner med utflyttningskommuner."
+    ],
+    "related": [
+      "utflyttningskommun"
+    ]
+  },
+  "utflyttningskommun": {
+    "opposite": "inflyttningskommun",
+    "description": "En inflyttningskommun får fler invånare genom flyttning. En utflyttningskommun förlorar invånare genom flyttning.",
+    "examples": [
+      "Orten blev inflyttningskommun efter att ha varit utflyttningskommun.",
+      "Rapporten jämför inflyttningskommuner med utflyttningskommuner."
+    ],
+    "related": [
+      "inflyttningskommun"
+    ]
+  },
+  "innesko": {
+    "opposite": "utesko",
+    "description": "En innesko används inomhus. En utesko används utomhus.",
+    "examples": [
+      "Byt från uteskor till inneskor i hallen.",
+      "Hon har en innesko till gymmet och en utesko till promenaden."
+    ],
+    "related": [
+      "utesko"
+    ]
+  },
+  "utesko": {
+    "opposite": "innesko",
+    "description": "En innesko används inomhus. En utesko används utomhus.",
+    "examples": [
+      "Byt från uteskor till inneskor i hallen.",
+      "Hon har en innesko till gymmet och en utesko till promenaden."
+    ],
+    "related": [
+      "innesko"
+    ]
+  },
+  "koffeinfri": {
+    "opposite": "koffeinhaltig",
+    "description": "Koffeinfri betyder utan koffein. Koffeinhaltig betyder att något innehåller koffein.",
+    "examples": [
+      "Teet finns som koffeinfritt och koffeinhaltigt.",
+      "På kvällen valde han koffeinfritt i stället för koffeinhaltigt kaffe."
+    ],
+    "related": [
+      "koffeinhaltig"
+    ]
+  },
+  "koffeinhaltig": {
+    "opposite": "koffeinfri",
+    "description": "Koffeinfri betyder utan koffein. Koffeinhaltig betyder att något innehåller koffein.",
+    "examples": [
+      "Teet finns som koffeinfritt och koffeinhaltigt.",
+      "På kvällen valde han koffeinfritt i stället för koffeinhaltigt kaffe."
+    ],
+    "related": [
+      "koffeinfri"
+    ]
+  },
+  "inomhustemperatur": {
+    "opposite": "utomhustemperatur",
+    "description": "Inomhustemperaturen mäts inne. Utomhustemperaturen mäts ute.",
+    "examples": [
+      "Inomhustemperaturen var tjugo grader och utomhustemperaturen fem.",
+      "Termometern visar både inomhustemperatur och utomhustemperatur."
+    ],
+    "related": [
+      "utomhustemperatur"
+    ]
+  },
+  "utomhustemperatur": {
+    "opposite": "inomhustemperatur",
+    "description": "Inomhustemperaturen mäts inne. Utomhustemperaturen mäts ute.",
+    "examples": [
+      "Inomhustemperaturen var tjugo grader och utomhustemperaturen fem.",
+      "Termometern visar både inomhustemperatur och utomhustemperatur."
+    ],
+    "related": [
+      "inomhustemperatur"
+    ]
+  },
+  "demobilisering": {
+    "opposite": "mobilisering",
+    "description": "Mobilisering innebär att resurser eller trupper görs redo. Demobilisering innebär att de avvecklas efteråt.",
+    "examples": [
+      "Mobilisering skedde före konflikten och demobilisering efter den.",
+      "Planen omfattar både mobilisering och demobilisering."
+    ],
+    "related": [
+      "mobilisering"
+    ]
+  },
+  "mobilisering": {
+    "opposite": "demobilisering",
+    "description": "Mobilisering innebär att resurser eller trupper görs redo. Demobilisering innebär att de avvecklas efteråt.",
+    "examples": [
+      "Mobilisering skedde före konflikten och demobilisering efter den.",
+      "Planen omfattar både mobilisering och demobilisering."
+    ],
+    "related": [
+      "demobilisering"
+    ]
+  },
+  "höstsådd": {
+    "opposite": "vårsådd",
+    "description": "Höstsådd görs på hösten. Vårsådd görs på våren.",
+    "examples": [
+      "En del av fältet fick höstsådd och resten vårsådd.",
+      "Höstsådd gror före vintern, medan vårsådd börjar på våren."
+    ],
+    "related": [
+      "vårsådd"
+    ]
+  },
+  "vårsådd": {
+    "opposite": "höstsådd",
+    "description": "Höstsådd görs på hösten. Vårsådd görs på våren.",
+    "examples": [
+      "En del av fältet fick höstsådd och resten vårsådd.",
+      "Höstsådd gror före vintern, medan vårsådd börjar på våren."
+    ],
+    "related": [
+      "höstsådd"
+    ]
+  },
+  "avkriminalisering": {
+    "opposite": "kriminalisering",
+    "description": "Kriminalisering gör en handling straffbar. Avkriminalisering tar bort straffansvaret.",
+    "examples": [
+      "Lagen innebar kriminalisering, men reformen senare gav avkriminalisering.",
+      "Debatten gällde kriminalisering eller avkriminalisering."
+    ],
+    "related": [
+      "kriminalisering"
+    ]
+  },
+  "kriminalisering": {
+    "opposite": "avkriminalisering",
+    "description": "Kriminalisering gör en handling straffbar. Avkriminalisering tar bort straffansvaret.",
+    "examples": [
+      "Lagen innebar kriminalisering, men reformen senare gav avkriminalisering.",
+      "Debatten gällde kriminalisering eller avkriminalisering."
+    ],
+    "related": [
+      "avkriminalisering"
+    ]
+  },
+  "oredighet": {
+    "opposite": "redighet",
+    "description": "Redighet innebär klarhet och ordning. Oredighet innebär oklarhet eller förvirring.",
+    "examples": [
+      "Textens redighet gjorde den lättläst, medan utkastet präglades av oredighet.",
+      "Hon gick från oredighet i tanken till redighet."
+    ],
+    "related": [
+      "redighet"
+    ]
+  },
+  "redighet": {
+    "opposite": "oredighet",
+    "description": "Redighet innebär klarhet och ordning. Oredighet innebär oklarhet eller förvirring.",
+    "examples": [
+      "Textens redighet gjorde den lättläst, medan utkastet präglades av oredighet.",
+      "Hon gick från oredighet i tanken till redighet."
+    ],
+    "related": [
+      "oredighet"
+    ]
+  },
+  "illegalitet": {
+    "opposite": "legalitet",
+    "description": "Legalitet innebär att något är lagligt. Illegalitet innebär att det strider mot lagen.",
+    "examples": [
+      "Domstolen prövade handlingens legalitet eller illegalitet.",
+      "Tillståndet gav verksamheten legalitet efter en tid av illegalitet."
+    ],
+    "related": [
+      "legalitet"
+    ]
+  },
+  "legalitet": {
+    "opposite": "illegalitet",
+    "description": "Legalitet innebär att något är lagligt. Illegalitet innebär att det strider mot lagen.",
+    "examples": [
+      "Domstolen prövade handlingens legalitet eller illegalitet.",
+      "Tillståndet gav verksamheten legalitet efter en tid av illegalitet."
+    ],
+    "related": [
+      "illegalitet"
+    ]
+  },
+  "konkavitet": {
+    "opposite": "konvexitet",
+    "description": "Konkavitet innebär att en yta buktar inåt. Konvexitet innebär att den buktar utåt.",
+    "examples": [
+      "Linsen har konvexitet på ena sidan och konkavitet på den andra.",
+      "Mätningen skiljer mellan konkavitet och konvexitet."
+    ],
+    "related": [
+      "konvexitet"
+    ]
+  },
+  "konvexitet": {
+    "opposite": "konkavitet",
+    "description": "Konkavitet innebär att en yta buktar inåt. Konvexitet innebär att den buktar utåt.",
+    "examples": [
+      "Linsen har konvexitet på ena sidan och konkavitet på den andra.",
+      "Mätningen skiljer mellan konkavitet och konvexitet."
+    ],
+    "related": [
+      "konkavitet"
+    ]
+  },
+  "otjänlighet": {
+    "opposite": "tjänlighet",
+    "description": "Tjänlighet innebär att något är lämpligt att använda. Otjänlighet innebär att det inte är lämpligt.",
+    "examples": [
+      "Provet visade vattnets tjänlighet och avfärdade misstanken om otjänlighet.",
+      "Inspektionen bedömer matens tjänlighet eller otjänlighet."
+    ],
+    "related": [
+      "tjänlighet"
+    ]
+  },
+  "tjänlighet": {
+    "opposite": "otjänlighet",
+    "description": "Tjänlighet innebär att något är lämpligt att använda. Otjänlighet innebär att det inte är lämpligt.",
+    "examples": [
+      "Provet visade vattnets tjänlighet och avfärdade misstanken om otjänlighet.",
+      "Inspektionen bedömer matens tjänlighet eller otjänlighet."
+    ],
+    "related": [
+      "otjänlighet"
+    ]
+  },
+  "irregularitet": {
+    "opposite": "regularitet",
+    "description": "Regularitet innebär regelbundenhet. Irregularitet innebär avvikelse eller oregelbundenhet.",
+    "examples": [
+      "Mönstret visar regularitet, men kanten har en tydlig irregularitet.",
+      "Forskaren jämförde regularitet med irregularitet."
+    ],
+    "related": [
+      "regularitet"
+    ]
+  },
+  "regularitet": {
+    "opposite": "irregularitet",
+    "description": "Regularitet innebär regelbundenhet. Irregularitet innebär avvikelse eller oregelbundenhet.",
+    "examples": [
+      "Mönstret visar regularitet, men kanten har en tydlig irregularitet.",
+      "Forskaren jämförde regularitet med irregularitet."
+    ],
+    "related": [
+      "irregularitet"
+    ]
+  },
+  "oumbärlighet": {
+    "opposite": "umbärlighet",
+    "description": "Oumbärlighet innebär att något inte kan undvaras. Umbärlighet innebär att det kan undvaras.",
+    "examples": [
+      "Vattnets oumbärlighet är tydlig, medan prydnadens umbärlighet är större.",
+      "Bedömningen gällde delens oumbärlighet eller umbärlighet."
+    ],
+    "related": [
+      "umbärlighet"
+    ]
+  },
+  "umbärlighet": {
+    "opposite": "oumbärlighet",
+    "description": "Oumbärlighet innebär att något inte kan undvaras. Umbärlighet innebär att det kan undvaras.",
+    "examples": [
+      "Vattnets oumbärlighet är tydlig, medan prydnadens umbärlighet är större.",
+      "Bedömningen gällde delens oumbärlighet eller umbärlighet."
+    ],
+    "related": [
+      "oumbärlighet"
+    ]
+  },
+  "otillräknelighet": {
+    "opposite": "tillräknelighet",
+    "description": "Tillräknelighet innebär förmåga att förstå och ansvara för sina handlingar. Otillräknelighet innebär att denna förmåga saknas.",
+    "examples": [
+      "Domstolen prövade personens tillräknelighet eller otillräknelighet.",
+      "Utredningen fann tillräknelighet och inte otillräknelighet."
+    ],
+    "related": [
+      "tillräknelighet"
+    ]
+  },
+  "tillräknelighet": {
+    "opposite": "otillräknelighet",
+    "description": "Tillräknelighet innebär förmåga att förstå och ansvara för sina handlingar. Otillräknelighet innebär att denna förmåga saknas.",
+    "examples": [
+      "Domstolen prövade personens tillräknelighet eller otillräknelighet.",
+      "Utredningen fann tillräknelighet och inte otillräknelighet."
+    ],
+    "related": [
+      "otillräknelighet"
+    ]
+  },
+  "pietetsfullhet": {
+    "opposite": "pietetslöshet",
+    "description": "Pietetsfullhet innebär varsam respekt för något värdefullt. Pietetslöshet innebär brist på sådan respekt.",
+    "examples": [
+      "Renoveringen gjordes med pietetsfullhet i stället för pietetslöshet.",
+      "Pietetsfullhet bevarade huset, medan pietetslöshet hade skadat det."
+    ],
+    "related": [
+      "pietetslöshet"
+    ]
+  },
+  "pietetslöshet": {
+    "opposite": "pietetsfullhet",
+    "description": "Pietetsfullhet innebär varsam respekt för något värdefullt. Pietetslöshet innebär brist på sådan respekt.",
+    "examples": [
+      "Renoveringen gjordes med pietetsfullhet i stället för pietetslöshet.",
+      "Pietetsfullhet bevarade huset, medan pietetslöshet hade skadat det."
+    ],
+    "related": [
+      "pietetsfullhet"
+    ]
+  },
+  "besticklighet": {
+    "opposite": "obesticklighet",
+    "description": "Besticklighet innebär att kunna påverkas med mutor. Obesticklighet innebär att inte kunna köpas.",
+    "examples": [
+      "Tjänstens obesticklighet var viktig, och all besticklighet skulle motverkas.",
+      "Granskningen prövade besticklighet och obesticklighet."
+    ],
+    "related": [
+      "obesticklighet"
+    ]
+  },
+  "obesticklighet": {
+    "opposite": "besticklighet",
+    "description": "Besticklighet innebär att kunna påverkas med mutor. Obesticklighet innebär att inte kunna köpas.",
+    "examples": [
+      "Tjänstens obesticklighet var viktig, och all besticklighet skulle motverkas.",
+      "Granskningen prövade besticklighet och obesticklighet."
+    ],
+    "related": [
+      "besticklighet"
+    ]
+  },
+  "mutbarhet": {
+    "opposite": "omutbarhet",
+    "description": "Mutbarhet innebär att kunna mutas. Omutbarhet innebär att inte låta sig mutas.",
+    "examples": [
+      "Omutbarhet krävs i rollen, medan mutbarhet är ett allvarligt problem.",
+      "Utredningen fann omutbarhet och inga tecken på mutbarhet."
+    ],
+    "related": [
+      "omutbarhet"
+    ]
+  },
+  "omutbarhet": {
+    "opposite": "mutbarhet",
+    "description": "Mutbarhet innebär att kunna mutas. Omutbarhet innebär att inte låta sig mutas.",
+    "examples": [
+      "Omutbarhet krävs i rollen, medan mutbarhet är ett allvarligt problem.",
+      "Utredningen fann omutbarhet och inga tecken på mutbarhet."
+    ],
+    "related": [
+      "mutbarhet"
+    ]
+  },
+  "otämjbar": {
+    "opposite": "tämjbar",
+    "description": "Tämjbar betyder möjlig att tämja. Otämjbar betyder att inte kunna tämjas.",
+    "examples": [
+      "Djuret verkade först otämjbart men visade sig vara tämjbart.",
+      "Arten är svår men tämjbar, inte helt otämjbar."
+    ],
+    "related": [
+      "tämjbar"
+    ]
+  },
+  "tämjbar": {
+    "opposite": "otämjbar",
+    "description": "Tämjbar betyder möjlig att tämja. Otämjbar betyder att inte kunna tämjas.",
+    "examples": [
+      "Djuret verkade först otämjbart men visade sig vara tämjbart.",
+      "Arten är svår men tämjbar, inte helt otämjbar."
+    ],
+    "related": [
+      "otämjbar"
+    ]
+  },
+  "köpstark": {
+    "opposite": "köpsvag",
+    "description": "Köpstark betyder att ha stor köpkraft. Köpsvag betyder att ha liten köpkraft.",
+    "examples": [
+      "En köpstark grupp har större utrymme än en köpsvag.",
+      "Marknaden riktar sig till både köpstarka och köpsvaga kunder."
+    ],
+    "related": [
+      "köpsvag"
+    ]
+  },
+  "köpsvag": {
+    "opposite": "köpstark",
+    "description": "Köpstark betyder att ha stor köpkraft. Köpsvag betyder att ha liten köpkraft.",
+    "examples": [
+      "En köpstark grupp har större utrymme än en köpsvag.",
+      "Marknaden riktar sig till både köpstarka och köpsvaga kunder."
+    ],
+    "related": [
+      "köpstark"
+    ]
+  },
+  "bokningsbar": {
+    "opposite": "obokningsbar",
+    "description": "Bokningsbar betyder att något går att boka. Obokningsbar betyder att det inte går att boka.",
+    "examples": [
+      "Tiden är bokningsbar på morgonen men obokningsbar på kvällen.",
+      "Rummet blev obokningsbart efter att tidigare ha varit bokningsbart."
+    ],
+    "related": [
+      "obokningsbar"
+    ]
+  },
+  "obokningsbar": {
+    "opposite": "bokningsbar",
+    "description": "Bokningsbar betyder att något går att boka. Obokningsbar betyder att det inte går att boka.",
+    "examples": [
+      "Tiden är bokningsbar på morgonen men obokningsbar på kvällen.",
+      "Rummet blev obokningsbart efter att tidigare ha varit bokningsbart."
+    ],
+    "related": [
+      "bokningsbar"
+    ]
+  },
+  "inomhuslek": {
+    "opposite": "utomhuslek",
+    "description": "Inomhuslek sker inne. Utomhuslek sker ute.",
+    "examples": [
+      "Regnet ledde till inomhuslek i stället för utomhuslek.",
+      "Förskolan planerar både inomhuslek och utomhuslek."
+    ],
+    "related": [
+      "utomhuslek"
+    ]
+  },
+  "utomhuslek": {
+    "opposite": "inomhuslek",
+    "description": "Inomhuslek sker inne. Utomhuslek sker ute.",
+    "examples": [
+      "Regnet ledde till inomhuslek i stället för utomhuslek.",
+      "Förskolan planerar både inomhuslek och utomhuslek."
+    ],
+    "related": [
+      "inomhuslek"
+    ]
+  },
+  "oregelmässighet": {
+    "opposite": "regelmässighet",
+    "description": "Regelmässighet innebär att följa ett regelbundet mönster. Oregelmässighet innebär avvikelser från mönstret.",
+    "examples": [
+      "Pulsen visade regelmässighet och inga tecken på oregelmässighet.",
+      "Kontrollen mäter regelmässighet och oregelmässighet."
+    ],
+    "related": [
+      "regelmässighet"
+    ]
+  },
+  "regelmässighet": {
+    "opposite": "oregelmässighet",
+    "description": "Regelmässighet innebär att följa ett regelbundet mönster. Oregelmässighet innebär avvikelser från mönstret.",
+    "examples": [
+      "Pulsen visade regelmässighet och inga tecken på oregelmässighet.",
+      "Kontrollen mäter regelmässighet och oregelmässighet."
+    ],
+    "related": [
+      "oregelmässighet"
+    ]
+  },
+  "flärdfull": {
+    "opposite": "flärdlös",
+    "description": "Flärdfull betyder präglad av prakt och utsmyckning. Flärdlös betyder enkel och utan flärd.",
+    "examples": [
+      "Den flärdfulla salen låg bredvid ett flärdlöst rum.",
+      "Hon valde en flärdlös stil i stället för en flärdfull."
+    ],
+    "related": [
+      "flärdlös"
+    ]
+  },
+  "flärdlös": {
+    "opposite": "flärdfull",
+    "description": "Flärdfull betyder präglad av prakt och utsmyckning. Flärdlös betyder enkel och utan flärd.",
+    "examples": [
+      "Den flärdfulla salen låg bredvid ett flärdlöst rum.",
+      "Hon valde en flärdlös stil i stället för en flärdfull."
+    ],
+    "related": [
+      "flärdfull"
+    ]
+  },
+  "otänkbarhet": {
+    "opposite": "tänkbarhet",
+    "description": "Tänkbarhet innebär att något går att föreställa sig. Otänkbarhet innebär att det inte går eller verkar omöjligt.",
+    "examples": [
+      "Förslaget gick från otänkbarhet till tänkbarhet.",
+      "De diskuterade både planens tänkbarhet och dess tidigare otänkbarhet."
+    ],
+    "related": [
+      "tänkbarhet"
+    ]
+  },
+  "tänkbarhet": {
+    "opposite": "otänkbarhet",
+    "description": "Tänkbarhet innebär att något går att föreställa sig. Otänkbarhet innebär att det inte går eller verkar omöjligt.",
+    "examples": [
+      "Förslaget gick från otänkbarhet till tänkbarhet.",
+      "De diskuterade både planens tänkbarhet och dess tidigare otänkbarhet."
+    ],
+    "related": [
+      "otänkbarhet"
+    ]
+  },
+  "osänkbarhet": {
+    "opposite": "sänkbarhet",
+    "description": "Sänkbarhet innebär att något kan sänkas. Osänkbarhet innebär att det inte kan sänkas.",
+    "examples": [
+      "Fartygets påstådda osänkbarhet ställdes mot dess verkliga sänkbarhet.",
+      "Testet bedömer sänkbarhet och osänkbarhet."
+    ],
+    "related": [
+      "sänkbarhet"
+    ]
+  },
+  "sänkbarhet": {
+    "opposite": "osänkbarhet",
+    "description": "Sänkbarhet innebär att något kan sänkas. Osänkbarhet innebär att det inte kan sänkas.",
+    "examples": [
+      "Fartygets påstådda osänkbarhet ställdes mot dess verkliga sänkbarhet.",
+      "Testet bedömer sänkbarhet och osänkbarhet."
+    ],
+    "related": [
+      "osänkbarhet"
+    ]
+  },
+  "overkställbar": {
+    "opposite": "verkställbar",
+    "description": "Verkställbar betyder möjlig att genomföra eller verkställa. Overkställbar betyder att den inte kan verkställas.",
+    "examples": [
+      "Domen är verkställbar, men det tidigare beslutet var overkställbart.",
+      "Myndigheten avgör om åtgärden är verkställbar eller overkställbar."
+    ],
+    "related": [
+      "verkställbar"
+    ]
+  },
+  "verkställbar": {
+    "opposite": "overkställbar",
+    "description": "Verkställbar betyder möjlig att genomföra eller verkställa. Overkställbar betyder att den inte kan verkställas.",
+    "examples": [
+      "Domen är verkställbar, men det tidigare beslutet var overkställbart.",
+      "Myndigheten avgör om åtgärden är verkställbar eller overkställbar."
+    ],
+    "related": [
+      "overkställbar"
+    ]
+  },
+  "otillåtlighet": {
+    "opposite": "tillåtlighet",
+    "description": "Tillåtlighet innebär att något är tillåtet. Otillåtlighet innebär att det inte är tillåtet.",
+    "examples": [
+      "Nämnden prövade åtgärdens tillåtlighet eller otillåtlighet.",
+      "Regeln klargör både tillåtlighet och otillåtlighet."
+    ],
+    "related": [
+      "tillåtlighet"
+    ]
+  },
+  "tillåtlighet": {
+    "opposite": "otillåtlighet",
+    "description": "Tillåtlighet innebär att något är tillåtet. Otillåtlighet innebär att det inte är tillåtet.",
+    "examples": [
+      "Nämnden prövade åtgärdens tillåtlighet eller otillåtlighet.",
+      "Regeln klargör både tillåtlighet och otillåtlighet."
+    ],
+    "related": [
+      "otillåtlighet"
+    ]
   }
 };
