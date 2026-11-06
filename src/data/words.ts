@@ -17094,5 +17094,1105 @@ export const words: Record<string, WordEntry> = {
     "related": [
       "inkluderad"
     ]
+  },
+  "kokt": {
+    "opposite": "okokt",
+    "description": "Kokt betyder tillagad i kokande vätska. Okokt betyder att inte ha kokats.",
+    "examples": [
+      "Potatisen är kokt, men moroten är okokt.",
+      "Koka den okokta pastan tills den är kokt."
+    ],
+    "related": [
+      "okokt"
+    ]
+  },
+  "okokt": {
+    "opposite": "kokt",
+    "description": "Kokt betyder tillagad i kokande vätska. Okokt betyder att inte ha kokats.",
+    "examples": [
+      "Potatisen är kokt, men moroten är okokt.",
+      "Koka den okokta pastan tills den är kokt."
+    ],
+    "related": [
+      "kokt"
+    ]
+  },
+  "rå": {
+    "opposite": "tillagad",
+    "description": "Rå betyder inte tillagad. Tillagad betyder behandlad med värme eller på annat sätt gjord färdig att äta.",
+    "examples": [
+      "Fisken var rå före den blev tillagad.",
+      "Håll rå mat skild från tillagad mat."
+    ],
+    "related": [
+      "tillagad"
+    ]
+  },
+  "tillagad": {
+    "opposite": "rå",
+    "description": "Rå betyder inte tillagad. Tillagad betyder behandlad med värme eller på annat sätt gjord färdig att äta.",
+    "examples": [
+      "Fisken var rå före den blev tillagad.",
+      "Håll rå mat skild från tillagad mat."
+    ],
+    "related": [
+      "rå"
+    ]
+  },
+  "kontinuerlig": {
+    "opposite": "diskret",
+    "description": "Kontinuerlig betyder utan avbrott eller med alla mellanliggande värden. Diskret betyder uppdelad i tydliga steg eller värden.",
+    "examples": [
+      "Temperaturen ändras kontinuerligt, medan räknaren visar diskreta steg.",
+      "Modellen kan vara kontinuerlig eller diskret."
+    ],
+    "related": [
+      "diskret"
+    ]
+  },
+  "diskret": {
+    "opposite": "kontinuerlig",
+    "description": "Kontinuerlig betyder utan avbrott eller med alla mellanliggande värden. Diskret betyder uppdelad i tydliga steg eller värden.",
+    "examples": [
+      "Temperaturen ändras kontinuerligt, medan räknaren visar diskreta steg.",
+      "Modellen kan vara kontinuerlig eller diskret."
+    ],
+    "related": [
+      "kontinuerlig"
+    ]
+  },
+  "homogen": {
+    "opposite": "heterogen",
+    "description": "Homogen betyder jämnt sammansatt. Heterogen betyder sammansatt av olika delar.",
+    "examples": [
+      "Lösningen är homogen, men blandningen är heterogen.",
+      "Gruppen gick från homogen till mer heterogen."
+    ],
+    "related": [
+      "heterogen"
+    ]
+  },
+  "heterogen": {
+    "opposite": "homogen",
+    "description": "Homogen betyder jämnt sammansatt. Heterogen betyder sammansatt av olika delar.",
+    "examples": [
+      "Lösningen är homogen, men blandningen är heterogen.",
+      "Gruppen gick från homogen till mer heterogen."
+    ],
+    "related": [
+      "homogen"
+    ]
+  },
+  "genomskinlig": {
+    "opposite": "ogenomskinlig",
+    "description": "Genomskinlig betyder att ljus och bilder kan ses igenom. Ogenomskinlig betyder att man inte kan se igenom.",
+    "examples": [
+      "Rutan är genomskinlig, men väggen är ogenomskinlig.",
+      "Det genomskinliga glaset stod bredvid det ogenomskinliga."
+    ],
+    "related": [
+      "ogenomskinlig"
+    ]
+  },
+  "ogenomskinlig": {
+    "opposite": "genomskinlig",
+    "description": "Genomskinlig betyder att ljus och bilder kan ses igenom. Ogenomskinlig betyder att man inte kan se igenom.",
+    "examples": [
+      "Rutan är genomskinlig, men väggen är ogenomskinlig.",
+      "Det genomskinliga glaset stod bredvid det ogenomskinliga."
+    ],
+    "related": [
+      "genomskinlig"
+    ]
+  },
+  "kompakt": {
+    "opposite": "porös",
+    "description": "Kompakt betyder tät och sammanpressad. Porös betyder fylld av små hålrum.",
+    "examples": [
+      "Metallen är kompakt, men svampen är porös.",
+      "Det porösa materialet väger mindre än det kompakta."
+    ],
+    "related": [
+      "porös"
+    ]
+  },
+  "porös": {
+    "opposite": "kompakt",
+    "description": "Kompakt betyder tät och sammanpressad. Porös betyder fylld av små hålrum.",
+    "examples": [
+      "Metallen är kompakt, men svampen är porös.",
+      "Det porösa materialet väger mindre än det kompakta."
+    ],
+    "related": [
+      "kompakt"
+    ]
+  },
+  "sympatisk": {
+    "opposite": "osympatisk",
+    "description": "Sympatisk betyder trevlig och lätt att tycka om. Osympatisk betyder otrevlig eller svår att tycka om.",
+    "examples": [
+      "Hon verkade sympatisk, medan rollen i filmen var osympatisk.",
+      "Ett sympatiskt bemötande ersatte det osympatiska."
+    ],
+    "related": [
+      "osympatisk"
+    ]
+  },
+  "osympatisk": {
+    "opposite": "sympatisk",
+    "description": "Sympatisk betyder trevlig och lätt att tycka om. Osympatisk betyder otrevlig eller svår att tycka om.",
+    "examples": [
+      "Hon verkade sympatisk, medan rollen i filmen var osympatisk.",
+      "Ett sympatiskt bemötande ersatte det osympatiska."
+    ],
+    "related": [
+      "sympatisk"
+    ]
+  },
+  "avslutad": {
+    "opposite": "pågående",
+    "description": "Avslutad betyder att något är färdigt. Pågående betyder att det fortfarande håller på.",
+    "examples": [
+      "Den första matchen är avslutad, men den andra är pågående.",
+      "Ärendet gick från pågående till avslutat."
+    ],
+    "related": [
+      "pågående"
+    ]
+  },
+  "pågående": {
+    "opposite": "avslutad",
+    "description": "Avslutad betyder att något är färdigt. Pågående betyder att det fortfarande håller på.",
+    "examples": [
+      "Den första matchen är avslutad, men den andra är pågående.",
+      "Ärendet gick från pågående till avslutat."
+    ],
+    "related": [
+      "avslutad"
+    ]
+  },
+  "exakt": {
+    "opposite": "ungefärlig",
+    "description": "Exakt betyder helt preciserad. Ungefärlig betyder nära men inte helt exakt.",
+    "examples": [
+      "Den exakta tiden är 12.03, den ungefärliga är runt tolv.",
+      "Ange ett exakt värde eller en ungefärlig uppskattning."
+    ],
+    "related": [
+      "ungefärlig"
+    ]
+  },
+  "ungefärlig": {
+    "opposite": "exakt",
+    "description": "Exakt betyder helt preciserad. Ungefärlig betyder nära men inte helt exakt.",
+    "examples": [
+      "Den exakta tiden är 12.03, den ungefärliga är runt tolv.",
+      "Ange ett exakt värde eller en ungefärlig uppskattning."
+    ],
+    "related": [
+      "exakt"
+    ]
+  },
+  "precis": {
+    "opposite": "vag",
+    "description": "Precis betyder tydlig och noggrant angiven. Vag betyder otydlig eller obestämd.",
+    "examples": [
+      "Hon gav en precis beskrivning, medan den andra var vag.",
+      "Gör den vaga instruktionen mer precis."
+    ],
+    "related": [
+      "vag"
+    ]
+  },
+  "vag": {
+    "opposite": "precis",
+    "description": "Precis betyder tydlig och noggrant angiven. Vag betyder otydlig eller obestämd.",
+    "examples": [
+      "Hon gav en precis beskrivning, medan den andra var vag.",
+      "Gör den vaga instruktionen mer precis."
+    ],
+    "related": [
+      "precis"
+    ]
+  },
+  "perifer": {
+    "opposite": "central",
+    "description": "Central betyder nära mitten eller mycket viktig. Perifer betyder nära kanten eller mindre central.",
+    "examples": [
+      "Stationen är central, medan byn ligger mer perifert.",
+      "Den centrala frågan skiljs från den perifera detaljen."
+    ],
+    "related": [
+      "central"
+    ]
+  },
+  "central": {
+    "opposite": "perifer",
+    "description": "Central betyder nära mitten eller mycket viktig. Perifer betyder nära kanten eller mindre central.",
+    "examples": [
+      "Stationen är central, medan byn ligger mer perifert.",
+      "Den centrala frågan skiljs från den perifera detaljen."
+    ],
+    "related": [
+      "perifer"
+    ]
+  },
+  "radiell": {
+    "opposite": "tangentiell",
+    "description": "Radiell betyder riktad längs en radie. Tangentiell betyder riktad längs en tangent.",
+    "examples": [
+      "Kraften har en radiell och en tangentiell del.",
+      "Den radiella rörelsen går mot centrum, den tangentiella runt det."
+    ],
+    "related": [
+      "tangentiell"
+    ]
+  },
+  "tangentiell": {
+    "opposite": "radiell",
+    "description": "Radiell betyder riktad längs en radie. Tangentiell betyder riktad längs en tangent.",
+    "examples": [
+      "Kraften har en radiell och en tangentiell del.",
+      "Den radiella rörelsen går mot centrum, den tangentiella runt det."
+    ],
+    "related": [
+      "radiell"
+    ]
+  },
+  "uppåtriktad": {
+    "opposite": "nedåtriktad",
+    "description": "Uppåtriktad betyder riktad uppåt. Nedåtriktad betyder riktad nedåt.",
+    "examples": [
+      "Den uppåtriktade pilen står bredvid den nedåtriktade.",
+      "Kraften var först uppåtriktad och sedan nedåtriktad."
+    ],
+    "related": [
+      "nedåtriktad"
+    ]
+  },
+  "nedåtriktad": {
+    "opposite": "uppåtriktad",
+    "description": "Uppåtriktad betyder riktad uppåt. Nedåtriktad betyder riktad nedåt.",
+    "examples": [
+      "Den uppåtriktade pilen står bredvid den nedåtriktade.",
+      "Kraften var först uppåtriktad och sedan nedåtriktad."
+    ],
+    "related": [
+      "uppåtriktad"
+    ]
+  },
+  "inkommande": {
+    "opposite": "utgående",
+    "description": "Inkommande betyder på väg in. Utgående betyder på väg ut.",
+    "examples": [
+      "Telefonen visar inkommande och utgående samtal.",
+      "Inkommande post sorteras före den utgående."
+    ],
+    "related": [
+      "utgående"
+    ]
+  },
+  "utgående": {
+    "opposite": "inkommande",
+    "description": "Inkommande betyder på väg in. Utgående betyder på väg ut.",
+    "examples": [
+      "Telefonen visar inkommande och utgående samtal.",
+      "Inkommande post sorteras före den utgående."
+    ],
+    "related": [
+      "inkommande"
+    ]
+  },
+  "arbetsgivare": {
+    "opposite": "arbetstagare",
+    "description": "En arbetsgivare erbjuder arbete och betalar lön. En arbetstagare utför arbetet.",
+    "examples": [
+      "Avtalet tecknas mellan arbetsgivaren och arbetstagaren.",
+      "Arbetsgivaren betalade lön till arbetstagaren."
+    ],
+    "related": [
+      "arbetstagare"
+    ]
+  },
+  "arbetstagare": {
+    "opposite": "arbetsgivare",
+    "description": "En arbetsgivare erbjuder arbete och betalar lön. En arbetstagare utför arbetet.",
+    "examples": [
+      "Avtalet tecknas mellan arbetsgivaren och arbetstagaren.",
+      "Arbetsgivaren betalade lön till arbetstagaren."
+    ],
+    "related": [
+      "arbetsgivare"
+    ]
+  },
+  "producent": {
+    "opposite": "konsument",
+    "description": "En producent framställer en vara eller tjänst. En konsument använder eller köper den.",
+    "examples": [
+      "Producenten säljer varan till konsumenten.",
+      "Både producent och konsument påverkas av priset."
+    ],
+    "related": [
+      "konsument"
+    ]
+  },
+  "konsument": {
+    "opposite": "producent",
+    "description": "En producent framställer en vara eller tjänst. En konsument använder eller köper den.",
+    "examples": [
+      "Producenten säljer varan till konsumenten.",
+      "Både producent och konsument påverkas av priset."
+    ],
+    "related": [
+      "producent"
+    ]
+  },
+  "intäkt": {
+    "opposite": "kostnad",
+    "description": "En intäkt är ett ekonomiskt inflöde från försäljning. En kostnad är värdet av resurser som används.",
+    "examples": [
+      "Försäljningen gav en intäkt, medan hyran var en kostnad.",
+      "Företaget jämför intäkter med kostnader."
+    ],
+    "related": [
+      "kostnad"
+    ]
+  },
+  "kostnad": {
+    "opposite": "intäkt",
+    "description": "En intäkt är ett ekonomiskt inflöde från försäljning. En kostnad är värdet av resurser som används.",
+    "examples": [
+      "Försäljningen gav en intäkt, medan hyran var en kostnad.",
+      "Företaget jämför intäkter med kostnader."
+    ],
+    "related": [
+      "intäkt"
+    ]
+  },
+  "nordpol": {
+    "opposite": "sydpol",
+    "description": "Nordpolen är jordens nordligaste pol. Sydpolen är den sydligaste.",
+    "examples": [
+      "Kompassen pekar mot nordpolen, långt från sydpolen.",
+      "Jorden har en nordpol och en sydpol."
+    ],
+    "related": [
+      "sydpol"
+    ]
+  },
+  "sydpol": {
+    "opposite": "nordpol",
+    "description": "Nordpolen är jordens nordligaste pol. Sydpolen är den sydligaste.",
+    "examples": [
+      "Kompassen pekar mot nordpolen, långt från sydpolen.",
+      "Jorden har en nordpol och en sydpol."
+    ],
+    "related": [
+      "nordpol"
+    ]
+  },
+  "nordlig": {
+    "opposite": "sydlig",
+    "description": "Nordlig betyder belägen i eller från norr. Sydlig betyder belägen i eller från söder.",
+    "examples": [
+      "Den nordliga delen är kallare än den sydliga.",
+      "En nordlig vind ersattes av en sydlig."
+    ],
+    "related": [
+      "sydlig"
+    ]
+  },
+  "sydlig": {
+    "opposite": "nordlig",
+    "description": "Nordlig betyder belägen i eller från norr. Sydlig betyder belägen i eller från söder.",
+    "examples": [
+      "Den nordliga delen är kallare än den sydliga.",
+      "En nordlig vind ersattes av en sydlig."
+    ],
+    "related": [
+      "nordlig"
+    ]
+  },
+  "västlig": {
+    "opposite": "östlig",
+    "description": "Västlig betyder belägen i eller från väster. Östlig betyder belägen i eller från öster.",
+    "examples": [
+      "Den västliga kusten skiljer sig från den östliga.",
+      "Vinden gick från västlig till östlig."
+    ],
+    "related": [
+      "östlig"
+    ]
+  },
+  "östlig": {
+    "opposite": "västlig",
+    "description": "Västlig betyder belägen i eller från väster. Östlig betyder belägen i eller från öster.",
+    "examples": [
+      "Den västliga kusten skiljer sig från den östliga.",
+      "Vinden gick från västlig till östlig."
+    ],
+    "related": [
+      "västlig"
+    ]
+  },
+  "inåtvänd": {
+    "opposite": "utåtvänd",
+    "description": "Inåtvänd betyder reserverad och riktad mot det egna inre. Utåtvänd betyder öppen och social.",
+    "examples": [
+      "Han är inåtvänd, medan hans syster är utåtvänd.",
+      "Hon blev mer utåtvänd efter att ha varit inåtvänd."
+    ],
+    "related": [
+      "utåtvänd"
+    ]
+  },
+  "utåtvänd": {
+    "opposite": "inåtvänd",
+    "description": "Inåtvänd betyder reserverad och riktad mot det egna inre. Utåtvänd betyder öppen och social.",
+    "examples": [
+      "Han är inåtvänd, medan hans syster är utåtvänd.",
+      "Hon blev mer utåtvänd efter att ha varit inåtvänd."
+    ],
+    "related": [
+      "inåtvänd"
+    ]
+  },
+  "mänsklig": {
+    "opposite": "omänsklig",
+    "description": "Mänsklig betyder som hör till människor eller visar medkänsla. Omänsklig betyder grym eller utan mänsklig hänsyn.",
+    "examples": [
+      "Bemötandet var mänskligt, men villkoren var omänskliga.",
+      "De ersatte den omänskliga behandlingen med en mänsklig."
+    ],
+    "related": [
+      "omänsklig"
+    ]
+  },
+  "omänsklig": {
+    "opposite": "mänsklig",
+    "description": "Mänsklig betyder som hör till människor eller visar medkänsla. Omänsklig betyder grym eller utan mänsklig hänsyn.",
+    "examples": [
+      "Bemötandet var mänskligt, men villkoren var omänskliga.",
+      "De ersatte den omänskliga behandlingen med en mänsklig."
+    ],
+    "related": [
+      "mänsklig"
+    ]
+  },
+  "industrialiserad": {
+    "opposite": "oindustrialiserad",
+    "description": "Industrialiserad betyder utvecklad med omfattande industri. Oindustrialiserad betyder utan sådan industrialisering.",
+    "examples": [
+      "Den industrialiserade regionen låg bredvid en oindustrialiserad.",
+      "Området gick från oindustrialiserat till industrialiserat."
+    ],
+    "related": [
+      "oindustrialiserad"
+    ]
+  },
+  "oindustrialiserad": {
+    "opposite": "industrialiserad",
+    "description": "Industrialiserad betyder utvecklad med omfattande industri. Oindustrialiserad betyder utan sådan industrialisering.",
+    "examples": [
+      "Den industrialiserade regionen låg bredvid en oindustrialiserad.",
+      "Området gick från oindustrialiserat till industrialiserat."
+    ],
+    "related": [
+      "industrialiserad"
+    ]
+  },
+  "elektrisk": {
+    "opposite": "mekanisk",
+    "description": "Elektrisk betyder driven eller styrd med elektricitet. Mekanisk betyder driven av fysiska delar och rörelser.",
+    "examples": [
+      "Låset finns i en elektrisk och en mekanisk version.",
+      "Den elektriska pumpen ersatte den mekaniska."
+    ],
+    "related": [
+      "mekanisk"
+    ]
+  },
+  "mekanisk": {
+    "opposite": "elektrisk",
+    "description": "Elektrisk betyder driven eller styrd med elektricitet. Mekanisk betyder driven av fysiska delar och rörelser.",
+    "examples": [
+      "Låset finns i en elektrisk och en mekanisk version.",
+      "Den elektriska pumpen ersatte den mekaniska."
+    ],
+    "related": [
+      "elektrisk"
+    ]
+  },
+  "bärbar": {
+    "opposite": "stationär",
+    "description": "Bärbar betyder lätt att ta med. Stationär betyder avsedd att stå på en fast plats.",
+    "examples": [
+      "Hon tog med den bärbara datorn och lämnade den stationära hemma.",
+      "Verktyget finns som bärbart och stationärt."
+    ],
+    "related": [
+      "stationär"
+    ]
+  },
+  "stationär": {
+    "opposite": "bärbar",
+    "description": "Bärbar betyder lätt att ta med. Stationär betyder avsedd att stå på en fast plats.",
+    "examples": [
+      "Hon tog med den bärbara datorn och lämnade den stationära hemma.",
+      "Verktyget finns som bärbart och stationärt."
+    ],
+    "related": [
+      "bärbar"
+    ]
+  },
+  "mobil": {
+    "opposite": "fast",
+    "description": "Mobil betyder flyttbar eller rörlig. Fast betyder stationär eller fäst på en plats.",
+    "examples": [
+      "Kliniken har en mobil enhet och en fast mottagning.",
+      "Antennen kan vara mobil eller fast."
+    ],
+    "related": [
+      "fast"
+    ]
+  },
+  "fast": {
+    "opposite": "mobil",
+    "description": "Mobil betyder flyttbar eller rörlig. Fast betyder stationär eller fäst på en plats.",
+    "examples": [
+      "Kliniken har en mobil enhet och en fast mottagning.",
+      "Antennen kan vara mobil eller fast."
+    ],
+    "related": [
+      "mobil"
+    ]
+  },
+  "online": {
+    "opposite": "offline",
+    "description": "Online betyder ansluten till ett nätverk. Offline betyder frånkopplad från nätverket.",
+    "examples": [
+      "Tjänsten fungerar både online och offline.",
+      "Datorn gick från offline till online."
+    ],
+    "related": [
+      "offline"
+    ]
+  },
+  "offline": {
+    "opposite": "online",
+    "description": "Online betyder ansluten till ett nätverk. Offline betyder frånkopplad från nätverket.",
+    "examples": [
+      "Tjänsten fungerar både online och offline.",
+      "Datorn gick från offline till online."
+    ],
+    "related": [
+      "online"
+    ]
+  },
+  "synkroniserad": {
+    "opposite": "osynkroniserad",
+    "description": "Synkroniserad betyder samordnad i tid eller data. Osynkroniserad betyder att samordningen saknas.",
+    "examples": [
+      "Mapparna är synkroniserade, men säkerhetskopian är osynkroniserad.",
+      "Telefonen gick från osynkroniserad till synkroniserad."
+    ],
+    "related": [
+      "osynkroniserad"
+    ]
+  },
+  "osynkroniserad": {
+    "opposite": "synkroniserad",
+    "description": "Synkroniserad betyder samordnad i tid eller data. Osynkroniserad betyder att samordningen saknas.",
+    "examples": [
+      "Mapparna är synkroniserade, men säkerhetskopian är osynkroniserad.",
+      "Telefonen gick från osynkroniserad till synkroniserad."
+    ],
+    "related": [
+      "synkroniserad"
+    ]
+  },
+  "krypterad": {
+    "opposite": "okrypterad",
+    "description": "Krypterad betyder skyddad genom kodning. Okrypterad betyder att sådan kodning saknas.",
+    "examples": [
+      "Meddelandet är krypterat, men bilagan är okrypterad.",
+      "Skicka känsliga uppgifter krypterat, inte okrypterat."
+    ],
+    "related": [
+      "okrypterad"
+    ]
+  },
+  "okrypterad": {
+    "opposite": "krypterad",
+    "description": "Krypterad betyder skyddad genom kodning. Okrypterad betyder att sådan kodning saknas.",
+    "examples": [
+      "Meddelandet är krypterat, men bilagan är okrypterad.",
+      "Skicka känsliga uppgifter krypterat, inte okrypterat."
+    ],
+    "related": [
+      "krypterad"
+    ]
+  },
+  "komprimerad": {
+    "opposite": "okomprimerad",
+    "description": "Komprimerad betyder packad för att ta mindre plats. Okomprimerad betyder lagrad utan sådan packning.",
+    "examples": [
+      "Den komprimerade filen är mindre än den okomprimerade.",
+      "Ljudet finns i komprimerad och okomprimerad form."
+    ],
+    "related": [
+      "okomprimerad"
+    ]
+  },
+  "okomprimerad": {
+    "opposite": "komprimerad",
+    "description": "Komprimerad betyder packad för att ta mindre plats. Okomprimerad betyder lagrad utan sådan packning.",
+    "examples": [
+      "Den komprimerade filen är mindre än den okomprimerade.",
+      "Ljudet finns i komprimerad och okomprimerad form."
+    ],
+    "related": [
+      "komprimerad"
+    ]
+  },
+  "filtrerad": {
+    "opposite": "ofiltrerad",
+    "description": "Filtrerad betyder renad eller sorterad genom ett filter. Ofiltrerad betyder att inget filter har använts.",
+    "examples": [
+      "Vattnet är filtrerat, men provet är ofiltrerat.",
+      "Jämför den filtrerade bilden med den ofiltrerade."
+    ],
+    "related": [
+      "ofiltrerad"
+    ]
+  },
+  "ofiltrerad": {
+    "opposite": "filtrerad",
+    "description": "Filtrerad betyder renad eller sorterad genom ett filter. Ofiltrerad betyder att inget filter har använts.",
+    "examples": [
+      "Vattnet är filtrerat, men provet är ofiltrerat.",
+      "Jämför den filtrerade bilden med den ofiltrerade."
+    ],
+    "related": [
+      "filtrerad"
+    ]
+  },
+  "sorterad": {
+    "opposite": "osorterad",
+    "description": "Sorterad betyder ordnad efter ett system. Osorterad betyder att sådan ordning saknas.",
+    "examples": [
+      "Den sorterade posten ligger bredvid den osorterade.",
+      "Listan gick från osorterad till sorterad."
+    ],
+    "related": [
+      "osorterad"
+    ]
+  },
+  "osorterad": {
+    "opposite": "sorterad",
+    "description": "Sorterad betyder ordnad efter ett system. Osorterad betyder att sådan ordning saknas.",
+    "examples": [
+      "Den sorterade posten ligger bredvid den osorterade.",
+      "Listan gick från osorterad till sorterad."
+    ],
+    "related": [
+      "sorterad"
+    ]
+  },
+  "indexerad": {
+    "opposite": "oindexerad",
+    "description": "Indexerad betyder upptagen i ett index och möjlig att hitta där. Oindexerad betyder att den saknas i indexet.",
+    "examples": [
+      "Sidan är indexerad, men den nya sidan är ännu oindexerad.",
+      "Sökmotorn skiljer mellan indexerade och oindexerade sidor."
+    ],
+    "related": [
+      "oindexerad"
+    ]
+  },
+  "oindexerad": {
+    "opposite": "indexerad",
+    "description": "Indexerad betyder upptagen i ett index och möjlig att hitta där. Oindexerad betyder att den saknas i indexet.",
+    "examples": [
+      "Sidan är indexerad, men den nya sidan är ännu oindexerad.",
+      "Sökmotorn skiljer mellan indexerade och oindexerade sidor."
+    ],
+    "related": [
+      "indexerad"
+    ]
+  },
+  "publicerad": {
+    "opposite": "opublicerad",
+    "description": "Publicerad betyder utgiven eller gjord offentlig. Opublicerad betyder att den ännu inte har publicerats.",
+    "examples": [
+      "Artikeln är publicerad, men bilagan är opublicerad.",
+      "Hon jämförde publicerade och opublicerade texter."
+    ],
+    "related": [
+      "opublicerad"
+    ]
+  },
+  "opublicerad": {
+    "opposite": "publicerad",
+    "description": "Publicerad betyder utgiven eller gjord offentlig. Opublicerad betyder att den ännu inte har publicerats.",
+    "examples": [
+      "Artikeln är publicerad, men bilagan är opublicerad.",
+      "Hon jämförde publicerade och opublicerade texter."
+    ],
+    "related": [
+      "publicerad"
+    ]
+  },
+  "registrerad": {
+    "opposite": "oregistrerad",
+    "description": "Registrerad betyder införd i ett register. Oregistrerad betyder att registrering saknas.",
+    "examples": [
+      "Bilen är registrerad, men släpet är oregistrerat.",
+      "Systemet visar registrerade och oregistrerade användare."
+    ],
+    "related": [
+      "oregistrerad"
+    ]
+  },
+  "oregistrerad": {
+    "opposite": "registrerad",
+    "description": "Registrerad betyder införd i ett register. Oregistrerad betyder att registrering saknas.",
+    "examples": [
+      "Bilen är registrerad, men släpet är oregistrerat.",
+      "Systemet visar registrerade och oregistrerade användare."
+    ],
+    "related": [
+      "registrerad"
+    ]
+  },
+  "licensierad": {
+    "opposite": "olicensierad",
+    "description": "Licensierad betyder försedd med eller godkänd genom en licens. Olicensierad betyder utan licens.",
+    "examples": [
+      "Programmet är licensierat, medan kopian är olicensierad.",
+      "Endast licensierade aktörer får ersätta de olicensierade."
+    ],
+    "related": [
+      "olicensierad"
+    ]
+  },
+  "olicensierad": {
+    "opposite": "licensierad",
+    "description": "Licensierad betyder försedd med eller godkänd genom en licens. Olicensierad betyder utan licens.",
+    "examples": [
+      "Programmet är licensierat, medan kopian är olicensierad.",
+      "Endast licensierade aktörer får ersätta de olicensierade."
+    ],
+    "related": [
+      "licensierad"
+    ]
+  },
+  "certifierad": {
+    "opposite": "ocertifierad",
+    "description": "Certifierad betyder godkänd genom en certifiering. Ocertifierad betyder att sådan certifiering saknas.",
+    "examples": [
+      "Produkten är certifierad, men prototypen är ocertifierad.",
+      "Kontrollen skiljer certifierade leverantörer från ocertifierade."
+    ],
+    "related": [
+      "ocertifierad"
+    ]
+  },
+  "ocertifierad": {
+    "opposite": "certifierad",
+    "description": "Certifierad betyder godkänd genom en certifiering. Ocertifierad betyder att sådan certifiering saknas.",
+    "examples": [
+      "Produkten är certifierad, men prototypen är ocertifierad.",
+      "Kontrollen skiljer certifierade leverantörer från ocertifierade."
+    ],
+    "related": [
+      "certifierad"
+    ]
+  },
+  "verifierad": {
+    "opposite": "overifierad",
+    "description": "Verifierad betyder kontrollerad och bekräftad. Overifierad betyder att kontroll eller bekräftelse saknas.",
+    "examples": [
+      "Uppgiften är verifierad, men ryktet är overifierat.",
+      "Använd verifierade källor i stället för overifierade."
+    ],
+    "related": [
+      "overifierad"
+    ]
+  },
+  "overifierad": {
+    "opposite": "verifierad",
+    "description": "Verifierad betyder kontrollerad och bekräftad. Overifierad betyder att kontroll eller bekräftelse saknas.",
+    "examples": [
+      "Uppgiften är verifierad, men ryktet är overifierat.",
+      "Använd verifierade källor i stället för overifierade."
+    ],
+    "related": [
+      "verifierad"
+    ]
+  },
+  "original": {
+    "opposite": "kopia",
+    "description": "Ett original är det första eller äkta exemplaret. En kopia är en återgivning av originalet.",
+    "examples": [
+      "Originalet förvaras i arkivet och en kopia visas upp.",
+      "Kontrollera om dokumentet är original eller kopia."
+    ],
+    "related": [
+      "kopia"
+    ]
+  },
+  "kopia": {
+    "opposite": "original",
+    "description": "Ett original är det första eller äkta exemplaret. En kopia är en återgivning av originalet.",
+    "examples": [
+      "Originalet förvaras i arkivet och en kopia visas upp.",
+      "Kontrollera om dokumentet är original eller kopia."
+    ],
+    "related": [
+      "original"
+    ]
+  },
+  "hel": {
+    "opposite": "trasig",
+    "description": "Hel betyder oskadad och fungerande. Trasig betyder skadad eller inte fungerande.",
+    "examples": [
+      "Den ena koppen är hel och den andra trasig.",
+      "Mekanikern bytte den trasiga delen mot en hel."
+    ],
+    "related": [
+      "trasig"
+    ]
+  },
+  "trasig": {
+    "opposite": "hel",
+    "description": "Hel betyder oskadad och fungerande. Trasig betyder skadad eller inte fungerande.",
+    "examples": [
+      "Den ena koppen är hel och den andra trasig.",
+      "Mekanikern bytte den trasiga delen mot en hel."
+    ],
+    "related": [
+      "hel"
+    ]
+  },
+  "monterad": {
+    "opposite": "demonterad",
+    "description": "Monterad betyder hopsatt. Demonterad betyder isärtagen.",
+    "examples": [
+      "Cykeln levereras monterad eller demonterad.",
+      "Maskinen gick från monterad till demonterad."
+    ],
+    "related": [
+      "demonterad"
+    ]
+  },
+  "demonterad": {
+    "opposite": "monterad",
+    "description": "Monterad betyder hopsatt. Demonterad betyder isärtagen.",
+    "examples": [
+      "Cykeln levereras monterad eller demonterad.",
+      "Maskinen gick från monterad till demonterad."
+    ],
+    "related": [
+      "monterad"
+    ]
+  },
+  "hopfälld": {
+    "opposite": "utfälld",
+    "description": "Hopfälld betyder vikt ihop. Utfälld betyder öppnad till full storlek.",
+    "examples": [
+      "Stolen är hopfälld, men bordet är utfällt.",
+      "Fäll paraplyet från hopfällt till utfällt läge."
+    ],
+    "related": [
+      "utfälld"
+    ]
+  },
+  "utfälld": {
+    "opposite": "hopfälld",
+    "description": "Hopfälld betyder vikt ihop. Utfälld betyder öppnad till full storlek.",
+    "examples": [
+      "Stolen är hopfälld, men bordet är utfällt.",
+      "Fäll paraplyet från hopfällt till utfällt läge."
+    ],
+    "related": [
+      "hopfälld"
+    ]
+  },
+  "uppblåst": {
+    "opposite": "tömd",
+    "description": "Uppblåst betyder fylld med luft eller gas. Tömd betyder att innehållet har tagits bort.",
+    "examples": [
+      "Ballongen var uppblåst, men den andra var tömd.",
+      "Båten förvaras tömd och används uppblåst."
+    ],
+    "related": [
+      "tömd"
+    ]
+  },
+  "tömd": {
+    "opposite": "uppblåst",
+    "description": "Uppblåst betyder fylld med luft eller gas. Tömd betyder att innehållet har tagits bort.",
+    "examples": [
+      "Ballongen var uppblåst, men den andra var tömd.",
+      "Båten förvaras tömd och används uppblåst."
+    ],
+    "related": [
+      "uppblåst"
+    ]
+  },
+  "påslagen": {
+    "opposite": "avstängd",
+    "description": "Påslagen betyder att en apparat är igång. Avstängd betyder att den inte är igång.",
+    "examples": [
+      "Lampan är påslagen, men datorn är avstängd.",
+      "Stäng av den påslagna apparaten så att den blir avstängd."
+    ],
+    "related": [
+      "avstängd"
+    ]
+  },
+  "avstängd": {
+    "opposite": "påslagen",
+    "description": "Påslagen betyder att en apparat är igång. Avstängd betyder att den inte är igång.",
+    "examples": [
+      "Lampan är påslagen, men datorn är avstängd.",
+      "Stäng av den påslagna apparaten så att den blir avstängd."
+    ],
+    "related": [
+      "påslagen"
+    ]
+  },
+  "laddad": {
+    "opposite": "urladdad",
+    "description": "Laddad betyder att ett batteri har lagrad energi. Urladdad betyder att energin är slut.",
+    "examples": [
+      "Det ena batteriet är laddat och det andra urladdat.",
+      "Ladda det urladdade batteriet tills det är laddat."
+    ],
+    "related": [
+      "urladdad"
+    ]
+  },
+  "urladdad": {
+    "opposite": "laddad",
+    "description": "Laddad betyder att ett batteri har lagrad energi. Urladdad betyder att energin är slut.",
+    "examples": [
+      "Det ena batteriet är laddat och det andra urladdat.",
+      "Ladda det urladdade batteriet tills det är laddat."
+    ],
+    "related": [
+      "laddad"
+    ]
+  },
+  "inkopplad": {
+    "opposite": "urkopplad",
+    "description": "Inkopplad betyder ansluten och i kretsen. Urkopplad betyder bortkopplad.",
+    "examples": [
+      "Maskinen är inkopplad, men reservdelen är urkopplad.",
+      "Koppla ur den inkopplade apparaten så att den blir urkopplad."
+    ],
+    "related": [
+      "urkopplad"
+    ]
+  },
+  "urkopplad": {
+    "opposite": "inkopplad",
+    "description": "Inkopplad betyder ansluten och i kretsen. Urkopplad betyder bortkopplad.",
+    "examples": [
+      "Maskinen är inkopplad, men reservdelen är urkopplad.",
+      "Koppla ur den inkopplade apparaten så att den blir urkopplad."
+    ],
+    "related": [
+      "inkopplad"
+    ]
+  },
+  "parkerad": {
+    "opposite": "rullande",
+    "description": "Parkerad betyder stillastående på en parkeringsplats. Rullande betyder i rörelse på hjul.",
+    "examples": [
+      "Bilen var parkerad, medan bussen var rullande.",
+      "Fordonet gick från rullande till parkerat."
+    ],
+    "related": [
+      "rullande"
+    ]
+  },
+  "rullande": {
+    "opposite": "parkerad",
+    "description": "Parkerad betyder stillastående på en parkeringsplats. Rullande betyder i rörelse på hjul.",
+    "examples": [
+      "Bilen var parkerad, medan bussen var rullande.",
+      "Fordonet gick från rullande till parkerat."
+    ],
+    "related": [
+      "parkerad"
+    ]
+  },
+  "inzoomad": {
+    "opposite": "utzoomad",
+    "description": "Inzoomad betyder visad nära med liten del av bilden. Utzoomad betyder visad längre bort med större överblick.",
+    "examples": [
+      "Den inzoomade bilden visar detaljen, den utzoomade hela huset.",
+      "Vyn växlade från inzoomad till utzoomad."
+    ],
+    "related": [
+      "utzoomad"
+    ]
+  },
+  "utzoomad": {
+    "opposite": "inzoomad",
+    "description": "Inzoomad betyder visad nära med liten del av bilden. Utzoomad betyder visad längre bort med större överblick.",
+    "examples": [
+      "Den inzoomade bilden visar detaljen, den utzoomade hela huset.",
+      "Vyn växlade från inzoomad till utzoomad."
+    ],
+    "related": [
+      "inzoomad"
+    ]
+  },
+  "förstorad": {
+    "opposite": "förminskad",
+    "description": "Förstorad betyder gjord större. Förminskad betyder gjord mindre.",
+    "examples": [
+      "Bilden finns i en förstorad och en förminskad version.",
+      "Den förstorade kartan visar mer än den förminskade."
+    ],
+    "related": [
+      "förminskad"
+    ]
+  },
+  "förminskad": {
+    "opposite": "förstorad",
+    "description": "Förstorad betyder gjord större. Förminskad betyder gjord mindre.",
+    "examples": [
+      "Bilden finns i en förstorad och en förminskad version.",
+      "Den förstorade kartan visar mer än den förminskade."
+    ],
+    "related": [
+      "förstorad"
+    ]
+  },
+  "jordad": {
+    "opposite": "ojordad",
+    "description": "Jordad betyder elektriskt ansluten till jord. Ojordad betyder utan sådan anslutning.",
+    "examples": [
+      "Kontakten är jordad, men den gamla är ojordad.",
+      "Använd jordad utrustning i stället för ojordad där det krävs."
+    ],
+    "related": [
+      "ojordad"
+    ]
+  },
+  "ojordad": {
+    "opposite": "jordad",
+    "description": "Jordad betyder elektriskt ansluten till jord. Ojordad betyder utan sådan anslutning.",
+    "examples": [
+      "Kontakten är jordad, men den gamla är ojordad.",
+      "Använd jordad utrustning i stället för ojordad där det krävs."
+    ],
+    "related": [
+      "jordad"
+    ]
   }
 };
