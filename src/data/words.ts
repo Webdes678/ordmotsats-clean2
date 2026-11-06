@@ -10492,5 +10492,1105 @@ export const words = {
     "related": [
       "inandas"
     ]
+  },
+  "inkongruent": {
+    "opposite": "kongruent",
+    "description": "Kongruent betyder överensstämmande. Inkongruent betyder att överensstämmelse saknas.",
+    "examples": [
+      "Delarna är kongruenta, men den sista är inkongruent.",
+      "Gör det inkongruenta mönstret kongruent."
+    ],
+    "related": [
+      "kongruent"
+    ]
+  },
+  "kongruent": {
+    "opposite": "inkongruent",
+    "description": "Kongruent betyder överensstämmande. Inkongruent betyder att överensstämmelse saknas.",
+    "examples": [
+      "Delarna är kongruenta, men den sista är inkongruent.",
+      "Gör det inkongruenta mönstret kongruent."
+    ],
+    "related": [
+      "inkongruent"
+    ]
+  },
+  "halal": {
+    "opposite": "haram",
+    "description": "Halal betyder tillåtet enligt islam. Haram betyder förbjudet.",
+    "examples": [
+      "Maten är halal och inte haram.",
+      "Reglerna skiljer mellan halal och haram."
+    ],
+    "related": [
+      "haram"
+    ]
+  },
+  "haram": {
+    "opposite": "halal",
+    "description": "Halal betyder tillåtet enligt islam. Haram betyder förbjudet.",
+    "examples": [
+      "Maten är halal och inte haram.",
+      "Reglerna skiljer mellan halal och haram."
+    ],
+    "related": [
+      "halal"
+    ]
+  },
+  "geocentrisk": {
+    "opposite": "heliocentrisk",
+    "description": "En geocentrisk modell har jorden i centrum. En heliocentrisk modell har solen i centrum.",
+    "examples": [
+      "Den geocentriska modellen ersattes av en heliocentrisk.",
+      "Kursen jämför geocentrisk och heliocentrisk världsbild."
+    ],
+    "related": [
+      "heliocentrisk"
+    ]
+  },
+  "heliocentrisk": {
+    "opposite": "geocentrisk",
+    "description": "En geocentrisk modell har jorden i centrum. En heliocentrisk modell har solen i centrum.",
+    "examples": [
+      "Den geocentriska modellen ersattes av en heliocentrisk.",
+      "Kursen jämför geocentrisk och heliocentrisk världsbild."
+    ],
+    "related": [
+      "geocentrisk"
+    ]
+  },
+  "input": {
+    "opposite": "output",
+    "description": "Input är information som matas in. Output är information som kommer ut.",
+    "examples": [
+      "Programmet omvandlar input till output.",
+      "Kontrollera input innan du granskar output."
+    ],
+    "related": [
+      "output"
+    ]
+  },
+  "output": {
+    "opposite": "input",
+    "description": "Input är information som matas in. Output är information som kommer ut.",
+    "examples": [
+      "Programmet omvandlar input till output.",
+      "Kontrollera input innan du granskar output."
+    ],
+    "related": [
+      "input"
+    ]
+  },
+  "illojalitet": {
+    "opposite": "lojalitet",
+    "description": "Lojalitet betyder trofasthet. Illojalitet betyder brist på trofasthet.",
+    "examples": [
+      "Hon visade lojalitet, inte illojalitet.",
+      "Illojaliteten skadade det tidigare förtroendet och lojaliteten."
+    ],
+    "related": [
+      "lojalitet"
+    ]
+  },
+  "lojalitet": {
+    "opposite": "illojalitet",
+    "description": "Lojalitet betyder trofasthet. Illojalitet betyder brist på trofasthet.",
+    "examples": [
+      "Hon visade lojalitet, inte illojalitet.",
+      "Illojaliteten skadade det tidigare förtroendet och lojaliteten."
+    ],
+    "related": [
+      "illojalitet"
+    ]
+  },
+  "gammalmodig": {
+    "opposite": "nymodig",
+    "description": "Gammalmodig betyder omodern. Nymodig betyder modern eller ny i stilen.",
+    "examples": [
+      "Köket var gammalmodigt men blev nymodigt efter renoveringen.",
+      "Hon valde en nymodig lösning framför en gammalmodig."
+    ],
+    "related": [
+      "nymodig"
+    ]
+  },
+  "nymodig": {
+    "opposite": "gammalmodig",
+    "description": "Gammalmodig betyder omodern. Nymodig betyder modern eller ny i stilen.",
+    "examples": [
+      "Köket var gammalmodigt men blev nymodigt efter renoveringen.",
+      "Hon valde en nymodig lösning framför en gammalmodig."
+    ],
+    "related": [
+      "gammalmodig"
+    ]
+  },
+  "lövfällande": {
+    "opposite": "städsegrön",
+    "description": "Lövfällande växter tappar sina blad säsongsvis. Städsegröna behåller gröna blad året runt.",
+    "examples": [
+      "Björken är lövfällande och granen städsegrön.",
+      "Trädgården har både lövfällande och städsegröna växter."
+    ],
+    "related": [
+      "städsegrön"
+    ]
+  },
+  "städsegrön": {
+    "opposite": "lövfällande",
+    "description": "Lövfällande växter tappar sina blad säsongsvis. Städsegröna behåller gröna blad året runt.",
+    "examples": [
+      "Björken är lövfällande och granen städsegrön.",
+      "Trädgården har både lövfällande och städsegröna växter."
+    ],
+    "related": [
+      "lövfällande"
+    ]
+  },
+  "ljushårig": {
+    "opposite": "mörkhårig",
+    "description": "Ljushårig betyder med ljust hår. Mörkhårig betyder med mörkt hår.",
+    "examples": [
+      "Det ljushåriga barnet stod bredvid det mörkhåriga.",
+      "Hon var ljushårig som liten men är nu mörkhårig."
+    ],
+    "related": [
+      "mörkhårig"
+    ]
+  },
+  "mörkhårig": {
+    "opposite": "ljushårig",
+    "description": "Ljushårig betyder med ljust hår. Mörkhårig betyder med mörkt hår.",
+    "examples": [
+      "Det ljushåriga barnet stod bredvid det mörkhåriga.",
+      "Hon var ljushårig som liten men är nu mörkhårig."
+    ],
+    "related": [
+      "ljushårig"
+    ]
+  },
+  "matleda": {
+    "opposite": "matlust",
+    "description": "Matlust är vilja att äta. Matleda är motvilja mot mat.",
+    "examples": [
+      "Sjukdomen gav matleda, men senare återkom matlusten.",
+      "God matlust ersatte den tidigare matledan."
+    ],
+    "related": [
+      "matlust"
+    ]
+  },
+  "matlust": {
+    "opposite": "matleda",
+    "description": "Matlust är vilja att äta. Matleda är motvilja mot mat.",
+    "examples": [
+      "Sjukdomen gav matleda, men senare återkom matlusten.",
+      "God matlust ersatte den tidigare matledan."
+    ],
+    "related": [
+      "matleda"
+    ]
+  },
+  "oöversättlig": {
+    "opposite": "översättlig",
+    "description": "Översättlig betyder möjlig att översätta. Oöversättlig betyder att en fullgod översättning inte är möjlig.",
+    "examples": [
+      "Uttrycket är översättligt, men ordleken nästan oöversättlig.",
+      "En oöversättlig fras kräver mer förklaring än en översättlig."
+    ],
+    "related": [
+      "översättlig"
+    ]
+  },
+  "översättlig": {
+    "opposite": "oöversättlig",
+    "description": "Översättlig betyder möjlig att översätta. Oöversättlig betyder att en fullgod översättning inte är möjlig.",
+    "examples": [
+      "Uttrycket är översättligt, men ordleken nästan oöversättlig.",
+      "En oöversättlig fras kräver mer förklaring än en översättlig."
+    ],
+    "related": [
+      "oöversättlig"
+    ]
+  },
+  "underviktig": {
+    "opposite": "överviktig",
+    "description": "Underviktig betyder under ett hälsosamt viktintervall. Överviktig betyder över intervallet.",
+    "examples": [
+      "Bedömningen visade att en var underviktig och en överviktig.",
+      "Varken underviktiga eller överviktiga personer bör bedömas utan helhetssyn."
+    ],
+    "related": [
+      "överviktig"
+    ]
+  },
+  "överviktig": {
+    "opposite": "underviktig",
+    "description": "Underviktig betyder under ett hälsosamt viktintervall. Överviktig betyder över intervallet.",
+    "examples": [
+      "Bedömningen visade att en var underviktig och en överviktig.",
+      "Varken underviktiga eller överviktiga personer bör bedömas utan helhetssyn."
+    ],
+    "related": [
+      "underviktig"
+    ]
+  },
+  "innansida": {
+    "opposite": "yttersida",
+    "description": "Innansidan vetter inåt. Yttersidan vetter utåt.",
+    "examples": [
+      "Färgen skiljer sig mellan innansidan och yttersidan.",
+      "Tvätta yttersidan och torka innansidan."
+    ],
+    "related": [
+      "yttersida"
+    ]
+  },
+  "yttersida": {
+    "opposite": "innansida",
+    "description": "Innansidan vetter inåt. Yttersidan vetter utåt.",
+    "examples": [
+      "Färgen skiljer sig mellan innansidan och yttersidan.",
+      "Tvätta yttersidan och torka innansidan."
+    ],
+    "related": [
+      "innansida"
+    ]
+  },
+  "senarelägga": {
+    "opposite": "tidigarelägga",
+    "description": "Senarelägga betyder flytta till en senare tid. Tidigarelägga betyder flytta till en tidigare tid.",
+    "examples": [
+      "Vi måste senarelägga mötet men tidigarelägga leveransen.",
+      "De tidigarelagde starten och senarelagde slutet."
+    ],
+    "related": [
+      "tidigarelägga"
+    ]
+  },
+  "tidigarelägga": {
+    "opposite": "senarelägga",
+    "description": "Senarelägga betyder flytta till en senare tid. Tidigarelägga betyder flytta till en tidigare tid.",
+    "examples": [
+      "Vi måste senarelägga mötet men tidigarelägga leveransen.",
+      "De tidigarelagde starten och senarelagde slutet."
+    ],
+    "related": [
+      "senarelägga"
+    ]
+  },
+  "anterograd": {
+    "opposite": "retrograd",
+    "description": "Anterograd betyder framåtriktad. Retrograd betyder bakåtriktad.",
+    "examples": [
+      "Rörelsen var anterograd först och retrograd sedan.",
+      "Planeten tycktes gå från anterograd till retrograd rörelse."
+    ],
+    "related": [
+      "retrograd"
+    ]
+  },
+  "retrograd": {
+    "opposite": "anterograd",
+    "description": "Anterograd betyder framåtriktad. Retrograd betyder bakåtriktad.",
+    "examples": [
+      "Rörelsen var anterograd först och retrograd sedan.",
+      "Planeten tycktes gå från anterograd till retrograd rörelse."
+    ],
+    "related": [
+      "anterograd"
+    ]
+  },
+  "bakpart": {
+    "opposite": "frampart",
+    "description": "Bakparten är den bakre delen. Framparten är den främre.",
+    "examples": [
+      "Hästens frampart var högre än bakparten.",
+      "Skadan satt i bakparten, inte i framparten."
+    ],
+    "related": [
+      "frampart"
+    ]
+  },
+  "frampart": {
+    "opposite": "bakpart",
+    "description": "Bakparten är den bakre delen. Framparten är den främre.",
+    "examples": [
+      "Hästens frampart var högre än bakparten.",
+      "Skadan satt i bakparten, inte i framparten."
+    ],
+    "related": [
+      "bakpart"
+    ]
+  },
+  "avkriminalisera": {
+    "opposite": "kriminalisera",
+    "description": "Kriminalisera betyder göra straffbart. Avkriminalisera betyder ta bort straffansvaret.",
+    "examples": [
+      "Lagen kan kriminalisera handlingen eller avkriminalisera den.",
+      "Det som tidigare kriminaliserats blev senare avkriminaliserat."
+    ],
+    "related": [
+      "kriminalisera"
+    ]
+  },
+  "kriminalisera": {
+    "opposite": "avkriminalisera",
+    "description": "Kriminalisera betyder göra straffbart. Avkriminalisera betyder ta bort straffansvaret.",
+    "examples": [
+      "Lagen kan kriminalisera handlingen eller avkriminalisera den.",
+      "Det som tidigare kriminaliserats blev senare avkriminaliserat."
+    ],
+    "related": [
+      "avkriminalisera"
+    ]
+  },
+  "illikviditet": {
+    "opposite": "likviditet",
+    "description": "Likviditet är förmåga att betala på kort sikt. Illikviditet är brist på tillgängliga betalningsmedel.",
+    "examples": [
+      "Företaget gick från illikviditet till god likviditet.",
+      "Hög likviditet minskar risken för illikviditet."
+    ],
+    "related": [
+      "likviditet"
+    ]
+  },
+  "likviditet": {
+    "opposite": "illikviditet",
+    "description": "Likviditet är förmåga att betala på kort sikt. Illikviditet är brist på tillgängliga betalningsmedel.",
+    "examples": [
+      "Företaget gick från illikviditet till god likviditet.",
+      "Hög likviditet minskar risken för illikviditet."
+    ],
+    "related": [
+      "illikviditet"
+    ]
+  },
+  "orättmätig": {
+    "opposite": "rättmätig",
+    "description": "Rättmätig betyder berättigad. Orättmätig betyder utan laglig eller moralisk rätt.",
+    "examples": [
+      "Den rättmätiga ägaren återfick det orättmätigt tagna föremålet.",
+      "Kravet var rättmätigt, inte orättmätigt."
+    ],
+    "related": [
+      "rättmätig"
+    ]
+  },
+  "rättmätig": {
+    "opposite": "orättmätig",
+    "description": "Rättmätig betyder berättigad. Orättmätig betyder utan laglig eller moralisk rätt.",
+    "examples": [
+      "Den rättmätiga ägaren återfick det orättmätigt tagna föremålet.",
+      "Kravet var rättmätigt, inte orättmätigt."
+    ],
+    "related": [
+      "orättmätig"
+    ]
+  },
+  "högklackad": {
+    "opposite": "lågklackad",
+    "description": "Högklackad betyder med hög klack. Lågklackad betyder med låg klack.",
+    "examples": [
+      "Hon bytte högklackade skor mot lågklackade.",
+      "De lågklackade skorna var bekvämare än de högklackade."
+    ],
+    "related": [
+      "lågklackad"
+    ]
+  },
+  "lågklackad": {
+    "opposite": "högklackad",
+    "description": "Högklackad betyder med hög klack. Lågklackad betyder med låg klack.",
+    "examples": [
+      "Hon bytte högklackade skor mot lågklackade.",
+      "De lågklackade skorna var bekvämare än de högklackade."
+    ],
+    "related": [
+      "högklackad"
+    ]
+  },
+  "högland": {
+    "opposite": "lågland",
+    "description": "Högland ligger högt över havet. Lågland ligger lågt.",
+    "examples": [
+      "Floden rinner från höglandet till låglandet.",
+      "Klimatet skiljer sig mellan högland och lågland."
+    ],
+    "related": [
+      "lågland"
+    ]
+  },
+  "lågland": {
+    "opposite": "högland",
+    "description": "Högland ligger högt över havet. Lågland ligger lågt.",
+    "examples": [
+      "Floden rinner från höglandet till låglandet.",
+      "Klimatet skiljer sig mellan högland och lågland."
+    ],
+    "related": [
+      "högland"
+    ]
+  },
+  "saltvattensfisk": {
+    "opposite": "sötvattensfisk",
+    "description": "Saltvattensfisk lever i hav. Sötvattensfisk lever i sjöar och vattendrag.",
+    "examples": [
+      "Torsk är saltvattensfisk och gädda sötvattensfisk.",
+      "Akvariet skiljer mellan saltvattensfisk och sötvattensfisk."
+    ],
+    "related": [
+      "sötvattensfisk"
+    ]
+  },
+  "sötvattensfisk": {
+    "opposite": "saltvattensfisk",
+    "description": "Saltvattensfisk lever i hav. Sötvattensfisk lever i sjöar och vattendrag.",
+    "examples": [
+      "Torsk är saltvattensfisk och gädda sötvattensfisk.",
+      "Akvariet skiljer mellan saltvattensfisk och sötvattensfisk."
+    ],
+    "related": [
+      "saltvattensfisk"
+    ]
+  },
+  "blåförskjutning": {
+    "opposite": "rödförskjutning",
+    "description": "Blåförskjutning visar rörelse mot betraktaren. Rödförskjutning visar rörelse bort.",
+    "examples": [
+      "Spektrumet visade blåförskjutning i stället för rödförskjutning.",
+      "Astronomer mäter både rödförskjutning och blåförskjutning."
+    ],
+    "related": [
+      "rödförskjutning"
+    ]
+  },
+  "rödförskjutning": {
+    "opposite": "blåförskjutning",
+    "description": "Blåförskjutning visar rörelse mot betraktaren. Rödförskjutning visar rörelse bort.",
+    "examples": [
+      "Spektrumet visade blåförskjutning i stället för rödförskjutning.",
+      "Astronomer mäter både rödförskjutning och blåförskjutning."
+    ],
+    "related": [
+      "blåförskjutning"
+    ]
+  },
+  "sommardäck": {
+    "opposite": "vinterdäck",
+    "description": "Sommardäck är anpassade för varmt väglag. Vinterdäck är anpassade för kyla och vinterväg.",
+    "examples": [
+      "Byt vinterdäck mot sommardäck på våren.",
+      "Sommardäck och vinterdäck används under olika årstider."
+    ],
+    "related": [
+      "vinterdäck"
+    ]
+  },
+  "vinterdäck": {
+    "opposite": "sommardäck",
+    "description": "Sommardäck är anpassade för varmt väglag. Vinterdäck är anpassade för kyla och vinterväg.",
+    "examples": [
+      "Byt vinterdäck mot sommardäck på våren.",
+      "Sommardäck och vinterdäck används under olika årstider."
+    ],
+    "related": [
+      "sommardäck"
+    ]
+  },
+  "lättsåld": {
+    "opposite": "svårsåld",
+    "description": "Lättsåld betyder enkel att sälja. Svårsåld betyder svår att hitta köpare till.",
+    "examples": [
+      "Den lilla bilen var lättsåld, men den skadade varan svårsåld.",
+      "Efter reparationen blev den svårsålda produkten lättsåld."
+    ],
+    "related": [
+      "svårsåld"
+    ]
+  },
+  "svårsåld": {
+    "opposite": "lättsåld",
+    "description": "Lättsåld betyder enkel att sälja. Svårsåld betyder svår att hitta köpare till.",
+    "examples": [
+      "Den lilla bilen var lättsåld, men den skadade varan svårsåld.",
+      "Efter reparationen blev den svårsålda produkten lättsåld."
+    ],
+    "related": [
+      "lättsåld"
+    ]
+  },
+  "stilfull": {
+    "opposite": "stillös",
+    "description": "Stilfull betyder smakfullt utformad. Stillös betyder utan tydlig eller god stil.",
+    "examples": [
+      "Rummet blev stilfullt efter att ha känts stillöst.",
+      "En stilfull detalj ersatte den stillösa."
+    ],
+    "related": [
+      "stillös"
+    ]
+  },
+  "stillös": {
+    "opposite": "stilfull",
+    "description": "Stilfull betyder smakfullt utformad. Stillös betyder utan tydlig eller god stil.",
+    "examples": [
+      "Rummet blev stilfullt efter att ha känts stillöst.",
+      "En stilfull detalj ersatte den stillösa."
+    ],
+    "related": [
+      "stilfull"
+    ]
+  },
+  "opansrad": {
+    "opposite": "pansrad",
+    "description": "Pansrad betyder skyddad med pansar. Opansrad betyder utan pansar.",
+    "examples": [
+      "Det pansrade fordonet tålde mer än det opansrade.",
+      "Kolonnen hade både pansrade och opansrade fordon."
+    ],
+    "related": [
+      "pansrad"
+    ]
+  },
+  "pansrad": {
+    "opposite": "opansrad",
+    "description": "Pansrad betyder skyddad med pansar. Opansrad betyder utan pansar.",
+    "examples": [
+      "Det pansrade fordonet tålde mer än det opansrade.",
+      "Kolonnen hade både pansrade och opansrade fordon."
+    ],
+    "related": [
+      "opansrad"
+    ]
+  },
+  "hejdad": {
+    "opposite": "ohejdad",
+    "description": "Hejdad betyder stoppad eller begränsad. Ohejdad betyder utan begränsning.",
+    "examples": [
+      "Den ohejdade utvecklingen blev till slut hejdad.",
+      "Elden spreds ohejdat innan den hejdades."
+    ],
+    "related": [
+      "ohejdad"
+    ]
+  },
+  "ohejdad": {
+    "opposite": "hejdad",
+    "description": "Hejdad betyder stoppad eller begränsad. Ohejdad betyder utan begränsning.",
+    "examples": [
+      "Den ohejdade utvecklingen blev till slut hejdad.",
+      "Elden spreds ohejdat innan den hejdades."
+    ],
+    "related": [
+      "hejdad"
+    ]
+  },
+  "högersida": {
+    "opposite": "vänstersida",
+    "description": "Högersidan ligger åt höger. Vänstersidan ligger åt vänster.",
+    "examples": [
+      "Texten står på högersidan och bilden på vänstersidan.",
+      "Jämför vänstersida med högersida."
+    ],
+    "related": [
+      "vänstersida"
+    ]
+  },
+  "vänstersida": {
+    "opposite": "högersida",
+    "description": "Högersidan ligger åt höger. Vänstersidan ligger åt vänster.",
+    "examples": [
+      "Texten står på högersidan och bilden på vänstersidan.",
+      "Jämför vänstersida med högersida."
+    ],
+    "related": [
+      "högersida"
+    ]
+  },
+  "undersida": {
+    "opposite": "översida",
+    "description": "Undersidan vetter nedåt. Översidan vetter uppåt.",
+    "examples": [
+      "Bordets översida är slät och undersidan grov.",
+      "Märk både undersida och översida."
+    ],
+    "related": [
+      "översida"
+    ]
+  },
+  "översida": {
+    "opposite": "undersida",
+    "description": "Undersidan vetter nedåt. Översidan vetter uppåt.",
+    "examples": [
+      "Bordets översida är slät och undersidan grov.",
+      "Märk både undersida och översida."
+    ],
+    "related": [
+      "undersida"
+    ]
+  },
+  "skuggsida": {
+    "opposite": "solsida",
+    "description": "Skuggsidan får mindre sol. Solsidan får mer sol.",
+    "examples": [
+      "Snön låg kvar på skuggsidan men smälte på solsidan.",
+      "Växterna trivs bättre på solsidan än på skuggsidan."
+    ],
+    "related": [
+      "solsida"
+    ]
+  },
+  "solsida": {
+    "opposite": "skuggsida",
+    "description": "Skuggsidan får mindre sol. Solsidan får mer sol.",
+    "examples": [
+      "Snön låg kvar på skuggsidan men smälte på solsidan.",
+      "Växterna trivs bättre på solsidan än på skuggsidan."
+    ],
+    "related": [
+      "skuggsida"
+    ]
+  },
+  "sommarsolstånd": {
+    "opposite": "vintersolstånd",
+    "description": "Sommarsolståndet ger årets längsta dag. Vintersolståndet ger årets kortaste.",
+    "examples": [
+      "Dagarna blir kortare efter sommarsolståndet och längre efter vintersolståndet.",
+      "Kalendern markerar både sommarsolstånd och vintersolstånd."
+    ],
+    "related": [
+      "vintersolstånd"
+    ]
+  },
+  "vintersolstånd": {
+    "opposite": "sommarsolstånd",
+    "description": "Sommarsolståndet ger årets längsta dag. Vintersolståndet ger årets kortaste.",
+    "examples": [
+      "Dagarna blir kortare efter sommarsolståndet och längre efter vintersolståndet.",
+      "Kalendern markerar både sommarsolstånd och vintersolstånd."
+    ],
+    "related": [
+      "sommarsolstånd"
+    ]
+  },
+  "underskattning": {
+    "opposite": "överskattning",
+    "description": "Underskattning bedömer något för lågt. Överskattning bedömer det för högt.",
+    "examples": [
+      "En underskattning av tiden följdes av en överskattning av farten.",
+      "Undvik både underskattning och överskattning."
+    ],
+    "related": [
+      "överskattning"
+    ]
+  },
+  "överskattning": {
+    "opposite": "underskattning",
+    "description": "Underskattning bedömer något för lågt. Överskattning bedömer det för högt.",
+    "examples": [
+      "En underskattning av tiden följdes av en överskattning av farten.",
+      "Undvik både underskattning och överskattning."
+    ],
+    "related": [
+      "underskattning"
+    ]
+  },
+  "minusgrad": {
+    "opposite": "plusgrad",
+    "description": "En minusgrad ligger under noll. En plusgrad ligger över noll.",
+    "examples": [
+      "Natten gav minusgrader och dagen plusgrader.",
+      "Temperaturen steg från en minusgrad till en plusgrad."
+    ],
+    "related": [
+      "plusgrad"
+    ]
+  },
+  "plusgrad": {
+    "opposite": "minusgrad",
+    "description": "En minusgrad ligger under noll. En plusgrad ligger över noll.",
+    "examples": [
+      "Natten gav minusgrader och dagen plusgrader.",
+      "Temperaturen steg från en minusgrad till en plusgrad."
+    ],
+    "related": [
+      "minusgrad"
+    ]
+  },
+  "bortalag": {
+    "opposite": "hemmalag",
+    "description": "Hemmalaget spelar på sin hemmaplan. Bortalaget är gästande lag.",
+    "examples": [
+      "Hemmalaget mötte bortalaget inför stor publik.",
+      "Bortalaget vann över hemmalaget."
+    ],
+    "related": [
+      "hemmalag"
+    ]
+  },
+  "hemmalag": {
+    "opposite": "bortalag",
+    "description": "Hemmalaget spelar på sin hemmaplan. Bortalaget är gästande lag.",
+    "examples": [
+      "Hemmalaget mötte bortalaget inför stor publik.",
+      "Bortalaget vann över hemmalaget."
+    ],
+    "related": [
+      "bortalag"
+    ]
+  },
+  "regntid": {
+    "opposite": "torrtid",
+    "description": "Regntid är en period med mycket regn. Torrtid är en period med lite regn.",
+    "examples": [
+      "Floden stiger under regntiden och sjunker under torrtiden.",
+      "Djuren vandrar mellan regntid och torrtid."
+    ],
+    "related": [
+      "torrtid"
+    ]
+  },
+  "torrtid": {
+    "opposite": "regntid",
+    "description": "Regntid är en period med mycket regn. Torrtid är en period med lite regn.",
+    "examples": [
+      "Floden stiger under regntiden och sjunker under torrtiden.",
+      "Djuren vandrar mellan regntid och torrtid."
+    ],
+    "related": [
+      "regntid"
+    ]
+  },
+  "pronation": {
+    "opposite": "supination",
+    "description": "Pronation vrider underarmen så handflatan vänds nedåt. Supination vrider den uppåt.",
+    "examples": [
+      "Rörelsen växlade mellan pronation och supination.",
+      "Supination vänder handflatan uppåt och pronation nedåt."
+    ],
+    "related": [
+      "supination"
+    ]
+  },
+  "supination": {
+    "opposite": "pronation",
+    "description": "Pronation vrider underarmen så handflatan vänds nedåt. Supination vrider den uppåt.",
+    "examples": [
+      "Rörelsen växlade mellan pronation och supination.",
+      "Supination vänder handflatan uppåt och pronation nedåt."
+    ],
+    "related": [
+      "pronation"
+    ]
+  },
+  "ja-sägare": {
+    "opposite": "nej-sägare",
+    "description": "En ja-sägare håller ofta med. En nej-sägare säger ofta emot.",
+    "examples": [
+      "Gruppen behöver varken bara ja-sägare eller bara nej-sägare.",
+      "Ja-sägaren stödde förslaget och nej-sägaren avvisade det."
+    ],
+    "related": [
+      "nej-sägare"
+    ]
+  },
+  "nej-sägare": {
+    "opposite": "ja-sägare",
+    "description": "En ja-sägare håller ofta med. En nej-sägare säger ofta emot.",
+    "examples": [
+      "Gruppen behöver varken bara ja-sägare eller bara nej-sägare.",
+      "Ja-sägaren stödde förslaget och nej-sägaren avvisade det."
+    ],
+    "related": [
+      "ja-sägare"
+    ]
+  },
+  "förgasa": {
+    "opposite": "kondensera",
+    "description": "Förgasa betyder omvandla till gas. Kondensera betyder omvandla gas till vätska.",
+    "examples": [
+      "Värmen förgasar vätskan och kylan kondenserar gasen.",
+      "Ämnet förgasades och kondenserades senare."
+    ],
+    "related": [
+      "kondensera"
+    ]
+  },
+  "kondensera": {
+    "opposite": "förgasa",
+    "description": "Förgasa betyder omvandla till gas. Kondensera betyder omvandla gas till vätska.",
+    "examples": [
+      "Värmen förgasar vätskan och kylan kondenserar gasen.",
+      "Ämnet förgasades och kondenserades senare."
+    ],
+    "related": [
+      "förgasa"
+    ]
+  },
+  "distal": {
+    "opposite": "proximal",
+    "description": "Proximal betyder nära kroppens centrum eller fästpunkt. Distal betyder längre bort.",
+    "examples": [
+      "Handen är distal om armbågen och axeln proximal.",
+      "Läkaren skiljer mellan distal och proximal skada."
+    ],
+    "related": [
+      "proximal"
+    ]
+  },
+  "proximal": {
+    "opposite": "distal",
+    "description": "Proximal betyder nära kroppens centrum eller fästpunkt. Distal betyder längre bort.",
+    "examples": [
+      "Handen är distal om armbågen och axeln proximal.",
+      "Läkaren skiljer mellan distal och proximal skada."
+    ],
+    "related": [
+      "distal"
+    ]
+  },
+  "köttätande": {
+    "opposite": "växtätande",
+    "description": "Köttätande djur äter främst andra djur. Växtätande djur äter främst växter.",
+    "examples": [
+      "Lejonet är köttätande och kon växtätande.",
+      "Tänderna skiljer sig mellan köttätande och växtätande arter."
+    ],
+    "related": [
+      "växtätande"
+    ]
+  },
+  "växtätande": {
+    "opposite": "köttätande",
+    "description": "Köttätande djur äter främst andra djur. Växtätande djur äter främst växter.",
+    "examples": [
+      "Lejonet är köttätande och kon växtätande.",
+      "Tänderna skiljer sig mellan köttätande och växtätande arter."
+    ],
+    "related": [
+      "köttätande"
+    ]
+  },
+  "viktminskning": {
+    "opposite": "viktökning",
+    "description": "Viktminskning betyder lägre kroppsvikt. Viktökning betyder högre kroppsvikt.",
+    "examples": [
+      "Rapporten visade viktminskning först och viktökning senare.",
+      "Både viktökning och viktminskning kan ha flera orsaker."
+    ],
+    "related": [
+      "viktökning"
+    ]
+  },
+  "viktökning": {
+    "opposite": "viktminskning",
+    "description": "Viktminskning betyder lägre kroppsvikt. Viktökning betyder högre kroppsvikt.",
+    "examples": [
+      "Rapporten visade viktminskning först och viktökning senare.",
+      "Både viktökning och viktminskning kan ha flera orsaker."
+    ],
+    "related": [
+      "viktminskning"
+    ]
+  },
+  "skönmåla": {
+    "opposite": "svartmåla",
+    "description": "Skönmåla betyder beskriva för positivt. Svartmåla betyder beskriva för negativt.",
+    "examples": [
+      "Försök att varken skönmåla resultatet eller svartmåla det.",
+      "Den ena texten skönmålade läget och den andra svartmålade det."
+    ],
+    "related": [
+      "svartmåla"
+    ]
+  },
+  "svartmåla": {
+    "opposite": "skönmåla",
+    "description": "Skönmåla betyder beskriva för positivt. Svartmåla betyder beskriva för negativt.",
+    "examples": [
+      "Försök att varken skönmåla resultatet eller svartmåla det.",
+      "Den ena texten skönmålade läget och den andra svartmålade det."
+    ],
+    "related": [
+      "skönmåla"
+    ]
+  },
+  "oöverlagd": {
+    "opposite": "överlagd",
+    "description": "Överlagd betyder genomtänkt i förväg. Oöverlagd betyder impulsiv eller ogenomtänkt.",
+    "examples": [
+      "Handlingen var oöverlagd, men nästa steg var överlagt.",
+      "Ett överlagt beslut ersatte den oöverlagda reaktionen."
+    ],
+    "related": [
+      "överlagd"
+    ]
+  },
+  "överlagd": {
+    "opposite": "oöverlagd",
+    "description": "Överlagd betyder genomtänkt i förväg. Oöverlagd betyder impulsiv eller ogenomtänkt.",
+    "examples": [
+      "Handlingen var oöverlagd, men nästa steg var överlagt.",
+      "Ett överlagt beslut ersatte den oöverlagda reaktionen."
+    ],
+    "related": [
+      "oöverlagd"
+    ]
+  },
+  "införsel": {
+    "opposite": "utförsel",
+    "description": "Införsel betyder att föra in varor i ett land. Utförsel betyder att föra ut dem.",
+    "examples": [
+      "Tullen kontrollerar både införsel och utförsel.",
+      "Införseln ökade samtidigt som utförseln minskade."
+    ],
+    "related": [
+      "utförsel"
+    ]
+  },
+  "utförsel": {
+    "opposite": "införsel",
+    "description": "Införsel betyder att föra in varor i ett land. Utförsel betyder att föra ut dem.",
+    "examples": [
+      "Tullen kontrollerar både införsel och utförsel.",
+      "Införseln ökade samtidigt som utförseln minskade."
+    ],
+    "related": [
+      "införsel"
+    ]
+  },
+  "oresonlig": {
+    "opposite": "resonlig",
+    "description": "Resonlig betyder rimlig och möjlig att diskutera med. Oresonlig betyder orimlig eller obeveklig.",
+    "examples": [
+      "Hon var resonlig, medan kravet var oresonligt.",
+      "Ett oresonligt svar ersattes av ett resonligt."
+    ],
+    "related": [
+      "resonlig"
+    ]
+  },
+  "resonlig": {
+    "opposite": "oresonlig",
+    "description": "Resonlig betyder rimlig och möjlig att diskutera med. Oresonlig betyder orimlig eller obeveklig.",
+    "examples": [
+      "Hon var resonlig, medan kravet var oresonligt.",
+      "Ett oresonligt svar ersattes av ett resonligt."
+    ],
+    "related": [
+      "oresonlig"
+    ]
+  },
+  "exportör": {
+    "opposite": "importör",
+    "description": "En exportör säljer varor till andra länder. En importör köper in dem därifrån.",
+    "examples": [
+      "Exportören skickade varan till importören.",
+      "Företaget är både importör och exportör."
+    ],
+    "related": [
+      "importör"
+    ]
+  },
+  "importör": {
+    "opposite": "exportör",
+    "description": "En exportör säljer varor till andra länder. En importör köper in dem därifrån.",
+    "examples": [
+      "Exportören skickade varan till importören.",
+      "Företaget är både importör och exportör."
+    ],
+    "related": [
+      "exportör"
+    ]
+  },
+  "medgörlig": {
+    "opposite": "omedgörlig",
+    "description": "Medgörlig betyder samarbetsvillig. Omedgörlig betyder svår att samarbeta med.",
+    "examples": [
+      "Patienten var medgörlig, inte omedgörlig.",
+      "Den omedgörliga gruppen blev mer medgörlig."
+    ],
+    "related": [
+      "omedgörlig"
+    ]
+  },
+  "omedgörlig": {
+    "opposite": "medgörlig",
+    "description": "Medgörlig betyder samarbetsvillig. Omedgörlig betyder svår att samarbeta med.",
+    "examples": [
+      "Patienten var medgörlig, inte omedgörlig.",
+      "Den omedgörliga gruppen blev mer medgörlig."
+    ],
+    "related": [
+      "medgörlig"
+    ]
+  },
+  "likriktare": {
+    "opposite": "växelriktare",
+    "description": "En likriktare gör växelström till likström. En växelriktare gör likström till växelström.",
+    "examples": [
+      "Likriktaren laddar batteriet och växelriktaren driver apparaten.",
+      "Systemet använder både likriktare och växelriktare."
+    ],
+    "related": [
+      "växelriktare"
+    ]
+  },
+  "växelriktare": {
+    "opposite": "likriktare",
+    "description": "En likriktare gör växelström till likström. En växelriktare gör likström till växelström.",
+    "examples": [
+      "Likriktaren laddar batteriet och växelriktaren driver apparaten.",
+      "Systemet använder både likriktare och växelriktare."
+    ],
+    "related": [
+      "likriktare"
+    ]
+  },
+  "dokumentärfilm": {
+    "opposite": "spelfilm",
+    "description": "En dokumentärfilm skildrar verkliga förhållanden. En spelfilm berättar främst en iscensatt historia.",
+    "examples": [
+      "Festivalen visade en dokumentärfilm och en spelfilm.",
+      "Dokumentärfilmen bygger på verklighet, medan spelfilmen är dramatiserad."
+    ],
+    "related": [
+      "spelfilm"
+    ]
+  },
+  "spelfilm": {
+    "opposite": "dokumentärfilm",
+    "description": "En dokumentärfilm skildrar verkliga förhållanden. En spelfilm berättar främst en iscensatt historia.",
+    "examples": [
+      "Festivalen visade en dokumentärfilm och en spelfilm.",
+      "Dokumentärfilmen bygger på verklighet, medan spelfilmen är dramatiserad."
+    ],
+    "related": [
+      "dokumentärfilm"
+    ]
+  },
+  "finissage": {
+    "opposite": "vernissage",
+    "description": "Vernissage är invigningen av en utställning. Finissage är avslutningen.",
+    "examples": [
+      "Utställningen öppnade med vernissage och slutade med finissage.",
+      "Vi besökte både vernissagen och finissagen."
+    ],
+    "related": [
+      "vernissage"
+    ]
+  },
+  "vernissage": {
+    "opposite": "finissage",
+    "description": "Vernissage är invigningen av en utställning. Finissage är avslutningen.",
+    "examples": [
+      "Utställningen öppnade med vernissage och slutade med finissage.",
+      "Vi besökte både vernissagen och finissagen."
+    ],
+    "related": [
+      "finissage"
+    ]
   }
 } as const;
