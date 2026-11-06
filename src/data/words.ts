@@ -21494,5 +21494,511 @@ export const words: Record<string, WordEntry> = {
     "related": [
       "beröm"
     ]
+  },
+  "påslag": {
+    "opposite": "avslag",
+    "description": "Påslag innebär att något slås på eller läggs till. Avslag innebär att något slås av eller nekas.",
+    "examples": [
+      "Knappen styr påslag och avslag av värmen.",
+      "Ansökan fick avslag, medan avgiften fick ett påslag."
+    ],
+    "related": [
+      "avslag"
+    ]
+  },
+  "avslag": {
+    "opposite": "påslag",
+    "description": "Påslag innebär att något slås på eller läggs till. Avslag innebär att något slås av eller nekas.",
+    "examples": [
+      "Knappen styr påslag och avslag av värmen.",
+      "Ansökan fick avslag, medan avgiften fick ett påslag."
+    ],
+    "related": [
+      "påslag"
+    ]
+  },
+  "medvind": {
+    "opposite": "motvind",
+    "description": "Medvind blåser i färdriktningen. Motvind blåser emot färdriktningen.",
+    "examples": [
+      "Cyklisten körde snabbt i medvind och långsamt i motvind.",
+      "Projektet hade först motvind men fick senare medvind."
+    ],
+    "related": [
+      "motvind"
+    ]
+  },
+  "motvind": {
+    "opposite": "medvind",
+    "description": "Medvind blåser i färdriktningen. Motvind blåser emot färdriktningen.",
+    "examples": [
+      "Cyklisten körde snabbt i medvind och långsamt i motvind.",
+      "Projektet hade först motvind men fick senare medvind."
+    ],
+    "related": [
+      "medvind"
+    ]
+  },
+  "inresa": {
+    "opposite": "utresa",
+    "description": "Inresa är att resa in i ett land eller område. Utresa är att resa därifrån.",
+    "examples": [
+      "Passet kontrolleras vid både inresa och utresa.",
+      "Datum för inresa och utresa står på blanketten."
+    ],
+    "related": [
+      "utresa"
+    ]
+  },
+  "utresa": {
+    "opposite": "inresa",
+    "description": "Inresa är att resa in i ett land eller område. Utresa är att resa därifrån.",
+    "examples": [
+      "Passet kontrolleras vid både inresa och utresa.",
+      "Datum för inresa och utresa står på blanketten."
+    ],
+    "related": [
+      "inresa"
+    ]
+  },
+  "uppgång": {
+    "opposite": "nedgång",
+    "description": "Uppgång innebär att något stiger eller ökar. Nedgång innebär att det sjunker eller minskar.",
+    "examples": [
+      "Marknaden hade en uppgång efter en lång nedgång.",
+      "Diagrammet visar både uppgång och nedgång."
+    ],
+    "related": [
+      "nedgång"
+    ]
+  },
+  "nedgång": {
+    "opposite": "uppgång",
+    "description": "Uppgång innebär att något stiger eller ökar. Nedgång innebär att det sjunker eller minskar.",
+    "examples": [
+      "Marknaden hade en uppgång efter en lång nedgång.",
+      "Diagrammet visar både uppgång och nedgång."
+    ],
+    "related": [
+      "uppgång"
+    ]
+  },
+  "utdelning": {
+    "opposite": "indragning",
+    "description": "Utdelning innebär att något delas ut. Indragning innebär att en rättighet eller förmån tas bort.",
+    "examples": [
+      "Beslutet gav utdelning av stöd i stället för indragning.",
+      "Myndigheten prövar utdelning och indragning av bidrag."
+    ],
+    "related": [
+      "indragning"
+    ]
+  },
+  "indragning": {
+    "opposite": "utdelning",
+    "description": "Utdelning innebär att något delas ut. Indragning innebär att en rättighet eller förmån tas bort.",
+    "examples": [
+      "Beslutet gav utdelning av stöd i stället för indragning.",
+      "Myndigheten prövar utdelning och indragning av bidrag."
+    ],
+    "related": [
+      "utdelning"
+    ]
+  },
+  "överflöd": {
+    "opposite": "brist",
+    "description": "Överflöd innebär mer än vad som behövs. Brist innebär mindre än vad som behövs.",
+    "examples": [
+      "Efter en tid av brist kom ett överflöd av mat.",
+      "Marknaden växlar mellan överflöd och brist."
+    ],
+    "related": [
+      "brist"
+    ]
+  },
+  "brist": {
+    "opposite": "överflöd",
+    "description": "Överflöd innebär mer än vad som behövs. Brist innebär mindre än vad som behövs.",
+    "examples": [
+      "Efter en tid av brist kom ett överflöd av mat.",
+      "Marknaden växlar mellan överflöd och brist."
+    ],
+    "related": [
+      "överflöd"
+    ]
+  },
+  "rikedom": {
+    "opposite": "fattigdom",
+    "description": "Rikedom innebär stora ekonomiska tillgångar. Fattigdom innebär att viktiga resurser saknas.",
+    "examples": [
+      "Boken skildrar både rikedom och fattigdom.",
+      "Samhället vill minska fattigdom och skapa bredare rikedom."
+    ],
+    "related": [
+      "fattigdom"
+    ]
+  },
+  "fattigdom": {
+    "opposite": "rikedom",
+    "description": "Rikedom innebär stora ekonomiska tillgångar. Fattigdom innebär att viktiga resurser saknas.",
+    "examples": [
+      "Boken skildrar både rikedom och fattigdom.",
+      "Samhället vill minska fattigdom och skapa bredare rikedom."
+    ],
+    "related": [
+      "rikedom"
+    ]
+  },
+  "framsteg": {
+    "opposite": "bakslag",
+    "description": "Framsteg är en rörelse mot ett bättre resultat. Bakslag är en händelse som för utvecklingen tillbaka.",
+    "examples": [
+      "Efter flera framsteg kom ett tillfälligt bakslag.",
+      "Laget lät inte ett bakslag stoppa nya framsteg."
+    ],
+    "related": [
+      "bakslag"
+    ]
+  },
+  "bakslag": {
+    "opposite": "framsteg",
+    "description": "Framsteg är en rörelse mot ett bättre resultat. Bakslag är en händelse som för utvecklingen tillbaka.",
+    "examples": [
+      "Efter flera framsteg kom ett tillfälligt bakslag.",
+      "Laget lät inte ett bakslag stoppa nya framsteg."
+    ],
+    "related": [
+      "framsteg"
+    ]
+  },
+  "vinstmarginal": {
+    "opposite": "förlustmarginal",
+    "description": "Vinstmarginal visar vinst i förhållande till försäljning. Förlustmarginal visar motsvarande förlust.",
+    "examples": [
+      "Företaget gick från förlustmarginal till vinstmarginal.",
+      "Rapporten jämför vinstmarginal med förlustmarginal."
+    ],
+    "related": [
+      "förlustmarginal"
+    ]
+  },
+  "förlustmarginal": {
+    "opposite": "vinstmarginal",
+    "description": "Vinstmarginal visar vinst i förhållande till försäljning. Förlustmarginal visar motsvarande förlust.",
+    "examples": [
+      "Företaget gick från förlustmarginal till vinstmarginal.",
+      "Rapporten jämför vinstmarginal med förlustmarginal."
+    ],
+    "related": [
+      "vinstmarginal"
+    ]
+  },
+  "prishöjning": {
+    "opposite": "prissänkning",
+    "description": "En prishöjning gör priset högre. En prissänkning gör priset lägre.",
+    "examples": [
+      "Butiken gjorde först en prishöjning och sedan en prissänkning.",
+      "Kunderna föredrog prissänkning framför prishöjning."
+    ],
+    "related": [
+      "prissänkning"
+    ]
+  },
+  "prissänkning": {
+    "opposite": "prishöjning",
+    "description": "En prishöjning gör priset högre. En prissänkning gör priset lägre.",
+    "examples": [
+      "Butiken gjorde först en prishöjning och sedan en prissänkning.",
+      "Kunderna föredrog prissänkning framför prishöjning."
+    ],
+    "related": [
+      "prishöjning"
+    ]
+  },
+  "befolkningsökning": {
+    "opposite": "befolkningsminskning",
+    "description": "Befolkningsökning innebär att antalet invånare stiger. Befolkningsminskning innebär att det sjunker.",
+    "examples": [
+      "Inflyttning gav befolkningsökning, medan utflyttning gav befolkningsminskning.",
+      "Rapporten visar kommuner med befolkningsökning och befolkningsminskning."
+    ],
+    "related": [
+      "befolkningsminskning"
+    ]
+  },
+  "befolkningsminskning": {
+    "opposite": "befolkningsökning",
+    "description": "Befolkningsökning innebär att antalet invånare stiger. Befolkningsminskning innebär att det sjunker.",
+    "examples": [
+      "Inflyttning gav befolkningsökning, medan utflyttning gav befolkningsminskning.",
+      "Rapporten visar kommuner med befolkningsökning och befolkningsminskning."
+    ],
+    "related": [
+      "befolkningsökning"
+    ]
+  },
+  "upprustning": {
+    "opposite": "nedrustning",
+    "description": "Upprustning innebär att militära resurser byggs ut. Nedrustning innebär att de minskas.",
+    "examples": [
+      "Perioden av upprustning följdes av nedrustning.",
+      "Avtalet ska främja nedrustning i stället för upprustning."
+    ],
+    "related": [
+      "nedrustning"
+    ]
+  },
+  "nedrustning": {
+    "opposite": "upprustning",
+    "description": "Upprustning innebär att militära resurser byggs ut. Nedrustning innebär att de minskas.",
+    "examples": [
+      "Perioden av upprustning följdes av nedrustning.",
+      "Avtalet ska främja nedrustning i stället för upprustning."
+    ],
+    "related": [
+      "upprustning"
+    ]
+  },
+  "insättning": {
+    "opposite": "uttag",
+    "description": "En insättning för pengar in på ett konto. Ett uttag tar pengar från kontot.",
+    "examples": [
+      "Kontot visar en insättning och ett uttag.",
+      "Hon gjorde en insättning på morgonen och ett uttag på kvällen."
+    ],
+    "related": [
+      "uttag"
+    ]
+  },
+  "uttag": {
+    "opposite": "insättning",
+    "description": "En insättning för pengar in på ett konto. Ett uttag tar pengar från kontot.",
+    "examples": [
+      "Kontot visar en insättning och ett uttag.",
+      "Hon gjorde en insättning på morgonen och ett uttag på kvällen."
+    ],
+    "related": [
+      "insättning"
+    ]
+  },
+  "inlåning": {
+    "opposite": "utlåning",
+    "description": "Inlåning är pengar som en bank tar emot från sparare. Utlåning är pengar som banken lånar ut.",
+    "examples": [
+      "Banken använder inlåning för att finansiera utlåning.",
+      "Räntan kan skilja sig mellan inlåning och utlåning."
+    ],
+    "related": [
+      "utlåning"
+    ]
+  },
+  "utlåning": {
+    "opposite": "inlåning",
+    "description": "Inlåning är pengar som en bank tar emot från sparare. Utlåning är pengar som banken lånar ut.",
+    "examples": [
+      "Banken använder inlåning för att finansiera utlåning.",
+      "Räntan kan skilja sig mellan inlåning och utlåning."
+    ],
+    "related": [
+      "inlåning"
+    ]
+  },
+  "inträde": {
+    "opposite": "utträde",
+    "description": "Inträde innebär att gå in eller bli medlem. Utträde innebär att gå ut eller lämna.",
+    "examples": [
+      "Föreningen registrerar både inträde och utträde.",
+      "Hennes inträde skedde i januari och utträdet i juni."
+    ],
+    "related": [
+      "utträde"
+    ]
+  },
+  "utträde": {
+    "opposite": "inträde",
+    "description": "Inträde innebär att gå in eller bli medlem. Utträde innebär att gå ut eller lämna.",
+    "examples": [
+      "Föreningen registrerar både inträde och utträde.",
+      "Hennes inträde skedde i januari och utträdet i juni."
+    ],
+    "related": [
+      "inträde"
+    ]
+  },
+  "inkoppling": {
+    "opposite": "urkoppling",
+    "description": "Inkoppling innebär att ansluta något. Urkoppling innebär att koppla bort det.",
+    "examples": [
+      "Elektrikern skötte både inkoppling och urkoppling.",
+      "Bryt strömmen före inkoppling eller urkoppling."
+    ],
+    "related": [
+      "urkoppling"
+    ]
+  },
+  "urkoppling": {
+    "opposite": "inkoppling",
+    "description": "Inkoppling innebär att ansluta något. Urkoppling innebär att koppla bort det.",
+    "examples": [
+      "Elektrikern skötte både inkoppling och urkoppling.",
+      "Bryt strömmen före inkoppling eller urkoppling."
+    ],
+    "related": [
+      "inkoppling"
+    ]
+  },
+  "montering": {
+    "opposite": "demontering",
+    "description": "Montering är att sätta ihop delar. Demontering är att ta isär dem.",
+    "examples": [
+      "Manualen beskriver montering och demontering.",
+      "Demonteringen tog kortare tid än monteringen."
+    ],
+    "related": [
+      "demontering"
+    ]
+  },
+  "demontering": {
+    "opposite": "montering",
+    "description": "Montering är att sätta ihop delar. Demontering är att ta isär dem.",
+    "examples": [
+      "Manualen beskriver montering och demontering.",
+      "Demonteringen tog kortare tid än monteringen."
+    ],
+    "related": [
+      "montering"
+    ]
+  },
+  "aktivering": {
+    "opposite": "inaktivering",
+    "description": "Aktivering sätter en funktion i bruk. Inaktivering stänger av den.",
+    "examples": [
+      "Kontot kräver aktivering och kan senare få inaktivering.",
+      "Knappen används för aktivering och inaktivering."
+    ],
+    "related": [
+      "inaktivering"
+    ]
+  },
+  "inaktivering": {
+    "opposite": "aktivering",
+    "description": "Aktivering sätter en funktion i bruk. Inaktivering stänger av den.",
+    "examples": [
+      "Kontot kräver aktivering och kan senare få inaktivering.",
+      "Knappen används för aktivering och inaktivering."
+    ],
+    "related": [
+      "aktivering"
+    ]
+  },
+  "installation": {
+    "opposite": "avinstallation",
+    "description": "Installation lägger in och gör ett program klart. Avinstallation tar bort programmet.",
+    "examples": [
+      "Guiden hjälper med installation och avinstallation.",
+      "Avinstallationen raderade det som installationen hade lagt till."
+    ],
+    "related": [
+      "avinstallation"
+    ]
+  },
+  "avinstallation": {
+    "opposite": "installation",
+    "description": "Installation lägger in och gör ett program klart. Avinstallation tar bort programmet.",
+    "examples": [
+      "Guiden hjälper med installation och avinstallation.",
+      "Avinstallationen raderade det som installationen hade lagt till."
+    ],
+    "related": [
+      "installation"
+    ]
+  },
+  "komprimering": {
+    "opposite": "dekomprimering",
+    "description": "Komprimering minskar storleken på data. Dekomprimering återställer datan.",
+    "examples": [
+      "Filen genomgår komprimering före överföring och dekomprimering efteråt.",
+      "Programmet sköter både komprimering och dekomprimering."
+    ],
+    "related": [
+      "dekomprimering"
+    ]
+  },
+  "dekomprimering": {
+    "opposite": "komprimering",
+    "description": "Komprimering minskar storleken på data. Dekomprimering återställer datan.",
+    "examples": [
+      "Filen genomgår komprimering före överföring och dekomprimering efteråt.",
+      "Programmet sköter både komprimering och dekomprimering."
+    ],
+    "related": [
+      "komprimering"
+    ]
+  },
+  "nationalisering": {
+    "opposite": "privatisering",
+    "description": "Nationalisering för över verksamhet till staten. Privatisering för över den till privat ägande.",
+    "examples": [
+      "Bolaget gick från privatisering till nationalisering.",
+      "Debatten gäller nationalisering eller privatisering."
+    ],
+    "related": [
+      "privatisering"
+    ]
+  },
+  "privatisering": {
+    "opposite": "nationalisering",
+    "description": "Nationalisering för över verksamhet till staten. Privatisering för över den till privat ägande.",
+    "examples": [
+      "Bolaget gick från privatisering till nationalisering.",
+      "Debatten gäller nationalisering eller privatisering."
+    ],
+    "related": [
+      "nationalisering"
+    ]
+  },
+  "reglering": {
+    "opposite": "avreglering",
+    "description": "Reglering innebär att regler införs eller tillämpas. Avreglering innebär att regler tas bort.",
+    "examples": [
+      "Marknaden gick från reglering till avreglering.",
+      "Rapporten jämför följderna av reglering och avreglering."
+    ],
+    "related": [
+      "avreglering"
+    ]
+  },
+  "avreglering": {
+    "opposite": "reglering",
+    "description": "Reglering innebär att regler införs eller tillämpas. Avreglering innebär att regler tas bort.",
+    "examples": [
+      "Marknaden gick från reglering till avreglering.",
+      "Rapporten jämför följderna av reglering och avreglering."
+    ],
+    "related": [
+      "reglering"
+    ]
+  },
+  "stabilisering": {
+    "opposite": "destabilisering",
+    "description": "Stabilisering gör ett tillstånd stadigare. Destabilisering gör det mindre stabilt.",
+    "examples": [
+      "Stödet gav stabilisering, medan skadan ledde till destabilisering.",
+      "Målet är stabilisering och att undvika destabilisering."
+    ],
+    "related": [
+      "destabilisering"
+    ]
+  },
+  "destabilisering": {
+    "opposite": "stabilisering",
+    "description": "Stabilisering gör ett tillstånd stadigare. Destabilisering gör det mindre stabilt.",
+    "examples": [
+      "Stödet gav stabilisering, medan skadan ledde till destabilisering.",
+      "Målet är stabilisering och att undvika destabilisering."
+    ],
+    "related": [
+      "stabilisering"
+    ]
   }
 };
