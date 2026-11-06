@@ -2045,6 +2045,456 @@ const curatedPairs = [
       "Arbetslösheten sjunker ofta i högkonjunktur och stiger i lågkonjunktur.",
       "Efter flera år av högkonjunktur gick ekonomin in i en lågkonjunktur."
     ]
+  },
+  {
+    "a": "barn",
+    "b": "vuxen",
+    "description": "Barn och vuxen beskriver människor i olika åldersgrupper.",
+    "examples": [
+      "Ett barn behöver ofta hjälp av en vuxen.",
+      "Hon var barn då, men nu är hon vuxen."
+    ]
+  },
+  {
+    "a": "acceleration",
+    "b": "retardation",
+    "description": "Acceleration betyder att hastigheten ökar. Retardation betyder att hastigheten minskar.",
+    "examples": [
+      "Bilen fick hög acceleration när föraren gasade och retardation när hon bromsade.",
+      "Tågets acceleration följdes av en jämn retardation inför stationen."
+    ]
+  },
+  {
+    "a": "filantrop",
+    "b": "misantrop",
+    "description": "En filantrop vill människors bästa. En misantrop känner motvilja mot människor.",
+    "examples": [
+      "Filantropen skänkte pengar till samhället, medan misantropen undvek människor.",
+      "Hon beskrevs som filantrop, inte som misantrop."
+    ]
+  },
+  {
+    "a": "extrovert",
+    "b": "introvert",
+    "description": "En extrovert person söker ofta socialt umgänge. En introvert person hämtar ofta energi i lugn och ensamhet.",
+    "examples": [
+      "Han är extrovert och pratar gärna med nya människor, medan hon är mer introvert.",
+      "En extrovert person kan trivas på festen och en introvert person i ett mindre sällskap."
+    ]
+  },
+  {
+    "a": "demokrati",
+    "b": "diktatur",
+    "description": "I en demokrati väljer folket sina ledare. I en diktatur är makten samlad hos en person eller en liten grupp.",
+    "examples": [
+      "Medborgarna kan rösta fritt i en demokrati men saknar ofta den möjligheten i en diktatur.",
+      "Landet gick från diktatur till demokrati."
+    ]
+  },
+  {
+    "a": "svart",
+    "b": "vit",
+    "description": "Svart och vit är färger som ofta betraktas som varandras motsatser.",
+    "examples": [
+      "Texten är svart och papperet är vitt.",
+      "Hon valde en vit skjorta i stället för en svart."
+    ]
+  },
+  {
+    "a": "antonym",
+    "b": "synonym",
+    "description": "En antonym har motsatt betydelse. En synonym har samma eller nästan samma betydelse.",
+    "examples": [
+      "Liten är en antonym till stor, medan enorm är en synonym till jättestor.",
+      "Slå upp en antonym när du söker en motsats och en synonym när du söker ett liknande ord."
+    ]
+  },
+  {
+    "a": "berg",
+    "b": "dal",
+    "description": "Ett berg höjer sig över landskapet. En dal är ett lågt område mellan höjder.",
+    "examples": [
+      "Vägen går över ett berg och ner i en dal.",
+      "Byn ligger i dalen nedanför berget."
+    ]
+  },
+  {
+    "a": "bakom",
+    "b": "framför",
+    "description": "Bakom betyder på baksidan av något. Framför betyder på framsidan.",
+    "examples": [
+      "Cykeln står bakom huset och bilen står framför huset.",
+      "Hon gick framför mig, medan han gick bakom."
+    ]
+  },
+  {
+    "a": "generell",
+    "b": "specifik",
+    "description": "Generell betyder allmän och övergripande. Specifik betyder tydligt avgränsad eller exakt.",
+    "examples": [
+      "Rapporten ger först en generell bild och sedan specifik information.",
+      "Frågan var generell, men svaret var specifikt."
+    ]
+  },
+  {
+    "a": "explicit",
+    "b": "implicit",
+    "description": "Explicit betyder tydligt uttryckt. Implicit betyder underförstått utan att sägas direkt.",
+    "examples": [
+      "Regeln var explicit, medan förväntningen bara var implicit.",
+      "Hon gav ett explicit svar på det som tidigare varit implicit."
+    ]
+  },
+  {
+    "a": "pluralis",
+    "b": "singularis",
+    "description": "Pluralis är en form för flera. Singularis är en form för en.",
+    "examples": [
+      "Ordet hus kan stå i både singularis och pluralis.",
+      "Katt står här i singularis, medan katter står i pluralis."
+    ]
+  },
+  {
+    "a": "ost",
+    "b": "väst",
+    "description": "Ost är ett äldre eller sjömansmässigt ord för öster. Väst är motsatt väderstreck.",
+    "examples": [
+      "Solen går upp i ost och ner i väst.",
+      "Båten seglade först mot ost och sedan mot väst."
+    ]
+  },
+  {
+    "a": "dividera",
+    "b": "multiplicera",
+    "description": "Att dividera är att dela ett tal. Att multiplicera är att gångra ett tal.",
+    "examples": [
+      "Dividera tolv med tre och multiplicera sedan svaret med två.",
+      "Hon multiplicerade först talen men skulle egentligen dividera dem."
+    ]
+  },
+  {
+    "a": "ebb",
+    "b": "flod",
+    "description": "Ebb är lågvatten när havet drar sig tillbaka. Flod är högvatten när vattnet stiger.",
+    "examples": [
+      "Båten stod på botten vid ebb men flöt igen vid flod.",
+      "Tidvattnet växlar mellan ebb och flod."
+    ]
+  },
+  {
+    "a": "lik",
+    "b": "olik",
+    "description": "Lik betyder att något påminner om något annat. Olik betyder att det skiljer sig.",
+    "examples": [
+      "Syskonen är lika till utseendet men olika till sättet.",
+      "De två svaren verkar lika, men detaljerna är olika."
+    ]
+  },
+  {
+    "a": "delbar",
+    "b": "odelbar",
+    "description": "Delbar betyder att något kan delas. Odelbar betyder att det inte kan delas i det aktuella sammanhanget.",
+    "examples": [
+      "Talet tio är delbart med två, men elva är odelbart med två.",
+      "Egendomen var delbar, medan den andra tillgången behandlades som odelbar."
+    ]
+  },
+  {
+    "a": "majoritet",
+    "b": "minoritet",
+    "description": "En majoritet är den större delen av en grupp. En minoritet är den mindre delen.",
+    "examples": [
+      "En majoritet röstade ja och en minoritet röstade nej.",
+      "Förslaget stöddes av majoriteten men inte av minoriteten."
+    ]
+  },
+  {
+    "a": "irrationell",
+    "b": "rationell",
+    "description": "Rationell betyder grundad på förnuft. Irrationell betyder att resonemanget inte följer förnuftet.",
+    "examples": [
+      "Beslutet var rationellt, men rädslan bakom det var irrationell.",
+      "Hon försökte ersätta den irrationella tanken med en rationell bedömning."
+    ]
+  },
+  {
+    "a": "human",
+    "b": "inhuman",
+    "description": "Human betyder medmänsklig och hänsynsfull. Inhuman betyder omänsklig eller grym.",
+    "examples": [
+      "De krävde en human behandling och protesterade mot den inhumana metoden.",
+      "En human lösning ersatte de inhumana villkoren."
+    ]
+  },
+  {
+    "a": "femininum",
+    "b": "maskulinum",
+    "description": "Femininum och maskulinum är grammatiska genus som betecknar kvinnligt respektive manligt.",
+    "examples": [
+      "I språket tillhör det ena ordet femininum och det andra maskulinum.",
+      "Läraren förklarade skillnaden mellan femininum och maskulinum."
+    ]
+  },
+  {
+    "a": "gemen",
+    "b": "versal",
+    "description": "En gemen är en liten bokstav. En versal är en stor bokstav.",
+    "examples": [
+      "Ordet börjar med en versal och fortsätter med gemener.",
+      "Skriv namnet med versal, inte med gemen, i början."
+    ]
+  },
+  {
+    "a": "högtryck",
+    "b": "lågtryck",
+    "description": "Högtryck är ett område med högre lufttryck. Lågtryck är ett område med lägre lufttryck.",
+    "examples": [
+      "Högtryck gav klart väder, medan lågtryck förde med sig regn.",
+      "Ett lågtryck närmar sig efter flera dagar med högtryck."
+    ]
+  },
+  {
+    "a": "altruism",
+    "b": "egoism",
+    "description": "Altruism sätter andras bästa främst. Egoism sätter det egna intresset främst.",
+    "examples": [
+      "Hennes altruism fick henne att hjälpa andra utan belöning, medan hans egoism styrde valet.",
+      "Handlingen kan ses som altruism snarare än egoism."
+    ]
+  },
+  {
+    "a": "nadir",
+    "b": "zenit",
+    "description": "Nadir är punkten rakt under betraktaren. Zenit är punkten rakt ovanför.",
+    "examples": [
+      "Zenit ligger över våra huvuden och nadir rakt under oss.",
+      "Stjärnan närmade sig zenit medan den motsatta punkten var nadir."
+    ]
+  },
+  {
+    "a": "profan",
+    "b": "sakral",
+    "description": "Profan betyder världslig eller icke-religiös. Sakral betyder helig eller religiös.",
+    "examples": [
+      "Museet visar både profan konst och sakrala föremål.",
+      "Musiken började profant men fick senare en sakral prägel."
+    ]
+  },
+  {
+    "a": "lika",
+    "b": "olika",
+    "description": "Lika betyder att saker stämmer överens. Olika betyder att de skiljer sig åt.",
+    "examples": [
+      "Glasen är lika stora men har olika färger.",
+      "Vi tänker olika trots att våra mål är lika."
+    ]
+  },
+  {
+    "a": "likformig",
+    "b": "olikformig",
+    "description": "Likformig betyder att något har samma form eller karaktär. Olikformig betyder att det varierar.",
+    "examples": [
+      "Mönstret är likformigt på ena sidan och olikformigt på den andra.",
+      "En likformig yta är jämnare än en olikformig yta."
+    ]
+  },
+  {
+    "a": "antimateria",
+    "b": "materia",
+    "description": "Materia består av vanliga partiklar. Antimateria består av motsvarande antipartiklar.",
+    "examples": [
+      "När materia möter antimateria kan båda omvandlas till energi.",
+      "Forskaren jämförde egenskaper hos materia och antimateria."
+    ]
+  },
+  {
+    "a": "icke-metall",
+    "b": "metall",
+    "description": "En metall har typiska metalliska egenskaper. En icke-metall saknar dessa egenskaper.",
+    "examples": [
+      "Järn är en metall, medan svavel är en icke-metall.",
+      "Tabellen skiljer mellan metall och icke-metall."
+    ]
+  },
+  {
+    "a": "hane",
+    "b": "hona",
+    "description": "Hane och hona betecknar biologiskt kön hos många djur.",
+    "examples": [
+      "Fågeln till vänster är en hane och den till höger en hona.",
+      "Både hanen och honan vaktar boet."
+    ]
+  },
+  {
+    "a": "basisk",
+    "b": "sur",
+    "description": "En basisk lösning har högt pH. En sur lösning har lågt pH.",
+    "examples": [
+      "Tvållösningen är basisk, medan citronsaften är sur.",
+      "Vattnet gick från surt till basiskt efter behandlingen."
+    ]
+  },
+  {
+    "a": "genväg",
+    "b": "omväg",
+    "description": "En genväg är en kortare väg. En omväg är en längre väg runt något.",
+    "examples": [
+      "Vi tog en genväg genom parken i stället för en omväg runt kvarteret.",
+      "Genvägen sparade tid, men omvägen var lättare att gå."
+    ]
+  },
+  {
+    "a": "baksida",
+    "b": "framsida",
+    "description": "Baksidan är den bakre sidan av något. Framsidan är den främre sidan.",
+    "examples": [
+      "Adressen står på baksidan och bilden på framsidan.",
+      "Kontrollera både framsidan och baksidan av kortet."
+    ]
+  },
+  {
+    "a": "krokig",
+    "b": "rak",
+    "description": "Krokig betyder böjd eller full av svängar. Rak betyder utan böjar.",
+    "examples": [
+      "Den gamla vägen är krokig, men den nya är rak.",
+      "Rita först en rak linje och sedan en krokig."
+    ]
+  },
+  {
+    "a": "konstgjord",
+    "b": "naturlig",
+    "description": "Konstgjord betyder skapad av människor. Naturlig betyder uppkommen i naturen.",
+    "examples": [
+      "Sjön är konstgjord, medan bäcken är naturlig.",
+      "De valde naturligt ljus i stället för konstgjort ljus."
+    ]
+  },
+  {
+    "a": "belägga",
+    "b": "vederlägga",
+    "description": "Att belägga ett påstående är att visa stöd för det. Att vederlägga det är att visa att det är fel.",
+    "examples": [
+      "Studien kunde belägga den första teorin och vederlägga den andra.",
+      "Forskaren försökte belägga sitt påstående, men kritikern kunde vederlägga det."
+    ]
+  },
+  {
+    "a": "molnfri",
+    "b": "molnig",
+    "description": "Molnfri betyder utan moln. Molnig betyder att det finns många moln på himlen.",
+    "examples": [
+      "Morgonen var molnfri, men eftermiddagen blev molnig.",
+      "En molnig himmel klarnade och blev nästan molnfri."
+    ]
+  },
+  {
+    "a": "felaktig",
+    "b": "korrekt",
+    "description": "Felaktig betyder att något innehåller fel. Korrekt betyder att det stämmer.",
+    "examples": [
+      "Det första svaret var felaktigt, men det andra var korrekt.",
+      "Rätta den felaktiga uppgiften så att informationen blir korrekt."
+    ]
+  },
+  {
+    "a": "förminska",
+    "b": "förstora",
+    "description": "Att förminska är att göra något mindre. Att förstora är att göra det större.",
+    "examples": [
+      "Du kan förminska bilden eller förstora den på skärmen.",
+      "Hon förminskade rubriken men förstorade fotografiet."
+    ]
+  },
+  {
+    "a": "nederlag",
+    "b": "seger",
+    "description": "Nederlag betyder att förlora. Seger betyder att vinna.",
+    "examples": [
+      "Efter gårdagens nederlag kom dagens seger.",
+      "Laget firade sin seger och lärde sig av sitt tidigare nederlag."
+    ]
+  },
+  {
+    "a": "anjon",
+    "b": "katjon",
+    "description": "En anjon är en negativt laddad jon. En katjon är en positivt laddad jon.",
+    "examples": [
+      "Kloridjonen är en anjon och natriumjonen en katjon.",
+      "En anjon dras mot den positiva elektroden och en katjon mot den negativa."
+    ]
+  },
+  {
+    "a": "apolitisk",
+    "b": "politisk",
+    "description": "Apolitisk betyder utan politisk inriktning. Politisk betyder att något rör politik.",
+    "examples": [
+      "Föreningen säger sig vara apolitisk, medan kampanjen är tydligt politisk.",
+      "Samtalet började apolitiskt men blev snart politiskt."
+    ]
+  },
+  {
+    "a": "uppladdning",
+    "b": "urladdning",
+    "description": "Uppladdning fyller ett batteri med energi. Urladdning minskar den lagrade energin.",
+    "examples": [
+      "Batteriet behöver uppladdning efter en lång urladdning.",
+      "Snabb uppladdning följdes av långsam urladdning."
+    ]
+  },
+  {
+    "a": "fysisk",
+    "b": "psykisk",
+    "description": "Fysisk rör kroppen. Psykisk rör tankar, känslor och mående.",
+    "examples": [
+      "Träningen kräver fysisk styrka, medan pressen kan vara psykisk.",
+      "Hon fick både fysisk och psykisk hjälp."
+    ]
+  },
+  {
+    "a": "bakgrund",
+    "b": "förgrund",
+    "description": "Bakgrunden ligger längre bak i en bild. Förgrunden ligger närmast betraktaren.",
+    "examples": [
+      "Berget syns i bakgrunden och trädet i förgrunden.",
+      "Fotografen gjorde förgrunden skarp och bakgrunden suddig."
+    ]
+  },
+  {
+    "a": "betydelsefull",
+    "b": "betydelselös",
+    "description": "Betydelsefull betyder viktig. Betydelselös betyder utan betydelse eller värde i sammanhanget.",
+    "examples": [
+      "Beslutet var betydelsefullt, men den lilla detaljen var betydelselös.",
+      "Det som först verkade betydelselöst blev senare betydelsefullt."
+    ]
+  },
+  {
+    "a": "inkomplett",
+    "b": "komplett",
+    "description": "Inkomplett betyder att delar saknas. Komplett betyder att allt som behövs finns med.",
+    "examples": [
+      "Den första listan var inkomplett, men den nya är komplett.",
+      "Samlingen blir komplett när den inkompletta delen fylls i."
+    ]
+  },
+  {
+    "a": "grumlig",
+    "b": "klar",
+    "description": "Grumlig betyder att en vätska eller sikt är oklar. Klar betyder att man kan se tydligt igenom.",
+    "examples": [
+      "Vattnet var grumligt i går men är klart i dag.",
+      "Den grumliga vätskan filtrerades tills den blev klar."
+    ]
+  },
+  {
+    "a": "avta",
+    "b": "tillta",
+    "description": "Avta betyder att minska i styrka. Tillta betyder att öka i styrka.",
+    "examples": [
+      "Vinden började avta på kvällen men väntas tillta i morgon.",
+      "Smärtan tilltog först och började sedan avta."
+    ]
   }
 ];
 
@@ -2067,3 +2517,4 @@ for (const pair of curatedPairs) {
 const outputPath = path.join(process.cwd(), 'src', 'data', 'words.ts');
 fs.writeFileSync(outputPath, 'export const words = ' + JSON.stringify(words, null, 2) + ' as const;\n', 'utf-8');
 console.log('Generated ' + Object.keys(words).length + ' curated word pages.');
+
