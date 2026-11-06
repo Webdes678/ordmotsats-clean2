@@ -3845,6 +3845,456 @@ const curatedPairs = [
       "Marknaden gick från monopol till polypol.",
       "Ett monopol saknar den konkurrens som finns i en polypol."
     ]
+  },
+  {
+    "a": "efternamn",
+    "b": "förnamn",
+    "description": "Förnamnet identifierar personen individuellt. Efternamnet visar vanligen familje- eller släkttillhörighet.",
+    "examples": [
+      "Skriv förnamn först och efternamn sist.",
+      "Hennes förnamn är Sara och hennes efternamn är Lind."
+    ]
+  },
+  {
+    "a": "bas",
+    "b": "syra",
+    "description": "En bas tar upp vätejoner eller avger hydroxidjoner. En syra avger vätejoner.",
+    "examples": [
+      "Tvål är basisk, medan citronsaft innehåller syra.",
+      "När bas och syra reagerar kan de neutralisera varandra."
+    ]
+  },
+  {
+    "a": "klave",
+    "b": "krona",
+    "description": "Krona och klave är myntets två motsatta sidor.",
+    "examples": [
+      "Myntet landade med krona upp i stället för klave.",
+      "Vi singlade slant och valde mellan krona och klave."
+    ]
+  },
+  {
+    "a": "eftermiddag",
+    "b": "förmiddag",
+    "description": "Förmiddagen är tiden före middag. Eftermiddagen är tiden efter middag.",
+    "examples": [
+      "Mötet börjar på förmiddagen och slutar på eftermiddagen.",
+      "Hon arbetar förmiddag i dag och eftermiddag i morgon."
+    ]
+  },
+  {
+    "a": "källa",
+    "b": "sänka",
+    "description": "En källa tillför något till ett system. En sänka tar upp eller avlägsnar det.",
+    "examples": [
+      "Skogen kan vara en sänka för koldioxid, medan en skorsten är en källa.",
+      "Modellen innehåller både en källa och en sänka."
+    ]
+  },
+  {
+    "a": "jätteliten",
+    "b": "jättestor",
+    "description": "Jätteliten betyder mycket liten. Jättestor betyder mycket stor.",
+    "examples": [
+      "Den ena lådan är jätteliten och den andra jättestor.",
+      "En jättestor hund stod bredvid en jätteliten valp."
+    ]
+  },
+  {
+    "a": "väster",
+    "b": "öst",
+    "description": "Väster och öst är motsatta väderstreck.",
+    "examples": [
+      "Solen går upp i öst och ner i väster.",
+      "De reste från öst till väster."
+    ]
+  },
+  {
+    "a": "produkt",
+    "b": "reaktant",
+    "description": "En reaktant förbrukas i en kemisk reaktion. En produkt bildas av reaktionen.",
+    "examples": [
+      "Reaktanten omvandlades till en ny produkt.",
+      "Skriv reaktanterna före pilen och produkterna efter."
+    ]
+  },
+  {
+    "a": "hyperonymi",
+    "b": "hyponymi",
+    "description": "Hyperonymi är relationen till ett överordnat begrepp. Hyponymi är relationen till ett underordnat begrepp.",
+    "examples": [
+      "Relationen från bil till fordon är hyponymi, medan den omvända är hyperonymi.",
+      "Övningen skiljer mellan hyperonymi och hyponymi."
+    ]
+  },
+  {
+    "a": "holonymi",
+    "b": "meronymi",
+    "description": "Holonymi går från del till helhet. Meronymi går från helhet till del.",
+    "examples": [
+      "Relationen från hjul till bil är meronymi, och den omvända är holonymi.",
+      "Ordlistan visar både holonymi och meronymi."
+    ]
+  },
+  {
+    "a": "abducera",
+    "b": "adducera",
+    "description": "Abducera betyder att föra en kroppsdel bort från mittlinjen. Adducera betyder att föra den mot mittlinjen.",
+    "examples": [
+      "Lyft armen åt sidan för att abducera den och sänk den för att adducera.",
+      "Muskeln kan både abducera och adducera benet."
+    ]
+  },
+  {
+    "a": "fira",
+    "b": "hala",
+    "description": "Fira betyder att sänka med rep. Hala betyder att dra in eller upp med rep.",
+    "examples": [
+      "Besättningen halade upp seglet och firade senare ner det.",
+      "Fira lasten försiktigt och hala upp den igen."
+    ]
+  },
+  {
+    "a": "inter-",
+    "b": "intra-",
+    "description": "Prefixet inter- betyder mellan. Prefixet intra- betyder inom.",
+    "examples": [
+      "Internationell gäller mellan nationer, medan intranationell gäller inom en nation.",
+      "Inter- och intra- visar två olika relationer."
+    ]
+  },
+  {
+    "a": "nordpolen",
+    "b": "sydpolen",
+    "description": "Nordpolen är jordens nordligaste punkt. Sydpolen är den sydligaste.",
+    "examples": [
+      "En linje genom jorden kan gå från Nordpolen till Sydpolen.",
+      "Nordpolen ligger i Arktis och Sydpolen i Antarktis."
+    ]
+  },
+  {
+    "a": "appellativ",
+    "b": "egennamn",
+    "description": "Ett appellativ är ett allmänt namn. Ett egennamn betecknar en bestämd person, plats eller sak.",
+    "examples": [
+      "Stad är appellativ, medan Stockholm är egennamn.",
+      "Skriv egennamnet med stor bokstav men inte alltid appellativet."
+    ]
+  },
+  {
+    "a": "inget",
+    "b": "något",
+    "description": "Inget betyder inte något alls. Något betyder en sak eller en viss mängd.",
+    "examples": [
+      "Det fanns inget i lådan i går men något i den i dag.",
+      "Hon hörde något, medan jag hörde inget."
+    ]
+  },
+  {
+    "a": "infimum",
+    "b": "supremum",
+    "description": "Infimum är den största undre gränsen. Supremum är den minsta övre gränsen.",
+    "examples": [
+      "Mängden har både ett infimum och ett supremum.",
+      "Supremum begränsar uppåt och infimum nedåt."
+    ]
+  },
+  {
+    "a": "böjningsform",
+    "b": "grundform",
+    "description": "Grundformen är ordets uppslagsform. En böjningsform visar exempelvis tid, antal eller bestämdhet.",
+    "examples": [
+      "Springa är grundform och sprang en böjningsform.",
+      "Sök ordet i grundform, inte bara i en böjningsform."
+    ]
+  },
+  {
+    "a": "humant",
+    "b": "inhumant",
+    "description": "Humant betyder på ett medmänskligt sätt. Inhumant betyder på ett omänskligt eller grymt sätt.",
+    "examples": [
+      "Djuren behandlades humant, inte inhumant.",
+      "Ett inhumant straff ersattes av ett humant."
+    ]
+  },
+  {
+    "a": "ental",
+    "b": "flertal",
+    "description": "Ental avser en. Flertal avser fler än en.",
+    "examples": [
+      "Katt står i ental och katter i flertal.",
+      "Ändra meningen från ental till flertal."
+    ]
+  },
+  {
+    "a": "lågtrafik",
+    "b": "rusningstrafik",
+    "description": "Lågtrafik är en period med lite trafik. Rusningstrafik är en period med mycket trafik.",
+    "examples": [
+      "Resan går snabbare i lågtrafik än i rusningstrafik.",
+      "Priset är lägre under lågtrafik och högre under rusningstrafik."
+    ]
+  },
+  {
+    "a": "hyresgäst",
+    "b": "hyresvärd",
+    "description": "Hyresgästen hyr en bostad eller lokal. Hyresvärden hyr ut den.",
+    "examples": [
+      "Hyresgästen betalade hyran till hyresvärden.",
+      "Både hyresvärd och hyresgäst skrev under avtalet."
+    ]
+  },
+  {
+    "a": "efterrätt",
+    "b": "förrätt",
+    "description": "Förrätten serveras före huvudrätten. Efterrätten serveras efter den.",
+    "examples": [
+      "Vi åt soppa till förrätt och glass till efterrätt.",
+      "Förrätten inledde måltiden och efterrätten avslutade den."
+    ]
+  },
+  {
+    "a": "x-kromosom",
+    "b": "y-kromosom",
+    "description": "X-kromosomen och Y-kromosomen är två olika könskromosomer hos människor.",
+    "examples": [
+      "Cellen innehöll en X-kromosom och en Y-kromosom.",
+      "X-kromosomen är större än Y-kromosomen."
+    ]
+  },
+  {
+    "a": "nordan",
+    "b": "sunnan",
+    "description": "Nordan är vind från norr. Sunnan är vind från söder.",
+    "examples": [
+      "En kall nordan ersattes av en mild sunnan.",
+      "Flaggan vände när vinden gick från nordan till sunnan."
+    ]
+  },
+  {
+    "a": "västan",
+    "b": "östan",
+    "description": "Västan är vind från väster. Östan är vind från öster.",
+    "examples": [
+      "Västan blåste på morgonen och östan på kvällen.",
+      "Sjömannen skiljer mellan västan och östan."
+    ]
+  },
+  {
+    "a": "inlänning",
+    "b": "utlänning",
+    "description": "En inlänning hör till det egna landet. En utlänning kommer från ett annat land.",
+    "examples": [
+      "Regeln gäller både inlänningar och utlänningar.",
+      "Han var utlänning där men inlänning i sitt hemland."
+    ]
+  },
+  {
+    "a": "endoterm",
+    "b": "exoterm",
+    "description": "Endoterm betyder att värme tas upp. Exoterm betyder att värme avges.",
+    "examples": [
+      "Reaktionen är endoterm när den tar upp värme och exoterm när den avger värme.",
+      "En endoterm process kylde omgivningen, medan en exoterm värmde den."
+    ]
+  },
+  {
+    "a": "postludium",
+    "b": "preludium",
+    "description": "Ett preludium kommer före huvudverket. Ett postludium kommer efter.",
+    "examples": [
+      "Konserten började med ett preludium och slutade med ett postludium.",
+      "Organisten spelade både preludium och postludium."
+    ]
+  },
+  {
+    "a": "arvinge",
+    "b": "arvlåtare",
+    "description": "Arvlåtaren är personen som lämnar ett arv. Arvingen är personen som tar emot det.",
+    "examples": [
+      "Arvingen fick egendom efter arvlåtaren.",
+      "Testamentet klargör relationen mellan arvlåtare och arvinge."
+    ]
+  },
+  {
+    "a": "debitor",
+    "b": "kreditor",
+    "description": "En debitor är skyldig pengar. En kreditor har rätt att få betalt.",
+    "examples": [
+      "Debitor betalade skulden till kreditor.",
+      "Avtalet anger både debitors och kreditors ansvar."
+    ]
+  },
+  {
+    "a": "kvinnokön",
+    "b": "mankön",
+    "description": "Kvinnokön och mankön betecknar kvinnligt respektive manligt kön.",
+    "examples": [
+      "Formuläret skiljde mellan kvinnokön och mankön.",
+      "Arten har individer av både kvinnokön och mankön."
+    ]
+  },
+  {
+    "a": "högerled",
+    "b": "vänsterled",
+    "description": "Vänsterledet står till vänster om ett likhetstecken. Högerledet står till höger.",
+    "examples": [
+      "Förenkla vänsterledet och högerledet var för sig.",
+      "Efter beräkningen är högerled och vänsterled lika."
+    ]
+  },
+  {
+    "a": "monogen",
+    "b": "polygen",
+    "description": "Monogen betyder styrd av en gen. Polygen betyder styrd av flera gener.",
+    "examples": [
+      "Egenskapen är monogen, medan längd ofta är polygen.",
+      "En polygen sjukdom är mer komplex än en monogen."
+    ]
+  },
+  {
+    "a": "högmosse",
+    "b": "lågmosse",
+    "description": "En högmosse får främst vatten från nederbörd. En lågmosse påverkas även av grund- eller ytvatten.",
+    "examples": [
+      "Högmossen ligger upphöjd, medan lågmossen får vatten från omgivningen.",
+      "Området innehåller både högmosse och lågmosse."
+    ]
+  },
+  {
+    "a": "ingenstädes",
+    "b": "någonstädes",
+    "description": "Ingenstädes betyder inte på någon plats. Någonstädes betyder på någon plats.",
+    "examples": [
+      "Nyckeln fanns ingenstädes här men måste ligga någonstädes.",
+      "Han sökte någonstädes där ingenstädes verkade självklart."
+    ]
+  },
+  {
+    "a": "giltigförklara",
+    "b": "ogiltigförklara",
+    "description": "Giltigförklara betyder att förklara något giltigt. Ogiltigförklara betyder att upphäva dess giltighet.",
+    "examples": [
+      "Domstolen kan giltigförklara avtalet eller ogiltigförklara det.",
+      "Beslutet ogiltigförklarades efter att först ha giltigförklarats."
+    ]
+  },
+  {
+    "a": "fördragsam",
+    "b": "ofördragsam",
+    "description": "Fördragsam betyder tolerant och tålmodig. Ofördragsam betyder intolerant.",
+    "examples": [
+      "Hon var fördragsam i diskussionen, medan han var ofördragsam.",
+      "Ett fördragsamt klimat ersatte det ofördragsamma."
+    ]
+  },
+  {
+    "a": "eftersats",
+    "b": "försats",
+    "description": "Försatsen kommer först i en konstruktion eller mening. Eftersatsen kommer efter.",
+    "examples": [
+      "Villkoret står i försatsen och följden i eftersatsen.",
+      "Läs både försats och eftersats."
+    ]
+  },
+  {
+    "a": "apokryfisk",
+    "b": "kanonisk",
+    "description": "Kanonisk betyder erkänd som del av en officiell kanon. Apokryfisk betyder att texten står utanför den.",
+    "examples": [
+      "Den kanoniska texten jämfördes med en apokryfisk.",
+      "Berättelsen är apokryfisk och inte kanonisk."
+    ]
+  },
+  {
+    "a": "defragmentera",
+    "b": "fragmentera",
+    "description": "Fragmentera betyder att dela upp i spridda delar. Defragmentera betyder att ordna delarna mer sammanhängande.",
+    "examples": [
+      "Filer kan fragmenteras och senare defragmenteras.",
+      "Programmet defragmenterar det som tidigare fragmenterats."
+    ]
+  },
+  {
+    "a": "bakdel",
+    "b": "framdel",
+    "description": "Bakdelen är den bakre delen. Framdelen är den främre.",
+    "examples": [
+      "Skadan satt på bilens framdel, inte på bakdelen.",
+      "Montera framdelen före bakdelen."
+    ]
+  },
+  {
+    "a": "anständig",
+    "b": "anstötlig",
+    "description": "Anständig betyder passande och respektabel. Anstötlig betyder stötande eller olämplig.",
+    "examples": [
+      "Språket var anständigt, men bilden ansågs anstötlig.",
+      "Byt det anstötliga uttrycket mot ett anständigt."
+    ]
+  },
+  {
+    "a": "läglig",
+    "b": "oläglig",
+    "description": "Läglig betyder passande i tid. Oläglig betyder att tidpunkten är dålig.",
+    "examples": [
+      "Besöket kom vid en läglig tid, men samtalet var olägligt.",
+      "En oläglig paus ersattes av en läglig."
+    ]
+  },
+  {
+    "a": "makrokosmos",
+    "b": "mikrokosmos",
+    "description": "Makrokosmos är världen eller helheten i stor skala. Mikrokosmos är en liten värld som speglar helheten.",
+    "examples": [
+      "Universum beskrivs som makrokosmos och människan som mikrokosmos.",
+      "Romanens by är ett mikrokosmos av ett större makrokosmos."
+    ]
+  },
+  {
+    "a": "exon",
+    "b": "intron",
+    "description": "Ett exon finns kvar i moget RNA. Ett intron klipps normalt bort.",
+    "examples": [
+      "Genen innehåller både exon och intron.",
+      "Intronerna togs bort och exonerna fogades samman."
+    ]
+  },
+  {
+    "a": "avslutningsvis",
+    "b": "inledningsvis",
+    "description": "Inledningsvis betyder i början. Avslutningsvis betyder i slutet.",
+    "examples": [
+      "Inledningsvis beskrev hon problemet och avslutningsvis lösningen.",
+      "Han var tveksam inledningsvis men positiv avslutningsvis."
+    ]
+  },
+  {
+    "a": "fruktsamhet",
+    "b": "ofruktsamhet",
+    "description": "Fruktsamhet är förmåga att få avkomma eller ge skörd. Ofruktsamhet är avsaknad av denna förmåga.",
+    "examples": [
+      "Behandlingen förbättrade fruktsamheten och minskade ofruktsamheten.",
+      "Jorden gick från ofruktsamhet till större fruktsamhet."
+    ]
+  },
+  {
+    "a": "muntligt",
+    "b": "skriftligt",
+    "description": "Muntligt betyder med tal. Skriftligt betyder i text.",
+    "examples": [
+      "Beskedet gavs muntligt och bekräftades skriftligt.",
+      "Du kan svara muntligt eller skriftligt."
+    ]
+  },
+  {
+    "a": "inandas",
+    "b": "utandas",
+    "description": "Inandas betyder att dra in luft. Utandas betyder att släppa ut luft.",
+    "examples": [
+      "Vi inandas syre och utandas koldioxid.",
+      "Inandas långsamt och utandas lugnt."
+    ]
   }
 ];
 
