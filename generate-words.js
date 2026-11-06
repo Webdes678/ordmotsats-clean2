@@ -8345,6 +8345,456 @@ const curatedPairs = [
       "Spänn repet och avspänn det efter användning.",
       "Övningen spänner muskeln och hjälper sedan till att avspänna den."
     ]
+  },
+  {
+    "a": "gryning",
+    "b": "skymning",
+    "description": "Gryning är tiden då dagen börjar ljusna. Skymning är tiden då dagen övergår i mörker.",
+    "examples": [
+      "Vi gick upp i gryningen och kom hem i skymningen.",
+      "Gryningen kommer före dagen, skymningen före natten."
+    ]
+  },
+  {
+    "a": "soluppgång",
+    "b": "solnedgång",
+    "description": "Soluppgång är när solen stiger över horisonten. Solnedgång är när den sjunker under.",
+    "examples": [
+      "Vi såg soluppgång på morgonen och solnedgång på kvällen.",
+      "Tiden för soluppgång och solnedgång ändras under året."
+    ]
+  },
+  {
+    "a": "orsak",
+    "b": "verkan",
+    "description": "En orsak är det som får något att hända. En verkan är resultatet.",
+    "examples": [
+      "Regnet var orsak och översvämningen verkan.",
+      "Forskaren sökte både orsak och verkan."
+    ]
+  },
+  {
+    "a": "fråga",
+    "b": "svar",
+    "description": "En fråga ber om information. Ett svar ger informationen.",
+    "examples": [
+      "Läraren ställde en fråga och eleven gav ett svar.",
+      "Varje fråga behöver inte ha ett enkelt svar."
+    ]
+  },
+  {
+    "a": "problem",
+    "b": "lösning",
+    "description": "Ett problem är en svårighet. En lösning är ett sätt att lösa den.",
+    "examples": [
+      "Vi hittade en lösning på problemet.",
+      "Beskriv först problemet och sedan lösningen."
+    ]
+  },
+  {
+    "a": "framgång",
+    "b": "motgång",
+    "description": "Framgång innebär att lyckas. Motgång innebär ett hinder eller misslyckande.",
+    "examples": [
+      "Efter flera motgångar kom till slut framgång.",
+      "Både framgång och motgång lärde laget något."
+    ]
+  },
+  {
+    "a": "hopp",
+    "b": "förtvivlan",
+    "description": "Hopp är en tro på att något kan bli bättre. Förtvivlan är känslan att inget hopp finns.",
+    "examples": [
+      "Beskedet gav hopp i stället för förtvivlan.",
+      "Hon växlade mellan hopp och förtvivlan."
+    ]
+  },
+  {
+    "a": "hälsa",
+    "b": "sjukdom",
+    "description": "Hälsa är ett tillstånd av välbefinnande. Sjukdom är ett tillstånd där kroppen eller sinnet inte fungerar normalt.",
+    "examples": [
+      "Motion kan stärka hälsan och minska risken för sjukdom.",
+      "Läkaren arbetar med både hälsa och sjukdom."
+    ]
+  },
+  {
+    "a": "ungdom",
+    "b": "ålderdom",
+    "description": "Ungdom är den tid då man är ung. Ålderdom är den senare delen av livet.",
+    "examples": [
+      "Han mindes sin ungdom när han nådde ålderdomen.",
+      "Boken följer livet från ungdom till ålderdom."
+    ]
+  },
+  {
+    "a": "barndom",
+    "b": "vuxenliv",
+    "description": "Barndom är tiden då man är barn. Vuxenliv är tiden som vuxen.",
+    "examples": [
+      "Vännerna kände varandra från barndomen till vuxenlivet.",
+      "Ansvar förändras mellan barndom och vuxenliv."
+    ]
+  },
+  {
+    "a": "enighet",
+    "b": "oenighet",
+    "description": "Enighet betyder att vara överens. Oenighet betyder att åsikterna skiljer sig.",
+    "examples": [
+      "Gruppen nådde enighet efter lång oenighet.",
+      "Frågan skapade både enighet och oenighet."
+    ]
+  },
+  {
+    "a": "samförstånd",
+    "b": "konflikt",
+    "description": "Samförstånd innebär att parter förstår och enas. Konflikt innebär en motsättning eller strid.",
+    "examples": [
+      "Samtalet ledde till samförstånd i stället för konflikt.",
+      "De gick från konflikt till samförstånd."
+    ]
+  },
+  {
+    "a": "vänskap",
+    "b": "fiendskap",
+    "description": "Vänskap är en vänlig och nära relation. Fiendskap är en fientlig relation.",
+    "examples": [
+      "Deras fiendskap övergick senare i vänskap.",
+      "Berättelsen handlar om vänskap och fiendskap."
+    ]
+  },
+  {
+    "a": "verklighet",
+    "b": "fantasi",
+    "description": "Verklighet är det som faktiskt finns eller händer. Fantasi är det som föreställs.",
+    "examples": [
+      "Filmen blandar verklighet med fantasi.",
+      "Barnet skiljde till slut fantasi från verklighet."
+    ]
+  },
+  {
+    "a": "fakta",
+    "b": "fiktion",
+    "description": "Fakta är uppgifter som kan vara sanna och kontrolleras. Fiktion är påhittade berättelser.",
+    "examples": [
+      "Boken blandar historiska fakta med fiktion.",
+      "Kontrollera vad som är fakta och vad som är fiktion."
+    ]
+  },
+  {
+    "a": "teori",
+    "b": "praktik",
+    "description": "Teori är idéer och modeller som förklarar. Praktik är hur något görs i verkligheten.",
+    "examples": [
+      "Eleverna lärde sig teori och övade sedan i praktik.",
+      "Det kan vara skillnad mellan teori och praktik."
+    ]
+  },
+  {
+    "a": "mod",
+    "b": "rädsla",
+    "description": "Mod är förmågan att handla trots risk. Rädsla är känslan av hot eller fara.",
+    "examples": [
+      "Hon visade mod trots sin rädsla.",
+      "Mod betyder inte att all rädsla saknas."
+    ]
+  },
+  {
+    "a": "kunskap",
+    "b": "okunnighet",
+    "description": "Kunskap innebär att veta och förstå. Okunnighet innebär att sakna kunskap.",
+    "examples": [
+      "Utbildning kan ersätta okunnighet med kunskap.",
+      "Kunskap om frågan är bättre än okunnighet."
+    ]
+  },
+  {
+    "a": "medvetenhet",
+    "b": "omedvetenhet",
+    "description": "Medvetenhet innebär att känna till eller uppfatta något. Omedvetenhet innebär att inte göra det.",
+    "examples": [
+      "Kampanjen ökade medvetenheten och minskade omedvetenheten.",
+      "Hon gick från omedvetenhet till medvetenhet om problemet."
+    ]
+  },
+  {
+    "a": "frihet",
+    "b": "ofrihet",
+    "description": "Frihet innebär möjlighet att välja och handla. Ofrihet innebär att vara begränsad eller tvingad.",
+    "examples": [
+      "De kämpade för frihet och mot ofrihet.",
+      "Boken jämför ett liv i frihet med ett i ofrihet."
+    ]
+  },
+  {
+    "a": "rättvisa",
+    "b": "orättvisa",
+    "description": "Rättvisa innebär skälig och lika behandling. Orättvisa innebär oskälig behandling.",
+    "examples": [
+      "Beslutet skapade rättvisa efter en tid av orättvisa.",
+      "Barn reagerar starkt på både rättvisa och orättvisa."
+    ]
+  },
+  {
+    "a": "jämlikhet",
+    "b": "ojämlikhet",
+    "description": "Jämlikhet innebär lika rättigheter och möjligheter. Ojämlikhet innebär orättvisa skillnader.",
+    "examples": [
+      "Reformen ska öka jämlikheten och minska ojämlikheten.",
+      "Rapporten mäter jämlikhet och ojämlikhet."
+    ]
+  },
+  {
+    "a": "laglighet",
+    "b": "olaglighet",
+    "description": "Laglighet innebär att något följer lagen. Olaglighet innebär att det bryter mot lagen.",
+    "examples": [
+      "Domstolen prövade handlingens laglighet eller olaglighet.",
+      "Tillståndet gav verksamheten laglighet efter tidigare olaglighet."
+    ]
+  },
+  {
+    "a": "stabilitet",
+    "b": "instabilitet",
+    "description": "Stabilitet innebär ett stadigt tillstånd. Instabilitet innebär att tillståndet lätt förändras eller rubbas.",
+    "examples": [
+      "Stödet gav stabilitet i stället för instabilitet.",
+      "Marknaden växlade mellan stabilitet och instabilitet."
+    ]
+  },
+  {
+    "a": "aktivitet",
+    "b": "passivitet",
+    "description": "Aktivitet innebär handling eller rörelse. Passivitet innebär att inte handla.",
+    "examples": [
+      "Träningen gav aktivitet efter en dag av passivitet.",
+      "Ledaren efterfrågade aktivitet, inte passivitet."
+    ]
+  },
+  {
+    "a": "effektivitet",
+    "b": "ineffektivitet",
+    "description": "Effektivitet innebär goda resultat med rimliga resurser. Ineffektivitet innebär slöseri eller svaga resultat.",
+    "examples": [
+      "Den nya rutinen ökade effektiviteten och minskade ineffektiviteten.",
+      "Rapporten jämför effektivitet med ineffektivitet."
+    ]
+  },
+  {
+    "a": "artighet",
+    "b": "oartighet",
+    "description": "Artighet innebär ett hövligt beteende. Oartighet innebär ett ohövligt beteende.",
+    "examples": [
+      "Hennes artighet uppskattades, medan hans oartighet störde.",
+      "Bemötandet gick från oartighet till artighet."
+    ]
+  },
+  {
+    "a": "ärlighet",
+    "b": "oärlighet",
+    "description": "Ärlighet innebär att tala sant och handla öppet. Oärlighet innebär att vilseleda.",
+    "examples": [
+      "Förtroende kräver ärlighet, inte oärlighet.",
+      "Han erkände sin oärlighet och valde ärlighet."
+    ]
+  },
+  {
+    "a": "tålamod",
+    "b": "otålighet",
+    "description": "Tålamod är förmågan att vänta lugnt. Otålighet är svårigheten att vänta.",
+    "examples": [
+      "Arbetet kräver tålamod, inte otålighet.",
+      "Barnets otålighet ersattes snart av tålamod."
+    ]
+  },
+  {
+    "a": "tydlighet",
+    "b": "otydlighet",
+    "description": "Tydlighet innebär att något är lätt att förstå. Otydlighet innebär att det är svårt att förstå.",
+    "examples": [
+      "Exemplet gav tydlighet och tog bort otydligheten.",
+      "Textens tydlighet förbättrades efter tidigare otydlighet."
+    ]
+  },
+  {
+    "a": "ordentlighet",
+    "b": "oordentlighet",
+    "description": "Ordentlighet innebär ordning och noggrannhet. Oordentlighet innebär slarv och brist på ordning.",
+    "examples": [
+      "Hennes ordentlighet stod mot rummets oordentlighet.",
+      "Rutinen skapade ordentlighet efter oordentlighet."
+    ]
+  },
+  {
+    "a": "renhet",
+    "b": "smuts",
+    "description": "Renhet innebär att vara fri från smuts. Smuts är oönskat material som gör något orent.",
+    "examples": [
+      "Städningen gav renhet och tog bort smuts.",
+      "Kontrollen gäller kökets renhet och eventuell smuts."
+    ]
+  },
+  {
+    "a": "ljud",
+    "b": "tystnad",
+    "description": "Ljud är hörbara svängningar. Tystnad är frånvaro av märkbart ljud.",
+    "examples": [
+      "Ett plötsligt ljud bröt tystnaden.",
+      "Rummet växlade mellan ljud och tystnad."
+    ]
+  },
+  {
+    "a": "rörelse",
+    "b": "stillhet",
+    "description": "Rörelse innebär att läget förändras. Stillhet innebär frånvaro av rörelse.",
+    "examples": [
+      "Efter mycket rörelse kom en stund av stillhet.",
+      "Kameran fångar både rörelse och stillhet."
+    ]
+  },
+  {
+    "a": "stad",
+    "b": "landsbygd",
+    "description": "En stad är ett tätbebyggt område. Landsbygd är glest bebyggda områden utanför städer.",
+    "examples": [
+      "Hon flyttade från landsbygden till en stad.",
+      "Livet kan skilja sig mellan stad och landsbygd."
+    ]
+  },
+  {
+    "a": "centrum",
+    "b": "periferi",
+    "description": "Centrum är mitten eller den viktigaste delen. Periferi är området längre från mitten.",
+    "examples": [
+      "Butiken flyttade från periferin till centrum.",
+      "Kartan visar både centrum och periferi."
+    ]
+  },
+  {
+    "a": "tillgång",
+    "b": "skuld",
+    "description": "En tillgång har ekonomiskt värde för ägaren. En skuld är en ekonomisk förpliktelse.",
+    "examples": [
+      "Balansräkningen visar varje tillgång och skuld.",
+      "Huset är en tillgång, medan lånet är en skuld."
+    ]
+  },
+  {
+    "a": "debet",
+    "b": "kredit",
+    "description": "Debet är vänstersidan i bokföringen. Kredit är högersidan.",
+    "examples": [
+      "Beloppet bokfördes i debet och motposten i kredit.",
+      "Kontrollera att debet och kredit balanserar."
+    ]
+  },
+  {
+    "a": "köp",
+    "b": "försäljning",
+    "description": "Ett köp är att skaffa något mot betalning. En försäljning är att lämna över något mot betalning.",
+    "examples": [
+      "Varje köp hos kunden är en försäljning för butiken.",
+      "Avtalet gäller köp och försäljning av huset."
+    ]
+  },
+  {
+    "a": "givande",
+    "b": "tagande",
+    "description": "Givande är handlingen att ge. Tagande är handlingen att ta.",
+    "examples": [
+      "En relation behöver balans mellan givande och tagande.",
+      "Berättelsen handlar om givande snarare än tagande."
+    ]
+  },
+  {
+    "a": "föregångare",
+    "b": "efterföljare",
+    "description": "En föregångare kommer före någon i en roll. En efterföljare kommer efter.",
+    "examples": [
+      "Efterföljaren fortsatte arbetet från sin föregångare.",
+      "Boken jämför ledaren med både föregångare och efterföljare."
+    ]
+  },
+  {
+    "a": "överordnad",
+    "b": "underordnad",
+    "description": "En överordnad står högre i en organisation. En underordnad står lägre.",
+    "examples": [
+      "Den underordnade rapporterar till sin överordnade.",
+      "Organisationen har både överordnade och underordnade roller."
+    ]
+  },
+  {
+    "a": "vinnare",
+    "b": "förlorare",
+    "description": "En vinnare segrar i en tävling. En förlorare besegras.",
+    "examples": [
+      "Matchen fick en vinnare och en förlorare.",
+      "Vinnaren gratulerade förloraren efter loppet."
+    ]
+  },
+  {
+    "a": "avsändning",
+    "b": "mottagning",
+    "description": "Avsändning är när något skickas. Mottagning är när det tas emot.",
+    "examples": [
+      "Paketet registrerades vid avsändning och mottagning.",
+      "Tiden mellan avsändning och mottagning var två dagar."
+    ]
+  },
+  {
+    "a": "inflyttning",
+    "b": "utflyttning",
+    "description": "Inflyttning är att flytta in till en plats. Utflyttning är att flytta därifrån.",
+    "examples": [
+      "Kommunen mäter både inflyttning och utflyttning.",
+      "Inflyttningen ökade samtidigt som utflyttningen minskade."
+    ]
+  },
+  {
+    "a": "vardag",
+    "b": "helg",
+    "description": "Vardag är en vanlig arbets- eller skoldag. Helg är lediga dagar kring veckoslut eller högtid.",
+    "examples": [
+      "Bussen går ofta på vardagar men mer sällan på helger.",
+      "Hon arbetar vardag och vilar på helg."
+    ]
+  },
+  {
+    "a": "arbete",
+    "b": "vila",
+    "description": "Arbete är ansträngning eller sysselsättning. Vila är återhämtning utan arbete.",
+    "examples": [
+      "Efter arbete behöver kroppen vila.",
+      "Dagen växlade mellan arbete och vila."
+    ]
+  },
+  {
+    "a": "nytta",
+    "b": "skada",
+    "description": "Nytta är en positiv verkan eller fördel. Skada är en negativ verkan eller förlust.",
+    "examples": [
+      "Åtgärden gjorde mer nytta än skada.",
+      "Läkaren väger nyttan mot risken för skada."
+    ]
+  },
+  {
+    "a": "belöning",
+    "b": "straff",
+    "description": "En belöning ges för önskat beteende. Ett straff ges som följd av ett fel eller brott.",
+    "examples": [
+      "Bra arbete gav belöning, regelbrottet gav straff.",
+      "Systemet använder både belöning och straff."
+    ]
+  },
+  {
+    "a": "beröm",
+    "b": "kritik",
+    "description": "Beröm uttrycker uppskattning. Kritik pekar på fel eller brister.",
+    "examples": [
+      "Arbetet fick både beröm och kritik.",
+      "Beröm uppmuntrade henne, medan kritiken hjälpte henne förbättra texten."
+    ]
   }
 ];
 
