@@ -7895,6 +7895,456 @@ const curatedPairs = [
       "Väskan är vägd, men lådan är ovägd.",
       "Väg den ovägda varan och märk den som vägd."
     ]
+  },
+  {
+    "a": "starta",
+    "b": "stoppa",
+    "description": "Starta betyder att sätta i gång. Stoppa betyder att få något att upphöra.",
+    "examples": [
+      "Tryck på knappen för att starta och på den andra för att stoppa.",
+      "Hon startade maskinen på morgonen och stoppade den på kvällen."
+    ]
+  },
+  {
+    "a": "ansluta",
+    "b": "frånkoppla",
+    "description": "Ansluta betyder att koppla samman. Frånkoppla betyder att bryta kopplingen.",
+    "examples": [
+      "Anslut kabeln före du frånkopplar den gamla.",
+      "Teknikern anslöt skrivaren och frånkopplade reservdelen."
+    ]
+  },
+  {
+    "a": "montera",
+    "b": "demontera",
+    "description": "Montera betyder att sätta ihop. Demontera betyder att ta isär.",
+    "examples": [
+      "De monterade hyllan och demonterade den senare.",
+      "Lär dig både att montera och demontera maskinen."
+    ]
+  },
+  {
+    "a": "låsa",
+    "b": "upplåsa",
+    "description": "Låsa betyder att stänga med ett lås. Upplåsa betyder att öppna låset.",
+    "examples": [
+      "Hon låste dörren och upplåste den nästa morgon.",
+      "Nyckeln används för att låsa och upplåsa."
+    ]
+  },
+  {
+    "a": "aktivera",
+    "b": "inaktivera",
+    "description": "Aktivera betyder att slå på en funktion. Inaktivera betyder att stänga av den.",
+    "examples": [
+      "Aktivera alarmet på kvällen och inaktivera det på morgonen.",
+      "Administratören kan aktivera eller inaktivera kontot."
+    ]
+  },
+  {
+    "a": "installera",
+    "b": "avinstallera",
+    "description": "Installera betyder att lägga in och göra ett program klart. Avinstallera betyder att ta bort installationen.",
+    "examples": [
+      "Hon installerade appen och avinstallerade den senare.",
+      "Du kan installera eller avinstallera programmet i inställningarna."
+    ]
+  },
+  {
+    "a": "publicera",
+    "b": "avpublicera",
+    "description": "Publicera betyder att göra innehåll offentligt. Avpublicera betyder att ta bort det från offentlig visning.",
+    "examples": [
+      "Redaktören publicerade artikeln och avpublicerade den efter rättelsen.",
+      "Kontot kan publicera och avpublicera inlägg."
+    ]
+  },
+  {
+    "a": "registrera",
+    "b": "avregistrera",
+    "description": "Registrera betyder att föra in i ett register. Avregistrera betyder att ta bort registreringen.",
+    "examples": [
+      "Registrera fordonet före du avregistrerar det gamla.",
+      "Hon registrerade sig för kursen och avregistrerade sig senare."
+    ]
+  },
+  {
+    "a": "följa",
+    "b": "avfölja",
+    "description": "Följa betyder att prenumerera på någons uppdateringar. Avfölja betyder att sluta följa.",
+    "examples": [
+      "Han följde kontot men avföljde det nästa vecka.",
+      "Du kan följa eller avfölja sidan när du vill."
+    ]
+  },
+  {
+    "a": "prenumerera",
+    "b": "avprenumerera",
+    "description": "Prenumerera betyder att anmäla sig till återkommande innehåll. Avprenumerera betyder att avsluta prenumerationen.",
+    "examples": [
+      "Hon prenumererade på brevet och avprenumererade senare.",
+      "Länken används för att prenumerera eller avprenumerera."
+    ]
+  },
+  {
+    "a": "acceptera",
+    "b": "avvisa",
+    "description": "Acceptera betyder att godta. Avvisa betyder att inte godta.",
+    "examples": [
+      "Hon accepterade det första förslaget men avvisade det andra.",
+      "Systemet kan acceptera eller avvisa ansökan."
+    ]
+  },
+  {
+    "a": "inkludera",
+    "b": "exkludera",
+    "description": "Inkludera betyder att ta med. Exkludera betyder att lämna utanför.",
+    "examples": [
+      "Rapporten inkluderar vuxna men exkluderar barn.",
+      "Välj vilka poster du vill inkludera och exkludera."
+    ]
+  },
+  {
+    "a": "importera",
+    "b": "exportera",
+    "description": "Importera betyder att föra in data eller varor. Exportera betyder att föra ut dem.",
+    "examples": [
+      "Programmet kan importera och exportera filer.",
+      "Landet importerar kaffe och exporterar trä."
+    ]
+  },
+  {
+    "a": "ladda",
+    "b": "urladda",
+    "description": "Ladda betyder att tillföra elektrisk energi. Urladda betyder att tömma den lagrade energin.",
+    "examples": [
+      "Ladda batteriet utan att urladda det helt.",
+      "Testet laddar och urladdar batteriet flera gånger."
+    ]
+  },
+  {
+    "a": "kryptera",
+    "b": "dekryptera",
+    "description": "Kryptera betyder att koda information så att den skyddas. Dekryptera betyder att göra den läsbar igen.",
+    "examples": [
+      "Programmet krypterar filen och dekrypterar den med rätt nyckel.",
+      "Du måste kryptera före du kan dekryptera meddelandet."
+    ]
+  },
+  {
+    "a": "komprimera",
+    "b": "dekomprimera",
+    "description": "Komprimera betyder att packa data till mindre storlek. Dekomprimera betyder att återställa den.",
+    "examples": [
+      "Komprimera mappen före du dekomprimerar den på den andra datorn.",
+      "Verktyget kan komprimera och dekomprimera filer."
+    ]
+  },
+  {
+    "a": "sortera",
+    "b": "blanda",
+    "description": "Sortera betyder att ordna efter ett system. Blanda betyder att föra samman utan den ordningen.",
+    "examples": [
+      "Hon sorterade korten och blandade dem igen.",
+      "Du kan sortera listan eller blanda ordningen."
+    ]
+  },
+  {
+    "a": "centralisera",
+    "b": "decentralisera",
+    "description": "Centralisera betyder att samla styrning på ett ställe. Decentralisera betyder att fördela den.",
+    "examples": [
+      "Företaget centraliserade inköpen men decentraliserade besluten.",
+      "Reformen kan centralisera eller decentralisera makten."
+    ]
+  },
+  {
+    "a": "nationalisera",
+    "b": "privatisera",
+    "description": "Nationalisera betyder att föra över till staten. Privatisera betyder att föra över till privat ägande.",
+    "examples": [
+      "Staten nationaliserade bolaget och privatiserade det senare.",
+      "Debatten gäller om verksamheten ska nationaliseras eller privatiseras."
+    ]
+  },
+  {
+    "a": "reglera",
+    "b": "avreglera",
+    "description": "Reglera betyder att införa eller tillämpa regler. Avreglera betyder att ta bort reglering.",
+    "examples": [
+      "Lagen reglerar marknaden, medan reformen vill avreglera den.",
+      "Regeringen kan reglera eller avreglera verksamheten."
+    ]
+  },
+  {
+    "a": "mobilisera",
+    "b": "demobilisera",
+    "description": "Mobilisera betyder att samla och göra redo. Demobilisera betyder att avveckla beredskapen.",
+    "examples": [
+      "Landet mobiliserade styrkorna och demobiliserade dem efter freden.",
+      "Planen beskriver hur man mobiliserar och demobiliserar."
+    ]
+  },
+  {
+    "a": "politisera",
+    "b": "avpolitisera",
+    "description": "Politisera betyder att ge något en tydligare politisk prägel. Avpolitisera betyder att minska den prägeln.",
+    "examples": [
+      "Debatten politiserade frågan, medan överenskommelsen avpolitiserade den.",
+      "Man kan politisera eller avpolitisera en myndighetsfråga."
+    ]
+  },
+  {
+    "a": "naturalisera",
+    "b": "denaturalisera",
+    "description": "Naturalisera betyder att ge medborgarskap genom ett rättsligt förfarande. Denaturalisera betyder att återkalla det.",
+    "examples": [
+      "Staten naturaliserade personen men kunde senare denaturalisera honom.",
+      "Lagen anger när man får naturalisera eller denaturalisera."
+    ]
+  },
+  {
+    "a": "skapa",
+    "b": "förstöra",
+    "description": "Skapa betyder att frambringa eller bygga upp. Förstöra betyder att skada så att det upphör eller inte fungerar.",
+    "examples": [
+      "Det tar tid att skapa men kan gå snabbt att förstöra.",
+      "Hon skapade modellen och råkade förstöra kopian."
+    ]
+  },
+  {
+    "a": "konstruera",
+    "b": "dekonstruera",
+    "description": "Konstruera betyder att bygga upp en struktur. Dekonstruera betyder att plocka isär eller analysera strukturen.",
+    "examples": [
+      "Eleverna konstruerade texten och dekonstruerade den sedan.",
+      "Kursen lär ut att konstruera och dekonstruera argument."
+    ]
+  },
+  {
+    "a": "förena",
+    "b": "separera",
+    "description": "Förena betyder att föra samman. Separera betyder att skilja åt.",
+    "examples": [
+      "Bron förenar öarna, medan sundet separerar dem.",
+      "Maskinen kan förena delarna och senare separera dem."
+    ]
+  },
+  {
+    "a": "binda",
+    "b": "lösgöra",
+    "description": "Binda betyder att fästa eller hålla fast. Lösgöra betyder att göra fri.",
+    "examples": [
+      "Repet binder lasten tills någon lösgör den.",
+      "Han band knuten och lösgjorde den senare."
+    ]
+  },
+  {
+    "a": "fästa",
+    "b": "lossa",
+    "description": "Fästa betyder att sätta fast. Lossa betyder att göra mindre fast eller ta bort.",
+    "examples": [
+      "Fäst skruven och lossa den vid service.",
+      "Hon fäste kroken men lossade repet."
+    ]
+  },
+  {
+    "a": "fylla",
+    "b": "tömma",
+    "description": "Fylla betyder att lägga innehåll i något. Tömma betyder att ta bort innehållet.",
+    "examples": [
+      "Fyll glaset och töm det efteråt.",
+      "Maskinen kan fylla och tömma behållaren."
+    ]
+  },
+  {
+    "a": "bredda",
+    "b": "smalna",
+    "description": "Bredda betyder att göra bredare. Smalna betyder att bli eller göra smalare.",
+    "examples": [
+      "De breddade vägen där den brukade smalna.",
+      "Floden breddar sig först och smalnar sedan."
+    ]
+  },
+  {
+    "a": "förlänga",
+    "b": "förkorta",
+    "description": "Förlänga betyder att göra längre. Förkorta betyder att göra kortare.",
+    "examples": [
+      "Hon förlängde ärmen och förkortade byxan.",
+      "Tiden kan förlängas eller förkortas."
+    ]
+  },
+  {
+    "a": "mjukna",
+    "b": "hårdna",
+    "description": "Mjukna betyder att bli mjukare. Hårdna betyder att bli hårdare.",
+    "examples": [
+      "Smöret mjuknar i värme, medan limmet hårdnar.",
+      "Materialet kan mjukna och sedan hårdna."
+    ]
+  },
+  {
+    "a": "värma",
+    "b": "kyla",
+    "description": "Värma betyder att göra varmare. Kyla betyder att göra kallare.",
+    "examples": [
+      "Ugnen värmer maten och kylen kyler den.",
+      "Värm soppan men kyl drycken."
+    ]
+  },
+  {
+    "a": "frysa",
+    "b": "tina",
+    "description": "Frysa betyder att bli eller göra fast av kyla. Tina betyder att bli mjuk eller flytande igen.",
+    "examples": [
+      "Frys bären och tina dem före användning.",
+      "Vattnet fryser på natten och tinar på dagen."
+    ]
+  },
+  {
+    "a": "torka",
+    "b": "fukta",
+    "description": "Torka betyder att avlägsna fukt. Fukta betyder att tillföra lite fukt.",
+    "examples": [
+      "Torka ytan före du fuktar trasan.",
+      "Vinden torkar jorden och regnet fuktar den."
+    ]
+  },
+  {
+    "a": "rena",
+    "b": "förorena",
+    "description": "Rena betyder att avlägsna föroreningar. Förorena betyder att tillföra skadliga ämnen.",
+    "examples": [
+      "Filtret renar vattnet, medan utsläppet förorenar det.",
+      "Vi ska rena luften, inte förorena den."
+    ]
+  },
+  {
+    "a": "samla",
+    "b": "sprida",
+    "description": "Samla betyder att föra ihop. Sprida betyder att fördela åt olika håll.",
+    "examples": [
+      "Hon samlade korten och spred dem över bordet.",
+      "Vinden sprider löven som vi nyss samlade."
+    ]
+  },
+  {
+    "a": "expandera",
+    "b": "krympa",
+    "description": "Expandera betyder att bli större. Krympa betyder att bli mindre.",
+    "examples": [
+      "Metallen expanderar i värme och krymper i kyla.",
+      "Företaget kan expandera eller krympa."
+    ]
+  },
+  {
+    "a": "sända",
+    "b": "motta",
+    "description": "Sända betyder att skicka en signal eller ett meddelande. Motta betyder att ta emot det.",
+    "examples": [
+      "Antennen sänder och radion mottar signalen.",
+      "Systemet kan både sända och motta data."
+    ]
+  },
+  {
+    "a": "förtydliga",
+    "b": "fördunkla",
+    "description": "Förtydliga betyder att göra tydligare. Fördunkla betyder att göra svårare att förstå.",
+    "examples": [
+      "Exemplet förtydligar frågan, medan jargongen fördunklar den.",
+      "Förtydliga texten i stället för att fördunkla den."
+    ]
+  },
+  {
+    "a": "avslöja",
+    "b": "dölja",
+    "description": "Avslöja betyder att göra något känt. Dölja betyder att hålla det undan.",
+    "examples": [
+      "Rapporten avslöjar det som brevet försökte dölja.",
+      "Hon dolde svaret men avslöjade det senare."
+    ]
+  },
+  {
+    "a": "frige",
+    "b": "fängsla",
+    "description": "Frige betyder att släppa fri. Fängsla betyder att beröva någon friheten.",
+    "examples": [
+      "Domstolen kan frige den oskyldige och fängsla den dömde.",
+      "Han fängslades först och frigavs senare."
+    ]
+  },
+  {
+    "a": "behålla",
+    "b": "kassera",
+    "description": "Behålla betyder att spara och fortsätta ha. Kassera betyder att göra sig av med.",
+    "examples": [
+      "Behåll den hela delen och kassera den trasiga.",
+      "Hon behöll kvittot men kasserade förpackningen."
+    ]
+  },
+  {
+    "a": "förnya",
+    "b": "föråldra",
+    "description": "Förnya betyder att göra ny eller aktuell igen. Föråldra betyder att göra eller bli gammalmodig.",
+    "examples": [
+      "Uppdateringen förnyar systemet, medan brist på stöd föråldrar det.",
+      "Teknik kan snabbt förnya en tjänst och föråldra en annan."
+    ]
+  },
+  {
+    "a": "överlasta",
+    "b": "avlasta",
+    "description": "Överlasta betyder att belasta för mycket. Avlasta betyder att minska belastningen.",
+    "examples": [
+      "För många lådor överlastar hyllan, medan stödet avlastar den.",
+      "Avlasta motorn i stället för att överlasta den."
+    ]
+  },
+  {
+    "a": "uppmuntra",
+    "b": "avskräcka",
+    "description": "Uppmuntra betyder att ge mod eller vilja. Avskräcka betyder att få någon att avstå.",
+    "examples": [
+      "Beröm kan uppmuntra, medan hot kan avskräcka.",
+      "Skylten uppmuntrar cykling och avskräcker bilkörning."
+    ]
+  },
+  {
+    "a": "införa",
+    "b": "avskaffa",
+    "description": "Införa betyder att börja använda en regel eller ordning. Avskaffa betyder att ta bort den.",
+    "examples": [
+      "Kommunen införde avgiften och avskaffade den senare.",
+      "Förslaget vill införa en rättighet och avskaffa ett hinder."
+    ]
+  },
+  {
+    "a": "stabilisera",
+    "b": "destabilisera",
+    "description": "Stabilisera betyder att göra stabilare. Destabilisera betyder att göra mindre stabil.",
+    "examples": [
+      "Stödet stabiliserar konstruktionen, medan skadan destabiliserar den.",
+      "Åtgärden ska stabilisera läget, inte destabilisera det."
+    ]
+  },
+  {
+    "a": "täcka",
+    "b": "avtäcka",
+    "description": "Täcka betyder att lägga något över. Avtäcka betyder att ta bort täckningen.",
+    "examples": [
+      "Täcket täcker lådan tills vi avtäcker den.",
+      "De täckte målningen och avtäckte den vid invigningen."
+    ]
+  },
+  {
+    "a": "spänna",
+    "b": "avspänna",
+    "description": "Spänna betyder att göra stram eller spänd. Avspänna betyder att minska spänningen.",
+    "examples": [
+      "Spänn repet och avspänn det efter användning.",
+      "Övningen spänner muskeln och hjälper sedan till att avspänna den."
+    ]
   }
 ];
 
