@@ -20394,5 +20394,1105 @@ export const words: Record<string, WordEntry> = {
     "related": [
       "spänna"
     ]
+  },
+  "gryning": {
+    "opposite": "skymning",
+    "description": "Gryning är tiden då dagen börjar ljusna. Skymning är tiden då dagen övergår i mörker.",
+    "examples": [
+      "Vi gick upp i gryningen och kom hem i skymningen.",
+      "Gryningen kommer före dagen, skymningen före natten."
+    ],
+    "related": [
+      "skymning"
+    ]
+  },
+  "skymning": {
+    "opposite": "gryning",
+    "description": "Gryning är tiden då dagen börjar ljusna. Skymning är tiden då dagen övergår i mörker.",
+    "examples": [
+      "Vi gick upp i gryningen och kom hem i skymningen.",
+      "Gryningen kommer före dagen, skymningen före natten."
+    ],
+    "related": [
+      "gryning"
+    ]
+  },
+  "soluppgång": {
+    "opposite": "solnedgång",
+    "description": "Soluppgång är när solen stiger över horisonten. Solnedgång är när den sjunker under.",
+    "examples": [
+      "Vi såg soluppgång på morgonen och solnedgång på kvällen.",
+      "Tiden för soluppgång och solnedgång ändras under året."
+    ],
+    "related": [
+      "solnedgång"
+    ]
+  },
+  "solnedgång": {
+    "opposite": "soluppgång",
+    "description": "Soluppgång är när solen stiger över horisonten. Solnedgång är när den sjunker under.",
+    "examples": [
+      "Vi såg soluppgång på morgonen och solnedgång på kvällen.",
+      "Tiden för soluppgång och solnedgång ändras under året."
+    ],
+    "related": [
+      "soluppgång"
+    ]
+  },
+  "orsak": {
+    "opposite": "verkan",
+    "description": "En orsak är det som får något att hända. En verkan är resultatet.",
+    "examples": [
+      "Regnet var orsak och översvämningen verkan.",
+      "Forskaren sökte både orsak och verkan."
+    ],
+    "related": [
+      "verkan"
+    ]
+  },
+  "verkan": {
+    "opposite": "orsak",
+    "description": "En orsak är det som får något att hända. En verkan är resultatet.",
+    "examples": [
+      "Regnet var orsak och översvämningen verkan.",
+      "Forskaren sökte både orsak och verkan."
+    ],
+    "related": [
+      "orsak"
+    ]
+  },
+  "fråga": {
+    "opposite": "svar",
+    "description": "En fråga ber om information. Ett svar ger informationen.",
+    "examples": [
+      "Läraren ställde en fråga och eleven gav ett svar.",
+      "Varje fråga behöver inte ha ett enkelt svar."
+    ],
+    "related": [
+      "svar"
+    ]
+  },
+  "svar": {
+    "opposite": "fråga",
+    "description": "En fråga ber om information. Ett svar ger informationen.",
+    "examples": [
+      "Läraren ställde en fråga och eleven gav ett svar.",
+      "Varje fråga behöver inte ha ett enkelt svar."
+    ],
+    "related": [
+      "fråga"
+    ]
+  },
+  "problem": {
+    "opposite": "lösning",
+    "description": "Ett problem är en svårighet. En lösning är ett sätt att lösa den.",
+    "examples": [
+      "Vi hittade en lösning på problemet.",
+      "Beskriv först problemet och sedan lösningen."
+    ],
+    "related": [
+      "lösning"
+    ]
+  },
+  "lösning": {
+    "opposite": "problem",
+    "description": "Ett problem är en svårighet. En lösning är ett sätt att lösa den.",
+    "examples": [
+      "Vi hittade en lösning på problemet.",
+      "Beskriv först problemet och sedan lösningen."
+    ],
+    "related": [
+      "problem"
+    ]
+  },
+  "framgång": {
+    "opposite": "motgång",
+    "description": "Framgång innebär att lyckas. Motgång innebär ett hinder eller misslyckande.",
+    "examples": [
+      "Efter flera motgångar kom till slut framgång.",
+      "Både framgång och motgång lärde laget något."
+    ],
+    "related": [
+      "motgång"
+    ]
+  },
+  "motgång": {
+    "opposite": "framgång",
+    "description": "Framgång innebär att lyckas. Motgång innebär ett hinder eller misslyckande.",
+    "examples": [
+      "Efter flera motgångar kom till slut framgång.",
+      "Både framgång och motgång lärde laget något."
+    ],
+    "related": [
+      "framgång"
+    ]
+  },
+  "hopp": {
+    "opposite": "förtvivlan",
+    "description": "Hopp är en tro på att något kan bli bättre. Förtvivlan är känslan att inget hopp finns.",
+    "examples": [
+      "Beskedet gav hopp i stället för förtvivlan.",
+      "Hon växlade mellan hopp och förtvivlan."
+    ],
+    "related": [
+      "förtvivlan"
+    ]
+  },
+  "förtvivlan": {
+    "opposite": "hopp",
+    "description": "Hopp är en tro på att något kan bli bättre. Förtvivlan är känslan att inget hopp finns.",
+    "examples": [
+      "Beskedet gav hopp i stället för förtvivlan.",
+      "Hon växlade mellan hopp och förtvivlan."
+    ],
+    "related": [
+      "hopp"
+    ]
+  },
+  "hälsa": {
+    "opposite": "sjukdom",
+    "description": "Hälsa är ett tillstånd av välbefinnande. Sjukdom är ett tillstånd där kroppen eller sinnet inte fungerar normalt.",
+    "examples": [
+      "Motion kan stärka hälsan och minska risken för sjukdom.",
+      "Läkaren arbetar med både hälsa och sjukdom."
+    ],
+    "related": [
+      "sjukdom"
+    ]
+  },
+  "sjukdom": {
+    "opposite": "hälsa",
+    "description": "Hälsa är ett tillstånd av välbefinnande. Sjukdom är ett tillstånd där kroppen eller sinnet inte fungerar normalt.",
+    "examples": [
+      "Motion kan stärka hälsan och minska risken för sjukdom.",
+      "Läkaren arbetar med både hälsa och sjukdom."
+    ],
+    "related": [
+      "hälsa"
+    ]
+  },
+  "ungdom": {
+    "opposite": "ålderdom",
+    "description": "Ungdom är den tid då man är ung. Ålderdom är den senare delen av livet.",
+    "examples": [
+      "Han mindes sin ungdom när han nådde ålderdomen.",
+      "Boken följer livet från ungdom till ålderdom."
+    ],
+    "related": [
+      "ålderdom"
+    ]
+  },
+  "ålderdom": {
+    "opposite": "ungdom",
+    "description": "Ungdom är den tid då man är ung. Ålderdom är den senare delen av livet.",
+    "examples": [
+      "Han mindes sin ungdom när han nådde ålderdomen.",
+      "Boken följer livet från ungdom till ålderdom."
+    ],
+    "related": [
+      "ungdom"
+    ]
+  },
+  "barndom": {
+    "opposite": "vuxenliv",
+    "description": "Barndom är tiden då man är barn. Vuxenliv är tiden som vuxen.",
+    "examples": [
+      "Vännerna kände varandra från barndomen till vuxenlivet.",
+      "Ansvar förändras mellan barndom och vuxenliv."
+    ],
+    "related": [
+      "vuxenliv"
+    ]
+  },
+  "vuxenliv": {
+    "opposite": "barndom",
+    "description": "Barndom är tiden då man är barn. Vuxenliv är tiden som vuxen.",
+    "examples": [
+      "Vännerna kände varandra från barndomen till vuxenlivet.",
+      "Ansvar förändras mellan barndom och vuxenliv."
+    ],
+    "related": [
+      "barndom"
+    ]
+  },
+  "enighet": {
+    "opposite": "oenighet",
+    "description": "Enighet betyder att vara överens. Oenighet betyder att åsikterna skiljer sig.",
+    "examples": [
+      "Gruppen nådde enighet efter lång oenighet.",
+      "Frågan skapade både enighet och oenighet."
+    ],
+    "related": [
+      "oenighet"
+    ]
+  },
+  "oenighet": {
+    "opposite": "enighet",
+    "description": "Enighet betyder att vara överens. Oenighet betyder att åsikterna skiljer sig.",
+    "examples": [
+      "Gruppen nådde enighet efter lång oenighet.",
+      "Frågan skapade både enighet och oenighet."
+    ],
+    "related": [
+      "enighet"
+    ]
+  },
+  "samförstånd": {
+    "opposite": "konflikt",
+    "description": "Samförstånd innebär att parter förstår och enas. Konflikt innebär en motsättning eller strid.",
+    "examples": [
+      "Samtalet ledde till samförstånd i stället för konflikt.",
+      "De gick från konflikt till samförstånd."
+    ],
+    "related": [
+      "konflikt"
+    ]
+  },
+  "konflikt": {
+    "opposite": "samförstånd",
+    "description": "Samförstånd innebär att parter förstår och enas. Konflikt innebär en motsättning eller strid.",
+    "examples": [
+      "Samtalet ledde till samförstånd i stället för konflikt.",
+      "De gick från konflikt till samförstånd."
+    ],
+    "related": [
+      "samförstånd"
+    ]
+  },
+  "vänskap": {
+    "opposite": "fiendskap",
+    "description": "Vänskap är en vänlig och nära relation. Fiendskap är en fientlig relation.",
+    "examples": [
+      "Deras fiendskap övergick senare i vänskap.",
+      "Berättelsen handlar om vänskap och fiendskap."
+    ],
+    "related": [
+      "fiendskap"
+    ]
+  },
+  "fiendskap": {
+    "opposite": "vänskap",
+    "description": "Vänskap är en vänlig och nära relation. Fiendskap är en fientlig relation.",
+    "examples": [
+      "Deras fiendskap övergick senare i vänskap.",
+      "Berättelsen handlar om vänskap och fiendskap."
+    ],
+    "related": [
+      "vänskap"
+    ]
+  },
+  "verklighet": {
+    "opposite": "fantasi",
+    "description": "Verklighet är det som faktiskt finns eller händer. Fantasi är det som föreställs.",
+    "examples": [
+      "Filmen blandar verklighet med fantasi.",
+      "Barnet skiljde till slut fantasi från verklighet."
+    ],
+    "related": [
+      "fantasi"
+    ]
+  },
+  "fantasi": {
+    "opposite": "verklighet",
+    "description": "Verklighet är det som faktiskt finns eller händer. Fantasi är det som föreställs.",
+    "examples": [
+      "Filmen blandar verklighet med fantasi.",
+      "Barnet skiljde till slut fantasi från verklighet."
+    ],
+    "related": [
+      "verklighet"
+    ]
+  },
+  "fakta": {
+    "opposite": "fiktion",
+    "description": "Fakta är uppgifter som kan vara sanna och kontrolleras. Fiktion är påhittade berättelser.",
+    "examples": [
+      "Boken blandar historiska fakta med fiktion.",
+      "Kontrollera vad som är fakta och vad som är fiktion."
+    ],
+    "related": [
+      "fiktion"
+    ]
+  },
+  "fiktion": {
+    "opposite": "fakta",
+    "description": "Fakta är uppgifter som kan vara sanna och kontrolleras. Fiktion är påhittade berättelser.",
+    "examples": [
+      "Boken blandar historiska fakta med fiktion.",
+      "Kontrollera vad som är fakta och vad som är fiktion."
+    ],
+    "related": [
+      "fakta"
+    ]
+  },
+  "teori": {
+    "opposite": "praktik",
+    "description": "Teori är idéer och modeller som förklarar. Praktik är hur något görs i verkligheten.",
+    "examples": [
+      "Eleverna lärde sig teori och övade sedan i praktik.",
+      "Det kan vara skillnad mellan teori och praktik."
+    ],
+    "related": [
+      "praktik"
+    ]
+  },
+  "praktik": {
+    "opposite": "teori",
+    "description": "Teori är idéer och modeller som förklarar. Praktik är hur något görs i verkligheten.",
+    "examples": [
+      "Eleverna lärde sig teori och övade sedan i praktik.",
+      "Det kan vara skillnad mellan teori och praktik."
+    ],
+    "related": [
+      "teori"
+    ]
+  },
+  "mod": {
+    "opposite": "rädsla",
+    "description": "Mod är förmågan att handla trots risk. Rädsla är känslan av hot eller fara.",
+    "examples": [
+      "Hon visade mod trots sin rädsla.",
+      "Mod betyder inte att all rädsla saknas."
+    ],
+    "related": [
+      "rädsla"
+    ]
+  },
+  "rädsla": {
+    "opposite": "mod",
+    "description": "Mod är förmågan att handla trots risk. Rädsla är känslan av hot eller fara.",
+    "examples": [
+      "Hon visade mod trots sin rädsla.",
+      "Mod betyder inte att all rädsla saknas."
+    ],
+    "related": [
+      "mod"
+    ]
+  },
+  "kunskap": {
+    "opposite": "okunnighet",
+    "description": "Kunskap innebär att veta och förstå. Okunnighet innebär att sakna kunskap.",
+    "examples": [
+      "Utbildning kan ersätta okunnighet med kunskap.",
+      "Kunskap om frågan är bättre än okunnighet."
+    ],
+    "related": [
+      "okunnighet"
+    ]
+  },
+  "okunnighet": {
+    "opposite": "kunskap",
+    "description": "Kunskap innebär att veta och förstå. Okunnighet innebär att sakna kunskap.",
+    "examples": [
+      "Utbildning kan ersätta okunnighet med kunskap.",
+      "Kunskap om frågan är bättre än okunnighet."
+    ],
+    "related": [
+      "kunskap"
+    ]
+  },
+  "medvetenhet": {
+    "opposite": "omedvetenhet",
+    "description": "Medvetenhet innebär att känna till eller uppfatta något. Omedvetenhet innebär att inte göra det.",
+    "examples": [
+      "Kampanjen ökade medvetenheten och minskade omedvetenheten.",
+      "Hon gick från omedvetenhet till medvetenhet om problemet."
+    ],
+    "related": [
+      "omedvetenhet"
+    ]
+  },
+  "omedvetenhet": {
+    "opposite": "medvetenhet",
+    "description": "Medvetenhet innebär att känna till eller uppfatta något. Omedvetenhet innebär att inte göra det.",
+    "examples": [
+      "Kampanjen ökade medvetenheten och minskade omedvetenheten.",
+      "Hon gick från omedvetenhet till medvetenhet om problemet."
+    ],
+    "related": [
+      "medvetenhet"
+    ]
+  },
+  "frihet": {
+    "opposite": "ofrihet",
+    "description": "Frihet innebär möjlighet att välja och handla. Ofrihet innebär att vara begränsad eller tvingad.",
+    "examples": [
+      "De kämpade för frihet och mot ofrihet.",
+      "Boken jämför ett liv i frihet med ett i ofrihet."
+    ],
+    "related": [
+      "ofrihet"
+    ]
+  },
+  "ofrihet": {
+    "opposite": "frihet",
+    "description": "Frihet innebär möjlighet att välja och handla. Ofrihet innebär att vara begränsad eller tvingad.",
+    "examples": [
+      "De kämpade för frihet och mot ofrihet.",
+      "Boken jämför ett liv i frihet med ett i ofrihet."
+    ],
+    "related": [
+      "frihet"
+    ]
+  },
+  "rättvisa": {
+    "opposite": "orättvisa",
+    "description": "Rättvisa innebär skälig och lika behandling. Orättvisa innebär oskälig behandling.",
+    "examples": [
+      "Beslutet skapade rättvisa efter en tid av orättvisa.",
+      "Barn reagerar starkt på både rättvisa och orättvisa."
+    ],
+    "related": [
+      "orättvisa"
+    ]
+  },
+  "orättvisa": {
+    "opposite": "rättvisa",
+    "description": "Rättvisa innebär skälig och lika behandling. Orättvisa innebär oskälig behandling.",
+    "examples": [
+      "Beslutet skapade rättvisa efter en tid av orättvisa.",
+      "Barn reagerar starkt på både rättvisa och orättvisa."
+    ],
+    "related": [
+      "rättvisa"
+    ]
+  },
+  "jämlikhet": {
+    "opposite": "ojämlikhet",
+    "description": "Jämlikhet innebär lika rättigheter och möjligheter. Ojämlikhet innebär orättvisa skillnader.",
+    "examples": [
+      "Reformen ska öka jämlikheten och minska ojämlikheten.",
+      "Rapporten mäter jämlikhet och ojämlikhet."
+    ],
+    "related": [
+      "ojämlikhet"
+    ]
+  },
+  "ojämlikhet": {
+    "opposite": "jämlikhet",
+    "description": "Jämlikhet innebär lika rättigheter och möjligheter. Ojämlikhet innebär orättvisa skillnader.",
+    "examples": [
+      "Reformen ska öka jämlikheten och minska ojämlikheten.",
+      "Rapporten mäter jämlikhet och ojämlikhet."
+    ],
+    "related": [
+      "jämlikhet"
+    ]
+  },
+  "laglighet": {
+    "opposite": "olaglighet",
+    "description": "Laglighet innebär att något följer lagen. Olaglighet innebär att det bryter mot lagen.",
+    "examples": [
+      "Domstolen prövade handlingens laglighet eller olaglighet.",
+      "Tillståndet gav verksamheten laglighet efter tidigare olaglighet."
+    ],
+    "related": [
+      "olaglighet"
+    ]
+  },
+  "olaglighet": {
+    "opposite": "laglighet",
+    "description": "Laglighet innebär att något följer lagen. Olaglighet innebär att det bryter mot lagen.",
+    "examples": [
+      "Domstolen prövade handlingens laglighet eller olaglighet.",
+      "Tillståndet gav verksamheten laglighet efter tidigare olaglighet."
+    ],
+    "related": [
+      "laglighet"
+    ]
+  },
+  "stabilitet": {
+    "opposite": "instabilitet",
+    "description": "Stabilitet innebär ett stadigt tillstånd. Instabilitet innebär att tillståndet lätt förändras eller rubbas.",
+    "examples": [
+      "Stödet gav stabilitet i stället för instabilitet.",
+      "Marknaden växlade mellan stabilitet och instabilitet."
+    ],
+    "related": [
+      "instabilitet"
+    ]
+  },
+  "instabilitet": {
+    "opposite": "stabilitet",
+    "description": "Stabilitet innebär ett stadigt tillstånd. Instabilitet innebär att tillståndet lätt förändras eller rubbas.",
+    "examples": [
+      "Stödet gav stabilitet i stället för instabilitet.",
+      "Marknaden växlade mellan stabilitet och instabilitet."
+    ],
+    "related": [
+      "stabilitet"
+    ]
+  },
+  "aktivitet": {
+    "opposite": "passivitet",
+    "description": "Aktivitet innebär handling eller rörelse. Passivitet innebär att inte handla.",
+    "examples": [
+      "Träningen gav aktivitet efter en dag av passivitet.",
+      "Ledaren efterfrågade aktivitet, inte passivitet."
+    ],
+    "related": [
+      "passivitet"
+    ]
+  },
+  "passivitet": {
+    "opposite": "aktivitet",
+    "description": "Aktivitet innebär handling eller rörelse. Passivitet innebär att inte handla.",
+    "examples": [
+      "Träningen gav aktivitet efter en dag av passivitet.",
+      "Ledaren efterfrågade aktivitet, inte passivitet."
+    ],
+    "related": [
+      "aktivitet"
+    ]
+  },
+  "effektivitet": {
+    "opposite": "ineffektivitet",
+    "description": "Effektivitet innebär goda resultat med rimliga resurser. Ineffektivitet innebär slöseri eller svaga resultat.",
+    "examples": [
+      "Den nya rutinen ökade effektiviteten och minskade ineffektiviteten.",
+      "Rapporten jämför effektivitet med ineffektivitet."
+    ],
+    "related": [
+      "ineffektivitet"
+    ]
+  },
+  "ineffektivitet": {
+    "opposite": "effektivitet",
+    "description": "Effektivitet innebär goda resultat med rimliga resurser. Ineffektivitet innebär slöseri eller svaga resultat.",
+    "examples": [
+      "Den nya rutinen ökade effektiviteten och minskade ineffektiviteten.",
+      "Rapporten jämför effektivitet med ineffektivitet."
+    ],
+    "related": [
+      "effektivitet"
+    ]
+  },
+  "artighet": {
+    "opposite": "oartighet",
+    "description": "Artighet innebär ett hövligt beteende. Oartighet innebär ett ohövligt beteende.",
+    "examples": [
+      "Hennes artighet uppskattades, medan hans oartighet störde.",
+      "Bemötandet gick från oartighet till artighet."
+    ],
+    "related": [
+      "oartighet"
+    ]
+  },
+  "oartighet": {
+    "opposite": "artighet",
+    "description": "Artighet innebär ett hövligt beteende. Oartighet innebär ett ohövligt beteende.",
+    "examples": [
+      "Hennes artighet uppskattades, medan hans oartighet störde.",
+      "Bemötandet gick från oartighet till artighet."
+    ],
+    "related": [
+      "artighet"
+    ]
+  },
+  "ärlighet": {
+    "opposite": "oärlighet",
+    "description": "Ärlighet innebär att tala sant och handla öppet. Oärlighet innebär att vilseleda.",
+    "examples": [
+      "Förtroende kräver ärlighet, inte oärlighet.",
+      "Han erkände sin oärlighet och valde ärlighet."
+    ],
+    "related": [
+      "oärlighet"
+    ]
+  },
+  "oärlighet": {
+    "opposite": "ärlighet",
+    "description": "Ärlighet innebär att tala sant och handla öppet. Oärlighet innebär att vilseleda.",
+    "examples": [
+      "Förtroende kräver ärlighet, inte oärlighet.",
+      "Han erkände sin oärlighet och valde ärlighet."
+    ],
+    "related": [
+      "ärlighet"
+    ]
+  },
+  "tålamod": {
+    "opposite": "otålighet",
+    "description": "Tålamod är förmågan att vänta lugnt. Otålighet är svårigheten att vänta.",
+    "examples": [
+      "Arbetet kräver tålamod, inte otålighet.",
+      "Barnets otålighet ersattes snart av tålamod."
+    ],
+    "related": [
+      "otålighet"
+    ]
+  },
+  "otålighet": {
+    "opposite": "tålamod",
+    "description": "Tålamod är förmågan att vänta lugnt. Otålighet är svårigheten att vänta.",
+    "examples": [
+      "Arbetet kräver tålamod, inte otålighet.",
+      "Barnets otålighet ersattes snart av tålamod."
+    ],
+    "related": [
+      "tålamod"
+    ]
+  },
+  "tydlighet": {
+    "opposite": "otydlighet",
+    "description": "Tydlighet innebär att något är lätt att förstå. Otydlighet innebär att det är svårt att förstå.",
+    "examples": [
+      "Exemplet gav tydlighet och tog bort otydligheten.",
+      "Textens tydlighet förbättrades efter tidigare otydlighet."
+    ],
+    "related": [
+      "otydlighet"
+    ]
+  },
+  "otydlighet": {
+    "opposite": "tydlighet",
+    "description": "Tydlighet innebär att något är lätt att förstå. Otydlighet innebär att det är svårt att förstå.",
+    "examples": [
+      "Exemplet gav tydlighet och tog bort otydligheten.",
+      "Textens tydlighet förbättrades efter tidigare otydlighet."
+    ],
+    "related": [
+      "tydlighet"
+    ]
+  },
+  "ordentlighet": {
+    "opposite": "oordentlighet",
+    "description": "Ordentlighet innebär ordning och noggrannhet. Oordentlighet innebär slarv och brist på ordning.",
+    "examples": [
+      "Hennes ordentlighet stod mot rummets oordentlighet.",
+      "Rutinen skapade ordentlighet efter oordentlighet."
+    ],
+    "related": [
+      "oordentlighet"
+    ]
+  },
+  "oordentlighet": {
+    "opposite": "ordentlighet",
+    "description": "Ordentlighet innebär ordning och noggrannhet. Oordentlighet innebär slarv och brist på ordning.",
+    "examples": [
+      "Hennes ordentlighet stod mot rummets oordentlighet.",
+      "Rutinen skapade ordentlighet efter oordentlighet."
+    ],
+    "related": [
+      "ordentlighet"
+    ]
+  },
+  "renhet": {
+    "opposite": "smuts",
+    "description": "Renhet innebär att vara fri från smuts. Smuts är oönskat material som gör något orent.",
+    "examples": [
+      "Städningen gav renhet och tog bort smuts.",
+      "Kontrollen gäller kökets renhet och eventuell smuts."
+    ],
+    "related": [
+      "smuts"
+    ]
+  },
+  "smuts": {
+    "opposite": "renhet",
+    "description": "Renhet innebär att vara fri från smuts. Smuts är oönskat material som gör något orent.",
+    "examples": [
+      "Städningen gav renhet och tog bort smuts.",
+      "Kontrollen gäller kökets renhet och eventuell smuts."
+    ],
+    "related": [
+      "renhet"
+    ]
+  },
+  "ljud": {
+    "opposite": "tystnad",
+    "description": "Ljud är hörbara svängningar. Tystnad är frånvaro av märkbart ljud.",
+    "examples": [
+      "Ett plötsligt ljud bröt tystnaden.",
+      "Rummet växlade mellan ljud och tystnad."
+    ],
+    "related": [
+      "tystnad"
+    ]
+  },
+  "tystnad": {
+    "opposite": "ljud",
+    "description": "Ljud är hörbara svängningar. Tystnad är frånvaro av märkbart ljud.",
+    "examples": [
+      "Ett plötsligt ljud bröt tystnaden.",
+      "Rummet växlade mellan ljud och tystnad."
+    ],
+    "related": [
+      "ljud"
+    ]
+  },
+  "rörelse": {
+    "opposite": "stillhet",
+    "description": "Rörelse innebär att läget förändras. Stillhet innebär frånvaro av rörelse.",
+    "examples": [
+      "Efter mycket rörelse kom en stund av stillhet.",
+      "Kameran fångar både rörelse och stillhet."
+    ],
+    "related": [
+      "stillhet"
+    ]
+  },
+  "stillhet": {
+    "opposite": "rörelse",
+    "description": "Rörelse innebär att läget förändras. Stillhet innebär frånvaro av rörelse.",
+    "examples": [
+      "Efter mycket rörelse kom en stund av stillhet.",
+      "Kameran fångar både rörelse och stillhet."
+    ],
+    "related": [
+      "rörelse"
+    ]
+  },
+  "stad": {
+    "opposite": "landsbygd",
+    "description": "En stad är ett tätbebyggt område. Landsbygd är glest bebyggda områden utanför städer.",
+    "examples": [
+      "Hon flyttade från landsbygden till en stad.",
+      "Livet kan skilja sig mellan stad och landsbygd."
+    ],
+    "related": [
+      "landsbygd"
+    ]
+  },
+  "landsbygd": {
+    "opposite": "stad",
+    "description": "En stad är ett tätbebyggt område. Landsbygd är glest bebyggda områden utanför städer.",
+    "examples": [
+      "Hon flyttade från landsbygden till en stad.",
+      "Livet kan skilja sig mellan stad och landsbygd."
+    ],
+    "related": [
+      "stad"
+    ]
+  },
+  "centrum": {
+    "opposite": "periferi",
+    "description": "Centrum är mitten eller den viktigaste delen. Periferi är området längre från mitten.",
+    "examples": [
+      "Butiken flyttade från periferin till centrum.",
+      "Kartan visar både centrum och periferi."
+    ],
+    "related": [
+      "periferi"
+    ]
+  },
+  "periferi": {
+    "opposite": "centrum",
+    "description": "Centrum är mitten eller den viktigaste delen. Periferi är området längre från mitten.",
+    "examples": [
+      "Butiken flyttade från periferin till centrum.",
+      "Kartan visar både centrum och periferi."
+    ],
+    "related": [
+      "centrum"
+    ]
+  },
+  "tillgång": {
+    "opposite": "skuld",
+    "description": "En tillgång har ekonomiskt värde för ägaren. En skuld är en ekonomisk förpliktelse.",
+    "examples": [
+      "Balansräkningen visar varje tillgång och skuld.",
+      "Huset är en tillgång, medan lånet är en skuld."
+    ],
+    "related": [
+      "skuld"
+    ]
+  },
+  "skuld": {
+    "opposite": "tillgång",
+    "description": "En tillgång har ekonomiskt värde för ägaren. En skuld är en ekonomisk förpliktelse.",
+    "examples": [
+      "Balansräkningen visar varje tillgång och skuld.",
+      "Huset är en tillgång, medan lånet är en skuld."
+    ],
+    "related": [
+      "tillgång"
+    ]
+  },
+  "debet": {
+    "opposite": "kredit",
+    "description": "Debet är vänstersidan i bokföringen. Kredit är högersidan.",
+    "examples": [
+      "Beloppet bokfördes i debet och motposten i kredit.",
+      "Kontrollera att debet och kredit balanserar."
+    ],
+    "related": [
+      "kredit"
+    ]
+  },
+  "kredit": {
+    "opposite": "debet",
+    "description": "Debet är vänstersidan i bokföringen. Kredit är högersidan.",
+    "examples": [
+      "Beloppet bokfördes i debet och motposten i kredit.",
+      "Kontrollera att debet och kredit balanserar."
+    ],
+    "related": [
+      "debet"
+    ]
+  },
+  "köp": {
+    "opposite": "försäljning",
+    "description": "Ett köp är att skaffa något mot betalning. En försäljning är att lämna över något mot betalning.",
+    "examples": [
+      "Varje köp hos kunden är en försäljning för butiken.",
+      "Avtalet gäller köp och försäljning av huset."
+    ],
+    "related": [
+      "försäljning"
+    ]
+  },
+  "försäljning": {
+    "opposite": "köp",
+    "description": "Ett köp är att skaffa något mot betalning. En försäljning är att lämna över något mot betalning.",
+    "examples": [
+      "Varje köp hos kunden är en försäljning för butiken.",
+      "Avtalet gäller köp och försäljning av huset."
+    ],
+    "related": [
+      "köp"
+    ]
+  },
+  "givande": {
+    "opposite": "tagande",
+    "description": "Givande är handlingen att ge. Tagande är handlingen att ta.",
+    "examples": [
+      "En relation behöver balans mellan givande och tagande.",
+      "Berättelsen handlar om givande snarare än tagande."
+    ],
+    "related": [
+      "tagande"
+    ]
+  },
+  "tagande": {
+    "opposite": "givande",
+    "description": "Givande är handlingen att ge. Tagande är handlingen att ta.",
+    "examples": [
+      "En relation behöver balans mellan givande och tagande.",
+      "Berättelsen handlar om givande snarare än tagande."
+    ],
+    "related": [
+      "givande"
+    ]
+  },
+  "föregångare": {
+    "opposite": "efterföljare",
+    "description": "En föregångare kommer före någon i en roll. En efterföljare kommer efter.",
+    "examples": [
+      "Efterföljaren fortsatte arbetet från sin föregångare.",
+      "Boken jämför ledaren med både föregångare och efterföljare."
+    ],
+    "related": [
+      "efterföljare"
+    ]
+  },
+  "efterföljare": {
+    "opposite": "föregångare",
+    "description": "En föregångare kommer före någon i en roll. En efterföljare kommer efter.",
+    "examples": [
+      "Efterföljaren fortsatte arbetet från sin föregångare.",
+      "Boken jämför ledaren med både föregångare och efterföljare."
+    ],
+    "related": [
+      "föregångare"
+    ]
+  },
+  "överordnad": {
+    "opposite": "underordnad",
+    "description": "En överordnad står högre i en organisation. En underordnad står lägre.",
+    "examples": [
+      "Den underordnade rapporterar till sin överordnade.",
+      "Organisationen har både överordnade och underordnade roller."
+    ],
+    "related": [
+      "underordnad"
+    ]
+  },
+  "underordnad": {
+    "opposite": "överordnad",
+    "description": "En överordnad står högre i en organisation. En underordnad står lägre.",
+    "examples": [
+      "Den underordnade rapporterar till sin överordnade.",
+      "Organisationen har både överordnade och underordnade roller."
+    ],
+    "related": [
+      "överordnad"
+    ]
+  },
+  "vinnare": {
+    "opposite": "förlorare",
+    "description": "En vinnare segrar i en tävling. En förlorare besegras.",
+    "examples": [
+      "Matchen fick en vinnare och en förlorare.",
+      "Vinnaren gratulerade förloraren efter loppet."
+    ],
+    "related": [
+      "förlorare"
+    ]
+  },
+  "förlorare": {
+    "opposite": "vinnare",
+    "description": "En vinnare segrar i en tävling. En förlorare besegras.",
+    "examples": [
+      "Matchen fick en vinnare och en förlorare.",
+      "Vinnaren gratulerade förloraren efter loppet."
+    ],
+    "related": [
+      "vinnare"
+    ]
+  },
+  "avsändning": {
+    "opposite": "mottagning",
+    "description": "Avsändning är när något skickas. Mottagning är när det tas emot.",
+    "examples": [
+      "Paketet registrerades vid avsändning och mottagning.",
+      "Tiden mellan avsändning och mottagning var två dagar."
+    ],
+    "related": [
+      "mottagning"
+    ]
+  },
+  "mottagning": {
+    "opposite": "avsändning",
+    "description": "Avsändning är när något skickas. Mottagning är när det tas emot.",
+    "examples": [
+      "Paketet registrerades vid avsändning och mottagning.",
+      "Tiden mellan avsändning och mottagning var två dagar."
+    ],
+    "related": [
+      "avsändning"
+    ]
+  },
+  "inflyttning": {
+    "opposite": "utflyttning",
+    "description": "Inflyttning är att flytta in till en plats. Utflyttning är att flytta därifrån.",
+    "examples": [
+      "Kommunen mäter både inflyttning och utflyttning.",
+      "Inflyttningen ökade samtidigt som utflyttningen minskade."
+    ],
+    "related": [
+      "utflyttning"
+    ]
+  },
+  "utflyttning": {
+    "opposite": "inflyttning",
+    "description": "Inflyttning är att flytta in till en plats. Utflyttning är att flytta därifrån.",
+    "examples": [
+      "Kommunen mäter både inflyttning och utflyttning.",
+      "Inflyttningen ökade samtidigt som utflyttningen minskade."
+    ],
+    "related": [
+      "inflyttning"
+    ]
+  },
+  "vardag": {
+    "opposite": "helg",
+    "description": "Vardag är en vanlig arbets- eller skoldag. Helg är lediga dagar kring veckoslut eller högtid.",
+    "examples": [
+      "Bussen går ofta på vardagar men mer sällan på helger.",
+      "Hon arbetar vardag och vilar på helg."
+    ],
+    "related": [
+      "helg"
+    ]
+  },
+  "helg": {
+    "opposite": "vardag",
+    "description": "Vardag är en vanlig arbets- eller skoldag. Helg är lediga dagar kring veckoslut eller högtid.",
+    "examples": [
+      "Bussen går ofta på vardagar men mer sällan på helger.",
+      "Hon arbetar vardag och vilar på helg."
+    ],
+    "related": [
+      "vardag"
+    ]
+  },
+  "arbete": {
+    "opposite": "vila",
+    "description": "Arbete är ansträngning eller sysselsättning. Vila är återhämtning utan arbete.",
+    "examples": [
+      "Efter arbete behöver kroppen vila.",
+      "Dagen växlade mellan arbete och vila."
+    ],
+    "related": [
+      "vila"
+    ]
+  },
+  "vila": {
+    "opposite": "arbete",
+    "description": "Arbete är ansträngning eller sysselsättning. Vila är återhämtning utan arbete.",
+    "examples": [
+      "Efter arbete behöver kroppen vila.",
+      "Dagen växlade mellan arbete och vila."
+    ],
+    "related": [
+      "arbete"
+    ]
+  },
+  "nytta": {
+    "opposite": "skada",
+    "description": "Nytta är en positiv verkan eller fördel. Skada är en negativ verkan eller förlust.",
+    "examples": [
+      "Åtgärden gjorde mer nytta än skada.",
+      "Läkaren väger nyttan mot risken för skada."
+    ],
+    "related": [
+      "skada"
+    ]
+  },
+  "skada": {
+    "opposite": "nytta",
+    "description": "Nytta är en positiv verkan eller fördel. Skada är en negativ verkan eller förlust.",
+    "examples": [
+      "Åtgärden gjorde mer nytta än skada.",
+      "Läkaren väger nyttan mot risken för skada."
+    ],
+    "related": [
+      "nytta"
+    ]
+  },
+  "belöning": {
+    "opposite": "straff",
+    "description": "En belöning ges för önskat beteende. Ett straff ges som följd av ett fel eller brott.",
+    "examples": [
+      "Bra arbete gav belöning, regelbrottet gav straff.",
+      "Systemet använder både belöning och straff."
+    ],
+    "related": [
+      "straff"
+    ]
+  },
+  "straff": {
+    "opposite": "belöning",
+    "description": "En belöning ges för önskat beteende. Ett straff ges som följd av ett fel eller brott.",
+    "examples": [
+      "Bra arbete gav belöning, regelbrottet gav straff.",
+      "Systemet använder både belöning och straff."
+    ],
+    "related": [
+      "belöning"
+    ]
+  },
+  "beröm": {
+    "opposite": "kritik",
+    "description": "Beröm uttrycker uppskattning. Kritik pekar på fel eller brister.",
+    "examples": [
+      "Arbetet fick både beröm och kritik.",
+      "Beröm uppmuntrade henne, medan kritiken hjälpte henne förbättra texten."
+    ],
+    "related": [
+      "kritik"
+    ]
+  },
+  "kritik": {
+    "opposite": "beröm",
+    "description": "Beröm uttrycker uppskattning. Kritik pekar på fel eller brister.",
+    "examples": [
+      "Arbetet fick både beröm och kritik.",
+      "Beröm uppmuntrade henne, medan kritiken hjälpte henne förbättra texten."
+    ],
+    "related": [
+      "beröm"
+    ]
   }
 };
