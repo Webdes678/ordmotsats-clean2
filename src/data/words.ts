@@ -1,4 +1,6 @@
-export const words = {
+export type WordEntry = Readonly<Record<'opposite' | 'description', string> & Record<'examples' | 'related', readonly string[]>>;
+
+export const words: Record<string, WordEntry> = {
   "stor": {
     "opposite": "liten",
     "description": "Stor och liten beskriver hur stort något är.",
@@ -11593,4 +11595,5 @@ export const words = {
       "finissage"
     ]
   }
-} as const;
+};
+
