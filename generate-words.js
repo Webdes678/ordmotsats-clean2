@@ -5195,30 +5195,466 @@ const curatedPairs = [
       "Arkivet innehåller både födelseattest och dödsattest.",
       "Födelseattesten utfärdades i början av livet och dödsattesten i slutet."
     ]
+  },
+  {
+    "a": "högoddsare",
+    "b": "lågoddsare",
+    "description": "En högoddsare bedöms ha liten chans att vinna och ger högt odds. En lågoddsare bedöms ha stor chans och ger lågt odds.",
+    "examples": [
+      "Favoriten var lågoddsare, medan utmanaren var högoddsare.",
+      "En högoddsare kan ge större vinst än en lågoddsare."
+    ]
+  },
+  {
+    "a": "anfallskrig",
+    "b": "försvarskrig",
+    "description": "Ett anfallskrig inleds för att angripa. Ett försvarskrig förs för att försvara sig mot ett angrepp.",
+    "examples": [
+      "Historikern skilde mellan anfallskrig och försvarskrig.",
+      "Landet beskrev striden som ett försvarskrig, inte ett anfallskrig."
+    ]
+  },
+  {
+    "a": "inbuktning",
+    "b": "utbuktning",
+    "description": "En inbuktning går inåt. En utbuktning buktar utåt.",
+    "examples": [
+      "Plåten hade en inbuktning på ena sidan och en utbuktning på den andra.",
+      "Mätningen visar både inbuktning och utbuktning."
+    ]
+  },
+  {
+    "a": "underhus",
+    "b": "överhus",
+    "description": "I ett tvåkammarparlament är underhuset den lägre kammaren och överhuset den högre.",
+    "examples": [
+      "Förslaget antogs av underhuset men stoppades i överhuset.",
+      "Både underhus och överhus röstade om lagen."
+    ]
+  },
+  {
+    "a": "inomhusväxt",
+    "b": "utomhusväxt",
+    "description": "En inomhusväxt odlas främst inne. En utomhusväxt odlas främst ute.",
+    "examples": [
+      "Orkidén är en inomhusväxt och lavendeln en utomhusväxt.",
+      "Kontrollera om plantan är inomhusväxt eller utomhusväxt."
+    ]
+  },
+  {
+    "a": "högtrycksområde",
+    "b": "lågtrycksområde",
+    "description": "Ett högtrycksområde har högre lufttryck än omgivningen. Ett lågtrycksområde har lägre lufttryck.",
+    "examples": [
+      "Högtrycksområdet gav klart väder, medan lågtrycksområdet gav regn.",
+      "Kartan visar ett högtrycksområde bredvid ett lågtrycksområde."
+    ]
+  },
+  {
+    "a": "smalände",
+    "b": "tjockände",
+    "description": "Smaländen är den smalaste änden. Tjockänden är den tjockaste.",
+    "examples": [
+      "Håll i tjockänden och peka med smaländen.",
+      "Ägget har en smalände och en tjockände."
+    ]
+  },
+  {
+    "a": "lättflytande",
+    "b": "trögflytande",
+    "description": "En lättflytande vätska rinner lätt. En trögflytande vätska rinner långsamt.",
+    "examples": [
+      "Vattnet är lättflytande, men sirapen är trögflytande.",
+      "Den trögflytande oljan blev mer lättflytande när den värmdes."
+    ]
+  },
+  {
+    "a": "rotända",
+    "b": "toppända",
+    "description": "Rotändan är delen närmast roten. Toppändan är delen närmast toppen.",
+    "examples": [
+      "Sätt rotändan i jorden och låt toppändan peka uppåt.",
+      "Grenen är grövre vid rotändan än vid toppändan."
+    ]
+  },
+  {
+    "a": "parallellkoppling",
+    "b": "seriekoppling",
+    "description": "Vid parallellkoppling ligger komponenter i parallella grenar. Vid seriekoppling ligger de efter varandra i samma krets.",
+    "examples": [
+      "Lamporna kopplades först i serie och sedan med parallellkoppling.",
+      "Läraren jämförde seriekoppling med parallellkoppling."
+    ]
+  },
+  {
+    "a": "förvinter",
+    "b": "senvinter",
+    "description": "Förvintern är vinterns tidiga del. Senvintern är den sena delen.",
+    "examples": [
+      "Den första snön kom på förvintern och tövädret på senvintern.",
+      "Förvintern var mild, men senvintern blev kall."
+    ]
+  },
+  {
+    "a": "ljusögd",
+    "b": "mörkögd",
+    "description": "Ljusögd betyder att ha ljusa ögon. Mörkögd betyder att ha mörka ögon.",
+    "examples": [
+      "Den ljusögda katten satt bredvid den mörkögda.",
+      "I familjen finns både ljusögda och mörkögda personer."
+    ]
+  },
+  {
+    "a": "förhöst",
+    "b": "senhöst",
+    "description": "Förhösten är höstens tidiga del. Senhösten är den sena delen.",
+    "examples": [
+      "Förhösten var varm, men senhösten blev kylig.",
+      "Äpplena mognar på förhösten och löven faller på senhösten."
+    ]
+  },
+  {
+    "a": "beständighet",
+    "b": "obeständighet",
+    "description": "Beständighet innebär att något håller eller består. Obeständighet innebär att det lätt förändras eller försvinner.",
+    "examples": [
+      "Stenen har stor beständighet, medan färgen visar obeständighet.",
+      "Testet mäter materialets beständighet och obeständighet."
+    ]
+  },
+  {
+    "a": "västvart",
+    "b": "östvart",
+    "description": "Västvart betyder i riktning mot väster. Östvart betyder i riktning mot öster.",
+    "examples": [
+      "Det ena tåget går västvart och det andra östvart.",
+      "Fåglarna flög först östvart och senare västvart."
+    ]
+  },
+  {
+    "a": "nordvart",
+    "b": "sydvart",
+    "description": "Nordvart betyder i riktning mot norr. Sydvart betyder i riktning mot söder.",
+    "examples": [
+      "Vägen går nordvart här och sydvart på andra sidan.",
+      "De reste nordvart på våren och sydvart på hösten."
+    ]
+  },
+  {
+    "a": "monotypisk",
+    "b": "polytypisk",
+    "description": "Monotypisk betyder att en grupp bara har en typ eller art. Polytypisk betyder att den har flera.",
+    "examples": [
+      "Det ena släktet är monotypiskt och det andra polytypiskt.",
+      "Forskaren avgjorde om gruppen var monotypisk eller polytypisk."
+    ]
+  },
+  {
+    "a": "oparfymerad",
+    "b": "parfymerad",
+    "description": "Oparfymerad betyder utan tillsatt parfym. Parfymerad betyder att parfym har tillsatts.",
+    "examples": [
+      "Hon valde oparfymerad tvål i stället för parfymerad.",
+      "Krämen finns både oparfymerad och parfymerad."
+    ]
+  },
+  {
+    "a": "medsols",
+    "b": "motsols",
+    "description": "Medsols är samma riktning som visarna på en klocka. Motsols är den motsatta riktningen.",
+    "examples": [
+      "Vrid ratten medsols för att öka och motsols för att minska.",
+      "Löparna sprang ett varv medsols och ett motsols."
+    ]
+  },
+  {
+    "a": "räntehöjning",
+    "b": "räntesänkning",
+    "description": "En räntehöjning gör räntan högre. En räntesänkning gör den lägre.",
+    "examples": [
+      "Efter en räntehöjning kom senare en räntesänkning.",
+      "Banken valde räntesänkning i stället för räntehöjning."
+    ]
+  },
+  {
+    "a": "straffbar",
+    "b": "straffri",
+    "description": "Straffbar betyder att en handling kan leda till straff. Straffri betyder att den inte straffas.",
+    "examples": [
+      "Handlingen är straffbar, medan det andra beteendet är straffritt.",
+      "Domstolen prövar om personen är straffbar eller straffri."
+    ]
+  },
+  {
+    "a": "inomhuscykling",
+    "b": "utomhuscykling",
+    "description": "Inomhuscykling sker inne, ofta på träningscykel eller bana. Utomhuscykling sker ute.",
+    "examples": [
+      "På vintern väljer hon inomhuscykling och på sommaren utomhuscykling.",
+      "Klubben erbjuder både inomhuscykling och utomhuscykling."
+    ]
+  },
+  {
+    "a": "gammalstavning",
+    "b": "nystavning",
+    "description": "Gammalstavning är en äldre stavningsform. Nystavning är en nyare reformerad stavning.",
+    "examples": [
+      "Texten använder gammalstavning, men utgåvan bredvid har nystavning.",
+      "Ordboken visar både gammalstavning och nystavning."
+    ]
+  },
+  {
+    "a": "inflyttningskommun",
+    "b": "utflyttningskommun",
+    "description": "En inflyttningskommun får fler invånare genom flyttning. En utflyttningskommun förlorar invånare genom flyttning.",
+    "examples": [
+      "Orten blev inflyttningskommun efter att ha varit utflyttningskommun.",
+      "Rapporten jämför inflyttningskommuner med utflyttningskommuner."
+    ]
+  },
+  {
+    "a": "innesko",
+    "b": "utesko",
+    "description": "En innesko används inomhus. En utesko används utomhus.",
+    "examples": [
+      "Byt från uteskor till inneskor i hallen.",
+      "Hon har en innesko till gymmet och en utesko till promenaden."
+    ]
+  },
+  {
+    "a": "koffeinfri",
+    "b": "koffeinhaltig",
+    "description": "Koffeinfri betyder utan koffein. Koffeinhaltig betyder att något innehåller koffein.",
+    "examples": [
+      "Teet finns som koffeinfritt och koffeinhaltigt.",
+      "På kvällen valde han koffeinfritt i stället för koffeinhaltigt kaffe."
+    ]
+  },
+  {
+    "a": "inomhustemperatur",
+    "b": "utomhustemperatur",
+    "description": "Inomhustemperaturen mäts inne. Utomhustemperaturen mäts ute.",
+    "examples": [
+      "Inomhustemperaturen var tjugo grader och utomhustemperaturen fem.",
+      "Termometern visar både inomhustemperatur och utomhustemperatur."
+    ]
+  },
+  {
+    "a": "demobilisering",
+    "b": "mobilisering",
+    "description": "Mobilisering innebär att resurser eller trupper görs redo. Demobilisering innebär att de avvecklas efteråt.",
+    "examples": [
+      "Mobilisering skedde före konflikten och demobilisering efter den.",
+      "Planen omfattar både mobilisering och demobilisering."
+    ]
+  },
+  {
+    "a": "höstsådd",
+    "b": "vårsådd",
+    "description": "Höstsådd görs på hösten. Vårsådd görs på våren.",
+    "examples": [
+      "En del av fältet fick höstsådd och resten vårsådd.",
+      "Höstsådd gror före vintern, medan vårsådd börjar på våren."
+    ]
+  },
+  {
+    "a": "avkriminalisering",
+    "b": "kriminalisering",
+    "description": "Kriminalisering gör en handling straffbar. Avkriminalisering tar bort straffansvaret.",
+    "examples": [
+      "Lagen innebar kriminalisering, men reformen senare gav avkriminalisering.",
+      "Debatten gällde kriminalisering eller avkriminalisering."
+    ]
+  },
+  {
+    "a": "oredighet",
+    "b": "redighet",
+    "description": "Redighet innebär klarhet och ordning. Oredighet innebär oklarhet eller förvirring.",
+    "examples": [
+      "Textens redighet gjorde den lättläst, medan utkastet präglades av oredighet.",
+      "Hon gick från oredighet i tanken till redighet."
+    ]
+  },
+  {
+    "a": "illegalitet",
+    "b": "legalitet",
+    "description": "Legalitet innebär att något är lagligt. Illegalitet innebär att det strider mot lagen.",
+    "examples": [
+      "Domstolen prövade handlingens legalitet eller illegalitet.",
+      "Tillståndet gav verksamheten legalitet efter en tid av illegalitet."
+    ]
+  },
+  {
+    "a": "konkavitet",
+    "b": "konvexitet",
+    "description": "Konkavitet innebär att en yta buktar inåt. Konvexitet innebär att den buktar utåt.",
+    "examples": [
+      "Linsen har konvexitet på ena sidan och konkavitet på den andra.",
+      "Mätningen skiljer mellan konkavitet och konvexitet."
+    ]
+  },
+  {
+    "a": "otjänlighet",
+    "b": "tjänlighet",
+    "description": "Tjänlighet innebär att något är lämpligt att använda. Otjänlighet innebär att det inte är lämpligt.",
+    "examples": [
+      "Provet visade vattnets tjänlighet och avfärdade misstanken om otjänlighet.",
+      "Inspektionen bedömer matens tjänlighet eller otjänlighet."
+    ]
+  },
+  {
+    "a": "irregularitet",
+    "b": "regularitet",
+    "description": "Regularitet innebär regelbundenhet. Irregularitet innebär avvikelse eller oregelbundenhet.",
+    "examples": [
+      "Mönstret visar regularitet, men kanten har en tydlig irregularitet.",
+      "Forskaren jämförde regularitet med irregularitet."
+    ]
+  },
+  {
+    "a": "oumbärlighet",
+    "b": "umbärlighet",
+    "description": "Oumbärlighet innebär att något inte kan undvaras. Umbärlighet innebär att det kan undvaras.",
+    "examples": [
+      "Vattnets oumbärlighet är tydlig, medan prydnadens umbärlighet är större.",
+      "Bedömningen gällde delens oumbärlighet eller umbärlighet."
+    ]
+  },
+  {
+    "a": "otillräknelighet",
+    "b": "tillräknelighet",
+    "description": "Tillräknelighet innebär förmåga att förstå och ansvara för sina handlingar. Otillräknelighet innebär att denna förmåga saknas.",
+    "examples": [
+      "Domstolen prövade personens tillräknelighet eller otillräknelighet.",
+      "Utredningen fann tillräknelighet och inte otillräknelighet."
+    ]
+  },
+  {
+    "a": "pietetsfullhet",
+    "b": "pietetslöshet",
+    "description": "Pietetsfullhet innebär varsam respekt för något värdefullt. Pietetslöshet innebär brist på sådan respekt.",
+    "examples": [
+      "Renoveringen gjordes med pietetsfullhet i stället för pietetslöshet.",
+      "Pietetsfullhet bevarade huset, medan pietetslöshet hade skadat det."
+    ]
+  },
+  {
+    "a": "besticklighet",
+    "b": "obesticklighet",
+    "description": "Besticklighet innebär att kunna påverkas med mutor. Obesticklighet innebär att inte kunna köpas.",
+    "examples": [
+      "Tjänstens obesticklighet var viktig, och all besticklighet skulle motverkas.",
+      "Granskningen prövade besticklighet och obesticklighet."
+    ]
+  },
+  {
+    "a": "mutbarhet",
+    "b": "omutbarhet",
+    "description": "Mutbarhet innebär att kunna mutas. Omutbarhet innebär att inte låta sig mutas.",
+    "examples": [
+      "Omutbarhet krävs i rollen, medan mutbarhet är ett allvarligt problem.",
+      "Utredningen fann omutbarhet och inga tecken på mutbarhet."
+    ]
+  },
+  {
+    "a": "otämjbar",
+    "b": "tämjbar",
+    "description": "Tämjbar betyder möjlig att tämja. Otämjbar betyder att inte kunna tämjas.",
+    "examples": [
+      "Djuret verkade först otämjbart men visade sig vara tämjbart.",
+      "Arten är svår men tämjbar, inte helt otämjbar."
+    ]
+  },
+  {
+    "a": "köpstark",
+    "b": "köpsvag",
+    "description": "Köpstark betyder att ha stor köpkraft. Köpsvag betyder att ha liten köpkraft.",
+    "examples": [
+      "En köpstark grupp har större utrymme än en köpsvag.",
+      "Marknaden riktar sig till både köpstarka och köpsvaga kunder."
+    ]
+  },
+  {
+    "a": "bokningsbar",
+    "b": "obokningsbar",
+    "description": "Bokningsbar betyder att något går att boka. Obokningsbar betyder att det inte går att boka.",
+    "examples": [
+      "Tiden är bokningsbar på morgonen men obokningsbar på kvällen.",
+      "Rummet blev obokningsbart efter att tidigare ha varit bokningsbart."
+    ]
+  },
+  {
+    "a": "inomhuslek",
+    "b": "utomhuslek",
+    "description": "Inomhuslek sker inne. Utomhuslek sker ute.",
+    "examples": [
+      "Regnet ledde till inomhuslek i stället för utomhuslek.",
+      "Förskolan planerar både inomhuslek och utomhuslek."
+    ]
+  },
+  {
+    "a": "oregelmässighet",
+    "b": "regelmässighet",
+    "description": "Regelmässighet innebär att följa ett regelbundet mönster. Oregelmässighet innebär avvikelser från mönstret.",
+    "examples": [
+      "Pulsen visade regelmässighet och inga tecken på oregelmässighet.",
+      "Kontrollen mäter regelmässighet och oregelmässighet."
+    ]
+  },
+  {
+    "a": "flärdfull",
+    "b": "flärdlös",
+    "description": "Flärdfull betyder präglad av prakt och utsmyckning. Flärdlös betyder enkel och utan flärd.",
+    "examples": [
+      "Den flärdfulla salen låg bredvid ett flärdlöst rum.",
+      "Hon valde en flärdlös stil i stället för en flärdfull."
+    ]
+  },
+  {
+    "a": "otänkbarhet",
+    "b": "tänkbarhet",
+    "description": "Tänkbarhet innebär att något går att föreställa sig. Otänkbarhet innebär att det inte går eller verkar omöjligt.",
+    "examples": [
+      "Förslaget gick från otänkbarhet till tänkbarhet.",
+      "De diskuterade både planens tänkbarhet och dess tidigare otänkbarhet."
+    ]
+  },
+  {
+    "a": "osänkbarhet",
+    "b": "sänkbarhet",
+    "description": "Sänkbarhet innebär att något kan sänkas. Osänkbarhet innebär att det inte kan sänkas.",
+    "examples": [
+      "Fartygets påstådda osänkbarhet ställdes mot dess verkliga sänkbarhet.",
+      "Testet bedömer sänkbarhet och osänkbarhet."
+    ]
+  },
+  {
+    "a": "overkställbar",
+    "b": "verkställbar",
+    "description": "Verkställbar betyder möjlig att genomföra eller verkställa. Overkställbar betyder att den inte kan verkställas.",
+    "examples": [
+      "Domen är verkställbar, men det tidigare beslutet var overkställbart.",
+      "Myndigheten avgör om åtgärden är verkställbar eller overkställbar."
+    ]
+  },
+  {
+    "a": "otillåtlighet",
+    "b": "tillåtlighet",
+    "description": "Tillåtlighet innebär att något är tillåtet. Otillåtlighet innebär att det inte är tillåtet.",
+    "examples": [
+      "Nämnden prövade åtgärdens tillåtlighet eller otillåtlighet.",
+      "Regeln klargör både tillåtlighet och otillåtlighet."
+    ]
   }
 ];
 
 const words = {};
 for (const pair of curatedPairs) {
-  words[pair.a] = {
-    opposite: pair.b,
-    description: pair.description,
-    examples: pair.examples,
-    related: [pair.b],
-  };
-  words[pair.b] = {
-    opposite: pair.a,
-    description: pair.description,
-    examples: pair.examples,
-    related: [pair.a],
-  };
+  words[pair.a] = { opposite: pair.b, description: pair.description, examples: pair.examples, related: [pair.b] };
+  words[pair.b] = { opposite: pair.a, description: pair.description, examples: pair.examples, related: [pair.a] };
 }
 
 const outputPath = path.join(process.cwd(), 'src', 'data', 'words.ts');
 const wordEntryType = "export type WordEntry = Readonly<Record<'opposite' | 'description', string> & Record<'examples' | 'related', readonly string[]>>;\n\n";
-fs.writeFileSync(
-  outputPath,
-  wordEntryType + 'export const words: Record<string, WordEntry> = ' + JSON.stringify(words, null, 2) + ';\n',
-  'utf-8',
-);
+fs.writeFileSync(outputPath, wordEntryType + 'export const words: Record<string, WordEntry> = ' + JSON.stringify(words, null, 2) + ';\n', 'utf-8');
 console.log('Generated ' + Object.keys(words).length + ' curated word pages.');
