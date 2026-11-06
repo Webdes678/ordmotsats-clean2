@@ -6095,6 +6095,456 @@ const curatedPairs = [
       "Äppelträdet är gömfröigt och tallen nakenfröig.",
       "Botaniken skiljer mellan gömfröiga och nakenfröiga växter."
     ]
+  },
+  {
+    "a": "mogen",
+    "b": "omogen",
+    "description": "Mogen betyder färdigutvecklad eller redo. Omogen betyder ännu inte färdigutvecklad.",
+    "examples": [
+      "Den mogna frukten är söt, men den omogna är sur.",
+      "Hon gav ett moget svar i stället för ett omoget."
+    ]
+  },
+  {
+    "a": "möblerad",
+    "b": "omöblerad",
+    "description": "Möblerad betyder att ett rum har möbler. Omöblerad betyder att det saknar möbler.",
+    "examples": [
+      "Lägenheten finns både möblerad och omöblerad.",
+      "Det möblerade rummet var klart, medan det omöblerade stod tomt."
+    ]
+  },
+  {
+    "a": "frivillig",
+    "b": "ofrivillig",
+    "description": "Frivillig betyder gjord av egen vilja. Ofrivillig betyder gjord utan att man själv har valt det.",
+    "examples": [
+      "Deltagandet är frivilligt, inte ofrivilligt.",
+      "Hon gjorde en frivillig rörelse och sedan en ofrivillig."
+    ]
+  },
+  {
+    "a": "rörlig",
+    "b": "orörlig",
+    "description": "Rörlig betyder att kunna röra sig. Orörlig betyder att stå stilla eller inte kunna röra sig.",
+    "examples": [
+      "Kameran är rörlig, men stativet är orörligt.",
+      "Han stod orörlig medan de andra var rörliga."
+    ]
+  },
+  {
+    "a": "gift",
+    "b": "ogift",
+    "description": "Gift betyder att vara i ett äktenskap. Ogift betyder att inte vara gift.",
+    "examples": [
+      "Hon är gift, men hennes bror är ogift.",
+      "Blanketten frågar om personen är gift eller ogift."
+    ]
+  },
+  {
+    "a": "belyst",
+    "b": "obelyst",
+    "description": "Belyst betyder att ljus faller på något. Obelyst betyder att det saknar belysning.",
+    "examples": [
+      "Gatan är belyst, men stigen är obelyst.",
+      "Den belysta sidan syns tydligare än den obelysta."
+    ]
+  },
+  {
+    "a": "bebodd",
+    "b": "obebodd",
+    "description": "Bebodd betyder att människor bor på platsen. Obebodd betyder att ingen bor där.",
+    "examples": [
+      "Den stora ön är bebodd, men den lilla är obebodd.",
+      "Huset gick från bebott till obebott."
+    ]
+  },
+  {
+    "a": "betald",
+    "b": "obetald",
+    "description": "Betald betyder att betalningen är gjord. Obetald betyder att betalning saknas.",
+    "examples": [
+      "Den första fakturan är betald och den andra obetald.",
+      "Kontrollera om avgiften är betald eller obetald."
+    ]
+  },
+  {
+    "a": "läslig",
+    "b": "oläslig",
+    "description": "Läslig betyder lätt att läsa. Oläslig betyder svår eller omöjlig att läsa.",
+    "examples": [
+      "Rubriken är läslig, men anteckningen är oläslig.",
+      "Större text gjorde skylten läslig i stället för oläslig."
+    ]
+  },
+  {
+    "a": "låsbar",
+    "b": "olåsbar",
+    "description": "Låsbar betyder att något går att låsa. Olåsbar betyder att det inte går att låsa.",
+    "examples": [
+      "Skåpet är låsbart, men hyllan är olåsbar.",
+      "Dörren blev olåsbar när låset gick sönder."
+    ]
+  },
+  {
+    "a": "hörbar",
+    "b": "ohörbar",
+    "description": "Hörbar betyder möjlig att höra. Ohörbar betyder att den inte kan höras.",
+    "examples": [
+      "Rösten var hörbar längst fram men ohörbar längst bak.",
+      "Högtalaren gjorde signalen hörbar i stället för ohörbar."
+    ]
+  },
+  {
+    "a": "ätlig",
+    "b": "oätlig",
+    "description": "Ätlig betyder möjlig och lämplig att äta. Oätlig betyder att den inte bör eller kan ätas.",
+    "examples": [
+      "Bäret är ätligt, men svampen är oätlig.",
+      "Kocken tog bort de oätliga delarna och sparade de ätliga."
+    ]
+  },
+  {
+    "a": "drickbar",
+    "b": "odrickbar",
+    "description": "Drickbar betyder lämplig att dricka. Odrickbar betyder att den inte bör drickas.",
+    "examples": [
+      "Kranvattnet är drickbart, men havsvattnet är odrickbart.",
+      "Reningen gjorde vattnet drickbart i stället för odrickbart."
+    ]
+  },
+  {
+    "a": "känd",
+    "b": "okänd",
+    "description": "Känd betyder att någon eller något är bekant. Okänd betyder att det inte är känt.",
+    "examples": [
+      "Orsaken är ännu okänd, men lösningen är känd.",
+      "En känd författare skrev under ett tidigare okänt namn."
+    ]
+  },
+  {
+    "a": "säker",
+    "b": "osäker",
+    "description": "Säker betyder trygg eller viss. Osäker betyder otrygg eller tveksam.",
+    "examples": [
+      "Hon var säker på svaret, medan jag var osäker.",
+      "Bron är säker nu men var osäker före reparationen."
+    ]
+  },
+  {
+    "a": "beroende",
+    "b": "oberoende",
+    "description": "Beroende betyder att behöva eller påverkas av något annat. Oberoende betyder att kunna stå fritt.",
+    "examples": [
+      "Systemet är beroende av el, men reservdelen är oberoende av nätet.",
+      "En oberoende granskare kontrollerade den beroende verksamheten."
+    ]
+  },
+  {
+    "a": "föränderlig",
+    "b": "oföränderlig",
+    "description": "Föränderlig betyder att kunna ändras. Oföränderlig betyder att inte ändras.",
+    "examples": [
+      "Vädret är föränderligt, men regeln beskrivs som oföränderlig.",
+      "Det föränderliga mönstret stod mot den oföränderliga bakgrunden."
+    ]
+  },
+  {
+    "a": "regelbunden",
+    "b": "oregelbunden",
+    "description": "Regelbunden betyder att följa ett jämnt mönster. Oregelbunden betyder att mönstret varierar.",
+    "examples": [
+      "Pulsen är regelbunden nu men var oregelbunden tidigare.",
+      "Bussen går regelbundet, medan extraturen är oregelbunden."
+    ]
+  },
+  {
+    "a": "personlig",
+    "b": "opersonlig",
+    "description": "Personlig betyder präglad av en viss person. Opersonlig betyder utan personlig prägel.",
+    "examples": [
+      "Brevet kändes personligt, men standardsvaret var opersonligt.",
+      "En personlig hälsning ersatte den opersonliga texten."
+    ]
+  },
+  {
+    "a": "formell",
+    "b": "informell",
+    "description": "Formell betyder officiell och regelstyrd. Informell betyder ledig och mindre officiell.",
+    "examples": [
+      "Mötet började formellt men samtalet efteråt var informellt.",
+      "Hon bar formella kläder på festen och informella hemma."
+    ]
+  },
+  {
+    "a": "direkt",
+    "b": "indirekt",
+    "description": "Direkt betyder utan mellanled. Indirekt betyder via ett mellanled eller på omväg.",
+    "examples": [
+      "Hon gav ett direkt svar, medan han svarade indirekt.",
+      "Vi har direkt kontakt med kunden och indirekt kontakt med leverantören."
+    ]
+  },
+  {
+    "a": "medveten",
+    "b": "omedveten",
+    "description": "Medveten betyder att vara klar över något. Omedveten betyder att inte känna till eller märka det.",
+    "examples": [
+      "Hon var medveten om risken, men han var omedveten.",
+      "Valet var medvetet, inte en omedveten reaktion."
+    ]
+  },
+  {
+    "a": "villkorlig",
+    "b": "ovillkorlig",
+    "description": "Villkorlig betyder att något gäller under vissa villkor. Ovillkorlig betyder att det gäller utan villkor.",
+    "examples": [
+      "Stödet var villkorligt, men hennes hjälp var ovillkorlig.",
+      "Ett villkorligt löfte är inte lika starkt som ett ovillkorligt."
+    ]
+  },
+  {
+    "a": "begränsad",
+    "b": "obegränsad",
+    "description": "Begränsad betyder att ha en bestämd gräns. Obegränsad betyder utan sådan gräns.",
+    "examples": [
+      "Kontot har begränsad lagring, medan det andra har obegränsad.",
+      "Tiden är begränsad, inte obegränsad."
+    ]
+  },
+  {
+    "a": "bestämd",
+    "b": "obestämd",
+    "description": "Bestämd betyder tydligt fastställd. Obestämd betyder inte fastställd eller oklar.",
+    "examples": [
+      "Mötet har en bestämd tid, men slutet är obestämt.",
+      "Hon gav ett bestämt svar i stället för ett obestämt."
+    ]
+  },
+  {
+    "a": "duglig",
+    "b": "oduglig",
+    "description": "Duglig betyder kapabel att klara en uppgift. Oduglig betyder att inte klara den.",
+    "examples": [
+      "Den dugliga reparatören bytte ut det odugliga verktyget.",
+      "Hon visade sig duglig, inte oduglig."
+    ]
+  },
+  {
+    "a": "erfaren",
+    "b": "oerfaren",
+    "description": "Erfaren betyder att ha mycket erfarenhet. Oerfaren betyder att ha liten erfarenhet.",
+    "examples": [
+      "Den erfarna läraren hjälpte den oerfarna kollegan.",
+      "Han var oerfaren i början men blev snart erfaren."
+    ]
+  },
+  {
+    "a": "försiktig",
+    "b": "oförsiktig",
+    "description": "Försiktig betyder att undvika onödiga risker. Oförsiktig betyder att inte vara tillräckligt varsam.",
+    "examples": [
+      "Den försiktiga föraren bromsade, medan den oförsiktiga körde vidare.",
+      "Var försiktig med glaset och inte oförsiktig."
+    ]
+  },
+  {
+    "a": "lydig",
+    "b": "olydig",
+    "description": "Lydig betyder att följa regler eller uppmaningar. Olydig betyder att inte göra det.",
+    "examples": [
+      "Den lydiga hunden stannade, men den olydiga sprang vidare.",
+      "Barnet var lydigt i dag och olydigt i går."
+    ]
+  },
+  {
+    "a": "nyttig",
+    "b": "onyttig",
+    "description": "Nyttig betyder bra eller användbar. Onyttig betyder inte nyttig och ibland skadlig.",
+    "examples": [
+      "Frukt är nyttig, medan för mycket godis är onyttigt.",
+      "Rådet var nyttigt, men ryktet var onyttigt."
+    ]
+  },
+  {
+    "a": "noggrann",
+    "b": "slarvig",
+    "description": "Noggrann betyder omsorgsfull och exakt. Slarvig betyder vårdslös och mindre exakt.",
+    "examples": [
+      "Den noggranna eleven hittade den slarviga uträkningen.",
+      "Arbetet blev noggrant efter att först ha varit slarvigt."
+    ]
+  },
+  {
+    "a": "teoretisk",
+    "b": "praktisk",
+    "description": "Teoretisk handlar främst om idéer och modeller. Praktisk handlar om tillämpning och handling.",
+    "examples": [
+      "Kursen har en teoretisk del och en praktisk del.",
+      "Den teoretiska kunskapen testades i en praktisk övning."
+    ]
+  },
+  {
+    "a": "individuell",
+    "b": "kollektiv",
+    "description": "Individuell gäller en person. Kollektiv gäller en grupp gemensamt.",
+    "examples": [
+      "Uppgiften är individuell, men redovisningen är kollektiv.",
+      "Ett individuellt ansvar skiljer sig från ett kollektivt."
+    ]
+  },
+  {
+    "a": "nationell",
+    "b": "internationell",
+    "description": "Nationell gäller ett land. Internationell gäller flera länder.",
+    "examples": [
+      "Tävlingen började nationellt och blev senare internationell.",
+      "En nationell regel jämfördes med ett internationellt avtal."
+    ]
+  },
+  {
+    "a": "stabil",
+    "b": "instabil",
+    "description": "Stabil betyder stadig och svår att rubba. Instabil betyder ostadig eller lätt att förändra.",
+    "examples": [
+      "Bordet är stabilt, men stolen är instabil.",
+      "Läget gick från instabilt till stabilt."
+    ]
+  },
+  {
+    "a": "spridd",
+    "b": "samlad",
+    "description": "Spridd betyder utspridd på flera platser. Samlad betyder förd ihop på ett ställe.",
+    "examples": [
+      "Papperen låg spridda men blev snart samlade i en hög.",
+      "Gruppen var först spridd och sedan samlad."
+    ]
+  },
+  {
+    "a": "vaken",
+    "b": "sovande",
+    "description": "Vaken betyder att inte sova. Sovande betyder att befinna sig i sömn.",
+    "examples": [
+      "Barnet var vaken, men hunden var sovande.",
+      "Hon var sovande nyss men är vaken nu."
+    ]
+  },
+  {
+    "a": "nykter",
+    "b": "berusad",
+    "description": "Nykter betyder inte påverkad av alkohol. Berusad betyder påverkad av alkohol.",
+    "examples": [
+      "Föraren var nykter, medan passageraren var berusad.",
+      "Han gick från berusad på kvällen till nykter nästa morgon."
+    ]
+  },
+  {
+    "a": "tålmodig",
+    "b": "otålig",
+    "description": "Tålmodig betyder att kunna vänta lugnt. Otålig betyder att ha svårt att vänta.",
+    "examples": [
+      "Den tålmodiga kunden väntade, men den otåliga gick.",
+      "Försök vara tålmodig i stället för otålig."
+    ]
+  },
+  {
+    "a": "effektiv",
+    "b": "ineffektiv",
+    "description": "Effektiv betyder att ge bra resultat utan onödigt arbete. Ineffektiv betyder att ge dåligt resultat i förhållande till insatsen.",
+    "examples": [
+      "Den nya metoden är effektiv, men den gamla var ineffektiv.",
+      "Arbetet gick från ineffektivt till effektivt."
+    ]
+  },
+  {
+    "a": "kompetent",
+    "b": "inkompetent",
+    "description": "Kompetent betyder att ha rätt kunskap och förmåga. Inkompetent betyder att sakna tillräcklig förmåga.",
+    "examples": [
+      "Den kompetenta teknikern rättade den inkompetenta reparationen.",
+      "Hon visade sig kompetent, inte inkompetent."
+    ]
+  },
+  {
+    "a": "digital",
+    "b": "analog",
+    "description": "Digital använder diskreta värden eller digital teknik. Analog använder kontinuerliga signaler eller mekanisk visning.",
+    "examples": [
+      "Klockan finns i en digital och en analog version.",
+      "Den digitala signalen ersatte den analoga."
+    ]
+  },
+  {
+    "a": "ordnad",
+    "b": "oordnad",
+    "description": "Ordnad betyder organiserad och i god ordning. Oordnad betyder utan tydlig ordning.",
+    "examples": [
+      "Den ordnade hyllan stod bredvid den oordnade.",
+      "Rummet gick från oordnat till ordnat."
+    ]
+  },
+  {
+    "a": "populär",
+    "b": "impopulär",
+    "description": "Populär betyder omtyckt av många. Impopulär betyder illa omtyckt av många.",
+    "examples": [
+      "Låten blev populär, medan uppföljaren var impopulär.",
+      "Beslutet var impopulärt men förslaget bredvid populärt."
+    ]
+  },
+  {
+    "a": "logisk",
+    "b": "ologisk",
+    "description": "Logisk betyder att följa ett tydligt och rimligt resonemang. Ologisk betyder att sakna sådan följd.",
+    "examples": [
+      "Förklaringen är logisk, men slutsatsen är ologisk.",
+      "Hon ändrade det ologiska upplägget till ett logiskt."
+    ]
+  },
+  {
+    "a": "realistisk",
+    "b": "orealistisk",
+    "description": "Realistisk betyder möjlig och verklighetsnära. Orealistisk betyder inte rimlig i verkligheten.",
+    "examples": [
+      "Planen är realistisk, men tidsgränsen är orealistisk.",
+      "Budgeten gick från orealistisk till realistisk."
+    ]
+  },
+  {
+    "a": "ansvarig",
+    "b": "oansvarig",
+    "description": "Ansvarig betyder att ta eller ha ansvar. Oansvarig betyder att inte visa tillräckligt ansvar.",
+    "examples": [
+      "Den ansvariga föraren stannade, medan den oansvariga körde vidare.",
+      "Beteendet var oansvarigt, men beslutet efteråt var ansvarigt."
+    ]
+  },
+  {
+    "a": "trogen",
+    "b": "otrogen",
+    "description": "Trogen betyder lojal i en relation eller mot något. Otrogen betyder att bryta denna trohet.",
+    "examples": [
+      "Hon var trogen sitt löfte, medan han visade sig otrogen.",
+      "Berättelsen handlar om en trogen partner och en otrogen."
+    ]
+  },
+  {
+    "a": "proportionell",
+    "b": "oproportionell",
+    "description": "Proportionell betyder i rimligt eller matematiskt förhållande. Oproportionell betyder utan ett sådant förhållande.",
+    "examples": [
+      "Kostnaden är proportionell mot tiden, men avgiften är oproportionell.",
+      "Reaktionen var oproportionell i stället för proportionell."
+    ]
+  },
+  {
+    "a": "linjär",
+    "b": "olinjär",
+    "description": "Linjär betyder att följa en rät linje eller ett jämnt samband. Olinjär betyder att sambandet inte är linjärt.",
+    "examples": [
+      "Den första grafen är linjär och den andra olinjär.",
+      "Modellen gick från linjär till olinjär när fler faktorer lades till."
+    ]
   }
 ];
 
