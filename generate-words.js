@@ -4295,6 +4295,456 @@ const curatedPairs = [
       "Vi inandas syre och utandas koldioxid.",
       "Inandas långsamt och utandas lugnt."
     ]
+  },
+  {
+    "a": "inkongruent",
+    "b": "kongruent",
+    "description": "Kongruent betyder överensstämmande. Inkongruent betyder att överensstämmelse saknas.",
+    "examples": [
+      "Delarna är kongruenta, men den sista är inkongruent.",
+      "Gör det inkongruenta mönstret kongruent."
+    ]
+  },
+  {
+    "a": "halal",
+    "b": "haram",
+    "description": "Halal betyder tillåtet enligt islam. Haram betyder förbjudet.",
+    "examples": [
+      "Maten är halal och inte haram.",
+      "Reglerna skiljer mellan halal och haram."
+    ]
+  },
+  {
+    "a": "geocentrisk",
+    "b": "heliocentrisk",
+    "description": "En geocentrisk modell har jorden i centrum. En heliocentrisk modell har solen i centrum.",
+    "examples": [
+      "Den geocentriska modellen ersattes av en heliocentrisk.",
+      "Kursen jämför geocentrisk och heliocentrisk världsbild."
+    ]
+  },
+  {
+    "a": "input",
+    "b": "output",
+    "description": "Input är information som matas in. Output är information som kommer ut.",
+    "examples": [
+      "Programmet omvandlar input till output.",
+      "Kontrollera input innan du granskar output."
+    ]
+  },
+  {
+    "a": "illojalitet",
+    "b": "lojalitet",
+    "description": "Lojalitet betyder trofasthet. Illojalitet betyder brist på trofasthet.",
+    "examples": [
+      "Hon visade lojalitet, inte illojalitet.",
+      "Illojaliteten skadade det tidigare förtroendet och lojaliteten."
+    ]
+  },
+  {
+    "a": "gammalmodig",
+    "b": "nymodig",
+    "description": "Gammalmodig betyder omodern. Nymodig betyder modern eller ny i stilen.",
+    "examples": [
+      "Köket var gammalmodigt men blev nymodigt efter renoveringen.",
+      "Hon valde en nymodig lösning framför en gammalmodig."
+    ]
+  },
+  {
+    "a": "lövfällande",
+    "b": "städsegrön",
+    "description": "Lövfällande växter tappar sina blad säsongsvis. Städsegröna behåller gröna blad året runt.",
+    "examples": [
+      "Björken är lövfällande och granen städsegrön.",
+      "Trädgården har både lövfällande och städsegröna växter."
+    ]
+  },
+  {
+    "a": "ljushårig",
+    "b": "mörkhårig",
+    "description": "Ljushårig betyder med ljust hår. Mörkhårig betyder med mörkt hår.",
+    "examples": [
+      "Det ljushåriga barnet stod bredvid det mörkhåriga.",
+      "Hon var ljushårig som liten men är nu mörkhårig."
+    ]
+  },
+  {
+    "a": "matleda",
+    "b": "matlust",
+    "description": "Matlust är vilja att äta. Matleda är motvilja mot mat.",
+    "examples": [
+      "Sjukdomen gav matleda, men senare återkom matlusten.",
+      "God matlust ersatte den tidigare matledan."
+    ]
+  },
+  {
+    "a": "oöversättlig",
+    "b": "översättlig",
+    "description": "Översättlig betyder möjlig att översätta. Oöversättlig betyder att en fullgod översättning inte är möjlig.",
+    "examples": [
+      "Uttrycket är översättligt, men ordleken nästan oöversättlig.",
+      "En oöversättlig fras kräver mer förklaring än en översättlig."
+    ]
+  },
+  {
+    "a": "underviktig",
+    "b": "överviktig",
+    "description": "Underviktig betyder under ett hälsosamt viktintervall. Överviktig betyder över intervallet.",
+    "examples": [
+      "Bedömningen visade att en var underviktig och en överviktig.",
+      "Varken underviktiga eller överviktiga personer bör bedömas utan helhetssyn."
+    ]
+  },
+  {
+    "a": "innansida",
+    "b": "yttersida",
+    "description": "Innansidan vetter inåt. Yttersidan vetter utåt.",
+    "examples": [
+      "Färgen skiljer sig mellan innansidan och yttersidan.",
+      "Tvätta yttersidan och torka innansidan."
+    ]
+  },
+  {
+    "a": "senarelägga",
+    "b": "tidigarelägga",
+    "description": "Senarelägga betyder flytta till en senare tid. Tidigarelägga betyder flytta till en tidigare tid.",
+    "examples": [
+      "Vi måste senarelägga mötet men tidigarelägga leveransen.",
+      "De tidigarelagde starten och senarelagde slutet."
+    ]
+  },
+  {
+    "a": "anterograd",
+    "b": "retrograd",
+    "description": "Anterograd betyder framåtriktad. Retrograd betyder bakåtriktad.",
+    "examples": [
+      "Rörelsen var anterograd först och retrograd sedan.",
+      "Planeten tycktes gå från anterograd till retrograd rörelse."
+    ]
+  },
+  {
+    "a": "bakpart",
+    "b": "frampart",
+    "description": "Bakparten är den bakre delen. Framparten är den främre.",
+    "examples": [
+      "Hästens frampart var högre än bakparten.",
+      "Skadan satt i bakparten, inte i framparten."
+    ]
+  },
+  {
+    "a": "avkriminalisera",
+    "b": "kriminalisera",
+    "description": "Kriminalisera betyder göra straffbart. Avkriminalisera betyder ta bort straffansvaret.",
+    "examples": [
+      "Lagen kan kriminalisera handlingen eller avkriminalisera den.",
+      "Det som tidigare kriminaliserats blev senare avkriminaliserat."
+    ]
+  },
+  {
+    "a": "illikviditet",
+    "b": "likviditet",
+    "description": "Likviditet är förmåga att betala på kort sikt. Illikviditet är brist på tillgängliga betalningsmedel.",
+    "examples": [
+      "Företaget gick från illikviditet till god likviditet.",
+      "Hög likviditet minskar risken för illikviditet."
+    ]
+  },
+  {
+    "a": "orättmätig",
+    "b": "rättmätig",
+    "description": "Rättmätig betyder berättigad. Orättmätig betyder utan laglig eller moralisk rätt.",
+    "examples": [
+      "Den rättmätiga ägaren återfick det orättmätigt tagna föremålet.",
+      "Kravet var rättmätigt, inte orättmätigt."
+    ]
+  },
+  {
+    "a": "högklackad",
+    "b": "lågklackad",
+    "description": "Högklackad betyder med hög klack. Lågklackad betyder med låg klack.",
+    "examples": [
+      "Hon bytte högklackade skor mot lågklackade.",
+      "De lågklackade skorna var bekvämare än de högklackade."
+    ]
+  },
+  {
+    "a": "högland",
+    "b": "lågland",
+    "description": "Högland ligger högt över havet. Lågland ligger lågt.",
+    "examples": [
+      "Floden rinner från höglandet till låglandet.",
+      "Klimatet skiljer sig mellan högland och lågland."
+    ]
+  },
+  {
+    "a": "saltvattensfisk",
+    "b": "sötvattensfisk",
+    "description": "Saltvattensfisk lever i hav. Sötvattensfisk lever i sjöar och vattendrag.",
+    "examples": [
+      "Torsk är saltvattensfisk och gädda sötvattensfisk.",
+      "Akvariet skiljer mellan saltvattensfisk och sötvattensfisk."
+    ]
+  },
+  {
+    "a": "blåförskjutning",
+    "b": "rödförskjutning",
+    "description": "Blåförskjutning visar rörelse mot betraktaren. Rödförskjutning visar rörelse bort.",
+    "examples": [
+      "Spektrumet visade blåförskjutning i stället för rödförskjutning.",
+      "Astronomer mäter både rödförskjutning och blåförskjutning."
+    ]
+  },
+  {
+    "a": "sommardäck",
+    "b": "vinterdäck",
+    "description": "Sommardäck är anpassade för varmt väglag. Vinterdäck är anpassade för kyla och vinterväg.",
+    "examples": [
+      "Byt vinterdäck mot sommardäck på våren.",
+      "Sommardäck och vinterdäck används under olika årstider."
+    ]
+  },
+  {
+    "a": "lättsåld",
+    "b": "svårsåld",
+    "description": "Lättsåld betyder enkel att sälja. Svårsåld betyder svår att hitta köpare till.",
+    "examples": [
+      "Den lilla bilen var lättsåld, men den skadade varan svårsåld.",
+      "Efter reparationen blev den svårsålda produkten lättsåld."
+    ]
+  },
+  {
+    "a": "stilfull",
+    "b": "stillös",
+    "description": "Stilfull betyder smakfullt utformad. Stillös betyder utan tydlig eller god stil.",
+    "examples": [
+      "Rummet blev stilfullt efter att ha känts stillöst.",
+      "En stilfull detalj ersatte den stillösa."
+    ]
+  },
+  {
+    "a": "opansrad",
+    "b": "pansrad",
+    "description": "Pansrad betyder skyddad med pansar. Opansrad betyder utan pansar.",
+    "examples": [
+      "Det pansrade fordonet tålde mer än det opansrade.",
+      "Kolonnen hade både pansrade och opansrade fordon."
+    ]
+  },
+  {
+    "a": "hejdad",
+    "b": "ohejdad",
+    "description": "Hejdad betyder stoppad eller begränsad. Ohejdad betyder utan begränsning.",
+    "examples": [
+      "Den ohejdade utvecklingen blev till slut hejdad.",
+      "Elden spreds ohejdat innan den hejdades."
+    ]
+  },
+  {
+    "a": "högersida",
+    "b": "vänstersida",
+    "description": "Högersidan ligger åt höger. Vänstersidan ligger åt vänster.",
+    "examples": [
+      "Texten står på högersidan och bilden på vänstersidan.",
+      "Jämför vänstersida med högersida."
+    ]
+  },
+  {
+    "a": "undersida",
+    "b": "översida",
+    "description": "Undersidan vetter nedåt. Översidan vetter uppåt.",
+    "examples": [
+      "Bordets översida är slät och undersidan grov.",
+      "Märk både undersida och översida."
+    ]
+  },
+  {
+    "a": "skuggsida",
+    "b": "solsida",
+    "description": "Skuggsidan får mindre sol. Solsidan får mer sol.",
+    "examples": [
+      "Snön låg kvar på skuggsidan men smälte på solsidan.",
+      "Växterna trivs bättre på solsidan än på skuggsidan."
+    ]
+  },
+  {
+    "a": "sommarsolstånd",
+    "b": "vintersolstånd",
+    "description": "Sommarsolståndet ger årets längsta dag. Vintersolståndet ger årets kortaste.",
+    "examples": [
+      "Dagarna blir kortare efter sommarsolståndet och längre efter vintersolståndet.",
+      "Kalendern markerar både sommarsolstånd och vintersolstånd."
+    ]
+  },
+  {
+    "a": "underskattning",
+    "b": "överskattning",
+    "description": "Underskattning bedömer något för lågt. Överskattning bedömer det för högt.",
+    "examples": [
+      "En underskattning av tiden följdes av en överskattning av farten.",
+      "Undvik både underskattning och överskattning."
+    ]
+  },
+  {
+    "a": "minusgrad",
+    "b": "plusgrad",
+    "description": "En minusgrad ligger under noll. En plusgrad ligger över noll.",
+    "examples": [
+      "Natten gav minusgrader och dagen plusgrader.",
+      "Temperaturen steg från en minusgrad till en plusgrad."
+    ]
+  },
+  {
+    "a": "bortalag",
+    "b": "hemmalag",
+    "description": "Hemmalaget spelar på sin hemmaplan. Bortalaget är gästande lag.",
+    "examples": [
+      "Hemmalaget mötte bortalaget inför stor publik.",
+      "Bortalaget vann över hemmalaget."
+    ]
+  },
+  {
+    "a": "regntid",
+    "b": "torrtid",
+    "description": "Regntid är en period med mycket regn. Torrtid är en period med lite regn.",
+    "examples": [
+      "Floden stiger under regntiden och sjunker under torrtiden.",
+      "Djuren vandrar mellan regntid och torrtid."
+    ]
+  },
+  {
+    "a": "pronation",
+    "b": "supination",
+    "description": "Pronation vrider underarmen så handflatan vänds nedåt. Supination vrider den uppåt.",
+    "examples": [
+      "Rörelsen växlade mellan pronation och supination.",
+      "Supination vänder handflatan uppåt och pronation nedåt."
+    ]
+  },
+  {
+    "a": "ja-sägare",
+    "b": "nej-sägare",
+    "description": "En ja-sägare håller ofta med. En nej-sägare säger ofta emot.",
+    "examples": [
+      "Gruppen behöver varken bara ja-sägare eller bara nej-sägare.",
+      "Ja-sägaren stödde förslaget och nej-sägaren avvisade det."
+    ]
+  },
+  {
+    "a": "förgasa",
+    "b": "kondensera",
+    "description": "Förgasa betyder omvandla till gas. Kondensera betyder omvandla gas till vätska.",
+    "examples": [
+      "Värmen förgasar vätskan och kylan kondenserar gasen.",
+      "Ämnet förgasades och kondenserades senare."
+    ]
+  },
+  {
+    "a": "distal",
+    "b": "proximal",
+    "description": "Proximal betyder nära kroppens centrum eller fästpunkt. Distal betyder längre bort.",
+    "examples": [
+      "Handen är distal om armbågen och axeln proximal.",
+      "Läkaren skiljer mellan distal och proximal skada."
+    ]
+  },
+  {
+    "a": "köttätande",
+    "b": "växtätande",
+    "description": "Köttätande djur äter främst andra djur. Växtätande djur äter främst växter.",
+    "examples": [
+      "Lejonet är köttätande och kon växtätande.",
+      "Tänderna skiljer sig mellan köttätande och växtätande arter."
+    ]
+  },
+  {
+    "a": "viktminskning",
+    "b": "viktökning",
+    "description": "Viktminskning betyder lägre kroppsvikt. Viktökning betyder högre kroppsvikt.",
+    "examples": [
+      "Rapporten visade viktminskning först och viktökning senare.",
+      "Både viktökning och viktminskning kan ha flera orsaker."
+    ]
+  },
+  {
+    "a": "skönmåla",
+    "b": "svartmåla",
+    "description": "Skönmåla betyder beskriva för positivt. Svartmåla betyder beskriva för negativt.",
+    "examples": [
+      "Försök att varken skönmåla resultatet eller svartmåla det.",
+      "Den ena texten skönmålade läget och den andra svartmålade det."
+    ]
+  },
+  {
+    "a": "oöverlagd",
+    "b": "överlagd",
+    "description": "Överlagd betyder genomtänkt i förväg. Oöverlagd betyder impulsiv eller ogenomtänkt.",
+    "examples": [
+      "Handlingen var oöverlagd, men nästa steg var överlagt.",
+      "Ett överlagt beslut ersatte den oöverlagda reaktionen."
+    ]
+  },
+  {
+    "a": "införsel",
+    "b": "utförsel",
+    "description": "Införsel betyder att föra in varor i ett land. Utförsel betyder att föra ut dem.",
+    "examples": [
+      "Tullen kontrollerar både införsel och utförsel.",
+      "Införseln ökade samtidigt som utförseln minskade."
+    ]
+  },
+  {
+    "a": "oresonlig",
+    "b": "resonlig",
+    "description": "Resonlig betyder rimlig och möjlig att diskutera med. Oresonlig betyder orimlig eller obeveklig.",
+    "examples": [
+      "Hon var resonlig, medan kravet var oresonligt.",
+      "Ett oresonligt svar ersattes av ett resonligt."
+    ]
+  },
+  {
+    "a": "exportör",
+    "b": "importör",
+    "description": "En exportör säljer varor till andra länder. En importör köper in dem därifrån.",
+    "examples": [
+      "Exportören skickade varan till importören.",
+      "Företaget är både importör och exportör."
+    ]
+  },
+  {
+    "a": "medgörlig",
+    "b": "omedgörlig",
+    "description": "Medgörlig betyder samarbetsvillig. Omedgörlig betyder svår att samarbeta med.",
+    "examples": [
+      "Patienten var medgörlig, inte omedgörlig.",
+      "Den omedgörliga gruppen blev mer medgörlig."
+    ]
+  },
+  {
+    "a": "likriktare",
+    "b": "växelriktare",
+    "description": "En likriktare gör växelström till likström. En växelriktare gör likström till växelström.",
+    "examples": [
+      "Likriktaren laddar batteriet och växelriktaren driver apparaten.",
+      "Systemet använder både likriktare och växelriktare."
+    ]
+  },
+  {
+    "a": "dokumentärfilm",
+    "b": "spelfilm",
+    "description": "En dokumentärfilm skildrar verkliga förhållanden. En spelfilm berättar främst en iscensatt historia.",
+    "examples": [
+      "Festivalen visade en dokumentärfilm och en spelfilm.",
+      "Dokumentärfilmen bygger på verklighet, medan spelfilmen är dramatiserad."
+    ]
+  },
+  {
+    "a": "finissage",
+    "b": "vernissage",
+    "description": "Vernissage är invigningen av en utställning. Finissage är avslutningen.",
+    "examples": [
+      "Utställningen öppnade med vernissage och slutade med finissage.",
+      "Vi besökte både vernissagen och finissagen."
+    ]
   }
 ];
 
