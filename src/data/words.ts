@@ -4992,5 +4992,1105 @@ export const words = {
     "related": [
       "högkonjunktur"
     ]
+  },
+  "barn": {
+    "opposite": "vuxen",
+    "description": "Barn och vuxen beskriver människor i olika åldersgrupper.",
+    "examples": [
+      "Ett barn behöver ofta hjälp av en vuxen.",
+      "Hon var barn då, men nu är hon vuxen."
+    ],
+    "related": [
+      "vuxen"
+    ]
+  },
+  "vuxen": {
+    "opposite": "barn",
+    "description": "Barn och vuxen beskriver människor i olika åldersgrupper.",
+    "examples": [
+      "Ett barn behöver ofta hjälp av en vuxen.",
+      "Hon var barn då, men nu är hon vuxen."
+    ],
+    "related": [
+      "barn"
+    ]
+  },
+  "acceleration": {
+    "opposite": "retardation",
+    "description": "Acceleration betyder att hastigheten ökar. Retardation betyder att hastigheten minskar.",
+    "examples": [
+      "Bilen fick hög acceleration när föraren gasade och retardation när hon bromsade.",
+      "Tågets acceleration följdes av en jämn retardation inför stationen."
+    ],
+    "related": [
+      "retardation"
+    ]
+  },
+  "retardation": {
+    "opposite": "acceleration",
+    "description": "Acceleration betyder att hastigheten ökar. Retardation betyder att hastigheten minskar.",
+    "examples": [
+      "Bilen fick hög acceleration när föraren gasade och retardation när hon bromsade.",
+      "Tågets acceleration följdes av en jämn retardation inför stationen."
+    ],
+    "related": [
+      "acceleration"
+    ]
+  },
+  "filantrop": {
+    "opposite": "misantrop",
+    "description": "En filantrop vill människors bästa. En misantrop känner motvilja mot människor.",
+    "examples": [
+      "Filantropen skänkte pengar till samhället, medan misantropen undvek människor.",
+      "Hon beskrevs som filantrop, inte som misantrop."
+    ],
+    "related": [
+      "misantrop"
+    ]
+  },
+  "misantrop": {
+    "opposite": "filantrop",
+    "description": "En filantrop vill människors bästa. En misantrop känner motvilja mot människor.",
+    "examples": [
+      "Filantropen skänkte pengar till samhället, medan misantropen undvek människor.",
+      "Hon beskrevs som filantrop, inte som misantrop."
+    ],
+    "related": [
+      "filantrop"
+    ]
+  },
+  "extrovert": {
+    "opposite": "introvert",
+    "description": "En extrovert person söker ofta socialt umgänge. En introvert person hämtar ofta energi i lugn och ensamhet.",
+    "examples": [
+      "Han är extrovert och pratar gärna med nya människor, medan hon är mer introvert.",
+      "En extrovert person kan trivas på festen och en introvert person i ett mindre sällskap."
+    ],
+    "related": [
+      "introvert"
+    ]
+  },
+  "introvert": {
+    "opposite": "extrovert",
+    "description": "En extrovert person söker ofta socialt umgänge. En introvert person hämtar ofta energi i lugn och ensamhet.",
+    "examples": [
+      "Han är extrovert och pratar gärna med nya människor, medan hon är mer introvert.",
+      "En extrovert person kan trivas på festen och en introvert person i ett mindre sällskap."
+    ],
+    "related": [
+      "extrovert"
+    ]
+  },
+  "demokrati": {
+    "opposite": "diktatur",
+    "description": "I en demokrati väljer folket sina ledare. I en diktatur är makten samlad hos en person eller en liten grupp.",
+    "examples": [
+      "Medborgarna kan rösta fritt i en demokrati men saknar ofta den möjligheten i en diktatur.",
+      "Landet gick från diktatur till demokrati."
+    ],
+    "related": [
+      "diktatur"
+    ]
+  },
+  "diktatur": {
+    "opposite": "demokrati",
+    "description": "I en demokrati väljer folket sina ledare. I en diktatur är makten samlad hos en person eller en liten grupp.",
+    "examples": [
+      "Medborgarna kan rösta fritt i en demokrati men saknar ofta den möjligheten i en diktatur.",
+      "Landet gick från diktatur till demokrati."
+    ],
+    "related": [
+      "demokrati"
+    ]
+  },
+  "svart": {
+    "opposite": "vit",
+    "description": "Svart och vit är färger som ofta betraktas som varandras motsatser.",
+    "examples": [
+      "Texten är svart och papperet är vitt.",
+      "Hon valde en vit skjorta i stället för en svart."
+    ],
+    "related": [
+      "vit"
+    ]
+  },
+  "vit": {
+    "opposite": "svart",
+    "description": "Svart och vit är färger som ofta betraktas som varandras motsatser.",
+    "examples": [
+      "Texten är svart och papperet är vitt.",
+      "Hon valde en vit skjorta i stället för en svart."
+    ],
+    "related": [
+      "svart"
+    ]
+  },
+  "antonym": {
+    "opposite": "synonym",
+    "description": "En antonym har motsatt betydelse. En synonym har samma eller nästan samma betydelse.",
+    "examples": [
+      "Liten är en antonym till stor, medan enorm är en synonym till jättestor.",
+      "Slå upp en antonym när du söker en motsats och en synonym när du söker ett liknande ord."
+    ],
+    "related": [
+      "synonym"
+    ]
+  },
+  "synonym": {
+    "opposite": "antonym",
+    "description": "En antonym har motsatt betydelse. En synonym har samma eller nästan samma betydelse.",
+    "examples": [
+      "Liten är en antonym till stor, medan enorm är en synonym till jättestor.",
+      "Slå upp en antonym när du söker en motsats och en synonym när du söker ett liknande ord."
+    ],
+    "related": [
+      "antonym"
+    ]
+  },
+  "berg": {
+    "opposite": "dal",
+    "description": "Ett berg höjer sig över landskapet. En dal är ett lågt område mellan höjder.",
+    "examples": [
+      "Vägen går över ett berg och ner i en dal.",
+      "Byn ligger i dalen nedanför berget."
+    ],
+    "related": [
+      "dal"
+    ]
+  },
+  "dal": {
+    "opposite": "berg",
+    "description": "Ett berg höjer sig över landskapet. En dal är ett lågt område mellan höjder.",
+    "examples": [
+      "Vägen går över ett berg och ner i en dal.",
+      "Byn ligger i dalen nedanför berget."
+    ],
+    "related": [
+      "berg"
+    ]
+  },
+  "bakom": {
+    "opposite": "framför",
+    "description": "Bakom betyder på baksidan av något. Framför betyder på framsidan.",
+    "examples": [
+      "Cykeln står bakom huset och bilen står framför huset.",
+      "Hon gick framför mig, medan han gick bakom."
+    ],
+    "related": [
+      "framför"
+    ]
+  },
+  "framför": {
+    "opposite": "bakom",
+    "description": "Bakom betyder på baksidan av något. Framför betyder på framsidan.",
+    "examples": [
+      "Cykeln står bakom huset och bilen står framför huset.",
+      "Hon gick framför mig, medan han gick bakom."
+    ],
+    "related": [
+      "bakom"
+    ]
+  },
+  "generell": {
+    "opposite": "specifik",
+    "description": "Generell betyder allmän och övergripande. Specifik betyder tydligt avgränsad eller exakt.",
+    "examples": [
+      "Rapporten ger först en generell bild och sedan specifik information.",
+      "Frågan var generell, men svaret var specifikt."
+    ],
+    "related": [
+      "specifik"
+    ]
+  },
+  "specifik": {
+    "opposite": "generell",
+    "description": "Generell betyder allmän och övergripande. Specifik betyder tydligt avgränsad eller exakt.",
+    "examples": [
+      "Rapporten ger först en generell bild och sedan specifik information.",
+      "Frågan var generell, men svaret var specifikt."
+    ],
+    "related": [
+      "generell"
+    ]
+  },
+  "explicit": {
+    "opposite": "implicit",
+    "description": "Explicit betyder tydligt uttryckt. Implicit betyder underförstått utan att sägas direkt.",
+    "examples": [
+      "Regeln var explicit, medan förväntningen bara var implicit.",
+      "Hon gav ett explicit svar på det som tidigare varit implicit."
+    ],
+    "related": [
+      "implicit"
+    ]
+  },
+  "implicit": {
+    "opposite": "explicit",
+    "description": "Explicit betyder tydligt uttryckt. Implicit betyder underförstått utan att sägas direkt.",
+    "examples": [
+      "Regeln var explicit, medan förväntningen bara var implicit.",
+      "Hon gav ett explicit svar på det som tidigare varit implicit."
+    ],
+    "related": [
+      "explicit"
+    ]
+  },
+  "pluralis": {
+    "opposite": "singularis",
+    "description": "Pluralis är en form för flera. Singularis är en form för en.",
+    "examples": [
+      "Ordet hus kan stå i både singularis och pluralis.",
+      "Katt står här i singularis, medan katter står i pluralis."
+    ],
+    "related": [
+      "singularis"
+    ]
+  },
+  "singularis": {
+    "opposite": "pluralis",
+    "description": "Pluralis är en form för flera. Singularis är en form för en.",
+    "examples": [
+      "Ordet hus kan stå i både singularis och pluralis.",
+      "Katt står här i singularis, medan katter står i pluralis."
+    ],
+    "related": [
+      "pluralis"
+    ]
+  },
+  "ost": {
+    "opposite": "väst",
+    "description": "Ost är ett äldre eller sjömansmässigt ord för öster. Väst är motsatt väderstreck.",
+    "examples": [
+      "Solen går upp i ost och ner i väst.",
+      "Båten seglade först mot ost och sedan mot väst."
+    ],
+    "related": [
+      "väst"
+    ]
+  },
+  "väst": {
+    "opposite": "ost",
+    "description": "Ost är ett äldre eller sjömansmässigt ord för öster. Väst är motsatt väderstreck.",
+    "examples": [
+      "Solen går upp i ost och ner i väst.",
+      "Båten seglade först mot ost och sedan mot väst."
+    ],
+    "related": [
+      "ost"
+    ]
+  },
+  "dividera": {
+    "opposite": "multiplicera",
+    "description": "Att dividera är att dela ett tal. Att multiplicera är att gångra ett tal.",
+    "examples": [
+      "Dividera tolv med tre och multiplicera sedan svaret med två.",
+      "Hon multiplicerade först talen men skulle egentligen dividera dem."
+    ],
+    "related": [
+      "multiplicera"
+    ]
+  },
+  "multiplicera": {
+    "opposite": "dividera",
+    "description": "Att dividera är att dela ett tal. Att multiplicera är att gångra ett tal.",
+    "examples": [
+      "Dividera tolv med tre och multiplicera sedan svaret med två.",
+      "Hon multiplicerade först talen men skulle egentligen dividera dem."
+    ],
+    "related": [
+      "dividera"
+    ]
+  },
+  "ebb": {
+    "opposite": "flod",
+    "description": "Ebb är lågvatten när havet drar sig tillbaka. Flod är högvatten när vattnet stiger.",
+    "examples": [
+      "Båten stod på botten vid ebb men flöt igen vid flod.",
+      "Tidvattnet växlar mellan ebb och flod."
+    ],
+    "related": [
+      "flod"
+    ]
+  },
+  "flod": {
+    "opposite": "ebb",
+    "description": "Ebb är lågvatten när havet drar sig tillbaka. Flod är högvatten när vattnet stiger.",
+    "examples": [
+      "Båten stod på botten vid ebb men flöt igen vid flod.",
+      "Tidvattnet växlar mellan ebb och flod."
+    ],
+    "related": [
+      "ebb"
+    ]
+  },
+  "lik": {
+    "opposite": "olik",
+    "description": "Lik betyder att något påminner om något annat. Olik betyder att det skiljer sig.",
+    "examples": [
+      "Syskonen är lika till utseendet men olika till sättet.",
+      "De två svaren verkar lika, men detaljerna är olika."
+    ],
+    "related": [
+      "olik"
+    ]
+  },
+  "olik": {
+    "opposite": "lik",
+    "description": "Lik betyder att något påminner om något annat. Olik betyder att det skiljer sig.",
+    "examples": [
+      "Syskonen är lika till utseendet men olika till sättet.",
+      "De två svaren verkar lika, men detaljerna är olika."
+    ],
+    "related": [
+      "lik"
+    ]
+  },
+  "delbar": {
+    "opposite": "odelbar",
+    "description": "Delbar betyder att något kan delas. Odelbar betyder att det inte kan delas i det aktuella sammanhanget.",
+    "examples": [
+      "Talet tio är delbart med två, men elva är odelbart med två.",
+      "Egendomen var delbar, medan den andra tillgången behandlades som odelbar."
+    ],
+    "related": [
+      "odelbar"
+    ]
+  },
+  "odelbar": {
+    "opposite": "delbar",
+    "description": "Delbar betyder att något kan delas. Odelbar betyder att det inte kan delas i det aktuella sammanhanget.",
+    "examples": [
+      "Talet tio är delbart med två, men elva är odelbart med två.",
+      "Egendomen var delbar, medan den andra tillgången behandlades som odelbar."
+    ],
+    "related": [
+      "delbar"
+    ]
+  },
+  "majoritet": {
+    "opposite": "minoritet",
+    "description": "En majoritet är den större delen av en grupp. En minoritet är den mindre delen.",
+    "examples": [
+      "En majoritet röstade ja och en minoritet röstade nej.",
+      "Förslaget stöddes av majoriteten men inte av minoriteten."
+    ],
+    "related": [
+      "minoritet"
+    ]
+  },
+  "minoritet": {
+    "opposite": "majoritet",
+    "description": "En majoritet är den större delen av en grupp. En minoritet är den mindre delen.",
+    "examples": [
+      "En majoritet röstade ja och en minoritet röstade nej.",
+      "Förslaget stöddes av majoriteten men inte av minoriteten."
+    ],
+    "related": [
+      "majoritet"
+    ]
+  },
+  "irrationell": {
+    "opposite": "rationell",
+    "description": "Rationell betyder grundad på förnuft. Irrationell betyder att resonemanget inte följer förnuftet.",
+    "examples": [
+      "Beslutet var rationellt, men rädslan bakom det var irrationell.",
+      "Hon försökte ersätta den irrationella tanken med en rationell bedömning."
+    ],
+    "related": [
+      "rationell"
+    ]
+  },
+  "rationell": {
+    "opposite": "irrationell",
+    "description": "Rationell betyder grundad på förnuft. Irrationell betyder att resonemanget inte följer förnuftet.",
+    "examples": [
+      "Beslutet var rationellt, men rädslan bakom det var irrationell.",
+      "Hon försökte ersätta den irrationella tanken med en rationell bedömning."
+    ],
+    "related": [
+      "irrationell"
+    ]
+  },
+  "human": {
+    "opposite": "inhuman",
+    "description": "Human betyder medmänsklig och hänsynsfull. Inhuman betyder omänsklig eller grym.",
+    "examples": [
+      "De krävde en human behandling och protesterade mot den inhumana metoden.",
+      "En human lösning ersatte de inhumana villkoren."
+    ],
+    "related": [
+      "inhuman"
+    ]
+  },
+  "inhuman": {
+    "opposite": "human",
+    "description": "Human betyder medmänsklig och hänsynsfull. Inhuman betyder omänsklig eller grym.",
+    "examples": [
+      "De krävde en human behandling och protesterade mot den inhumana metoden.",
+      "En human lösning ersatte de inhumana villkoren."
+    ],
+    "related": [
+      "human"
+    ]
+  },
+  "femininum": {
+    "opposite": "maskulinum",
+    "description": "Femininum och maskulinum är grammatiska genus som betecknar kvinnligt respektive manligt.",
+    "examples": [
+      "I språket tillhör det ena ordet femininum och det andra maskulinum.",
+      "Läraren förklarade skillnaden mellan femininum och maskulinum."
+    ],
+    "related": [
+      "maskulinum"
+    ]
+  },
+  "maskulinum": {
+    "opposite": "femininum",
+    "description": "Femininum och maskulinum är grammatiska genus som betecknar kvinnligt respektive manligt.",
+    "examples": [
+      "I språket tillhör det ena ordet femininum och det andra maskulinum.",
+      "Läraren förklarade skillnaden mellan femininum och maskulinum."
+    ],
+    "related": [
+      "femininum"
+    ]
+  },
+  "gemen": {
+    "opposite": "versal",
+    "description": "En gemen är en liten bokstav. En versal är en stor bokstav.",
+    "examples": [
+      "Ordet börjar med en versal och fortsätter med gemener.",
+      "Skriv namnet med versal, inte med gemen, i början."
+    ],
+    "related": [
+      "versal"
+    ]
+  },
+  "versal": {
+    "opposite": "gemen",
+    "description": "En gemen är en liten bokstav. En versal är en stor bokstav.",
+    "examples": [
+      "Ordet börjar med en versal och fortsätter med gemener.",
+      "Skriv namnet med versal, inte med gemen, i början."
+    ],
+    "related": [
+      "gemen"
+    ]
+  },
+  "högtryck": {
+    "opposite": "lågtryck",
+    "description": "Högtryck är ett område med högre lufttryck. Lågtryck är ett område med lägre lufttryck.",
+    "examples": [
+      "Högtryck gav klart väder, medan lågtryck förde med sig regn.",
+      "Ett lågtryck närmar sig efter flera dagar med högtryck."
+    ],
+    "related": [
+      "lågtryck"
+    ]
+  },
+  "lågtryck": {
+    "opposite": "högtryck",
+    "description": "Högtryck är ett område med högre lufttryck. Lågtryck är ett område med lägre lufttryck.",
+    "examples": [
+      "Högtryck gav klart väder, medan lågtryck förde med sig regn.",
+      "Ett lågtryck närmar sig efter flera dagar med högtryck."
+    ],
+    "related": [
+      "högtryck"
+    ]
+  },
+  "altruism": {
+    "opposite": "egoism",
+    "description": "Altruism sätter andras bästa främst. Egoism sätter det egna intresset främst.",
+    "examples": [
+      "Hennes altruism fick henne att hjälpa andra utan belöning, medan hans egoism styrde valet.",
+      "Handlingen kan ses som altruism snarare än egoism."
+    ],
+    "related": [
+      "egoism"
+    ]
+  },
+  "egoism": {
+    "opposite": "altruism",
+    "description": "Altruism sätter andras bästa främst. Egoism sätter det egna intresset främst.",
+    "examples": [
+      "Hennes altruism fick henne att hjälpa andra utan belöning, medan hans egoism styrde valet.",
+      "Handlingen kan ses som altruism snarare än egoism."
+    ],
+    "related": [
+      "altruism"
+    ]
+  },
+  "nadir": {
+    "opposite": "zenit",
+    "description": "Nadir är punkten rakt under betraktaren. Zenit är punkten rakt ovanför.",
+    "examples": [
+      "Zenit ligger över våra huvuden och nadir rakt under oss.",
+      "Stjärnan närmade sig zenit medan den motsatta punkten var nadir."
+    ],
+    "related": [
+      "zenit"
+    ]
+  },
+  "zenit": {
+    "opposite": "nadir",
+    "description": "Nadir är punkten rakt under betraktaren. Zenit är punkten rakt ovanför.",
+    "examples": [
+      "Zenit ligger över våra huvuden och nadir rakt under oss.",
+      "Stjärnan närmade sig zenit medan den motsatta punkten var nadir."
+    ],
+    "related": [
+      "nadir"
+    ]
+  },
+  "profan": {
+    "opposite": "sakral",
+    "description": "Profan betyder världslig eller icke-religiös. Sakral betyder helig eller religiös.",
+    "examples": [
+      "Museet visar både profan konst och sakrala föremål.",
+      "Musiken började profant men fick senare en sakral prägel."
+    ],
+    "related": [
+      "sakral"
+    ]
+  },
+  "sakral": {
+    "opposite": "profan",
+    "description": "Profan betyder världslig eller icke-religiös. Sakral betyder helig eller religiös.",
+    "examples": [
+      "Museet visar både profan konst och sakrala föremål.",
+      "Musiken började profant men fick senare en sakral prägel."
+    ],
+    "related": [
+      "profan"
+    ]
+  },
+  "lika": {
+    "opposite": "olika",
+    "description": "Lika betyder att saker stämmer överens. Olika betyder att de skiljer sig åt.",
+    "examples": [
+      "Glasen är lika stora men har olika färger.",
+      "Vi tänker olika trots att våra mål är lika."
+    ],
+    "related": [
+      "olika"
+    ]
+  },
+  "olika": {
+    "opposite": "lika",
+    "description": "Lika betyder att saker stämmer överens. Olika betyder att de skiljer sig åt.",
+    "examples": [
+      "Glasen är lika stora men har olika färger.",
+      "Vi tänker olika trots att våra mål är lika."
+    ],
+    "related": [
+      "lika"
+    ]
+  },
+  "likformig": {
+    "opposite": "olikformig",
+    "description": "Likformig betyder att något har samma form eller karaktär. Olikformig betyder att det varierar.",
+    "examples": [
+      "Mönstret är likformigt på ena sidan och olikformigt på den andra.",
+      "En likformig yta är jämnare än en olikformig yta."
+    ],
+    "related": [
+      "olikformig"
+    ]
+  },
+  "olikformig": {
+    "opposite": "likformig",
+    "description": "Likformig betyder att något har samma form eller karaktär. Olikformig betyder att det varierar.",
+    "examples": [
+      "Mönstret är likformigt på ena sidan och olikformigt på den andra.",
+      "En likformig yta är jämnare än en olikformig yta."
+    ],
+    "related": [
+      "likformig"
+    ]
+  },
+  "antimateria": {
+    "opposite": "materia",
+    "description": "Materia består av vanliga partiklar. Antimateria består av motsvarande antipartiklar.",
+    "examples": [
+      "När materia möter antimateria kan båda omvandlas till energi.",
+      "Forskaren jämförde egenskaper hos materia och antimateria."
+    ],
+    "related": [
+      "materia"
+    ]
+  },
+  "materia": {
+    "opposite": "antimateria",
+    "description": "Materia består av vanliga partiklar. Antimateria består av motsvarande antipartiklar.",
+    "examples": [
+      "När materia möter antimateria kan båda omvandlas till energi.",
+      "Forskaren jämförde egenskaper hos materia och antimateria."
+    ],
+    "related": [
+      "antimateria"
+    ]
+  },
+  "icke-metall": {
+    "opposite": "metall",
+    "description": "En metall har typiska metalliska egenskaper. En icke-metall saknar dessa egenskaper.",
+    "examples": [
+      "Järn är en metall, medan svavel är en icke-metall.",
+      "Tabellen skiljer mellan metall och icke-metall."
+    ],
+    "related": [
+      "metall"
+    ]
+  },
+  "metall": {
+    "opposite": "icke-metall",
+    "description": "En metall har typiska metalliska egenskaper. En icke-metall saknar dessa egenskaper.",
+    "examples": [
+      "Järn är en metall, medan svavel är en icke-metall.",
+      "Tabellen skiljer mellan metall och icke-metall."
+    ],
+    "related": [
+      "icke-metall"
+    ]
+  },
+  "hane": {
+    "opposite": "hona",
+    "description": "Hane och hona betecknar biologiskt kön hos många djur.",
+    "examples": [
+      "Fågeln till vänster är en hane och den till höger en hona.",
+      "Både hanen och honan vaktar boet."
+    ],
+    "related": [
+      "hona"
+    ]
+  },
+  "hona": {
+    "opposite": "hane",
+    "description": "Hane och hona betecknar biologiskt kön hos många djur.",
+    "examples": [
+      "Fågeln till vänster är en hane och den till höger en hona.",
+      "Både hanen och honan vaktar boet."
+    ],
+    "related": [
+      "hane"
+    ]
+  },
+  "basisk": {
+    "opposite": "sur",
+    "description": "En basisk lösning har högt pH. En sur lösning har lågt pH.",
+    "examples": [
+      "Tvållösningen är basisk, medan citronsaften är sur.",
+      "Vattnet gick från surt till basiskt efter behandlingen."
+    ],
+    "related": [
+      "sur"
+    ]
+  },
+  "sur": {
+    "opposite": "basisk",
+    "description": "En basisk lösning har högt pH. En sur lösning har lågt pH.",
+    "examples": [
+      "Tvållösningen är basisk, medan citronsaften är sur.",
+      "Vattnet gick från surt till basiskt efter behandlingen."
+    ],
+    "related": [
+      "basisk"
+    ]
+  },
+  "genväg": {
+    "opposite": "omväg",
+    "description": "En genväg är en kortare väg. En omväg är en längre väg runt något.",
+    "examples": [
+      "Vi tog en genväg genom parken i stället för en omväg runt kvarteret.",
+      "Genvägen sparade tid, men omvägen var lättare att gå."
+    ],
+    "related": [
+      "omväg"
+    ]
+  },
+  "omväg": {
+    "opposite": "genväg",
+    "description": "En genväg är en kortare väg. En omväg är en längre väg runt något.",
+    "examples": [
+      "Vi tog en genväg genom parken i stället för en omväg runt kvarteret.",
+      "Genvägen sparade tid, men omvägen var lättare att gå."
+    ],
+    "related": [
+      "genväg"
+    ]
+  },
+  "baksida": {
+    "opposite": "framsida",
+    "description": "Baksidan är den bakre sidan av något. Framsidan är den främre sidan.",
+    "examples": [
+      "Adressen står på baksidan och bilden på framsidan.",
+      "Kontrollera både framsidan och baksidan av kortet."
+    ],
+    "related": [
+      "framsida"
+    ]
+  },
+  "framsida": {
+    "opposite": "baksida",
+    "description": "Baksidan är den bakre sidan av något. Framsidan är den främre sidan.",
+    "examples": [
+      "Adressen står på baksidan och bilden på framsidan.",
+      "Kontrollera både framsidan och baksidan av kortet."
+    ],
+    "related": [
+      "baksida"
+    ]
+  },
+  "krokig": {
+    "opposite": "rak",
+    "description": "Krokig betyder böjd eller full av svängar. Rak betyder utan böjar.",
+    "examples": [
+      "Den gamla vägen är krokig, men den nya är rak.",
+      "Rita först en rak linje och sedan en krokig."
+    ],
+    "related": [
+      "rak"
+    ]
+  },
+  "rak": {
+    "opposite": "krokig",
+    "description": "Krokig betyder böjd eller full av svängar. Rak betyder utan böjar.",
+    "examples": [
+      "Den gamla vägen är krokig, men den nya är rak.",
+      "Rita först en rak linje och sedan en krokig."
+    ],
+    "related": [
+      "krokig"
+    ]
+  },
+  "konstgjord": {
+    "opposite": "naturlig",
+    "description": "Konstgjord betyder skapad av människor. Naturlig betyder uppkommen i naturen.",
+    "examples": [
+      "Sjön är konstgjord, medan bäcken är naturlig.",
+      "De valde naturligt ljus i stället för konstgjort ljus."
+    ],
+    "related": [
+      "naturlig"
+    ]
+  },
+  "naturlig": {
+    "opposite": "konstgjord",
+    "description": "Konstgjord betyder skapad av människor. Naturlig betyder uppkommen i naturen.",
+    "examples": [
+      "Sjön är konstgjord, medan bäcken är naturlig.",
+      "De valde naturligt ljus i stället för konstgjort ljus."
+    ],
+    "related": [
+      "konstgjord"
+    ]
+  },
+  "belägga": {
+    "opposite": "vederlägga",
+    "description": "Att belägga ett påstående är att visa stöd för det. Att vederlägga det är att visa att det är fel.",
+    "examples": [
+      "Studien kunde belägga den första teorin och vederlägga den andra.",
+      "Forskaren försökte belägga sitt påstående, men kritikern kunde vederlägga det."
+    ],
+    "related": [
+      "vederlägga"
+    ]
+  },
+  "vederlägga": {
+    "opposite": "belägga",
+    "description": "Att belägga ett påstående är att visa stöd för det. Att vederlägga det är att visa att det är fel.",
+    "examples": [
+      "Studien kunde belägga den första teorin och vederlägga den andra.",
+      "Forskaren försökte belägga sitt påstående, men kritikern kunde vederlägga det."
+    ],
+    "related": [
+      "belägga"
+    ]
+  },
+  "molnfri": {
+    "opposite": "molnig",
+    "description": "Molnfri betyder utan moln. Molnig betyder att det finns många moln på himlen.",
+    "examples": [
+      "Morgonen var molnfri, men eftermiddagen blev molnig.",
+      "En molnig himmel klarnade och blev nästan molnfri."
+    ],
+    "related": [
+      "molnig"
+    ]
+  },
+  "molnig": {
+    "opposite": "molnfri",
+    "description": "Molnfri betyder utan moln. Molnig betyder att det finns många moln på himlen.",
+    "examples": [
+      "Morgonen var molnfri, men eftermiddagen blev molnig.",
+      "En molnig himmel klarnade och blev nästan molnfri."
+    ],
+    "related": [
+      "molnfri"
+    ]
+  },
+  "felaktig": {
+    "opposite": "korrekt",
+    "description": "Felaktig betyder att något innehåller fel. Korrekt betyder att det stämmer.",
+    "examples": [
+      "Det första svaret var felaktigt, men det andra var korrekt.",
+      "Rätta den felaktiga uppgiften så att informationen blir korrekt."
+    ],
+    "related": [
+      "korrekt"
+    ]
+  },
+  "korrekt": {
+    "opposite": "felaktig",
+    "description": "Felaktig betyder att något innehåller fel. Korrekt betyder att det stämmer.",
+    "examples": [
+      "Det första svaret var felaktigt, men det andra var korrekt.",
+      "Rätta den felaktiga uppgiften så att informationen blir korrekt."
+    ],
+    "related": [
+      "felaktig"
+    ]
+  },
+  "förminska": {
+    "opposite": "förstora",
+    "description": "Att förminska är att göra något mindre. Att förstora är att göra det större.",
+    "examples": [
+      "Du kan förminska bilden eller förstora den på skärmen.",
+      "Hon förminskade rubriken men förstorade fotografiet."
+    ],
+    "related": [
+      "förstora"
+    ]
+  },
+  "förstora": {
+    "opposite": "förminska",
+    "description": "Att förminska är att göra något mindre. Att förstora är att göra det större.",
+    "examples": [
+      "Du kan förminska bilden eller förstora den på skärmen.",
+      "Hon förminskade rubriken men förstorade fotografiet."
+    ],
+    "related": [
+      "förminska"
+    ]
+  },
+  "nederlag": {
+    "opposite": "seger",
+    "description": "Nederlag betyder att förlora. Seger betyder att vinna.",
+    "examples": [
+      "Efter gårdagens nederlag kom dagens seger.",
+      "Laget firade sin seger och lärde sig av sitt tidigare nederlag."
+    ],
+    "related": [
+      "seger"
+    ]
+  },
+  "seger": {
+    "opposite": "nederlag",
+    "description": "Nederlag betyder att förlora. Seger betyder att vinna.",
+    "examples": [
+      "Efter gårdagens nederlag kom dagens seger.",
+      "Laget firade sin seger och lärde sig av sitt tidigare nederlag."
+    ],
+    "related": [
+      "nederlag"
+    ]
+  },
+  "anjon": {
+    "opposite": "katjon",
+    "description": "En anjon är en negativt laddad jon. En katjon är en positivt laddad jon.",
+    "examples": [
+      "Kloridjonen är en anjon och natriumjonen en katjon.",
+      "En anjon dras mot den positiva elektroden och en katjon mot den negativa."
+    ],
+    "related": [
+      "katjon"
+    ]
+  },
+  "katjon": {
+    "opposite": "anjon",
+    "description": "En anjon är en negativt laddad jon. En katjon är en positivt laddad jon.",
+    "examples": [
+      "Kloridjonen är en anjon och natriumjonen en katjon.",
+      "En anjon dras mot den positiva elektroden och en katjon mot den negativa."
+    ],
+    "related": [
+      "anjon"
+    ]
+  },
+  "apolitisk": {
+    "opposite": "politisk",
+    "description": "Apolitisk betyder utan politisk inriktning. Politisk betyder att något rör politik.",
+    "examples": [
+      "Föreningen säger sig vara apolitisk, medan kampanjen är tydligt politisk.",
+      "Samtalet började apolitiskt men blev snart politiskt."
+    ],
+    "related": [
+      "politisk"
+    ]
+  },
+  "politisk": {
+    "opposite": "apolitisk",
+    "description": "Apolitisk betyder utan politisk inriktning. Politisk betyder att något rör politik.",
+    "examples": [
+      "Föreningen säger sig vara apolitisk, medan kampanjen är tydligt politisk.",
+      "Samtalet började apolitiskt men blev snart politiskt."
+    ],
+    "related": [
+      "apolitisk"
+    ]
+  },
+  "uppladdning": {
+    "opposite": "urladdning",
+    "description": "Uppladdning fyller ett batteri med energi. Urladdning minskar den lagrade energin.",
+    "examples": [
+      "Batteriet behöver uppladdning efter en lång urladdning.",
+      "Snabb uppladdning följdes av långsam urladdning."
+    ],
+    "related": [
+      "urladdning"
+    ]
+  },
+  "urladdning": {
+    "opposite": "uppladdning",
+    "description": "Uppladdning fyller ett batteri med energi. Urladdning minskar den lagrade energin.",
+    "examples": [
+      "Batteriet behöver uppladdning efter en lång urladdning.",
+      "Snabb uppladdning följdes av långsam urladdning."
+    ],
+    "related": [
+      "uppladdning"
+    ]
+  },
+  "fysisk": {
+    "opposite": "psykisk",
+    "description": "Fysisk rör kroppen. Psykisk rör tankar, känslor och mående.",
+    "examples": [
+      "Träningen kräver fysisk styrka, medan pressen kan vara psykisk.",
+      "Hon fick både fysisk och psykisk hjälp."
+    ],
+    "related": [
+      "psykisk"
+    ]
+  },
+  "psykisk": {
+    "opposite": "fysisk",
+    "description": "Fysisk rör kroppen. Psykisk rör tankar, känslor och mående.",
+    "examples": [
+      "Träningen kräver fysisk styrka, medan pressen kan vara psykisk.",
+      "Hon fick både fysisk och psykisk hjälp."
+    ],
+    "related": [
+      "fysisk"
+    ]
+  },
+  "bakgrund": {
+    "opposite": "förgrund",
+    "description": "Bakgrunden ligger längre bak i en bild. Förgrunden ligger närmast betraktaren.",
+    "examples": [
+      "Berget syns i bakgrunden och trädet i förgrunden.",
+      "Fotografen gjorde förgrunden skarp och bakgrunden suddig."
+    ],
+    "related": [
+      "förgrund"
+    ]
+  },
+  "förgrund": {
+    "opposite": "bakgrund",
+    "description": "Bakgrunden ligger längre bak i en bild. Förgrunden ligger närmast betraktaren.",
+    "examples": [
+      "Berget syns i bakgrunden och trädet i förgrunden.",
+      "Fotografen gjorde förgrunden skarp och bakgrunden suddig."
+    ],
+    "related": [
+      "bakgrund"
+    ]
+  },
+  "betydelsefull": {
+    "opposite": "betydelselös",
+    "description": "Betydelsefull betyder viktig. Betydelselös betyder utan betydelse eller värde i sammanhanget.",
+    "examples": [
+      "Beslutet var betydelsefullt, men den lilla detaljen var betydelselös.",
+      "Det som först verkade betydelselöst blev senare betydelsefullt."
+    ],
+    "related": [
+      "betydelselös"
+    ]
+  },
+  "betydelselös": {
+    "opposite": "betydelsefull",
+    "description": "Betydelsefull betyder viktig. Betydelselös betyder utan betydelse eller värde i sammanhanget.",
+    "examples": [
+      "Beslutet var betydelsefullt, men den lilla detaljen var betydelselös.",
+      "Det som först verkade betydelselöst blev senare betydelsefullt."
+    ],
+    "related": [
+      "betydelsefull"
+    ]
+  },
+  "inkomplett": {
+    "opposite": "komplett",
+    "description": "Inkomplett betyder att delar saknas. Komplett betyder att allt som behövs finns med.",
+    "examples": [
+      "Den första listan var inkomplett, men den nya är komplett.",
+      "Samlingen blir komplett när den inkompletta delen fylls i."
+    ],
+    "related": [
+      "komplett"
+    ]
+  },
+  "komplett": {
+    "opposite": "inkomplett",
+    "description": "Inkomplett betyder att delar saknas. Komplett betyder att allt som behövs finns med.",
+    "examples": [
+      "Den första listan var inkomplett, men den nya är komplett.",
+      "Samlingen blir komplett när den inkompletta delen fylls i."
+    ],
+    "related": [
+      "inkomplett"
+    ]
+  },
+  "grumlig": {
+    "opposite": "klar",
+    "description": "Grumlig betyder att en vätska eller sikt är oklar. Klar betyder att man kan se tydligt igenom.",
+    "examples": [
+      "Vattnet var grumligt i går men är klart i dag.",
+      "Den grumliga vätskan filtrerades tills den blev klar."
+    ],
+    "related": [
+      "klar"
+    ]
+  },
+  "klar": {
+    "opposite": "grumlig",
+    "description": "Grumlig betyder att en vätska eller sikt är oklar. Klar betyder att man kan se tydligt igenom.",
+    "examples": [
+      "Vattnet var grumligt i går men är klart i dag.",
+      "Den grumliga vätskan filtrerades tills den blev klar."
+    ],
+    "related": [
+      "grumlig"
+    ]
+  },
+  "avta": {
+    "opposite": "tillta",
+    "description": "Avta betyder att minska i styrka. Tillta betyder att öka i styrka.",
+    "examples": [
+      "Vinden började avta på kvällen men väntas tillta i morgon.",
+      "Smärtan tilltog först och började sedan avta."
+    ],
+    "related": [
+      "tillta"
+    ]
+  },
+  "tillta": {
+    "opposite": "avta",
+    "description": "Avta betyder att minska i styrka. Tillta betyder att öka i styrka.",
+    "examples": [
+      "Vinden började avta på kvällen men väntas tillta i morgon.",
+      "Smärtan tilltog först och började sedan avta."
+    ],
+    "related": [
+      "avta"
+    ]
   }
 } as const;
