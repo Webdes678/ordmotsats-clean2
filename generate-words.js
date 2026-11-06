@@ -6545,6 +6545,456 @@ const curatedPairs = [
       "Den första grafen är linjär och den andra olinjär.",
       "Modellen gick från linjär till olinjär när fler faktorer lades till."
     ]
+  },
+  {
+    "a": "ordentlig",
+    "b": "oordentlig",
+    "description": "Ordentlig betyder noggrann och välordnad. Oordentlig betyder slarvig eller utan ordning.",
+    "examples": [
+      "Det ordentliga skrivbordet stod bredvid det oordentliga.",
+      "Hon var ordentlig med papperen men oordentlig med verktygen."
+    ]
+  },
+  {
+    "a": "högtidlig",
+    "b": "vardaglig",
+    "description": "Högtidlig betyder formell och festlig. Vardaglig betyder vanlig och enkel.",
+    "examples": [
+      "Ceremonin var högtidlig, men lunchen efteråt var vardaglig.",
+      "Han bytte från högtidliga ord till ett vardagligt språk."
+    ]
+  },
+  {
+    "a": "civil",
+    "b": "militär",
+    "description": "Civil gäller samhället utanför försvaret. Militär gäller försvarsmakt och soldater.",
+    "examples": [
+      "Flygplatsen har både civil och militär trafik.",
+      "Den civila byggnaden ligger bredvid det militära området."
+    ]
+  },
+  {
+    "a": "enspråkig",
+    "b": "flerspråkig",
+    "description": "Enspråkig betyder att använda ett språk. Flerspråkig betyder att använda flera språk.",
+    "examples": [
+      "Boken finns i en enspråkig och en flerspråkig utgåva.",
+      "Skylten var först enspråkig men blev flerspråkig."
+    ]
+  },
+  {
+    "a": "kvalificerad",
+    "b": "okvalificerad",
+    "description": "Kvalificerad betyder att kräva eller ha särskild kompetens. Okvalificerad betyder utan sådana krav eller meriter.",
+    "examples": [
+      "Det kvalificerade arbetet utfördes av en utbildad person, det okvalificerade av en nybörjare.",
+      "Hon var kvalificerad för tjänsten, medan den andra sökanden var okvalificerad."
+    ]
+  },
+  {
+    "a": "lagbunden",
+    "b": "laglös",
+    "description": "Lagbunden betyder styrd av lagar eller regelbundenheter. Laglös betyder utan fungerande lag och ordning.",
+    "examples": [
+      "Ett lagbundet samhälle står i motsats till ett laglöst.",
+      "Processen är lagbunden, inte laglös."
+    ]
+  },
+  {
+    "a": "hoppfull",
+    "b": "hopplös",
+    "description": "Hoppfull betyder fylld av hopp. Hopplös betyder utan hopp eller mycket svår.",
+    "examples": [
+      "Hon var hoppfull trots att läget först verkade hopplöst.",
+      "Beskedet gjorde gruppen hoppfull i stället för hopplös."
+    ]
+  },
+  {
+    "a": "respektfull",
+    "b": "respektlös",
+    "description": "Respektfull betyder att visa respekt. Respektlös betyder att inte visa respekt.",
+    "examples": [
+      "Svaret var respektfullt, men kommentaren bredvid var respektlös.",
+      "Var respektfull i samtalet och inte respektlös."
+    ]
+  },
+  {
+    "a": "smakfull",
+    "b": "smaklös",
+    "description": "Smakfull betyder stilfull och väl avvägd. Smaklös betyder utan god smak.",
+    "examples": [
+      "Rummet var smakfullt, men dekorationen uppfattades som smaklös.",
+      "Hon valde en smakfull färg i stället för en smaklös kombination."
+    ]
+  },
+  {
+    "a": "innehållsrik",
+    "b": "innehållsfattig",
+    "description": "Innehållsrik betyder fylld av mycket relevant innehåll. Innehållsfattig betyder att ha lite innehåll.",
+    "examples": [
+      "Den innehållsrika boken gav mer än den innehållsfattiga broschyren.",
+      "Rapporten blev innehållsrik efter att först ha varit innehållsfattig."
+    ]
+  },
+  {
+    "a": "händelserik",
+    "b": "händelsefattig",
+    "description": "Händelserik betyder fylld av många händelser. Händelsefattig betyder att lite händer.",
+    "examples": [
+      "Veckan var händelserik, men helgen blev händelsefattig.",
+      "Filmen gick från händelsefattig till händelserik."
+    ]
+  },
+  {
+    "a": "framgångsrik",
+    "b": "misslyckad",
+    "description": "Framgångsrik betyder att nå goda resultat. Misslyckad betyder att inte nå det avsedda resultatet.",
+    "examples": [
+      "Den första lanseringen var framgångsrik, men den andra blev misslyckad.",
+      "Ett misslyckat försök följdes av en framgångsrik lösning."
+    ]
+  },
+  {
+    "a": "fredlig",
+    "b": "våldsam",
+    "description": "Fredlig betyder utan våld. Våldsam betyder präglad av våld eller stark kraft.",
+    "examples": [
+      "Protesten var fredlig på dagen men blev våldsam på kvällen.",
+      "De sökte en fredlig lösning på den våldsamma konflikten."
+    ]
+  },
+  {
+    "a": "bevarad",
+    "b": "förstörd",
+    "description": "Bevarad betyder att något finns kvar i gott skick. Förstörd betyder att det har skadats så svårt att det inte fungerar eller finns kvar.",
+    "examples": [
+      "Den ena byggnaden är bevarad och den andra förstörd.",
+      "Fotot blev bevarat, men kopian var förstörd."
+    ]
+  },
+  {
+    "a": "intakt",
+    "b": "skadad",
+    "description": "Intakt betyder hel och oskadad. Skadad betyder att ha fått en skada.",
+    "examples": [
+      "Förpackningen var intakt, men varan inuti var skadad.",
+      "Den intakta delen sparades och den skadade byttes ut."
+    ]
+  },
+  {
+    "a": "organiserad",
+    "b": "oorganiserad",
+    "description": "Organiserad betyder planerad och ordnad. Oorganiserad betyder utan tydlig plan eller ordning.",
+    "examples": [
+      "Den organiserade gruppen arbetade snabbare än den oorganiserade.",
+      "Arbetet gick från oorganiserat till organiserat."
+    ]
+  },
+  {
+    "a": "centraliserad",
+    "b": "decentraliserad",
+    "description": "Centraliserad betyder samlad till en central ledning. Decentraliserad betyder fördelad mellan flera enheter.",
+    "examples": [
+      "Besluten var tidigare centraliserade men är nu decentraliserade.",
+      "En centraliserad organisation jämfördes med en decentraliserad."
+    ]
+  },
+  {
+    "a": "reglerad",
+    "b": "oreglerad",
+    "description": "Reglerad betyder styrd av bestämda regler. Oreglerad betyder utan sådan reglering.",
+    "examples": [
+      "Den reglerade marknaden ligger bredvid en mer oreglerad.",
+      "Verksamheten gick från oreglerad till reglerad."
+    ]
+  },
+  {
+    "a": "kontrollerad",
+    "b": "okontrollerad",
+    "description": "Kontrollerad betyder övervakad eller behärskad. Okontrollerad betyder utan kontroll.",
+    "examples": [
+      "Branden var kontrollerad efter att först ha varit okontrollerad.",
+      "En kontrollerad rörelse är säkrare än en okontrollerad."
+    ]
+  },
+  {
+    "a": "återkallelig",
+    "b": "oåterkallelig",
+    "description": "Återkallelig betyder möjlig att ta tillbaka. Oåterkallelig betyder att den inte kan återkallas.",
+    "examples": [
+      "Fullmakten är återkallelig, men beslutet beskrevs som oåterkalleligt.",
+      "Kontrollera om medgivandet är återkalleligt eller oåterkalleligt."
+    ]
+  },
+  {
+    "a": "kompatibel",
+    "b": "inkompatibel",
+    "description": "Kompatibel betyder att kunna fungera tillsammans. Inkompatibel betyder att inte kunna göra det.",
+    "examples": [
+      "Programmet är kompatibelt med den nya datorn men inkompatibelt med den gamla.",
+      "Testet visar om delarna är kompatibla eller inkompatibla."
+    ]
+  },
+  {
+    "a": "önskvärd",
+    "b": "oönskad",
+    "description": "Önskvärd betyder att något är önskat eller bra att uppnå. Oönskad betyder att det inte är önskat.",
+    "examples": [
+      "En jämn temperatur är önskvärd, medan fukt är oönskad.",
+      "Åtgärden gav en önskvärd effekt och tog bort den oönskade."
+    ]
+  },
+  {
+    "a": "acceptabel",
+    "b": "oacceptabel",
+    "description": "Acceptabel betyder möjlig att godta. Oacceptabel betyder att den inte kan godtas.",
+    "examples": [
+      "Det första resultatet är acceptabelt, men det andra är oacceptabelt.",
+      "Felet gick från oacceptabelt till en acceptabel nivå."
+    ]
+  },
+  {
+    "a": "lämplig",
+    "b": "olämplig",
+    "description": "Lämplig betyder passande för ändamålet. Olämplig betyder att inte passa.",
+    "examples": [
+      "Skorna är lämpliga för vandring men olämpliga för fest.",
+      "Hon valde en lämplig tid i stället för en olämplig."
+    ]
+  },
+  {
+    "a": "rimlig",
+    "b": "orimlig",
+    "description": "Rimlig betyder förnuftig och skälig. Orimlig betyder oskälig eller svår att tro.",
+    "examples": [
+      "Priset är rimligt, men leveranstiden är orimlig.",
+      "Kravet ändrades från orimligt till rimligt."
+    ]
+  },
+  {
+    "a": "trovärdig",
+    "b": "otrovärdig",
+    "description": "Trovärdig betyder värd att tro på. Otrovärdig betyder att inte verka sann eller pålitlig.",
+    "examples": [
+      "Källan är trovärdig, men ryktet är otrovärdigt.",
+      "Förklaringen blev trovärdig efter att först ha varit otrovärdig."
+    ]
+  },
+  {
+    "a": "regelrätt",
+    "b": "regelvidrig",
+    "description": "Regelrätt betyder i enlighet med reglerna. Regelvidrig betyder i strid med reglerna.",
+    "examples": [
+      "Målet var regelrätt, men nästa spel bedömdes som regelvidrigt.",
+      "Domaren avgör om handlingen är regelrätt eller regelvidrig."
+    ]
+  },
+  {
+    "a": "sammanhängande",
+    "b": "osammanhängande",
+    "description": "Sammanhängande betyder att delarna följer en tydlig helhet. Osammanhängande betyder att sambandet saknas.",
+    "examples": [
+      "Berättelsen var sammanhängande, men slutet blev osammanhängande.",
+      "Hon gjorde den osammanhängande texten sammanhängande."
+    ]
+  },
+  {
+    "a": "jämlik",
+    "b": "ojämlik",
+    "description": "Jämlik betyder att människor har lika rättigheter och möjligheter. Ojämlik betyder att skillnaderna är orättvisa.",
+    "examples": [
+      "Målet är ett jämlikt samhälle, inte ett ojämlikt.",
+      "Villkoren var ojämlika men blev mer jämlika."
+    ]
+  },
+  {
+    "a": "demokratisk",
+    "b": "odemokratisk",
+    "description": "Demokratisk betyder byggd på folkstyre och öppet deltagande. Odemokratisk betyder att sådana principer saknas.",
+    "examples": [
+      "Valet var demokratiskt, medan förbudet var odemokratiskt.",
+      "En demokratisk process ersatte den odemokratiska."
+    ]
+  },
+  {
+    "a": "fredad",
+    "b": "ofredad",
+    "description": "Fredad betyder skyddad från jakt, angrepp eller störning. Ofredad betyder utan sådant skydd.",
+    "examples": [
+      "Arten är fredad här men ofredad i området bredvid.",
+      "Den fredade platsen ska inte behandlas som ofredad mark."
+    ]
+  },
+  {
+    "a": "skyddad",
+    "b": "oskyddad",
+    "description": "Skyddad betyder försedd med skydd. Oskyddad betyder att skydd saknas.",
+    "examples": [
+      "Cyklisten med hjälm var skyddad, den andre mer oskyddad.",
+      "Den skyddade sidan klarade regnet bättre än den oskyddade."
+    ]
+  },
+  {
+    "a": "inloggad",
+    "b": "utloggad",
+    "description": "Inloggad betyder ansluten till ett konto. Utloggad betyder att sessionen är avslutad.",
+    "examples": [
+      "Hon var inloggad på datorn men utloggad på mobilen.",
+      "Kontrollera om användaren är inloggad eller utloggad."
+    ]
+  },
+  {
+    "a": "ansluten",
+    "b": "frånkopplad",
+    "description": "Ansluten betyder kopplad till ett system eller nät. Frånkopplad betyder att kopplingen har brutits.",
+    "examples": [
+      "Skrivaren är ansluten, men skannern är frånkopplad.",
+      "Enheten gick från frånkopplad till ansluten."
+    ]
+  },
+  {
+    "a": "öppenhjärtig",
+    "b": "sluten",
+    "description": "Öppenhjärtig betyder ärlig och villig att dela känslor. Sluten betyder ovillig att visa vad man tänker eller känner.",
+    "examples": [
+      "Hon var öppenhjärtig, medan han förblev sluten.",
+      "Samtalet gjorde den slutna personen mer öppenhjärtig."
+    ]
+  },
+  {
+    "a": "givmild",
+    "b": "snål",
+    "description": "Givmild betyder villig att ge och dela. Snål betyder ovillig att ge eller använda pengar.",
+    "examples": [
+      "Den givmilda grannen delade med sig, men den snåla höll allt själv.",
+      "Han gick från snål till mer givmild."
+    ]
+  },
+  {
+    "a": "arbetsam",
+    "b": "lat",
+    "description": "Arbetsam betyder flitig och villig att arbeta. Lat betyder ovillig att anstränga sig.",
+    "examples": [
+      "Den arbetsamma eleven började tidigt, medan den lata väntade.",
+      "Hon är arbetsam på jobbet men lat på semestern."
+    ]
+  },
+  {
+    "a": "ödmjuk",
+    "b": "högmodig",
+    "description": "Ödmjuk betyder anspråkslös och respektfull. Högmodig betyder överdrivet stolt.",
+    "examples": [
+      "Vinnaren var ödmjuk, men motståndaren lät högmodig.",
+      "Han blev mer ödmjuk och mindre högmodig."
+    ]
+  },
+  {
+    "a": "generös",
+    "b": "sparsam",
+    "description": "Generös betyder villig att ge rikligt. Sparsam betyder försiktig med pengar eller resurser.",
+    "examples": [
+      "Hon är generös med presenter men sparsam med el.",
+      "En generös portion stod bredvid en sparsam."
+    ]
+  },
+  {
+    "a": "tillgänglig",
+    "b": "otillgänglig",
+    "description": "Tillgänglig betyder möjlig att nå eller använda. Otillgänglig betyder svår eller omöjlig att nå.",
+    "examples": [
+      "Sidan är tillgänglig i dag men var otillgänglig i går.",
+      "Rampen gör entrén tillgänglig i stället för otillgänglig."
+    ]
+  },
+  {
+    "a": "försvarlig",
+    "b": "oförsvarlig",
+    "description": "Försvarlig betyder möjlig att motivera eller godta. Oförsvarlig betyder att inte kunna försvaras.",
+    "examples": [
+      "Beslutet var försvarligt, men förseningen var oförsvarlig.",
+      "Handlingen gick från tveksam till helt oförsvarlig, inte försvarlig."
+    ]
+  },
+  {
+    "a": "hållbar",
+    "b": "ohållbar",
+    "description": "Hållbar betyder att kunna bestå eller fungera länge. Ohållbar betyder att inte kunna fortsätta.",
+    "examples": [
+      "Lösningen är hållbar, medan den gamla planen var ohållbar.",
+      "Ekonomin gick från ohållbar till hållbar."
+    ]
+  },
+  {
+    "a": "jämförbar",
+    "b": "ojämförbar",
+    "description": "Jämförbar betyder möjlig att jämföra på ett meningsfullt sätt. Ojämförbar betyder att en rimlig jämförelse inte går att göra.",
+    "examples": [
+      "Resultaten är jämförbara, men det tredje måttet är ojämförbart.",
+      "Metoden gör tidigare ojämförbara data jämförbara."
+    ]
+  },
+  {
+    "a": "mätbar",
+    "b": "omätbar",
+    "description": "Mätbar betyder möjlig att mäta. Omätbar betyder att den inte kan mätas.",
+    "examples": [
+      "Temperaturen är mätbar, men känslan kan verka omätbar.",
+      "Testet gör effekten mätbar i stället för omätbar."
+    ]
+  },
+  {
+    "a": "spänd",
+    "b": "avslappnad",
+    "description": "Spänd betyder stel, orolig eller under anspänning. Avslappnad betyder lugn och utan spänning.",
+    "examples": [
+      "Hon var spänd före provet men avslappnad efteråt.",
+      "Muskeln gick från spänd till avslappnad."
+    ]
+  },
+  {
+    "a": "fokuserad",
+    "b": "ofokuserad",
+    "description": "Fokuserad betyder koncentrerad på uppgiften. Ofokuserad betyder att koncentrationen saknas.",
+    "examples": [
+      "Han var fokuserad på morgonen men ofokuserad efter lunch.",
+      "En paus gjorde gruppen fokuserad i stället för ofokuserad."
+    ]
+  },
+  {
+    "a": "förberedd",
+    "b": "oförberedd",
+    "description": "Förberedd betyder redo efter att ha planerat. Oförberedd betyder att inte vara redo.",
+    "examples": [
+      "Hon kom förberedd, medan jag var oförberedd.",
+      "Övningen gjorde laget förberett i stället för oförberett."
+    ]
+  },
+  {
+    "a": "färgad",
+    "b": "ofärgad",
+    "description": "Färgad betyder att ha eller ha fått färg. Ofärgad betyder utan färg.",
+    "examples": [
+      "Vätskan är färgad, men provet bredvid är ofärgat.",
+      "Glaset finns som färgat och ofärgat."
+    ]
+  },
+  {
+    "a": "sötad",
+    "b": "osötad",
+    "description": "Sötad betyder att ett sötningsmedel har tillsatts. Osötad betyder utan tillsatt sötning.",
+    "examples": [
+      "Yoghurten finns både sötad och osötad.",
+      "Hon valde osötat te i stället för sötat."
+    ]
+  },
+  {
+    "a": "inkluderad",
+    "b": "exkluderad",
+    "description": "Inkluderad betyder att vara medräknad eller medtagen. Exkluderad betyder att vara utesluten.",
+    "examples": [
+      "Avgiften är inkluderad, men frakten är exkluderad.",
+      "Alla deltagare blev inkluderade i stället för exkluderade."
+    ]
   }
 ];
 
