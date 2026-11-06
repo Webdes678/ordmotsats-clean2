@@ -2945,6 +2945,456 @@ const curatedPairs = [
       "Projektet började småskaligt och blev senare storskaligt.",
       "Småskalig odling kräver andra metoder än storskalig odling."
     ]
+  },
+  {
+    "a": "sambo",
+    "b": "särbo",
+    "description": "En sambo bor tillsammans med sin partner. En särbo har en partner men bor på annan adress.",
+    "examples": [
+      "De var särbor i två år innan de blev sambor.",
+      "Som sambo delar hon bostad, men som särbo gjorde hon inte det."
+    ]
+  },
+  {
+    "a": "likström",
+    "b": "växelström",
+    "description": "Likström går i samma riktning. Växelström byter riktning regelbundet.",
+    "examples": [
+      "Batteriet ger likström, medan vägguttaget ger växelström.",
+      "Omvandlaren gör växelström av likström."
+    ]
+  },
+  {
+    "a": "barnförbjuden",
+    "b": "barntillåten",
+    "description": "Barnförbjuden betyder att barn inte får delta. Barntillåten betyder att barn får delta.",
+    "examples": [
+      "Den sena filmen är barnförbjuden, men matinén är barntillåten.",
+      "Välj den barntillåtna föreställningen i stället för den barnförbjudna."
+    ]
+  },
+  {
+    "a": "oräknebar",
+    "b": "räknebar",
+    "description": "Räknebar betyder att något kan räknas. Oräknebar betyder att det inte kan räknas som enskilda enheter.",
+    "examples": [
+      "Stolar är räknebara, medan sand ofta behandlas som oräknebar.",
+      "Substantivet är räknebart i den ena betydelsen och oräknebart i den andra."
+    ]
+  },
+  {
+    "a": "alkoholfri",
+    "b": "alkoholhaltig",
+    "description": "Alkoholfri betyder utan alkohol. Alkoholhaltig betyder att alkohol finns i drycken.",
+    "examples": [
+      "Hon valde en alkoholfri dryck i stället för en alkoholhaltig.",
+      "Menyn skiljer mellan alkoholfria och alkoholhaltiga alternativ."
+    ]
+  },
+  {
+    "a": "drygt",
+    "b": "knappt",
+    "description": "Drygt betyder lite mer än en angiven mängd. Knappt betyder lite mindre.",
+    "examples": [
+      "Resan tog drygt en timme dit och knappt en timme hem.",
+      "Det kom drygt hundra personer, inte knappt hundra."
+    ]
+  },
+  {
+    "a": "ankomsttid",
+    "b": "avgångstid",
+    "description": "Avgångstid är tiden då en resa börjar. Ankomsttid är tiden då den slutar.",
+    "examples": [
+      "Tågets avgångstid är 08.00 och ankomsttiden 10.15.",
+      "Kontrollera både avgångstid och ankomsttid."
+    ]
+  },
+  {
+    "a": "korthårig",
+    "b": "långhårig",
+    "description": "Korthårig betyder med kort hår eller päls. Långhårig betyder med långt hår eller päls.",
+    "examples": [
+      "Den ena katten är korthårig och den andra långhårig.",
+      "En långhårig hund kräver ofta mer pälsvård än en korthårig."
+    ]
+  },
+  {
+    "a": "intermolekylär",
+    "b": "intramolekylär",
+    "description": "Intermolekylär betyder mellan molekyler. Intramolekylär betyder inom en molekyl.",
+    "examples": [
+      "Bindningen inom molekylen är intramolekylär, medan kraften mellan molekylerna är intermolekylär.",
+      "Kursen skiljer mellan intermolekylära och intramolekylära krafter."
+    ]
+  },
+  {
+    "a": "enkelbiljett",
+    "b": "tur-och-retur-biljett",
+    "description": "En enkelbiljett gäller en väg. En tur-och-retur-biljett gäller både dit- och hemresa.",
+    "examples": [
+      "Hon köpte en enkelbiljett dit och en tur-och-retur-biljett nästa gång.",
+      "En tur-och-retur-biljett omfattar mer än en enkelbiljett."
+    ]
+  },
+  {
+    "a": "godkänna",
+    "b": "underkänna",
+    "description": "Godkänna betyder att bedöma något som tillräckligt bra. Underkänna betyder att inte godta det.",
+    "examples": [
+      "Läraren kunde godkänna arbetet eller underkänna det.",
+      "Kontrollen godkände den första produkten men underkände den andra."
+    ]
+  },
+  {
+    "a": "underkäke",
+    "b": "överkäke",
+    "description": "Underkäken är den nedre käken. Överkäken är den övre.",
+    "examples": [
+      "Tänderna sitter i både underkäken och överkäken.",
+      "Underkäken rör sig mot överkäken när vi tuggar."
+    ]
+  },
+  {
+    "a": "ensidig",
+    "b": "mångsidig",
+    "description": "Ensidig betyder begränsad till en sida eller ett perspektiv. Mångsidig betyder varierad och användbar på flera sätt.",
+    "examples": [
+      "Rapporten var ensidig, men diskussionen blev mångsidig.",
+      "En mångsidig spelare kan göra mer än en ensidig specialistroll."
+    ]
+  },
+  {
+    "a": "insjukna",
+    "b": "tillfriskna",
+    "description": "Insjukna betyder att bli sjuk. Tillfriskna betyder att bli frisk igen.",
+    "examples": [
+      "Hon insjuknade på måndagen och började tillfriskna på fredagen.",
+      "Flera hann insjukna innan den första patienten tillfrisknade."
+    ]
+  },
+  {
+    "a": "lodrät",
+    "b": "vågrät",
+    "description": "Lodrät betyder rakt upp och ner. Vågrät betyder parallell med horisonten.",
+    "examples": [
+      "Stolpen är lodrät och markeringen är vågrät.",
+      "Rita en lodrät linje som korsar den vågräta."
+    ]
+  },
+  {
+    "a": "ovillkorad",
+    "b": "villkorad",
+    "description": "Ovillkorad betyder utan krav. Villkorad betyder att vissa krav måste uppfyllas.",
+    "examples": [
+      "Stödet var villkorat först men blev senare ovillkorat.",
+      "Ett ovillkorat löfte skiljer sig från ett villkorat."
+    ]
+  },
+  {
+    "a": "mental",
+    "b": "somatisk",
+    "description": "Mental rör tankar och psyke. Somatisk rör kroppen.",
+    "examples": [
+      "Besvären kan vara mentala eller somatiska.",
+      "Behandlingen tar hänsyn till både mental och somatisk hälsa."
+    ]
+  },
+  {
+    "a": "oxidationsmedel",
+    "b": "reduktionsmedel",
+    "description": "Ett oxidationsmedel tar upp elektroner. Ett reduktionsmedel avger elektroner.",
+    "examples": [
+      "I reaktionen möter oxidationsmedlet ett reduktionsmedel.",
+      "Ämnet fungerar som reduktionsmedel här och som oxidationsmedel i en annan reaktion."
+    ]
+  },
+  {
+    "a": "augmentativ",
+    "b": "diminutiv",
+    "description": "Augmentativ uttrycker större storlek eller styrka. Diminutiv uttrycker mindre storlek eller ömhet.",
+    "examples": [
+      "Språket har både en augmentativ och en diminutiv form.",
+      "Diminutiven gör ordet mindre, medan augmentativen förstärker det."
+    ]
+  },
+  {
+    "a": "benägen",
+    "b": "obenägen",
+    "description": "Benägen betyder villig eller sannolik att göra något. Obenägen betyder ovillig.",
+    "examples": [
+      "Hon var benägen att hjälpa men obenägen att lova för mycket.",
+      "En benägen köpare agerar snabbare än en obenägen."
+    ]
+  },
+  {
+    "a": "individualism",
+    "b": "kollektivism",
+    "description": "Individualism betonar individens frihet. Kollektivism betonar gruppens gemensamma ansvar.",
+    "examples": [
+      "Debatten ställde individualism mot kollektivism.",
+      "Samhället kombinerar drag av individualism och kollektivism."
+    ]
+  },
+  {
+    "a": "oskälig",
+    "b": "skälig",
+    "description": "Skälig betyder rimlig. Oskälig betyder orimlig eller alltför hög.",
+    "examples": [
+      "Avgiften var oskälig och sänktes till en skälig nivå.",
+      "Kravet måste vara skäligt, inte oskäligt."
+    ]
+  },
+  {
+    "a": "diffus",
+    "b": "distinkt",
+    "description": "Diffus betyder otydlig eller utspridd. Distinkt betyder tydligt avgränsad.",
+    "examples": [
+      "Lukten var diffus, men ljudet var distinkt.",
+      "Gör den diffusa kanten mer distinkt."
+    ]
+  },
+  {
+    "a": "inkongruens",
+    "b": "kongruens",
+    "description": "Kongruens betyder överensstämmelse. Inkongruens betyder brist på överensstämmelse.",
+    "examples": [
+      "Mätningen visade kongruens mellan modellerna och inkongruens i en detalj.",
+      "Inkongruensen försvann när full kongruens uppnåddes."
+    ]
+  },
+  {
+    "a": "lantlig",
+    "b": "urban",
+    "description": "Lantlig betyder som hör till landsbygden. Urban betyder som hör till staden.",
+    "examples": [
+      "De flyttade från en urban miljö till en lantlig.",
+      "Den urbana livsstilen skiljer sig från den lantliga."
+    ]
+  },
+  {
+    "a": "antedatera",
+    "b": "postdatera",
+    "description": "Antedatera betyder att sätta ett tidigare datum. Postdatera betyder att sätta ett senare datum.",
+    "examples": [
+      "Du får varken antedatera eller postdatera dokumentet felaktigt.",
+      "Hon antedaterade det första brevet och postdaterade det andra."
+    ]
+  },
+  {
+    "a": "andlig",
+    "b": "jordisk",
+    "description": "Andlig rör själen eller religionen. Jordisk rör det materiella livet.",
+    "examples": [
+      "Texten handlar om både andliga och jordiska frågor.",
+      "Han sökte andlig ro snarare än jordisk rikedom."
+    ]
+  },
+  {
+    "a": "oredlighet",
+    "b": "redlighet",
+    "description": "Redlighet betyder ärlighet och hederlighet. Oredlighet betyder oärlighet.",
+    "examples": [
+      "Företaget krävde redlighet och straffade oredlighet.",
+      "Utredningen fann redlighet i ett fall och oredlighet i ett annat."
+    ]
+  },
+  {
+    "a": "immateriell",
+    "b": "materiell",
+    "description": "Materiell betyder fysisk eller knuten till saker. Immateriell betyder utan fysisk form.",
+    "examples": [
+      "Maskinen är materiell, medan upphovsrätten är immateriell.",
+      "Företaget äger både materiella och immateriella tillgångar."
+    ]
+  },
+  {
+    "a": "instrumentalmusik",
+    "b": "vokalmusik",
+    "description": "Instrumentalmusik framförs utan sång. Vokalmusik bygger på röster.",
+    "examples": [
+      "Konserten blandade instrumentalmusik med vokalmusik.",
+      "Stycket började som instrumentalmusik och fick senare drag av vokalmusik."
+    ]
+  },
+  {
+    "a": "borgenär",
+    "b": "gäldenär",
+    "description": "En borgenär har rätt att få betalt. En gäldenär är skyldig att betala.",
+    "examples": [
+      "Gäldenären betalade skulden till borgenären.",
+      "Avtalet beskriver både borgenärens och gäldenärens ansvar."
+    ]
+  },
+  {
+    "a": "inrikes",
+    "b": "utrikes",
+    "description": "Inrikes betyder inom landet. Utrikes betyder i eller till andra länder.",
+    "examples": [
+      "Företaget arbetar både inrikes och utrikes.",
+      "Inrikes trafik skiljer sig från utrikes trafik."
+    ]
+  },
+  {
+    "a": "kroklinjig",
+    "b": "rätlinjig",
+    "description": "Kroklinjig betyder att följa en böjd linje. Rätlinjig betyder att följa en rak linje.",
+    "examples": [
+      "Rörelsen var först rätlinjig och sedan kroklinjig.",
+      "En kroklinjig bana är böjd, medan en rätlinjig är rak."
+    ]
+  },
+  {
+    "a": "trådbunden",
+    "b": "trådlös",
+    "description": "Trådbunden betyder ansluten med kabel. Trådlös betyder ansluten utan kabel.",
+    "examples": [
+      "Den trådbundna musen har kabel, men den trådlösa saknar den.",
+      "Nätverket kan vara trådbundet eller trådlöst."
+    ]
+  },
+  {
+    "a": "generalist",
+    "b": "specialist",
+    "description": "En generalist kan mycket inom flera områden. En specialist kan mycket inom ett avgränsat område.",
+    "examples": [
+      "Generalisten såg helheten och specialisten löste detaljproblemet.",
+      "Teamet behöver både en generalist och en specialist."
+    ]
+  },
+  {
+    "a": "allehanda",
+    "b": "enahanda",
+    "description": "Allehanda betyder av många olika slag. Enahanda betyder likformig och utan variation.",
+    "examples": [
+      "Marknaden erbjöd allehanda varor, men menyn var enahanda.",
+      "Hon ville ha allehanda uppgifter i stället för ett enahanda arbete."
+    ]
+  },
+  {
+    "a": "förbehållsam",
+    "b": "oförbehållsam",
+    "description": "Förbehållsam betyder återhållsam. Oförbehållsam betyder öppen och utan reservationer.",
+    "examples": [
+      "Han var förbehållsam i början men senare oförbehållsam.",
+      "Stödet var oförbehållsamt, medan svaret var förbehållsamt."
+    ]
+  },
+  {
+    "a": "lättillgänglig",
+    "b": "svårtillgänglig",
+    "description": "Lättillgänglig betyder enkel att nå eller förstå. Svårtillgänglig betyder svår att nå eller förstå.",
+    "examples": [
+      "Guiden är lättillgänglig, men originaltexten är svårtillgänglig.",
+      "Platsen blev lättillgänglig efter att ha varit svårtillgänglig."
+    ]
+  },
+  {
+    "a": "komparabel",
+    "b": "okomparabel",
+    "description": "Komparabel betyder möjlig att jämföra. Okomparabel betyder att en meningsfull jämförelse inte kan göras.",
+    "examples": [
+      "Resultaten är komparabla, men den äldre mätningen är okomparabel.",
+      "Gör materialet komparabelt i stället för okomparabelt."
+    ]
+  },
+  {
+    "a": "underläge",
+    "b": "övertag",
+    "description": "Underläge betyder en sämre position. Övertag betyder en bättre position än motståndaren.",
+    "examples": [
+      "Laget vände ett underläge till ett övertag.",
+      "Hon hade ett övertag först men hamnade senare i underläge."
+    ]
+  },
+  {
+    "a": "innantill",
+    "b": "utantill",
+    "description": "Innantill betyder att läsa direkt ur en text. Utantill betyder ur minnet.",
+    "examples": [
+      "Han läste dikten innantill först och kunde den senare utantill.",
+      "Lär dig orden utantill i stället för att läsa innantill."
+    ]
+  },
+  {
+    "a": "prim",
+    "b": "sammansatt",
+    "description": "Ett primtal har exakt två positiva delare. Ett sammansatt tal har fler än två.",
+    "examples": [
+      "Sju är ett primt tal, medan åtta är sammansatt.",
+      "Avgör om talet är primt eller sammansatt."
+    ]
+  },
+  {
+    "a": "spetsvinklig",
+    "b": "trubbvinklig",
+    "description": "Spetsvinklig betyder med en vinkel mindre än 90 grader. Trubbvinklig betyder med en vinkel större än 90 grader.",
+    "examples": [
+      "Den ena triangeln är spetsvinklig och den andra trubbvinklig.",
+      "En spetsvinklig vinkel är mindre än en trubbvinklig."
+    ]
+  },
+  {
+    "a": "högakta",
+    "b": "ringakta",
+    "description": "Högakta betyder att respektera mycket. Ringakta betyder att se ner på.",
+    "examples": [
+      "Hon högaktade sin lärare och ville inte ringakta någon.",
+      "Man kan högakta en insats men ringakta ett oärligt beteende."
+    ]
+  },
+  {
+    "a": "endräkt",
+    "b": "tvedräkt",
+    "description": "Endräkt betyder enighet. Tvedräkt betyder oenighet och konflikt.",
+    "examples": [
+      "Gruppen gick från tvedräkt till endräkt.",
+      "Endräkt gav framgång, medan tvedräkt skapade problem."
+    ]
+  },
+  {
+    "a": "frånvara",
+    "b": "närvara",
+    "description": "Frånvara betyder att inte vara på plats. Närvara betyder att vara där.",
+    "examples": [
+      "Hon kunde inte närvara och måste därför frånvara.",
+      "Alla förväntas närvara, inte frånvara, vid mötet."
+    ]
+  },
+  {
+    "a": "evertebrat",
+    "b": "vertebrat",
+    "description": "Ett evertebrat saknar ryggrad. Ett vertebrat har ryggrad.",
+    "examples": [
+      "En mask är ett evertebrat, medan en fisk är ett vertebrat.",
+      "Museet visar både vertebrat och evertebrat."
+    ]
+  },
+  {
+    "a": "högfrekvent",
+    "b": "lågfrekvent",
+    "description": "Högfrekvent betyder med hög frekvens. Lågfrekvent betyder med låg frekvens.",
+    "examples": [
+      "Signalen har en högfrekvent och en lågfrekvent del.",
+      "Det högfrekventa ljudet ligger över det lågfrekventa."
+    ]
+  },
+  {
+    "a": "impermeabel",
+    "b": "permeabel",
+    "description": "Permeabel betyder genomsläpplig. Impermeabel betyder att vätska eller gas inte kan passera.",
+    "examples": [
+      "Sandlagret är permeabelt, men lerlagret är nästan impermeabelt.",
+      "Membranet gick från impermeabelt till mer permeabelt."
+    ]
+  },
+  {
+    "a": "högerut",
+    "b": "vänsterut",
+    "description": "Högerut betyder i riktning åt höger. Vänsterut betyder i riktning åt vänster.",
+    "examples": [
+      "Sväng högerut vid bron och sedan vänsterut vid skolan.",
+      "Den ena pilen pekar högerut och den andra vänsterut."
+    ]
   }
 ];
 
