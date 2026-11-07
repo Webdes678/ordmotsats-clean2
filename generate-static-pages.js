@@ -75,7 +75,7 @@ function siteHeader(showNavigation = false) {
 
   return '<header class="site-header">'
     + '<a class="logo" href="/" aria-label="motsatsord.se startsida">'
-    + '<span class="logo-mark" aria-hidden="true">↔</span>'
+    + '<img class="logo-mark" src="/logo-pale-blue.png" alt="" width="40" height="40" />'
     + '<span>motsatsord<span>.se</span></span>'
     + '</a>'
     + navigation

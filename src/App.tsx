@@ -194,7 +194,7 @@ function SiteHeader({ showNavigation = false }: { showNavigation?: boolean }) {
   return (
     <header className="site-header">
       <Link className="logo" to="/" aria-label="motsatsord.se startsida">
-        <span className="logo-mark" aria-hidden="true">↔</span>
+        <img className="logo-mark" src="/logo-pale-blue.png" alt="" width="40" height="40" />
         <span>motsatsord<span>.se</span></span>
       </Link>
 
