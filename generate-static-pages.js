@@ -1,5 +1,6 @@
 import fs from 'node:fs';
 import path from 'node:path';
+import { homeStructuredData, wordStructuredData, serializeStructuredData } from './src/structured-data.js';
 
 const baseUrl = 'https://www.motsatsord.se';
 const projectRoot = process.cwd();
@@ -35,15 +36,19 @@ function readWords() {
   return JSON.parse(source.slice(jsonStart, jsonEnd + 1));
 }
 
-function setHead(template, { title, description, canonical }) {
+function setHead(template, { title, description, canonical, structuredData, noindex = false }) {
   const titleHtml = '<title>' + escapeHtml(title) + '</title>';
   const descriptionHtml = '<meta name="description" content="' + escapeHtml(description) + '" />';
-  const canonicalHtml = '<link rel="canonical" href="' + escapeHtml(canonical) + '" />';
+  const canonicalHtml = canonical ? '<link rel="canonical" href="' + escapeHtml(canonical) + '" />' : '';
+  const schemaHtml = structuredData
+    ? '<script id="structured-data" type="application/ld+json">' + serializeStructuredData(structuredData) + '</script>'
+    : '';
 
   return template
     .replace(/<title>[\s\S]*?<\/title>/, titleHtml)
     .replace(/<meta name="description"[^>]*>/, descriptionHtml)
-    .replace('</head>', '  ' + canonicalHtml + '\n</head>');
+    .replace('</head>', '  ' + canonicalHtml + schemaHtml
+      + (noindex ? '<meta name="robots" content="noindex,follow" />' : '') + '\n</head>');
 }
 
 function setRoot(template, markup) {
@@ -141,7 +146,7 @@ function wordMarkup(word, entry, words) {
   return '<main class="page word-page-shell">'
     + siteHeader()
     + '<section class="word-hero">'
-    + '<a class="back-button" href="/">← Till startsidan</a>'
+    + '<nav class="breadcrumbs" aria-label="Brödsmulor"><a href="/">Startsidan</a><span aria-hidden="true">›</span><span aria-current="page">' + escapeHtml(word) + '</span></nav>'
     + searchBar()
     + '<div class="word-page">'
     + '<div class="word-card">'
@@ -171,6 +176,7 @@ function generateStaticPages() {
       title: 'Motsatsord – svenska ordpar och antonymer',
       description: 'Slå upp vanliga svenska motsatsord med tydliga exempelmeningar.',
       canonical: baseUrl + '/',
+      structuredData: homeStructuredData(),
     }),
     homeMarkup(words),
   );
@@ -182,7 +188,7 @@ function generateStaticPages() {
     const canonical = baseUrl + wordUrl(word);
     const html = setRoot(
       setEmbeddedWordData(
-        setHead(template, { title, description, canonical }),
+        setHead(template, { title, description, canonical, structuredData: wordStructuredData(word, entry) }),
         word,
         entry,
       ),
@@ -192,7 +198,24 @@ function generateStaticPages() {
     fs.writeFileSync(path.join(wordOutputPath, word + '.html'), html, 'utf-8');
   }
 
-  console.log('Pre-rendered homepage and ' + Object.keys(words).length + ' word pages.');
+  // A standalone document lets Vercel preserve HTTP 404 without the word route replacing it.
+  const errorTemplate = template.replace(/<script\b[^>]*type="module"[^>]*>[\s\S]*?<\/script>/g, '');
+  const errorMarkup = '<main class="page word-page-shell">' + siteHeader()
+    + '<section class="word-hero"><div class="result-card not-found">'
+    + '<p class="error-code">404</p><h1>Sidan kunde inte hittas</h1>'
+    + '<p>Länken kan vara felstavad eller sidan kan ha flyttats. Sök efter ett ord eller gå till startsidan.</p>'
+    + '<a class="back-button" href="/">← Till startsidan</a></div>'
+    + '<form id="not-found-search" class="search-container"><div class="search">'
+    + '<input name="word" aria-label="Sök efter ett svenskt ord" placeholder="Till exempel: snabb" required />'
+    + '<button type="submit">Sök</button></div></form></section>' + footer() + '</main>'
+    + '<script>document.getElementById("not-found-search").addEventListener("submit",function(event){event.preventDefault();const word=this.elements.word.value.trim().toLowerCase();if(word)window.location.assign("/ord/"+encodeURIComponent(word));});</script>';
+  fs.writeFileSync(path.join(distPath, '404.html'), setRoot(setHead(errorTemplate, {
+    title: 'Sidan kunde inte hittas – motsatsord.se',
+    description: 'Sidan kunde inte hittas. Sök efter svenska motsatsord eller gå till startsidan.',
+    noindex: true,
+  }), errorMarkup), 'utf-8');
+
+  console.log('Pre-rendered homepage, 404 page and ' + Object.keys(words).length + ' word pages with structured data.');
 }
 
 generateStaticPages();
