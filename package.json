@@ -4,12 +4,13 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predev": "node generate-client-data.js",
     "dev": "vite",
     "build": "tsc -b && vite build",
     "postbuild": "node generate-static-pages.js",
     "lint": "eslint .",
     "preview": "vite preview",
-    "prebuild": "node generate-words.js && node generate-sitemap.js"
+    "prebuild": "node generate-words.js && node generate-client-data.js && node generate-sitemap.js"
   },
   "dependencies": {
     "node-fetch": "^3.3.2",
