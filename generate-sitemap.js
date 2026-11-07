@@ -1,5 +1,6 @@
 import fs from 'fs';
 import path from 'path';
+import { groupDirectory, letterUrl } from './src/directory.js';
 
 function generateSitemap() {
   const baseUrl = 'https://www.motsatsord.se';
@@ -14,7 +15,10 @@ function generateSitemap() {
   }
 
   const words = JSON.parse(fileContent.substring(jsonStartIndex, jsonEndIndex + 1));
-  const urls = [baseUrl + '/'].concat(
+  const directoryUrls = [baseUrl + '/ordlista', ...groupDirectory(words)
+    .filter((group) => group.entries.length > 0)
+    .map((group) => baseUrl + letterUrl(group.letter))];
+  const urls = [baseUrl + '/', ...directoryUrls].concat(
     Object.keys(words).map((word) => baseUrl + '/ord/' + encodeURIComponent(word.trim().toLowerCase()))
   );
 
@@ -28,3 +32,4 @@ function generateSitemap() {
 }
 
 generateSitemap();
+

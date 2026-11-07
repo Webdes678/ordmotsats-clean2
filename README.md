@@ -10,7 +10,11 @@ The current reviewed list contains 1000 pairs and 2000 word pages. Some pairs we
 
 Do not add every candidate in a source dump automatically: some listed relationships are related words rather than true opposites.
 
-## Static word pages
+## Alphabetical directory
+
+`/ordlista` links to each populated letter page under `/ordlista/<letter>`. Swedish letters use the slugs `aa` (å), `ae` (ä), and `oe` (ö). The build pre-renders the complete directory links and includes all populated directory pages in the sitemap. Empty letters are disabled and have no generated page. Letter counts and small letter-specific data files are generated from the same reviewed dictionary; no full dictionary is added to the homepage bundle.
+
+## Static page output
 
 `npm run build` runs `generate-static-pages.js` after Vite. It pre-renders the homepage and one complete HTML file per word in `dist/ord/`, including the page title, description, canonical URL, heading, opposite link, explanation, and examples. Vercel serves these files at extensionless `/ord/<word>` URLs through `cleanUrls`, so crawlers receive the word content before JavaScript runs.
 

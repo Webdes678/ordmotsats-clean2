@@ -447,6 +447,91 @@ a {
 }
 
 /* Word result pages */
+.directory-link {
+  display: inline-block;
+  margin-top: 24px;
+  color: var(--blue);
+  font-size: 15px;
+  font-weight: 750;
+  text-decoration: none;
+}
+
+.directory-link:hover { text-decoration: underline; }
+
+.directory-shell {
+  width: min(1100px, calc(100% - 48px));
+  margin: 30px auto 72px;
+}
+
+.directory-intro {
+  margin: 28px 0;
+  padding: 34px;
+  border-radius: 26px;
+  background: linear-gradient(120deg, #eaf5ff, #f7faff);
+}
+
+.directory-intro h1 {
+  margin: 10px 0 12px;
+  font-size: clamp(32px, 5vw, 46px);
+  letter-spacing: -1.4px;
+}
+
+.directory-intro > p {
+  margin: 0 0 24px;
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+.directory-intro .search-container { max-width: 720px; }
+.alphabet-nav { display: flex; flex-wrap: wrap; gap: 7px; margin: 28px 0; }
+.alphabet-nav a, .alphabet-nav > span {
+  display: grid;
+  place-items: center;
+  min-width: 36px;
+  height: 40px;
+  padding: 0 9px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 750;
+  text-decoration: none;
+}
+.alphabet-nav a:hover, .alphabet-nav a[aria-current="page"] { color: #fff; border-color: var(--blue); background: var(--blue); }
+.alphabet-disabled { color: #8798a9; background: #f5f7f9; }
+.letter-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 14px; }
+.letter-card {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 8px;
+  padding: 22px;
+  border: 1px solid var(--line);
+  border-radius: 17px;
+  color: var(--ink);
+  text-decoration: none;
+  background: #fff;
+}
+.letter-card strong { grid-column: 1 / -1; color: var(--blue); font-size: 30px; }
+.letter-card span { color: var(--muted); font-size: 14px; }
+.letter-card:hover { border-color: #89b7e2; background: #f5faff; }
+.directory-count { margin: 28px 0 16px; color: var(--muted); font-size: 14px; font-weight: 700; }
+.word-directory-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px 16px; padding: 0; margin: 0; list-style: none; }
+.word-directory-list a { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 8px; height: 100%; padding: 17px 18px; border: 1px solid var(--line); border-radius: 13px; text-decoration: none; overflow-wrap: anywhere; }
+.word-directory-list strong { color: var(--blue); font-size: 16px; }
+.word-directory-list span { color: var(--muted); font-size: 14px; }
+.word-directory-list a:hover { border-color: #89b7e2; background: #f5faff; }
+.letter-card:focus-visible, .alphabet-nav a:focus-visible, .word-directory-list a:focus-visible { outline: 3px solid var(--blue); outline-offset: 3px; }
+@media (max-width: 760px) {
+  .directory-shell { width: calc(100% - 32px); margin-top: 20px; }
+  .directory-intro { padding: 25px 20px; }
+  .letter-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; }
+  .letter-card { padding: 18px; }
+}
+@media (max-width: 480px) {
+  .letter-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .word-directory-list { grid-template-columns: 1fr; }
+  .alphabet-nav a, .alphabet-nav > span { min-width: 35px; }
+}
+
 .breadcrumbs {
   display: flex;
   align-items: center;

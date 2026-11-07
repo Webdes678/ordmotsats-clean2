@@ -1,6 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { homeStructuredData, wordStructuredData, serializeStructuredData } from './src/structured-data.js';
+import { groupDirectory, letterUrl, directoryTitle, directoryDescription } from './src/directory.js';
 
 const baseUrl = 'https://www.motsatsord.se';
 const projectRoot = process.cwd();
@@ -68,9 +69,9 @@ function setEmbeddedWordData(template, word, entry) {
   return template.replace('</head>', '  ' + script + '\n</head>');
 }
 
-function siteHeader(showNavigation = false) {
+function siteHeader(showNavigation = true) {
   const navigation = showNavigation
-    ? '<nav class="site-nav" aria-label="Huvudmeny"><a href="#popular-words">Ordlista</a><a href="#about">Om</a></nav>'
+    ? '<nav class="site-nav" aria-label="Huvudmeny"><a href="/ordlista">Ordlista A–Ö</a><a href="/#about">Om</a></nav>'
     : '';
 
   return '<header class="site-header">'
@@ -122,6 +123,7 @@ function homeMarkup(words) {
     + '<h2>Vanliga granskade ordpar</h2>'
     + '<p>Öppna ett ordpar för att se en förklaring och två exempelmeningar.</p>'
     + '<div class="chips">' + chips + '</div>'
+    + '<a class="directory-link" href="/ordlista">Se alla ord i ordlistan A–Ö →</a>'
     + '</div>'
     + '<div class="trust-row" id="about">'
     + '<div><span aria-hidden="true">✓</span><strong>' + Object.keys(words).length + ' granskade ord</strong></div>'
@@ -181,6 +183,37 @@ function generateStaticPages() {
     homeMarkup(words),
   );
   fs.writeFileSync(templatePath, homeHtml, 'utf-8');
+
+  const groups = groupDirectory(words);
+  const directoryOutputPath = path.join(distPath, 'ordlista');
+  fs.mkdirSync(directoryOutputPath, { recursive: true });
+  const letterNavigation = (activeLetter) => '<nav class="alphabet-nav" aria-label="Välj begynnelsebokstav">'
+    + groups.map((group) => group.entries.length > 0
+      ? '<a href="' + letterUrl(group.letter) + '"' + (activeLetter === group.letter ? ' aria-current="page"' : '') + '>' + group.letter.toLocaleUpperCase('sv') + '</a>'
+      : '<span class="alphabet-disabled" aria-disabled="true" title="Inga ord på denna bokstav ännu">' + group.letter.toLocaleUpperCase('sv') + '</span>').join('') + '</nav>';
+
+  for (const group of [null, ...groups.filter((group) => group.entries.length > 0)]) {
+    const letter = group?.letter;
+    const title = directoryTitle(letter);
+    const description = directoryDescription(letter);
+    const canonical = baseUrl + (letter ? letterUrl(letter) : '/ordlista');
+    const heading = letter ? 'Motsatsord på ' + letter.toLocaleUpperCase('sv') : 'Ordlista A–Ö';
+    const content = group
+      ? '<p class="directory-count">' + group.entries.length + ' ord på ' + letter.toLocaleUpperCase('sv') + '</p>'
+        + '<ul class="word-directory-list">' + group.entries.map(({ word, opposite }) => '<li><a href="' + wordUrl(word) + '"><strong>' + escapeHtml(word) + '</strong><span>↔ ' + escapeHtml(opposite) + '</span></a></li>').join('') + '</ul>'
+      : '<div class="letter-grid">' + groups.filter((item) => item.entries.length > 0).map((item) => '<a class="letter-card" href="' + letterUrl(item.letter) + '"><strong>' + item.letter.toLocaleUpperCase('sv') + '</strong><span>' + item.entries.length + ' ord</span><span aria-hidden="true">→</span></a>').join('') + '</div>';
+    const markup = '<main class="page directory-page">' + siteHeader()
+      + '<section class="directory-shell"><nav class="breadcrumbs" aria-label="Brödsmulor"><a href="/">Startsidan</a><span aria-hidden="true">›</span>'
+      + (letter ? '<a href="/ordlista">Ordlista A–Ö</a><span aria-hidden="true">›</span>' : '')
+      + '<span aria-current="page">' + (letter ? letter.toLocaleUpperCase('sv') : 'Ordlista A–Ö') + '</span></nav>'
+      + '<div class="directory-intro"><span class="hero-eyebrow">Svenska motsatsord</span><h1>' + heading + '</h1><p>'
+      + (group ? 'Välj ett ord för att se motsatsen, en förklaring och två exempelmeningar.' : 'Hitta bland ' + Object.keys(words).length + ' ord. Välj en bokstav eller sök efter ett ord direkt.')
+      + '</p>' + searchBar() + '</div>' + letterNavigation(letter) + content + '</section>' + footer() + '</main>';
+    const dataScript = group ? '<script>window.__DIRECTORY_PAGE_DATA__=' + serializeStructuredData(group) + ';</script>' : '';
+    const html = setRoot(setHead(template, { title, description, canonical })
+      .replace('</head>', dataScript + '</head>'), markup);
+    fs.writeFileSync(group ? path.join(directoryOutputPath, group.slug + '.html') : path.join(distPath, 'ordlista.html'), html, 'utf-8');
+  }
 
   for (const [word, entry] of Object.entries(words)) {
     const title = 'Motsatsord till ' + word + ' – motsatsord.se';

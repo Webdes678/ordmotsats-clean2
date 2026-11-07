@@ -3,6 +3,9 @@ import { Link, Routes, Route, useNavigate, useParams } from "react-router-dom"
 import "./App.css"
 import { featuredOpposites, pairCount, wordCount } from "./data/site-summary"
 import { homeStructuredData, wordStructuredData, serializeStructuredData } from "./structured-data.js"
+import { directoryLetters } from "./data/directory-summary"
+import { letterUrl, directoryTitle, directoryDescription } from "./directory.js"
+import type { DirectoryGroup } from "./directory.js"
 
 function updateStructuredData(data?: Record<string, unknown>) {
   const existing = document.getElementById("structured-data")
@@ -32,6 +35,7 @@ type EmbeddedWordData = {
 declare global {
   interface Window {
     __WORD_PAGE_DATA__?: EmbeddedWordData
+    __DIRECTORY_PAGE_DATA__?: DirectoryGroup
   }
 }
 
@@ -190,7 +194,7 @@ function SearchBar({
   )
 }
 
-function SiteHeader({ showNavigation = false }: { showNavigation?: boolean }) {
+function SiteHeader({ showNavigation = true }: { showNavigation?: boolean }) {
   return (
     <header className="site-header">
       <Link className="logo" to="/" aria-label="motsatsord.se startsida">
@@ -200,8 +204,8 @@ function SiteHeader({ showNavigation = false }: { showNavigation?: boolean }) {
 
       {showNavigation && (
         <nav className="site-nav" aria-label="Huvudmeny">
-          <a href="#popular-words">Ordlista</a>
-          <a href="#about">Om</a>
+          <a href="/ordlista">Ordlista A–Ö</a>
+          <a href="/#about">Om</a>
         </nav>
       )}
     </header>
@@ -255,6 +259,7 @@ function HomePage() {
               </Link>
             ))}
           </div>
+          <a className="directory-link" href="/ordlista">Se alla ord i ordlistan A–Ö →</a>
         </div>
 
         <div className="trust-row" id="about">
@@ -371,6 +376,89 @@ function WordPage({ cleanWord }: { cleanWord: string }) {
   )
 }
 
+function AlphabetNav({ activeLetter }: { activeLetter?: string }) {
+  return (
+    <nav className="alphabet-nav" aria-label="Välj begynnelsebokstav">
+      {directoryLetters.map(({ letter, count }) => count > 0 ? (
+        <a key={letter} href={letterUrl(letter)} aria-current={activeLetter === letter ? "page" : undefined}>{letter.toLocaleUpperCase("sv")}</a>
+      ) : (
+        <span key={letter} className="alphabet-disabled" aria-disabled="true" title="Inga ord på denna bokstav ännu">{letter.toLocaleUpperCase("sv")}</span>
+      ))}
+    </nav>
+  )
+}
+
+function DirectoryPage({ slug }: { slug?: string }) {
+  const selectedLetter = directoryLetters.find((item) => item.slug === slug && item.count > 0)
+  const embedded = window.__DIRECTORY_PAGE_DATA__
+  const [group, setGroup] = useState<DirectoryGroup | undefined>(() => embedded?.slug === slug ? embedded : undefined)
+  const [failed, setFailed] = useState(false)
+  const letter = selectedLetter?.letter
+
+  useEffect(() => {
+    if (!slug || !selectedLetter || group) return
+    let cancelled = false
+    fetch('/data/directory/' + slug + '.json')
+      .then((response) => {
+        if (!response.ok) throw new Error('Directory could not load')
+        return response.json() as Promise<DirectoryGroup>
+      })
+      .then((data) => { if (!cancelled) setGroup(data) })
+      .catch(() => { if (!cancelled) setFailed(true) })
+    return () => { cancelled = true }
+  }, [slug, selectedLetter, group])
+
+  useEffect(() => {
+    updateStructuredData()
+    if (slug && !selectedLetter) return
+    updateSeo(directoryTitle(letter), directoryDescription(letter), 'https://www.motsatsord.se' + (letter ? letterUrl(letter) : '/ordlista'))
+  }, [slug, selectedLetter, letter])
+
+  if (slug && !selectedLetter) return <NotFoundPage />
+
+  return (
+    <main className="page directory-page">
+      <SiteHeader />
+      <section className="directory-shell">
+        <nav className="breadcrumbs" aria-label="Brödsmulor">
+          <a href="/">Startsidan</a><span aria-hidden="true">›</span>
+          {letter && <><a href="/ordlista">Ordlista A–Ö</a><span aria-hidden="true">›</span></>}
+          <span aria-current="page">{letter ? letter.toLocaleUpperCase("sv") : "Ordlista A–Ö"}</span>
+        </nav>
+        <div className="directory-intro">
+          <span className="hero-eyebrow">Svenska motsatsord</span>
+          <h1>{letter ? 'Motsatsord på ' + letter.toLocaleUpperCase("sv") : 'Ordlista A–Ö'}</h1>
+          <p>{letter ? 'Välj ett ord för att se motsatsen, en förklaring och två exempelmeningar.' : `Hitta bland ${wordCount} ord. Välj en bokstav eller sök efter ett ord direkt.`}</p>
+          <SearchBar />
+        </div>
+        <AlphabetNav activeLetter={letter} />
+        {selectedLetter ? (
+          <>
+            <p className="directory-count">{selectedLetter.count} ord på {letter?.toLocaleUpperCase("sv")}</p>
+            {group ? (
+              <ul className="word-directory-list">
+                {group.entries.map(({ word, opposite }) => <li key={word}><a href={'/ord/' + encodeURIComponent(word)}><strong>{word}</strong><span>↔ {opposite}</span></a></li>)}
+              </ul>
+            ) : <p role="status">{failed ? 'Ordlistan kunde inte laddas. Försök att ladda om sidan.' : 'Laddar ordlistan…'}</p>}
+          </>
+        ) : (
+          <div className="letter-grid">
+            {directoryLetters.filter((item) => item.count > 0).map((item) => (
+              <a key={item.letter} className="letter-card" href={letterUrl(item.letter)}><strong>{item.letter.toLocaleUpperCase("sv")}</strong><span>{item.count} ord</span><span aria-hidden="true">→</span></a>
+            ))}
+          </div>
+        )}
+      </section>
+      <footer className="footer">© 2026 motsatsord.se · Svenska motsatsord · Ordpar med stöd av <a href="https://sv.wiktionary.org/">Wiktionary</a> (<a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>)</footer>
+    </main>
+  )
+}
+
+function DirectoryRoute() {
+  const { letter } = useParams()
+  return <DirectoryPage key={letter ?? 'all'} slug={letter} />
+}
+
 function WordPageRoute() {
   const { word } = useParams()
   const cleanWord = word?.toLowerCase().trim() || ""
@@ -404,6 +492,8 @@ function App() {
     <Routes>
       <Route path="/" element={<HomePage />} />
       <Route path="/ord/:word" element={<WordPageRoute />} />
+      <Route path="/ordlista" element={<DirectoryRoute />} />
+      <Route path="/ordlista/:letter" element={<DirectoryRoute />} />
       <Route path="*" element={<NotFoundPage />} />
     </Routes>
   )
