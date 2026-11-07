@@ -54,6 +54,15 @@ function setRoot(template, markup) {
   return template.replace(root, '<div id="root">' + markup + '</div>');
 }
 
+function setEmbeddedWordData(template, word, entry) {
+  const data = JSON.stringify({ word, entry })
+    .replaceAll('<', '\\u003c')
+    .replaceAll('\u2028', '\\u2028')
+    .replaceAll('\u2029', '\\u2029');
+  const script = '<script>window.__WORD_PAGE_DATA__=' + data + ';</script>';
+  return template.replace('</head>', '  ' + script + '\n</head>');
+}
+
 function siteHeader(showNavigation = false) {
   const navigation = showNavigation
     ? '<nav class="site-nav" aria-label="Huvudmeny"><a href="#popular-words">Ordlista</a><a href="#about">Om</a></nav>'
@@ -172,7 +181,11 @@ function generateStaticPages() {
     const description = entry.description + ' Se motsatsordet och exempelmeningar.';
     const canonical = baseUrl + wordUrl(word);
     const html = setRoot(
-      setHead(template, { title, description, canonical }),
+      setEmbeddedWordData(
+        setHead(template, { title, description, canonical }),
+        word,
+        entry,
+      ),
       wordMarkup(word, entry, words),
     );
 
