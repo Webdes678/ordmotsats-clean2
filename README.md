@@ -10,3 +10,8 @@ The current reviewed list contains 1000 pairs and 2000 word pages. Some pairs we
 
 Do not add every candidate in a source dump automatically: some listed relationships are related words rather than true opposites.
 
+## Static word pages
+
+`npm run build` runs `generate-static-pages.js` after Vite. It pre-renders the homepage and one complete HTML file per word in `dist/ord/`, including the page title, description, canonical URL, heading, opposite link, explanation, and examples. Vercel serves these files at extensionless `/ord/<word>` URLs through `cleanUrls`, so crawlers receive the word content before JavaScript runs.
+
+
