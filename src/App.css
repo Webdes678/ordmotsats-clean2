@@ -449,6 +449,42 @@ a {
 }
 
 /* Word result pages */
+.breadcrumbs {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  color: var(--muted);
+  font-size: 15px;
+}
+
+.breadcrumbs a {
+  color: var(--blue);
+  font-weight: 750;
+  text-decoration: none;
+}
+
+.not-found {
+  padding: 32px;
+  margin-top: 12px;
+}
+
+.not-found .error-code {
+  color: var(--blue);
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.not-found h1 {
+  margin: 0 0 16px;
+  color: var(--ink);
+  font-size: clamp(26px, 5vw, 36px);
+}
+
+.not-found p {
+  line-height: 1.6;
+}
+
 .word-page-shell {
   background: #f7fbff;
 }
@@ -740,4 +776,5 @@ a {
     padding-inline: 16px;
   }
 }
+
 
