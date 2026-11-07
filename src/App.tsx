@@ -1,12 +1,70 @@
 import { useEffect, useState } from "react"
 import { Link, Routes, Route, useNavigate, useParams } from "react-router-dom"
 import "./App.css"
-import { words } from "./data/words"
+import { featuredOpposites, pairCount, wordCount } from "./data/site-summary"
 
-const allWords = Object.keys(words)
-const popularWords = ["stor", "snabb", "varm", "glad", "ljus", "hög", "ung", "full", "öppen", "lätt"]
-const homepageWords = [...popularWords, "tidig", "rätt", "rik", "dag"]
-const reviewedPairCount = Math.floor(allWords.length / 2)
+type WordEntry = {
+  opposite: string
+  description: string
+  examples: readonly string[]
+  related: readonly string[]
+}
+
+type EmbeddedWordData = {
+  word: string
+  entry: WordEntry
+}
+
+declare global {
+  interface Window {
+    __WORD_PAGE_DATA__?: EmbeddedWordData
+  }
+}
+
+const popularWords = ["stor", "snabb", "varm", "glad", "ljus", "hög", "ung", "full", "öppen", "lätt"] as const
+const homepageWords = [...popularWords, "tidig", "rätt", "rik", "dag"] as const
+
+let searchIndexRequest: Promise<readonly string[]> | undefined
+const wordShardRequests = new Map<string, Promise<Record<string, WordEntry>>>()
+
+function getShardName(word: string) {
+  const firstCharacter = word.charAt(0).toLocaleLowerCase("sv-SE")
+
+  if (firstCharacter === "å") return "aa"
+  if (firstCharacter === "ä") return "ae"
+  if (firstCharacter === "ö") return "oe"
+  if (/^[a-z]$/.test(firstCharacter)) return firstCharacter
+  return "other"
+}
+
+function loadSearchIndex() {
+  searchIndexRequest ??= fetch("/data/search-index.json").then((response) => {
+    if (!response.ok) throw new Error("Could not load the search index.")
+    return response.json() as Promise<string[]>
+  })
+
+  return searchIndexRequest
+}
+
+function loadWord(word: string) {
+  const shardName = getShardName(word)
+  let request = wordShardRequests.get(shardName)
+
+  if (!request) {
+    request = fetch(`/data/words/${shardName}.json`).then((response) => {
+      if (!response.ok) throw new Error("Could not load the word data.")
+      return response.json() as Promise<Record<string, WordEntry>>
+    })
+    wordShardRequests.set(shardName, request)
+  }
+
+  return request.then((entries) => entries[word] ?? null)
+}
+
+function getEmbeddedWord(word: string) {
+  const embedded = window.__WORD_PAGE_DATA__
+  return embedded?.word === word ? embedded.entry : undefined
+}
 
 function updateSeo(title: string, description: string, canonical?: string, noindex = false) {
   document.title = title
@@ -57,8 +115,26 @@ function SearchBar({
 }: SearchBarProps) {
   const navigate = useNavigate()
   const [query, setQuery] = useState("")
+  const [searchWords, setSearchWords] = useState<readonly string[]>([])
 
-  const suggestions = allWords
+  useEffect(() => {
+    if (!query.trim() || searchWords.length > 0) return
+
+    let cancelled = false
+    loadSearchIndex()
+      .then((words) => {
+        if (!cancelled) setSearchWords(words)
+      })
+      .catch(() => {
+        // Search submission still works if suggestions cannot be loaded.
+      })
+
+    return () => {
+      cancelled = true
+    }
+  }, [query, searchWords.length])
+
+  const suggestions = searchWords
     .filter((word) => query.trim() !== "" && word.startsWith(query.toLowerCase().trim()))
     .slice(0, 8)
 
@@ -77,9 +153,9 @@ function SearchBar({
         <input
           aria-label="Sök efter ett svenskt ord"
           value={query}
-          onChange={(e) => setQuery(e.target.value)}
-          onKeyDown={(e) => {
-            if (e.key === "Enter") handleSearch(query)
+          onChange={(event) => setQuery(event.target.value)}
+          onKeyDown={(event) => {
+            if (event.key === "Enter") handleSearch(query)
           }}
           placeholder={placeholder}
         />
@@ -159,15 +235,15 @@ function HomePage() {
           <div className="chips">
             {homepageWords.map((word) => (
               <Link key={word} to={"/ord/" + encodeURIComponent(word)}>
-                {word} ↔ {words[word as keyof typeof words].opposite}
+                {word} ↔ {featuredOpposites[word]}
               </Link>
             ))}
           </div>
         </div>
 
         <div className="trust-row" id="about">
-          <div><span aria-hidden="true">✓</span><strong>{allWords.length} granskade ord</strong></div>
-          <div><span aria-hidden="true">✓</span><strong>{reviewedPairCount} kontrollerade ordpar</strong></div>
+          <div><span aria-hidden="true">✓</span><strong>{wordCount} granskade ord</strong></div>
+          <div><span aria-hidden="true">✓</span><strong>{pairCount} kontrollerade ordpar</strong></div>
           <div><span aria-hidden="true">✓</span><strong>2 granskade exempel per ordpar</strong></div>
         </div>
       </section>
@@ -177,10 +253,28 @@ function HomePage() {
   )
 }
 
-function WordPage() {
-  const { word } = useParams()
-  const cleanWord = word?.toLowerCase().trim() || ""
-  const result = words[cleanWord as keyof typeof words]
+function WordPage({ cleanWord }: { cleanWord: string }) {
+  const embeddedResult = getEmbeddedWord(cleanWord)
+  const [result, setResult] = useState<WordEntry | null | undefined>(() => embeddedResult)
+  const [loadFailed, setLoadFailed] = useState(false)
+
+  useEffect(() => {
+    if (embeddedResult) return
+
+    let cancelled = false
+
+    loadWord(cleanWord)
+      .then((entry) => {
+        if (!cancelled) setResult(entry)
+      })
+      .catch(() => {
+        if (!cancelled) setLoadFailed(true)
+      })
+
+    return () => {
+      cancelled = true
+    }
+  }, [cleanWord, embeddedResult])
 
   useEffect(() => {
     if (result) {
@@ -189,7 +283,7 @@ function WordPage() {
         result.description + " Se motsatsordet och exempelmeningar.",
         "https://www.motsatsord.se/ord/" + encodeURIComponent(cleanWord),
       )
-    } else {
+    } else if (result === null) {
       updateSeo(
         "Motsatsord till " + cleanWord + " – motsatsord.se",
         "Ordet finns inte i den granskade ordlistan ännu.",
@@ -228,15 +322,23 @@ function WordPage() {
               <h3>Fler vanliga ordpar</h3>
               {browseWords.map((otherWord) => (
                 <Link key={otherWord} to={"/ord/" + encodeURIComponent(otherWord)}>
-                  {otherWord} ↔ {words[otherWord as keyof typeof words].opposite}
+                  {otherWord} ↔ {featuredOpposites[otherWord]}
                 </Link>
               ))}
             </div>
           </div>
         ) : (
           <div className="result-card" style={{ marginTop: "24px" }}>
-            <p>Vi har inte lagt till <strong>{cleanWord}</strong> i den granskade ordlistan ännu.</p>
-            <Link to="/">Till startsidan</Link>
+            {loadFailed ? (
+              <p>Ordet kunde inte laddas just nu. Försök igen om en liten stund.</p>
+            ) : result === undefined ? (
+              <p>Laddar ordet…</p>
+            ) : (
+              <>
+                <p>Vi har inte lagt till <strong>{cleanWord}</strong> i den granskade ordlistan ännu.</p>
+                <Link to="/">Till startsidan</Link>
+              </>
+            )}
           </div>
         )}
       </section>
@@ -246,11 +348,17 @@ function WordPage() {
   )
 }
 
+function WordPageRoute() {
+  const { word } = useParams()
+  const cleanWord = word?.toLowerCase().trim() || ""
+  return <WordPage key={cleanWord} cleanWord={cleanWord} />
+}
+
 function App() {
   return (
     <Routes>
       <Route path="/" element={<HomePage />} />
-      <Route path="/ord/:word" element={<WordPage />} />
+      <Route path="/ord/:word" element={<WordPageRoute />} />
     </Routes>
   )
 }
