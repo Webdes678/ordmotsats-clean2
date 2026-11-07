@@ -2,6 +2,20 @@ import { useEffect, useState } from "react"
 import { Link, Routes, Route, useNavigate, useParams } from "react-router-dom"
 import "./App.css"
 import { featuredOpposites, pairCount, wordCount } from "./data/site-summary"
+import { homeStructuredData, wordStructuredData, serializeStructuredData } from "./structured-data.js"
+
+function updateStructuredData(data?: Record<string, unknown>) {
+  const existing = document.getElementById("structured-data")
+  if (!data) {
+    existing?.remove()
+    return
+  }
+  const script = existing ?? document.createElement("script")
+  script.id = "structured-data"
+  script.setAttribute("type", "application/ld+json")
+  script.textContent = serializeStructuredData(data)
+  if (!existing) document.head.appendChild(script)
+}
 
 type WordEntry = {
   opposite: string
@@ -52,6 +66,7 @@ function loadWord(word: string) {
 
   if (!request) {
     request = fetch(`/data/words/${shardName}.json`).then((response) => {
+      if (response.status === 404) return {}
       if (!response.ok) throw new Error("Could not load the word data.")
       return response.json() as Promise<Record<string, WordEntry>>
     })
@@ -195,6 +210,7 @@ function SiteHeader({ showNavigation = false }: { showNavigation?: boolean }) {
 
 function HomePage() {
   useEffect(() => {
+    updateStructuredData(homeStructuredData())
     updateSeo(
       "Motsatsord – svenska ordpar och antonymer",
       "Slå upp vanliga svenska motsatsord med tydliga exempelmeningar.",
@@ -278,18 +294,22 @@ function WordPage({ cleanWord }: { cleanWord: string }) {
 
   useEffect(() => {
     if (result) {
+      updateStructuredData(wordStructuredData(cleanWord, result))
       updateSeo(
         "Motsatsord till " + cleanWord + " – motsatsord.se",
         result.description + " Se motsatsordet och exempelmeningar.",
         "https://www.motsatsord.se/ord/" + encodeURIComponent(cleanWord),
       )
     } else if (result === null) {
+      updateStructuredData()
       updateSeo(
         "Motsatsord till " + cleanWord + " – motsatsord.se",
         "Ordet finns inte i den granskade ordlistan ännu.",
         undefined,
         true,
       )
+    } else {
+      updateStructuredData()
     }
   }, [cleanWord, result])
 
@@ -300,7 +320,9 @@ function WordPage({ cleanWord }: { cleanWord: string }) {
       <SiteHeader />
 
       <section className="word-hero">
-        <Link className="back-button" to="/">← Till startsidan</Link>
+        <nav className="breadcrumbs" aria-label="Brödsmulor">
+          <Link to="/">Startsidan</Link><span aria-hidden="true">›</span><span aria-current="page">{cleanWord}</span>
+        </nav>
         <SearchBar />
 
         {result ? (
@@ -335,6 +357,7 @@ function WordPage({ cleanWord }: { cleanWord: string }) {
               <p>Laddar ordet…</p>
             ) : (
               <>
+                <h1>Ordet finns inte i ordlistan ännu</h1>
                 <p>Vi har inte lagt till <strong>{cleanWord}</strong> i den granskade ordlistan ännu.</p>
                 <Link to="/">Till startsidan</Link>
               </>
@@ -354,11 +377,34 @@ function WordPageRoute() {
   return <WordPage key={cleanWord} cleanWord={cleanWord} />
 }
 
+function NotFoundPage() {
+  useEffect(() => {
+    updateStructuredData()
+    updateSeo("Sidan kunde inte hittas – motsatsord.se", "Sök efter svenska motsatsord eller gå till startsidan.", undefined, true)
+  }, [])
+
+  return (
+    <main className="page word-page-shell">
+      <SiteHeader />
+      <section className="word-hero">
+        <div className="result-card not-found">
+          <p className="error-code">404</p>
+          <h1>Sidan kunde inte hittas</h1>
+          <p>Länken kan vara felstavad eller sidan kan ha flyttats. Sök efter ett ord eller gå till startsidan.</p>
+          <Link className="back-button" to="/">← Till startsidan</Link>
+        </div>
+        <SearchBar />
+      </section>
+    </main>
+  )
+}
+
 function App() {
   return (
     <Routes>
       <Route path="/" element={<HomePage />} />
       <Route path="/ord/:word" element={<WordPageRoute />} />
+      <Route path="*" element={<NotFoundPage />} />
     </Routes>
   )
 }
