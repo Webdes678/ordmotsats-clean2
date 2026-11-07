@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
+    "postbuild": "node generate-static-pages.js",
     "lint": "eslint .",
     "preview": "vite preview",
     "prebuild": "node generate-words.js && node generate-sitemap.js"
@@ -32,3 +33,4 @@
     "vite": "^8.0.12"
   }
 }
+
