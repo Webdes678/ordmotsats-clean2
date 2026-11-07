@@ -14,4 +14,8 @@ Do not add every candidate in a source dump automatically: some listed relations
 
 `npm run build` runs `generate-static-pages.js` after Vite. It pre-renders the homepage and one complete HTML file per word in `dist/ord/`, including the page title, description, canonical URL, heading, opposite link, explanation, and examples. Vercel serves these files at extensionless `/ord/<word>` URLs through `cleanUrls`, so crawlers receive the word content before JavaScript runs.
 
+## Client data
+
+`generate-client-data.js` keeps the complete dictionary out of the main JavaScript bundle. It creates a small search index and letter-based JSON files in `public/data/` during development and production builds. The search index is requested only after someone starts typing, and client-side navigation loads only the letter file needed for the selected word. Direct visits use the word data embedded in the pre-rendered HTML, so the page content appears immediately.
+
 
