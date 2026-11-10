@@ -1,5 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
+import { additionalPairs } from './additional-pairs.js';
+import { expansionPairs } from './expansion-pairs.js';
 
 // This list is intentionally curated. Do not infer antonyms from word prefixes.
 const curatedPairs = [
@@ -9005,6 +9007,23 @@ const curatedPairs = [
   }
 ];
 
+curatedPairs.push(...additionalPairs, ...expansionPairs);
+
+const seenWords = new Set();
+for (const pair of curatedPairs) {
+  if (!pair.a || !pair.b || pair.a === pair.b) {
+    throw new Error('Invalid antonym pair: ' + JSON.stringify(pair));
+  }
+  if (seenWords.has(pair.a) || seenWords.has(pair.b)) {
+    throw new Error('A word occurs in more than one pair: ' + pair.a + ' / ' + pair.b);
+  }
+  if (!pair.description || !Array.isArray(pair.examples) || pair.examples.length !== 2 || pair.examples.some((example) => !example.trim())) {
+    throw new Error('Every pair needs a description and exactly two examples: ' + pair.a + ' / ' + pair.b);
+  }
+  seenWords.add(pair.a);
+  seenWords.add(pair.b);
+}
+
 const words = {};
 for (const pair of curatedPairs) {
   words[pair.a] = { opposite: pair.b, description: pair.description, examples: pair.examples, related: [pair.b] };
@@ -9015,3 +9034,4 @@ const outputPath = path.join(process.cwd(), 'src', 'data', 'words.ts');
 const wordEntryType = "export type WordEntry = Readonly<Record<'opposite' | 'description', string> & Record<'examples' | 'related', readonly string[]>>;\n\n";
 fs.writeFileSync(outputPath, wordEntryType + 'export const words: Record<string, WordEntry> = ' + JSON.stringify(words, null, 2) + ';\n', 'utf-8');
 console.log('Generated ' + Object.keys(words).length + ' curated word pages.');
+

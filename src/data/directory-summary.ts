@@ -3,12 +3,12 @@ export const directoryLetters = [
   {
     "letter": "a",
     "slug": "a",
-    "count": 118
+    "count": 162
   },
   {
     "letter": "b",
     "slug": "b",
-    "count": 79
+    "count": 145
   },
   {
     "letter": "c",
@@ -18,67 +18,67 @@ export const directoryLetters = [
   {
     "letter": "d",
     "slug": "d",
-    "count": 72
+    "count": 99
   },
   {
     "letter": "e",
     "slug": "e",
-    "count": 61
+    "count": 82
   },
   {
     "letter": "f",
     "slug": "f",
-    "count": 146
+    "count": 209
   },
   {
     "letter": "g",
     "slug": "g",
-    "count": 38
+    "count": 60
   },
   {
     "letter": "h",
     "slug": "h",
-    "count": 72
+    "count": 130
   },
   {
     "letter": "i",
     "slug": "i",
-    "count": 135
+    "count": 183
   },
   {
     "letter": "j",
     "slug": "j",
-    "count": 11
+    "count": 19
   },
   {
     "letter": "k",
     "slug": "k",
-    "count": 102
+    "count": 157
   },
   {
     "letter": "l",
     "slug": "l",
-    "count": 92
+    "count": 134
   },
   {
     "letter": "m",
     "slug": "m",
-    "count": 99
+    "count": 167
   },
   {
     "letter": "n",
     "slug": "n",
-    "count": 55
+    "count": 86
   },
   {
     "letter": "o",
     "slug": "o",
-    "count": 280
+    "count": 423
   },
   {
     "letter": "p",
     "slug": "p",
-    "count": 76
+    "count": 107
   },
   {
     "letter": "q",
@@ -88,27 +88,27 @@ export const directoryLetters = [
   {
     "letter": "r",
     "slug": "r",
-    "count": 73
+    "count": 105
   },
   {
     "letter": "s",
     "slug": "s",
-    "count": 179
+    "count": 274
   },
   {
     "letter": "t",
     "slug": "t",
-    "count": 72
+    "count": 102
   },
   {
     "letter": "u",
     "slug": "u",
-    "count": 103
+    "count": 146
   },
   {
     "letter": "v",
     "slug": "v",
-    "count": 74
+    "count": 127
   },
   {
     "letter": "w",
@@ -123,7 +123,7 @@ export const directoryLetters = [
   {
     "letter": "y",
     "slug": "y",
-    "count": 3
+    "count": 8
   },
   {
     "letter": "z",
@@ -143,7 +143,7 @@ export const directoryLetters = [
   {
     "letter": "ö",
     "slug": "oe",
-    "count": 40
+    "count": 55
   }
 ]
 
