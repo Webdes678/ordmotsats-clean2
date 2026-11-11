@@ -263,9 +263,9 @@ function HomePage() {
         </div>
 
         <div className="trust-row" id="about">
-          <div><span aria-hidden="true">✓</span><strong>{wordCount} granskade ord</strong></div>
-          <div><span aria-hidden="true">✓</span><strong>{pairCount} kontrollerade ordpar</strong></div>
-          <div><span aria-hidden="true">✓</span><strong>2 granskade exempel per ordpar</strong></div>
+          <div><span aria-hidden="true">✓</span><strong>{wordCount} ord</strong></div>
+          <div><span aria-hidden="true">✓</span><strong>{pairCount} ordpar</strong></div>
+          <div><span aria-hidden="true">✓</span><strong>2 exempel per ordpar</strong></div>
         </div>
       </section>
 
@@ -500,4 +500,3 @@ function App() {
 }
 
 export default App
-
