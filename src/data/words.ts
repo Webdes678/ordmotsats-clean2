@@ -15988,9 +15988,2085 @@ export const words: Record<string, WordEntry> = {
     "opposite": "linjär",
     "description": "Linjär betyder att följa en rät linje eller ett jämnt samband. Olinjär betyder att sambandet inte är linjärt.",
     "examples": [
-      "Den 
-... 68422 bytes omitted ...
-
+      "Den första grafen är linjär och den andra olinjär.",
+      "Modellen gick från linjär till olinjär när fler faktorer lades till."
+    ],
+    "related": [
+      "linjär"
+    ]
+  },
+  "ordentlig": {
+    "opposite": "oordentlig",
+    "description": "Ordentlig betyder noggrann och välordnad. Oordentlig betyder slarvig eller utan ordning.",
+    "examples": [
+      "Det ordentliga skrivbordet stod bredvid det oordentliga.",
+      "Hon var ordentlig med papperen men oordentlig med verktygen."
+    ],
+    "related": [
+      "oordentlig"
+    ]
+  },
+  "oordentlig": {
+    "opposite": "ordentlig",
+    "description": "Ordentlig betyder noggrann och välordnad. Oordentlig betyder slarvig eller utan ordning.",
+    "examples": [
+      "Det ordentliga skrivbordet stod bredvid det oordentliga.",
+      "Hon var ordentlig med papperen men oordentlig med verktygen."
+    ],
+    "related": [
+      "ordentlig"
+    ]
+  },
+  "högtidlig": {
+    "opposite": "vardaglig",
+    "description": "Högtidlig betyder formell och festlig. Vardaglig betyder vanlig och enkel.",
+    "examples": [
+      "Ceremonin var högtidlig, men lunchen efteråt var vardaglig.",
+      "Han bytte från högtidliga ord till ett vardagligt språk."
+    ],
+    "related": [
+      "vardaglig"
+    ]
+  },
+  "vardaglig": {
+    "opposite": "högtidlig",
+    "description": "Högtidlig betyder formell och festlig. Vardaglig betyder vanlig och enkel.",
+    "examples": [
+      "Ceremonin var högtidlig, men lunchen efteråt var vardaglig.",
+      "Han bytte från högtidliga ord till ett vardagligt språk."
+    ],
+    "related": [
+      "högtidlig"
+    ]
+  },
+  "civil": {
+    "opposite": "militär",
+    "description": "Civil gäller samhället utanför försvaret. Militär gäller försvarsmakt och soldater.",
+    "examples": [
+      "Flygplatsen har både civil och militär trafik.",
+      "Den civila byggnaden ligger bredvid det militära området."
+    ],
+    "related": [
+      "militär"
+    ]
+  },
+  "militär": {
+    "opposite": "civil",
+    "description": "Civil gäller samhället utanför försvaret. Militär gäller försvarsmakt och soldater.",
+    "examples": [
+      "Flygplatsen har både civil och militär trafik.",
+      "Den civila byggnaden ligger bredvid det militära området."
+    ],
+    "related": [
+      "civil"
+    ]
+  },
+  "enspråkig": {
+    "opposite": "flerspråkig",
+    "description": "Enspråkig betyder att använda ett språk. Flerspråkig betyder att använda flera språk.",
+    "examples": [
+      "Boken finns i en enspråkig och en flerspråkig utgåva.",
+      "Skylten var först enspråkig men blev flerspråkig."
+    ],
+    "related": [
+      "flerspråkig"
+    ]
+  },
+  "flerspråkig": {
+    "opposite": "enspråkig",
+    "description": "Enspråkig betyder att använda ett språk. Flerspråkig betyder att använda flera språk.",
+    "examples": [
+      "Boken finns i en enspråkig och en flerspråkig utgåva.",
+      "Skylten var först enspråkig men blev flerspråkig."
+    ],
+    "related": [
+      "enspråkig"
+    ]
+  },
+  "kvalificerad": {
+    "opposite": "okvalificerad",
+    "description": "Kvalificerad betyder att kräva eller ha särskild kompetens. Okvalificerad betyder utan sådana krav eller meriter.",
+    "examples": [
+      "Det kvalificerade arbetet utfördes av en utbildad person, det okvalificerade av en nybörjare.",
+      "Hon var kvalificerad för tjänsten, medan den andra sökanden var okvalificerad."
+    ],
+    "related": [
+      "okvalificerad"
+    ]
+  },
+  "okvalificerad": {
+    "opposite": "kvalificerad",
+    "description": "Kvalificerad betyder att kräva eller ha särskild kompetens. Okvalificerad betyder utan sådana krav eller meriter.",
+    "examples": [
+      "Det kvalificerade arbetet utfördes av en utbildad person, det okvalificerade av en nybörjare.",
+      "Hon var kvalificerad för tjänsten, medan den andra sökanden var okvalificerad."
+    ],
+    "related": [
+      "kvalificerad"
+    ]
+  },
+  "lagbunden": {
+    "opposite": "laglös",
+    "description": "Lagbunden betyder styrd av lagar eller regelbundenheter. Laglös betyder utan fungerande lag och ordning.",
+    "examples": [
+      "Ett lagbundet samhälle står i motsats till ett laglöst.",
+      "Processen är lagbunden, inte laglös."
+    ],
+    "related": [
+      "laglös"
+    ]
+  },
+  "laglös": {
+    "opposite": "lagbunden",
+    "description": "Lagbunden betyder styrd av lagar eller regelbundenheter. Laglös betyder utan fungerande lag och ordning.",
+    "examples": [
+      "Ett lagbundet samhälle står i motsats till ett laglöst.",
+      "Processen är lagbunden, inte laglös."
+    ],
+    "related": [
+      "lagbunden"
+    ]
+  },
+  "hoppfull": {
+    "opposite": "hopplös",
+    "description": "Hoppfull betyder fylld av hopp. Hopplös betyder utan hopp eller mycket svår.",
+    "examples": [
+      "Hon var hoppfull trots att läget först verkade hopplöst.",
+      "Beskedet gjorde gruppen hoppfull i stället för hopplös."
+    ],
+    "related": [
+      "hopplös"
+    ]
+  },
+  "hopplös": {
+    "opposite": "hoppfull",
+    "description": "Hoppfull betyder fylld av hopp. Hopplös betyder utan hopp eller mycket svår.",
+    "examples": [
+      "Hon var hoppfull trots att läget först verkade hopplöst.",
+      "Beskedet gjorde gruppen hoppfull i stället för hopplös."
+    ],
+    "related": [
+      "hoppfull"
+    ]
+  },
+  "respektfull": {
+    "opposite": "respektlös",
+    "description": "Respektfull betyder att visa respekt. Respektlös betyder att inte visa respekt.",
+    "examples": [
+      "Svaret var respektfullt, men kommentaren bredvid var respektlös.",
+      "Var respektfull i samtalet och inte respektlös."
+    ],
+    "related": [
+      "respektlös"
+    ]
+  },
+  "respektlös": {
+    "opposite": "respektfull",
+    "description": "Respektfull betyder att visa respekt. Respektlös betyder att inte visa respekt.",
+    "examples": [
+      "Svaret var respektfullt, men kommentaren bredvid var respektlös.",
+      "Var respektfull i samtalet och inte respektlös."
+    ],
+    "related": [
+      "respektfull"
+    ]
+  },
+  "smakfull": {
+    "opposite": "smaklös",
+    "description": "Smakfull betyder stilfull och väl avvägd. Smaklös betyder utan god smak.",
+    "examples": [
+      "Rummet var smakfullt, men dekorationen uppfattades som smaklös.",
+      "Hon valde en smakfull färg i stället för en smaklös kombination."
+    ],
+    "related": [
+      "smaklös"
+    ]
+  },
+  "smaklös": {
+    "opposite": "smakfull",
+    "description": "Smakfull betyder stilfull och väl avvägd. Smaklös betyder utan god smak.",
+    "examples": [
+      "Rummet var smakfullt, men dekorationen uppfattades som smaklös.",
+      "Hon valde en smakfull färg i stället för en smaklös kombination."
+    ],
+    "related": [
+      "smakfull"
+    ]
+  },
+  "innehållsrik": {
+    "opposite": "innehållsfattig",
+    "description": "Innehållsrik betyder fylld av mycket relevant innehåll. Innehållsfattig betyder att ha lite innehåll.",
+    "examples": [
+      "Den innehållsrika boken gav mer än den innehållsfattiga broschyren.",
+      "Rapporten blev innehållsrik efter att först ha varit innehållsfattig."
+    ],
+    "related": [
+      "innehållsfattig"
+    ]
+  },
+  "innehållsfattig": {
+    "opposite": "innehållsrik",
+    "description": "Innehållsrik betyder fylld av mycket relevant innehåll. Innehållsfattig betyder att ha lite innehåll.",
+    "examples": [
+      "Den innehållsrika boken gav mer än den innehållsfattiga broschyren.",
+      "Rapporten blev innehållsrik efter att först ha varit innehållsfattig."
+    ],
+    "related": [
+      "innehållsrik"
+    ]
+  },
+  "händelserik": {
+    "opposite": "händelsefattig",
+    "description": "Händelserik betyder fylld av många händelser. Händelsefattig betyder att lite händer.",
+    "examples": [
+      "Veckan var händelserik, men helgen blev händelsefattig.",
+      "Filmen gick från händelsefattig till händelserik."
+    ],
+    "related": [
+      "händelsefattig"
+    ]
+  },
+  "händelsefattig": {
+    "opposite": "händelserik",
+    "description": "Händelserik betyder fylld av många händelser. Händelsefattig betyder att lite händer.",
+    "examples": [
+      "Veckan var händelserik, men helgen blev händelsefattig.",
+      "Filmen gick från händelsefattig till händelserik."
+    ],
+    "related": [
+      "händelserik"
+    ]
+  },
+  "framgångsrik": {
+    "opposite": "misslyckad",
+    "description": "Framgångsrik betyder att nå goda resultat. Misslyckad betyder att inte nå det avsedda resultatet.",
+    "examples": [
+      "Den första lanseringen var framgångsrik, men den andra blev misslyckad.",
+      "Ett misslyckat försök följdes av en framgångsrik lösning."
+    ],
+    "related": [
+      "misslyckad"
+    ]
+  },
+  "misslyckad": {
+    "opposite": "framgångsrik",
+    "description": "Framgångsrik betyder att nå goda resultat. Misslyckad betyder att inte nå det avsedda resultatet.",
+    "examples": [
+      "Den första lanseringen var framgångsrik, men den andra blev misslyckad.",
+      "Ett misslyckat försök följdes av en framgångsrik lösning."
+    ],
+    "related": [
+      "framgångsrik"
+    ]
+  },
+  "fredlig": {
+    "opposite": "våldsam",
+    "description": "Fredlig betyder utan våld. Våldsam betyder präglad av våld eller stark kraft.",
+    "examples": [
+      "Protesten var fredlig på dagen men blev våldsam på kvällen.",
+      "De sökte en fredlig lösning på den våldsamma konflikten."
+    ],
+    "related": [
+      "våldsam"
+    ]
+  },
+  "våldsam": {
+    "opposite": "fredlig",
+    "description": "Fredlig betyder utan våld. Våldsam betyder präglad av våld eller stark kraft.",
+    "examples": [
+      "Protesten var fredlig på dagen men blev våldsam på kvällen.",
+      "De sökte en fredlig lösning på den våldsamma konflikten."
+    ],
+    "related": [
+      "fredlig"
+    ]
+  },
+  "bevarad": {
+    "opposite": "förstörd",
+    "description": "Bevarad betyder att något finns kvar i gott skick. Förstörd betyder att det har skadats så svårt att det inte fungerar eller finns kvar.",
+    "examples": [
+      "Den ena byggnaden är bevarad och den andra förstörd.",
+      "Fotot blev bevarat, men kopian var förstörd."
+    ],
+    "related": [
+      "förstörd"
+    ]
+  },
+  "förstörd": {
+    "opposite": "bevarad",
+    "description": "Bevarad betyder att något finns kvar i gott skick. Förstörd betyder att det har skadats så svårt att det inte fungerar eller finns kvar.",
+    "examples": [
+      "Den ena byggnaden är bevarad och den andra förstörd.",
+      "Fotot blev bevarat, men kopian var förstörd."
+    ],
+    "related": [
+      "bevarad"
+    ]
+  },
+  "intakt": {
+    "opposite": "skadad",
+    "description": "Intakt betyder hel och oskadad. Skadad betyder att ha fått en skada.",
+    "examples": [
+      "Förpackningen var intakt, men varan inuti var skadad.",
+      "Den intakta delen sparades och den skadade byttes ut."
+    ],
+    "related": [
+      "skadad"
+    ]
+  },
+  "skadad": {
+    "opposite": "intakt",
+    "description": "Intakt betyder hel och oskadad. Skadad betyder att ha fått en skada.",
+    "examples": [
+      "Förpackningen var intakt, men varan inuti var skadad.",
+      "Den intakta delen sparades och den skadade byttes ut."
+    ],
+    "related": [
+      "intakt"
+    ]
+  },
+  "organiserad": {
+    "opposite": "oorganiserad",
+    "description": "Organiserad betyder planerad och ordnad. Oorganiserad betyder utan tydlig plan eller ordning.",
+    "examples": [
+      "Den organiserade gruppen arbetade snabbare än den oorganiserade.",
+      "Arbetet gick från oorganiserat till organiserat."
+    ],
+    "related": [
+      "oorganiserad"
+    ]
+  },
+  "oorganiserad": {
+    "opposite": "organiserad",
+    "description": "Organiserad betyder planerad och ordnad. Oorganiserad betyder utan tydlig plan eller ordning.",
+    "examples": [
+      "Den organiserade gruppen arbetade snabbare än den oorganiserade.",
+      "Arbetet gick från oorganiserat till organiserat."
+    ],
+    "related": [
+      "organiserad"
+    ]
+  },
+  "centraliserad": {
+    "opposite": "decentraliserad",
+    "description": "Centraliserad betyder samlad till en central ledning. Decentraliserad betyder fördelad mellan flera enheter.",
+    "examples": [
+      "Besluten var tidigare centraliserade men är nu decentraliserade.",
+      "En centraliserad organisation jämfördes med en decentraliserad."
+    ],
+    "related": [
+      "decentraliserad"
+    ]
+  },
+  "decentraliserad": {
+    "opposite": "centraliserad",
+    "description": "Centraliserad betyder samlad till en central ledning. Decentraliserad betyder fördelad mellan flera enheter.",
+    "examples": [
+      "Besluten var tidigare centraliserade men är nu decentraliserade.",
+      "En centraliserad organisation jämfördes med en decentraliserad."
+    ],
+    "related": [
+      "centraliserad"
+    ]
+  },
+  "reglerad": {
+    "opposite": "oreglerad",
+    "description": "Reglerad betyder styrd av bestämda regler. Oreglerad betyder utan sådan reglering.",
+    "examples": [
+      "Den reglerade marknaden ligger bredvid en mer oreglerad.",
+      "Verksamheten gick från oreglerad till reglerad."
+    ],
+    "related": [
+      "oreglerad"
+    ]
+  },
+  "oreglerad": {
+    "opposite": "reglerad",
+    "description": "Reglerad betyder styrd av bestämda regler. Oreglerad betyder utan sådan reglering.",
+    "examples": [
+      "Den reglerade marknaden ligger bredvid en mer oreglerad.",
+      "Verksamheten gick från oreglerad till reglerad."
+    ],
+    "related": [
+      "reglerad"
+    ]
+  },
+  "kontrollerad": {
+    "opposite": "okontrollerad",
+    "description": "Kontrollerad betyder övervakad eller behärskad. Okontrollerad betyder utan kontroll.",
+    "examples": [
+      "Branden var kontrollerad efter att först ha varit okontrollerad.",
+      "En kontrollerad rörelse är säkrare än en okontrollerad."
+    ],
+    "related": [
+      "okontrollerad"
+    ]
+  },
+  "okontrollerad": {
+    "opposite": "kontrollerad",
+    "description": "Kontrollerad betyder övervakad eller behärskad. Okontrollerad betyder utan kontroll.",
+    "examples": [
+      "Branden var kontrollerad efter att först ha varit okontrollerad.",
+      "En kontrollerad rörelse är säkrare än en okontrollerad."
+    ],
+    "related": [
+      "kontrollerad"
+    ]
+  },
+  "återkallelig": {
+    "opposite": "oåterkallelig",
+    "description": "Återkallelig betyder möjlig att ta tillbaka. Oåterkallelig betyder att den inte kan återkallas.",
+    "examples": [
+      "Fullmakten är återkallelig, men beslutet beskrevs som oåterkalleligt.",
+      "Kontrollera om medgivandet är återkalleligt eller oåterkalleligt."
+    ],
+    "related": [
+      "oåterkallelig"
+    ]
+  },
+  "oåterkallelig": {
+    "opposite": "återkallelig",
+    "description": "Återkallelig betyder möjlig att ta tillbaka. Oåterkallelig betyder att den inte kan återkallas.",
+    "examples": [
+      "Fullmakten är återkallelig, men beslutet beskrevs som oåterkalleligt.",
+      "Kontrollera om medgivandet är återkalleligt eller oåterkalleligt."
+    ],
+    "related": [
+      "återkallelig"
+    ]
+  },
+  "kompatibel": {
+    "opposite": "inkompatibel",
+    "description": "Kompatibel betyder att kunna fungera tillsammans. Inkompatibel betyder att inte kunna göra det.",
+    "examples": [
+      "Programmet är kompatibelt med den nya datorn men inkompatibelt med den gamla.",
+      "Testet visar om delarna är kompatibla eller inkompatibla."
+    ],
+    "related": [
+      "inkompatibel"
+    ]
+  },
+  "inkompatibel": {
+    "opposite": "kompatibel",
+    "description": "Kompatibel betyder att kunna fungera tillsammans. Inkompatibel betyder att inte kunna göra det.",
+    "examples": [
+      "Programmet är kompatibelt med den nya datorn men inkompatibelt med den gamla.",
+      "Testet visar om delarna är kompatibla eller inkompatibla."
+    ],
+    "related": [
+      "kompatibel"
+    ]
+  },
+  "önskvärd": {
+    "opposite": "oönskad",
+    "description": "Önskvärd betyder att något är önskat eller bra att uppnå. Oönskad betyder att det inte är önskat.",
+    "examples": [
+      "En jämn temperatur är önskvärd, medan fukt är oönskad.",
+      "Åtgärden gav en önskvärd effekt och tog bort den oönskade."
+    ],
+    "related": [
+      "oönskad"
+    ]
+  },
+  "oönskad": {
+    "opposite": "önskvärd",
+    "description": "Önskvärd betyder att något är önskat eller bra att uppnå. Oönskad betyder att det inte är önskat.",
+    "examples": [
+      "En jämn temperatur är önskvärd, medan fukt är oönskad.",
+      "Åtgärden gav en önskvärd effekt och tog bort den oönskade."
+    ],
+    "related": [
+      "önskvärd"
+    ]
+  },
+  "acceptabel": {
+    "opposite": "oacceptabel",
+    "description": "Acceptabel betyder möjlig att godta. Oacceptabel betyder att den inte kan godtas.",
+    "examples": [
+      "Det första resultatet är acceptabelt, men det andra är oacceptabelt.",
+      "Felet gick från oacceptabelt till en acceptabel nivå."
+    ],
+    "related": [
+      "oacceptabel"
+    ]
+  },
+  "oacceptabel": {
+    "opposite": "acceptabel",
+    "description": "Acceptabel betyder möjlig att godta. Oacceptabel betyder att den inte kan godtas.",
+    "examples": [
+      "Det första resultatet är acceptabelt, men det andra är oacceptabelt.",
+      "Felet gick från oacceptabelt till en acceptabel nivå."
+    ],
+    "related": [
+      "acceptabel"
+    ]
+  },
+  "lämplig": {
+    "opposite": "olämplig",
+    "description": "Lämplig betyder passande för ändamålet. Olämplig betyder att inte passa.",
+    "examples": [
+      "Skorna är lämpliga för vandring men olämpliga för fest.",
+      "Hon valde en lämplig tid i stället för en olämplig."
+    ],
+    "related": [
+      "olämplig"
+    ]
+  },
+  "olämplig": {
+    "opposite": "lämplig",
+    "description": "Lämplig betyder passande för ändamålet. Olämplig betyder att inte passa.",
+    "examples": [
+      "Skorna är lämpliga för vandring men olämpliga för fest.",
+      "Hon valde en lämplig tid i stället för en olämplig."
+    ],
+    "related": [
+      "lämplig"
+    ]
+  },
+  "rimlig": {
+    "opposite": "orimlig",
+    "description": "Rimlig betyder förnuftig och skälig. Orimlig betyder oskälig eller svår att tro.",
+    "examples": [
+      "Priset är rimligt, men leveranstiden är orimlig.",
+      "Kravet ändrades från orimligt till rimligt."
+    ],
+    "related": [
+      "orimlig"
+    ]
+  },
+  "orimlig": {
+    "opposite": "rimlig",
+    "description": "Rimlig betyder förnuftig och skälig. Orimlig betyder oskälig eller svår att tro.",
+    "examples": [
+      "Priset är rimligt, men leveranstiden är orimlig.",
+      "Kravet ändrades från orimligt till rimligt."
+    ],
+    "related": [
+      "rimlig"
+    ]
+  },
+  "trovärdig": {
+    "opposite": "otrovärdig",
+    "description": "Trovärdig betyder värd att tro på. Otrovärdig betyder att inte verka sann eller pålitlig.",
+    "examples": [
+      "Källan är trovärdig, men ryktet är otrovärdigt.",
+      "Förklaringen blev trovärdig efter att först ha varit otrovärdig."
+    ],
+    "related": [
+      "otrovärdig"
+    ]
+  },
+  "otrovärdig": {
+    "opposite": "trovärdig",
+    "description": "Trovärdig betyder värd att tro på. Otrovärdig betyder att inte verka sann eller pålitlig.",
+    "examples": [
+      "Källan är trovärdig, men ryktet är otrovärdigt.",
+      "Förklaringen blev trovärdig efter att först ha varit otrovärdig."
+    ],
+    "related": [
+      "trovärdig"
+    ]
+  },
+  "regelrätt": {
+    "opposite": "regelvidrig",
+    "description": "Regelrätt betyder i enlighet med reglerna. Regelvidrig betyder i strid med reglerna.",
+    "examples": [
+      "Målet var regelrätt, men nästa spel bedömdes som regelvidrigt.",
+      "Domaren avgör om handlingen är regelrätt eller regelvidrig."
+    ],
+    "related": [
+      "regelvidrig"
+    ]
+  },
+  "regelvidrig": {
+    "opposite": "regelrätt",
+    "description": "Regelrätt betyder i enlighet med reglerna. Regelvidrig betyder i strid med reglerna.",
+    "examples": [
+      "Målet var regelrätt, men nästa spel bedömdes som regelvidrigt.",
+      "Domaren avgör om handlingen är regelrätt eller regelvidrig."
+    ],
+    "related": [
+      "regelrätt"
+    ]
+  },
+  "sammanhängande": {
+    "opposite": "osammanhängande",
+    "description": "Sammanhängande betyder att delarna följer en tydlig helhet. Osammanhängande betyder att sambandet saknas.",
+    "examples": [
+      "Berättelsen var sammanhängande, men slutet blev osammanhängande.",
+      "Hon gjorde den osammanhängande texten sammanhängande."
+    ],
+    "related": [
+      "osammanhängande"
+    ]
+  },
+  "osammanhängande": {
+    "opposite": "sammanhängande",
+    "description": "Sammanhängande betyder att delarna följer en tydlig helhet. Osammanhängande betyder att sambandet saknas.",
+    "examples": [
+      "Berättelsen var sammanhängande, men slutet blev osammanhängande.",
+      "Hon gjorde den osammanhängande texten sammanhängande."
+    ],
+    "related": [
+      "sammanhängande"
+    ]
+  },
+  "jämlik": {
+    "opposite": "ojämlik",
+    "description": "Jämlik betyder att människor har lika rättigheter och möjligheter. Ojämlik betyder att skillnaderna är orättvisa.",
+    "examples": [
+      "Målet är ett jämlikt samhälle, inte ett ojämlikt.",
+      "Villkoren var ojämlika men blev mer jämlika."
+    ],
+    "related": [
+      "ojämlik"
+    ]
+  },
+  "ojämlik": {
+    "opposite": "jämlik",
+    "description": "Jämlik betyder att människor har lika rättigheter och möjligheter. Ojämlik betyder att skillnaderna är orättvisa.",
+    "examples": [
+      "Målet är ett jämlikt samhälle, inte ett ojämlikt.",
+      "Villkoren var ojämlika men blev mer jämlika."
+    ],
+    "related": [
+      "jämlik"
+    ]
+  },
+  "demokratisk": {
+    "opposite": "odemokratisk",
+    "description": "Demokratisk betyder byggd på folkstyre och öppet deltagande. Odemokratisk betyder att sådana principer saknas.",
+    "examples": [
+      "Valet var demokratiskt, medan förbudet var odemokratiskt.",
+      "En demokratisk process ersatte den odemokratiska."
+    ],
+    "related": [
+      "odemokratisk"
+    ]
+  },
+  "odemokratisk": {
+    "opposite": "demokratisk",
+    "description": "Demokratisk betyder byggd på folkstyre och öppet deltagande. Odemokratisk betyder att sådana principer saknas.",
+    "examples": [
+      "Valet var demokratiskt, medan förbudet var odemokratiskt.",
+      "En demokratisk process ersatte den odemokratiska."
+    ],
+    "related": [
+      "demokratisk"
+    ]
+  },
+  "fredad": {
+    "opposite": "ofredad",
+    "description": "Fredad betyder skyddad från jakt, angrepp eller störning. Ofredad betyder utan sådant skydd.",
+    "examples": [
+      "Arten är fredad här men ofredad i området bredvid.",
+      "Den fredade platsen ska inte behandlas som ofredad mark."
+    ],
+    "related": [
+      "ofredad"
+    ]
+  },
+  "ofredad": {
+    "opposite": "fredad",
+    "description": "Fredad betyder skyddad från jakt, angrepp eller störning. Ofredad betyder utan sådant skydd.",
+    "examples": [
+      "Arten är fredad här men ofredad i området bredvid.",
+      "Den fredade platsen ska inte behandlas som ofredad mark."
+    ],
+    "related": [
+      "fredad"
+    ]
+  },
+  "skyddad": {
+    "opposite": "oskyddad",
+    "description": "Skyddad betyder försedd med skydd. Oskyddad betyder att skydd saknas.",
+    "examples": [
+      "Cyklisten med hjälm var skyddad, den andre mer oskyddad.",
+      "Den skyddade sidan klarade regnet bättre än den oskyddade."
+    ],
+    "related": [
+      "oskyddad"
+    ]
+  },
+  "oskyddad": {
+    "opposite": "skyddad",
+    "description": "Skyddad betyder försedd med skydd. Oskyddad betyder att skydd saknas.",
+    "examples": [
+      "Cyklisten med hjälm var skyddad, den andre mer oskyddad.",
+      "Den skyddade sidan klarade regnet bättre än den oskyddade."
+    ],
+    "related": [
+      "skyddad"
+    ]
+  },
+  "inloggad": {
+    "opposite": "utloggad",
+    "description": "Inloggad betyder ansluten till ett konto. Utloggad betyder att sessionen är avslutad.",
+    "examples": [
+      "Hon var inloggad på datorn men utloggad på mobilen.",
+      "Kontrollera om användaren är inloggad eller utloggad."
+    ],
+    "related": [
+      "utloggad"
+    ]
+  },
+  "utloggad": {
+    "opposite": "inloggad",
+    "description": "Inloggad betyder ansluten till ett konto. Utloggad betyder att sessionen är avslutad.",
+    "examples": [
+      "Hon var inloggad på datorn men utloggad på mobilen.",
+      "Kontrollera om användaren är inloggad eller utloggad."
+    ],
+    "related": [
+      "inloggad"
+    ]
+  },
+  "ansluten": {
+    "opposite": "frånkopplad",
+    "description": "Ansluten betyder kopplad till ett system eller nät. Frånkopplad betyder att kopplingen har brutits.",
+    "examples": [
+      "Skrivaren är ansluten, men skannern är frånkopplad.",
+      "Enheten gick från frånkopplad till ansluten."
+    ],
+    "related": [
+      "frånkopplad"
+    ]
+  },
+  "frånkopplad": {
+    "opposite": "ansluten",
+    "description": "Ansluten betyder kopplad till ett system eller nät. Frånkopplad betyder att kopplingen har brutits.",
+    "examples": [
+      "Skrivaren är ansluten, men skannern är frånkopplad.",
+      "Enheten gick från frånkopplad till ansluten."
+    ],
+    "related": [
+      "ansluten"
+    ]
+  },
+  "öppenhjärtig": {
+    "opposite": "sluten",
+    "description": "Öppenhjärtig betyder ärlig och villig att dela känslor. Sluten betyder ovillig att visa vad man tänker eller känner.",
+    "examples": [
+      "Hon var öppenhjärtig, medan han förblev sluten.",
+      "Samtalet gjorde den slutna personen mer öppenhjärtig."
+    ],
+    "related": [
+      "sluten"
+    ]
+  },
+  "sluten": {
+    "opposite": "öppenhjärtig",
+    "description": "Öppenhjärtig betyder ärlig och villig att dela känslor. Sluten betyder ovillig att visa vad man tänker eller känner.",
+    "examples": [
+      "Hon var öppenhjärtig, medan han förblev sluten.",
+      "Samtalet gjorde den slutna personen mer öppenhjärtig."
+    ],
+    "related": [
+      "öppenhjärtig"
+    ]
+  },
+  "givmild": {
+    "opposite": "snål",
+    "description": "Givmild betyder villig att ge och dela. Snål betyder ovillig att ge eller använda pengar.",
+    "examples": [
+      "Den givmilda grannen delade med sig, men den snåla höll allt själv.",
+      "Han gick från snål till mer givmild."
+    ],
+    "related": [
+      "snål"
+    ]
+  },
+  "snål": {
+    "opposite": "givmild",
+    "description": "Givmild betyder villig att ge och dela. Snål betyder ovillig att ge eller använda pengar.",
+    "examples": [
+      "Den givmilda grannen delade med sig, men den snåla höll allt själv.",
+      "Han gick från snål till mer givmild."
+    ],
+    "related": [
+      "givmild"
+    ]
+  },
+  "arbetsam": {
+    "opposite": "lat",
+    "description": "Arbetsam betyder flitig och villig att arbeta. Lat betyder ovillig att anstränga sig.",
+    "examples": [
+      "Den arbetsamma eleven började tidigt, medan den lata väntade.",
+      "Hon är arbetsam på jobbet men lat på semestern."
+    ],
+    "related": [
+      "lat"
+    ]
+  },
+  "lat": {
+    "opposite": "arbetsam",
+    "description": "Arbetsam betyder flitig och villig att arbeta. Lat betyder ovillig att anstränga sig.",
+    "examples": [
+      "Den arbetsamma eleven började tidigt, medan den lata väntade.",
+      "Hon är arbetsam på jobbet men lat på semestern."
+    ],
+    "related": [
+      "arbetsam"
+    ]
+  },
+  "ödmjuk": {
+    "opposite": "högmodig",
+    "description": "Ödmjuk betyder anspråkslös och respektfull. Högmodig betyder överdrivet stolt.",
+    "examples": [
+      "Vinnaren var ödmjuk, men motståndaren lät högmodig.",
+      "Han blev mer ödmjuk och mindre högmodig."
+    ],
+    "related": [
+      "högmodig"
+    ]
+  },
+  "högmodig": {
+    "opposite": "ödmjuk",
+    "description": "Ödmjuk betyder anspråkslös och respektfull. Högmodig betyder överdrivet stolt.",
+    "examples": [
+      "Vinnaren var ödmjuk, men motståndaren lät högmodig.",
+      "Han blev mer ödmjuk och mindre högmodig."
+    ],
+    "related": [
+      "ödmjuk"
+    ]
+  },
+  "generös": {
+    "opposite": "sparsam",
+    "description": "Generös betyder villig att ge rikligt. Sparsam betyder försiktig med pengar eller resurser.",
+    "examples": [
+      "Hon är generös med presenter men sparsam med el.",
+      "En generös portion stod bredvid en sparsam."
+    ],
+    "related": [
+      "sparsam"
+    ]
+  },
+  "sparsam": {
+    "opposite": "generös",
+    "description": "Generös betyder villig att ge rikligt. Sparsam betyder försiktig med pengar eller resurser.",
+    "examples": [
+      "Hon är generös med presenter men sparsam med el.",
+      "En generös portion stod bredvid en sparsam."
+    ],
+    "related": [
+      "generös"
+    ]
+  },
+  "tillgänglig": {
+    "opposite": "otillgänglig",
+    "description": "Tillgänglig betyder möjlig att nå eller använda. Otillgänglig betyder svår eller omöjlig att nå.",
+    "examples": [
+      "Sidan är tillgänglig i dag men var otillgänglig i går.",
+      "Rampen gör entrén tillgänglig i stället för otillgänglig."
+    ],
+    "related": [
+      "otillgänglig"
+    ]
+  },
+  "otillgänglig": {
+    "opposite": "tillgänglig",
+    "description": "Tillgänglig betyder möjlig att nå eller använda. Otillgänglig betyder svår eller omöjlig att nå.",
+    "examples": [
+      "Sidan är tillgänglig i dag men var otillgänglig i går.",
+      "Rampen gör entrén tillgänglig i stället för otillgänglig."
+    ],
+    "related": [
+      "tillgänglig"
+    ]
+  },
+  "försvarlig": {
+    "opposite": "oförsvarlig",
+    "description": "Försvarlig betyder möjlig att motivera eller godta. Oförsvarlig betyder att inte kunna försvaras.",
+    "examples": [
+      "Beslutet var försvarligt, men förseningen var oförsvarlig.",
+      "Handlingen gick från tveksam till helt oförsvarlig, inte försvarlig."
+    ],
+    "related": [
+      "oförsvarlig"
+    ]
+  },
+  "oförsvarlig": {
+    "opposite": "försvarlig",
+    "description": "Försvarlig betyder möjlig att motivera eller godta. Oförsvarlig betyder att inte kunna försvaras.",
+    "examples": [
+      "Beslutet var försvarligt, men förseningen var oförsvarlig.",
+      "Handlingen gick från tveksam till helt oförsvarlig, inte försvarlig."
+    ],
+    "related": [
+      "försvarlig"
+    ]
+  },
+  "hållbar": {
+    "opposite": "ohållbar",
+    "description": "Hållbar betyder att kunna bestå eller fungera länge. Ohållbar betyder att inte kunna fortsätta.",
+    "examples": [
+      "Lösningen är hållbar, medan den gamla planen var ohållbar.",
+      "Ekonomin gick från ohållbar till hållbar."
+    ],
+    "related": [
+      "ohållbar"
+    ]
+  },
+  "ohållbar": {
+    "opposite": "hållbar",
+    "description": "Hållbar betyder att kunna bestå eller fungera länge. Ohållbar betyder att inte kunna fortsätta.",
+    "examples": [
+      "Lösningen är hållbar, medan den gamla planen var ohållbar.",
+      "Ekonomin gick från ohållbar till hållbar."
+    ],
+    "related": [
+      "hållbar"
+    ]
+  },
+  "jämförbar": {
+    "opposite": "ojämförbar",
+    "description": "Jämförbar betyder möjlig att jämföra på ett meningsfullt sätt. Ojämförbar betyder att en rimlig jämförelse inte går att göra.",
+    "examples": [
+      "Resultaten är jämförbara, men det tredje måttet är ojämförbart.",
+      "Metoden gör tidigare ojämförbara data jämförbara."
+    ],
+    "related": [
+      "ojämförbar"
+    ]
+  },
+  "ojämförbar": {
+    "opposite": "jämförbar",
+    "description": "Jämförbar betyder möjlig att jämföra på ett meningsfullt sätt. Ojämförbar betyder att en rimlig jämförelse inte går att göra.",
+    "examples": [
+      "Resultaten är jämförbara, men det tredje måttet är ojämförbart.",
+      "Metoden gör tidigare ojämförbara data jämförbara."
+    ],
+    "related": [
+      "jämförbar"
+    ]
+  },
+  "mätbar": {
+    "opposite": "omätbar",
+    "description": "Mätbar betyder möjlig att mäta. Omätbar betyder att den inte kan mätas.",
+    "examples": [
+      "Temperaturen är mätbar, men känslan kan verka omätbar.",
+      "Testet gör effekten mätbar i stället för omätbar."
+    ],
+    "related": [
+      "omätbar"
+    ]
+  },
+  "omätbar": {
+    "opposite": "mätbar",
+    "description": "Mätbar betyder möjlig att mäta. Omätbar betyder att den inte kan mätas.",
+    "examples": [
+      "Temperaturen är mätbar, men känslan kan verka omätbar.",
+      "Testet gör effekten mätbar i stället för omätbar."
+    ],
+    "related": [
+      "mätbar"
+    ]
+  },
+  "spänd": {
+    "opposite": "avslappnad",
+    "description": "Spänd betyder stel, orolig eller under anspänning. Avslappnad betyder lugn och utan spänning.",
+    "examples": [
+      "Hon var spänd före provet men avslappnad efteråt.",
+      "Muskeln gick från spänd till avslappnad."
+    ],
+    "related": [
+      "avslappnad"
+    ]
+  },
+  "avslappnad": {
+    "opposite": "spänd",
+    "description": "Spänd betyder stel, orolig eller under anspänning. Avslappnad betyder lugn och utan spänning.",
+    "examples": [
+      "Hon var spänd före provet men avslappnad efteråt.",
+      "Muskeln gick från spänd till avslappnad."
+    ],
+    "related": [
+      "spänd"
+    ]
+  },
+  "fokuserad": {
+    "opposite": "ofokuserad",
+    "description": "Fokuserad betyder koncentrerad på uppgiften. Ofokuserad betyder att koncentrationen saknas.",
+    "examples": [
+      "Han var fokuserad på morgonen men ofokuserad efter lunch.",
+      "En paus gjorde gruppen fokuserad i stället för ofokuserad."
+    ],
+    "related": [
+      "ofokuserad"
+    ]
+  },
+  "ofokuserad": {
+    "opposite": "fokuserad",
+    "description": "Fokuserad betyder koncentrerad på uppgiften. Ofokuserad betyder att koncentrationen saknas.",
+    "examples": [
+      "Han var fokuserad på morgonen men ofokuserad efter lunch.",
+      "En paus gjorde gruppen fokuserad i stället för ofokuserad."
+    ],
+    "related": [
+      "fokuserad"
+    ]
+  },
+  "förberedd": {
+    "opposite": "oförberedd",
+    "description": "Förberedd betyder redo efter att ha planerat. Oförberedd betyder att inte vara redo.",
+    "examples": [
+      "Hon kom förberedd, medan jag var oförberedd.",
+      "Övningen gjorde laget förberett i stället för oförberett."
+    ],
+    "related": [
+      "oförberedd"
+    ]
+  },
+  "oförberedd": {
+    "opposite": "förberedd",
+    "description": "Förberedd betyder redo efter att ha planerat. Oförberedd betyder att inte vara redo.",
+    "examples": [
+      "Hon kom förberedd, medan jag var oförberedd.",
+      "Övningen gjorde laget förberett i stället för oförberett."
+    ],
+    "related": [
+      "förberedd"
+    ]
+  },
+  "färgad": {
+    "opposite": "ofärgad",
+    "description": "Färgad betyder att ha eller ha fått färg. Ofärgad betyder utan färg.",
+    "examples": [
+      "Vätskan är färgad, men provet bredvid är ofärgat.",
+      "Glaset finns som färgat och ofärgat."
+    ],
+    "related": [
+      "ofärgad"
+    ]
+  },
+  "ofärgad": {
+    "opposite": "färgad",
+    "description": "Färgad betyder att ha eller ha fått färg. Ofärgad betyder utan färg.",
+    "examples": [
+      "Vätskan är färgad, men provet bredvid är ofärgat.",
+      "Glaset finns som färgat och ofärgat."
+    ],
+    "related": [
+      "färgad"
+    ]
+  },
+  "sötad": {
+    "opposite": "osötad",
+    "description": "Sötad betyder att ett sötningsmedel har tillsatts. Osötad betyder utan tillsatt sötning.",
+    "examples": [
+      "Yoghurten finns både sötad och osötad.",
+      "Hon valde osötat te i stället för sötat."
+    ],
+    "related": [
+      "osötad"
+    ]
+  },
+  "osötad": {
+    "opposite": "sötad",
+    "description": "Sötad betyder att ett sötningsmedel har tillsatts. Osötad betyder utan tillsatt sötning.",
+    "examples": [
+      "Yoghurten finns både sötad och osötad.",
+      "Hon valde osötat te i stället för sötat."
+    ],
+    "related": [
+      "sötad"
+    ]
+  },
+  "inkluderad": {
+    "opposite": "exkluderad",
+    "description": "Inkluderad betyder att vara medräknad eller medtagen. Exkluderad betyder att vara utesluten.",
+    "examples": [
+      "Avgiften är inkluderad, men frakten är exkluderad.",
+      "Alla deltagare blev inkluderade i stället för exkluderade."
+    ],
+    "related": [
+      "exkluderad"
+    ]
+  },
+  "exkluderad": {
+    "opposite": "inkluderad",
+    "description": "Inkluderad betyder att vara medräknad eller medtagen. Exkluderad betyder att vara utesluten.",
+    "examples": [
+      "Avgiften är inkluderad, men frakten är exkluderad.",
+      "Alla deltagare blev inkluderade i stället för exkluderade."
+    ],
+    "related": [
+      "inkluderad"
+    ]
+  },
+  "kokt": {
+    "opposite": "okokt",
+    "description": "Kokt betyder tillagad i kokande vätska. Okokt betyder att inte ha kokats.",
+    "examples": [
+      "Potatisen är kokt, men moroten är okokt.",
+      "Koka den okokta pastan tills den är kokt."
+    ],
+    "related": [
+      "okokt"
+    ]
+  },
+  "okokt": {
+    "opposite": "kokt",
+    "description": "Kokt betyder tillagad i kokande vätska. Okokt betyder att inte ha kokats.",
+    "examples": [
+      "Potatisen är kokt, men moroten är okokt.",
+      "Koka den okokta pastan tills den är kokt."
+    ],
+    "related": [
+      "kokt"
+    ]
+  },
+  "rå": {
+    "opposite": "tillagad",
+    "description": "Rå betyder inte tillagad. Tillagad betyder behandlad med värme eller på annat sätt gjord färdig att äta.",
+    "examples": [
+      "Fisken var rå före den blev tillagad.",
+      "Håll rå mat skild från tillagad mat."
+    ],
+    "related": [
+      "tillagad"
+    ]
+  },
+  "tillagad": {
+    "opposite": "rå",
+    "description": "Rå betyder inte tillagad. Tillagad betyder behandlad med värme eller på annat sätt gjord färdig att äta.",
+    "examples": [
+      "Fisken var rå före den blev tillagad.",
+      "Håll rå mat skild från tillagad mat."
+    ],
+    "related": [
+      "rå"
+    ]
+  },
+  "kontinuerlig": {
+    "opposite": "diskret",
+    "description": "Kontinuerlig betyder utan avbrott eller med alla mellanliggande värden. Diskret betyder uppdelad i tydliga steg eller värden.",
+    "examples": [
+      "Temperaturen ändras kontinuerligt, medan räknaren visar diskreta steg.",
+      "Modellen kan vara kontinuerlig eller diskret."
+    ],
+    "related": [
+      "diskret"
+    ]
+  },
+  "diskret": {
+    "opposite": "kontinuerlig",
+    "description": "Kontinuerlig betyder utan avbrott eller med alla mellanliggande värden. Diskret betyder uppdelad i tydliga steg eller värden.",
+    "examples": [
+      "Temperaturen ändras kontinuerligt, medan räknaren visar diskreta steg.",
+      "Modellen kan vara kontinuerlig eller diskret."
+    ],
+    "related": [
+      "kontinuerlig"
+    ]
+  },
+  "homogen": {
+    "opposite": "heterogen",
+    "description": "Homogen betyder jämnt sammansatt. Heterogen betyder sammansatt av olika delar.",
+    "examples": [
+      "Lösningen är homogen, men blandningen är heterogen.",
+      "Gruppen gick från homogen till mer heterogen."
+    ],
+    "related": [
+      "heterogen"
+    ]
+  },
+  "heterogen": {
+    "opposite": "homogen",
+    "description": "Homogen betyder jämnt sammansatt. Heterogen betyder sammansatt av olika delar.",
+    "examples": [
+      "Lösningen är homogen, men blandningen är heterogen.",
+      "Gruppen gick från homogen till mer heterogen."
+    ],
+    "related": [
+      "homogen"
+    ]
+  },
+  "genomskinlig": {
+    "opposite": "ogenomskinlig",
+    "description": "Genomskinlig betyder att ljus och bilder kan ses igenom. Ogenomskinlig betyder att man inte kan se igenom.",
+    "examples": [
+      "Rutan är genomskinlig, men väggen är ogenomskinlig.",
+      "Det genomskinliga glaset stod bredvid det ogenomskinliga."
+    ],
+    "related": [
+      "ogenomskinlig"
+    ]
+  },
+  "ogenomskinlig": {
+    "opposite": "genomskinlig",
+    "description": "Genomskinlig betyder att ljus och bilder kan ses igenom. Ogenomskinlig betyder att man inte kan se igenom.",
+    "examples": [
+      "Rutan är genomskinlig, men väggen är ogenomskinlig.",
+      "Det genomskinliga glaset stod bredvid det ogenomskinliga."
+    ],
+    "related": [
+      "genomskinlig"
+    ]
+  },
+  "kompakt": {
+    "opposite": "porös",
+    "description": "Kompakt betyder tät och sammanpressad. Porös betyder fylld av små hålrum.",
+    "examples": [
+      "Metallen är kompakt, men svampen är porös.",
+      "Det porösa materialet väger mindre än det kompakta."
+    ],
+    "related": [
+      "porös"
+    ]
+  },
+  "porös": {
+    "opposite": "kompakt",
+    "description": "Kompakt betyder tät och sammanpressad. Porös betyder fylld av små hålrum.",
+    "examples": [
+      "Metallen är kompakt, men svampen är porös.",
+      "Det porösa materialet väger mindre än det kompakta."
+    ],
+    "related": [
+      "kompakt"
+    ]
+  },
+  "sympatisk": {
+    "opposite": "osympatisk",
+    "description": "Sympatisk betyder trevlig och lätt att tycka om. Osympatisk betyder otrevlig eller svår att tycka om.",
+    "examples": [
+      "Hon verkade sympatisk, medan rollen i filmen var osympatisk.",
+      "Ett sympatiskt bemötande ersatte det osympatiska."
+    ],
+    "related": [
+      "osympatisk"
+    ]
+  },
+  "osympatisk": {
+    "opposite": "sympatisk",
+    "description": "Sympatisk betyder trevlig och lätt att tycka om. Osympatisk betyder otrevlig eller svår att tycka om.",
+    "examples": [
+      "Hon verkade sympatisk, medan rollen i filmen var osympatisk.",
+      "Ett sympatiskt bemötande ersatte det osympatiska."
+    ],
+    "related": [
+      "sympatisk"
+    ]
+  },
+  "avslutad": {
+    "opposite": "pågående",
+    "description": "Avslutad betyder att något är färdigt. Pågående betyder att det fortfarande håller på.",
+    "examples": [
+      "Den första matchen är avslutad, men den andra är pågående.",
+      "Ärendet gick från pågående till avslutat."
+    ],
+    "related": [
+      "pågående"
+    ]
+  },
+  "pågående": {
+    "opposite": "avslutad",
+    "description": "Avslutad betyder att något är färdigt. Pågående betyder att det fortfarande håller på.",
+    "examples": [
+      "Den första matchen är avslutad, men den andra är pågående.",
+      "Ärendet gick från pågående till avslutat."
+    ],
+    "related": [
+      "avslutad"
+    ]
+  },
+  "exakt": {
+    "opposite": "ungefärlig",
+    "description": "Exakt betyder helt preciserad. Ungefärlig betyder nära men inte helt exakt.",
+    "examples": [
+      "Den exakta tiden är 12.03, den ungefärliga är runt tolv.",
+      "Ange ett exakt värde eller en ungefärlig uppskattning."
+    ],
+    "related": [
+      "ungefärlig"
+    ]
+  },
+  "ungefärlig": {
+    "opposite": "exakt",
+    "description": "Exakt betyder helt preciserad. Ungefärlig betyder nära men inte helt exakt.",
+    "examples": [
+      "Den exakta tiden är 12.03, den ungefärliga är runt tolv.",
+      "Ange ett exakt värde eller en ungefärlig uppskattning."
+    ],
+    "related": [
+      "exakt"
+    ]
+  },
+  "precis": {
+    "opposite": "vag",
+    "description": "Precis betyder tydlig och noggrant angiven. Vag betyder otydlig eller obestämd.",
+    "examples": [
+      "Hon gav en precis beskrivning, medan den andra var vag.",
+      "Gör den vaga instruktionen mer precis."
+    ],
+    "related": [
+      "vag"
+    ]
+  },
+  "vag": {
+    "opposite": "precis",
+    "description": "Precis betyder tydlig och noggrant angiven. Vag betyder otydlig eller obestämd.",
+    "examples": [
+      "Hon gav en precis beskrivning, medan den andra var vag.",
+      "Gör den vaga instruktionen mer precis."
+    ],
+    "related": [
+      "precis"
+    ]
+  },
+  "perifer": {
+    "opposite": "central",
+    "description": "Central betyder nära mitten eller mycket viktig. Perifer betyder nära kanten eller mindre central.",
+    "examples": [
+      "Stationen är central, medan byn ligger mer perifert.",
+      "Den centrala frågan skiljs från den perifera detaljen."
+    ],
+    "related": [
+      "central"
+    ]
+  },
+  "central": {
+    "opposite": "perifer",
+    "description": "Central betyder nära mitten eller mycket viktig. Perifer betyder nära kanten eller mindre central.",
+    "examples": [
+      "Stationen är central, medan byn ligger mer perifert.",
+      "Den centrala frågan skiljs från den perifera detaljen."
+    ],
+    "related": [
+      "perifer"
+    ]
+  },
+  "radiell": {
+    "opposite": "tangentiell",
+    "description": "Radiell betyder riktad längs en radie. Tangentiell betyder riktad längs en tangent.",
+    "examples": [
+      "Kraften har en radiell och en tangentiell del.",
+      "Den radiella rörelsen går mot centrum, den tangentiella runt det."
+    ],
+    "related": [
+      "tangentiell"
+    ]
+  },
+  "tangentiell": {
+    "opposite": "radiell",
+    "description": "Radiell betyder riktad längs en radie. Tangentiell betyder riktad längs en tangent.",
+    "examples": [
+      "Kraften har en radiell och en tangentiell del.",
+      "Den radiella rörelsen går mot centrum, den tangentiella runt det."
+    ],
+    "related": [
+      "radiell"
+    ]
+  },
+  "uppåtriktad": {
+    "opposite": "nedåtriktad",
+    "description": "Uppåtriktad betyder riktad uppåt. Nedåtriktad betyder riktad nedåt.",
+    "examples": [
+      "Den uppåtriktade pilen står bredvid den nedåtriktade.",
+      "Kraften var först uppåtriktad och sedan nedåtriktad."
+    ],
+    "related": [
+      "nedåtriktad"
+    ]
+  },
+  "nedåtriktad": {
+    "opposite": "uppåtriktad",
+    "description": "Uppåtriktad betyder riktad uppåt. Nedåtriktad betyder riktad nedåt.",
+    "examples": [
+      "Den uppåtriktade pilen står bredvid den nedåtriktade.",
+      "Kraften var först uppåtriktad och sedan nedåtriktad."
+    ],
+    "related": [
+      "uppåtriktad"
+    ]
+  },
+  "inkommande": {
+    "opposite": "utgående",
+    "description": "Inkommande betyder på väg in. Utgående betyder på väg ut.",
+    "examples": [
+      "Telefonen visar inkommande och utgående samtal.",
+      "Inkommande post sorteras före den utgående."
+    ],
+    "related": [
+      "utgående"
+    ]
+  },
+  "utgående": {
+    "opposite": "inkommande",
+    "description": "Inkommande betyder på väg in. Utgående betyder på väg ut.",
+    "examples": [
+      "Telefonen visar inkommande och utgående samtal.",
+      "Inkommande post sorteras före den utgående."
+    ],
+    "related": [
+      "inkommande"
+    ]
+  },
+  "arbetsgivare": {
+    "opposite": "arbetstagare",
+    "description": "En arbetsgivare erbjuder arbete och betalar lön. En arbetstagare utför arbetet.",
+    "examples": [
+      "Avtalet tecknas mellan arbetsgivaren och arbetstagaren.",
+      "Arbetsgivaren betalade lön till arbetstagaren."
+    ],
+    "related": [
+      "arbetstagare"
+    ]
+  },
+  "arbetstagare": {
+    "opposite": "arbetsgivare",
+    "description": "En arbetsgivare erbjuder arbete och betalar lön. En arbetstagare utför arbetet.",
+    "examples": [
+      "Avtalet tecknas mellan arbetsgivaren och arbetstagaren.",
+      "Arbetsgivaren betalade lön till arbetstagaren."
+    ],
+    "related": [
+      "arbetsgivare"
+    ]
+  },
+  "producent": {
+    "opposite": "konsument",
+    "description": "En producent framställer en vara eller tjänst. En konsument använder eller köper den.",
+    "examples": [
+      "Producenten säljer varan till konsumenten.",
+      "Både producent och konsument påverkas av priset."
+    ],
+    "related": [
+      "konsument"
+    ]
+  },
+  "konsument": {
+    "opposite": "producent",
+    "description": "En producent framställer en vara eller tjänst. En konsument använder eller köper den.",
+    "examples": [
+      "Producenten säljer varan till konsumenten.",
+      "Både producent och konsument påverkas av priset."
+    ],
+    "related": [
+      "producent"
+    ]
+  },
+  "intäkt": {
+    "opposite": "kostnad",
+    "description": "En intäkt är ett ekonomiskt inflöde från försäljning. En kostnad är värdet av resurser som används.",
+    "examples": [
+      "Försäljningen gav en intäkt, medan hyran var en kostnad.",
+      "Företaget jämför intäkter med kostnader."
+    ],
+    "related": [
+      "kostnad"
+    ]
+  },
+  "kostnad": {
+    "opposite": "intäkt",
+    "description": "En intäkt är ett ekonomiskt inflöde från försäljning. En kostnad är värdet av resurser som används.",
+    "examples": [
+      "Försäljningen gav en intäkt, medan hyran var en kostnad.",
+      "Företaget jämför intäkter med kostnader."
+    ],
+    "related": [
+      "intäkt"
+    ]
+  },
+  "nordpol": {
+    "opposite": "sydpol",
+    "description": "Nordpolen är jordens nordligaste pol. Sydpolen är den sydligaste.",
+    "examples": [
+      "Kompassen pekar mot nordpolen, långt från sydpolen.",
+      "Jorden har en nordpol och en sydpol."
+    ],
+    "related": [
+      "sydpol"
+    ]
+  },
+  "sydpol": {
+    "opposite": "nordpol",
+    "description": "Nordpolen är jordens nordligaste pol. Sydpolen är den sydligaste.",
+    "examples": [
+      "Kompassen pekar mot nordpolen, långt från sydpolen.",
+      "Jorden har en nordpol och en sydpol."
+    ],
+    "related": [
+      "nordpol"
+    ]
+  },
+  "nordlig": {
+    "opposite": "sydlig",
+    "description": "Nordlig betyder belägen i eller från norr. Sydlig betyder belägen i eller från söder.",
+    "examples": [
+      "Den nordliga delen är kallare än den sydliga.",
+      "En nordlig vind ersattes av en sydlig."
+    ],
+    "related": [
+      "sydlig"
+    ]
+  },
+  "sydlig": {
+    "opposite": "nordlig",
+    "description": "Nordlig betyder belägen i eller från norr. Sydlig betyder belägen i eller från söder.",
+    "examples": [
+      "Den nordliga delen är kallare än den sydliga.",
+      "En nordlig vind ersattes av en sydlig."
+    ],
+    "related": [
+      "nordlig"
+    ]
+  },
+  "västlig": {
+    "opposite": "östlig",
+    "description": "Västlig betyder belägen i eller från väster. Östlig betyder belägen i eller från öster.",
+    "examples": [
+      "Den västliga kusten skiljer sig från den östliga.",
+      "Vinden gick från västlig till östlig."
+    ],
+    "related": [
+      "östlig"
+    ]
+  },
+  "östlig": {
+    "opposite": "västlig",
+    "description": "Västlig betyder belägen i eller från väster. Östlig betyder belägen i eller från öster.",
+    "examples": [
+      "Den västliga kusten skiljer sig från den östliga.",
+      "Vinden gick från västlig till östlig."
+    ],
+    "related": [
+      "västlig"
+    ]
+  },
+  "inåtvänd": {
+    "opposite": "utåtvänd",
+    "description": "Inåtvänd betyder reserverad och riktad mot det egna inre. Utåtvänd betyder öppen och social.",
+    "examples": [
+      "Han är inåtvänd, medan hans syster är utåtvänd.",
+      "Hon blev mer utåtvänd efter att ha varit inåtvänd."
+    ],
+    "related": [
+      "utåtvänd"
+    ]
+  },
+  "utåtvänd": {
+    "opposite": "inåtvänd",
+    "description": "Inåtvänd betyder reserverad och riktad mot det egna inre. Utåtvänd betyder öppen och social.",
+    "examples": [
+      "Han är inåtvänd, medan hans syster är utåtvänd.",
+      "Hon blev mer utåtvänd efter att ha varit inåtvänd."
+    ],
+    "related": [
+      "inåtvänd"
+    ]
+  },
+  "mänsklig": {
+    "opposite": "omänsklig",
+    "description": "Mänsklig betyder som hör till människor eller visar medkänsla. Omänsklig betyder grym eller utan mänsklig hänsyn.",
+    "examples": [
+      "Bemötandet var mänskligt, men villkoren var omänskliga.",
+      "De ersatte den omänskliga behandlingen med en mänsklig."
+    ],
+    "related": [
+      "omänsklig"
+    ]
+  },
+  "omänsklig": {
+    "opposite": "mänsklig",
+    "description": "Mänsklig betyder som hör till människor eller visar medkänsla. Omänsklig betyder grym eller utan mänsklig hänsyn.",
+    "examples": [
+      "Bemötandet var mänskligt, men villkoren var omänskliga.",
+      "De ersatte den omänskliga behandlingen med en mänsklig."
+    ],
+    "related": [
+      "mänsklig"
+    ]
+  },
+  "industrialiserad": {
+    "opposite": "oindustrialiserad",
+    "description": "Industrialiserad betyder utvecklad med omfattande industri. Oindustrialiserad betyder utan sådan industrialisering.",
+    "examples": [
+      "Den industrialiserade regionen låg bredvid en oindustrialiserad.",
+      "Området gick från oindustrialiserat till industrialiserat."
+    ],
+    "related": [
+      "oindustrialiserad"
+    ]
+  },
+  "oindustrialiserad": {
+    "opposite": "industrialiserad",
+    "description": "Industrialiserad betyder utvecklad med omfattande industri. Oindustrialiserad betyder utan sådan industrialisering.",
+    "examples": [
+      "Den industrialiserade regionen låg bredvid en oindustrialiserad.",
+      "Området gick från oindustrialiserat till industrialiserat."
+    ],
+    "related": [
+      "industrialiserad"
+    ]
+  },
+  "elektrisk": {
+    "opposite": "mekanisk",
+    "description": "Elektrisk betyder driven eller styrd med elektricitet. Mekanisk betyder driven av fysiska delar och rörelser.",
+    "examples": [
+      "Låset finns i en elektrisk och en mekanisk version.",
+      "Den elektriska pumpen ersatte den mekaniska."
+    ],
+    "related": [
+      "mekanisk"
+    ]
+  },
+  "mekanisk": {
+    "opposite": "elektrisk",
+    "description": "Elektrisk betyder driven eller styrd med elektricitet. Mekanisk betyder driven av fysiska delar och rörelser.",
+    "examples": [
+      "Låset finns i en elektrisk och en mekanisk version.",
+      "Den elektriska pumpen ersatte den mekaniska."
+    ],
+    "related": [
+      "elektrisk"
+    ]
+  },
+  "bärbar": {
+    "opposite": "stationär",
+    "description": "Bärbar betyder lätt att ta med. Stationär betyder avsedd att stå på en fast plats.",
+    "examples": [
+      "Hon tog med den bärbara datorn och lämnade den stationära hemma.",
+      "Verktyget finns som bärbart och stationärt."
+    ],
+    "related": [
+      "stationär"
+    ]
+  },
+  "stationär": {
+    "opposite": "bärbar",
+    "description": "Bärbar betyder lätt att ta med. Stationär betyder avsedd att stå på en fast plats.",
+    "examples": [
+      "Hon tog med den bärbara datorn och lämnade den stationära hemma.",
+      "Verktyget finns som bärbart och stationärt."
+    ],
+    "related": [
+      "bärbar"
+    ]
+  },
+  "mobil": {
+    "opposite": "fast",
+    "description": "Mobil betyder flyttbar eller rörlig. Fast betyder stationär eller fäst på en plats.",
+    "examples": [
+      "Kliniken har en mobil enhet och en fast mottagning.",
+      "Antennen kan vara mobil eller fast."
+    ],
+    "related": [
+      "fast"
+    ]
+  },
+  "fast": {
+    "opposite": "mobil",
+    "description": "Mobil betyder flyttbar eller rörlig. Fast betyder stationär eller fäst på en plats.",
+    "examples": [
+      "Kliniken har en mobil enhet och en fast mottagning.",
+      "Antennen kan vara mobil eller fast."
+    ],
+    "related": [
+      "mobil"
+    ]
+  },
+  "online": {
+    "opposite": "offline",
+    "description": "Online betyder ansluten till ett nätverk. Offline betyder frånkopplad från nätverket.",
+    "examples": [
+      "Tjänsten fungerar både online och offline.",
+      "Datorn gick från offline till online."
+    ],
+    "related": [
+      "offline"
+    ]
+  },
+  "offline": {
+    "opposite": "online",
+    "description": "Online betyder ansluten till ett nätverk. Offline betyder frånkopplad från nätverket.",
+    "examples": [
+      "Tjänsten fungerar både online och offline.",
+      "Datorn gick från offline till online."
+    ],
+    "related": [
+      "online"
+    ]
+  },
+  "synkroniserad": {
+    "opposite": "osynkroniserad",
+    "description": "Synkroniserad betyder samordnad i tid eller data. Osynkroniserad betyder att samordningen saknas.",
+    "examples": [
+      "Mapparna är synkroniserade, men säkerhetskopian är osynkroniserad.",
+      "Telefonen gick från osynkroniserad till synkroniserad."
+    ],
+    "related": [
+      "osynkroniserad"
+    ]
+  },
+  "osynkroniserad": {
+    "opposite": "synkroniserad",
+    "description": "Synkroniserad betyder samordnad i tid eller data. Osynkroniserad betyder att samordningen saknas.",
+    "examples": [
+      "Mapparna är synkroniserade, men säkerhetskopian är osynkroniserad.",
+      "Telefonen gick från osynkroniserad till synkroniserad."
+    ],
+    "related": [
+      "synkroniserad"
+    ]
+  },
+  "krypterad": {
+    "opposite": "okrypterad",
+    "description": "Krypterad betyder skyddad genom kodning. Okrypterad betyder att sådan kodning saknas.",
+    "examples": [
+      "Meddelandet är krypterat, men bilagan är okrypterad.",
+      "Skicka känsliga uppgifter krypterat, inte okrypterat."
+    ],
+    "related": [
+      "okrypterad"
+    ]
+  },
+  "okrypterad": {
+    "opposite": "krypterad",
+    "description": "Krypterad betyder skyddad genom kodning. Okrypterad betyder att sådan kodning saknas.",
+    "examples": [
+      "Meddelandet är krypterat, men bilagan är okrypterad.",
+      "Skicka känsliga uppgifter krypterat, inte okrypterat."
+    ],
+    "related": [
+      "krypterad"
+    ]
+  },
+  "komprimerad": {
+    "opposite": "okomprimerad",
+    "description": "Komprimerad betyder packad för att ta mindre plats. Okomprimerad betyder lagrad utan sådan packning.",
+    "examples": [
+      "Den komprimerade filen är mindre än den okomprimerade.",
+      "Ljudet finns i komprimerad och okomprimerad form."
+    ],
+    "related": [
+      "okomprimerad"
+    ]
+  },
+  "okomprimerad": {
+    "opposite": "komprimerad",
+    "description": "Komprimerad betyder packad för att ta mindre plats. Okomprimerad betyder lagrad utan sådan packning.",
+    "examples": [
+      "Den komprimerade filen är mindre än den okomprimerade.",
+      "Ljudet finns i komprimerad och okomprimerad form."
+    ],
+    "related": [
+      "komprimerad"
+    ]
+  },
+  "filtrerad": {
+    "opposite": "ofiltrerad",
+    "description": "Filtrerad betyder renad eller sorterad genom ett filter. Ofiltrerad betyder att inget filter har använts.",
+    "examples": [
+      "Vattnet är filtrerat, men provet är ofiltrerat.",
+      "Jämför den filtrerade bilden med den ofiltrerade."
+    ],
+    "related": [
+      "ofiltrerad"
+    ]
+  },
+  "ofiltrerad": {
+    "opposite": "filtrerad",
+    "description": "Filtrerad betyder renad eller sorterad genom ett filter. Ofiltrerad betyder att inget filter har använts.",
+    "examples": [
+      "Vattnet är filtrerat, men provet är ofiltrerat.",
+      "Jämför den filtrerade bilden med den ofiltrerade."
+    ],
+    "related": [
+      "filtrerad"
+    ]
+  },
+  "sorterad": {
+    "opposite": "osorterad",
+    "description": "Sorterad betyder ordnad efter ett system. Osorterad betyder att sådan ordning saknas.",
+    "examples": [
+      "Den sorterade posten ligger bredvid den osorterade.",
+      "Listan gick från osorterad till sorterad."
+    ],
+    "related": [
+      "osorterad"
+    ]
+  },
+  "osorterad": {
+    "opposite": "sorterad",
+    "description": "Sorterad betyder ordnad efter ett system. Osorterad betyder att sådan ordning saknas.",
+    "examples": [
+      "Den sorterade posten ligger bredvid den osorterade.",
+      "Listan gick från osorterad till sorterad."
+    ],
+    "related": [
+      "sorterad"
+    ]
+  },
+  "indexerad": {
+    "opposite": "oindexerad",
+    "description": "Indexerad betyder upptagen i ett index och möjlig att hitta där. Oindexerad betyder att den saknas i indexet.",
+    "examples": [
+      "Sidan är indexerad, men den nya sidan är ännu oindexerad.",
+      "Sökmotorn skiljer mellan indexerade och oindexerade sidor."
+    ],
+    "related": [
+      "oindexerad"
+    ]
+  },
+  "oindexerad": {
+    "opposite": "indexerad",
+    "description": "Indexerad betyder upptagen i ett index och möjlig att hitta där. Oindexerad betyder att den saknas i indexet.",
+    "examples": [
+      "Sidan är indexerad, men den nya sidan är ännu oindexerad.",
+      "Sökmotorn skiljer mellan indexerade och oindexerade sidor."
+    ],
+    "related": [
+      "indexerad"
+    ]
+  },
+  "publicerad": {
+    "opposite": "opublicerad",
+    "description": "Publicerad betyder utgiven eller gjord offentlig. Opublicerad betyder att den ännu inte har publicerats.",
+    "examples": [
+      "Artikeln är publicerad, men bilagan är opublicerad.",
+      "Hon jämförde publicerade och opublicerade texter."
+    ],
+    "related": [
+      "opublicerad"
+    ]
+  },
+  "opublicerad": {
+    "opposite": "publicerad",
+    "description": "Publicerad betyder utgiven eller gjord offentlig. Opublicerad betyder att den ännu inte har publicerats.",
+    "examples": [
+      "Artikeln är publicerad, men bilagan är opublicerad.",
+      "Hon jämförde publicerade och opublicerade texter."
+    ],
+    "related": [
+      "publicerad"
+    ]
+  },
+  "registrerad": {
+    "opposite": "oregistrerad",
+    "description": "Registrerad betyder införd i ett register. Oregistrerad betyder att registrering saknas.",
+    "examples": [
+      "Bilen är registrerad, men släpet är oregistrerat.",
+      "Systemet visar registrerade och oregistrerade användare."
+    ],
+    "related": [
+      "oregistrerad"
+    ]
+  },
+  "oregistrerad": {
+    "opposite": "registrerad",
+    "description": "Registrerad betyder införd i ett register. Oregistrerad betyder att registrering saknas.",
+    "examples": [
+      "Bilen är registrerad, men släpet är oregistrerat.",
+      "Systemet visar registrerade och oregistrerade användare."
+    ],
+    "related": [
+      "registrerad"
+    ]
+  },
+  "licensierad": {
+    "opposite": "olicensierad",
+    "description": "Licensierad betyder försedd med eller godkänd genom en licens. Olicensierad betyder utan licens.",
+    "examples": [
+      "Programmet är licensierat, medan kopian är olicensierad.",
+      "Endast licensierade aktörer får ersätta de olicensierade."
+    ],
+    "related": [
+      "olicensierad"
+    ]
+  },
+  "olicensierad": {
+    "opposite": "licensierad",
+    "description": "Licensierad betyder försedd med eller godkänd genom en licens. Olicensierad betyder utan licens.",
+    "examples": [
+      "Programmet är licensierat, medan kopian är olicensierad.",
+      "Endast licensierade aktörer får ersätta de olicensierade."
+    ],
+    "related": [
+      "licensierad"
+    ]
+  },
+  "certifierad": {
+    "opposite": "ocertifierad",
+    "description": "Certifierad betyder godkänd genom en certifiering. Ocertifierad betyder att sådan certifiering saknas.",
+    "examples": [
+      "Produkten är certifierad, men prototypen är ocertifierad.",
+      "Kontrollen skiljer certifierade leverantörer från ocertifierade."
+    ],
+    "related": [
+      "ocertifierad"
+    ]
+  },
+  "ocertifierad": {
+    "opposite": "certifierad",
+    "description": "Certifierad betyder godkänd genom en certifiering. Ocertifierad betyder att sådan certifiering saknas.",
+    "examples": [
+      "Produkten är certifierad, men prototypen är ocertifierad.",
+      "Kontrollen skiljer certifierade leverantörer från ocertifierade."
+    ],
+    "related": [
+      "certifierad"
+    ]
+  },
+  "verifierad": {
+    "opposite": "overifierad",
+    "description": "Verifierad betyder kontrollerad och bekräftad. Overifierad betyder att kontroll eller bekräftelse saknas.",
+    "examples": [
+      "Uppgiften är verifierad, men ryktet är overifierat.",
+      "Använd verifierade källor i stället för overifierade."
+    ],
+    "related": [
+      "overifierad"
+    ]
+  },
+  "overifierad": {
+    "opposite": "verifierad",
+    "description": "Verifierad betyder kontrollerad och bekräftad. Overifierad betyder att kontroll eller bekräftelse saknas.",
+    "examples": [
+      "Uppgiften är verifierad, men ryktet är overifierat.",
+      "Använd verifierade källor i stället för overifierade."
+    ],
+    "related": [
+      "verifierad"
+    ]
+  },
+  "original": {
+    "opposite": "kopia",
+    "description": "Ett original är det första eller äkta exemplaret. En kopia är en återgivning av originalet.",
+    "examples": [
+      "Originalet förvaras i arkivet och en kopia visas upp.",
+      "Kontrollera om dokumentet är original eller kopia."
+    ],
+    "related": [
+      "kopia"
+    ]
+  },
+  "kopia": {
+    "opposite": "original",
+    "description": "Ett original är det första eller äkta exemplaret. En kopia är en återgivning av originalet.",
+    "examples": [
+      "Originalet förvaras i arkivet och en kopia visas upp.",
+      "Kontrollera om dokumentet är original eller kopia."
+    ],
+    "related": [
+      "original"
+    ]
+  },
+  "hel": {
+    "opposite": "trasig",
+    "description": "Hel betyder oskadad och fungerande. Trasig betyder skadad eller inte fungerande.",
+    "examples": [
+      "Den ena koppen är hel och den andra trasig.",
+      "Mekanikern bytte den trasiga delen mot en hel."
+    ],
+    "related": [
+      "trasig"
+    ]
+  },
+  "trasig": {
+    "opposite": "hel",
+    "description": "Hel betyder oskadad och fungerande. Trasig betyder skadad eller inte fungerande.",
+    "examples": [
+      "Den ena koppen är hel och den andra trasig.",
+      "Mekanikern bytte den trasiga delen mot en hel."
+    ],
+    "related": [
+      "hel"
+    ]
+  },
+  "monterad": {
+    "opposite": "demonterad",
+    "description": "Monterad betyder hopsatt. Demonterad betyder isärtagen.",
+    "examples": [
+      "Cykeln levereras monterad eller demonterad.",
+      "Maskinen gick från monterad till demonterad."
+    ],
+    "related": [
+      "demonterad"
+    ]
+  },
+  "demonterad": {
+    "opposite": "monterad",
+    "description": "Monterad betyder hopsatt. Demonterad betyder isärtagen.",
+    "examples": [
+      "Cykeln levereras monterad eller demonterad.",
+      "Maskinen gick från monterad till demonterad."
+    ],
+    "related": [
+      "monterad"
+    ]
+  },
+  "hopfälld": {
+    "opposite": "utfälld",
+    "description": "Hopfälld betyder vikt ihop. Utfälld betyder öppnad till full storlek.",
+    "examples": [
+      "Stolen är hopfälld, men bordet är utfällt.",
+      "Fäll paraplyet från hopfällt till utfällt läge."
+    ],
+    "related": [
+      "utfälld"
+    ]
+  },
+  "utfälld": {
+    "opposite": "hopfälld",
+    "description": "Hopfälld betyder vikt ihop. Utfälld betyder öppnad till full storlek.",
+    "examples": [
+      "Stolen är hopfälld, men bordet är utfällt.",
+      "Fäll paraplyet från hopfällt till utfällt läge."
+    ],
+    "related": [
+      "hopfälld"
+    ]
+  },
+  "uppblåst": {
+    "opposite": "tömd",
+    "description": "Uppblåst betyder fylld med luft eller gas. Tömd betyder att innehållet har tagits bort.",
+    "examples": [
+      "Ballongen var uppblåst, men den andra var tömd.",
+      "Båten förvaras tömd och används uppblåst."
+    ],
+    "related": [
+      "tömd"
+    ]
+  },
+  "tömd": {
+    "opposite": "uppblåst",
+    "description": "Uppblåst betyder fylld med luft eller gas. Tömd betyder att innehållet har tagits bort.",
+    "examples": [
+      "Ballongen var uppblåst, men den andra var tömd.",
+      "Båten förvaras tömd och används uppblåst."
+    ],
+    "related": [
+      "uppblåst"
+    ]
+  },
+  "påslagen": {
+    "opposite": "avstängd",
+    "description": "Påslagen betyder att en apparat är igång. Avstängd betyder att den inte är igång.",
+    "examples": [
+      "Lampan är påslagen, men datorn är avstängd.",
+      "Stäng av den påslagna apparaten så att den blir avstängd."
+    ],
+    "related": [
+      "avstängd"
+    ]
+  },
+  "avstängd": {
+    "opposite": "påslagen",
+    "description": "Påslagen betyder att en apparat är igång. Avstängd betyder att den inte är igång.",
+    "examples": [
+      "Lampan är påslagen, men datorn är avstängd.",
+      "Stäng av den påslagna apparaten så att den blir avstängd."
+    ],
+    "related": [
+      "påslagen"
+    ]
+  },
+  "laddad": {
+    "opposite": "urladdad",
+    "description": "Laddad betyder att ett batteri har lagrad energi. Urladdad betyder att energin är slut.",
+    "examples": [
       "Det ena batteriet är laddat och det andra urladdat.",
       "Ladda det urladdade batteriet tills det är laddat."
     ],
@@ -30924,6 +33000,11005 @@ export const words: Record<string, WordEntry> = {
     "related": [
       "tillsvidareanställa"
     ]
+  },
+  "ädel": {
+    "opposite": "oädel",
+    "description": "Ädel och oädel används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”ädel” med ”oädel”.",
+      "I exemplet används både ”ädel” och ”oädel”."
+    ],
+    "related": [
+      "oädel"
+    ]
+  },
+  "oädel": {
+    "opposite": "ädel",
+    "description": "Ädel och oädel används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”ädel” med ”oädel”.",
+      "I exemplet används både ”ädel” och ”oädel”."
+    ],
+    "related": [
+      "ädel"
+    ]
+  },
+  "ädelhet": {
+    "opposite": "oädelhet",
+    "description": "Ädelhet står i tydlig kontrast till oädelhet.",
+    "examples": [
+      "Skillnaden mellan ”ädelhet” och ”oädelhet” blev tydlig.",
+      "Förklaringen visar hur ”ädelhet” skiljer sig från ”oädelhet”."
+    ],
+    "related": [
+      "oädelhet"
+    ]
+  },
+  "oädelhet": {
+    "opposite": "ädelhet",
+    "description": "Ädelhet står i tydlig kontrast till oädelhet.",
+    "examples": [
+      "Skillnaden mellan ”ädelhet” och ”oädelhet” blev tydlig.",
+      "Förklaringen visar hur ”ädelhet” skiljer sig från ”oädelhet”."
+    ],
+    "related": [
+      "ädelhet"
+    ]
+  },
+  "affekterad": {
+    "opposite": "oaffekterad",
+    "description": "Orden affekterad och oaffekterad beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”affekterad” och det andra som ”oaffekterad”.",
+      "Orden ”affekterad” och ”oaffekterad” ställdes mot varandra."
+    ],
+    "related": [
+      "oaffekterad"
+    ]
+  },
+  "oaffekterad": {
+    "opposite": "affekterad",
+    "description": "Orden affekterad och oaffekterad beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”affekterad” och det andra som ”oaffekterad”.",
+      "Orden ”affekterad” och ”oaffekterad” ställdes mot varandra."
+    ],
+    "related": [
+      "affekterad"
+    ]
+  },
+  "äkthet": {
+    "opposite": "oäkthet",
+    "description": "Äkthet och oäkthet uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”äkthet” och ”oäkthet”.",
+      "Övningen innehöll både ordet ”äkthet” och ordet ”oäkthet”."
+    ],
+    "related": [
+      "oäkthet"
+    ]
+  },
+  "oäkthet": {
+    "opposite": "äkthet",
+    "description": "Äkthet och oäkthet uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”äkthet” och ”oäkthet”.",
+      "Övningen innehöll både ordet ”äkthet” och ordet ”oäkthet”."
+    ],
+    "related": [
+      "äkthet"
+    ]
+  },
+  "aktsamhet": {
+    "opposite": "oaktsamhet",
+    "description": "Aktsamhet och oaktsamhet används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”aktsamhet” med ”oaktsamhet”.",
+      "I exemplet används både ”aktsamhet” och ”oaktsamhet”."
+    ],
+    "related": [
+      "oaktsamhet"
+    ]
+  },
+  "oaktsamhet": {
+    "opposite": "aktsamhet",
+    "description": "Aktsamhet och oaktsamhet används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”aktsamhet” med ”oaktsamhet”.",
+      "I exemplet används både ”aktsamhet” och ”oaktsamhet”."
+    ],
+    "related": [
+      "aktsamhet"
+    ]
+  },
+  "aktuell": {
+    "opposite": "inaktuell",
+    "description": "Aktuell står i tydlig kontrast till inaktuell.",
+    "examples": [
+      "Skillnaden mellan ”aktuell” och ”inaktuell” blev tydlig.",
+      "Förklaringen visar hur ”aktuell” skiljer sig från ”inaktuell”."
+    ],
+    "related": [
+      "inaktuell"
+    ]
+  },
+  "inaktuell": {
+    "opposite": "aktuell",
+    "description": "Aktuell står i tydlig kontrast till inaktuell.",
+    "examples": [
+      "Skillnaden mellan ”aktuell” och ”inaktuell” blev tydlig.",
+      "Förklaringen visar hur ”aktuell” skiljer sig från ”inaktuell”."
+    ],
+    "related": [
+      "aktuell"
+    ]
+  },
+  "ambitiös": {
+    "opposite": "oambitiös",
+    "description": "Orden ambitiös och oambitiös beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”ambitiös” och det andra som ”oambitiös”.",
+      "Orden ”ambitiös” och ”oambitiös” ställdes mot varandra."
+    ],
+    "related": [
+      "oambitiös"
+    ]
+  },
+  "oambitiös": {
+    "opposite": "ambitiös",
+    "description": "Orden ambitiös och oambitiös beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”ambitiös” och det andra som ”oambitiös”.",
+      "Orden ”ambitiös” och ”oambitiös” ställdes mot varandra."
+    ],
+    "related": [
+      "ambitiös"
+    ]
+  },
+  "ändamålsenlig": {
+    "opposite": "oändamålsenlig",
+    "description": "Ändamålsenlig och oändamålsenlig uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”ändamålsenlig” och ”oändamålsenlig”.",
+      "Övningen innehöll både ordet ”ändamålsenlig” och ordet ”oändamålsenlig”."
+    ],
+    "related": [
+      "oändamålsenlig"
+    ]
+  },
+  "oändamålsenlig": {
+    "opposite": "ändamålsenlig",
+    "description": "Ändamålsenlig och oändamålsenlig uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”ändamålsenlig” och ”oändamålsenlig”.",
+      "Övningen innehöll både ordet ”ändamålsenlig” och ordet ”oändamålsenlig”."
+    ],
+    "related": [
+      "ändamålsenlig"
+    ]
+  },
+  "ändlighet": {
+    "opposite": "oändlighet",
+    "description": "Ändlighet och oändlighet används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”ändlighet” med ”oändlighet”.",
+      "I exemplet används både ”ändlighet” och ”oändlighet”."
+    ],
+    "related": [
+      "oändlighet"
+    ]
+  },
+  "oändlighet": {
+    "opposite": "ändlighet",
+    "description": "Ändlighet och oändlighet används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”ändlighet” med ”oändlighet”.",
+      "I exemplet används både ”ändlighet” och ”oändlighet”."
+    ],
+    "related": [
+      "ändlighet"
+    ]
+  },
+  "anträffbar": {
+    "opposite": "oanträffbar",
+    "description": "Anträffbar står i tydlig kontrast till oanträffbar.",
+    "examples": [
+      "Skillnaden mellan ”anträffbar” och ”oanträffbar” blev tydlig.",
+      "Förklaringen visar hur ”anträffbar” skiljer sig från ”oanträffbar”."
+    ],
+    "related": [
+      "oanträffbar"
+    ]
+  },
+  "oanträffbar": {
+    "opposite": "anträffbar",
+    "description": "Anträffbar står i tydlig kontrast till oanträffbar.",
+    "examples": [
+      "Skillnaden mellan ”anträffbar” och ”oanträffbar” blev tydlig.",
+      "Förklaringen visar hur ”anträffbar” skiljer sig från ”oanträffbar”."
+    ],
+    "related": [
+      "anträffbar"
+    ]
+  },
+  "anträffbarhet": {
+    "opposite": "oanträffbarhet",
+    "description": "Orden anträffbarhet och oanträffbarhet beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”anträffbarhet” och det andra som ”oanträffbarhet”.",
+      "Orden ”anträffbarhet” och ”oanträffbarhet” ställdes mot varandra."
+    ],
+    "related": [
+      "oanträffbarhet"
+    ]
+  },
+  "oanträffbarhet": {
+    "opposite": "anträffbarhet",
+    "description": "Orden anträffbarhet och oanträffbarhet beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”anträffbarhet” och det andra som ”oanträffbarhet”.",
+      "Orden ”anträffbarhet” och ”oanträffbarhet” ställdes mot varandra."
+    ],
+    "related": [
+      "anträffbarhet"
+    ]
+  },
+  "användbarhet": {
+    "opposite": "oanvändbarhet",
+    "description": "Användbarhet och oanvändbarhet uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”användbarhet” och ”oanvändbarhet”.",
+      "Övningen innehöll både ordet ”användbarhet” och ordet ”oanvändbarhet”."
+    ],
+    "related": [
+      "oanvändbarhet"
+    ]
+  },
+  "oanvändbarhet": {
+    "opposite": "användbarhet",
+    "description": "Användbarhet och oanvändbarhet uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”användbarhet” och ”oanvändbarhet”.",
+      "Övningen innehöll både ordet ”användbarhet” och ordet ”oanvändbarhet”."
+    ],
+    "related": [
+      "användbarhet"
+    ]
+  },
+  "attraktiv": {
+    "opposite": "oattraktiv",
+    "description": "Attraktiv och oattraktiv används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”attraktiv” med ”oattraktiv”.",
+      "I exemplet används både ”attraktiv” och ”oattraktiv”."
+    ],
+    "related": [
+      "oattraktiv"
+    ]
+  },
+  "oattraktiv": {
+    "opposite": "attraktiv",
+    "description": "Attraktiv och oattraktiv används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”attraktiv” med ”oattraktiv”.",
+      "I exemplet används både ”attraktiv” och ”oattraktiv”."
+    ],
+    "related": [
+      "attraktiv"
+    ]
+  },
+  "avgjord": {
+    "opposite": "oavgjord",
+    "description": "Avgjord står i tydlig kontrast till oavgjord.",
+    "examples": [
+      "Skillnaden mellan ”avgjord” och ”oavgjord” blev tydlig.",
+      "Förklaringen visar hur ”avgjord” skiljer sig från ”oavgjord”."
+    ],
+    "related": [
+      "oavgjord"
+    ]
+  },
+  "oavgjord": {
+    "opposite": "avgjord",
+    "description": "Avgjord står i tydlig kontrast till oavgjord.",
+    "examples": [
+      "Skillnaden mellan ”avgjord” och ”oavgjord” blev tydlig.",
+      "Förklaringen visar hur ”avgjord” skiljer sig från ”oavgjord”."
+    ],
+    "related": [
+      "avgjord"
+    ]
+  },
+  "avkortad": {
+    "opposite": "oavkortad",
+    "description": "Orden avkortad och oavkortad beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”avkortad” och det andra som ”oavkortad”.",
+      "Orden ”avkortad” och ”oavkortad” ställdes mot varandra."
+    ],
+    "related": [
+      "oavkortad"
+    ]
+  },
+  "oavkortad": {
+    "opposite": "avkortad",
+    "description": "Orden avkortad och oavkortad beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”avkortad” och det andra som ”oavkortad”.",
+      "Orden ”avkortad” och ”oavkortad” ställdes mot varandra."
+    ],
+    "related": [
+      "avkortad"
+    ]
+  },
+  "avsättlig": {
+    "opposite": "oavsättlig",
+    "description": "Avsättlig och oavsättlig uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”avsättlig” och ”oavsättlig”.",
+      "Övningen innehöll både ordet ”avsättlig” och ordet ”oavsättlig”."
+    ],
+    "related": [
+      "oavsättlig"
+    ]
+  },
+  "oavsättlig": {
+    "opposite": "avsättlig",
+    "description": "Avsättlig och oavsättlig uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”avsättlig” och ”oavsättlig”.",
+      "Övningen innehöll både ordet ”avsättlig” och ordet ”oavsättlig”."
+    ],
+    "related": [
+      "avsättlig"
+    ]
+  },
+  "avsiktligen": {
+    "opposite": "oavsiktligen",
+    "description": "Avsiktligen och oavsiktligen används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”avsiktligen” med ”oavsiktligen”.",
+      "I exemplet används både ”avsiktligen” och ”oavsiktligen”."
+    ],
+    "related": [
+      "oavsiktligen"
+    ]
+  },
+  "oavsiktligen": {
+    "opposite": "avsiktligen",
+    "description": "Avsiktligen och oavsiktligen används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”avsiktligen” med ”oavsiktligen”.",
+      "I exemplet används både ”avsiktligen” och ”oavsiktligen”."
+    ],
+    "related": [
+      "avsiktligen"
+    ]
+  },
+  "bakanför": {
+    "opposite": "framanför",
+    "description": "Bakanför står i tydlig kontrast till framanför.",
+    "examples": [
+      "Skillnaden mellan ”bakanför” och ”framanför” blev tydlig.",
+      "Förklaringen visar hur ”bakanför” skiljer sig från ”framanför”."
+    ],
+    "related": [
+      "framanför"
+    ]
+  },
+  "framanför": {
+    "opposite": "bakanför",
+    "description": "Bakanför står i tydlig kontrast till framanför.",
+    "examples": [
+      "Skillnaden mellan ”bakanför” och ”framanför” blev tydlig.",
+      "Förklaringen visar hur ”bakanför” skiljer sig från ”framanför”."
+    ],
+    "related": [
+      "bakanför"
+    ]
+  },
+  "bakhov": {
+    "opposite": "framhov",
+    "description": "Orden bakhov och framhov beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”bakhov” och det andra som ”framhov”.",
+      "Orden ”bakhov” och ”framhov” ställdes mot varandra."
+    ],
+    "related": [
+      "framhov"
+    ]
+  },
+  "framhov": {
+    "opposite": "bakhov",
+    "description": "Orden bakhov och framhov beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”bakhov” och det andra som ”framhov”.",
+      "Orden ”bakhov” och ”framhov” ställdes mot varandra."
+    ],
+    "related": [
+      "bakhov"
+    ]
+  },
+  "bakifrån": {
+    "opposite": "framifrån",
+    "description": "Bakifrån och framifrån uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”bakifrån” och ”framifrån”.",
+      "Övningen innehöll både ordet ”bakifrån” och ordet ”framifrån”."
+    ],
+    "related": [
+      "framifrån"
+    ]
+  },
+  "framifrån": {
+    "opposite": "bakifrån",
+    "description": "Bakifrån och framifrån uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”bakifrån” och ”framifrån”.",
+      "Övningen innehöll både ordet ”bakifrån” och ordet ”framifrån”."
+    ],
+    "related": [
+      "bakifrån"
+    ]
+  },
+  "baktill": {
+    "opposite": "framtill",
+    "description": "Baktill och framtill används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”baktill” med ”framtill”.",
+      "I exemplet används både ”baktill” och ”framtill”."
+    ],
+    "related": [
+      "framtill"
+    ]
+  },
+  "framtill": {
+    "opposite": "baktill",
+    "description": "Baktill och framtill används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”baktill” med ”framtill”.",
+      "I exemplet används både ”baktill” och ”framtill”."
+    ],
+    "related": [
+      "baktill"
+    ]
+  },
+  "barkad": {
+    "opposite": "obarkad",
+    "description": "Barkad står i tydlig kontrast till obarkad.",
+    "examples": [
+      "Skillnaden mellan ”barkad” och ”obarkad” blev tydlig.",
+      "Förklaringen visar hur ”barkad” skiljer sig från ”obarkad”."
+    ],
+    "related": [
+      "obarkad"
+    ]
+  },
+  "obarkad": {
+    "opposite": "barkad",
+    "description": "Barkad står i tydlig kontrast till obarkad.",
+    "examples": [
+      "Skillnaden mellan ”barkad” och ”obarkad” blev tydlig.",
+      "Förklaringen visar hur ”barkad” skiljer sig från ”obarkad”."
+    ],
+    "related": [
+      "barkad"
+    ]
+  },
+  "barmhärtig": {
+    "opposite": "obarmhärtig",
+    "description": "Orden barmhärtig och obarmhärtig beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”barmhärtig” och det andra som ”obarmhärtig”.",
+      "Orden ”barmhärtig” och ”obarmhärtig” ställdes mot varandra."
+    ],
+    "related": [
+      "obarmhärtig"
+    ]
+  },
+  "obarmhärtig": {
+    "opposite": "barmhärtig",
+    "description": "Orden barmhärtig och obarmhärtig beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”barmhärtig” och det andra som ”obarmhärtig”.",
+      "Orden ”barmhärtig” och ”obarmhärtig” ställdes mot varandra."
+    ],
+    "related": [
+      "barmhärtig"
+    ]
+  },
+  "barmhärtighet": {
+    "opposite": "obarmhärtighet",
+    "description": "Barmhärtighet och obarmhärtighet uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”barmhärtighet” och ”obarmhärtighet”.",
+      "Övningen innehöll både ordet ”barmhärtighet” och ordet ”obarmhärtighet”."
+    ],
+    "related": [
+      "obarmhärtighet"
+    ]
+  },
+  "obarmhärtighet": {
+    "opposite": "barmhärtighet",
+    "description": "Barmhärtighet och obarmhärtighet uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”barmhärtighet” och ”obarmhärtighet”.",
+      "Övningen innehöll både ordet ”barmhärtighet” och ordet ”obarmhärtighet”."
+    ],
+    "related": [
+      "barmhärtighet"
+    ]
+  },
+  "bebyggd": {
+    "opposite": "obebyggd",
+    "description": "Bebyggd och obebyggd används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”bebyggd” med ”obebyggd”.",
+      "I exemplet används både ”bebyggd” och ”obebyggd”."
+    ],
+    "related": [
+      "obebyggd"
+    ]
+  },
+  "obebyggd": {
+    "opposite": "bebyggd",
+    "description": "Bebyggd och obebyggd används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”bebyggd” med ”obebyggd”.",
+      "I exemplet används både ”bebyggd” och ”obebyggd”."
+    ],
+    "related": [
+      "bebyggd"
+    ]
+  },
+  "befaren": {
+    "opposite": "obefaren",
+    "description": "Befaren står i tydlig kontrast till obefaren.",
+    "examples": [
+      "Skillnaden mellan ”befaren” och ”obefaren” blev tydlig.",
+      "Förklaringen visar hur ”befaren” skiljer sig från ”obefaren”."
+    ],
+    "related": [
+      "obefaren"
+    ]
+  },
+  "obefaren": {
+    "opposite": "befaren",
+    "description": "Befaren står i tydlig kontrast till obefaren.",
+    "examples": [
+      "Skillnaden mellan ”befaren” och ”obefaren” blev tydlig.",
+      "Förklaringen visar hur ”befaren” skiljer sig från ”obefaren”."
+    ],
+    "related": [
+      "befaren"
+    ]
+  },
+  "befogad": {
+    "opposite": "obefogad",
+    "description": "Orden befogad och obefogad beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”befogad” och det andra som ”obefogad”.",
+      "Orden ”befogad” och ”obefogad” ställdes mot varandra."
+    ],
+    "related": [
+      "obefogad"
+    ]
+  },
+  "obefogad": {
+    "opposite": "befogad",
+    "description": "Orden befogad och obefogad beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”befogad” och det andra som ”obefogad”.",
+      "Orden ”befogad” och ”obefogad” ställdes mot varandra."
+    ],
+    "related": [
+      "befogad"
+    ]
+  },
+  "begåvad": {
+    "opposite": "obegåvad",
+    "description": "Begåvad och obegåvad uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”begåvad” och ”obegåvad”.",
+      "Övningen innehöll både ordet ”begåvad” och ordet ”obegåvad”."
+    ],
+    "related": [
+      "obegåvad"
+    ]
+  },
+  "obegåvad": {
+    "opposite": "begåvad",
+    "description": "Begåvad och obegåvad uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”begåvad” och ”obegåvad”.",
+      "Övningen innehöll både ordet ”begåvad” och ordet ”obegåvad”."
+    ],
+    "related": [
+      "begåvad"
+    ]
+  },
+  "behaglighet": {
+    "opposite": "obehaglighet",
+    "description": "Behaglighet och obehaglighet används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”behaglighet” med ”obehaglighet”.",
+      "I exemplet används både ”behaglighet” och ”obehaglighet”."
+    ],
+    "related": [
+      "obehaglighet"
+    ]
+  },
+  "obehaglighet": {
+    "opposite": "behaglighet",
+    "description": "Behaglighet och obehaglighet används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”behaglighet” med ”obehaglighet”.",
+      "I exemplet används både ”behaglighet” och ”obehaglighet”."
+    ],
+    "related": [
+      "behaglighet"
+    ]
+  },
+  "behörigen": {
+    "opposite": "obehörigen",
+    "description": "Behörigen står i tydlig kontrast till obehörigen.",
+    "examples": [
+      "Skillnaden mellan ”behörigen” och ”obehörigen” blev tydlig.",
+      "Förklaringen visar hur ”behörigen” skiljer sig från ”obehörigen”."
+    ],
+    "related": [
+      "obehörigen"
+    ]
+  },
+  "obehörigen": {
+    "opposite": "behörigen",
+    "description": "Behörigen står i tydlig kontrast till obehörigen.",
+    "examples": [
+      "Skillnaden mellan ”behörigen” och ”obehörigen” blev tydlig.",
+      "Förklaringen visar hur ”behörigen” skiljer sig från ”obehörigen”."
+    ],
+    "related": [
+      "behörigen"
+    ]
+  },
+  "bekantskap": {
+    "opposite": "obekantskap",
+    "description": "Orden bekantskap och obekantskap beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”bekantskap” och det andra som ”obekantskap”.",
+      "Orden ”bekantskap” och ”obekantskap” ställdes mot varandra."
+    ],
+    "related": [
+      "obekantskap"
+    ]
+  },
+  "obekantskap": {
+    "opposite": "bekantskap",
+    "description": "Orden bekantskap och obekantskap beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”bekantskap” och det andra som ”obekantskap”.",
+      "Orden ”bekantskap” och ”obekantskap” ställdes mot varandra."
+    ],
+    "related": [
+      "bekantskap"
+    ]
+  },
+  "bekvämhet": {
+    "opposite": "obekvämhet",
+    "description": "Bekvämhet och obekvämhet uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”bekvämhet” och ”obekvämhet”.",
+      "Övningen innehöll både ordet ”bekvämhet” och ordet ”obekvämhet”."
+    ],
+    "related": [
+      "obekvämhet"
+    ]
+  },
+  "obekvämhet": {
+    "opposite": "bekvämhet",
+    "description": "Bekvämhet och obekvämhet uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”bekvämhet” och ”obekvämhet”.",
+      "Övningen innehöll både ordet ”bekvämhet” och ordet ”obekvämhet”."
+    ],
+    "related": [
+      "bekvämhet"
+    ]
+  },
+  "beläst": {
+    "opposite": "obeläst",
+    "description": "Beläst och obeläst används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”beläst” med ”obeläst”.",
+      "I exemplet används både ”beläst” och ”obeläst”."
+    ],
+    "related": [
+      "obeläst"
+    ]
+  },
+  "obeläst": {
+    "opposite": "beläst",
+    "description": "Beläst och obeläst används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”beläst” med ”obeläst”.",
+      "I exemplet används både ”beläst” och ”obeläst”."
+    ],
+    "related": [
+      "beläst"
+    ]
+  },
+  "benägenhet": {
+    "opposite": "obenägenhet",
+    "description": "Benägenhet står i tydlig kontrast till obenägenhet.",
+    "examples": [
+      "Skillnaden mellan ”benägenhet” och ”obenägenhet” blev tydlig.",
+      "Förklaringen visar hur ”benägenhet” skiljer sig från ”obenägenhet”."
+    ],
+    "related": [
+      "obenägenhet"
+    ]
+  },
+  "obenägenhet": {
+    "opposite": "benägenhet",
+    "description": "Benägenhet står i tydlig kontrast till obenägenhet.",
+    "examples": [
+      "Skillnaden mellan ”benägenhet” och ”obenägenhet” blev tydlig.",
+      "Förklaringen visar hur ”benägenhet” skiljer sig från ”obenägenhet”."
+    ],
+    "related": [
+      "benägenhet"
+    ]
+  },
+  "besegrad": {
+    "opposite": "obesegrad",
+    "description": "Orden besegrad och obesegrad beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”besegrad” och det andra som ”obesegrad”.",
+      "Orden ”besegrad” och ”obesegrad” ställdes mot varandra."
+    ],
+    "related": [
+      "obesegrad"
+    ]
+  },
+  "obesegrad": {
+    "opposite": "besegrad",
+    "description": "Orden besegrad och obesegrad beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”besegrad” och det andra som ”obesegrad”.",
+      "Orden ”besegrad” och ”obesegrad” ställdes mot varandra."
+    ],
+    "related": [
+      "besegrad"
+    ]
+  },
+  "beskuren": {
+    "opposite": "obeskuren",
+    "description": "Beskuren och obeskuren uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”beskuren” och ”obeskuren”.",
+      "Övningen innehöll både ordet ”beskuren” och ordet ”obeskuren”."
+    ],
+    "related": [
+      "obeskuren"
+    ]
+  },
+  "obeskuren": {
+    "opposite": "beskuren",
+    "description": "Beskuren och obeskuren uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”beskuren” och ”obeskuren”.",
+      "Övningen innehöll både ordet ”beskuren” och ordet ”obeskuren”."
+    ],
+    "related": [
+      "beskuren"
+    ]
+  },
+  "beslutsamhet": {
+    "opposite": "obeslutsamhet",
+    "description": "Beslutsamhet och obeslutsamhet används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”beslutsamhet” med ”obeslutsamhet”.",
+      "I exemplet används både ”beslutsamhet” och ”obeslutsamhet”."
+    ],
+    "related": [
+      "obeslutsamhet"
+    ]
+  },
+  "obeslutsamhet": {
+    "opposite": "beslutsamhet",
+    "description": "Beslutsamhet och obeslutsamhet används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”beslutsamhet” med ”obeslutsamhet”.",
+      "I exemplet används både ”beslutsamhet” och ”obeslutsamhet”."
+    ],
+    "related": [
+      "beslutsamhet"
+    ]
+  },
+  "bestämbarhet": {
+    "opposite": "obestämbarhet",
+    "description": "Bestämbarhet står i tydlig kontrast till obestämbarhet.",
+    "examples": [
+      "Skillnaden mellan ”bestämbarhet” och ”obestämbarhet” blev tydlig.",
+      "Förklaringen visar hur ”bestämbarhet” skiljer sig från ”obestämbarhet”."
+    ],
+    "related": [
+      "obestämbarhet"
+    ]
+  },
+  "obestämbarhet": {
+    "opposite": "bestämbarhet",
+    "description": "Bestämbarhet står i tydlig kontrast till obestämbarhet.",
+    "examples": [
+      "Skillnaden mellan ”bestämbarhet” och ”obestämbarhet” blev tydlig.",
+      "Förklaringen visar hur ”bestämbarhet” skiljer sig från ”obestämbarhet”."
+    ],
+    "related": [
+      "bestämbarhet"
+    ]
+  },
+  "beständig": {
+    "opposite": "obeständig",
+    "description": "Orden beständig och obeständig beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”beständig” och det andra som ”obeständig”.",
+      "Orden ”beständig” och ”obeständig” ställdes mot varandra."
+    ],
+    "related": [
+      "obeständig"
+    ]
+  },
+  "obeständig": {
+    "opposite": "beständig",
+    "description": "Orden beständig och obeständig beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”beständig” och det andra som ”obeständig”.",
+      "Orden ”beständig” och ”obeständig” ställdes mot varandra."
+    ],
+    "related": [
+      "beständig"
+    ]
+  },
+  "bestridlig": {
+    "opposite": "obestridlig",
+    "description": "Bestridlig och obestridlig uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”bestridlig” och ”obestridlig”.",
+      "Övningen innehöll både ordet ”bestridlig” och ordet ”obestridlig”."
+    ],
+    "related": [
+      "obestridlig"
+    ]
+  },
+  "obestridlig": {
+    "opposite": "bestridlig",
+    "description": "Bestridlig och obestridlig uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”bestridlig” och ”obestridlig”.",
+      "Övningen innehöll både ordet ”bestridlig” och ordet ”obestridlig”."
+    ],
+    "related": [
+      "bestridlig"
+    ]
+  },
+  "bestyrkt": {
+    "opposite": "obestyrkt",
+    "description": "Bestyrkt och obestyrkt används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”bestyrkt” med ”obestyrkt”.",
+      "I exemplet används både ”bestyrkt” och ”obestyrkt”."
+    ],
+    "related": [
+      "obestyrkt"
+    ]
+  },
+  "obestyrkt": {
+    "opposite": "bestyrkt",
+    "description": "Bestyrkt och obestyrkt används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”bestyrkt” med ”obestyrkt”.",
+      "I exemplet används både ”bestyrkt” och ”obestyrkt”."
+    ],
+    "related": [
+      "bestyrkt"
+    ]
+  },
+  "besudlad": {
+    "opposite": "obesudlad",
+    "description": "Besudlad står i tydlig kontrast till obesudlad.",
+    "examples": [
+      "Skillnaden mellan ”besudlad” och ”obesudlad” blev tydlig.",
+      "Förklaringen visar hur ”besudlad” skiljer sig från ”obesudlad”."
+    ],
+    "related": [
+      "obesudlad"
+    ]
+  },
+  "obesudlad": {
+    "opposite": "besudlad",
+    "description": "Besudlad står i tydlig kontrast till obesudlad.",
+    "examples": [
+      "Skillnaden mellan ”besudlad” och ”obesudlad” blev tydlig.",
+      "Förklaringen visar hur ”besudlad” skiljer sig från ”obesudlad”."
+    ],
+    "related": [
+      "besudlad"
+    ]
+  },
+  "besutten": {
+    "opposite": "obesutten",
+    "description": "Orden besutten och obesutten beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”besutten” och det andra som ”obesutten”.",
+      "Orden ”besutten” och ”obesutten” ställdes mot varandra."
+    ],
+    "related": [
+      "obesutten"
+    ]
+  },
+  "obesutten": {
+    "opposite": "besutten",
+    "description": "Orden besutten och obesutten beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”besutten” och det andra som ”obesutten”.",
+      "Orden ”besutten” och ”obesutten” ställdes mot varandra."
+    ],
+    "related": [
+      "besutten"
+    ]
+  },
+  "besvärlig": {
+    "opposite": "obesvärlig",
+    "description": "Besvärlig och obesvärlig uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”besvärlig” och ”obesvärlig”.",
+      "Övningen innehöll både ordet ”besvärlig” och ordet ”obesvärlig”."
+    ],
+    "related": [
+      "obesvärlig"
+    ]
+  },
+  "obesvärlig": {
+    "opposite": "besvärlig",
+    "description": "Besvärlig och obesvärlig uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”besvärlig” och ”obesvärlig”.",
+      "Övningen innehöll både ordet ”besvärlig” och ordet ”obesvärlig”."
+    ],
+    "related": [
+      "besvärlig"
+    ]
+  },
+  "bevislig": {
+    "opposite": "obevislig",
+    "description": "Bevislig och obevislig används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”bevislig” med ”obevislig”.",
+      "I exemplet används både ”bevislig” och ”obevislig”."
+    ],
+    "related": [
+      "obevislig"
+    ]
+  },
+  "obevislig": {
+    "opposite": "bevislig",
+    "description": "Bevislig och obevislig används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”bevislig” med ”obevislig”.",
+      "I exemplet används både ”bevislig” och ”obevislig”."
+    ],
+    "related": [
+      "bevislig"
+    ]
+  },
+  "bildad": {
+    "opposite": "obildad",
+    "description": "Bildad står i tydlig kontrast till obildad.",
+    "examples": [
+      "Skillnaden mellan ”bildad” och ”obildad” blev tydlig.",
+      "Förklaringen visar hur ”bildad” skiljer sig från ”obildad”."
+    ],
+    "related": [
+      "obildad"
+    ]
+  },
+  "obildad": {
+    "opposite": "bildad",
+    "description": "Bildad står i tydlig kontrast till obildad.",
+    "examples": [
+      "Skillnaden mellan ”bildad” och ”obildad” blev tydlig.",
+      "Förklaringen visar hur ”bildad” skiljer sig från ”obildad”."
+    ],
+    "related": [
+      "bildad"
+    ]
+  },
+  "bildbar": {
+    "opposite": "obildbar",
+    "description": "Orden bildbar och obildbar beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”bildbar” och det andra som ”obildbar”.",
+      "Orden ”bildbar” och ”obildbar” ställdes mot varandra."
+    ],
+    "related": [
+      "obildbar"
+    ]
+  },
+  "obildbar": {
+    "opposite": "bildbar",
+    "description": "Orden bildbar och obildbar beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”bildbar” och det andra som ”obildbar”.",
+      "Orden ”bildbar” och ”obildbar” ställdes mot varandra."
+    ],
+    "related": [
+      "bildbar"
+    ]
+  },
+  "blid": {
+    "opposite": "oblid",
+    "description": "Blid och oblid uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”blid” och ”oblid”.",
+      "Övningen innehöll både ordet ”blid” och ordet ”oblid”."
+    ],
+    "related": [
+      "oblid"
+    ]
+  },
+  "oblid": {
+    "opposite": "blid",
+    "description": "Blid och oblid uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”blid” och ”oblid”.",
+      "Övningen innehöll både ordet ”blid” och ordet ”oblid”."
+    ],
+    "related": [
+      "blid"
+    ]
+  },
+  "blodig": {
+    "opposite": "oblodig",
+    "description": "Blodig och oblodig används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”blodig” med ”oblodig”.",
+      "I exemplet används både ”blodig” och ”oblodig”."
+    ],
+    "related": [
+      "oblodig"
+    ]
+  },
+  "oblodig": {
+    "opposite": "blodig",
+    "description": "Blodig och oblodig används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”blodig” med ”oblodig”.",
+      "I exemplet används både ”blodig” och ”oblodig”."
+    ],
+    "related": [
+      "blodig"
+    ]
+  },
+  "böjlig": {
+    "opposite": "oböjlig",
+    "description": "Böjlig står i tydlig kontrast till oböjlig.",
+    "examples": [
+      "Skillnaden mellan ”böjlig” och ”oböjlig” blev tydlig.",
+      "Förklaringen visar hur ”böjlig” skiljer sig från ”oböjlig”."
+    ],
+    "related": [
+      "oböjlig"
+    ]
+  },
+  "oböjlig": {
+    "opposite": "böjlig",
+    "description": "Böjlig står i tydlig kontrast till oböjlig.",
+    "examples": [
+      "Skillnaden mellan ”böjlig” och ”oböjlig” blev tydlig.",
+      "Förklaringen visar hur ”böjlig” skiljer sig från ”oböjlig”."
+    ],
+    "related": [
+      "böjlig"
+    ]
+  },
+  "böjlighet": {
+    "opposite": "oböjlighet",
+    "description": "Orden böjlighet och oböjlighet beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”böjlighet” och det andra som ”oböjlighet”.",
+      "Orden ”böjlighet” och ”oböjlighet” ställdes mot varandra."
+    ],
+    "related": [
+      "oböjlighet"
+    ]
+  },
+  "oböjlighet": {
+    "opposite": "böjlighet",
+    "description": "Orden böjlighet och oböjlighet beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”böjlighet” och det andra som ”oböjlighet”.",
+      "Orden ”böjlighet” och ”oböjlighet” ställdes mot varandra."
+    ],
+    "related": [
+      "böjlighet"
+    ]
+  },
+  "botfärdig": {
+    "opposite": "obotfärdig",
+    "description": "Botfärdig och obotfärdig uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”botfärdig” och ”obotfärdig”.",
+      "Övningen innehöll både ordet ”botfärdig” och ordet ”obotfärdig”."
+    ],
+    "related": [
+      "obotfärdig"
+    ]
+  },
+  "obotfärdig": {
+    "opposite": "botfärdig",
+    "description": "Botfärdig och obotfärdig uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”botfärdig” och ”obotfärdig”.",
+      "Övningen innehöll både ordet ”botfärdig” och ordet ”obotfärdig”."
+    ],
+    "related": [
+      "botfärdig"
+    ]
+  },
+  "botfärdighet": {
+    "opposite": "obotfärdighet",
+    "description": "Botfärdighet och obotfärdighet används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”botfärdighet” med ”obotfärdighet”.",
+      "I exemplet används både ”botfärdighet” och ”obotfärdighet”."
+    ],
+    "related": [
+      "obotfärdighet"
+    ]
+  },
+  "obotfärdighet": {
+    "opposite": "botfärdighet",
+    "description": "Botfärdighet och obotfärdighet används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”botfärdighet” med ”obotfärdighet”.",
+      "I exemplet används både ”botfärdighet” och ”obotfärdighet”."
+    ],
+    "related": [
+      "botfärdighet"
+    ]
+  },
+  "brännbar": {
+    "opposite": "obrännbar",
+    "description": "Brännbar står i tydlig kontrast till obrännbar.",
+    "examples": [
+      "Skillnaden mellan ”brännbar” och ”obrännbar” blev tydlig.",
+      "Förklaringen visar hur ”brännbar” skiljer sig från ”obrännbar”."
+    ],
+    "related": [
+      "obrännbar"
+    ]
+  },
+  "obrännbar": {
+    "opposite": "brännbar",
+    "description": "Brännbar står i tydlig kontrast till obrännbar.",
+    "examples": [
+      "Skillnaden mellan ”brännbar” och ”obrännbar” blev tydlig.",
+      "Förklaringen visar hur ”brännbar” skiljer sig från ”obrännbar”."
+    ],
+    "related": [
+      "brännbar"
+    ]
+  },
+  "brukbarhet": {
+    "opposite": "obrukbarhet",
+    "description": "Orden brukbarhet och obrukbarhet beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”brukbarhet” och det andra som ”obrukbarhet”.",
+      "Orden ”brukbarhet” och ”obrukbarhet” ställdes mot varandra."
+    ],
+    "related": [
+      "obrukbarhet"
+    ]
+  },
+  "obrukbarhet": {
+    "opposite": "brukbarhet",
+    "description": "Orden brukbarhet och obrukbarhet beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”brukbarhet” och det andra som ”obrukbarhet”.",
+      "Orden ”brukbarhet” och ”obrukbarhet” ställdes mot varandra."
+    ],
+    "related": [
+      "brukbarhet"
+    ]
+  },
+  "bruklig": {
+    "opposite": "obruklig",
+    "description": "Bruklig och obruklig uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”bruklig” och ”obruklig”.",
+      "Övningen innehöll både ordet ”bruklig” och ordet ”obruklig”."
+    ],
+    "related": [
+      "obruklig"
+    ]
+  },
+  "obruklig": {
+    "opposite": "bruklig",
+    "description": "Bruklig och obruklig uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”bruklig” och ”obruklig”.",
+      "Övningen innehöll både ordet ”bruklig” och ordet ”obruklig”."
+    ],
+    "related": [
+      "bruklig"
+    ]
+  },
+  "bruten": {
+    "opposite": "obruten",
+    "description": "Bruten och obruten används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”bruten” med ”obruten”.",
+      "I exemplet används både ”bruten” och ”obruten”."
+    ],
+    "related": [
+      "obruten"
+    ]
+  },
+  "obruten": {
+    "opposite": "bruten",
+    "description": "Bruten och obruten används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”bruten” med ”obruten”.",
+      "I exemplet används både ”bruten” och ”obruten”."
+    ],
+    "related": [
+      "bruten"
+    ]
+  },
+  "bunden": {
+    "opposite": "obunden",
+    "description": "Bunden står i tydlig kontrast till obunden.",
+    "examples": [
+      "Skillnaden mellan ”bunden” och ”obunden” blev tydlig.",
+      "Förklaringen visar hur ”bunden” skiljer sig från ”obunden”."
+    ],
+    "related": [
+      "obunden"
+    ]
+  },
+  "obunden": {
+    "opposite": "bunden",
+    "description": "Bunden står i tydlig kontrast till obunden.",
+    "examples": [
+      "Skillnaden mellan ”bunden” och ”obunden” blev tydlig.",
+      "Förklaringen visar hur ”bunden” skiljer sig från ”obunden”."
+    ],
+    "related": [
+      "bunden"
+    ]
+  },
+  "censurerad": {
+    "opposite": "ocensurerad",
+    "description": "Orden censurerad och ocensurerad beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”censurerad” och det andra som ”ocensurerad”.",
+      "Orden ”censurerad” och ”ocensurerad” ställdes mot varandra."
+    ],
+    "related": [
+      "ocensurerad"
+    ]
+  },
+  "ocensurerad": {
+    "opposite": "censurerad",
+    "description": "Orden censurerad och ocensurerad beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”censurerad” och det andra som ”ocensurerad”.",
+      "Orden ”censurerad” och ”ocensurerad” ställdes mot varandra."
+    ],
+    "related": [
+      "censurerad"
+    ]
+  },
+  "ceremoniell": {
+    "opposite": "oceremoniell",
+    "description": "Ceremoniell och oceremoniell uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”ceremoniell” och ”oceremoniell”.",
+      "Övningen innehöll både ordet ”ceremoniell” och ordet ”oceremoniell”."
+    ],
+    "related": [
+      "oceremoniell"
+    ]
+  },
+  "oceremoniell": {
+    "opposite": "ceremoniell",
+    "description": "Ceremoniell och oceremoniell uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”ceremoniell” och ”oceremoniell”.",
+      "Övningen innehöll både ordet ”ceremoniell” och ordet ”oceremoniell”."
+    ],
+    "related": [
+      "ceremoniell"
+    ]
+  },
+  "civiliserad": {
+    "opposite": "ociviliserad",
+    "description": "Civiliserad och ociviliserad används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”civiliserad” med ”ociviliserad”.",
+      "I exemplet används både ”civiliserad” och ”ociviliserad”."
+    ],
+    "related": [
+      "ociviliserad"
+    ]
+  },
+  "ociviliserad": {
+    "opposite": "civiliserad",
+    "description": "Civiliserad och ociviliserad används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”civiliserad” med ”ociviliserad”.",
+      "I exemplet används både ”civiliserad” och ”ociviliserad”."
+    ],
+    "related": [
+      "civiliserad"
+    ]
+  },
+  "definit": {
+    "opposite": "indefinit",
+    "description": "Definit står i tydlig kontrast till indefinit.",
+    "examples": [
+      "Skillnaden mellan ”definit” och ”indefinit” blev tydlig.",
+      "Förklaringen visar hur ”definit” skiljer sig från ”indefinit”."
+    ],
+    "related": [
+      "indefinit"
+    ]
+  },
+  "indefinit": {
+    "opposite": "definit",
+    "description": "Definit står i tydlig kontrast till indefinit.",
+    "examples": [
+      "Skillnaden mellan ”definit” och ”indefinit” blev tydlig.",
+      "Förklaringen visar hur ”definit” skiljer sig från ”indefinit”."
+    ],
+    "related": [
+      "definit"
+    ]
+  },
+  "dekorerad": {
+    "opposite": "odekorerad",
+    "description": "Orden dekorerad och odekorerad beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”dekorerad” och det andra som ”odekorerad”.",
+      "Orden ”dekorerad” och ”odekorerad” ställdes mot varandra."
+    ],
+    "related": [
+      "odekorerad"
+    ]
+  },
+  "odekorerad": {
+    "opposite": "dekorerad",
+    "description": "Orden dekorerad och odekorerad beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”dekorerad” och det andra som ”odekorerad”.",
+      "Orden ”dekorerad” och ”odekorerad” ställdes mot varandra."
+    ],
+    "related": [
+      "dekorerad"
+    ]
+  },
+  "delbarhet": {
+    "opposite": "odelbarhet",
+    "description": "Delbarhet och odelbarhet uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”delbarhet” och ”odelbarhet”.",
+      "Övningen innehöll både ordet ”delbarhet” och ordet ”odelbarhet”."
+    ],
+    "related": [
+      "odelbarhet"
+    ]
+  },
+  "odelbarhet": {
+    "opposite": "delbarhet",
+    "description": "Delbarhet och odelbarhet uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”delbarhet” och ”odelbarhet”.",
+      "Övningen innehöll både ordet ”delbarhet” och ordet ”odelbarhet”."
+    ],
+    "related": [
+      "delbarhet"
+    ]
+  },
+  "deltid": {
+    "opposite": "heltid",
+    "description": "Deltid och heltid används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”deltid” med ”heltid”.",
+      "I exemplet används både ”deltid” och ”heltid”."
+    ],
+    "related": [
+      "heltid"
+    ]
+  },
+  "heltid": {
+    "opposite": "deltid",
+    "description": "Deltid och heltid används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”deltid” med ”heltid”.",
+      "I exemplet används både ”deltid” och ”heltid”."
+    ],
+    "related": [
+      "deltid"
+    ]
+  },
+  "deltidare": {
+    "opposite": "heltidare",
+    "description": "Deltidare står i tydlig kontrast till heltidare.",
+    "examples": [
+      "Skillnaden mellan ”deltidare” och ”heltidare” blev tydlig.",
+      "Förklaringen visar hur ”deltidare” skiljer sig från ”heltidare”."
+    ],
+    "related": [
+      "heltidare"
+    ]
+  },
+  "heltidare": {
+    "opposite": "deltidare",
+    "description": "Deltidare står i tydlig kontrast till heltidare.",
+    "examples": [
+      "Skillnaden mellan ”deltidare” och ”heltidare” blev tydlig.",
+      "Förklaringen visar hur ”deltidare” skiljer sig från ”heltidare”."
+    ],
+    "related": [
+      "deltidare"
+    ]
+  },
+  "deltidsanställa": {
+    "opposite": "heltidsanställa",
+    "description": "Orden deltidsanställa och heltidsanställa beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”deltidsanställa” och det andra som ”heltidsanställa”.",
+      "Orden ”deltidsanställa” och ”heltidsanställa” ställdes mot varandra."
+    ],
+    "related": [
+      "heltidsanställa"
+    ]
+  },
+  "heltidsanställa": {
+    "opposite": "deltidsanställa",
+    "description": "Orden deltidsanställa och heltidsanställa beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”deltidsanställa” och det andra som ”heltidsanställa”.",
+      "Orden ”deltidsanställa” och ”heltidsanställa” ställdes mot varandra."
+    ],
+    "related": [
+      "deltidsanställa"
+    ]
+  },
+  "deltidspolitiker": {
+    "opposite": "heltidspolitiker",
+    "description": "Deltidspolitiker och heltidspolitiker uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”deltidspolitiker” och ”heltidspolitiker”.",
+      "Övningen innehöll både ordet ”deltidspolitiker” och ordet ”heltidspolitiker”."
+    ],
+    "related": [
+      "heltidspolitiker"
+    ]
+  },
+  "heltidspolitiker": {
+    "opposite": "deltidspolitiker",
+    "description": "Deltidspolitiker och heltidspolitiker uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”deltidspolitiker” och ”heltidspolitiker”.",
+      "Övningen innehöll både ordet ”deltidspolitiker” och ordet ”heltidspolitiker”."
+    ],
+    "related": [
+      "deltidspolitiker"
+    ]
+  },
+  "dräglig": {
+    "opposite": "odräglig",
+    "description": "Dräglig och odräglig används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”dräglig” med ”odräglig”.",
+      "I exemplet används både ”dräglig” och ”odräglig”."
+    ],
+    "related": [
+      "odräglig"
+    ]
+  },
+  "odräglig": {
+    "opposite": "dräglig",
+    "description": "Dräglig och odräglig används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”dräglig” med ”odräglig”.",
+      "I exemplet används både ”dräglig” och ”odräglig”."
+    ],
+    "related": [
+      "dräglig"
+    ]
+  },
+  "dräglighet": {
+    "opposite": "odräglighet",
+    "description": "Dräglighet står i tydlig kontrast till odräglighet.",
+    "examples": [
+      "Skillnaden mellan ”dräglighet” och ”odräglighet” blev tydlig.",
+      "Förklaringen visar hur ”dräglighet” skiljer sig från ”odräglighet”."
+    ],
+    "related": [
+      "odräglighet"
+    ]
+  },
+  "odräglighet": {
+    "opposite": "dräglighet",
+    "description": "Dräglighet står i tydlig kontrast till odräglighet.",
+    "examples": [
+      "Skillnaden mellan ”dräglighet” och ”odräglighet” blev tydlig.",
+      "Förklaringen visar hur ”dräglighet” skiljer sig från ”odräglighet”."
+    ],
+    "related": [
+      "dräglighet"
+    ]
+  },
+  "dramatisk": {
+    "opposite": "odramatisk",
+    "description": "Orden dramatisk och odramatisk beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”dramatisk” och det andra som ”odramatisk”.",
+      "Orden ”dramatisk” och ”odramatisk” ställdes mot varandra."
+    ],
+    "related": [
+      "odramatisk"
+    ]
+  },
+  "odramatisk": {
+    "opposite": "dramatisk",
+    "description": "Orden dramatisk och odramatisk beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”dramatisk” och det andra som ”odramatisk”.",
+      "Orden ”dramatisk” och ”odramatisk” ställdes mot varandra."
+    ],
+    "related": [
+      "dramatisk"
+    ]
+  },
+  "duglighet": {
+    "opposite": "oduglighet",
+    "description": "Duglighet och oduglighet uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”duglighet” och ”oduglighet”.",
+      "Övningen innehöll både ordet ”duglighet” och ordet ”oduglighet”."
+    ],
+    "related": [
+      "oduglighet"
+    ]
+  },
+  "oduglighet": {
+    "opposite": "duglighet",
+    "description": "Duglighet och oduglighet uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”duglighet” och ”oduglighet”.",
+      "Övningen innehöll både ordet ”duglighet” och ordet ”oduglighet”."
+    ],
+    "related": [
+      "duglighet"
+    ]
+  },
+  "dygd": {
+    "opposite": "odygd",
+    "description": "Dygd och odygd används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”dygd” med ”odygd”.",
+      "I exemplet används både ”dygd” och ”odygd”."
+    ],
+    "related": [
+      "odygd"
+    ]
+  },
+  "odygd": {
+    "opposite": "dygd",
+    "description": "Dygd och odygd används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”dygd” med ”odygd”.",
+      "I exemplet används både ”dygd” och ”odygd”."
+    ],
+    "related": [
+      "dygd"
+    ]
+  },
+  "dygdig": {
+    "opposite": "odygdig",
+    "description": "Dygdig står i tydlig kontrast till odygdig.",
+    "examples": [
+      "Skillnaden mellan ”dygdig” och ”odygdig” blev tydlig.",
+      "Förklaringen visar hur ”dygdig” skiljer sig från ”odygdig”."
+    ],
+    "related": [
+      "odygdig"
+    ]
+  },
+  "odygdig": {
+    "opposite": "dygdig",
+    "description": "Dygdig står i tydlig kontrast till odygdig.",
+    "examples": [
+      "Skillnaden mellan ”dygdig” och ”odygdig” blev tydlig.",
+      "Förklaringen visar hur ”dygdig” skiljer sig från ”odygdig”."
+    ],
+    "related": [
+      "dygdig"
+    ]
+  },
+  "dygdighet": {
+    "opposite": "odygdighet",
+    "description": "Orden dygdighet och odygdighet beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”dygdighet” och det andra som ”odygdighet”.",
+      "Orden ”dygdighet” och ”odygdighet” ställdes mot varandra."
+    ],
+    "related": [
+      "odygdighet"
+    ]
+  },
+  "odygdighet": {
+    "opposite": "dygdighet",
+    "description": "Orden dygdighet och odygdighet beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”dygdighet” och det andra som ”odygdighet”.",
+      "Orden ”dygdighet” och ”odygdighet” ställdes mot varandra."
+    ],
+    "related": [
+      "dygdighet"
+    ]
+  },
+  "efterhand": {
+    "opposite": "förhand",
+    "description": "Efterhand och förhand uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”efterhand” och ”förhand”.",
+      "Övningen innehöll både ordet ”efterhand” och ordet ”förhand”."
+    ],
+    "related": [
+      "förhand"
+    ]
+  },
+  "förhand": {
+    "opposite": "efterhand",
+    "description": "Efterhand och förhand uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”efterhand” och ”förhand”.",
+      "Övningen innehöll både ordet ”efterhand” och ordet ”förhand”."
+    ],
+    "related": [
+      "efterhand"
+    ]
+  },
+  "efterord": {
+    "opposite": "förord",
+    "description": "Efterord och förord används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”efterord” med ”förord”.",
+      "I exemplet används både ”efterord” och ”förord”."
+    ],
+    "related": [
+      "förord"
+    ]
+  },
+  "förord": {
+    "opposite": "efterord",
+    "description": "Efterord och förord används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”efterord” med ”förord”.",
+      "I exemplet används både ”efterord” och ”förord”."
+    ],
+    "related": [
+      "efterord"
+    ]
+  },
+  "egentlig": {
+    "opposite": "oegentlig",
+    "description": "Egentlig står i tydlig kontrast till oegentlig.",
+    "examples": [
+      "Skillnaden mellan ”egentlig” och ”oegentlig” blev tydlig.",
+      "Förklaringen visar hur ”egentlig” skiljer sig från ”oegentlig”."
+    ],
+    "related": [
+      "oegentlig"
+    ]
+  },
+  "oegentlig": {
+    "opposite": "egentlig",
+    "description": "Egentlig står i tydlig kontrast till oegentlig.",
+    "examples": [
+      "Skillnaden mellan ”egentlig” och ”oegentlig” blev tydlig.",
+      "Förklaringen visar hur ”egentlig” skiljer sig från ”oegentlig”."
+    ],
+    "related": [
+      "egentlig"
+    ]
+  },
+  "ekad": {
+    "opposite": "oekad",
+    "description": "Orden ekad och oekad beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”ekad” och det andra som ”oekad”.",
+      "Orden ”ekad” och ”oekad” ställdes mot varandra."
+    ],
+    "related": [
+      "oekad"
+    ]
+  },
+  "oekad": {
+    "opposite": "ekad",
+    "description": "Orden ekad och oekad beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”ekad” och det andra som ”oekad”.",
+      "Orden ”ekad” och ”oekad” ställdes mot varandra."
+    ],
+    "related": [
+      "ekad"
+    ]
+  },
+  "enhetlighet": {
+    "opposite": "oenhetlighet",
+    "description": "Enhetlighet och oenhetlighet uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”enhetlighet” och ”oenhetlighet”.",
+      "Övningen innehöll både ordet ”enhetlighet” och ordet ”oenhetlighet”."
+    ],
+    "related": [
+      "oenhetlighet"
+    ]
+  },
+  "oenhetlighet": {
+    "opposite": "enhetlighet",
+    "description": "Enhetlighet och oenhetlighet uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”enhetlighet” och ”oenhetlighet”.",
+      "Övningen innehöll både ordet ”enhetlighet” och ordet ”oenhetlighet”."
+    ],
+    "related": [
+      "enhetlighet"
+    ]
+  },
+  "enig": {
+    "opposite": "oenig",
+    "description": "Enig och oenig används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”enig” med ”oenig”.",
+      "I exemplet används både ”enig” och ”oenig”."
+    ],
+    "related": [
+      "oenig"
+    ]
+  },
+  "oenig": {
+    "opposite": "enig",
+    "description": "Enig och oenig används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”enig” med ”oenig”.",
+      "I exemplet används både ”enig” och ”oenig”."
+    ],
+    "related": [
+      "enig"
+    ]
+  },
+  "erfarenhet": {
+    "opposite": "oerfarenhet",
+    "description": "Erfarenhet står i tydlig kontrast till oerfarenhet.",
+    "examples": [
+      "Skillnaden mellan ”erfarenhet” och ”oerfarenhet” blev tydlig.",
+      "Förklaringen visar hur ”erfarenhet” skiljer sig från ”oerfarenhet”."
+    ],
+    "related": [
+      "oerfarenhet"
+    ]
+  },
+  "oerfarenhet": {
+    "opposite": "erfarenhet",
+    "description": "Erfarenhet står i tydlig kontrast till oerfarenhet.",
+    "examples": [
+      "Skillnaden mellan ”erfarenhet” och ”oerfarenhet” blev tydlig.",
+      "Förklaringen visar hur ”erfarenhet” skiljer sig från ”oerfarenhet”."
+    ],
+    "related": [
+      "erfarenhet"
+    ]
+  },
+  "ersättlig": {
+    "opposite": "oersättlig",
+    "description": "Orden ersättlig och oersättlig beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”ersättlig” och det andra som ”oersättlig”.",
+      "Orden ”ersättlig” och ”oersättlig” ställdes mot varandra."
+    ],
+    "related": [
+      "oersättlig"
+    ]
+  },
+  "oersättlig": {
+    "opposite": "ersättlig",
+    "description": "Orden ersättlig och oersättlig beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”ersättlig” och det andra som ”oersättlig”.",
+      "Orden ”ersättlig” och ”oersättlig” ställdes mot varandra."
+    ],
+    "related": [
+      "ersättlig"
+    ]
+  },
+  "estetisk": {
+    "opposite": "oestetisk",
+    "description": "Estetisk och oestetisk uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”estetisk” och ”oestetisk”.",
+      "Övningen innehöll både ordet ”estetisk” och ordet ”oestetisk”."
+    ],
+    "related": [
+      "oestetisk"
+    ]
+  },
+  "oestetisk": {
+    "opposite": "estetisk",
+    "description": "Estetisk och oestetisk uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”estetisk” och ”oestetisk”.",
+      "Övningen innehöll både ordet ”estetisk” och ordet ”oestetisk”."
+    ],
+    "related": [
+      "estetisk"
+    ]
+  },
+  "farbar": {
+    "opposite": "ofarbar",
+    "description": "Farbar och ofarbar används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”farbar” med ”ofarbar”.",
+      "I exemplet används både ”farbar” och ”ofarbar”."
+    ],
+    "related": [
+      "ofarbar"
+    ]
+  },
+  "ofarbar": {
+    "opposite": "farbar",
+    "description": "Farbar och ofarbar används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”farbar” med ”ofarbar”.",
+      "I exemplet används både ”farbar” och ”ofarbar”."
+    ],
+    "related": [
+      "farbar"
+    ]
+  },
+  "farlighet": {
+    "opposite": "ofarlighet",
+    "description": "Farlighet står i tydlig kontrast till ofarlighet.",
+    "examples": [
+      "Skillnaden mellan ”farlighet” och ”ofarlighet” blev tydlig.",
+      "Förklaringen visar hur ”farlighet” skiljer sig från ”ofarlighet”."
+    ],
+    "related": [
+      "ofarlighet"
+    ]
+  },
+  "ofarlighet": {
+    "opposite": "farlighet",
+    "description": "Farlighet står i tydlig kontrast till ofarlighet.",
+    "examples": [
+      "Skillnaden mellan ”farlighet” och ”ofarlighet” blev tydlig.",
+      "Förklaringen visar hur ”farlighet” skiljer sig från ”ofarlighet”."
+    ],
+    "related": [
+      "farlighet"
+    ]
+  },
+  "felbar": {
+    "opposite": "ofelbar",
+    "description": "Orden felbar och ofelbar beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”felbar” och det andra som ”ofelbar”.",
+      "Orden ”felbar” och ”ofelbar” ställdes mot varandra."
+    ],
+    "related": [
+      "ofelbar"
+    ]
+  },
+  "ofelbar": {
+    "opposite": "felbar",
+    "description": "Orden felbar och ofelbar beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”felbar” och det andra som ”ofelbar”.",
+      "Orden ”felbar” och ”ofelbar” ställdes mot varandra."
+    ],
+    "related": [
+      "felbar"
+    ]
+  },
+  "felbarhet": {
+    "opposite": "ofelbarhet",
+    "description": "Felbarhet och ofelbarhet uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”felbarhet” och ”ofelbarhet”.",
+      "Övningen innehöll både ordet ”felbarhet” och ordet ”ofelbarhet”."
+    ],
+    "related": [
+      "ofelbarhet"
+    ]
+  },
+  "ofelbarhet": {
+    "opposite": "felbarhet",
+    "description": "Felbarhet och ofelbarhet uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”felbarhet” och ”ofelbarhet”.",
+      "Övningen innehöll både ordet ”felbarhet” och ordet ”ofelbarhet”."
+    ],
+    "related": [
+      "felbarhet"
+    ]
+  },
+  "finit": {
+    "opposite": "infinit",
+    "description": "Finit och infinit används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”finit” med ”infinit”.",
+      "I exemplet används både ”finit” och ”infinit”."
+    ],
+    "related": [
+      "infinit"
+    ]
+  },
+  "infinit": {
+    "opposite": "finit",
+    "description": "Finit och infinit används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”finit” med ”infinit”.",
+      "I exemplet används både ”finit” och ”infinit”."
+    ],
+    "related": [
+      "finit"
+    ]
+  },
+  "född": {
+    "opposite": "ofödd",
+    "description": "Född står i tydlig kontrast till ofödd.",
+    "examples": [
+      "Skillnaden mellan ”född” och ”ofödd” blev tydlig.",
+      "Förklaringen visar hur ”född” skiljer sig från ”ofödd”."
+    ],
+    "related": [
+      "ofödd"
+    ]
+  },
+  "ofödd": {
+    "opposite": "född",
+    "description": "Född står i tydlig kontrast till ofödd.",
+    "examples": [
+      "Skillnaden mellan ”född” och ”ofödd” blev tydlig.",
+      "Förklaringen visar hur ”född” skiljer sig från ”ofödd”."
+    ],
+    "related": [
+      "född"
+    ]
+  },
+  "förbehållsamhet": {
+    "opposite": "oförbehållsamhet",
+    "description": "Orden förbehållsamhet och oförbehållsamhet beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”förbehållsamhet” och det andra som ”oförbehållsamhet”.",
+      "Orden ”förbehållsamhet” och ”oförbehållsamhet” ställdes mot varandra."
+    ],
+    "related": [
+      "oförbehållsamhet"
+    ]
+  },
+  "oförbehållsamhet": {
+    "opposite": "förbehållsamhet",
+    "description": "Orden förbehållsamhet och oförbehållsamhet beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”förbehållsamhet” och det andra som ”oförbehållsamhet”.",
+      "Orden ”förbehållsamhet” och ”oförbehållsamhet” ställdes mot varandra."
+    ],
+    "related": [
+      "förbehållsamhet"
+    ]
+  },
+  "fördelaktig": {
+    "opposite": "ofördelaktig",
+    "description": "Fördelaktig och ofördelaktig uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”fördelaktig” och ”ofördelaktig”.",
+      "Övningen innehöll både ordet ”fördelaktig” och ordet ”ofördelaktig”."
+    ],
+    "related": [
+      "ofördelaktig"
+    ]
+  },
+  "ofördelaktig": {
+    "opposite": "fördelaktig",
+    "description": "Fördelaktig och ofördelaktig uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”fördelaktig” och ”ofördelaktig”.",
+      "Övningen innehöll både ordet ”fördelaktig” och ordet ”ofördelaktig”."
+    ],
+    "related": [
+      "fördelaktig"
+    ]
+  },
+  "förenlig": {
+    "opposite": "oförenlig",
+    "description": "Förenlig och oförenlig används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”förenlig” med ”oförenlig”.",
+      "I exemplet används både ”förenlig” och ”oförenlig”."
+    ],
+    "related": [
+      "oförenlig"
+    ]
+  },
+  "oförenlig": {
+    "opposite": "förenlig",
+    "description": "Förenlig och oförenlig används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”förenlig” med ”oförenlig”.",
+      "I exemplet används både ”förenlig” och ”oförenlig”."
+    ],
+    "related": [
+      "förenlig"
+    ]
+  },
+  "företagsam": {
+    "opposite": "oföretagsam",
+    "description": "Företagsam står i tydlig kontrast till oföretagsam.",
+    "examples": [
+      "Skillnaden mellan ”företagsam” och ”oföretagsam” blev tydlig.",
+      "Förklaringen visar hur ”företagsam” skiljer sig från ”oföretagsam”."
+    ],
+    "related": [
+      "oföretagsam"
+    ]
+  },
+  "oföretagsam": {
+    "opposite": "företagsam",
+    "description": "Företagsam står i tydlig kontrast till oföretagsam.",
+    "examples": [
+      "Skillnaden mellan ”företagsam” och ”oföretagsam” blev tydlig.",
+      "Förklaringen visar hur ”företagsam” skiljer sig från ”oföretagsam”."
+    ],
+    "related": [
+      "företagsam"
+    ]
+  },
+  "företagsamhet": {
+    "opposite": "oföretagsamhet",
+    "description": "Orden företagsamhet och oföretagsamhet beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”företagsamhet” och det andra som ”oföretagsamhet”.",
+      "Orden ”företagsamhet” och ”oföretagsamhet” ställdes mot varandra."
+    ],
+    "related": [
+      "oföretagsamhet"
+    ]
+  },
+  "oföretagsamhet": {
+    "opposite": "företagsamhet",
+    "description": "Orden företagsamhet och oföretagsamhet beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”företagsamhet” och det andra som ”oföretagsamhet”.",
+      "Orden ”företagsamhet” och ”oföretagsamhet” ställdes mot varandra."
+    ],
+    "related": [
+      "företagsamhet"
+    ]
+  },
+  "förfärad": {
+    "opposite": "oförfärad",
+    "description": "Förfärad och oförfärad uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”förfärad” och ”oförfärad”.",
+      "Övningen innehöll både ordet ”förfärad” och ordet ”oförfärad”."
+    ],
+    "related": [
+      "oförfärad"
+    ]
+  },
+  "oförfärad": {
+    "opposite": "förfärad",
+    "description": "Förfärad och oförfärad uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”förfärad” och ”oförfärad”.",
+      "Övningen innehöll både ordet ”förfärad” och ordet ”oförfärad”."
+    ],
+    "related": [
+      "förfärad"
+    ]
+  },
+  "förgänglig": {
+    "opposite": "oförgänglig",
+    "description": "Förgänglig och oförgänglig används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”förgänglig” med ”oförgänglig”.",
+      "I exemplet används både ”förgänglig” och ”oförgänglig”."
+    ],
+    "related": [
+      "oförgänglig"
+    ]
+  },
+  "oförgänglig": {
+    "opposite": "förgänglig",
+    "description": "Förgänglig och oförgänglig används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”förgänglig” med ”oförgänglig”.",
+      "I exemplet används både ”förgänglig” och ”oförgänglig”."
+    ],
+    "related": [
+      "förgänglig"
+    ]
+  },
+  "förgänglighet": {
+    "opposite": "oförgänglighet",
+    "description": "Förgänglighet står i tydlig kontrast till oförgänglighet.",
+    "examples": [
+      "Skillnaden mellan ”förgänglighet” och ”oförgänglighet” blev tydlig.",
+      "Förklaringen visar hur ”förgänglighet” skiljer sig från ”oförgänglighet”."
+    ],
+    "related": [
+      "oförgänglighet"
+    ]
+  },
+  "oförgänglighet": {
+    "opposite": "förgänglighet",
+    "description": "Förgänglighet står i tydlig kontrast till oförgänglighet.",
+    "examples": [
+      "Skillnaden mellan ”förgänglighet” och ”oförgänglighet” blev tydlig.",
+      "Förklaringen visar hur ”förgänglighet” skiljer sig från ”oförgänglighet”."
+    ],
+    "related": [
+      "förgänglighet"
+    ]
+  },
+  "förklarlig": {
+    "opposite": "oförklarlig",
+    "description": "Orden förklarlig och oförklarlig beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”förklarlig” och det andra som ”oförklarlig”.",
+      "Orden ”förklarlig” och ”oförklarlig” ställdes mot varandra."
+    ],
+    "related": [
+      "oförklarlig"
+    ]
+  },
+  "oförklarlig": {
+    "opposite": "förklarlig",
+    "description": "Orden förklarlig och oförklarlig beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”förklarlig” och det andra som ”oförklarlig”.",
+      "Orden ”förklarlig” och ”oförklarlig” ställdes mot varandra."
+    ],
+    "related": [
+      "förklarlig"
+    ]
+  },
+  "förmånlig": {
+    "opposite": "oförmånlig",
+    "description": "Förmånlig och oförmånlig uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”förmånlig” och ”oförmånlig”.",
+      "Övningen innehöll både ordet ”förmånlig” och ordet ”oförmånlig”."
+    ],
+    "related": [
+      "oförmånlig"
+    ]
+  },
+  "oförmånlig": {
+    "opposite": "förmånlig",
+    "description": "Förmånlig och oförmånlig uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”förmånlig” och ”oförmånlig”.",
+      "Övningen innehöll både ordet ”förmånlig” och ordet ”oförmånlig”."
+    ],
+    "related": [
+      "förmånlig"
+    ]
+  },
+  "förnuft": {
+    "opposite": "oförnuft",
+    "description": "Förnuft och oförnuft används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”förnuft” med ”oförnuft”.",
+      "I exemplet används både ”förnuft” och ”oförnuft”."
+    ],
+    "related": [
+      "oförnuft"
+    ]
+  },
+  "oförnuft": {
+    "opposite": "förnuft",
+    "description": "Förnuft och oförnuft används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”förnuft” med ”oförnuft”.",
+      "I exemplet används både ”förnuft” och ”oförnuft”."
+    ],
+    "related": [
+      "förnuft"
+    ]
+  },
+  "försagd": {
+    "opposite": "oförsagd",
+    "description": "Försagd står i tydlig kontrast till oförsagd.",
+    "examples": [
+      "Skillnaden mellan ”försagd” och ”oförsagd” blev tydlig.",
+      "Förklaringen visar hur ”försagd” skiljer sig från ”oförsagd”."
+    ],
+    "related": [
+      "oförsagd"
+    ]
+  },
+  "oförsagd": {
+    "opposite": "försagd",
+    "description": "Försagd står i tydlig kontrast till oförsagd.",
+    "examples": [
+      "Skillnaden mellan ”försagd” och ”oförsagd” blev tydlig.",
+      "Förklaringen visar hur ”försagd” skiljer sig från ”oförsagd”."
+    ],
+    "related": [
+      "försagd"
+    ]
+  },
+  "förskräckt": {
+    "opposite": "oförskräckt",
+    "description": "Orden förskräckt och oförskräckt beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”förskräckt” och det andra som ”oförskräckt”.",
+      "Orden ”förskräckt” och ”oförskräckt” ställdes mot varandra."
+    ],
+    "related": [
+      "oförskräckt"
+    ]
+  },
+  "oförskräckt": {
+    "opposite": "förskräckt",
+    "description": "Orden förskräckt och oförskräckt beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”förskräckt” och det andra som ”oförskräckt”.",
+      "Orden ”förskräckt” och ”oförskräckt” ställdes mot varandra."
+    ],
+    "related": [
+      "förskräckt"
+    ]
+  },
+  "förståelig": {
+    "opposite": "oförståelig",
+    "description": "Förståelig och oförståelig uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”förståelig” och ”oförståelig”.",
+      "Övningen innehöll både ordet ”förståelig” och ordet ”oförståelig”."
+    ],
+    "related": [
+      "oförståelig"
+    ]
+  },
+  "oförståelig": {
+    "opposite": "förståelig",
+    "description": "Förståelig och oförståelig uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”förståelig” och ”oförståelig”.",
+      "Övningen innehöll både ordet ”förståelig” och ordet ”oförståelig”."
+    ],
+    "related": [
+      "förståelig"
+    ]
+  },
+  "förståelse": {
+    "opposite": "oförståelse",
+    "description": "Förståelse och oförståelse används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”förståelse” med ”oförståelse”.",
+      "I exemplet används både ”förståelse” och ”oförståelse”."
+    ],
+    "related": [
+      "oförståelse"
+    ]
+  },
+  "oförståelse": {
+    "opposite": "förståelse",
+    "description": "Förståelse och oförståelse används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”förståelse” med ”oförståelse”.",
+      "I exemplet används både ”förståelse” och ”oförståelse”."
+    ],
+    "related": [
+      "förståelse"
+    ]
+  },
+  "förstånd": {
+    "opposite": "oförstånd",
+    "description": "Förstånd står i tydlig kontrast till oförstånd.",
+    "examples": [
+      "Skillnaden mellan ”förstånd” och ”oförstånd” blev tydlig.",
+      "Förklaringen visar hur ”förstånd” skiljer sig från ”oförstånd”."
+    ],
+    "related": [
+      "oförstånd"
+    ]
+  },
+  "oförstånd": {
+    "opposite": "förstånd",
+    "description": "Förstånd står i tydlig kontrast till oförstånd.",
+    "examples": [
+      "Skillnaden mellan ”förstånd” och ”oförstånd” blev tydlig.",
+      "Förklaringen visar hur ”förstånd” skiljer sig från ”oförstånd”."
+    ],
+    "related": [
+      "förstånd"
+    ]
+  },
+  "förtrolig": {
+    "opposite": "oförtrolig",
+    "description": "Orden förtrolig och oförtrolig beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”förtrolig” och det andra som ”oförtrolig”.",
+      "Orden ”förtrolig” och ”oförtrolig” ställdes mot varandra."
+    ],
+    "related": [
+      "oförtrolig"
+    ]
+  },
+  "oförtrolig": {
+    "opposite": "förtrolig",
+    "description": "Orden förtrolig och oförtrolig beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”förtrolig” och det andra som ”oförtrolig”.",
+      "Orden ”förtrolig” och ”oförtrolig” ställdes mot varandra."
+    ],
+    "related": [
+      "förtrolig"
+    ]
+  },
+  "förutsägbarhet": {
+    "opposite": "oförutsägbarhet",
+    "description": "Förutsägbarhet och oförutsägbarhet uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”förutsägbarhet” och ”oförutsägbarhet”.",
+      "Övningen innehöll både ordet ”förutsägbarhet” och ordet ”oförutsägbarhet”."
+    ],
+    "related": [
+      "oförutsägbarhet"
+    ]
+  },
+  "oförutsägbarhet": {
+    "opposite": "förutsägbarhet",
+    "description": "Förutsägbarhet och oförutsägbarhet uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”förutsägbarhet” och ”oförutsägbarhet”.",
+      "Övningen innehöll både ordet ”förutsägbarhet” och ordet ”oförutsägbarhet”."
+    ],
+    "related": [
+      "förutsägbarhet"
+    ]
+  },
+  "fruktbar": {
+    "opposite": "ofruktbar",
+    "description": "Fruktbar och ofruktbar används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”fruktbar” med ”ofruktbar”.",
+      "I exemplet används både ”fruktbar” och ”ofruktbar”."
+    ],
+    "related": [
+      "ofruktbar"
+    ]
+  },
+  "ofruktbar": {
+    "opposite": "fruktbar",
+    "description": "Fruktbar och ofruktbar används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”fruktbar” med ”ofruktbar”.",
+      "I exemplet används både ”fruktbar” och ”ofruktbar”."
+    ],
+    "related": [
+      "fruktbar"
+    ]
+  },
+  "fruktbarhet": {
+    "opposite": "ofruktbarhet",
+    "description": "Fruktbarhet står i tydlig kontrast till ofruktbarhet.",
+    "examples": [
+      "Skillnaden mellan ”fruktbarhet” och ”ofruktbarhet” blev tydlig.",
+      "Förklaringen visar hur ”fruktbarhet” skiljer sig från ”ofruktbarhet”."
+    ],
+    "related": [
+      "ofruktbarhet"
+    ]
+  },
+  "ofruktbarhet": {
+    "opposite": "fruktbarhet",
+    "description": "Fruktbarhet står i tydlig kontrast till ofruktbarhet.",
+    "examples": [
+      "Skillnaden mellan ”fruktbarhet” och ”ofruktbarhet” blev tydlig.",
+      "Förklaringen visar hur ”fruktbarhet” skiljer sig från ”ofruktbarhet”."
+    ],
+    "related": [
+      "fruktbarhet"
+    ]
+  },
+  "fulländad": {
+    "opposite": "ofulländad",
+    "description": "Orden fulländad och ofulländad beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”fulländad” och det andra som ”ofulländad”.",
+      "Orden ”fulländad” och ”ofulländad” ställdes mot varandra."
+    ],
+    "related": [
+      "ofulländad"
+    ]
+  },
+  "ofulländad": {
+    "opposite": "fulländad",
+    "description": "Orden fulländad och ofulländad beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”fulländad” och det andra som ”ofulländad”.",
+      "Orden ”fulländad” och ”ofulländad” ställdes mot varandra."
+    ],
+    "related": [
+      "fulländad"
+    ]
+  },
+  "fullbordad": {
+    "opposite": "ofullbordad",
+    "description": "Fullbordad och ofullbordad uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”fullbordad” och ”ofullbordad”.",
+      "Övningen innehöll både ordet ”fullbordad” och ordet ”ofullbordad”."
+    ],
+    "related": [
+      "ofullbordad"
+    ]
+  },
+  "ofullbordad": {
+    "opposite": "fullbordad",
+    "description": "Fullbordad och ofullbordad uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”fullbordad” och ”ofullbordad”.",
+      "Övningen innehöll både ordet ”fullbordad” och ordet ”ofullbordad”."
+    ],
+    "related": [
+      "fullbordad"
+    ]
+  },
+  "gärna": {
+    "opposite": "ogärna",
+    "description": "Gärna och ogärna används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”gärna” med ”ogärna”.",
+      "I exemplet används både ”gärna” och ”ogärna”."
+    ],
+    "related": [
+      "ogärna"
+    ]
+  },
+  "ogärna": {
+    "opposite": "gärna",
+    "description": "Gärna och ogärna används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”gärna” med ”ogärna”.",
+      "I exemplet används både ”gärna” och ”ogärna”."
+    ],
+    "related": [
+      "gärna"
+    ]
+  },
+  "gästvänlighet": {
+    "opposite": "ogästvänlighet",
+    "description": "Gästvänlighet står i tydlig kontrast till ogästvänlighet.",
+    "examples": [
+      "Skillnaden mellan ”gästvänlighet” och ”ogästvänlighet” blev tydlig.",
+      "Förklaringen visar hur ”gästvänlighet” skiljer sig från ”ogästvänlighet”."
+    ],
+    "related": [
+      "ogästvänlighet"
+    ]
+  },
+  "ogästvänlighet": {
+    "opposite": "gästvänlighet",
+    "description": "Gästvänlighet står i tydlig kontrast till ogästvänlighet.",
+    "examples": [
+      "Skillnaden mellan ”gästvänlighet” och ”ogästvänlighet” blev tydlig.",
+      "Förklaringen visar hur ”gästvänlighet” skiljer sig från ”ogästvänlighet”."
+    ],
+    "related": [
+      "gästvänlighet"
+    ]
+  },
+  "gjord": {
+    "opposite": "ogjord",
+    "description": "Orden gjord och ogjord beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”gjord” och det andra som ”ogjord”.",
+      "Orden ”gjord” och ”ogjord” ställdes mot varandra."
+    ],
+    "related": [
+      "ogjord"
+    ]
+  },
+  "ogjord": {
+    "opposite": "gjord",
+    "description": "Orden gjord och ogjord beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”gjord” och det andra som ”ogjord”.",
+      "Orden ”gjord” och ”ogjord” ställdes mot varandra."
+    ],
+    "related": [
+      "gjord"
+    ]
+  },
+  "glamourös": {
+    "opposite": "oglamourös",
+    "description": "Glamourös och oglamourös uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”glamourös” och ”oglamourös”.",
+      "Övningen innehöll både ordet ”glamourös” och ordet ”oglamourös”."
+    ],
+    "related": [
+      "oglamourös"
+    ]
+  },
+  "oglamourös": {
+    "opposite": "glamourös",
+    "description": "Glamourös och oglamourös uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”glamourös” och ”oglamourös”.",
+      "Övningen innehöll både ordet ”glamourös” och ordet ”oglamourös”."
+    ],
+    "related": [
+      "glamourös"
+    ]
+  },
+  "görlighet": {
+    "opposite": "ogörlighet",
+    "description": "Görlighet och ogörlighet används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”görlighet” med ”ogörlighet”.",
+      "I exemplet används både ”görlighet” och ”ogörlighet”."
+    ],
+    "related": [
+      "ogörlighet"
+    ]
+  },
+  "ogörlighet": {
+    "opposite": "görlighet",
+    "description": "Görlighet och ogörlighet används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”görlighet” med ”ogörlighet”.",
+      "I exemplet används både ”görlighet” och ”ogörlighet”."
+    ],
+    "related": [
+      "görlighet"
+    ]
+  },
+  "gudaktig": {
+    "opposite": "ogudaktig",
+    "description": "Gudaktig står i tydlig kontrast till ogudaktig.",
+    "examples": [
+      "Skillnaden mellan ”gudaktig” och ”ogudaktig” blev tydlig.",
+      "Förklaringen visar hur ”gudaktig” skiljer sig från ”ogudaktig”."
+    ],
+    "related": [
+      "ogudaktig"
+    ]
+  },
+  "ogudaktig": {
+    "opposite": "gudaktig",
+    "description": "Gudaktig står i tydlig kontrast till ogudaktig.",
+    "examples": [
+      "Skillnaden mellan ”gudaktig” och ”ogudaktig” blev tydlig.",
+      "Förklaringen visar hur ”gudaktig” skiljer sig från ”ogudaktig”."
+    ],
+    "related": [
+      "gudaktig"
+    ]
+  },
+  "gudaktighet": {
+    "opposite": "ogudaktighet",
+    "description": "Orden gudaktighet och ogudaktighet beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”gudaktighet” och det andra som ”ogudaktighet”.",
+      "Orden ”gudaktighet” och ”ogudaktighet” ställdes mot varandra."
+    ],
+    "related": [
+      "ogudaktighet"
+    ]
+  },
+  "ogudaktighet": {
+    "opposite": "gudaktighet",
+    "description": "Orden gudaktighet och ogudaktighet beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”gudaktighet” och det andra som ”ogudaktighet”.",
+      "Orden ”gudaktighet” och ”ogudaktighet” ställdes mot varandra."
+    ],
+    "related": [
+      "gudaktighet"
+    ]
+  },
+  "hågad": {
+    "opposite": "ohågad",
+    "description": "Hågad och ohågad uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”hågad” och ”ohågad”.",
+      "Övningen innehöll både ordet ”hågad” och ordet ”ohågad”."
+    ],
+    "related": [
+      "ohågad"
+    ]
+  },
+  "ohågad": {
+    "opposite": "hågad",
+    "description": "Hågad och ohågad uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”hågad” och ”ohågad”.",
+      "Övningen innehöll både ordet ”hågad” och ordet ”ohågad”."
+    ],
+    "related": [
+      "hågad"
+    ]
+  },
+  "hållbarhet": {
+    "opposite": "ohållbarhet",
+    "description": "Hållbarhet och ohållbarhet används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”hållbarhet” med ”ohållbarhet”.",
+      "I exemplet används både ”hållbarhet” och ”ohållbarhet”."
+    ],
+    "related": [
+      "ohållbarhet"
+    ]
+  },
+  "ohållbarhet": {
+    "opposite": "hållbarhet",
+    "description": "Hållbarhet och ohållbarhet används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”hållbarhet” med ”ohållbarhet”.",
+      "I exemplet används både ”hållbarhet” och ”ohållbarhet”."
+    ],
+    "related": [
+      "hållbarhet"
+    ]
+  },
+  "handjur": {
+    "opposite": "hondjur",
+    "description": "Handjur står i tydlig kontrast till hondjur.",
+    "examples": [
+      "Skillnaden mellan ”handjur” och ”hondjur” blev tydlig.",
+      "Förklaringen visar hur ”handjur” skiljer sig från ”hondjur”."
+    ],
+    "related": [
+      "hondjur"
+    ]
+  },
+  "hondjur": {
+    "opposite": "handjur",
+    "description": "Handjur står i tydlig kontrast till hondjur.",
+    "examples": [
+      "Skillnaden mellan ”handjur” och ”hondjur” blev tydlig.",
+      "Förklaringen visar hur ”handjur” skiljer sig från ”hondjur”."
+    ],
+    "related": [
+      "handjur"
+    ]
+  },
+  "hankatt": {
+    "opposite": "honkatt",
+    "description": "Orden hankatt och honkatt beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”hankatt” och det andra som ”honkatt”.",
+      "Orden ”hankatt” och ”honkatt” ställdes mot varandra."
+    ],
+    "related": [
+      "honkatt"
+    ]
+  },
+  "honkatt": {
+    "opposite": "hankatt",
+    "description": "Orden hankatt och honkatt beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”hankatt” och det andra som ”honkatt”.",
+      "Orden ”hankatt” och ”honkatt” ställdes mot varandra."
+    ],
+    "related": [
+      "hankatt"
+    ]
+  },
+  "hankontakt": {
+    "opposite": "honkontakt",
+    "description": "Hankontakt och honkontakt uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”hankontakt” och ”honkontakt”.",
+      "Övningen innehöll både ordet ”hankontakt” och ordet ”honkontakt”."
+    ],
+    "related": [
+      "honkontakt"
+    ]
+  },
+  "honkontakt": {
+    "opposite": "hankontakt",
+    "description": "Hankontakt och honkontakt uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”hankontakt” och ”honkontakt”.",
+      "Övningen innehöll både ordet ”hankontakt” och ordet ”honkontakt”."
+    ],
+    "related": [
+      "hankontakt"
+    ]
+  },
+  "helig": {
+    "opposite": "ohelig",
+    "description": "Helig och ohelig används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”helig” med ”ohelig”.",
+      "I exemplet används både ”helig” och ”ohelig”."
+    ],
+    "related": [
+      "ohelig"
+    ]
+  },
+  "ohelig": {
+    "opposite": "helig",
+    "description": "Helig och ohelig används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”helig” med ”ohelig”.",
+      "I exemplet används både ”helig” och ”ohelig”."
+    ],
+    "related": [
+      "helig"
+    ]
+  },
+  "historisk": {
+    "opposite": "ohistorisk",
+    "description": "Historisk står i tydlig kontrast till ohistorisk.",
+    "examples": [
+      "Skillnaden mellan ”historisk” och ”ohistorisk” blev tydlig.",
+      "Förklaringen visar hur ”historisk” skiljer sig från ”ohistorisk”."
+    ],
+    "related": [
+      "ohistorisk"
+    ]
+  },
+  "ohistorisk": {
+    "opposite": "historisk",
+    "description": "Historisk står i tydlig kontrast till ohistorisk.",
+    "examples": [
+      "Skillnaden mellan ”historisk” och ”ohistorisk” blev tydlig.",
+      "Förklaringen visar hur ”historisk” skiljer sig från ”ohistorisk”."
+    ],
+    "related": [
+      "historisk"
+    ]
+  },
+  "hjälpsam": {
+    "opposite": "ohjälpsam",
+    "description": "Orden hjälpsam och ohjälpsam beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”hjälpsam” och det andra som ”ohjälpsam”.",
+      "Orden ”hjälpsam” och ”ohjälpsam” ställdes mot varandra."
+    ],
+    "related": [
+      "ohjälpsam"
+    ]
+  },
+  "ohjälpsam": {
+    "opposite": "hjälpsam",
+    "description": "Orden hjälpsam och ohjälpsam beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”hjälpsam” och det andra som ”ohjälpsam”.",
+      "Orden ”hjälpsam” och ”ohjälpsam” ställdes mot varandra."
+    ],
+    "related": [
+      "hjälpsam"
+    ]
+  },
+  "höginkomsttagare": {
+    "opposite": "låginkomsttagare",
+    "description": "Höginkomsttagare och låginkomsttagare uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”höginkomsttagare” och ”låginkomsttagare”.",
+      "Övningen innehöll både ordet ”höginkomsttagare” och ordet ”låginkomsttagare”."
+    ],
+    "related": [
+      "låginkomsttagare"
+    ]
+  },
+  "låginkomsttagare": {
+    "opposite": "höginkomsttagare",
+    "description": "Höginkomsttagare och låginkomsttagare uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”höginkomsttagare” och ”låginkomsttagare”.",
+      "Övningen innehöll både ordet ”höginkomsttagare” och ordet ”låginkomsttagare”."
+    ],
+    "related": [
+      "höginkomsttagare"
+    ]
+  },
+  "högvattenmärke": {
+    "opposite": "lågvattenmärke",
+    "description": "Högvattenmärke och lågvattenmärke används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”högvattenmärke” med ”lågvattenmärke”.",
+      "I exemplet används både ”högvattenmärke” och ”lågvattenmärke”."
+    ],
+    "related": [
+      "lågvattenmärke"
+    ]
+  },
+  "lågvattenmärke": {
+    "opposite": "högvattenmärke",
+    "description": "Högvattenmärke och lågvattenmärke används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”högvattenmärke” med ”lågvattenmärke”.",
+      "I exemplet används både ”högvattenmärke” och ”lågvattenmärke”."
+    ],
+    "related": [
+      "högvattenmärke"
+    ]
+  },
+  "hörsam": {
+    "opposite": "ohörsam",
+    "description": "Hörsam står i tydlig kontrast till ohörsam.",
+    "examples": [
+      "Skillnaden mellan ”hörsam” och ”ohörsam” blev tydlig.",
+      "Förklaringen visar hur ”hörsam” skiljer sig från ”ohörsam”."
+    ],
+    "related": [
+      "ohörsam"
+    ]
+  },
+  "ohörsam": {
+    "opposite": "hörsam",
+    "description": "Hörsam står i tydlig kontrast till ohörsam.",
+    "examples": [
+      "Skillnaden mellan ”hörsam” och ”ohörsam” blev tydlig.",
+      "Förklaringen visar hur ”hörsam” skiljer sig från ”ohörsam”."
+    ],
+    "related": [
+      "hörsam"
+    ]
+  },
+  "hotad": {
+    "opposite": "ohotad",
+    "description": "Orden hotad och ohotad beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”hotad” och det andra som ”ohotad”.",
+      "Orden ”hotad” och ”ohotad” ställdes mot varandra."
+    ],
+    "related": [
+      "ohotad"
+    ]
+  },
+  "ohotad": {
+    "opposite": "hotad",
+    "description": "Orden hotad och ohotad beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”hotad” och det andra som ”ohotad”.",
+      "Orden ”hotad” och ”ohotad” ställdes mot varandra."
+    ],
+    "related": [
+      "hotad"
+    ]
+  },
+  "hövisk": {
+    "opposite": "ohövisk",
+    "description": "Hövisk och ohövisk uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”hövisk” och ”ohövisk”.",
+      "Övningen innehöll både ordet ”hövisk” och ordet ”ohövisk”."
+    ],
+    "related": [
+      "ohövisk"
+    ]
+  },
+  "ohövisk": {
+    "opposite": "hövisk",
+    "description": "Hövisk och ohövisk uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”hövisk” och ”ohövisk”.",
+      "Övningen innehöll både ordet ”hövisk” och ordet ”ohövisk”."
+    ],
+    "related": [
+      "hövisk"
+    ]
+  },
+  "hygglig": {
+    "opposite": "ohygglig",
+    "description": "Hygglig och ohygglig används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”hygglig” med ”ohygglig”.",
+      "I exemplet används både ”hygglig” och ”ohygglig”."
+    ],
+    "related": [
+      "ohygglig"
+    ]
+  },
+  "ohygglig": {
+    "opposite": "hygglig",
+    "description": "Hygglig och ohygglig används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”hygglig” med ”ohygglig”.",
+      "I exemplet används både ”hygglig” och ”ohygglig”."
+    ],
+    "related": [
+      "hygglig"
+    ]
+  },
+  "identifierbar": {
+    "opposite": "oidentifierbar",
+    "description": "Identifierbar står i tydlig kontrast till oidentifierbar.",
+    "examples": [
+      "Skillnaden mellan ”identifierbar” och ”oidentifierbar” blev tydlig.",
+      "Förklaringen visar hur ”identifierbar” skiljer sig från ”oidentifierbar”."
+    ],
+    "related": [
+      "oidentifierbar"
+    ]
+  },
+  "oidentifierbar": {
+    "opposite": "identifierbar",
+    "description": "Identifierbar står i tydlig kontrast till oidentifierbar.",
+    "examples": [
+      "Skillnaden mellan ”identifierbar” och ”oidentifierbar” blev tydlig.",
+      "Förklaringen visar hur ”identifierbar” skiljer sig från ”oidentifierbar”."
+    ],
+    "related": [
+      "identifierbar"
+    ]
+  },
+  "inbetala": {
+    "opposite": "utbetala",
+    "description": "Orden inbetala och utbetala beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”inbetala” och det andra som ”utbetala”.",
+      "Orden ”inbetala” och ”utbetala” ställdes mot varandra."
+    ],
+    "related": [
+      "utbetala"
+    ]
+  },
+  "utbetala": {
+    "opposite": "inbetala",
+    "description": "Orden inbetala och utbetala beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”inbetala” och det andra som ”utbetala”.",
+      "Orden ”inbetala” och ”utbetala” ställdes mot varandra."
+    ],
+    "related": [
+      "inbetala"
+    ]
+  },
+  "inkapabel": {
+    "opposite": "kapabel",
+    "description": "Inkapabel och kapabel uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”inkapabel” och ”kapabel”.",
+      "Övningen innehöll både ordet ”inkapabel” och ordet ”kapabel”."
+    ],
+    "related": [
+      "kapabel"
+    ]
+  },
+  "kapabel": {
+    "opposite": "inkapabel",
+    "description": "Inkapabel och kapabel uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”inkapabel” och ”kapabel”.",
+      "Övningen innehöll både ordet ”inkapabel” och ordet ”kapabel”."
+    ],
+    "related": [
+      "inkapabel"
+    ]
+  },
+  "inkommensurabel": {
+    "opposite": "kommensurabel",
+    "description": "Inkommensurabel och kommensurabel används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”inkommensurabel” med ”kommensurabel”.",
+      "I exemplet används både ”inkommensurabel” och ”kommensurabel”."
+    ],
+    "related": [
+      "kommensurabel"
+    ]
+  },
+  "kommensurabel": {
+    "opposite": "inkommensurabel",
+    "description": "Inkommensurabel och kommensurabel används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”inkommensurabel” med ”kommensurabel”.",
+      "I exemplet används både ”inkommensurabel” och ”kommensurabel”."
+    ],
+    "related": [
+      "inkommensurabel"
+    ]
+  },
+  "inkommensurabilitet": {
+    "opposite": "kommensurabilitet",
+    "description": "Inkommensurabilitet står i tydlig kontrast till kommensurabilitet.",
+    "examples": [
+      "Skillnaden mellan ”inkommensurabilitet” och ”kommensurabilitet” blev tydlig.",
+      "Förklaringen visar hur ”inkommensurabilitet” skiljer sig från ”kommensurabilitet”."
+    ],
+    "related": [
+      "kommensurabilitet"
+    ]
+  },
+  "kommensurabilitet": {
+    "opposite": "inkommensurabilitet",
+    "description": "Inkommensurabilitet står i tydlig kontrast till kommensurabilitet.",
+    "examples": [
+      "Skillnaden mellan ”inkommensurabilitet” och ”kommensurabilitet” blev tydlig.",
+      "Förklaringen visar hur ”inkommensurabilitet” skiljer sig från ”kommensurabilitet”."
+    ],
+    "related": [
+      "inkommensurabilitet"
+    ]
+  },
+  "inkonsistens": {
+    "opposite": "konsistens",
+    "description": "Orden inkonsistens och konsistens beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”inkonsistens” och det andra som ”konsistens”.",
+      "Orden ”inkonsistens” och ”konsistens” ställdes mot varandra."
+    ],
+    "related": [
+      "konsistens"
+    ]
+  },
+  "konsistens": {
+    "opposite": "inkonsistens",
+    "description": "Orden inkonsistens och konsistens beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”inkonsistens” och det andra som ”konsistens”.",
+      "Orden ”inkonsistens” och ”konsistens” ställdes mot varandra."
+    ],
+    "related": [
+      "inkonsistens"
+    ]
+  },
+  "inkonsistent": {
+    "opposite": "konsistent",
+    "description": "Inkonsistent och konsistent uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”inkonsistent” och ”konsistent”.",
+      "Övningen innehöll både ordet ”inkonsistent” och ordet ”konsistent”."
+    ],
+    "related": [
+      "konsistent"
+    ]
+  },
+  "konsistent": {
+    "opposite": "inkonsistent",
+    "description": "Inkonsistent och konsistent uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”inkonsistent” och ”konsistent”.",
+      "Övningen innehöll både ordet ”inkonsistent” och ordet ”konsistent”."
+    ],
+    "related": [
+      "inkonsistent"
+    ]
+  },
+  "inkonstans": {
+    "opposite": "konstans",
+    "description": "Inkonstans och konstans används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”inkonstans” med ”konstans”.",
+      "I exemplet används både ”inkonstans” och ”konstans”."
+    ],
+    "related": [
+      "konstans"
+    ]
+  },
+  "konstans": {
+    "opposite": "inkonstans",
+    "description": "Inkonstans och konstans används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”inkonstans” med ”konstans”.",
+      "I exemplet används både ”inkonstans” och ”konstans”."
+    ],
+    "related": [
+      "inkonstans"
+    ]
+  },
+  "inkorrekthet": {
+    "opposite": "korrekthet",
+    "description": "Inkorrekthet står i tydlig kontrast till korrekthet.",
+    "examples": [
+      "Skillnaden mellan ”inkorrekthet” och ”korrekthet” blev tydlig.",
+      "Förklaringen visar hur ”inkorrekthet” skiljer sig från ”korrekthet”."
+    ],
+    "related": [
+      "korrekthet"
+    ]
+  },
+  "korrekthet": {
+    "opposite": "inkorrekthet",
+    "description": "Inkorrekthet står i tydlig kontrast till korrekthet.",
+    "examples": [
+      "Skillnaden mellan ”inkorrekthet” och ”korrekthet” blev tydlig.",
+      "Förklaringen visar hur ”inkorrekthet” skiljer sig från ”korrekthet”."
+    ],
+    "related": [
+      "inkorrekthet"
+    ]
+  },
+  "inlopp": {
+    "opposite": "utlopp",
+    "description": "Orden inlopp och utlopp beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”inlopp” och det andra som ”utlopp”.",
+      "Orden ”inlopp” och ”utlopp” ställdes mot varandra."
+    ],
+    "related": [
+      "utlopp"
+    ]
+  },
+  "utlopp": {
+    "opposite": "inlopp",
+    "description": "Orden inlopp och utlopp beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”inlopp” och det andra som ”utlopp”.",
+      "Orden ”inlopp” och ”utlopp” ställdes mot varandra."
+    ],
+    "related": [
+      "inlopp"
+    ]
+  },
+  "inomvärldslig": {
+    "opposite": "utomvärldslig",
+    "description": "Inomvärldslig och utomvärldslig uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”inomvärldslig” och ”utomvärldslig”.",
+      "Övningen innehöll både ordet ”inomvärldslig” och ordet ”utomvärldslig”."
+    ],
+    "related": [
+      "utomvärldslig"
+    ]
+  },
+  "utomvärldslig": {
+    "opposite": "inomvärldslig",
+    "description": "Inomvärldslig och utomvärldslig uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”inomvärldslig” och ”utomvärldslig”.",
+      "Övningen innehöll både ordet ”inomvärldslig” och ordet ”utomvärldslig”."
+    ],
+    "related": [
+      "inomvärldslig"
+    ]
+  },
+  "inopportun": {
+    "opposite": "opportun",
+    "description": "Inopportun och opportun används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”inopportun” med ”opportun”.",
+      "I exemplet används både ”inopportun” och ”opportun”."
+    ],
+    "related": [
+      "opportun"
+    ]
+  },
+  "opportun": {
+    "opposite": "inopportun",
+    "description": "Inopportun och opportun används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”inopportun” med ”opportun”.",
+      "I exemplet används både ”inopportun” och ”opportun”."
+    ],
+    "related": [
+      "inopportun"
+    ]
+  },
+  "inrikesflyg": {
+    "opposite": "utrikesflyg",
+    "description": "Inrikesflyg står i tydlig kontrast till utrikesflyg.",
+    "examples": [
+      "Skillnaden mellan ”inrikesflyg” och ”utrikesflyg” blev tydlig.",
+      "Förklaringen visar hur ”inrikesflyg” skiljer sig från ”utrikesflyg”."
+    ],
+    "related": [
+      "utrikesflyg"
+    ]
+  },
+  "utrikesflyg": {
+    "opposite": "inrikesflyg",
+    "description": "Inrikesflyg står i tydlig kontrast till utrikesflyg.",
+    "examples": [
+      "Skillnaden mellan ”inrikesflyg” och ”utrikesflyg” blev tydlig.",
+      "Förklaringen visar hur ”inrikesflyg” skiljer sig från ”utrikesflyg”."
+    ],
+    "related": [
+      "inrikesflyg"
+    ]
+  },
+  "inrymningsplan": {
+    "opposite": "utrymningsplan",
+    "description": "Orden inrymningsplan och utrymningsplan beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”inrymningsplan” och det andra som ”utrymningsplan”.",
+      "Orden ”inrymningsplan” och ”utrymningsplan” ställdes mot varandra."
+    ],
+    "related": [
+      "utrymningsplan"
+    ]
+  },
+  "utrymningsplan": {
+    "opposite": "inrymningsplan",
+    "description": "Orden inrymningsplan och utrymningsplan beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”inrymningsplan” och det andra som ”utrymningsplan”.",
+      "Orden ”inrymningsplan” och ”utrymningsplan” ställdes mot varandra."
+    ],
+    "related": [
+      "inrymningsplan"
+    ]
+  },
+  "insöndring": {
+    "opposite": "utsöndring",
+    "description": "Insöndring och utsöndring uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”insöndring” och ”utsöndring”.",
+      "Övningen innehöll både ordet ”insöndring” och ordet ”utsöndring”."
+    ],
+    "related": [
+      "utsöndring"
+    ]
+  },
+  "utsöndring": {
+    "opposite": "insöndring",
+    "description": "Insöndring och utsöndring uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”insöndring” och ”utsöndring”.",
+      "Övningen innehöll både ordet ”insöndring” och ordet ”utsöndring”."
+    ],
+    "related": [
+      "insöndring"
+    ]
+  },
+  "intåg": {
+    "opposite": "uttåg",
+    "description": "Intåg och uttåg används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”intåg” med ”uttåg”.",
+      "I exemplet används både ”intåg” och ”uttåg”."
+    ],
+    "related": [
+      "uttåg"
+    ]
+  },
+  "uttåg": {
+    "opposite": "intåg",
+    "description": "Intåg och uttåg används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”intåg” med ”uttåg”.",
+      "I exemplet används både ”intåg” och ”uttåg”."
+    ],
+    "related": [
+      "intåg"
+    ]
+  },
+  "intolerant": {
+    "opposite": "tolerant",
+    "description": "Intolerant står i tydlig kontrast till tolerant.",
+    "examples": [
+      "Skillnaden mellan ”intolerant” och ”tolerant” blev tydlig.",
+      "Förklaringen visar hur ”intolerant” skiljer sig från ”tolerant”."
+    ],
+    "related": [
+      "tolerant"
+    ]
+  },
+  "tolerant": {
+    "opposite": "intolerant",
+    "description": "Intolerant står i tydlig kontrast till tolerant.",
+    "examples": [
+      "Skillnaden mellan ”intolerant” och ”tolerant” blev tydlig.",
+      "Förklaringen visar hur ”intolerant” skiljer sig från ”tolerant”."
+    ],
+    "related": [
+      "intolerant"
+    ]
+  },
+  "intressant": {
+    "opposite": "ointressant",
+    "description": "Orden intressant och ointressant beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”intressant” och det andra som ”ointressant”.",
+      "Orden ”intressant” och ”ointressant” ställdes mot varandra."
+    ],
+    "related": [
+      "ointressant"
+    ]
+  },
+  "ointressant": {
+    "opposite": "intressant",
+    "description": "Orden intressant och ointressant beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”intressant” och det andra som ”ointressant”.",
+      "Orden ”intressant” och ”ointressant” ställdes mot varandra."
+    ],
+    "related": [
+      "intressant"
+    ]
+  },
+  "intresserat": {
+    "opposite": "ointresserat",
+    "description": "Intresserat och ointresserat uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”intresserat” och ”ointresserat”.",
+      "Övningen innehöll både ordet ”intresserat” och ordet ”ointresserat”."
+    ],
+    "related": [
+      "ointresserat"
+    ]
+  },
+  "ointresserat": {
+    "opposite": "intresserat",
+    "description": "Intresserat och ointresserat uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”intresserat” och ”ointresserat”.",
+      "Övningen innehöll både ordet ”intresserat” och ordet ”ointresserat”."
+    ],
+    "related": [
+      "intresserat"
+    ]
+  },
+  "invändig": {
+    "opposite": "utvändig",
+    "description": "Invändig och utvändig används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”invändig” med ”utvändig”.",
+      "I exemplet används både ”invändig” och ”utvändig”."
+    ],
+    "related": [
+      "utvändig"
+    ]
+  },
+  "utvändig": {
+    "opposite": "invändig",
+    "description": "Invändig och utvändig används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”invändig” med ”utvändig”.",
+      "I exemplet används både ”invändig” och ”utvändig”."
+    ],
+    "related": [
+      "invändig"
+    ]
+  },
+  "invändigt": {
+    "opposite": "utvändigt",
+    "description": "Invändigt står i tydlig kontrast till utvändigt.",
+    "examples": [
+      "Skillnaden mellan ”invändigt” och ”utvändigt” blev tydlig.",
+      "Förklaringen visar hur ”invändigt” skiljer sig från ”utvändigt”."
+    ],
+    "related": [
+      "utvändigt"
+    ]
+  },
+  "utvändigt": {
+    "opposite": "invändigt",
+    "description": "Invändigt står i tydlig kontrast till utvändigt.",
+    "examples": [
+      "Skillnaden mellan ”invändigt” och ”utvändigt” blev tydlig.",
+      "Förklaringen visar hur ”invändigt” skiljer sig från ”utvändigt”."
+    ],
+    "related": [
+      "invändigt"
+    ]
+  },
+  "invandrare": {
+    "opposite": "utvandrare",
+    "description": "Orden invandrare och utvandrare beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”invandrare” och det andra som ”utvandrare”.",
+      "Orden ”invandrare” och ”utvandrare” ställdes mot varandra."
+    ],
+    "related": [
+      "utvandrare"
+    ]
+  },
+  "utvandrare": {
+    "opposite": "invandrare",
+    "description": "Orden invandrare och utvandrare beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”invandrare” och det andra som ”utvandrare”.",
+      "Orden ”invandrare” och ”utvandrare” ställdes mot varandra."
+    ],
+    "related": [
+      "invandrare"
+    ]
+  },
+  "jämförlig": {
+    "opposite": "ojämförlig",
+    "description": "Jämförlig och ojämförlig uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”jämförlig” och ”ojämförlig”.",
+      "Övningen innehöll både ordet ”jämförlig” och ordet ”ojämförlig”."
+    ],
+    "related": [
+      "ojämförlig"
+    ]
+  },
+  "ojämförlig": {
+    "opposite": "jämförlig",
+    "description": "Jämförlig och ojämförlig uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”jämförlig” och ”ojämförlig”.",
+      "Övningen innehöll både ordet ”jämförlig” och ordet ”ojämförlig”."
+    ],
+    "related": [
+      "jämförlig"
+    ]
+  },
+  "jävig": {
+    "opposite": "ojävig",
+    "description": "Jävig och ojävig används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”jävig” med ”ojävig”.",
+      "I exemplet används både ”jävig” och ”ojävig”."
+    ],
+    "related": [
+      "ojävig"
+    ]
+  },
+  "ojävig": {
+    "opposite": "jävig",
+    "description": "Jävig och ojävig används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”jävig” med ”ojävig”.",
+      "I exemplet används både ”jävig” och ”ojävig”."
+    ],
+    "related": [
+      "jävig"
+    ]
+  },
+  "jordiskhet": {
+    "opposite": "ojordiskhet",
+    "description": "Jordiskhet står i tydlig kontrast till ojordiskhet.",
+    "examples": [
+      "Skillnaden mellan ”jordiskhet” och ”ojordiskhet” blev tydlig.",
+      "Förklaringen visar hur ”jordiskhet” skiljer sig från ”ojordiskhet”."
+    ],
+    "related": [
+      "ojordiskhet"
+    ]
+  },
+  "ojordiskhet": {
+    "opposite": "jordiskhet",
+    "description": "Jordiskhet står i tydlig kontrast till ojordiskhet.",
+    "examples": [
+      "Skillnaden mellan ”jordiskhet” och ”ojordiskhet” blev tydlig.",
+      "Förklaringen visar hur ”jordiskhet” skiljer sig från ”ojordiskhet”."
+    ],
+    "related": [
+      "jordiskhet"
+    ]
+  },
+  "kamratlighet": {
+    "opposite": "okamratlighet",
+    "description": "Orden kamratlighet och okamratlighet beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”kamratlighet” och det andra som ”okamratlighet”.",
+      "Orden ”kamratlighet” och ”okamratlighet” ställdes mot varandra."
+    ],
+    "related": [
+      "okamratlighet"
+    ]
+  },
+  "okamratlighet": {
+    "opposite": "kamratlighet",
+    "description": "Orden kamratlighet och okamratlighet beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”kamratlighet” och det andra som ”okamratlighet”.",
+      "Orden ”kamratlighet” och ”okamratlighet” ställdes mot varandra."
+    ],
+    "related": [
+      "kamratlighet"
+    ]
+  },
+  "klarhet": {
+    "opposite": "oklarhet",
+    "description": "Klarhet och oklarhet uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”klarhet” och ”oklarhet”.",
+      "Övningen innehöll både ordet ”klarhet” och ordet ”oklarhet”."
+    ],
+    "related": [
+      "oklarhet"
+    ]
+  },
+  "oklarhet": {
+    "opposite": "klarhet",
+    "description": "Klarhet och oklarhet uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”klarhet” och ”oklarhet”.",
+      "Övningen innehöll både ordet ”klarhet” och ordet ”oklarhet”."
+    ],
+    "related": [
+      "klarhet"
+    ]
+  },
+  "klok": {
+    "opposite": "oklok",
+    "description": "Klok och oklok används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”klok” med ”oklok”.",
+      "I exemplet används både ”klok” och ”oklok”."
+    ],
+    "related": [
+      "oklok"
+    ]
+  },
+  "oklok": {
+    "opposite": "klok",
+    "description": "Klok och oklok används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”klok” med ”oklok”.",
+      "I exemplet används både ”klok” och ”oklok”."
+    ],
+    "related": [
+      "klok"
+    ]
+  },
+  "kontrollerbar": {
+    "opposite": "okontrollerbar",
+    "description": "Kontrollerbar står i tydlig kontrast till okontrollerbar.",
+    "examples": [
+      "Skillnaden mellan ”kontrollerbar” och ”okontrollerbar” blev tydlig.",
+      "Förklaringen visar hur ”kontrollerbar” skiljer sig från ”okontrollerbar”."
+    ],
+    "related": [
+      "okontrollerbar"
+    ]
+  },
+  "okontrollerbar": {
+    "opposite": "kontrollerbar",
+    "description": "Kontrollerbar står i tydlig kontrast till okontrollerbar.",
+    "examples": [
+      "Skillnaden mellan ”kontrollerbar” och ”okontrollerbar” blev tydlig.",
+      "Förklaringen visar hur ”kontrollerbar” skiljer sig från ”okontrollerbar”."
+    ],
+    "related": [
+      "kontrollerbar"
+    ]
+  },
+  "konventionell": {
+    "opposite": "okonventionell",
+    "description": "Orden konventionell och okonventionell beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”konventionell” och det andra som ”okonventionell”.",
+      "Orden ”konventionell” och ”okonventionell” ställdes mot varandra."
+    ],
+    "related": [
+      "okonventionell"
+    ]
+  },
+  "okonventionell": {
+    "opposite": "konventionell",
+    "description": "Orden konventionell och okonventionell beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”konventionell” och det andra som ”okonventionell”.",
+      "Orden ”konventionell” och ”okonventionell” ställdes mot varandra."
+    ],
+    "related": [
+      "konventionell"
+    ]
+  },
+  "kränkbar": {
+    "opposite": "okränkbar",
+    "description": "Kränkbar och okränkbar uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”kränkbar” och ”okränkbar”.",
+      "Övningen innehöll både ordet ”kränkbar” och ordet ”okränkbar”."
+    ],
+    "related": [
+      "okränkbar"
+    ]
+  },
+  "okränkbar": {
+    "opposite": "kränkbar",
+    "description": "Kränkbar och okränkbar uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”kränkbar” och ”okränkbar”.",
+      "Övningen innehöll både ordet ”kränkbar” och ordet ”okränkbar”."
+    ],
+    "related": [
+      "kränkbar"
+    ]
+  },
+  "kristlig": {
+    "opposite": "okristlig",
+    "description": "Kristlig och okristlig används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”kristlig” med ”okristlig”.",
+      "I exemplet används både ”kristlig” och ”okristlig”."
+    ],
+    "related": [
+      "okristlig"
+    ]
+  },
+  "okristlig": {
+    "opposite": "kristlig",
+    "description": "Kristlig och okristlig används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”kristlig” med ”okristlig”.",
+      "I exemplet används både ”kristlig” och ”okristlig”."
+    ],
+    "related": [
+      "kristlig"
+    ]
+  },
+  "kritisk": {
+    "opposite": "okritisk",
+    "description": "Kritisk står i tydlig kontrast till okritisk.",
+    "examples": [
+      "Skillnaden mellan ”kritisk” och ”okritisk” blev tydlig.",
+      "Förklaringen visar hur ”kritisk” skiljer sig från ”okritisk”."
+    ],
+    "related": [
+      "okritisk"
+    ]
+  },
+  "okritisk": {
+    "opposite": "kritisk",
+    "description": "Kritisk står i tydlig kontrast till okritisk.",
+    "examples": [
+      "Skillnaden mellan ”kritisk” och ”okritisk” blev tydlig.",
+      "Förklaringen visar hur ”kritisk” skiljer sig från ”okritisk”."
+    ],
+    "related": [
+      "kritisk"
+    ]
+  },
+  "kroppslig": {
+    "opposite": "okroppslig",
+    "description": "Orden kroppslig och okroppslig beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”kroppslig” och det andra som ”okroppslig”.",
+      "Orden ”kroppslig” och ”okroppslig” ställdes mot varandra."
+    ],
+    "related": [
+      "okroppslig"
+    ]
+  },
+  "okroppslig": {
+    "opposite": "kroppslig",
+    "description": "Orden kroppslig och okroppslig beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”kroppslig” och det andra som ”okroppslig”.",
+      "Orden ”kroppslig” och ”okroppslig” ställdes mot varandra."
+    ],
+    "related": [
+      "kroppslig"
+    ]
+  },
+  "kultiverad": {
+    "opposite": "okultiverad",
+    "description": "Kultiverad och okultiverad uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”kultiverad” och ”okultiverad”.",
+      "Övningen innehöll både ordet ”kultiverad” och ordet ”okultiverad”."
+    ],
+    "related": [
+      "okultiverad"
+    ]
+  },
+  "okultiverad": {
+    "opposite": "kultiverad",
+    "description": "Kultiverad och okultiverad uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”kultiverad” och ”okultiverad”.",
+      "Övningen innehöll både ordet ”kultiverad” och ordet ”okultiverad”."
+    ],
+    "related": [
+      "kultiverad"
+    ]
+  },
+  "kunnig": {
+    "opposite": "okunnig",
+    "description": "Kunnig och okunnig används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”kunnig” med ”okunnig”.",
+      "I exemplet används både ”kunnig” och ”okunnig”."
+    ],
+    "related": [
+      "okunnig"
+    ]
+  },
+  "okunnig": {
+    "opposite": "kunnig",
+    "description": "Kunnig och okunnig används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”kunnig” med ”okunnig”.",
+      "I exemplet används både ”kunnig” och ”okunnig”."
+    ],
+    "related": [
+      "kunnig"
+    ]
+  },
+  "kyrklig": {
+    "opposite": "okyrklig",
+    "description": "Kyrklig står i tydlig kontrast till okyrklig.",
+    "examples": [
+      "Skillnaden mellan ”kyrklig” och ”okyrklig” blev tydlig.",
+      "Förklaringen visar hur ”kyrklig” skiljer sig från ”okyrklig”."
+    ],
+    "related": [
+      "okyrklig"
+    ]
+  },
+  "okyrklig": {
+    "opposite": "kyrklig",
+    "description": "Kyrklig står i tydlig kontrast till okyrklig.",
+    "examples": [
+      "Skillnaden mellan ”kyrklig” och ”okyrklig” blev tydlig.",
+      "Förklaringen visar hur ”kyrklig” skiljer sig från ”okyrklig”."
+    ],
+    "related": [
+      "kyrklig"
+    ]
+  },
+  "kyskhet": {
+    "opposite": "okyskhet",
+    "description": "Orden kyskhet och okyskhet beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”kyskhet” och det andra som ”okyskhet”.",
+      "Orden ”kyskhet” och ”okyskhet” ställdes mot varandra."
+    ],
+    "related": [
+      "okyskhet"
+    ]
+  },
+  "okyskhet": {
+    "opposite": "kyskhet",
+    "description": "Orden kyskhet och okyskhet beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”kyskhet” och det andra som ”okyskhet”.",
+      "Orden ”kyskhet” och ”okyskhet” ställdes mot varandra."
+    ],
+    "related": [
+      "kyskhet"
+    ]
+  },
+  "laga": {
+    "opposite": "olaga",
+    "description": "Laga och olaga uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”laga” och ”olaga”.",
+      "Övningen innehöll både ordet ”laga” och ordet ”olaga”."
+    ],
+    "related": [
+      "olaga"
+    ]
+  },
+  "olaga": {
+    "opposite": "laga",
+    "description": "Laga och olaga uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”laga” och ”olaga”.",
+      "Övningen innehöll både ordet ”laga” och ordet ”olaga”."
+    ],
+    "related": [
+      "laga"
+    ]
+  },
+  "läglighet": {
+    "opposite": "oläglighet",
+    "description": "Läglighet och oläglighet används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”läglighet” med ”oläglighet”.",
+      "I exemplet används både ”läglighet” och ”oläglighet”."
+    ],
+    "related": [
+      "oläglighet"
+    ]
+  },
+  "oläglighet": {
+    "opposite": "läglighet",
+    "description": "Läglighet och oläglighet används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”läglighet” med ”oläglighet”.",
+      "I exemplet används både ”läglighet” och ”oläglighet”."
+    ],
+    "related": [
+      "läglighet"
+    ]
+  },
+  "lägligt": {
+    "opposite": "olägligt",
+    "description": "Lägligt står i tydlig kontrast till olägligt.",
+    "examples": [
+      "Skillnaden mellan ”lägligt” och ”olägligt” blev tydlig.",
+      "Förklaringen visar hur ”lägligt” skiljer sig från ”olägligt”."
+    ],
+    "related": [
+      "olägligt"
+    ]
+  },
+  "olägligt": {
+    "opposite": "lägligt",
+    "description": "Lägligt står i tydlig kontrast till olägligt.",
+    "examples": [
+      "Skillnaden mellan ”lägligt” och ”olägligt” blev tydlig.",
+      "Förklaringen visar hur ”lägligt” skiljer sig från ”olägligt”."
+    ],
+    "related": [
+      "lägligt"
+    ]
+  },
+  "ländig": {
+    "opposite": "oländig",
+    "description": "Orden ländig och oländig beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”ländig” och det andra som ”oländig”.",
+      "Orden ”ländig” och ”oländig” ställdes mot varandra."
+    ],
+    "related": [
+      "oländig"
+    ]
+  },
+  "oländig": {
+    "opposite": "ländig",
+    "description": "Orden ländig och oländig beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”ländig” och det andra som ”oländig”.",
+      "Orden ”ländig” och ”oländig” ställdes mot varandra."
+    ],
+    "related": [
+      "ländig"
+    ]
+  },
+  "läslighet": {
+    "opposite": "oläslighet",
+    "description": "Läslighet och oläslighet uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”läslighet” och ”oläslighet”.",
+      "Övningen innehöll både ordet ”läslighet” och ordet ”oläslighet”."
+    ],
+    "related": [
+      "oläslighet"
+    ]
+  },
+  "oläslighet": {
+    "opposite": "läslighet",
+    "description": "Läslighet och oläslighet uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”läslighet” och ”oläslighet”.",
+      "Övningen innehöll både ordet ”läslighet” och ordet ”oläslighet”."
+    ],
+    "related": [
+      "läslighet"
+    ]
+  },
+  "likformighet": {
+    "opposite": "olikformighet",
+    "description": "Likformighet och olikformighet används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”likformighet” med ”olikformighet”.",
+      "I exemplet används både ”likformighet” och ”olikformighet”."
+    ],
+    "related": [
+      "olikformighet"
+    ]
+  },
+  "olikformighet": {
+    "opposite": "likformighet",
+    "description": "Likformighet och olikformighet används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”likformighet” med ”olikformighet”.",
+      "I exemplet används både ”likformighet” och ”olikformighet”."
+    ],
+    "related": [
+      "likformighet"
+    ]
+  },
+  "likhet": {
+    "opposite": "olikhet",
+    "description": "Likhet står i tydlig kontrast till olikhet.",
+    "examples": [
+      "Skillnaden mellan ”likhet” och ”olikhet” blev tydlig.",
+      "Förklaringen visar hur ”likhet” skiljer sig från ”olikhet”."
+    ],
+    "related": [
+      "olikhet"
+    ]
+  },
+  "olikhet": {
+    "opposite": "likhet",
+    "description": "Likhet står i tydlig kontrast till olikhet.",
+    "examples": [
+      "Skillnaden mellan ”likhet” och ”olikhet” blev tydlig.",
+      "Förklaringen visar hur ”likhet” skiljer sig från ”olikhet”."
+    ],
+    "related": [
+      "likhet"
+    ]
+  },
+  "likhetstecken": {
+    "opposite": "olikhetstecken",
+    "description": "Orden likhetstecken och olikhetstecken beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”likhetstecken” och det andra som ”olikhetstecken”.",
+      "Orden ”likhetstecken” och ”olikhetstecken” ställdes mot varandra."
+    ],
+    "related": [
+      "olikhetstecken"
+    ]
+  },
+  "olikhetstecken": {
+    "opposite": "likhetstecken",
+    "description": "Orden likhetstecken och olikhetstecken beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”likhetstecken” och det andra som ”olikhetstecken”.",
+      "Orden ”likhetstecken” och ”olikhetstecken” ställdes mot varandra."
+    ],
+    "related": [
+      "likhetstecken"
+    ]
+  },
+  "limiterad": {
+    "opposite": "olimiterad",
+    "description": "Limiterad och olimiterad uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”limiterad” och ”olimiterad”.",
+      "Övningen innehöll både ordet ”limiterad” och ordet ”olimiterad”."
+    ],
+    "related": [
+      "olimiterad"
+    ]
+  },
+  "olimiterad": {
+    "opposite": "limiterad",
+    "description": "Limiterad och olimiterad uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”limiterad” och ”olimiterad”.",
+      "Övningen innehöll både ordet ”limiterad” och ordet ”olimiterad”."
+    ],
+    "related": [
+      "limiterad"
+    ]
+  },
+  "limmad": {
+    "opposite": "olimmad",
+    "description": "Limmad och olimmad används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”limmad” med ”olimmad”.",
+      "I exemplet används både ”limmad” och ”olimmad”."
+    ],
+    "related": [
+      "olimmad"
+    ]
+  },
+  "olimmad": {
+    "opposite": "limmad",
+    "description": "Limmad och olimmad används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”limmad” med ”olimmad”.",
+      "I exemplet används både ”limmad” och ”olimmad”."
+    ],
+    "related": [
+      "limmad"
+    ]
+  },
+  "lönsam": {
+    "opposite": "olönsam",
+    "description": "Lönsam står i tydlig kontrast till olönsam.",
+    "examples": [
+      "Skillnaden mellan ”lönsam” och ”olönsam” blev tydlig.",
+      "Förklaringen visar hur ”lönsam” skiljer sig från ”olönsam”."
+    ],
+    "related": [
+      "olönsam"
+    ]
+  },
+  "olönsam": {
+    "opposite": "lönsam",
+    "description": "Lönsam står i tydlig kontrast till olönsam.",
+    "examples": [
+      "Skillnaden mellan ”lönsam” och ”olönsam” blev tydlig.",
+      "Förklaringen visar hur ”lönsam” skiljer sig från ”olönsam”."
+    ],
+    "related": [
+      "lönsam"
+    ]
+  },
+  "lönsamhet": {
+    "opposite": "olönsamhet",
+    "description": "Orden lönsamhet och olönsamhet beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”lönsamhet” och det andra som ”olönsamhet”.",
+      "Orden ”lönsamhet” och ”olönsamhet” ställdes mot varandra."
+    ],
+    "related": [
+      "olönsamhet"
+    ]
+  },
+  "olönsamhet": {
+    "opposite": "lönsamhet",
+    "description": "Orden lönsamhet och olönsamhet beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”lönsamhet” och det andra som ”olönsamhet”.",
+      "Orden ”lönsamhet” och ”olönsamhet” ställdes mot varandra."
+    ],
+    "related": [
+      "lönsamhet"
+    ]
+  },
+  "lösbar": {
+    "opposite": "olösbar",
+    "description": "Lösbar och olösbar uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”lösbar” och ”olösbar”.",
+      "Övningen innehöll både ordet ”lösbar” och ordet ”olösbar”."
+    ],
+    "related": [
+      "olösbar"
+    ]
+  },
+  "olösbar": {
+    "opposite": "lösbar",
+    "description": "Lösbar och olösbar uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”lösbar” och ”olösbar”.",
+      "Övningen innehöll både ordet ”lösbar” och ordet ”olösbar”."
+    ],
+    "related": [
+      "lösbar"
+    ]
+  },
+  "löst": {
+    "opposite": "olöst",
+    "description": "Löst och olöst används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”löst” med ”olöst”.",
+      "I exemplet används både ”löst” och ”olöst”."
+    ],
+    "related": [
+      "olöst"
+    ]
+  },
+  "olöst": {
+    "opposite": "löst",
+    "description": "Löst och olöst används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”löst” med ”olöst”.",
+      "I exemplet används både ”löst” och ”olöst”."
+    ],
+    "related": [
+      "löst"
+    ]
+  },
+  "lovlighet": {
+    "opposite": "olovlighet",
+    "description": "Lovlighet står i tydlig kontrast till olovlighet.",
+    "examples": [
+      "Skillnaden mellan ”lovlighet” och ”olovlighet” blev tydlig.",
+      "Förklaringen visar hur ”lovlighet” skiljer sig från ”olovlighet”."
+    ],
+    "related": [
+      "olovlighet"
+    ]
+  },
+  "olovlighet": {
+    "opposite": "lovlighet",
+    "description": "Lovlighet står i tydlig kontrast till olovlighet.",
+    "examples": [
+      "Skillnaden mellan ”lovlighet” och ”olovlighet” blev tydlig.",
+      "Förklaringen visar hur ”lovlighet” skiljer sig från ”olovlighet”."
+    ],
+    "related": [
+      "lovlighet"
+    ]
+  },
+  "lustbetonad": {
+    "opposite": "olustbetonad",
+    "description": "Orden lustbetonad och olustbetonad beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”lustbetonad” och det andra som ”olustbetonad”.",
+      "Orden ”lustbetonad” och ”olustbetonad” ställdes mot varandra."
+    ],
+    "related": [
+      "olustbetonad"
+    ]
+  },
+  "olustbetonad": {
+    "opposite": "lustbetonad",
+    "description": "Orden lustbetonad och olustbetonad beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”lustbetonad” och det andra som ”olustbetonad”.",
+      "Orden ”lustbetonad” och ”olustbetonad” ställdes mot varandra."
+    ],
+    "related": [
+      "lustbetonad"
+    ]
+  },
+  "lydighet": {
+    "opposite": "olydighet",
+    "description": "Lydighet och olydighet uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”lydighet” och ”olydighet”.",
+      "Övningen innehöll både ordet ”lydighet” och ordet ”olydighet”."
+    ],
+    "related": [
+      "olydighet"
+    ]
+  },
+  "olydighet": {
+    "opposite": "lydighet",
+    "description": "Lydighet och olydighet uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”lydighet” och ”olydighet”.",
+      "Övningen innehöll både ordet ”lydighet” och ordet ”olydighet”."
+    ],
+    "related": [
+      "lydighet"
+    ]
+  },
+  "lydnad": {
+    "opposite": "olydnad",
+    "description": "Lydnad och olydnad används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”lydnad” med ”olydnad”.",
+      "I exemplet används både ”lydnad” och ”olydnad”."
+    ],
+    "related": [
+      "olydnad"
+    ]
+  },
+  "olydnad": {
+    "opposite": "lydnad",
+    "description": "Lydnad och olydnad används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”lydnad” med ”olydnad”.",
+      "I exemplet används både ”lydnad” och ”olydnad”."
+    ],
+    "related": [
+      "lydnad"
+    ]
+  },
+  "medelbart": {
+    "opposite": "omedelbart",
+    "description": "Medelbart står i tydlig kontrast till omedelbart.",
+    "examples": [
+      "Skillnaden mellan ”medelbart” och ”omedelbart” blev tydlig.",
+      "Förklaringen visar hur ”medelbart” skiljer sig från ”omedelbart”."
+    ],
+    "related": [
+      "omedelbart"
+    ]
+  },
+  "omedelbart": {
+    "opposite": "medelbart",
+    "description": "Medelbart står i tydlig kontrast till omedelbart.",
+    "examples": [
+      "Skillnaden mellan ”medelbart” och ”omedelbart” blev tydlig.",
+      "Förklaringen visar hur ”medelbart” skiljer sig från ”omedelbart”."
+    ],
+    "related": [
+      "medelbart"
+    ]
+  },
+  "medvetet": {
+    "opposite": "omedvetet",
+    "description": "Orden medvetet och omedvetet beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”medvetet” och det andra som ”omedvetet”.",
+      "Orden ”medvetet” och ”omedvetet” ställdes mot varandra."
+    ],
+    "related": [
+      "omedvetet"
+    ]
+  },
+  "omedvetet": {
+    "opposite": "medvetet",
+    "description": "Orden medvetet och omedvetet beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”medvetet” och det andra som ”omedvetet”.",
+      "Orden ”medvetet” och ”omedvetet” ställdes mot varandra."
+    ],
+    "related": [
+      "medvetet"
+    ]
+  },
+  "mild": {
+    "opposite": "omild",
+    "description": "Mild och omild uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”mild” och ”omild”.",
+      "Övningen innehöll både ordet ”mild” och ordet ”omild”."
+    ],
+    "related": [
+      "omild"
+    ]
+  },
+  "omild": {
+    "opposite": "mild",
+    "description": "Mild och omild uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”mild” och ”omild”.",
+      "Övningen innehöll både ordet ”mild” och ordet ”omild”."
+    ],
+    "related": [
+      "mild"
+    ]
+  },
+  "mildhet": {
+    "opposite": "omildhet",
+    "description": "Mildhet och omildhet används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”mildhet” med ”omildhet”.",
+      "I exemplet används både ”mildhet” och ”omildhet”."
+    ],
+    "related": [
+      "omildhet"
+    ]
+  },
+  "omildhet": {
+    "opposite": "mildhet",
+    "description": "Mildhet och omildhet används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”mildhet” med ”omildhet”.",
+      "I exemplet används både ”mildhet” och ”omildhet”."
+    ],
+    "related": [
+      "mildhet"
+    ]
+  },
+  "misstänksamhet": {
+    "opposite": "omisstänksamhet",
+    "description": "Misstänksamhet står i tydlig kontrast till omisstänksamhet.",
+    "examples": [
+      "Skillnaden mellan ”misstänksamhet” och ”omisstänksamhet” blev tydlig.",
+      "Förklaringen visar hur ”misstänksamhet” skiljer sig från ”omisstänksamhet”."
+    ],
+    "related": [
+      "omisstänksamhet"
+    ]
+  },
+  "omisstänksamhet": {
+    "opposite": "misstänksamhet",
+    "description": "Misstänksamhet står i tydlig kontrast till omisstänksamhet.",
+    "examples": [
+      "Skillnaden mellan ”misstänksamhet” och ”omisstänksamhet” blev tydlig.",
+      "Förklaringen visar hur ”misstänksamhet” skiljer sig från ”omisstänksamhet”."
+    ],
+    "related": [
+      "misstänksamhet"
+    ]
+  },
+  "mogenhet": {
+    "opposite": "omogenhet",
+    "description": "Orden mogenhet och omogenhet beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”mogenhet” och det andra som ”omogenhet”.",
+      "Orden ”mogenhet” och ”omogenhet” ställdes mot varandra."
+    ],
+    "related": [
+      "omogenhet"
+    ]
+  },
+  "omogenhet": {
+    "opposite": "mogenhet",
+    "description": "Orden mogenhet och omogenhet beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”mogenhet” och det andra som ”omogenhet”.",
+      "Orden ”mogenhet” och ”omogenhet” ställdes mot varandra."
+    ],
+    "related": [
+      "mogenhet"
+    ]
+  },
+  "möjligen": {
+    "opposite": "omöjligen",
+    "description": "Möjligen och omöjligen uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”möjligen” och ”omöjligen”.",
+      "Övningen innehöll både ordet ”möjligen” och ordet ”omöjligen”."
+    ],
+    "related": [
+      "omöjligen"
+    ]
+  },
+  "omöjligen": {
+    "opposite": "möjligen",
+    "description": "Möjligen och omöjligen uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”möjligen” och ”omöjligen”.",
+      "Övningen innehöll både ordet ”möjligen” och ordet ”omöjligen”."
+    ],
+    "related": [
+      "möjligen"
+    ]
+  },
+  "myndighet": {
+    "opposite": "omyndighet",
+    "description": "Myndighet och omyndighet används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”myndighet” med ”omyndighet”.",
+      "I exemplet används både ”myndighet” och ”omyndighet”."
+    ],
+    "related": [
+      "omyndighet"
+    ]
+  },
+  "omyndighet": {
+    "opposite": "myndighet",
+    "description": "Myndighet och omyndighet används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”myndighet” med ”omyndighet”.",
+      "I exemplet används både ”myndighet” och ”omyndighet”."
+    ],
+    "related": [
+      "myndighet"
+    ]
+  },
+  "nådd": {
+    "opposite": "onådd",
+    "description": "Nådd står i tydlig kontrast till onådd.",
+    "examples": [
+      "Skillnaden mellan ”nådd” och ”onådd” blev tydlig.",
+      "Förklaringen visar hur ”nådd” skiljer sig från ”onådd”."
+    ],
+    "related": [
+      "onådd"
+    ]
+  },
+  "onådd": {
+    "opposite": "nådd",
+    "description": "Nådd står i tydlig kontrast till onådd.",
+    "examples": [
+      "Skillnaden mellan ”nådd” och ”onådd” blev tydlig.",
+      "Förklaringen visar hur ”nådd” skiljer sig från ”onådd”."
+    ],
+    "related": [
+      "nådd"
+    ]
+  },
+  "nämnd": {
+    "opposite": "onämnd",
+    "description": "Orden nämnd och onämnd beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”nämnd” och det andra som ”onämnd”.",
+      "Orden ”nämnd” och ”onämnd” ställdes mot varandra."
+    ],
+    "related": [
+      "onämnd"
+    ]
+  },
+  "onämnd": {
+    "opposite": "nämnd",
+    "description": "Orden nämnd och onämnd beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”nämnd” och det andra som ”onämnd”.",
+      "Orden ”nämnd” och ”onämnd” ställdes mot varandra."
+    ],
+    "related": [
+      "nämnd"
+    ]
+  },
+  "naturligt": {
+    "opposite": "onaturligt",
+    "description": "Naturligt och onaturligt uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”naturligt” och ”onaturligt”.",
+      "Övningen innehöll både ordet ”naturligt” och ordet ”onaturligt”."
+    ],
+    "related": [
+      "onaturligt"
+    ]
+  },
+  "onaturligt": {
+    "opposite": "naturligt",
+    "description": "Naturligt och onaturligt uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”naturligt” och ”onaturligt”.",
+      "Övningen innehöll både ordet ”naturligt” och ordet ”onaturligt”."
+    ],
+    "related": [
+      "naturligt"
+    ]
+  },
+  "nedgradera": {
+    "opposite": "uppgradera",
+    "description": "Nedgradera och uppgradera används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”nedgradera” med ”uppgradera”.",
+      "I exemplet används både ”nedgradera” och ”uppgradera”."
+    ],
+    "related": [
+      "uppgradera"
+    ]
+  },
+  "uppgradera": {
+    "opposite": "nedgradera",
+    "description": "Nedgradera och uppgradera används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”nedgradera” med ”uppgradera”.",
+      "I exemplet används både ”nedgradera” och ”uppgradera”."
+    ],
+    "related": [
+      "nedgradera"
+    ]
+  },
+  "nedvärdera": {
+    "opposite": "uppvärdera",
+    "description": "Nedvärdera står i tydlig kontrast till uppvärdera.",
+    "examples": [
+      "Skillnaden mellan ”nedvärdera” och ”uppvärdera” blev tydlig.",
+      "Förklaringen visar hur ”nedvärdera” skiljer sig från ”uppvärdera”."
+    ],
+    "related": [
+      "uppvärdera"
+    ]
+  },
+  "uppvärdera": {
+    "opposite": "nedvärdera",
+    "description": "Nedvärdera står i tydlig kontrast till uppvärdera.",
+    "examples": [
+      "Skillnaden mellan ”nedvärdera” och ”uppvärdera” blev tydlig.",
+      "Förklaringen visar hur ”nedvärdera” skiljer sig från ”uppvärdera”."
+    ],
+    "related": [
+      "nedvärdera"
+    ]
+  },
+  "nöjaktighet": {
+    "opposite": "onöjaktighet",
+    "description": "Orden nöjaktighet och onöjaktighet beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”nöjaktighet” och det andra som ”onöjaktighet”.",
+      "Orden ”nöjaktighet” och ”onöjaktighet” ställdes mot varandra."
+    ],
+    "related": [
+      "onöjaktighet"
+    ]
+  },
+  "onöjaktighet": {
+    "opposite": "nöjaktighet",
+    "description": "Orden nöjaktighet och onöjaktighet beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”nöjaktighet” och det andra som ”onöjaktighet”.",
+      "Orden ”nöjaktighet” och ”onöjaktighet” ställdes mot varandra."
+    ],
+    "related": [
+      "nöjaktighet"
+    ]
+  },
+  "nord": {
+    "opposite": "syd",
+    "description": "Nord och syd uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”nord” och ”syd”.",
+      "Övningen innehöll både ordet ”nord” och ordet ”syd”."
+    ],
+    "related": [
+      "syd"
+    ]
+  },
+  "syd": {
+    "opposite": "nord",
+    "description": "Nord och syd uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”nord” och ”syd”.",
+      "Övningen innehöll både ordet ”nord” och ordet ”syd”."
+    ],
+    "related": [
+      "nord"
+    ]
+  },
+  "nordamerika": {
+    "opposite": "sydamerika",
+    "description": "Nordamerika och sydamerika används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”nordamerika” med ”sydamerika”.",
+      "I exemplet används både ”nordamerika” och ”sydamerika”."
+    ],
+    "related": [
+      "sydamerika"
+    ]
+  },
+  "sydamerika": {
+    "opposite": "nordamerika",
+    "description": "Nordamerika och sydamerika används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”nordamerika” med ”sydamerika”.",
+      "I exemplet används både ”nordamerika” och ”sydamerika”."
+    ],
+    "related": [
+      "nordamerika"
+    ]
+  },
+  "nordossetisk": {
+    "opposite": "sydossetisk",
+    "description": "Nordossetisk står i tydlig kontrast till sydossetisk.",
+    "examples": [
+      "Skillnaden mellan ”nordossetisk” och ”sydossetisk” blev tydlig.",
+      "Förklaringen visar hur ”nordossetisk” skiljer sig från ”sydossetisk”."
+    ],
+    "related": [
+      "sydossetisk"
+    ]
+  },
+  "sydossetisk": {
+    "opposite": "nordossetisk",
+    "description": "Nordossetisk står i tydlig kontrast till sydossetisk.",
+    "examples": [
+      "Skillnaden mellan ”nordossetisk” och ”sydossetisk” blev tydlig.",
+      "Förklaringen visar hur ”nordossetisk” skiljer sig från ”sydossetisk”."
+    ],
+    "related": [
+      "nordossetisk"
+    ]
+  },
+  "nyanserad": {
+    "opposite": "onyanserad",
+    "description": "Orden nyanserad och onyanserad beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”nyanserad” och det andra som ”onyanserad”.",
+      "Orden ”nyanserad” och ”onyanserad” ställdes mot varandra."
+    ],
+    "related": [
+      "onyanserad"
+    ]
+  },
+  "onyanserad": {
+    "opposite": "nyanserad",
+    "description": "Orden nyanserad och onyanserad beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”nyanserad” och det andra som ”onyanserad”.",
+      "Orden ”nyanserad” och ”onyanserad” ställdes mot varandra."
+    ],
+    "related": [
+      "nyanserad"
+    ]
+  },
+  "ombett": {
+    "opposite": "oombett",
+    "description": "Ombett och oombett uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”ombett” och ”oombett”.",
+      "Övningen innehöll både ordet ”ombett” och ordet ”oombett”."
+    ],
+    "related": [
+      "oombett"
+    ]
+  },
+  "oombett": {
+    "opposite": "ombett",
+    "description": "Ombett och oombett uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”ombett” och ”oombett”.",
+      "Övningen innehöll både ordet ”ombett” och ordet ”oombett”."
+    ],
+    "related": [
+      "ombett"
+    ]
+  },
+  "omstridd": {
+    "opposite": "oomstridd",
+    "description": "Omstridd och oomstridd används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”omstridd” med ”oomstridd”.",
+      "I exemplet används både ”omstridd” och ”oomstridd”."
+    ],
+    "related": [
+      "oomstridd"
+    ]
+  },
+  "oomstridd": {
+    "opposite": "omstridd",
+    "description": "Omstridd och oomstridd används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”omstridd” med ”oomstridd”.",
+      "I exemplet används både ”omstridd” och ”oomstridd”."
+    ],
+    "related": [
+      "omstridd"
+    ]
+  },
+  "omtvistad": {
+    "opposite": "oomtvistad",
+    "description": "Omtvistad står i tydlig kontrast till oomtvistad.",
+    "examples": [
+      "Skillnaden mellan ”omtvistad” och ”oomtvistad” blev tydlig.",
+      "Förklaringen visar hur ”omtvistad” skiljer sig från ”oomtvistad”."
+    ],
+    "related": [
+      "oomtvistad"
+    ]
+  },
+  "oomtvistad": {
+    "opposite": "omtvistad",
+    "description": "Omtvistad står i tydlig kontrast till oomtvistad.",
+    "examples": [
+      "Skillnaden mellan ”omtvistad” och ”oomtvistad” blev tydlig.",
+      "Förklaringen visar hur ”omtvistad” skiljer sig från ”oomtvistad”."
+    ],
+    "related": [
+      "omtvistad"
+    ]
+  },
+  "oorganisk": {
+    "opposite": "organisk",
+    "description": "Orden oorganisk och organisk beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”oorganisk” och det andra som ”organisk”.",
+      "Orden ”oorganisk” och ”organisk” ställdes mot varandra."
+    ],
+    "related": [
+      "organisk"
+    ]
+  },
+  "organisk": {
+    "opposite": "oorganisk",
+    "description": "Orden oorganisk och organisk beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”oorganisk” och det andra som ”organisk”.",
+      "Orden ”oorganisk” och ”organisk” ställdes mot varandra."
+    ],
+    "related": [
+      "oorganisk"
+    ]
+  },
+  "ooriginell": {
+    "opposite": "originell",
+    "description": "Ooriginell och originell uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”ooriginell” och ”originell”.",
+      "Övningen innehöll både ordet ”ooriginell” och ordet ”originell”."
+    ],
+    "related": [
+      "originell"
+    ]
+  },
+  "originell": {
+    "opposite": "ooriginell",
+    "description": "Ooriginell och originell uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”ooriginell” och ”originell”.",
+      "Övningen innehöll både ordet ”ooriginell” och ordet ”originell”."
+    ],
+    "related": [
+      "ooriginell"
+    ]
+  },
+  "oöverskådlig": {
+    "opposite": "överskådlig",
+    "description": "Oöverskådlig och överskådlig används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”oöverskådlig” med ”överskådlig”.",
+      "I exemplet används både ”oöverskådlig” och ”överskådlig”."
+    ],
+    "related": [
+      "överskådlig"
+    ]
+  },
+  "överskådlig": {
+    "opposite": "oöverskådlig",
+    "description": "Oöverskådlig och överskådlig används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”oöverskådlig” med ”överskådlig”.",
+      "I exemplet används både ”oöverskådlig” och ”överskådlig”."
+    ],
+    "related": [
+      "oöverskådlig"
+    ]
+  },
+  "oövervägd": {
+    "opposite": "övervägd",
+    "description": "Oövervägd står i tydlig kontrast till övervägd.",
+    "examples": [
+      "Skillnaden mellan ”oövervägd” och ”övervägd” blev tydlig.",
+      "Förklaringen visar hur ”oövervägd” skiljer sig från ”övervägd”."
+    ],
+    "related": [
+      "övervägd"
+    ]
+  },
+  "övervägd": {
+    "opposite": "oövervägd",
+    "description": "Oövervägd står i tydlig kontrast till övervägd.",
+    "examples": [
+      "Skillnaden mellan ”oövervägd” och ”övervägd” blev tydlig.",
+      "Förklaringen visar hur ”oövervägd” skiljer sig från ”övervägd”."
+    ],
+    "related": [
+      "oövervägd"
+    ]
+  },
+  "opålitlighet": {
+    "opposite": "pålitlighet",
+    "description": "Orden opålitlighet och pålitlighet beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”opålitlighet” och det andra som ”pålitlighet”.",
+      "Orden ”opålitlighet” och ”pålitlighet” ställdes mot varandra."
+    ],
+    "related": [
+      "pålitlighet"
+    ]
+  },
+  "pålitlighet": {
+    "opposite": "opålitlighet",
+    "description": "Orden opålitlighet och pålitlighet beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”opålitlighet” och det andra som ”pålitlighet”.",
+      "Orden ”opålitlighet” och ”pålitlighet” ställdes mot varandra."
+    ],
+    "related": [
+      "opålitlighet"
+    ]
+  },
+  "opasslig": {
+    "opposite": "passlig",
+    "description": "Opasslig och passlig uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”opasslig” och ”passlig”.",
+      "Övningen innehöll både ordet ”opasslig” och ordet ”passlig”."
+    ],
+    "related": [
+      "passlig"
+    ]
+  },
+  "passlig": {
+    "opposite": "opasslig",
+    "description": "Opasslig och passlig uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”opasslig” och ”passlig”.",
+      "Övningen innehöll både ordet ”opasslig” och ordet ”passlig”."
+    ],
+    "related": [
+      "opasslig"
+    ]
+  },
+  "opåverkad": {
+    "opposite": "påverkad",
+    "description": "Opåverkad och påverkad används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”opåverkad” med ”påverkad”.",
+      "I exemplet används både ”opåverkad” och ”påverkad”."
+    ],
+    "related": [
+      "påverkad"
+    ]
+  },
+  "påverkad": {
+    "opposite": "opåverkad",
+    "description": "Opåverkad och påverkad används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”opåverkad” med ”påverkad”.",
+      "I exemplet används både ”opåverkad” och ”påverkad”."
+    ],
+    "related": [
+      "opåverkad"
+    ]
+  },
+  "opretentiös": {
+    "opposite": "pretentiös",
+    "description": "Opretentiös står i tydlig kontrast till pretentiös.",
+    "examples": [
+      "Skillnaden mellan ”opretentiös” och ”pretentiös” blev tydlig.",
+      "Förklaringen visar hur ”opretentiös” skiljer sig från ”pretentiös”."
+    ],
+    "related": [
+      "pretentiös"
+    ]
+  },
+  "pretentiös": {
+    "opposite": "opretentiös",
+    "description": "Opretentiös står i tydlig kontrast till pretentiös.",
+    "examples": [
+      "Skillnaden mellan ”opretentiös” och ”pretentiös” blev tydlig.",
+      "Förklaringen visar hur ”opretentiös” skiljer sig från ”pretentiös”."
+    ],
+    "related": [
+      "opretentiös"
+    ]
+  },
+  "oproblematisk": {
+    "opposite": "problematisk",
+    "description": "Orden oproblematisk och problematisk beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”oproblematisk” och det andra som ”problematisk”.",
+      "Orden ”oproblematisk” och ”problematisk” ställdes mot varandra."
+    ],
+    "related": [
+      "problematisk"
+    ]
+  },
+  "problematisk": {
+    "opposite": "oproblematisk",
+    "description": "Orden oproblematisk och problematisk beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”oproblematisk” och det andra som ”problematisk”.",
+      "Orden ”oproblematisk” och ”problematisk” ställdes mot varandra."
+    ],
+    "related": [
+      "oproblematisk"
+    ]
+  },
+  "oproduktiv": {
+    "opposite": "produktiv",
+    "description": "Oproduktiv och produktiv uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”oproduktiv” och ”produktiv”.",
+      "Övningen innehöll både ordet ”oproduktiv” och ordet ”produktiv”."
+    ],
+    "related": [
+      "produktiv"
+    ]
+  },
+  "produktiv": {
+    "opposite": "oproduktiv",
+    "description": "Oproduktiv och produktiv uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”oproduktiv” och ”produktiv”.",
+      "Övningen innehöll både ordet ”oproduktiv” och ordet ”produktiv”."
+    ],
+    "related": [
+      "oproduktiv"
+    ]
+  },
+  "orättmätighet": {
+    "opposite": "rättmätighet",
+    "description": "Orättmätighet och rättmätighet används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”orättmätighet” med ”rättmätighet”.",
+      "I exemplet används både ”orättmätighet” och ”rättmätighet”."
+    ],
+    "related": [
+      "rättmätighet"
+    ]
+  },
+  "rättmätighet": {
+    "opposite": "orättmätighet",
+    "description": "Orättmätighet och rättmätighet används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”orättmätighet” med ”rättmätighet”.",
+      "I exemplet används både ”orättmätighet” och ”rättmätighet”."
+    ],
+    "related": [
+      "orättmätighet"
+    ]
+  },
+  "orättrådig": {
+    "opposite": "rättrådig",
+    "description": "Orättrådig står i tydlig kontrast till rättrådig.",
+    "examples": [
+      "Skillnaden mellan ”orättrådig” och ”rättrådig” blev tydlig.",
+      "Förklaringen visar hur ”orättrådig” skiljer sig från ”rättrådig”."
+    ],
+    "related": [
+      "rättrådig"
+    ]
+  },
+  "rättrådig": {
+    "opposite": "orättrådig",
+    "description": "Orättrådig står i tydlig kontrast till rättrådig.",
+    "examples": [
+      "Skillnaden mellan ”orättrådig” och ”rättrådig” blev tydlig.",
+      "Förklaringen visar hur ”orättrådig” skiljer sig från ”rättrådig”."
+    ],
+    "related": [
+      "orättrådig"
+    ]
+  },
+  "orättrådighet": {
+    "opposite": "rättrådighet",
+    "description": "Orden orättrådighet och rättrådighet beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”orättrådighet” och det andra som ”rättrådighet”.",
+      "Orden ”orättrådighet” och ”rättrådighet” ställdes mot varandra."
+    ],
+    "related": [
+      "rättrådighet"
+    ]
+  },
+  "rättrådighet": {
+    "opposite": "orättrådighet",
+    "description": "Orden orättrådighet och rättrådighet beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”orättrådighet” och det andra som ”rättrådighet”.",
+      "Orden ”orättrådighet” och ”rättrådighet” ställdes mot varandra."
+    ],
+    "related": [
+      "orättrådighet"
+    ]
+  },
+  "orealiserbar": {
+    "opposite": "realiserbar",
+    "description": "Orealiserbar och realiserbar uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”orealiserbar” och ”realiserbar”.",
+      "Övningen innehöll både ordet ”orealiserbar” och ordet ”realiserbar”."
+    ],
+    "related": [
+      "realiserbar"
+    ]
+  },
+  "realiserbar": {
+    "opposite": "orealiserbar",
+    "description": "Orealiserbar och realiserbar uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”orealiserbar” och ”realiserbar”.",
+      "Övningen innehöll både ordet ”orealiserbar” och ordet ”realiserbar”."
+    ],
+    "related": [
+      "orealiserbar"
+    ]
+  },
+  "oreda": {
+    "opposite": "reda",
+    "description": "Oreda och reda används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”oreda” med ”reda”.",
+      "I exemplet används både ”oreda” och ”reda”."
+    ],
+    "related": [
+      "reda"
+    ]
+  },
+  "reda": {
+    "opposite": "oreda",
+    "description": "Oreda och reda används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”oreda” med ”reda”.",
+      "I exemplet används både ”oreda” och ”reda”."
+    ],
+    "related": [
+      "oreda"
+    ]
+  },
+  "oregelmässig": {
+    "opposite": "regelmässig",
+    "description": "Oregelmässig står i tydlig kontrast till regelmässig.",
+    "examples": [
+      "Skillnaden mellan ”oregelmässig” och ”regelmässig” blev tydlig.",
+      "Förklaringen visar hur ”oregelmässig” skiljer sig från ”regelmässig”."
+    ],
+    "related": [
+      "regelmässig"
+    ]
+  },
+  "regelmässig": {
+    "opposite": "oregelmässig",
+    "description": "Oregelmässig står i tydlig kontrast till regelmässig.",
+    "examples": [
+      "Skillnaden mellan ”oregelmässig” och ”regelmässig” blev tydlig.",
+      "Förklaringen visar hur ”oregelmässig” skiljer sig från ”regelmässig”."
+    ],
+    "related": [
+      "oregelmässig"
+    ]
+  },
+  "orenlig": {
+    "opposite": "renlig",
+    "description": "Orden orenlig och renlig beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”orenlig” och det andra som ”renlig”.",
+      "Orden ”orenlig” och ”renlig” ställdes mot varandra."
+    ],
+    "related": [
+      "renlig"
+    ]
+  },
+  "renlig": {
+    "opposite": "orenlig",
+    "description": "Orden orenlig och renlig beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”orenlig” och det andra som ”renlig”.",
+      "Orden ”orenlig” och ”renlig” ställdes mot varandra."
+    ],
+    "related": [
+      "orenlig"
+    ]
+  },
+  "orenlighet": {
+    "opposite": "renlighet",
+    "description": "Orenlighet och renlighet uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”orenlighet” och ”renlighet”.",
+      "Övningen innehöll både ordet ”orenlighet” och ordet ”renlighet”."
+    ],
+    "related": [
+      "renlighet"
+    ]
+  },
+  "renlighet": {
+    "opposite": "orenlighet",
+    "description": "Orenlighet och renlighet uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”orenlighet” och ”renlighet”.",
+      "Övningen innehöll både ordet ”orenlighet” och ordet ”renlighet”."
+    ],
+    "related": [
+      "orenlighet"
+    ]
+  },
+  "orimlighet": {
+    "opposite": "rimlighet",
+    "description": "Orimlighet och rimlighet används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”orimlighet” med ”rimlighet”.",
+      "I exemplet används både ”orimlighet” och ”rimlighet”."
+    ],
+    "related": [
+      "rimlighet"
+    ]
+  },
+  "rimlighet": {
+    "opposite": "orimlighet",
+    "description": "Orimlighet och rimlighet används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”orimlighet” med ”rimlighet”.",
+      "I exemplet används både ”orimlighet” och ”rimlighet”."
+    ],
+    "related": [
+      "orimlighet"
+    ]
+  },
+  "oro": {
+    "opposite": "ro",
+    "description": "Oro står i tydlig kontrast till ro.",
+    "examples": [
+      "Skillnaden mellan ”oro” och ”ro” blev tydlig.",
+      "Förklaringen visar hur ”oro” skiljer sig från ”ro”."
+    ],
+    "related": [
+      "ro"
+    ]
+  },
+  "ro": {
+    "opposite": "oro",
+    "description": "Oro står i tydlig kontrast till ro.",
+    "examples": [
+      "Skillnaden mellan ”oro” och ”ro” blev tydlig.",
+      "Förklaringen visar hur ”oro” skiljer sig från ”ro”."
+    ],
+    "related": [
+      "oro"
+    ]
+  },
+  "orörligt": {
+    "opposite": "rörligt",
+    "description": "Orden orörligt och rörligt beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”orörligt” och det andra som ”rörligt”.",
+      "Orden ”orörligt” och ”rörligt” ställdes mot varandra."
+    ],
+    "related": [
+      "rörligt"
+    ]
+  },
+  "rörligt": {
+    "opposite": "orörligt",
+    "description": "Orden orörligt och rörligt beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”orörligt” och det andra som ”rörligt”.",
+      "Orden ”orörligt” och ”rörligt” ställdes mot varandra."
+    ],
+    "related": [
+      "orörligt"
+    ]
+  },
+  "orubbad": {
+    "opposite": "rubbad",
+    "description": "Orubbad och rubbad uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”orubbad” och ”rubbad”.",
+      "Övningen innehöll både ordet ”orubbad” och ordet ”rubbad”."
+    ],
+    "related": [
+      "rubbad"
+    ]
+  },
+  "rubbad": {
+    "opposite": "orubbad",
+    "description": "Orubbad och rubbad uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”orubbad” och ”rubbad”.",
+      "Övningen innehöll både ordet ”orubbad” och ordet ”rubbad”."
+    ],
+    "related": [
+      "orubbad"
+    ]
+  },
+  "orutinerad": {
+    "opposite": "rutinerad",
+    "description": "Orutinerad och rutinerad används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”orutinerad” med ”rutinerad”.",
+      "I exemplet används både ”orutinerad” och ”rutinerad”."
+    ],
+    "related": [
+      "rutinerad"
+    ]
+  },
+  "rutinerad": {
+    "opposite": "orutinerad",
+    "description": "Orutinerad och rutinerad används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”orutinerad” med ”rutinerad”.",
+      "I exemplet används både ”orutinerad” och ”rutinerad”."
+    ],
+    "related": [
+      "orutinerad"
+    ]
+  },
+  "osaklig": {
+    "opposite": "saklig",
+    "description": "Osaklig står i tydlig kontrast till saklig.",
+    "examples": [
+      "Skillnaden mellan ”osaklig” och ”saklig” blev tydlig.",
+      "Förklaringen visar hur ”osaklig” skiljer sig från ”saklig”."
+    ],
+    "related": [
+      "saklig"
+    ]
+  },
+  "saklig": {
+    "opposite": "osaklig",
+    "description": "Osaklig står i tydlig kontrast till saklig.",
+    "examples": [
+      "Skillnaden mellan ”osaklig” och ”saklig” blev tydlig.",
+      "Förklaringen visar hur ”osaklig” skiljer sig från ”saklig”."
+    ],
+    "related": [
+      "osaklig"
+    ]
+  },
+  "osäkra": {
+    "opposite": "säkra",
+    "description": "Orden osäkra och säkra beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”osäkra” och det andra som ”säkra”.",
+      "Orden ”osäkra” och ”säkra” ställdes mot varandra."
+    ],
+    "related": [
+      "säkra"
+    ]
+  },
+  "säkra": {
+    "opposite": "osäkra",
+    "description": "Orden osäkra och säkra beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”osäkra” och det andra som ”säkra”.",
+      "Orden ”osäkra” och ”säkra” ställdes mot varandra."
+    ],
+    "related": [
+      "osäkra"
+    ]
+  },
+  "osalig": {
+    "opposite": "salig",
+    "description": "Osalig och salig uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”osalig” och ”salig”.",
+      "Övningen innehöll både ordet ”osalig” och ordet ”salig”."
+    ],
+    "related": [
+      "salig"
+    ]
+  },
+  "salig": {
+    "opposite": "osalig",
+    "description": "Osalig och salig uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”osalig” och ”salig”.",
+      "Övningen innehöll både ordet ”osalig” och ordet ”salig”."
+    ],
+    "related": [
+      "osalig"
+    ]
+  },
+  "osalighet": {
+    "opposite": "salighet",
+    "description": "Osalighet och salighet används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”osalighet” med ”salighet”.",
+      "I exemplet används både ”osalighet” och ”salighet”."
+    ],
+    "related": [
+      "salighet"
+    ]
+  },
+  "salighet": {
+    "opposite": "osalighet",
+    "description": "Osalighet och salighet används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”osalighet” med ”salighet”.",
+      "I exemplet används både ”osalighet” och ”salighet”."
+    ],
+    "related": [
+      "osalighet"
+    ]
+  },
+  "osällskaplig": {
+    "opposite": "sällskaplig",
+    "description": "Osällskaplig står i tydlig kontrast till sällskaplig.",
+    "examples": [
+      "Skillnaden mellan ”osällskaplig” och ”sällskaplig” blev tydlig.",
+      "Förklaringen visar hur ”osällskaplig” skiljer sig från ”sällskaplig”."
+    ],
+    "related": [
+      "sällskaplig"
+    ]
+  },
+  "sällskaplig": {
+    "opposite": "osällskaplig",
+    "description": "Osällskaplig står i tydlig kontrast till sällskaplig.",
+    "examples": [
+      "Skillnaden mellan ”osällskaplig” och ”sällskaplig” blev tydlig.",
+      "Förklaringen visar hur ”osällskaplig” skiljer sig från ”sällskaplig”."
+    ],
+    "related": [
+      "osällskaplig"
+    ]
+  },
+  "osällskaplighet": {
+    "opposite": "sällskaplighet",
+    "description": "Orden osällskaplighet och sällskaplighet beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”osällskaplighet” och det andra som ”sällskaplighet”.",
+      "Orden ”osällskaplighet” och ”sällskaplighet” ställdes mot varandra."
+    ],
+    "related": [
+      "sällskaplighet"
+    ]
+  },
+  "sällskaplighet": {
+    "opposite": "osällskaplighet",
+    "description": "Orden osällskaplighet och sällskaplighet beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”osällskaplighet” och det andra som ”sällskaplighet”.",
+      "Orden ”osällskaplighet” och ”sällskaplighet” ställdes mot varandra."
+    ],
+    "related": [
+      "osällskaplighet"
+    ]
+  },
+  "osänkbar": {
+    "opposite": "sänkbar",
+    "description": "Osänkbar och sänkbar uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”osänkbar” och ”sänkbar”.",
+      "Övningen innehöll både ordet ”osänkbar” och ordet ”sänkbar”."
+    ],
+    "related": [
+      "sänkbar"
+    ]
+  },
+  "sänkbar": {
+    "opposite": "osänkbar",
+    "description": "Osänkbar och sänkbar uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”osänkbar” och ”sänkbar”.",
+      "Övningen innehöll både ordet ”osänkbar” och ordet ”sänkbar”."
+    ],
+    "related": [
+      "osänkbar"
+    ]
+  },
+  "osannfärdig": {
+    "opposite": "sannfärdig",
+    "description": "Osannfärdig och sannfärdig används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”osannfärdig” med ”sannfärdig”.",
+      "I exemplet används både ”osannfärdig” och ”sannfärdig”."
+    ],
+    "related": [
+      "sannfärdig"
+    ]
+  },
+  "sannfärdig": {
+    "opposite": "osannfärdig",
+    "description": "Osannfärdig och sannfärdig används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”osannfärdig” med ”sannfärdig”.",
+      "I exemplet används både ”osannfärdig” och ”sannfärdig”."
+    ],
+    "related": [
+      "osannfärdig"
+    ]
+  },
+  "osannolikhet": {
+    "opposite": "sannolikhet",
+    "description": "Osannolikhet står i tydlig kontrast till sannolikhet.",
+    "examples": [
+      "Skillnaden mellan ”osannolikhet” och ”sannolikhet” blev tydlig.",
+      "Förklaringen visar hur ”osannolikhet” skiljer sig från ”sannolikhet”."
+    ],
+    "related": [
+      "sannolikhet"
+    ]
+  },
+  "sannolikhet": {
+    "opposite": "osannolikhet",
+    "description": "Osannolikhet står i tydlig kontrast till sannolikhet.",
+    "examples": [
+      "Skillnaden mellan ”osannolikhet” och ”sannolikhet” blev tydlig.",
+      "Förklaringen visar hur ”osannolikhet” skiljer sig från ”sannolikhet”."
+    ],
+    "related": [
+      "osannolikhet"
+    ]
+  },
+  "osedlighet": {
+    "opposite": "sedlighet",
+    "description": "Orden osedlighet och sedlighet beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”osedlighet” och det andra som ”sedlighet”.",
+      "Orden ”osedlighet” och ”sedlighet” ställdes mot varandra."
+    ],
+    "related": [
+      "sedlighet"
+    ]
+  },
+  "sedlighet": {
+    "opposite": "osedlighet",
+    "description": "Orden osedlighet och sedlighet beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”osedlighet” och det andra som ”sedlighet”.",
+      "Orden ”osedlighet” och ”sedlighet” ställdes mot varandra."
+    ],
+    "related": [
+      "osedlighet"
+    ]
+  },
+  "osegelbar": {
+    "opposite": "segelbar",
+    "description": "Osegelbar och segelbar uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”osegelbar” och ”segelbar”.",
+      "Övningen innehöll både ordet ”osegelbar” och ordet ”segelbar”."
+    ],
+    "related": [
+      "segelbar"
+    ]
+  },
+  "segelbar": {
+    "opposite": "osegelbar",
+    "description": "Osegelbar och segelbar uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”osegelbar” och ”segelbar”.",
+      "Övningen innehöll både ordet ”osegelbar” och ordet ”segelbar”."
+    ],
+    "related": [
+      "osegelbar"
+    ]
+  },
+  "osjälviskt": {
+    "opposite": "själviskt",
+    "description": "Osjälviskt och själviskt används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”osjälviskt” med ”själviskt”.",
+      "I exemplet används både ”osjälviskt” och ”själviskt”."
+    ],
+    "related": [
+      "själviskt"
+    ]
+  },
+  "själviskt": {
+    "opposite": "osjälviskt",
+    "description": "Osjälviskt och själviskt används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”osjälviskt” med ”själviskt”.",
+      "I exemplet används både ”osjälviskt” och ”själviskt”."
+    ],
+    "related": [
+      "osjälviskt"
+    ]
+  },
+  "oskadlig": {
+    "opposite": "skadlig",
+    "description": "Oskadlig står i tydlig kontrast till skadlig.",
+    "examples": [
+      "Skillnaden mellan ”oskadlig” och ”skadlig” blev tydlig.",
+      "Förklaringen visar hur ”oskadlig” skiljer sig från ”skadlig”."
+    ],
+    "related": [
+      "skadlig"
+    ]
+  },
+  "skadlig": {
+    "opposite": "oskadlig",
+    "description": "Oskadlig står i tydlig kontrast till skadlig.",
+    "examples": [
+      "Skillnaden mellan ”oskadlig” och ”skadlig” blev tydlig.",
+      "Förklaringen visar hur ”oskadlig” skiljer sig från ”skadlig”."
+    ],
+    "related": [
+      "oskadlig"
+    ]
+  },
+  "oskadlighet": {
+    "opposite": "skadlighet",
+    "description": "Orden oskadlighet och skadlighet beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”oskadlighet” och det andra som ”skadlighet”.",
+      "Orden ”oskadlighet” och ”skadlighet” ställdes mot varandra."
+    ],
+    "related": [
+      "skadlighet"
+    ]
+  },
+  "skadlighet": {
+    "opposite": "oskadlighet",
+    "description": "Orden oskadlighet och skadlighet beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”oskadlighet” och det andra som ”skadlighet”.",
+      "Orden ”oskadlighet” och ”skadlighet” ställdes mot varandra."
+    ],
+    "related": [
+      "oskadlighet"
+    ]
+  },
+  "oskälighet": {
+    "opposite": "skälighet",
+    "description": "Oskälighet och skälighet uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”oskälighet” och ”skälighet”.",
+      "Övningen innehöll både ordet ”oskälighet” och ordet ”skälighet”."
+    ],
+    "related": [
+      "skälighet"
+    ]
+  },
+  "skälighet": {
+    "opposite": "oskälighet",
+    "description": "Oskälighet och skälighet uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”oskälighet” och ”skälighet”.",
+      "Övningen innehöll både ordet ”oskälighet” och ordet ”skälighet”."
+    ],
+    "related": [
+      "oskälighet"
+    ]
+  },
+  "oskarp": {
+    "opposite": "skarp",
+    "description": "Oskarp och skarp används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”oskarp” med ”skarp”.",
+      "I exemplet används både ”oskarp” och ”skarp”."
+    ],
+    "related": [
+      "skarp"
+    ]
+  },
+  "skarp": {
+    "opposite": "oskarp",
+    "description": "Oskarp och skarp används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”oskarp” med ”skarp”.",
+      "I exemplet används både ”oskarp” och ”skarp”."
+    ],
+    "related": [
+      "oskarp"
+    ]
+  },
+  "oskärpa": {
+    "opposite": "skärpa",
+    "description": "Oskärpa står i tydlig kontrast till skärpa.",
+    "examples": [
+      "Skillnaden mellan ”oskärpa” och ”skärpa” blev tydlig.",
+      "Förklaringen visar hur ”oskärpa” skiljer sig från ”skärpa”."
+    ],
+    "related": [
+      "skärpa"
+    ]
+  },
+  "skärpa": {
+    "opposite": "oskärpa",
+    "description": "Oskärpa står i tydlig kontrast till skärpa.",
+    "examples": [
+      "Skillnaden mellan ”oskärpa” och ”skärpa” blev tydlig.",
+      "Förklaringen visar hur ”oskärpa” skiljer sig från ”skärpa”."
+    ],
+    "related": [
+      "oskärpa"
+    ]
+  },
+  "oskick": {
+    "opposite": "skick",
+    "description": "Orden oskick och skick beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”oskick” och det andra som ”skick”.",
+      "Orden ”oskick” och ”skick” ställdes mot varandra."
+    ],
+    "related": [
+      "skick"
+    ]
+  },
+  "skick": {
+    "opposite": "oskick",
+    "description": "Orden oskick och skick beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”oskick” och det andra som ”skick”.",
+      "Orden ”oskick” och ”skick” ställdes mot varandra."
+    ],
+    "related": [
+      "oskick"
+    ]
+  },
+  "oskiljbarhet": {
+    "opposite": "skiljbarhet",
+    "description": "Oskiljbarhet och skiljbarhet uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”oskiljbarhet” och ”skiljbarhet”.",
+      "Övningen innehöll både ordet ”oskiljbarhet” och ordet ”skiljbarhet”."
+    ],
+    "related": [
+      "skiljbarhet"
+    ]
+  },
+  "skiljbarhet": {
+    "opposite": "oskiljbarhet",
+    "description": "Oskiljbarhet och skiljbarhet uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”oskiljbarhet” och ”skiljbarhet”.",
+      "Övningen innehöll både ordet ”oskiljbarhet” och ordet ”skiljbarhet”."
+    ],
+    "related": [
+      "oskiljbarhet"
+    ]
+  },
+  "oskodd": {
+    "opposite": "skodd",
+    "description": "Oskodd och skodd används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”oskodd” med ”skodd”.",
+      "I exemplet används både ”oskodd” och ”skodd”."
+    ],
+    "related": [
+      "skodd"
+    ]
+  },
+  "skodd": {
+    "opposite": "oskodd",
+    "description": "Oskodd och skodd används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”oskodd” med ”skodd”.",
+      "I exemplet används både ”oskodd” och ”skodd”."
+    ],
+    "related": [
+      "oskodd"
+    ]
+  },
+  "oslagbar": {
+    "opposite": "slagbar",
+    "description": "Oslagbar står i tydlig kontrast till slagbar.",
+    "examples": [
+      "Skillnaden mellan ”oslagbar” och ”slagbar” blev tydlig.",
+      "Förklaringen visar hur ”oslagbar” skiljer sig från ”slagbar”."
+    ],
+    "related": [
+      "slagbar"
+    ]
+  },
+  "slagbar": {
+    "opposite": "oslagbar",
+    "description": "Oslagbar står i tydlig kontrast till slagbar.",
+    "examples": [
+      "Skillnaden mellan ”oslagbar” och ”slagbar” blev tydlig.",
+      "Förklaringen visar hur ”oslagbar” skiljer sig från ”slagbar”."
+    ],
+    "related": [
+      "oslagbar"
+    ]
+  },
+  "osmaklig": {
+    "opposite": "smaklig",
+    "description": "Orden osmaklig och smaklig beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”osmaklig” och det andra som ”smaklig”.",
+      "Orden ”osmaklig” och ”smaklig” ställdes mot varandra."
+    ],
+    "related": [
+      "smaklig"
+    ]
+  },
+  "smaklig": {
+    "opposite": "osmaklig",
+    "description": "Orden osmaklig och smaklig beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”osmaklig” och det andra som ”smaklig”.",
+      "Orden ”osmaklig” och ”smaklig” ställdes mot varandra."
+    ],
+    "related": [
+      "osmaklig"
+    ]
+  },
+  "osolidarisk": {
+    "opposite": "solidarisk",
+    "description": "Osolidarisk och solidarisk uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”osolidarisk” och ”solidarisk”.",
+      "Övningen innehöll både ordet ”osolidarisk” och ordet ”solidarisk”."
+    ],
+    "related": [
+      "solidarisk"
+    ]
+  },
+  "solidarisk": {
+    "opposite": "osolidarisk",
+    "description": "Osolidarisk och solidarisk uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”osolidarisk” och ”solidarisk”.",
+      "Övningen innehöll både ordet ”osolidarisk” och ordet ”solidarisk”."
+    ],
+    "related": [
+      "osolidarisk"
+    ]
+  },
+  "ospontan": {
+    "opposite": "spontan",
+    "description": "Ospontan och spontan används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”ospontan” med ”spontan”.",
+      "I exemplet används både ”ospontan” och ”spontan”."
+    ],
+    "related": [
+      "spontan"
+    ]
+  },
+  "spontan": {
+    "opposite": "ospontan",
+    "description": "Ospontan och spontan används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”ospontan” med ”spontan”.",
+      "I exemplet används både ”ospontan” och ”spontan”."
+    ],
+    "related": [
+      "ospontan"
+    ]
+  },
+  "osportslighet": {
+    "opposite": "sportslighet",
+    "description": "Osportslighet står i tydlig kontrast till sportslighet.",
+    "examples": [
+      "Skillnaden mellan ”osportslighet” och ”sportslighet” blev tydlig.",
+      "Förklaringen visar hur ”osportslighet” skiljer sig från ”sportslighet”."
+    ],
+    "related": [
+      "sportslighet"
+    ]
+  },
+  "sportslighet": {
+    "opposite": "osportslighet",
+    "description": "Osportslighet står i tydlig kontrast till sportslighet.",
+    "examples": [
+      "Skillnaden mellan ”osportslighet” och ”sportslighet” blev tydlig.",
+      "Förklaringen visar hur ”osportslighet” skiljer sig från ”sportslighet”."
+    ],
+    "related": [
+      "osportslighet"
+    ]
+  },
+  "ostadig": {
+    "opposite": "stadig",
+    "description": "Orden ostadig och stadig beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”ostadig” och det andra som ”stadig”.",
+      "Orden ”ostadig” och ”stadig” ställdes mot varandra."
+    ],
+    "related": [
+      "stadig"
+    ]
+  },
+  "stadig": {
+    "opposite": "ostadig",
+    "description": "Orden ostadig och stadig beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”ostadig” och det andra som ”stadig”.",
+      "Orden ”ostadig” och ”stadig” ställdes mot varandra."
+    ],
+    "related": [
+      "ostadig"
+    ]
+  },
+  "östanvind": {
+    "opposite": "västanvind",
+    "description": "Östanvind och västanvind uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”östanvind” och ”västanvind”.",
+      "Övningen innehöll både ordet ”östanvind” och ordet ”västanvind”."
+    ],
+    "related": [
+      "västanvind"
+    ]
+  },
+  "västanvind": {
+    "opposite": "östanvind",
+    "description": "Östanvind och västanvind uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”östanvind” och ”västanvind”.",
+      "Övningen innehöll både ordet ”östanvind” och ordet ”västanvind”."
+    ],
+    "related": [
+      "östanvind"
+    ]
+  },
+  "österländsk": {
+    "opposite": "västerländsk",
+    "description": "Österländsk och västerländsk används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”österländsk” med ”västerländsk”.",
+      "I exemplet används både ”österländsk” och ”västerländsk”."
+    ],
+    "related": [
+      "västerländsk"
+    ]
+  },
+  "västerländsk": {
+    "opposite": "österländsk",
+    "description": "Österländsk och västerländsk används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”österländsk” med ”västerländsk”.",
+      "I exemplet används både ”österländsk” och ”västerländsk”."
+    ],
+    "related": [
+      "österländsk"
+    ]
+  },
+  "österöver": {
+    "opposite": "västeröver",
+    "description": "Österöver står i tydlig kontrast till västeröver.",
+    "examples": [
+      "Skillnaden mellan ”österöver” och ”västeröver” blev tydlig.",
+      "Förklaringen visar hur ”österöver” skiljer sig från ”västeröver”."
+    ],
+    "related": [
+      "västeröver"
+    ]
+  },
+  "västeröver": {
+    "opposite": "österöver",
+    "description": "Österöver står i tydlig kontrast till västeröver.",
+    "examples": [
+      "Skillnaden mellan ”österöver” och ”västeröver” blev tydlig.",
+      "Förklaringen visar hur ”österöver” skiljer sig från ”västeröver”."
+    ],
+    "related": [
+      "österöver"
+    ]
+  },
+  "östeuropeisk": {
+    "opposite": "västeuropeisk",
+    "description": "Orden östeuropeisk och västeuropeisk beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”östeuropeisk” och det andra som ”västeuropeisk”.",
+      "Orden ”östeuropeisk” och ”västeuropeisk” ställdes mot varandra."
+    ],
+    "related": [
+      "västeuropeisk"
+    ]
+  },
+  "västeuropeisk": {
+    "opposite": "östeuropeisk",
+    "description": "Orden östeuropeisk och västeuropeisk beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”östeuropeisk” och det andra som ”västeuropeisk”.",
+      "Orden ”östeuropeisk” och ”västeuropeisk” ställdes mot varandra."
+    ],
+    "related": [
+      "östeuropeisk"
+    ]
+  },
+  "östgöte": {
+    "opposite": "västgöte",
+    "description": "Östgöte och västgöte uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”östgöte” och ”västgöte”.",
+      "Övningen innehöll både ordet ”östgöte” och ordet ”västgöte”."
+    ],
+    "related": [
+      "västgöte"
+    ]
+  },
+  "västgöte": {
+    "opposite": "östgöte",
+    "description": "Östgöte och västgöte uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”östgöte” och ”västgöte”.",
+      "Övningen innehöll både ordet ”östgöte” och ordet ”västgöte”."
+    ],
+    "related": [
+      "östgöte"
+    ]
+  },
+  "östgötsk": {
+    "opposite": "västgötsk",
+    "description": "Östgötsk och västgötsk används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”östgötsk” med ”västgötsk”.",
+      "I exemplet används både ”östgötsk” och ”västgötsk”."
+    ],
+    "related": [
+      "västgötsk"
+    ]
+  },
+  "västgötsk": {
+    "opposite": "östgötsk",
+    "description": "Östgötsk och västgötsk används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”östgötsk” med ”västgötsk”.",
+      "I exemplet används både ”östgötsk” och ”västgötsk”."
+    ],
+    "related": [
+      "östgötsk"
+    ]
+  },
+  "ostruken": {
+    "opposite": "struken",
+    "description": "Ostruken står i tydlig kontrast till struken.",
+    "examples": [
+      "Skillnaden mellan ”ostruken” och ”struken” blev tydlig.",
+      "Förklaringen visar hur ”ostruken” skiljer sig från ”struken”."
+    ],
+    "related": [
+      "struken"
+    ]
+  },
+  "struken": {
+    "opposite": "ostruken",
+    "description": "Ostruken står i tydlig kontrast till struken.",
+    "examples": [
+      "Skillnaden mellan ”ostruken” och ”struken” blev tydlig.",
+      "Förklaringen visar hur ”ostruken” skiljer sig från ”struken”."
+    ],
+    "related": [
+      "ostruken"
+    ]
+  },
+  "osugen": {
+    "opposite": "sugen",
+    "description": "Orden osugen och sugen beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”osugen” och det andra som ”sugen”.",
+      "Orden ”osugen” och ”sugen” ställdes mot varandra."
+    ],
+    "related": [
+      "sugen"
+    ]
+  },
+  "sugen": {
+    "opposite": "osugen",
+    "description": "Orden osugen och sugen beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”osugen” och det andra som ”sugen”.",
+      "Orden ”osugen” och ”sugen” ställdes mot varandra."
+    ],
+    "related": [
+      "osugen"
+    ]
+  },
+  "osviklig": {
+    "opposite": "sviklig",
+    "description": "Osviklig och sviklig uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”osviklig” och ”sviklig”.",
+      "Övningen innehöll både ordet ”osviklig” och ordet ”sviklig”."
+    ],
+    "related": [
+      "sviklig"
+    ]
+  },
+  "sviklig": {
+    "opposite": "osviklig",
+    "description": "Osviklig och sviklig uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”osviklig” och ”sviklig”.",
+      "Övningen innehöll både ordet ”osviklig” och ordet ”sviklig”."
+    ],
+    "related": [
+      "osviklig"
+    ]
+  },
+  "osvuren": {
+    "opposite": "svuren",
+    "description": "Osvuren och svuren används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”osvuren” med ”svuren”.",
+      "I exemplet används både ”osvuren” och ”svuren”."
+    ],
+    "related": [
+      "svuren"
+    ]
+  },
+  "svuren": {
+    "opposite": "osvuren",
+    "description": "Osvuren och svuren används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”osvuren” med ”svuren”.",
+      "I exemplet används både ”osvuren” och ”svuren”."
+    ],
+    "related": [
+      "osvuren"
+    ]
+  },
+  "osynlighet": {
+    "opposite": "synlighet",
+    "description": "Osynlighet står i tydlig kontrast till synlighet.",
+    "examples": [
+      "Skillnaden mellan ”osynlighet” och ”synlighet” blev tydlig.",
+      "Förklaringen visar hur ”osynlighet” skiljer sig från ”synlighet”."
+    ],
+    "related": [
+      "synlighet"
+    ]
+  },
+  "synlighet": {
+    "opposite": "osynlighet",
+    "description": "Osynlighet står i tydlig kontrast till synlighet.",
+    "examples": [
+      "Skillnaden mellan ”osynlighet” och ”synlighet” blev tydlig.",
+      "Förklaringen visar hur ”osynlighet” skiljer sig från ”synlighet”."
+    ],
+    "related": [
+      "osynlighet"
+    ]
+  },
+  "otacksamhet": {
+    "opposite": "tacksamhet",
+    "description": "Orden otacksamhet och tacksamhet beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”otacksamhet” och det andra som ”tacksamhet”.",
+      "Orden ”otacksamhet” och ”tacksamhet” ställdes mot varandra."
+    ],
+    "related": [
+      "tacksamhet"
+    ]
+  },
+  "tacksamhet": {
+    "opposite": "otacksamhet",
+    "description": "Orden otacksamhet och tacksamhet beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”otacksamhet” och det andra som ”tacksamhet”.",
+      "Orden ”otacksamhet” och ”tacksamhet” ställdes mot varandra."
+    ],
+    "related": [
+      "otacksamhet"
+    ]
+  },
+  "otaktisk": {
+    "opposite": "taktisk",
+    "description": "Otaktisk och taktisk uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”otaktisk” och ”taktisk”.",
+      "Övningen innehöll både ordet ”otaktisk” och ordet ”taktisk”."
+    ],
+    "related": [
+      "taktisk"
+    ]
+  },
+  "taktisk": {
+    "opposite": "otaktisk",
+    "description": "Otaktisk och taktisk uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”otaktisk” och ”taktisk”.",
+      "Övningen innehöll både ordet ”otaktisk” och ordet ”taktisk”."
+    ],
+    "related": [
+      "otaktisk"
+    ]
+  },
+  "otämjd": {
+    "opposite": "tämjd",
+    "description": "Otämjd och tämjd används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”otämjd” med ”tämjd”.",
+      "I exemplet används både ”otämjd” och ”tämjd”."
+    ],
+    "related": [
+      "tämjd"
+    ]
+  },
+  "tämjd": {
+    "opposite": "otämjd",
+    "description": "Otämjd och tämjd används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”otämjd” med ”tämjd”.",
+      "I exemplet används både ”otämjd” och ”tämjd”."
+    ],
+    "related": [
+      "otämjd"
+    ]
+  },
+  "otänjbar": {
+    "opposite": "tänjbar",
+    "description": "Otänjbar står i tydlig kontrast till tänjbar.",
+    "examples": [
+      "Skillnaden mellan ”otänjbar” och ”tänjbar” blev tydlig.",
+      "Förklaringen visar hur ”otänjbar” skiljer sig från ”tänjbar”."
+    ],
+    "related": [
+      "tänjbar"
+    ]
+  },
+  "tänjbar": {
+    "opposite": "otänjbar",
+    "description": "Otänjbar står i tydlig kontrast till tänjbar.",
+    "examples": [
+      "Skillnaden mellan ”otänjbar” och ”tänjbar” blev tydlig.",
+      "Förklaringen visar hur ”otänjbar” skiljer sig från ”tänjbar”."
+    ],
+    "related": [
+      "otänjbar"
+    ]
+  },
+  "otänjbarhet": {
+    "opposite": "tänjbarhet",
+    "description": "Orden otänjbarhet och tänjbarhet beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”otänjbarhet” och det andra som ”tänjbarhet”.",
+      "Orden ”otänjbarhet” och ”tänjbarhet” ställdes mot varandra."
+    ],
+    "related": [
+      "tänjbarhet"
+    ]
+  },
+  "tänjbarhet": {
+    "opposite": "otänjbarhet",
+    "description": "Orden otänjbarhet och tänjbarhet beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”otänjbarhet” och det andra som ”tänjbarhet”.",
+      "Orden ”otänjbarhet” och ”tänjbarhet” ställdes mot varandra."
+    ],
+    "related": [
+      "otänjbarhet"
+    ]
+  },
+  "otecknad": {
+    "opposite": "tecknad",
+    "description": "Otecknad och tecknad uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”otecknad” och ”tecknad”.",
+      "Övningen innehöll både ordet ”otecknad” och ordet ”tecknad”."
+    ],
+    "related": [
+      "tecknad"
+    ]
+  },
+  "tecknad": {
+    "opposite": "otecknad",
+    "description": "Otecknad och tecknad uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”otecknad” och ”tecknad”.",
+      "Övningen innehöll både ordet ”otecknad” och ordet ”tecknad”."
+    ],
+    "related": [
+      "otecknad"
+    ]
+  },
+  "otidsenlighet": {
+    "opposite": "tidsenlighet",
+    "description": "Otidsenlighet och tidsenlighet används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”otidsenlighet” med ”tidsenlighet”.",
+      "I exemplet används både ”otidsenlighet” och ”tidsenlighet”."
+    ],
+    "related": [
+      "tidsenlighet"
+    ]
+  },
+  "tidsenlighet": {
+    "opposite": "otidsenlighet",
+    "description": "Otidsenlighet och tidsenlighet används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”otidsenlighet” med ”tidsenlighet”.",
+      "I exemplet används både ”otidsenlighet” och ”tidsenlighet”."
+    ],
+    "related": [
+      "otidsenlighet"
+    ]
+  },
+  "otillbörlighet": {
+    "opposite": "tillbörlighet",
+    "description": "Otillbörlighet står i tydlig kontrast till tillbörlighet.",
+    "examples": [
+      "Skillnaden mellan ”otillbörlighet” och ”tillbörlighet” blev tydlig.",
+      "Förklaringen visar hur ”otillbörlighet” skiljer sig från ”tillbörlighet”."
+    ],
+    "related": [
+      "tillbörlighet"
+    ]
+  },
+  "tillbörlighet": {
+    "opposite": "otillbörlighet",
+    "description": "Otillbörlighet står i tydlig kontrast till tillbörlighet.",
+    "examples": [
+      "Skillnaden mellan ”otillbörlighet” och ”tillbörlighet” blev tydlig.",
+      "Förklaringen visar hur ”otillbörlighet” skiljer sig från ”tillbörlighet”."
+    ],
+    "related": [
+      "otillbörlighet"
+    ]
+  },
+  "otillförlitlig": {
+    "opposite": "tillförlitlig",
+    "description": "Orden otillförlitlig och tillförlitlig beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”otillförlitlig” och det andra som ”tillförlitlig”.",
+      "Orden ”otillförlitlig” och ”tillförlitlig” ställdes mot varandra."
+    ],
+    "related": [
+      "tillförlitlig"
+    ]
+  },
+  "tillförlitlig": {
+    "opposite": "otillförlitlig",
+    "description": "Orden otillförlitlig och tillförlitlig beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”otillförlitlig” och det andra som ”tillförlitlig”.",
+      "Orden ”otillförlitlig” och ”tillförlitlig” ställdes mot varandra."
+    ],
+    "related": [
+      "otillförlitlig"
+    ]
+  },
+  "otillförlitlighet": {
+    "opposite": "tillförlitlighet",
+    "description": "Otillförlitlighet och tillförlitlighet uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”otillförlitlighet” och ”tillförlitlighet”.",
+      "Övningen innehöll både ordet ”otillförlitlighet” och ordet ”tillförlitlighet”."
+    ],
+    "related": [
+      "tillförlitlighet"
+    ]
+  },
+  "tillförlitlighet": {
+    "opposite": "otillförlitlighet",
+    "description": "Otillförlitlighet och tillförlitlighet uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”otillförlitlighet” och ”tillförlitlighet”.",
+      "Övningen innehöll både ordet ”otillförlitlighet” och ordet ”tillförlitlighet”."
+    ],
+    "related": [
+      "otillförlitlighet"
+    ]
+  },
+  "otillfredsställande": {
+    "opposite": "tillfredsställande",
+    "description": "Otillfredsställande och tillfredsställande används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”otillfredsställande” med ”tillfredsställande”.",
+      "I exemplet används både ”otillfredsställande” och ”tillfredsställande”."
+    ],
+    "related": [
+      "tillfredsställande"
+    ]
+  },
+  "tillfredsställande": {
+    "opposite": "otillfredsställande",
+    "description": "Otillfredsställande och tillfredsställande används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”otillfredsställande” med ”tillfredsställande”.",
+      "I exemplet används både ”otillfredsställande” och ”tillfredsställande”."
+    ],
+    "related": [
+      "otillfredsställande"
+    ]
+  },
+  "otillfredsställd": {
+    "opposite": "tillfredsställd",
+    "description": "Otillfredsställd står i tydlig kontrast till tillfredsställd.",
+    "examples": [
+      "Skillnaden mellan ”otillfredsställd” och ”tillfredsställd” blev tydlig.",
+      "Förklaringen visar hur ”otillfredsställd” skiljer sig från ”tillfredsställd”."
+    ],
+    "related": [
+      "tillfredsställd"
+    ]
+  },
+  "tillfredsställd": {
+    "opposite": "otillfredsställd",
+    "description": "Otillfredsställd står i tydlig kontrast till tillfredsställd.",
+    "examples": [
+      "Skillnaden mellan ”otillfredsställd” och ”tillfredsställd” blev tydlig.",
+      "Förklaringen visar hur ”otillfredsställd” skiljer sig från ”tillfredsställd”."
+    ],
+    "related": [
+      "otillfredsställd"
+    ]
+  },
+  "otillfredsställdhet": {
+    "opposite": "tillfredsställdhet",
+    "description": "Orden otillfredsställdhet och tillfredsställdhet beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”otillfredsställdhet” och det andra som ”tillfredsställdhet”.",
+      "Orden ”otillfredsställdhet” och ”tillfredsställdhet” ställdes mot varandra."
+    ],
+    "related": [
+      "tillfredsställdhet"
+    ]
+  },
+  "tillfredsställdhet": {
+    "opposite": "otillfredsställdhet",
+    "description": "Orden otillfredsställdhet och tillfredsställdhet beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”otillfredsställdhet” och det andra som ”tillfredsställdhet”.",
+      "Orden ”otillfredsställdhet” och ”tillfredsställdhet” ställdes mot varandra."
+    ],
+    "related": [
+      "otillfredsställdhet"
+    ]
+  },
+  "otillgängliggöra": {
+    "opposite": "tillgängliggöra",
+    "description": "Otillgängliggöra och tillgängliggöra uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”otillgängliggöra” och ”tillgängliggöra”.",
+      "Övningen innehöll både ordet ”otillgängliggöra” och ordet ”tillgängliggöra”."
+    ],
+    "related": [
+      "tillgängliggöra"
+    ]
+  },
+  "tillgängliggöra": {
+    "opposite": "otillgängliggöra",
+    "description": "Otillgängliggöra och tillgängliggöra uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”otillgängliggöra” och ”tillgängliggöra”.",
+      "Övningen innehöll både ordet ”otillgängliggöra” och ordet ”tillgängliggöra”."
+    ],
+    "related": [
+      "otillgängliggöra"
+    ]
+  },
+  "otillgänglighet": {
+    "opposite": "tillgänglighet",
+    "description": "Otillgänglighet och tillgänglighet används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”otillgänglighet” med ”tillgänglighet”.",
+      "I exemplet används både ”otillgänglighet” och ”tillgänglighet”."
+    ],
+    "related": [
+      "tillgänglighet"
+    ]
+  },
+  "tillgänglighet": {
+    "opposite": "otillgänglighet",
+    "description": "Otillgänglighet och tillgänglighet används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”otillgänglighet” med ”tillgänglighet”.",
+      "I exemplet används både ”otillgänglighet” och ”tillgänglighet”."
+    ],
+    "related": [
+      "otillgänglighet"
+    ]
+  },
+  "otillräcklighet": {
+    "opposite": "tillräcklighet",
+    "description": "Otillräcklighet står i tydlig kontrast till tillräcklighet.",
+    "examples": [
+      "Skillnaden mellan ”otillräcklighet” och ”tillräcklighet” blev tydlig.",
+      "Förklaringen visar hur ”otillräcklighet” skiljer sig från ”tillräcklighet”."
+    ],
+    "related": [
+      "tillräcklighet"
+    ]
+  },
+  "tillräcklighet": {
+    "opposite": "otillräcklighet",
+    "description": "Otillräcklighet står i tydlig kontrast till tillräcklighet.",
+    "examples": [
+      "Skillnaden mellan ”otillräcklighet” och ”tillräcklighet” blev tydlig.",
+      "Förklaringen visar hur ”otillräcklighet” skiljer sig från ”tillräcklighet”."
+    ],
+    "related": [
+      "otillräcklighet"
+    ]
+  },
+  "otjänlig": {
+    "opposite": "tjänlig",
+    "description": "Orden otjänlig och tjänlig beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”otjänlig” och det andra som ”tjänlig”.",
+      "Orden ”otjänlig” och ”tjänlig” ställdes mot varandra."
+    ],
+    "related": [
+      "tjänlig"
+    ]
+  },
+  "tjänlig": {
+    "opposite": "otjänlig",
+    "description": "Orden otjänlig och tjänlig beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”otjänlig” och det andra som ”tjänlig”.",
+      "Orden ”otjänlig” och ”tjänlig” ställdes mot varandra."
+    ],
+    "related": [
+      "otjänlig"
+    ]
+  },
+  "otrevlighet": {
+    "opposite": "trevlighet",
+    "description": "Otrevlighet och trevlighet uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”otrevlighet” och ”trevlighet”.",
+      "Övningen innehöll både ordet ”otrevlighet” och ordet ”trevlighet”."
+    ],
+    "related": [
+      "trevlighet"
+    ]
+  },
+  "trevlighet": {
+    "opposite": "otrevlighet",
+    "description": "Otrevlighet och trevlighet uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”otrevlighet” och ”trevlighet”.",
+      "Övningen innehöll både ordet ”otrevlighet” och ordet ”trevlighet”."
+    ],
+    "related": [
+      "otrevlighet"
+    ]
+  },
+  "otrygghetskänsla": {
+    "opposite": "trygghetskänsla",
+    "description": "Otrygghetskänsla och trygghetskänsla används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”otrygghetskänsla” med ”trygghetskänsla”.",
+      "I exemplet används både ”otrygghetskänsla” och ”trygghetskänsla”."
+    ],
+    "related": [
+      "trygghetskänsla"
+    ]
+  },
+  "trygghetskänsla": {
+    "opposite": "otrygghetskänsla",
+    "description": "Otrygghetskänsla och trygghetskänsla används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”otrygghetskänsla” med ”trygghetskänsla”.",
+      "I exemplet används både ”otrygghetskänsla” och ”trygghetskänsla”."
+    ],
+    "related": [
+      "otrygghetskänsla"
+    ]
+  },
+  "otryggt": {
+    "opposite": "tryggt",
+    "description": "Otryggt står i tydlig kontrast till tryggt.",
+    "examples": [
+      "Skillnaden mellan ”otryggt” och ”tryggt” blev tydlig.",
+      "Förklaringen visar hur ”otryggt” skiljer sig från ”tryggt”."
+    ],
+    "related": [
+      "tryggt"
+    ]
+  },
+  "tryggt": {
+    "opposite": "otryggt",
+    "description": "Otryggt står i tydlig kontrast till tryggt.",
+    "examples": [
+      "Skillnaden mellan ”otryggt” och ”tryggt” blev tydlig.",
+      "Förklaringen visar hur ”otryggt” skiljer sig från ”tryggt”."
+    ],
+    "related": [
+      "otryggt"
+    ]
+  },
+  "otvungen": {
+    "opposite": "tvungen",
+    "description": "Orden otvungen och tvungen beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”otvungen” och det andra som ”tvungen”.",
+      "Orden ”otvungen” och ”tvungen” ställdes mot varandra."
+    ],
+    "related": [
+      "tvungen"
+    ]
+  },
+  "tvungen": {
+    "opposite": "otvungen",
+    "description": "Orden otvungen och tvungen beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”otvungen” och det andra som ”tvungen”.",
+      "Orden ”otvungen” och ”tvungen” ställdes mot varandra."
+    ],
+    "related": [
+      "otvungen"
+    ]
+  },
+  "otydlig": {
+    "opposite": "tydlig",
+    "description": "Otydlig och tydlig uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”otydlig” och ”tydlig”.",
+      "Övningen innehöll både ordet ”otydlig” och ordet ”tydlig”."
+    ],
+    "related": [
+      "tydlig"
+    ]
+  },
+  "tydlig": {
+    "opposite": "otydlig",
+    "description": "Otydlig och tydlig uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”otydlig” och ”tydlig”.",
+      "Övningen innehöll både ordet ”otydlig” och ordet ”tydlig”."
+    ],
+    "related": [
+      "otydlig"
+    ]
+  },
+  "ouppfylld": {
+    "opposite": "uppfylld",
+    "description": "Ouppfylld och uppfylld används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”ouppfylld” med ”uppfylld”.",
+      "I exemplet används både ”ouppfylld” och ”uppfylld”."
+    ],
+    "related": [
+      "uppfylld"
+    ]
+  },
+  "uppfylld": {
+    "opposite": "ouppfylld",
+    "description": "Ouppfylld och uppfylld används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”ouppfylld” med ”uppfylld”.",
+      "I exemplet används både ”ouppfylld” och ”uppfylld”."
+    ],
+    "related": [
+      "ouppfylld"
+    ]
+  },
+  "ouppmärksamhet": {
+    "opposite": "uppmärksamhet",
+    "description": "Ouppmärksamhet står i tydlig kontrast till uppmärksamhet.",
+    "examples": [
+      "Skillnaden mellan ”ouppmärksamhet” och ”uppmärksamhet” blev tydlig.",
+      "Förklaringen visar hur ”ouppmärksamhet” skiljer sig från ”uppmärksamhet”."
+    ],
+    "related": [
+      "uppmärksamhet"
+    ]
+  },
+  "uppmärksamhet": {
+    "opposite": "ouppmärksamhet",
+    "description": "Ouppmärksamhet står i tydlig kontrast till uppmärksamhet.",
+    "examples": [
+      "Skillnaden mellan ”ouppmärksamhet” och ”uppmärksamhet” blev tydlig.",
+      "Förklaringen visar hur ”ouppmärksamhet” skiljer sig från ”uppmärksamhet”."
+    ],
+    "related": [
+      "ouppmärksamhet"
+    ]
+  },
+  "ouppnåelighet": {
+    "opposite": "uppnåelighet",
+    "description": "Orden ouppnåelighet och uppnåelighet beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”ouppnåelighet” och det andra som ”uppnåelighet”.",
+      "Orden ”ouppnåelighet” och ”uppnåelighet” ställdes mot varandra."
+    ],
+    "related": [
+      "uppnåelighet"
+    ]
+  },
+  "uppnåelighet": {
+    "opposite": "ouppnåelighet",
+    "description": "Orden ouppnåelighet och uppnåelighet beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”ouppnåelighet” och det andra som ”uppnåelighet”.",
+      "Orden ”ouppnåelighet” och ”uppnåelighet” ställdes mot varandra."
+    ],
+    "related": [
+      "ouppnåelighet"
+    ]
+  },
+  "ouppodlad": {
+    "opposite": "uppodlad",
+    "description": "Ouppodlad och uppodlad uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”ouppodlad” och ”uppodlad”.",
+      "Övningen innehöll både ordet ”ouppodlad” och ordet ”uppodlad”."
+    ],
+    "related": [
+      "uppodlad"
+    ]
+  },
+  "uppodlad": {
+    "opposite": "ouppodlad",
+    "description": "Ouppodlad och uppodlad uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”ouppodlad” och ”uppodlad”.",
+      "Övningen innehöll både ordet ”ouppodlad” och ordet ”uppodlad”."
+    ],
+    "related": [
+      "ouppodlad"
+    ]
+  },
+  "ouppräknelig": {
+    "opposite": "uppräknelig",
+    "description": "Ouppräknelig och uppräknelig används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”ouppräknelig” med ”uppräknelig”.",
+      "I exemplet används både ”ouppräknelig” och ”uppräknelig”."
+    ],
+    "related": [
+      "uppräknelig"
+    ]
+  },
+  "uppräknelig": {
+    "opposite": "ouppräknelig",
+    "description": "Ouppräknelig och uppräknelig används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”ouppräknelig” med ”uppräknelig”.",
+      "I exemplet används både ”ouppräknelig” och ”uppräknelig”."
+    ],
+    "related": [
+      "ouppräknelig"
+    ]
+  },
+  "ouppsägbarhet": {
+    "opposite": "uppsägbarhet",
+    "description": "Ouppsägbarhet står i tydlig kontrast till uppsägbarhet.",
+    "examples": [
+      "Skillnaden mellan ”ouppsägbarhet” och ”uppsägbarhet” blev tydlig.",
+      "Förklaringen visar hur ”ouppsägbarhet” skiljer sig från ”uppsägbarhet”."
+    ],
+    "related": [
+      "uppsägbarhet"
+    ]
+  },
+  "uppsägbarhet": {
+    "opposite": "ouppsägbarhet",
+    "description": "Ouppsägbarhet står i tydlig kontrast till uppsägbarhet.",
+    "examples": [
+      "Skillnaden mellan ”ouppsägbarhet” och ”uppsägbarhet” blev tydlig.",
+      "Förklaringen visar hur ”ouppsägbarhet” skiljer sig från ”uppsägbarhet”."
+    ],
+    "related": [
+      "ouppsägbarhet"
+    ]
+  },
+  "oupptäckt": {
+    "opposite": "upptäckt",
+    "description": "Orden oupptäckt och upptäckt beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”oupptäckt” och det andra som ”upptäckt”.",
+      "Orden ”oupptäckt” och ”upptäckt” ställdes mot varandra."
+    ],
+    "related": [
+      "upptäckt"
+    ]
+  },
+  "upptäckt": {
+    "opposite": "oupptäckt",
+    "description": "Orden oupptäckt och upptäckt beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”oupptäckt” och det andra som ”upptäckt”.",
+      "Orden ”oupptäckt” och ”upptäckt” ställdes mot varandra."
+    ],
+    "related": [
+      "oupptäckt"
+    ]
+  },
+  "outbildad": {
+    "opposite": "utbildad",
+    "description": "Outbildad och utbildad uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”outbildad” och ”utbildad”.",
+      "Övningen innehöll både ordet ”outbildad” och ordet ”utbildad”."
+    ],
+    "related": [
+      "utbildad"
+    ]
+  },
+  "utbildad": {
+    "opposite": "outbildad",
+    "description": "Outbildad och utbildad uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”outbildad” och ”utbildad”.",
+      "Övningen innehöll både ordet ”outbildad” och ordet ”utbildad”."
+    ],
+    "related": [
+      "outbildad"
+    ]
+  },
+  "outförbar": {
+    "opposite": "utförbar",
+    "description": "Outförbar och utförbar används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”outförbar” med ”utförbar”.",
+      "I exemplet används både ”outförbar” och ”utförbar”."
+    ],
+    "related": [
+      "utförbar"
+    ]
+  },
+  "utförbar": {
+    "opposite": "outförbar",
+    "description": "Outförbar och utförbar används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”outförbar” med ”utförbar”.",
+      "I exemplet används både ”outförbar” och ”utförbar”."
+    ],
+    "related": [
+      "outförbar"
+    ]
+  },
+  "outhärdlig": {
+    "opposite": "uthärdlig",
+    "description": "Outhärdlig står i tydlig kontrast till uthärdlig.",
+    "examples": [
+      "Skillnaden mellan ”outhärdlig” och ”uthärdlig” blev tydlig.",
+      "Förklaringen visar hur ”outhärdlig” skiljer sig från ”uthärdlig”."
+    ],
+    "related": [
+      "uthärdlig"
+    ]
+  },
+  "uthärdlig": {
+    "opposite": "outhärdlig",
+    "description": "Outhärdlig står i tydlig kontrast till uthärdlig.",
+    "examples": [
+      "Skillnaden mellan ”outhärdlig” och ”uthärdlig” blev tydlig.",
+      "Förklaringen visar hur ”outhärdlig” skiljer sig från ”uthärdlig”."
+    ],
+    "related": [
+      "outhärdlig"
+    ]
+  },
+  "outvecklad": {
+    "opposite": "utvecklad",
+    "description": "Orden outvecklad och utvecklad beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”outvecklad” och det andra som ”utvecklad”.",
+      "Orden ”outvecklad” och ”utvecklad” ställdes mot varandra."
+    ],
+    "related": [
+      "utvecklad"
+    ]
+  },
+  "utvecklad": {
+    "opposite": "outvecklad",
+    "description": "Orden outvecklad och utvecklad beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”outvecklad” och det andra som ”utvecklad”.",
+      "Orden ”outvecklad” och ”utvecklad” ställdes mot varandra."
+    ],
+    "related": [
+      "outvecklad"
+    ]
+  },
+  "ovanlighet": {
+    "opposite": "vanlighet",
+    "description": "Ovanlighet och vanlighet uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”ovanlighet” och ”vanlighet”.",
+      "Övningen innehöll både ordet ”ovanlighet” och ordet ”vanlighet”."
+    ],
+    "related": [
+      "vanlighet"
+    ]
+  },
+  "vanlighet": {
+    "opposite": "ovanlighet",
+    "description": "Ovanlighet och vanlighet uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”ovanlighet” och ”vanlighet”.",
+      "Övningen innehöll både ordet ”ovanlighet” och ordet ”vanlighet”."
+    ],
+    "related": [
+      "ovanlighet"
+    ]
+  },
+  "ovaraktig": {
+    "opposite": "varaktig",
+    "description": "Ovaraktig och varaktig används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”ovaraktig” med ”varaktig”.",
+      "I exemplet används både ”ovaraktig” och ”varaktig”."
+    ],
+    "related": [
+      "varaktig"
+    ]
+  },
+  "varaktig": {
+    "opposite": "ovaraktig",
+    "description": "Ovaraktig och varaktig används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”ovaraktig” med ”varaktig”.",
+      "I exemplet används både ”ovaraktig” och ”varaktig”."
+    ],
+    "related": [
+      "ovaraktig"
+    ]
+  },
+  "ovärdighet": {
+    "opposite": "värdighet",
+    "description": "Ovärdighet står i tydlig kontrast till värdighet.",
+    "examples": [
+      "Skillnaden mellan ”ovärdighet” och ”värdighet” blev tydlig.",
+      "Förklaringen visar hur ”ovärdighet” skiljer sig från ”värdighet”."
+    ],
+    "related": [
+      "värdighet"
+    ]
+  },
+  "värdighet": {
+    "opposite": "ovärdighet",
+    "description": "Ovärdighet står i tydlig kontrast till värdighet.",
+    "examples": [
+      "Skillnaden mellan ”ovärdighet” och ”värdighet” blev tydlig.",
+      "Förklaringen visar hur ”ovärdighet” skiljer sig från ”värdighet”."
+    ],
+    "related": [
+      "ovärdighet"
+    ]
+  },
+  "ovärdigt": {
+    "opposite": "värdigt",
+    "description": "Orden ovärdigt och värdigt beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”ovärdigt” och det andra som ”värdigt”.",
+      "Orden ”ovärdigt” och ”värdigt” ställdes mot varandra."
+    ],
+    "related": [
+      "värdigt"
+    ]
+  },
+  "värdigt": {
+    "opposite": "ovärdigt",
+    "description": "Orden ovärdigt och värdigt beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”ovärdigt” och det andra som ”värdigt”.",
+      "Orden ”ovärdigt” och ”värdigt” ställdes mot varandra."
+    ],
+    "related": [
+      "ovärdigt"
+    ]
+  },
+  "ovärldslig": {
+    "opposite": "världslig",
+    "description": "Ovärldslig och världslig uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”ovärldslig” och ”världslig”.",
+      "Övningen innehöll både ordet ”ovärldslig” och ordet ”världslig”."
+    ],
+    "related": [
+      "världslig"
+    ]
+  },
+  "världslig": {
+    "opposite": "ovärldslig",
+    "description": "Ovärldslig och världslig uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”ovärldslig” och ”världslig”.",
+      "Övningen innehöll både ordet ”ovärldslig” och ordet ”världslig”."
+    ],
+    "related": [
+      "ovärldslig"
+    ]
+  },
+  "ovärldslighet": {
+    "opposite": "världslighet",
+    "description": "Ovärldslighet och världslighet används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”ovärldslighet” med ”världslighet”.",
+      "I exemplet används både ”ovärldslighet” och ”världslighet”."
+    ],
+    "related": [
+      "världslighet"
+    ]
+  },
+  "världslighet": {
+    "opposite": "ovärldslighet",
+    "description": "Ovärldslighet och världslighet används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”ovärldslighet” med ”världslighet”.",
+      "I exemplet används både ”ovärldslighet” och ”världslighet”."
+    ],
+    "related": [
+      "ovärldslighet"
+    ]
+  },
+  "ovarsamhet": {
+    "opposite": "varsamhet",
+    "description": "Ovarsamhet står i tydlig kontrast till varsamhet.",
+    "examples": [
+      "Skillnaden mellan ”ovarsamhet” och ”varsamhet” blev tydlig.",
+      "Förklaringen visar hur ”ovarsamhet” skiljer sig från ”varsamhet”."
+    ],
+    "related": [
+      "varsamhet"
+    ]
+  },
+  "varsamhet": {
+    "opposite": "ovarsamhet",
+    "description": "Ovarsamhet står i tydlig kontrast till varsamhet.",
+    "examples": [
+      "Skillnaden mellan ”ovarsamhet” och ”varsamhet” blev tydlig.",
+      "Förklaringen visar hur ”ovarsamhet” skiljer sig från ”varsamhet”."
+    ],
+    "related": [
+      "ovarsamhet"
+    ]
+  },
+  "oväsentlighet": {
+    "opposite": "väsentlighet",
+    "description": "Orden oväsentlighet och väsentlighet beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”oväsentlighet” och det andra som ”väsentlighet”.",
+      "Orden ”oväsentlighet” och ”väsentlighet” ställdes mot varandra."
+    ],
+    "related": [
+      "väsentlighet"
+    ]
+  },
+  "väsentlighet": {
+    "opposite": "oväsentlighet",
+    "description": "Orden oväsentlighet och väsentlighet beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”oväsentlighet” och det andra som ”väsentlighet”.",
+      "Orden ”oväsentlighet” och ”väsentlighet” ställdes mot varandra."
+    ],
+    "related": [
+      "oväsentlighet"
+    ]
+  },
+  "ovederhäftig": {
+    "opposite": "vederhäftig",
+    "description": "Ovederhäftig och vederhäftig uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”ovederhäftig” och ”vederhäftig”.",
+      "Övningen innehöll både ordet ”ovederhäftig” och ordet ”vederhäftig”."
+    ],
+    "related": [
+      "vederhäftig"
+    ]
+  },
+  "vederhäftig": {
+    "opposite": "ovederhäftig",
+    "description": "Ovederhäftig och vederhäftig uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”ovederhäftig” och ”vederhäftig”.",
+      "Övningen innehöll både ordet ”ovederhäftig” och ordet ”vederhäftig”."
+    ],
+    "related": [
+      "ovederhäftig"
+    ]
+  },
+  "ovederhäftighet": {
+    "opposite": "vederhäftighet",
+    "description": "Ovederhäftighet och vederhäftighet används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”ovederhäftighet” med ”vederhäftighet”.",
+      "I exemplet används både ”ovederhäftighet” och ”vederhäftighet”."
+    ],
+    "related": [
+      "vederhäftighet"
+    ]
+  },
+  "vederhäftighet": {
+    "opposite": "ovederhäftighet",
+    "description": "Ovederhäftighet och vederhäftighet används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”ovederhäftighet” med ”vederhäftighet”.",
+      "I exemplet används både ”ovederhäftighet” och ”vederhäftighet”."
+    ],
+    "related": [
+      "ovederhäftighet"
+    ]
+  },
+  "överdrift": {
+    "opposite": "underdrift",
+    "description": "Överdrift står i tydlig kontrast till underdrift.",
+    "examples": [
+      "Skillnaden mellan ”överdrift” och ”underdrift” blev tydlig.",
+      "Förklaringen visar hur ”överdrift” skiljer sig från ”underdrift”."
+    ],
+    "related": [
+      "underdrift"
+    ]
+  },
+  "underdrift": {
+    "opposite": "överdrift",
+    "description": "Överdrift står i tydlig kontrast till underdrift.",
+    "examples": [
+      "Skillnaden mellan ”överdrift” och ”underdrift” blev tydlig.",
+      "Förklaringen visar hur ”överdrift” skiljer sig från ”underdrift”."
+    ],
+    "related": [
+      "överdrift"
+    ]
+  },
+  "overifierbar": {
+    "opposite": "verifierbar",
+    "description": "Orden overifierbar och verifierbar beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”overifierbar” och det andra som ”verifierbar”.",
+      "Orden ”overifierbar” och ”verifierbar” ställdes mot varandra."
+    ],
+    "related": [
+      "verifierbar"
+    ]
+  },
+  "verifierbar": {
+    "opposite": "overifierbar",
+    "description": "Orden overifierbar och verifierbar beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”overifierbar” och det andra som ”verifierbar”.",
+      "Orden ”overifierbar” och ”verifierbar” ställdes mot varandra."
+    ],
+    "related": [
+      "overifierbar"
+    ]
+  },
+  "overklig": {
+    "opposite": "verklig",
+    "description": "Overklig och verklig uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”overklig” och ”verklig”.",
+      "Övningen innehöll både ordet ”overklig” och ordet ”verklig”."
+    ],
+    "related": [
+      "verklig"
+    ]
+  },
+  "verklig": {
+    "opposite": "overklig",
+    "description": "Overklig och verklig uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”overklig” och ”verklig”.",
+      "Övningen innehöll både ordet ”overklig” och ordet ”verklig”."
+    ],
+    "related": [
+      "overklig"
+    ]
+  },
+  "overksam": {
+    "opposite": "verksam",
+    "description": "Overksam och verksam används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”overksam” med ”verksam”.",
+      "I exemplet används både ”overksam” och ”verksam”."
+    ],
+    "related": [
+      "verksam"
+    ]
+  },
+  "verksam": {
+    "opposite": "overksam",
+    "description": "Overksam och verksam används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”overksam” med ”verksam”.",
+      "I exemplet används både ”overksam” och ”verksam”."
+    ],
+    "related": [
+      "overksam"
+    ]
+  },
+  "översta": {
+    "opposite": "understa",
+    "description": "Översta står i tydlig kontrast till understa.",
+    "examples": [
+      "Skillnaden mellan ”översta” och ”understa” blev tydlig.",
+      "Förklaringen visar hur ”översta” skiljer sig från ”understa”."
+    ],
+    "related": [
+      "understa"
+    ]
+  },
+  "understa": {
+    "opposite": "översta",
+    "description": "Översta står i tydlig kontrast till understa.",
+    "examples": [
+      "Skillnaden mellan ”översta” och ”understa” blev tydlig.",
+      "Förklaringen visar hur ”översta” skiljer sig från ”understa”."
+    ],
+    "related": [
+      "översta"
+    ]
+  },
+  "överstimulerad": {
+    "opposite": "understimulerad",
+    "description": "Orden överstimulerad och understimulerad beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”överstimulerad” och det andra som ”understimulerad”.",
+      "Orden ”överstimulerad” och ”understimulerad” ställdes mot varandra."
+    ],
+    "related": [
+      "understimulerad"
+    ]
+  },
+  "understimulerad": {
+    "opposite": "överstimulerad",
+    "description": "Orden överstimulerad och understimulerad beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”överstimulerad” och det andra som ”understimulerad”.",
+      "Orden ”överstimulerad” och ”understimulerad” ställdes mot varandra."
+    ],
+    "related": [
+      "överstimulerad"
+    ]
+  },
+  "ovetenskaplig": {
+    "opposite": "vetenskaplig",
+    "description": "Ovetenskaplig och vetenskaplig uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”ovetenskaplig” och ”vetenskaplig”.",
+      "Övningen innehöll både ordet ”ovetenskaplig” och ordet ”vetenskaplig”."
+    ],
+    "related": [
+      "vetenskaplig"
+    ]
+  },
+  "vetenskaplig": {
+    "opposite": "ovetenskaplig",
+    "description": "Ovetenskaplig och vetenskaplig uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”ovetenskaplig” och ”vetenskaplig”.",
+      "Övningen innehöll både ordet ”ovetenskaplig” och ordet ”vetenskaplig”."
+    ],
+    "related": [
+      "ovetenskaplig"
+    ]
+  },
+  "ovetenskaplighet": {
+    "opposite": "vetenskaplighet",
+    "description": "Ovetenskaplighet och vetenskaplighet används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”ovetenskaplighet” med ”vetenskaplighet”.",
+      "I exemplet används både ”ovetenskaplighet” och ”vetenskaplighet”."
+    ],
+    "related": [
+      "vetenskaplighet"
+    ]
+  },
+  "vetenskaplighet": {
+    "opposite": "ovetenskaplighet",
+    "description": "Ovetenskaplighet och vetenskaplighet används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”ovetenskaplighet” med ”vetenskaplighet”.",
+      "I exemplet används både ”ovetenskaplighet” och ”vetenskaplighet”."
+    ],
+    "related": [
+      "ovetenskaplighet"
+    ]
+  },
+  "ovetskap": {
+    "opposite": "vetskap",
+    "description": "Ovetskap står i tydlig kontrast till vetskap.",
+    "examples": [
+      "Skillnaden mellan ”ovetskap” och ”vetskap” blev tydlig.",
+      "Förklaringen visar hur ”ovetskap” skiljer sig från ”vetskap”."
+    ],
+    "related": [
+      "vetskap"
+    ]
+  },
+  "vetskap": {
+    "opposite": "ovetskap",
+    "description": "Ovetskap står i tydlig kontrast till vetskap.",
+    "examples": [
+      "Skillnaden mellan ”ovetskap” och ”vetskap” blev tydlig.",
+      "Förklaringen visar hur ”ovetskap” skiljer sig från ”vetskap”."
+    ],
+    "related": [
+      "ovetskap"
+    ]
+  },
+  "ovighet": {
+    "opposite": "vighet",
+    "description": "Orden ovighet och vighet beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”ovighet” och det andra som ”vighet”.",
+      "Orden ”ovighet” och ”vighet” ställdes mot varandra."
+    ],
+    "related": [
+      "vighet"
+    ]
+  },
+  "vighet": {
+    "opposite": "ovighet",
+    "description": "Orden ovighet och vighet beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”ovighet” och det andra som ”vighet”.",
+      "Orden ”ovighet” och ”vighet” ställdes mot varandra."
+    ],
+    "related": [
+      "ovighet"
+    ]
+  },
+  "ovilja": {
+    "opposite": "vilja",
+    "description": "Ovilja och vilja uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”ovilja” och ”vilja”.",
+      "Övningen innehöll både ordet ”ovilja” och ordet ”vilja”."
+    ],
+    "related": [
+      "vilja"
+    ]
+  },
+  "vilja": {
+    "opposite": "ovilja",
+    "description": "Ovilja och vilja uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”ovilja” och ”vilja”.",
+      "Övningen innehöll både ordet ”ovilja” och ordet ”vilja”."
+    ],
+    "related": [
+      "ovilja"
+    ]
+  },
+  "ovillig": {
+    "opposite": "villig",
+    "description": "Ovillig och villig används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”ovillig” med ”villig”.",
+      "I exemplet används både ”ovillig” och ”villig”."
+    ],
+    "related": [
+      "villig"
+    ]
+  },
+  "villig": {
+    "opposite": "ovillig",
+    "description": "Ovillig och villig används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”ovillig” med ”villig”.",
+      "I exemplet används både ”ovillig” och ”villig”."
+    ],
+    "related": [
+      "ovillig"
+    ]
+  },
+  "oviss": {
+    "opposite": "viss",
+    "description": "Oviss står i tydlig kontrast till viss.",
+    "examples": [
+      "Skillnaden mellan ”oviss” och ”viss” blev tydlig.",
+      "Förklaringen visar hur ”oviss” skiljer sig från ”viss”."
+    ],
+    "related": [
+      "viss"
+    ]
+  },
+  "viss": {
+    "opposite": "oviss",
+    "description": "Oviss står i tydlig kontrast till viss.",
+    "examples": [
+      "Skillnaden mellan ”oviss” och ”viss” blev tydlig.",
+      "Förklaringen visar hur ”oviss” skiljer sig från ”viss”."
+    ],
+    "related": [
+      "oviss"
+    ]
+  },
+  "ovisshet": {
+    "opposite": "visshet",
+    "description": "Orden ovisshet och visshet beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”ovisshet” och det andra som ”visshet”.",
+      "Orden ”ovisshet” och ”visshet” ställdes mot varandra."
+    ],
+    "related": [
+      "visshet"
+    ]
+  },
+  "visshet": {
+    "opposite": "ovisshet",
+    "description": "Orden ovisshet och visshet beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”ovisshet” och det andra som ”visshet”.",
+      "Orden ”ovisshet” och ”visshet” ställdes mot varandra."
+    ],
+    "related": [
+      "ovisshet"
+    ]
+  },
+  "adjö": {
+    "opposite": "hej",
+    "description": "Adjö och hej uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”adjö” och ”hej”.",
+      "Övningen innehöll både ordet ”adjö” och ordet ”hej”."
+    ],
+    "related": [
+      "hej"
+    ]
+  },
+  "hej": {
+    "opposite": "adjö",
+    "description": "Adjö och hej uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”adjö” och ”hej”.",
+      "Övningen innehöll både ordet ”adjö” och ordet ”hej”."
+    ],
+    "related": [
+      "adjö"
+    ]
+  },
+  "aftonskola": {
+    "opposite": "dagskola",
+    "description": "Aftonskola och dagskola används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”aftonskola” med ”dagskola”.",
+      "I exemplet används både ”aftonskola” och ”dagskola”."
+    ],
+    "related": [
+      "dagskola"
+    ]
+  },
+  "dagskola": {
+    "opposite": "aftonskola",
+    "description": "Aftonskola och dagskola används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”aftonskola” med ”dagskola”.",
+      "I exemplet används både ”aftonskola” och ”dagskola”."
+    ],
+    "related": [
+      "aftonskola"
+    ]
+  },
+  "akteröver": {
+    "opposite": "föröver",
+    "description": "Akteröver står i tydlig kontrast till föröver.",
+    "examples": [
+      "Skillnaden mellan ”akteröver” och ”föröver” blev tydlig.",
+      "Förklaringen visar hur ”akteröver” skiljer sig från ”föröver”."
+    ],
+    "related": [
+      "föröver"
+    ]
+  },
+  "föröver": {
+    "opposite": "akteröver",
+    "description": "Akteröver står i tydlig kontrast till föröver.",
+    "examples": [
+      "Skillnaden mellan ”akteröver” och ”föröver” blev tydlig.",
+      "Förklaringen visar hur ”akteröver” skiljer sig från ”föröver”."
+    ],
+    "related": [
+      "akteröver"
+    ]
+  },
+  "akterut": {
+    "opposite": "förut",
+    "description": "Orden akterut och förut beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”akterut” och det andra som ”förut”.",
+      "Orden ”akterut” och ”förut” ställdes mot varandra."
+    ],
+    "related": [
+      "förut"
+    ]
+  },
+  "förut": {
+    "opposite": "akterut",
+    "description": "Orden akterut och förut beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”akterut” och det andra som ”förut”.",
+      "Orden ”akterut” och ”förut” ställdes mot varandra."
+    ],
+    "related": [
+      "akterut"
+    ]
+  },
+  "aktiva": {
+    "opposite": "passiva",
+    "description": "Aktiva och passiva uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”aktiva” och ”passiva”.",
+      "Övningen innehöll både ordet ”aktiva” och ordet ”passiva”."
+    ],
+    "related": [
+      "passiva"
+    ]
+  },
+  "passiva": {
+    "opposite": "aktiva",
+    "description": "Aktiva och passiva uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”aktiva” och ”passiva”.",
+      "Övningen innehöll både ordet ”aktiva” och ordet ”passiva”."
+    ],
+    "related": [
+      "aktiva"
+    ]
+  },
+  "aktivsida": {
+    "opposite": "passivsida",
+    "description": "Aktivsida och passivsida används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”aktivsida” med ”passivsida”.",
+      "I exemplet används både ”aktivsida” och ”passivsida”."
+    ],
+    "related": [
+      "passivsida"
+    ]
+  },
+  "passivsida": {
+    "opposite": "aktivsida",
+    "description": "Aktivsida och passivsida används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”aktivsida” med ”passivsida”.",
+      "I exemplet används både ”aktivsida” och ”passivsida”."
+    ],
+    "related": [
+      "aktivsida"
+    ]
+  },
+  "aktivt": {
+    "opposite": "passivt",
+    "description": "Aktivt står i tydlig kontrast till passivt.",
+    "examples": [
+      "Skillnaden mellan ”aktivt” och ”passivt” blev tydlig.",
+      "Förklaringen visar hur ”aktivt” skiljer sig från ”passivt”."
+    ],
+    "related": [
+      "passivt"
+    ]
+  },
+  "passivt": {
+    "opposite": "aktivt",
+    "description": "Aktivt står i tydlig kontrast till passivt.",
+    "examples": [
+      "Skillnaden mellan ”aktivt” och ”passivt” blev tydlig.",
+      "Förklaringen visar hur ”aktivt” skiljer sig från ”passivt”."
+    ],
+    "related": [
+      "aktivt"
+    ]
+  },
+  "älgko": {
+    "opposite": "älgtjur",
+    "description": "Orden älgko och älgtjur beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”älgko” och det andra som ”älgtjur”.",
+      "Orden ”älgko” och ”älgtjur” ställdes mot varandra."
+    ],
+    "related": [
+      "älgtjur"
+    ]
+  },
+  "älgtjur": {
+    "opposite": "älgko",
+    "description": "Orden älgko och älgtjur beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”älgko” och det andra som ”älgtjur”.",
+      "Orden ”älgko” och ”älgtjur” ställdes mot varandra."
+    ],
+    "related": [
+      "älgko"
+    ]
+  },
+  "älvmynning": {
+    "opposite": "källflöde",
+    "description": "Älvmynning och källflöde uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”älvmynning” och ”källflöde”.",
+      "Övningen innehöll både ordet ”älvmynning” och ordet ”källflöde”."
+    ],
+    "related": [
+      "källflöde"
+    ]
+  },
+  "källflöde": {
+    "opposite": "älvmynning",
+    "description": "Älvmynning och källflöde uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”älvmynning” och ”källflöde”.",
+      "Övningen innehöll både ordet ”älvmynning” och ordet ”källflöde”."
+    ],
+    "related": [
+      "älvmynning"
+    ]
+  },
+  "andrahandsalternativ": {
+    "opposite": "förstahandsalternativ",
+    "description": "Andrahandsalternativ och förstahandsalternativ används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”andrahandsalternativ” med ”förstahandsalternativ”.",
+      "I exemplet används både ”andrahandsalternativ” och ”förstahandsalternativ”."
+    ],
+    "related": [
+      "förstahandsalternativ"
+    ]
+  },
+  "förstahandsalternativ": {
+    "opposite": "andrahandsalternativ",
+    "description": "Andrahandsalternativ och förstahandsalternativ används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”andrahandsalternativ” med ”förstahandsalternativ”.",
+      "I exemplet används både ”andrahandsalternativ” och ”förstahandsalternativ”."
+    ],
+    "related": [
+      "andrahandsalternativ"
+    ]
+  },
+  "andrahandshyresgäst": {
+    "opposite": "förstahandshyresgäst",
+    "description": "Andrahandshyresgäst står i tydlig kontrast till förstahandshyresgäst.",
+    "examples": [
+      "Skillnaden mellan ”andrahandshyresgäst” och ”förstahandshyresgäst” blev tydlig.",
+      "Förklaringen visar hur ”andrahandshyresgäst” skiljer sig från ”förstahandshyresgäst”."
+    ],
+    "related": [
+      "förstahandshyresgäst"
+    ]
+  },
+  "förstahandshyresgäst": {
+    "opposite": "andrahandshyresgäst",
+    "description": "Andrahandshyresgäst står i tydlig kontrast till förstahandshyresgäst.",
+    "examples": [
+      "Skillnaden mellan ”andrahandshyresgäst” och ”förstahandshyresgäst” blev tydlig.",
+      "Förklaringen visar hur ”andrahandshyresgäst” skiljer sig från ”förstahandshyresgäst”."
+    ],
+    "related": [
+      "andrahandshyresgäst"
+    ]
+  },
+  "andrahandsinformation": {
+    "opposite": "förstahandsinformation",
+    "description": "Orden andrahandsinformation och förstahandsinformation beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”andrahandsinformation” och det andra som ”förstahandsinformation”.",
+      "Orden ”andrahandsinformation” och ”förstahandsinformation” ställdes mot varandra."
+    ],
+    "related": [
+      "förstahandsinformation"
+    ]
+  },
+  "förstahandsinformation": {
+    "opposite": "andrahandsinformation",
+    "description": "Orden andrahandsinformation och förstahandsinformation beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”andrahandsinformation” och det andra som ”förstahandsinformation”.",
+      "Orden ”andrahandsinformation” och ”förstahandsinformation” ställdes mot varandra."
+    ],
+    "related": [
+      "andrahandsinformation"
+    ]
+  },
+  "angiosperm": {
+    "opposite": "gymnosperm",
+    "description": "Angiosperm och gymnosperm uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”angiosperm” och ”gymnosperm”.",
+      "Övningen innehöll både ordet ”angiosperm” och ordet ”gymnosperm”."
+    ],
+    "related": [
+      "gymnosperm"
+    ]
+  },
+  "gymnosperm": {
+    "opposite": "angiosperm",
+    "description": "Angiosperm och gymnosperm uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”angiosperm” och ”gymnosperm”.",
+      "Övningen innehöll både ordet ”angiosperm” och ordet ”gymnosperm”."
+    ],
+    "related": [
+      "angiosperm"
+    ]
+  },
+  "anglofil": {
+    "opposite": "anglofob",
+    "description": "Anglofil och anglofob används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”anglofil” med ”anglofob”.",
+      "I exemplet används både ”anglofil” och ”anglofob”."
+    ],
+    "related": [
+      "anglofob"
+    ]
+  },
+  "anglofob": {
+    "opposite": "anglofil",
+    "description": "Anglofil och anglofob används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”anglofil” med ”anglofob”.",
+      "I exemplet används både ”anglofil” och ”anglofob”."
+    ],
+    "related": [
+      "anglofil"
+    ]
+  },
+  "ansvarsfullhet": {
+    "opposite": "ansvarslöshet",
+    "description": "Ansvarsfullhet står i tydlig kontrast till ansvarslöshet.",
+    "examples": [
+      "Skillnaden mellan ”ansvarsfullhet” och ”ansvarslöshet” blev tydlig.",
+      "Förklaringen visar hur ”ansvarsfullhet” skiljer sig från ”ansvarslöshet”."
+    ],
+    "related": [
+      "ansvarslöshet"
+    ]
+  },
+  "ansvarslöshet": {
+    "opposite": "ansvarsfullhet",
+    "description": "Ansvarsfullhet står i tydlig kontrast till ansvarslöshet.",
+    "examples": [
+      "Skillnaden mellan ”ansvarsfullhet” och ”ansvarslöshet” blev tydlig.",
+      "Förklaringen visar hur ”ansvarsfullhet” skiljer sig från ”ansvarslöshet”."
+    ],
+    "related": [
+      "ansvarsfullhet"
+    ]
+  },
+  "antiklerikal": {
+    "opposite": "klerikal",
+    "description": "Orden antiklerikal och klerikal beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”antiklerikal” och det andra som ”klerikal”.",
+      "Orden ”antiklerikal” och ”klerikal” ställdes mot varandra."
+    ],
+    "related": [
+      "klerikal"
+    ]
+  },
+  "klerikal": {
+    "opposite": "antiklerikal",
+    "description": "Orden antiklerikal och klerikal beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”antiklerikal” och det andra som ”klerikal”.",
+      "Orden ”antiklerikal” och ”klerikal” ställdes mot varandra."
+    ],
+    "related": [
+      "antiklerikal"
+    ]
+  },
+  "antirysk": {
+    "opposite": "prorysk",
+    "description": "Antirysk och prorysk uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”antirysk” och ”prorysk”.",
+      "Övningen innehöll både ordet ”antirysk” och ordet ”prorysk”."
+    ],
+    "related": [
+      "prorysk"
+    ]
+  },
+  "prorysk": {
+    "opposite": "antirysk",
+    "description": "Antirysk och prorysk uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”antirysk” och ”prorysk”.",
+      "Övningen innehöll både ordet ”antirysk” och ordet ”prorysk”."
+    ],
+    "related": [
+      "antirysk"
+    ]
+  },
+  "arla": {
+    "opposite": "särla",
+    "description": "Arla och särla används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”arla” med ”särla”.",
+      "I exemplet används både ”arla” och ”särla”."
+    ],
+    "related": [
+      "särla"
+    ]
+  },
+  "särla": {
+    "opposite": "arla",
+    "description": "Arla och särla används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”arla” med ”särla”.",
+      "I exemplet används både ”arla” och ”särla”."
+    ],
+    "related": [
+      "arla"
+    ]
+  },
+  "återvätning": {
+    "opposite": "torrläggning",
+    "description": "Återvätning står i tydlig kontrast till torrläggning.",
+    "examples": [
+      "Skillnaden mellan ”återvätning” och ”torrläggning” blev tydlig.",
+      "Förklaringen visar hur ”återvätning” skiljer sig från ”torrläggning”."
+    ],
+    "related": [
+      "torrläggning"
+    ]
+  },
+  "torrläggning": {
+    "opposite": "återvätning",
+    "description": "Återvätning står i tydlig kontrast till torrläggning.",
+    "examples": [
+      "Skillnaden mellan ”återvätning” och ”torrläggning” blev tydlig.",
+      "Förklaringen visar hur ”återvätning” skiljer sig från ”torrläggning”."
+    ],
+    "related": [
+      "återvätning"
+    ]
+  },
+  "åtsida": {
+    "opposite": "frånsida",
+    "description": "Orden åtsida och frånsida beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”åtsida” och det andra som ”frånsida”.",
+      "Orden ”åtsida” och ”frånsida” ställdes mot varandra."
+    ],
+    "related": [
+      "frånsida"
+    ]
+  },
+  "frånsida": {
+    "opposite": "åtsida",
+    "description": "Orden åtsida och frånsida beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”åtsida” och det andra som ”frånsida”.",
+      "Orden ”åtsida” och ”frånsida” ställdes mot varandra."
+    ],
+    "related": [
+      "åtsida"
+    ]
+  },
+  "avdramatisering": {
+    "opposite": "överdramatisering",
+    "description": "Avdramatisering och överdramatisering uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”avdramatisering” och ”överdramatisering”.",
+      "Övningen innehöll både ordet ”avdramatisering” och ordet ”överdramatisering”."
+    ],
+    "related": [
+      "överdramatisering"
+    ]
+  },
+  "överdramatisering": {
+    "opposite": "avdramatisering",
+    "description": "Avdramatisering och överdramatisering uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”avdramatisering” och ”överdramatisering”.",
+      "Övningen innehöll både ordet ”avdramatisering” och ordet ”överdramatisering”."
+    ],
+    "related": [
+      "avdramatisering"
+    ]
+  },
+  "avig": {
+    "opposite": "rät",
+    "description": "Avig och rät används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”avig” med ”rät”.",
+      "I exemplet används både ”avig” och ”rät”."
+    ],
+    "related": [
+      "rät"
+    ]
+  },
+  "rät": {
+    "opposite": "avig",
+    "description": "Avig och rät används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”avig” med ”rät”.",
+      "I exemplet används både ”avig” och ”rät”."
+    ],
+    "related": [
+      "avig"
+    ]
+  },
+  "avståndskraft": {
+    "opposite": "kontaktkraft",
+    "description": "Avståndskraft står i tydlig kontrast till kontaktkraft.",
+    "examples": [
+      "Skillnaden mellan ”avståndskraft” och ”kontaktkraft” blev tydlig.",
+      "Förklaringen visar hur ”avståndskraft” skiljer sig från ”kontaktkraft”."
+    ],
+    "related": [
+      "kontaktkraft"
+    ]
+  },
+  "kontaktkraft": {
+    "opposite": "avståndskraft",
+    "description": "Avståndskraft står i tydlig kontrast till kontaktkraft.",
+    "examples": [
+      "Skillnaden mellan ”avståndskraft” och ”kontaktkraft” blev tydlig.",
+      "Förklaringen visar hur ”avståndskraft” skiljer sig från ”kontaktkraft”."
+    ],
+    "related": [
+      "avståndskraft"
+    ]
+  },
+  "bakerst": {
+    "opposite": "främst",
+    "description": "Orden bakerst och främst beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”bakerst” och det andra som ”främst”.",
+      "Orden ”bakerst” och ”främst” ställdes mot varandra."
+    ],
+    "related": [
+      "främst"
+    ]
+  },
+  "främst": {
+    "opposite": "bakerst",
+    "description": "Orden bakerst och främst beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”bakerst” och det andra som ”främst”.",
+      "Orden ”bakerst” och ”främst” ställdes mot varandra."
+    ],
+    "related": [
+      "bakerst"
+    ]
+  },
+  "bakomvarande": {
+    "opposite": "framförvarande",
+    "description": "Bakomvarande och framförvarande uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”bakomvarande” och ”framförvarande”.",
+      "Övningen innehöll både ordet ”bakomvarande” och ordet ”framförvarande”."
+    ],
+    "related": [
+      "framförvarande"
+    ]
+  },
+  "framförvarande": {
+    "opposite": "bakomvarande",
+    "description": "Bakomvarande och framförvarande uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”bakomvarande” och ”framförvarande”.",
+      "Övningen innehöll både ordet ”bakomvarande” och ordet ”framförvarande”."
+    ],
+    "related": [
+      "bakomvarande"
+    ]
+  },
+  "barnpsykiatri": {
+    "opposite": "vuxenpsykiatri",
+    "description": "Barnpsykiatri och vuxenpsykiatri används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”barnpsykiatri” med ”vuxenpsykiatri”.",
+      "I exemplet används både ”barnpsykiatri” och ”vuxenpsykiatri”."
+    ],
+    "related": [
+      "vuxenpsykiatri"
+    ]
+  },
+  "vuxenpsykiatri": {
+    "opposite": "barnpsykiatri",
+    "description": "Barnpsykiatri och vuxenpsykiatri används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”barnpsykiatri” med ”vuxenpsykiatri”.",
+      "I exemplet används både ”barnpsykiatri” och ”vuxenpsykiatri”."
+    ],
+    "related": [
+      "barnpsykiatri"
+    ]
+  },
+  "benefik": {
+    "opposite": "onerös",
+    "description": "Benefik står i tydlig kontrast till onerös.",
+    "examples": [
+      "Skillnaden mellan ”benefik” och ”onerös” blev tydlig.",
+      "Förklaringen visar hur ”benefik” skiljer sig från ”onerös”."
+    ],
+    "related": [
+      "onerös"
+    ]
+  },
+  "onerös": {
+    "opposite": "benefik",
+    "description": "Benefik står i tydlig kontrast till onerös.",
+    "examples": [
+      "Skillnaden mellan ”benefik” och ”onerös” blev tydlig.",
+      "Förklaringen visar hur ”benefik” skiljer sig från ”onerös”."
+    ],
+    "related": [
+      "benefik"
+    ]
+  },
+  "bergandshane": {
+    "opposite": "bergandshona",
+    "description": "Orden bergandshane och bergandshona beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”bergandshane” och det andra som ”bergandshona”.",
+      "Orden ”bergandshane” och ”bergandshona” ställdes mot varandra."
+    ],
+    "related": [
+      "bergandshona"
+    ]
+  },
+  "bergandshona": {
+    "opposite": "bergandshane",
+    "description": "Orden bergandshane och bergandshona beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”bergandshane” och det andra som ”bergandshona”.",
+      "Orden ”bergandshane” och ”bergandshona” ställdes mot varandra."
+    ],
+    "related": [
+      "bergandshane"
+    ]
+  },
+  "bergfinkshane": {
+    "opposite": "bergfinkshona",
+    "description": "Bergfinkshane och bergfinkshona uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”bergfinkshane” och ”bergfinkshona”.",
+      "Övningen innehöll både ordet ”bergfinkshane” och ordet ”bergfinkshona”."
+    ],
+    "related": [
+      "bergfinkshona"
+    ]
+  },
+  "bergfinkshona": {
+    "opposite": "bergfinkshane",
+    "description": "Bergfinkshane och bergfinkshona uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”bergfinkshane” och ”bergfinkshona”.",
+      "Övningen innehöll både ordet ”bergfinkshane” och ordet ”bergfinkshona”."
+    ],
+    "related": [
+      "bergfinkshane"
+    ]
+  },
+  "berguvshane": {
+    "opposite": "berguvshona",
+    "description": "Berguvshane och berguvshona används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”berguvshane” med ”berguvshona”.",
+      "I exemplet används både ”berguvshane” och ”berguvshona”."
+    ],
+    "related": [
+      "berguvshona"
+    ]
+  },
+  "berguvshona": {
+    "opposite": "berguvshane",
+    "description": "Berguvshane och berguvshona används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”berguvshane” med ”berguvshona”.",
+      "I exemplet används både ”berguvshane” och ”berguvshona”."
+    ],
+    "related": [
+      "berguvshane"
+    ]
+  },
+  "besinningsfull": {
+    "opposite": "besinningslös",
+    "description": "Besinningsfull står i tydlig kontrast till besinningslös.",
+    "examples": [
+      "Skillnaden mellan ”besinningsfull” och ”besinningslös” blev tydlig.",
+      "Förklaringen visar hur ”besinningsfull” skiljer sig från ”besinningslös”."
+    ],
+    "related": [
+      "besinningslös"
+    ]
+  },
+  "besinningslös": {
+    "opposite": "besinningsfull",
+    "description": "Besinningsfull står i tydlig kontrast till besinningslös.",
+    "examples": [
+      "Skillnaden mellan ”besinningsfull” och ”besinningslös” blev tydlig.",
+      "Förklaringen visar hur ”besinningsfull” skiljer sig från ”besinningslös”."
+    ],
+    "related": [
+      "besinningsfull"
+    ]
+  },
+  "betalapp": {
+    "opposite": "gratisapp",
+    "description": "Orden betalapp och gratisapp beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”betalapp” och det andra som ”gratisapp”.",
+      "Orden ”betalapp” och ”gratisapp” ställdes mot varandra."
+    ],
+    "related": [
+      "gratisapp"
+    ]
+  },
+  "gratisapp": {
+    "opposite": "betalapp",
+    "description": "Orden betalapp och gratisapp beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”betalapp” och det andra som ”gratisapp”.",
+      "Orden ”betalapp” och ”gratisapp” ställdes mot varandra."
+    ],
+    "related": [
+      "betalapp"
+    ]
+  },
+  "betalprogram": {
+    "opposite": "gratisprogram",
+    "description": "Betalprogram och gratisprogram uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”betalprogram” och ”gratisprogram”.",
+      "Övningen innehöll både ordet ”betalprogram” och ordet ”gratisprogram”."
+    ],
+    "related": [
+      "gratisprogram"
+    ]
+  },
+  "gratisprogram": {
+    "opposite": "betalprogram",
+    "description": "Betalprogram och gratisprogram uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”betalprogram” och ”gratisprogram”.",
+      "Övningen innehöll både ordet ”betalprogram” och ordet ”gratisprogram”."
+    ],
+    "related": [
+      "betalprogram"
+    ]
+  },
+  "bevingad": {
+    "opposite": "vinglös",
+    "description": "Bevingad och vinglös används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”bevingad” med ”vinglös”.",
+      "I exemplet används både ”bevingad” och ”vinglös”."
+    ],
+    "related": [
+      "vinglös"
+    ]
+  },
+  "vinglös": {
+    "opposite": "bevingad",
+    "description": "Bevingad och vinglös används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”bevingad” med ”vinglös”.",
+      "I exemplet används både ”bevingad” och ”vinglös”."
+    ],
+    "related": [
+      "bevingad"
+    ]
+  },
+  "bivråkshane": {
+    "opposite": "bivråkshona",
+    "description": "Bivråkshane står i tydlig kontrast till bivråkshona.",
+    "examples": [
+      "Skillnaden mellan ”bivråkshane” och ”bivråkshona” blev tydlig.",
+      "Förklaringen visar hur ”bivråkshane” skiljer sig från ”bivråkshona”."
+    ],
+    "related": [
+      "bivråkshona"
+    ]
+  },
+  "bivråkshona": {
+    "opposite": "bivråkshane",
+    "description": "Bivråkshane står i tydlig kontrast till bivråkshona.",
+    "examples": [
+      "Skillnaden mellan ”bivråkshane” och ”bivråkshona” blev tydlig.",
+      "Förklaringen visar hur ”bivråkshane” skiljer sig från ”bivråkshona”."
+    ],
+    "related": [
+      "bivråkshane"
+    ]
+  },
+  "björktrasthane": {
+    "opposite": "björktrasthona",
+    "description": "Orden björktrasthane och björktrasthona beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”björktrasthane” och det andra som ”björktrasthona”.",
+      "Orden ”björktrasthane” och ”björktrasthona” ställdes mot varandra."
+    ],
+    "related": [
+      "björktrasthona"
+    ]
+  },
+  "björktrasthona": {
+    "opposite": "björktrasthane",
+    "description": "Orden björktrasthane och björktrasthona beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”björktrasthane” och det andra som ”björktrasthona”.",
+      "Orden ”björktrasthane” och ”björktrasthona” ställdes mot varandra."
+    ],
+    "related": [
+      "björktrasthane"
+    ]
+  },
+  "blåmeshane": {
+    "opposite": "blåmeshona",
+    "description": "Blåmeshane och blåmeshona uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”blåmeshane” och ”blåmeshona”.",
+      "Övningen innehöll både ordet ”blåmeshane” och ordet ”blåmeshona”."
+    ],
+    "related": [
+      "blåmeshona"
+    ]
+  },
+  "blåmeshona": {
+    "opposite": "blåmeshane",
+    "description": "Blåmeshane och blåmeshona uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”blåmeshane” och ”blåmeshona”.",
+      "Övningen innehöll både ordet ”blåmeshane” och ordet ”blåmeshona”."
+    ],
+    "related": [
+      "blåmeshane"
+    ]
+  },
+  "bläsandshane": {
+    "opposite": "bläsandshona",
+    "description": "Bläsandshane och bläsandshona används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”bläsandshane” med ”bläsandshona”.",
+      "I exemplet används både ”bläsandshane” och ”bläsandshona”."
+    ],
+    "related": [
+      "bläsandshona"
+    ]
+  },
+  "bläsandshona": {
+    "opposite": "bläsandshane",
+    "description": "Bläsandshane och bläsandshona används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”bläsandshane” med ”bläsandshona”.",
+      "I exemplet används både ”bläsandshane” och ”bläsandshona”."
+    ],
+    "related": [
+      "bläsandshane"
+    ]
+  },
+  "blodfull": {
+    "opposite": "blodlös",
+    "description": "Blodfull står i tydlig kontrast till blodlös.",
+    "examples": [
+      "Skillnaden mellan ”blodfull” och ”blodlös” blev tydlig.",
+      "Förklaringen visar hur ”blodfull” skiljer sig från ”blodlös”."
+    ],
+    "related": [
+      "blodlös"
+    ]
+  },
+  "blodlös": {
+    "opposite": "blodfull",
+    "description": "Blodfull står i tydlig kontrast till blodlös.",
+    "examples": [
+      "Skillnaden mellan ”blodfull” och ”blodlös” blev tydlig.",
+      "Förklaringen visar hur ”blodfull” skiljer sig från ”blodlös”."
+    ],
+    "related": [
+      "blodfull"
+    ]
+  },
+  "borrad": {
+    "opposite": "grävd",
+    "description": "Orden borrad och grävd beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”borrad” och det andra som ”grävd”.",
+      "Orden ”borrad” och ”grävd” ställdes mot varandra."
+    ],
+    "related": [
+      "grävd"
+    ]
+  },
+  "grävd": {
+    "opposite": "borrad",
+    "description": "Orden borrad och grävd beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”borrad” och det andra som ”grävd”.",
+      "Orden ”borrad” och ”grävd” ställdes mot varandra."
+    ],
+    "related": [
+      "borrad"
+    ]
+  },
+  "bortanför": {
+    "opposite": "hitanför",
+    "description": "Bortanför och hitanför uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”bortanför” och ”hitanför”.",
+      "Övningen innehöll både ordet ”bortanför” och ordet ”hitanför”."
+    ],
+    "related": [
+      "hitanför"
+    ]
+  },
+  "hitanför": {
+    "opposite": "bortanför",
+    "description": "Bortanför och hitanför uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”bortanför” och ”hitanför”.",
+      "Övningen innehöll både ordet ”bortanför” och ordet ”hitanför”."
+    ],
+    "related": [
+      "bortanför"
+    ]
+  },
+  "bredsådd": {
+    "opposite": "radsådd",
+    "description": "Bredsådd och radsådd används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”bredsådd” med ”radsådd”.",
+      "I exemplet används både ”bredsådd” och ”radsådd”."
+    ],
+    "related": [
+      "radsådd"
+    ]
+  },
+  "radsådd": {
+    "opposite": "bredsådd",
+    "description": "Bredsådd och radsådd används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”bredsådd” med ”radsådd”.",
+      "I exemplet används både ”bredsådd” och ”radsådd”."
+    ],
+    "related": [
+      "bredsådd"
+    ]
+  },
+  "brorsa": {
+    "opposite": "syrra",
+    "description": "Brorsa står i tydlig kontrast till syrra.",
+    "examples": [
+      "Skillnaden mellan ”brorsa” och ”syrra” blev tydlig.",
+      "Förklaringen visar hur ”brorsa” skiljer sig från ”syrra”."
+    ],
+    "related": [
+      "syrra"
+    ]
+  },
+  "syrra": {
+    "opposite": "brorsa",
+    "description": "Brorsa står i tydlig kontrast till syrra.",
+    "examples": [
+      "Skillnaden mellan ”brorsa” och ”syrra” blev tydlig.",
+      "Förklaringen visar hur ”brorsa” skiljer sig från ”syrra”."
+    ],
+    "related": [
+      "brorsa"
+    ]
+  },
+  "brunandshane": {
+    "opposite": "brunandshona",
+    "description": "Orden brunandshane och brunandshona beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”brunandshane” och det andra som ”brunandshona”.",
+      "Orden ”brunandshane” och ”brunandshona” ställdes mot varandra."
+    ],
+    "related": [
+      "brunandshona"
+    ]
+  },
+  "brunandshona": {
+    "opposite": "brunandshane",
+    "description": "Orden brunandshane och brunandshona beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”brunandshane” och det andra som ”brunandshona”.",
+      "Orden ”brunandshane” och ”brunandshona” ställdes mot varandra."
+    ],
+    "related": [
+      "brunandshane"
+    ]
+  },
+  "bygglov": {
+    "opposite": "rivningslov",
+    "description": "Bygglov och rivningslov uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”bygglov” och ”rivningslov”.",
+      "Övningen innehöll både ordet ”bygglov” och ordet ”rivningslov”."
+    ],
+    "related": [
+      "rivningslov"
+    ]
+  },
+  "rivningslov": {
+    "opposite": "bygglov",
+    "description": "Bygglov och rivningslov uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”bygglov” och ”rivningslov”.",
+      "Övningen innehöll både ordet ”bygglov” och ordet ”rivningslov”."
+    ],
+    "related": [
+      "bygglov"
+    ]
+  },
+  "cedent": {
+    "opposite": "cessionarie",
+    "description": "Cedent och cessionarie används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”cedent” med ”cessionarie”.",
+      "I exemplet används både ”cedent” och ”cessionarie”."
+    ],
+    "related": [
+      "cessionarie"
+    ]
+  },
+  "cessionarie": {
+    "opposite": "cedent",
+    "description": "Cedent och cessionarie används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”cedent” med ”cessionarie”.",
+      "I exemplet används både ”cedent” och ”cessionarie”."
+    ],
+    "related": [
+      "cedent"
+    ]
+  },
+  "chosefri": {
+    "opposite": "chosig",
+    "description": "Chosefri står i tydlig kontrast till chosig.",
+    "examples": [
+      "Skillnaden mellan ”chosefri” och ”chosig” blev tydlig.",
+      "Förklaringen visar hur ”chosefri” skiljer sig från ”chosig”."
+    ],
+    "related": [
+      "chosig"
+    ]
+  },
+  "chosig": {
+    "opposite": "chosefri",
+    "description": "Chosefri står i tydlig kontrast till chosig.",
+    "examples": [
+      "Skillnaden mellan ”chosefri” och ”chosig” blev tydlig.",
+      "Förklaringen visar hur ”chosefri” skiljer sig från ”chosig”."
+    ],
+    "related": [
+      "chosefri"
+    ]
+  },
+  "dädan": {
+    "opposite": "hädan",
+    "description": "Orden dädan och hädan beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”dädan” och det andra som ”hädan”.",
+      "Orden ”dädan” och ”hädan” ställdes mot varandra."
+    ],
+    "related": [
+      "hädan"
+    ]
+  },
+  "hädan": {
+    "opposite": "dädan",
+    "description": "Orden dädan och hädan beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”dädan” och det andra som ”hädan”.",
+      "Orden ”dädan” och ”hädan” ställdes mot varandra."
+    ],
+    "related": [
+      "dädan"
+    ]
+  },
+  "dagis": {
+    "opposite": "nattis",
+    "description": "Dagis och nattis uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”dagis” och ”nattis”.",
+      "Övningen innehöll både ordet ”dagis” och ordet ”nattis”."
+    ],
+    "related": [
+      "nattis"
+    ]
+  },
+  "nattis": {
+    "opposite": "dagis",
+    "description": "Dagis och nattis uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”dagis” och ”nattis”.",
+      "Övningen innehöll både ordet ”dagis” och ordet ”nattis”."
+    ],
+    "related": [
+      "dagis"
+    ]
+  },
+  "daglega": {
+    "opposite": "nattlega",
+    "description": "Daglega och nattlega används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”daglega” med ”nattlega”.",
+      "I exemplet används både ”daglega” och ”nattlega”."
+    ],
+    "related": [
+      "nattlega"
+    ]
+  },
+  "nattlega": {
+    "opposite": "daglega",
+    "description": "Daglega och nattlega används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”daglega” med ”nattlega”.",
+      "I exemplet används både ”daglega” och ”nattlega”."
+    ],
+    "related": [
+      "daglega"
+    ]
+  },
+  "dambandy": {
+    "opposite": "herrbandy",
+    "description": "Dambandy står i tydlig kontrast till herrbandy.",
+    "examples": [
+      "Skillnaden mellan ”dambandy” och ”herrbandy” blev tydlig.",
+      "Förklaringen visar hur ”dambandy” skiljer sig från ”herrbandy”."
+    ],
+    "related": [
+      "herrbandy"
+    ]
+  },
+  "herrbandy": {
+    "opposite": "dambandy",
+    "description": "Dambandy står i tydlig kontrast till herrbandy.",
+    "examples": [
+      "Skillnaden mellan ”dambandy” och ”herrbandy” blev tydlig.",
+      "Förklaringen visar hur ”dambandy” skiljer sig från ”herrbandy”."
+    ],
+    "related": [
+      "dambandy"
+    ]
+  },
+  "damfotboll": {
+    "opposite": "herrfotboll",
+    "description": "Orden damfotboll och herrfotboll beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”damfotboll” och det andra som ”herrfotboll”.",
+      "Orden ”damfotboll” och ”herrfotboll” ställdes mot varandra."
+    ],
+    "related": [
+      "herrfotboll"
+    ]
+  },
+  "herrfotboll": {
+    "opposite": "damfotboll",
+    "description": "Orden damfotboll och herrfotboll beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”damfotboll” och det andra som ”herrfotboll”.",
+      "Orden ”damfotboll” och ”herrfotboll” ställdes mot varandra."
+    ],
+    "related": [
+      "damfotboll"
+    ]
+  },
+  "damtoalett": {
+    "opposite": "herrtoalett",
+    "description": "Damtoalett och herrtoalett uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”damtoalett” och ”herrtoalett”.",
+      "Övningen innehöll både ordet ”damtoalett” och ordet ”herrtoalett”."
+    ],
+    "related": [
+      "herrtoalett"
+    ]
+  },
+  "herrtoalett": {
+    "opposite": "damtoalett",
+    "description": "Damtoalett och herrtoalett uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”damtoalett” och ”herrtoalett”.",
+      "Övningen innehöll både ordet ”damtoalett” och ordet ”herrtoalett”."
+    ],
+    "related": [
+      "damtoalett"
+    ]
+  },
+  "denaturalisation": {
+    "opposite": "naturalisation",
+    "description": "Denaturalisation och naturalisation används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”denaturalisation” med ”naturalisation”.",
+      "I exemplet används både ”denaturalisation” och ”naturalisation”."
+    ],
+    "related": [
+      "naturalisation"
+    ]
+  },
+  "naturalisation": {
+    "opposite": "denaturalisation",
+    "description": "Denaturalisation och naturalisation används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”denaturalisation” med ”naturalisation”.",
+      "I exemplet används både ”denaturalisation” och ”naturalisation”."
+    ],
+    "related": [
+      "denaturalisation"
+    ]
+  },
+  "denotativ": {
+    "opposite": "konnotativ",
+    "description": "Denotativ står i tydlig kontrast till konnotativ.",
+    "examples": [
+      "Skillnaden mellan ”denotativ” och ”konnotativ” blev tydlig.",
+      "Förklaringen visar hur ”denotativ” skiljer sig från ”konnotativ”."
+    ],
+    "related": [
+      "konnotativ"
+    ]
+  },
+  "konnotativ": {
+    "opposite": "denotativ",
+    "description": "Denotativ står i tydlig kontrast till konnotativ.",
+    "examples": [
+      "Skillnaden mellan ”denotativ” och ”konnotativ” blev tydlig.",
+      "Förklaringen visar hur ”denotativ” skiljer sig från ”konnotativ”."
+    ],
+    "related": [
+      "denotativ"
+    ]
+  },
+  "denotera": {
+    "opposite": "konnotera",
+    "description": "Orden denotera och konnotera beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”denotera” och det andra som ”konnotera”.",
+      "Orden ”denotera” och ”konnotera” ställdes mot varandra."
+    ],
+    "related": [
+      "konnotera"
+    ]
+  },
+  "konnotera": {
+    "opposite": "denotera",
+    "description": "Orden denotera och konnotera beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”denotera” och det andra som ”konnotera”.",
+      "Orden ”denotera” och ”konnotera” ställdes mot varandra."
+    ],
+    "related": [
+      "denotera"
+    ]
+  },
+  "detaljist": {
+    "opposite": "grosshandlare",
+    "description": "Detaljist och grosshandlare uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”detaljist” och ”grosshandlare”.",
+      "Övningen innehöll både ordet ”detaljist” och ordet ”grosshandlare”."
+    ],
+    "related": [
+      "grosshandlare"
+    ]
+  },
+  "grosshandlare": {
+    "opposite": "detaljist",
+    "description": "Detaljist och grosshandlare uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”detaljist” och ”grosshandlare”.",
+      "Övningen innehöll både ordet ”detaljist” och ordet ”grosshandlare”."
+    ],
+    "related": [
+      "detaljist"
+    ]
+  },
+  "diskursiv": {
+    "opposite": "intuitiv",
+    "description": "Diskursiv och intuitiv används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”diskursiv” med ”intuitiv”.",
+      "I exemplet används både ”diskursiv” och ”intuitiv”."
+    ],
+    "related": [
+      "intuitiv"
+    ]
+  },
+  "intuitiv": {
+    "opposite": "diskursiv",
+    "description": "Diskursiv och intuitiv används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”diskursiv” med ”intuitiv”.",
+      "I exemplet används både ”diskursiv” och ”intuitiv”."
+    ],
+    "related": [
+      "diskursiv"
+    ]
+  },
+  "duvhökshane": {
+    "opposite": "duvhökshona",
+    "description": "Duvhökshane står i tydlig kontrast till duvhökshona.",
+    "examples": [
+      "Skillnaden mellan ”duvhökshane” och ”duvhökshona” blev tydlig.",
+      "Förklaringen visar hur ”duvhökshane” skiljer sig från ”duvhökshona”."
+    ],
+    "related": [
+      "duvhökshona"
+    ]
+  },
+  "duvhökshona": {
+    "opposite": "duvhökshane",
+    "description": "Duvhökshane står i tydlig kontrast till duvhökshona.",
+    "examples": [
+      "Skillnaden mellan ”duvhökshane” och ”duvhökshona” blev tydlig.",
+      "Förklaringen visar hur ”duvhökshane” skiljer sig från ”duvhökshona”."
+    ],
+    "related": [
+      "duvhökshane"
+    ]
+  },
+  "dysterkvist": {
+    "opposite": "muntergök",
+    "description": "Orden dysterkvist och muntergök beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”dysterkvist” och det andra som ”muntergök”.",
+      "Orden ”dysterkvist” och ”muntergök” ställdes mot varandra."
+    ],
+    "related": [
+      "muntergök"
+    ]
+  },
+  "muntergök": {
+    "opposite": "dysterkvist",
+    "description": "Orden dysterkvist och muntergök beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”dysterkvist” och det andra som ”muntergök”.",
+      "Orden ”dysterkvist” och ”muntergök” ställdes mot varandra."
+    ],
+    "related": [
+      "dysterkvist"
+    ]
+  },
+  "ejderhane": {
+    "opposite": "ejderhona",
+    "description": "Ejderhane och ejderhona uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”ejderhane” och ”ejderhona”.",
+      "Övningen innehöll både ordet ”ejderhane” och ordet ”ejderhona”."
+    ],
+    "related": [
+      "ejderhona"
+    ]
+  },
+  "ejderhona": {
+    "opposite": "ejderhane",
+    "description": "Ejderhane och ejderhona uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”ejderhane” och ”ejderhona”.",
+      "Övningen innehöll både ordet ”ejderhane” och ordet ”ejderhona”."
+    ],
+    "related": [
+      "ejderhane"
+    ]
+  },
+  "engångsintäkt": {
+    "opposite": "engångskostnad",
+    "description": "Engångsintäkt och engångskostnad används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”engångsintäkt” med ”engångskostnad”.",
+      "I exemplet används både ”engångsintäkt” och ”engångskostnad”."
+    ],
+    "related": [
+      "engångskostnad"
+    ]
+  },
+  "engångskostnad": {
+    "opposite": "engångsintäkt",
+    "description": "Engångsintäkt och engångskostnad används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”engångsintäkt” med ”engångskostnad”.",
+      "I exemplet används både ”engångsintäkt” och ”engångskostnad”."
+    ],
+    "related": [
+      "engångsintäkt"
+    ]
+  },
+  "esoterisk": {
+    "opposite": "exoterisk",
+    "description": "Esoterisk står i tydlig kontrast till exoterisk.",
+    "examples": [
+      "Skillnaden mellan ”esoterisk” och ”exoterisk” blev tydlig.",
+      "Förklaringen visar hur ”esoterisk” skiljer sig från ”exoterisk”."
+    ],
+    "related": [
+      "exoterisk"
+    ]
+  },
+  "exoterisk": {
+    "opposite": "esoterisk",
+    "description": "Esoterisk står i tydlig kontrast till exoterisk.",
+    "examples": [
+      "Skillnaden mellan ”esoterisk” och ”exoterisk” blev tydlig.",
+      "Förklaringen visar hur ”esoterisk” skiljer sig från ”exoterisk”."
+    ],
+    "related": [
+      "esoterisk"
+    ]
+  },
+  "eu-medborgare": {
+    "opposite": "tredjelandsmedborgare",
+    "description": "Orden eu-medborgare och tredjelandsmedborgare beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”eu-medborgare” och det andra som ”tredjelandsmedborgare”.",
+      "Orden ”eu-medborgare” och ”tredjelandsmedborgare” ställdes mot varandra."
+    ],
+    "related": [
+      "tredjelandsmedborgare"
+    ]
+  },
+  "tredjelandsmedborgare": {
+    "opposite": "eu-medborgare",
+    "description": "Orden eu-medborgare och tredjelandsmedborgare beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”eu-medborgare” och det andra som ”tredjelandsmedborgare”.",
+      "Orden ”eu-medborgare” och ”tredjelandsmedborgare” ställdes mot varandra."
+    ],
+    "related": [
+      "eu-medborgare"
+    ]
+  },
+  "exacerbera": {
+    "opposite": "mitigera",
+    "description": "Exacerbera och mitigera uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”exacerbera” och ”mitigera”.",
+      "Övningen innehöll både ordet ”exacerbera” och ordet ”mitigera”."
+    ],
+    "related": [
+      "mitigera"
+    ]
+  },
+  "mitigera": {
+    "opposite": "exacerbera",
+    "description": "Exacerbera och mitigera uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”exacerbera” och ”mitigera”.",
+      "Övningen innehöll både ordet ”exacerbera” och ordet ”mitigera”."
+    ],
+    "related": [
+      "exacerbera"
+    ]
+  },
+  "extracellulär": {
+    "opposite": "intracellulär",
+    "description": "Extracellulär och intracellulär används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”extracellulär” med ”intracellulär”.",
+      "I exemplet används både ”extracellulär” och ”intracellulär”."
+    ],
+    "related": [
+      "intracellulär"
+    ]
+  },
+  "intracellulär": {
+    "opposite": "extracellulär",
+    "description": "Extracellulär och intracellulär används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”extracellulär” med ”intracellulär”.",
+      "I exemplet används både ”extracellulär” och ”intracellulär”."
+    ],
+    "related": [
+      "extracellulär"
+    ]
+  },
+  "extrainkomst": {
+    "opposite": "extrautgift",
+    "description": "Extrainkomst står i tydlig kontrast till extrautgift.",
+    "examples": [
+      "Skillnaden mellan ”extrainkomst” och ”extrautgift” blev tydlig.",
+      "Förklaringen visar hur ”extrainkomst” skiljer sig från ”extrautgift”."
+    ],
+    "related": [
+      "extrautgift"
+    ]
+  },
+  "extrautgift": {
+    "opposite": "extrainkomst",
+    "description": "Extrainkomst står i tydlig kontrast till extrautgift.",
+    "examples": [
+      "Skillnaden mellan ”extrainkomst” och ”extrautgift” blev tydlig.",
+      "Förklaringen visar hur ”extrainkomst” skiljer sig från ”extrautgift”."
+    ],
+    "related": [
+      "extrainkomst"
+    ]
+  },
+  "fåtalig": {
+    "opposite": "mångtalig",
+    "description": "Orden fåtalig och mångtalig beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”fåtalig” och det andra som ”mångtalig”.",
+      "Orden ”fåtalig” och ”mångtalig” ställdes mot varandra."
+    ],
+    "related": [
+      "mångtalig"
+    ]
+  },
+  "mångtalig": {
+    "opposite": "fåtalig",
+    "description": "Orden fåtalig och mångtalig beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”fåtalig” och det andra som ”mångtalig”.",
+      "Orden ”fåtalig” och ”mångtalig” ställdes mot varandra."
+    ],
+    "related": [
+      "fåtalig"
+    ]
+  },
+  "feminisera": {
+    "opposite": "maskulinisera",
+    "description": "Feminisera och maskulinisera uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”feminisera” och ”maskulinisera”.",
+      "Övningen innehöll både ordet ”feminisera” och ordet ”maskulinisera”."
+    ],
+    "related": [
+      "maskulinisera"
+    ]
+  },
+  "maskulinisera": {
+    "opposite": "feminisera",
+    "description": "Feminisera och maskulinisera uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”feminisera” och ”maskulinisera”.",
+      "Övningen innehöll både ordet ”feminisera” och ordet ”maskulinisera”."
+    ],
+    "related": [
+      "feminisera"
+    ]
+  },
+  "finkem": {
+    "opposite": "grovkem",
+    "description": "Finkem och grovkem används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”finkem” med ”grovkem”.",
+      "I exemplet används både ”finkem” och ”grovkem”."
+    ],
+    "related": [
+      "grovkem"
+    ]
+  },
+  "grovkem": {
+    "opposite": "finkem",
+    "description": "Finkem och grovkem används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”finkem” med ”grovkem”.",
+      "I exemplet används både ”finkem” och ”grovkem”."
+    ],
+    "related": [
+      "finkem"
+    ]
+  },
+  "finkornighet": {
+    "opposite": "grovkornighet",
+    "description": "Finkornighet står i tydlig kontrast till grovkornighet.",
+    "examples": [
+      "Skillnaden mellan ”finkornighet” och ”grovkornighet” blev tydlig.",
+      "Förklaringen visar hur ”finkornighet” skiljer sig från ”grovkornighet”."
+    ],
+    "related": [
+      "grovkornighet"
+    ]
+  },
+  "grovkornighet": {
+    "opposite": "finkornighet",
+    "description": "Finkornighet står i tydlig kontrast till grovkornighet.",
+    "examples": [
+      "Skillnaden mellan ”finkornighet” och ”grovkornighet” blev tydlig.",
+      "Förklaringen visar hur ”finkornighet” skiljer sig från ”grovkornighet”."
+    ],
+    "related": [
+      "finkornighet"
+    ]
+  },
+  "fjädervilt": {
+    "opposite": "hårvilt",
+    "description": "Orden fjädervilt och hårvilt beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”fjädervilt” och det andra som ”hårvilt”.",
+      "Orden ”fjädervilt” och ”hårvilt” ställdes mot varandra."
+    ],
+    "related": [
+      "hårvilt"
+    ]
+  },
+  "hårvilt": {
+    "opposite": "fjädervilt",
+    "description": "Orden fjädervilt och hårvilt beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”fjädervilt” och det andra som ”hårvilt”.",
+      "Orden ”fjädervilt” och ”hårvilt” ställdes mot varandra."
+    ],
+    "related": [
+      "fjädervilt"
+    ]
+  },
+  "flickbok": {
+    "opposite": "pojkbok",
+    "description": "Flickbok och pojkbok uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”flickbok” och ”pojkbok”.",
+      "Övningen innehöll både ordet ”flickbok” och ordet ”pojkbok”."
+    ],
+    "related": [
+      "pojkbok"
+    ]
+  },
+  "pojkbok": {
+    "opposite": "flickbok",
+    "description": "Flickbok och pojkbok uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”flickbok” och ”pojkbok”.",
+      "Övningen innehöll både ordet ”flickbok” och ordet ”pojkbok”."
+    ],
+    "related": [
+      "flickbok"
+    ]
+  },
+  "flickebarn": {
+    "opposite": "gossebarn",
+    "description": "Flickebarn och gossebarn används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”flickebarn” med ”gossebarn”.",
+      "I exemplet används både ”flickebarn” och ”gossebarn”."
+    ],
+    "related": [
+      "gossebarn"
+    ]
+  },
+  "gossebarn": {
+    "opposite": "flickebarn",
+    "description": "Flickebarn och gossebarn används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”flickebarn” med ”gossebarn”.",
+      "I exemplet används både ”flickebarn” och ”gossebarn”."
+    ],
+    "related": [
+      "flickebarn"
+    ]
+  },
+  "förmildrande": {
+    "opposite": "försvårande",
+    "description": "Förmildrande står i tydlig kontrast till försvårande.",
+    "examples": [
+      "Skillnaden mellan ”förmildrande” och ”försvårande” blev tydlig.",
+      "Förklaringen visar hur ”förmildrande” skiljer sig från ”försvårande”."
+    ],
+    "related": [
+      "försvårande"
+    ]
+  },
+  "försvårande": {
+    "opposite": "förmildrande",
+    "description": "Förmildrande står i tydlig kontrast till försvårande.",
+    "examples": [
+      "Skillnaden mellan ”förmildrande” och ”försvårande” blev tydlig.",
+      "Förklaringen visar hur ”förmildrande” skiljer sig från ”försvårande”."
+    ],
+    "related": [
+      "förmildrande"
+    ]
+  },
+  "förrförra": {
+    "opposite": "nästnästa",
+    "description": "Orden förrförra och nästnästa beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”förrförra” och det andra som ”nästnästa”.",
+      "Orden ”förrförra” och ”nästnästa” ställdes mot varandra."
+    ],
+    "related": [
+      "nästnästa"
+    ]
+  },
+  "nästnästa": {
+    "opposite": "förrförra",
+    "description": "Orden förrförra och nästnästa beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”förrförra” och det andra som ”nästnästa”.",
+      "Orden ”förrförra” och ”nästnästa” ställdes mot varandra."
+    ],
+    "related": [
+      "förrförra"
+    ]
+  },
+  "förstå": {
+    "opposite": "missförstå",
+    "description": "Förstå och missförstå uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”förstå” och ”missförstå”.",
+      "Övningen innehöll både ordet ”förstå” och ordet ”missförstå”."
+    ],
+    "related": [
+      "missförstå"
+    ]
+  },
+  "missförstå": {
+    "opposite": "förstå",
+    "description": "Förstå och missförstå uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”förstå” och ”missförstå”.",
+      "Övningen innehöll både ordet ”förstå” och ordet ”missförstå”."
+    ],
+    "related": [
+      "förstå"
+    ]
+  },
+  "försten": {
+    "opposite": "sisten",
+    "description": "Försten och sisten används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”försten” med ”sisten”.",
+      "I exemplet används både ”försten” och ”sisten”."
+    ],
+    "related": [
+      "sisten"
+    ]
+  },
+  "sisten": {
+    "opposite": "försten",
+    "description": "Försten och sisten används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”försten” med ”sisten”.",
+      "I exemplet används både ”försten” och ”sisten”."
+    ],
+    "related": [
+      "försten"
+    ]
+  },
+  "frankofil": {
+    "opposite": "frankofob",
+    "description": "Frankofil står i tydlig kontrast till frankofob.",
+    "examples": [
+      "Skillnaden mellan ”frankofil” och ”frankofob” blev tydlig.",
+      "Förklaringen visar hur ”frankofil” skiljer sig från ”frankofob”."
+    ],
+    "related": [
+      "frankofob"
+    ]
+  },
+  "frankofob": {
+    "opposite": "frankofil",
+    "description": "Frankofil står i tydlig kontrast till frankofob.",
+    "examples": [
+      "Skillnaden mellan ”frankofil” och ”frankofob” blev tydlig.",
+      "Förklaringen visar hur ”frankofil” skiljer sig från ”frankofob”."
+    ],
+    "related": [
+      "frankofil"
+    ]
+  },
+  "frihandlare": {
+    "opposite": "tullvän",
+    "description": "Orden frihandlare och tullvän beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”frihandlare” och det andra som ”tullvän”.",
+      "Orden ”frihandlare” och ”tullvän” ställdes mot varandra."
+    ],
+    "related": [
+      "tullvän"
+    ]
+  },
+  "tullvän": {
+    "opposite": "frihandlare",
+    "description": "Orden frihandlare och tullvän beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”frihandlare” och det andra som ”tullvän”.",
+      "Orden ”frihandlare” och ”tullvän” ställdes mot varandra."
+    ],
+    "related": [
+      "frihandlare"
+    ]
+  },
+  "fullmaktsgivare": {
+    "opposite": "fullmaktstagare",
+    "description": "Fullmaktsgivare och fullmaktstagare uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”fullmaktsgivare” och ”fullmaktstagare”.",
+      "Övningen innehöll både ordet ”fullmaktsgivare” och ordet ”fullmaktstagare”."
+    ],
+    "related": [
+      "fullmaktstagare"
+    ]
+  },
+  "fullmaktstagare": {
+    "opposite": "fullmaktsgivare",
+    "description": "Fullmaktsgivare och fullmaktstagare uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”fullmaktsgivare” och ”fullmaktstagare”.",
+      "Övningen innehöll både ordet ”fullmaktsgivare” och ordet ”fullmaktstagare”."
+    ],
+    "related": [
+      "fullmaktsgivare"
+    ]
+  },
+  "fytobiot": {
+    "opposite": "zoobiot",
+    "description": "Fytobiot och zoobiot används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”fytobiot” med ”zoobiot”.",
+      "I exemplet används både ”fytobiot” och ”zoobiot”."
+    ],
+    "related": [
+      "zoobiot"
+    ]
+  },
+  "zoobiot": {
+    "opposite": "fytobiot",
+    "description": "Fytobiot och zoobiot används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”fytobiot” med ”zoobiot”.",
+      "I exemplet används både ”fytobiot” och ”zoobiot”."
+    ],
+    "related": [
+      "fytobiot"
+    ]
+  },
+  "gelotofili": {
+    "opposite": "gelotofobi",
+    "description": "Gelotofili står i tydlig kontrast till gelotofobi.",
+    "examples": [
+      "Skillnaden mellan ”gelotofili” och ”gelotofobi” blev tydlig.",
+      "Förklaringen visar hur ”gelotofili” skiljer sig från ”gelotofobi”."
+    ],
+    "related": [
+      "gelotofobi"
+    ]
+  },
+  "gelotofobi": {
+    "opposite": "gelotofili",
+    "description": "Gelotofili står i tydlig kontrast till gelotofobi.",
+    "examples": [
+      "Skillnaden mellan ”gelotofili” och ”gelotofobi” blev tydlig.",
+      "Förklaringen visar hur ”gelotofili” skiljer sig från ”gelotofobi”."
+    ],
+    "related": [
+      "gelotofili"
+    ]
+  },
+  "gräsandshane": {
+    "opposite": "gräsandshona",
+    "description": "Orden gräsandshane och gräsandshona beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”gräsandshane” och det andra som ”gräsandshona”.",
+      "Orden ”gräsandshane” och ”gräsandshona” ställdes mot varandra."
+    ],
+    "related": [
+      "gräsandshona"
+    ]
+  },
+  "gräsandshona": {
+    "opposite": "gräsandshane",
+    "description": "Orden gräsandshane och gräsandshona beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”gräsandshane” och det andra som ”gräsandshona”.",
+      "Orden ”gräsandshane” och ”gräsandshona” ställdes mot varandra."
+    ],
+    "related": [
+      "gräsandshane"
+    ]
+  },
+  "gravandshane": {
+    "opposite": "gravandshona",
+    "description": "Gravandshane och gravandshona uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”gravandshane” och ”gravandshona”.",
+      "Övningen innehöll både ordet ”gravandshane” och ordet ”gravandshona”."
+    ],
+    "related": [
+      "gravandshona"
+    ]
+  },
+  "gravandshona": {
+    "opposite": "gravandshane",
+    "description": "Gravandshane och gravandshona uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”gravandshane” och ”gravandshona”.",
+      "Övningen innehöll både ordet ”gravandshane” och ordet ”gravandshona”."
+    ],
+    "related": [
+      "gravandshane"
+    ]
+  },
+  "grynpipig": {
+    "opposite": "rundpipig",
+    "description": "Grynpipig och rundpipig används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”grynpipig” med ”rundpipig”.",
+      "I exemplet används både ”grynpipig” och ”rundpipig”."
+    ],
+    "related": [
+      "rundpipig"
+    ]
+  },
+  "rundpipig": {
+    "opposite": "grynpipig",
+    "description": "Grynpipig och rundpipig används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”grynpipig” med ”rundpipig”.",
+      "I exemplet används både ”grynpipig” och ”rundpipig”."
+    ],
+    "related": [
+      "grynpipig"
+    ]
+  },
+  "hänsynsfullhet": {
+    "opposite": "hänsynslöshet",
+    "description": "Hänsynsfullhet står i tydlig kontrast till hänsynslöshet.",
+    "examples": [
+      "Skillnaden mellan ”hänsynsfullhet” och ”hänsynslöshet” blev tydlig.",
+      "Förklaringen visar hur ”hänsynsfullhet” skiljer sig från ”hänsynslöshet”."
+    ],
+    "related": [
+      "hänsynslöshet"
+    ]
+  },
+  "hänsynslöshet": {
+    "opposite": "hänsynsfullhet",
+    "description": "Hänsynsfullhet står i tydlig kontrast till hänsynslöshet.",
+    "examples": [
+      "Skillnaden mellan ”hänsynsfullhet” och ”hänsynslöshet” blev tydlig.",
+      "Förklaringen visar hur ”hänsynsfullhet” skiljer sig från ”hänsynslöshet”."
+    ],
+    "related": [
+      "hänsynsfullhet"
+    ]
+  },
+  "hårding": {
+    "opposite": "mjukis",
+    "description": "Orden hårding och mjukis beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”hårding” och det andra som ”mjukis”.",
+      "Orden ”hårding” och ”mjukis” ställdes mot varandra."
+    ],
+    "related": [
+      "mjukis"
+    ]
+  },
+  "mjukis": {
+    "opposite": "hårding",
+    "description": "Orden hårding och mjukis beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”hårding” och det andra som ”mjukis”.",
+      "Orden ”hårding” och ”mjukis” ställdes mot varandra."
+    ],
+    "related": [
+      "hårding"
+    ]
+  },
+  "hårdmacka": {
+    "opposite": "mjukmacka",
+    "description": "Hårdmacka och mjukmacka uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”hårdmacka” och ”mjukmacka”.",
+      "Övningen innehöll både ordet ”hårdmacka” och ordet ”mjukmacka”."
+    ],
+    "related": [
+      "mjukmacka"
+    ]
+  },
+  "mjukmacka": {
+    "opposite": "hårdmacka",
+    "description": "Hårdmacka och mjukmacka uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”hårdmacka” och ”mjukmacka”.",
+      "Övningen innehöll både ordet ”hårdmacka” och ordet ”mjukmacka”."
+    ],
+    "related": [
+      "hårdmacka"
+    ]
+  },
+  "hemförlossning": {
+    "opposite": "sjukhusförlossning",
+    "description": "Hemförlossning och sjukhusförlossning används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”hemförlossning” med ”sjukhusförlossning”.",
+      "I exemplet används både ”hemförlossning” och ”sjukhusförlossning”."
+    ],
+    "related": [
+      "sjukhusförlossning"
+    ]
+  },
+  "sjukhusförlossning": {
+    "opposite": "hemförlossning",
+    "description": "Hemförlossning och sjukhusförlossning används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”hemförlossning” med ”sjukhusförlossning”.",
+      "I exemplet används både ”hemförlossning” och ”sjukhusförlossning”."
+    ],
+    "related": [
+      "hemförlossning"
+    ]
+  },
+  "hemnummer": {
+    "opposite": "jobbnummer",
+    "description": "Hemnummer står i tydlig kontrast till jobbnummer.",
+    "examples": [
+      "Skillnaden mellan ”hemnummer” och ”jobbnummer” blev tydlig.",
+      "Förklaringen visar hur ”hemnummer” skiljer sig från ”jobbnummer”."
+    ],
+    "related": [
+      "jobbnummer"
+    ]
+  },
+  "jobbnummer": {
+    "opposite": "hemnummer",
+    "description": "Hemnummer står i tydlig kontrast till jobbnummer.",
+    "examples": [
+      "Skillnaden mellan ”hemnummer” och ”jobbnummer” blev tydlig.",
+      "Förklaringen visar hur ”hemnummer” skiljer sig från ”jobbnummer”."
+    ],
+    "related": [
+      "hemnummer"
+    ]
+  },
+  "hjulbenthet": {
+    "opposite": "kobenthet",
+    "description": "Orden hjulbenthet och kobenthet beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”hjulbenthet” och det andra som ”kobenthet”.",
+      "Orden ”hjulbenthet” och ”kobenthet” ställdes mot varandra."
+    ],
+    "related": [
+      "kobenthet"
+    ]
+  },
+  "kobenthet": {
+    "opposite": "hjulbenthet",
+    "description": "Orden hjulbenthet och kobenthet beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”hjulbenthet” och det andra som ”kobenthet”.",
+      "Orden ”hjulbenthet” och ”kobenthet” ställdes mot varandra."
+    ],
+    "related": [
+      "hjulbenthet"
+    ]
+  },
+  "högerdebattör": {
+    "opposite": "vänsterdebattör",
+    "description": "Högerdebattör och vänsterdebattör uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”högerdebattör” och ”vänsterdebattör”.",
+      "Övningen innehöll både ordet ”högerdebattör” och ordet ”vänsterdebattör”."
+    ],
+    "related": [
+      "vänsterdebattör"
+    ]
+  },
+  "vänsterdebattör": {
+    "opposite": "högerdebattör",
+    "description": "Högerdebattör och vänsterdebattör uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”högerdebattör” och ”vänsterdebattör”.",
+      "Övningen innehöll både ordet ”högerdebattör” och ordet ”vänsterdebattör”."
+    ],
+    "related": [
+      "högerdebattör"
+    ]
+  },
+  "högerextremism": {
+    "opposite": "vänsterextremism",
+    "description": "Högerextremism och vänsterextremism används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”högerextremism” med ”vänsterextremism”.",
+      "I exemplet används både ”högerextremism” och ”vänsterextremism”."
+    ],
+    "related": [
+      "vänsterextremism"
+    ]
+  },
+  "vänsterextremism": {
+    "opposite": "högerextremism",
+    "description": "Högerextremism och vänsterextremism används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”högerextremism” med ”vänsterextremism”.",
+      "I exemplet används både ”högerextremism” och ”vänsterextremism”."
+    ],
+    "related": [
+      "högerextremism"
+    ]
+  },
+  "högerpopulist": {
+    "opposite": "vänsterpopulist",
+    "description": "Högerpopulist står i tydlig kontrast till vänsterpopulist.",
+    "examples": [
+      "Skillnaden mellan ”högerpopulist” och ”vänsterpopulist” blev tydlig.",
+      "Förklaringen visar hur ”högerpopulist” skiljer sig från ”vänsterpopulist”."
+    ],
+    "related": [
+      "vänsterpopulist"
+    ]
+  },
+  "vänsterpopulist": {
+    "opposite": "högerpopulist",
+    "description": "Högerpopulist står i tydlig kontrast till vänsterpopulist.",
+    "examples": [
+      "Skillnaden mellan ”högerpopulist” och ”vänsterpopulist” blev tydlig.",
+      "Förklaringen visar hur ”högerpopulist” skiljer sig från ”vänsterpopulist”."
+    ],
+    "related": [
+      "högerpopulist"
+    ]
+  },
+  "högerstyrd": {
+    "opposite": "vänsterstyrd",
+    "description": "Orden högerstyrd och vänsterstyrd beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”högerstyrd” och det andra som ”vänsterstyrd”.",
+      "Orden ”högerstyrd” och ”vänsterstyrd” ställdes mot varandra."
+    ],
+    "related": [
+      "vänsterstyrd"
+    ]
+  },
+  "vänsterstyrd": {
+    "opposite": "högerstyrd",
+    "description": "Orden högerstyrd och vänsterstyrd beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”högerstyrd” och det andra som ”vänsterstyrd”.",
+      "Orden ”högerstyrd” och ”vänsterstyrd” ställdes mot varandra."
+    ],
+    "related": [
+      "högerstyrd"
+    ]
+  },
+  "högervåg": {
+    "opposite": "vänstervåg",
+    "description": "Högervåg och vänstervåg uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”högervåg” och ”vänstervåg”.",
+      "Övningen innehöll både ordet ”högervåg” och ordet ”vänstervåg”."
+    ],
+    "related": [
+      "vänstervåg"
+    ]
+  },
+  "vänstervåg": {
+    "opposite": "högervåg",
+    "description": "Högervåg och vänstervåg uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”högervåg” och ”vänstervåg”.",
+      "Övningen innehöll både ordet ”högervåg” och ordet ”vänstervåg”."
+    ],
+    "related": [
+      "högervåg"
+    ]
+  },
+  "höjningstecken": {
+    "opposite": "sänkningstecken",
+    "description": "Höjningstecken och sänkningstecken används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”höjningstecken” med ”sänkningstecken”.",
+      "I exemplet används både ”höjningstecken” och ”sänkningstecken”."
+    ],
+    "related": [
+      "sänkningstecken"
+    ]
+  },
+  "sänkningstecken": {
+    "opposite": "höjningstecken",
+    "description": "Höjningstecken och sänkningstecken används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”höjningstecken” med ”sänkningstecken”.",
+      "I exemplet används både ”höjningstecken” och ”sänkningstecken”."
+    ],
+    "related": [
+      "höjningstecken"
+    ]
+  },
+  "humorfri": {
+    "opposite": "humorfylld",
+    "description": "Humorfri står i tydlig kontrast till humorfylld.",
+    "examples": [
+      "Skillnaden mellan ”humorfri” och ”humorfylld” blev tydlig.",
+      "Förklaringen visar hur ”humorfri” skiljer sig från ”humorfylld”."
+    ],
+    "related": [
+      "humorfylld"
+    ]
+  },
+  "humorfylld": {
+    "opposite": "humorfri",
+    "description": "Humorfri står i tydlig kontrast till humorfylld.",
+    "examples": [
+      "Skillnaden mellan ”humorfri” och ”humorfylld” blev tydlig.",
+      "Förklaringen visar hur ”humorfri” skiljer sig från ”humorfylld”."
+    ],
+    "related": [
+      "humorfri"
+    ]
+  },
+  "hushållsinkomst": {
+    "opposite": "hushållsutgift",
+    "description": "Orden hushållsinkomst och hushållsutgift beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”hushållsinkomst” och det andra som ”hushållsutgift”.",
+      "Orden ”hushållsinkomst” och ”hushållsutgift” ställdes mot varandra."
+    ],
+    "related": [
+      "hushållsutgift"
+    ]
+  },
+  "hushållsutgift": {
+    "opposite": "hushållsinkomst",
+    "description": "Orden hushållsinkomst och hushållsutgift beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”hushållsinkomst” och det andra som ”hushållsutgift”.",
+      "Orden ”hushållsinkomst” och ”hushållsutgift” ställdes mot varandra."
+    ],
+    "related": [
+      "hushållsinkomst"
+    ]
+  },
+  "ibak": {
+    "opposite": "ifram",
+    "description": "Ibak och ifram uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”ibak” och ”ifram”.",
+      "Övningen innehöll både ordet ”ibak” och ordet ”ifram”."
+    ],
+    "related": [
+      "ifram"
+    ]
+  },
+  "ifram": {
+    "opposite": "ibak",
+    "description": "Ibak och ifram uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”ibak” och ”ifram”.",
+      "Övningen innehöll både ordet ”ibak” och ordet ”ifram”."
+    ],
+    "related": [
+      "ibak"
+    ]
+  },
+  "idépolitik": {
+    "opposite": "sakpolitik",
+    "description": "Idépolitik och sakpolitik används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”idépolitik” med ”sakpolitik”.",
+      "I exemplet används både ”idépolitik” och ”sakpolitik”."
+    ],
+    "related": [
+      "sakpolitik"
+    ]
+  },
+  "sakpolitik": {
+    "opposite": "idépolitik",
+    "description": "Idépolitik och sakpolitik används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”idépolitik” med ”sakpolitik”.",
+      "I exemplet används både ”idépolitik” och ”sakpolitik”."
+    ],
+    "related": [
+      "idépolitik"
+    ]
+  },
+  "illiberalitet": {
+    "opposite": "liberalitet",
+    "description": "Illiberalitet står i tydlig kontrast till liberalitet.",
+    "examples": [
+      "Skillnaden mellan ”illiberalitet” och ”liberalitet” blev tydlig.",
+      "Förklaringen visar hur ”illiberalitet” skiljer sig från ”liberalitet”."
+    ],
+    "related": [
+      "liberalitet"
+    ]
+  },
+  "liberalitet": {
+    "opposite": "illiberalitet",
+    "description": "Illiberalitet står i tydlig kontrast till liberalitet.",
+    "examples": [
+      "Skillnaden mellan ”illiberalitet” och ”liberalitet” blev tydlig.",
+      "Förklaringen visar hur ”illiberalitet” skiljer sig från ”liberalitet”."
+    ],
+    "related": [
+      "illiberalitet"
+    ]
+  },
+  "indosfär": {
+    "opposite": "sinosfär",
+    "description": "Orden indosfär och sinosfär beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”indosfär” och det andra som ”sinosfär”.",
+      "Orden ”indosfär” och ”sinosfär” ställdes mot varandra."
+    ],
+    "related": [
+      "sinosfär"
+    ]
+  },
+  "sinosfär": {
+    "opposite": "indosfär",
+    "description": "Orden indosfär och sinosfär beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”indosfär” och det andra som ”sinosfär”.",
+      "Orden ”indosfär” och ”sinosfär” ställdes mot varandra."
+    ],
+    "related": [
+      "indosfär"
+    ]
+  },
+  "indosfärisk": {
+    "opposite": "sinosfärisk",
+    "description": "Indosfärisk och sinosfärisk uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”indosfärisk” och ”sinosfärisk”.",
+      "Övningen innehöll både ordet ”indosfärisk” och ordet ”sinosfärisk”."
+    ],
+    "related": [
+      "sinosfärisk"
+    ]
+  },
+  "sinosfärisk": {
+    "opposite": "indosfärisk",
+    "description": "Indosfärisk och sinosfärisk uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”indosfärisk” och ”sinosfärisk”.",
+      "Övningen innehöll både ordet ”indosfärisk” och ordet ”sinosfärisk”."
+    ],
+    "related": [
+      "indosfärisk"
+    ]
+  },
+  "innerräl": {
+    "opposite": "ytterräl",
+    "description": "Innerräl och ytterräl används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”innerräl” med ”ytterräl”.",
+      "I exemplet används både ”innerräl” och ”ytterräl”."
+    ],
+    "related": [
+      "ytterräl"
+    ]
+  },
+  "ytterräl": {
+    "opposite": "innerräl",
+    "description": "Innerräl och ytterräl används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”innerräl” med ”ytterräl”.",
+      "I exemplet används både ”innerräl” och ”ytterräl”."
+    ],
+    "related": [
+      "innerräl"
+    ]
+  },
+  "innerräls": {
+    "opposite": "ytterräls",
+    "description": "Innerräls står i tydlig kontrast till ytterräls.",
+    "examples": [
+      "Skillnaden mellan ”innerräls” och ”ytterräls” blev tydlig.",
+      "Förklaringen visar hur ”innerräls” skiljer sig från ”ytterräls”."
+    ],
+    "related": [
+      "ytterräls"
+    ]
+  },
+  "ytterräls": {
+    "opposite": "innerräls",
+    "description": "Innerräls står i tydlig kontrast till ytterräls.",
+    "examples": [
+      "Skillnaden mellan ”innerräls” och ”ytterräls” blev tydlig.",
+      "Förklaringen visar hur ”innerräls” skiljer sig från ”ytterräls”."
+    ],
+    "related": [
+      "innerräls"
+    ]
+  },
+  "instrumentflygning": {
+    "opposite": "visuellflygning",
+    "description": "Orden instrumentflygning och visuellflygning beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”instrumentflygning” och det andra som ”visuellflygning”.",
+      "Orden ”instrumentflygning” och ”visuellflygning” ställdes mot varandra."
+    ],
+    "related": [
+      "visuellflygning"
+    ]
+  },
+  "visuellflygning": {
+    "opposite": "instrumentflygning",
+    "description": "Orden instrumentflygning och visuellflygning beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”instrumentflygning” och det andra som ”visuellflygning”.",
+      "Orden ”instrumentflygning” och ”visuellflygning” ställdes mot varandra."
+    ],
+    "related": [
+      "instrumentflygning"
+    ]
+  },
+  "irrlärig": {
+    "opposite": "renlärig",
+    "description": "Irrlärig och renlärig uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”irrlärig” och ”renlärig”.",
+      "Övningen innehöll både ordet ”irrlärig” och ordet ”renlärig”."
+    ],
+    "related": [
+      "renlärig"
+    ]
+  },
+  "renlärig": {
+    "opposite": "irrlärig",
+    "description": "Irrlärig och renlärig uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”irrlärig” och ”renlärig”.",
+      "Övningen innehöll både ordet ”irrlärig” och ordet ”renlärig”."
+    ],
+    "related": [
+      "irrlärig"
+    ]
+  },
+  "jadå": {
+    "opposite": "nädå",
+    "description": "Jadå och nädå används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”jadå” med ”nädå”.",
+      "I exemplet används både ”jadå” och ”nädå”."
+    ],
+    "related": [
+      "nädå"
+    ]
+  },
+  "nädå": {
+    "opposite": "jadå",
+    "description": "Jadå och nädå används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”jadå” med ”nädå”.",
+      "I exemplet används både ”jadå” och ”nädå”."
+    ],
+    "related": [
+      "jadå"
+    ]
+  },
+  "jättegammal": {
+    "opposite": "jätteny",
+    "description": "Jättegammal står i tydlig kontrast till jätteny.",
+    "examples": [
+      "Skillnaden mellan ”jättegammal” och ”jätteny” blev tydlig.",
+      "Förklaringen visar hur ”jättegammal” skiljer sig från ”jätteny”."
+    ],
+    "related": [
+      "jätteny"
+    ]
+  },
+  "jätteny": {
+    "opposite": "jättegammal",
+    "description": "Jättegammal står i tydlig kontrast till jätteny.",
+    "examples": [
+      "Skillnaden mellan ”jättegammal” och ”jätteny” blev tydlig.",
+      "Förklaringen visar hur ”jättegammal” skiljer sig från ”jätteny”."
+    ],
+    "related": [
+      "jättegammal"
+    ]
+  },
+  "jordbo": {
+    "opposite": "marsian",
+    "description": "Orden jordbo och marsian beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”jordbo” och det andra som ”marsian”.",
+      "Orden ”jordbo” och ”marsian” ställdes mot varandra."
+    ],
+    "related": [
+      "marsian"
+    ]
+  },
+  "marsian": {
+    "opposite": "jordbo",
+    "description": "Orden jordbo och marsian beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”jordbo” och det andra som ”marsian”.",
+      "Orden ”jordbo” och ”marsian” ställdes mot varandra."
+    ],
+    "related": [
+      "jordbo"
+    ]
+  },
+  "känslofull": {
+    "opposite": "känslolös",
+    "description": "Känslofull och känslolös uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”känslofull” och ”känslolös”.",
+      "Övningen innehöll både ordet ”känslofull” och ordet ”känslolös”."
+    ],
+    "related": [
+      "känslolös"
+    ]
+  },
+  "känslolös": {
+    "opposite": "känslofull",
+    "description": "Känslofull och känslolös uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”känslofull” och ”känslolös”.",
+      "Övningen innehöll både ordet ”känslofull” och ordet ”känslolös”."
+    ],
+    "related": [
+      "känslofull"
+    ]
+  },
+  "kniphane": {
+    "opposite": "kniphona",
+    "description": "Kniphane och kniphona används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”kniphane” med ”kniphona”.",
+      "I exemplet används både ”kniphane” och ”kniphona”."
+    ],
+    "related": [
+      "kniphona"
+    ]
+  },
+  "kniphona": {
+    "opposite": "kniphane",
+    "description": "Kniphane och kniphona används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”kniphane” med ”kniphona”.",
+      "I exemplet används både ”kniphane” och ”kniphona”."
+    ],
+    "related": [
+      "kniphane"
+    ]
+  },
+  "könskonform": {
+    "opposite": "könskonträr",
+    "description": "Könskonform står i tydlig kontrast till könskonträr.",
+    "examples": [
+      "Skillnaden mellan ”könskonform” och ”könskonträr” blev tydlig.",
+      "Förklaringen visar hur ”könskonform” skiljer sig från ”könskonträr”."
+    ],
+    "related": [
+      "könskonträr"
+    ]
+  },
+  "könskonträr": {
+    "opposite": "könskonform",
+    "description": "Könskonform står i tydlig kontrast till könskonträr.",
+    "examples": [
+      "Skillnaden mellan ”könskonform” och ”könskonträr” blev tydlig.",
+      "Förklaringen visar hur ”könskonform” skiljer sig från ”könskonträr”."
+    ],
+    "related": [
+      "könskonform"
+    ]
+  },
+  "konstgödsel": {
+    "opposite": "stallgödsel",
+    "description": "Orden konstgödsel och stallgödsel beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”konstgödsel” och det andra som ”stallgödsel”.",
+      "Orden ”konstgödsel” och ”stallgödsel” ställdes mot varandra."
+    ],
+    "related": [
+      "stallgödsel"
+    ]
+  },
+  "stallgödsel": {
+    "opposite": "konstgödsel",
+    "description": "Orden konstgödsel och stallgödsel beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”konstgödsel” och det andra som ”stallgödsel”.",
+      "Orden ”konstgödsel” och ”stallgödsel” ställdes mot varandra."
+    ],
+    "related": [
+      "konstgödsel"
+    ]
+  },
+  "konstsilke": {
+    "opposite": "natursilke",
+    "description": "Konstsilke och natursilke uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”konstsilke” och ”natursilke”.",
+      "Övningen innehöll både ordet ”konstsilke” och ordet ”natursilke”."
+    ],
+    "related": [
+      "natursilke"
+    ]
+  },
+  "natursilke": {
+    "opposite": "konstsilke",
+    "description": "Konstsilke och natursilke uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”konstsilke” och ”natursilke”.",
+      "Övningen innehöll både ordet ”konstsilke” och ordet ”natursilke”."
+    ],
+    "related": [
+      "konstsilke"
+    ]
+  },
+  "konstsnö": {
+    "opposite": "natursnö",
+    "description": "Konstsnö och natursnö används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”konstsnö” med ”natursnö”.",
+      "I exemplet används både ”konstsnö” och ”natursnö”."
+    ],
+    "related": [
+      "natursnö"
+    ]
+  },
+  "natursnö": {
+    "opposite": "konstsnö",
+    "description": "Konstsnö och natursnö används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”konstsnö” med ”natursnö”.",
+      "I exemplet används både ”konstsnö” och ”natursnö”."
+    ],
+    "related": [
+      "konstsnö"
+    ]
+  },
+  "korrespondensschack": {
+    "opposite": "närschack",
+    "description": "Korrespondensschack står i tydlig kontrast till närschack.",
+    "examples": [
+      "Skillnaden mellan ”korrespondensschack” och ”närschack” blev tydlig.",
+      "Förklaringen visar hur ”korrespondensschack” skiljer sig från ”närschack”."
+    ],
+    "related": [
+      "närschack"
+    ]
+  },
+  "närschack": {
+    "opposite": "korrespondensschack",
+    "description": "Korrespondensschack står i tydlig kontrast till närschack.",
+    "examples": [
+      "Skillnaden mellan ”korrespondensschack” och ”närschack” blev tydlig.",
+      "Förklaringen visar hur ”korrespondensschack” skiljer sig från ”närschack”."
+    ],
+    "related": [
+      "korrespondensschack"
+    ]
+  },
+  "kortbyxa": {
+    "opposite": "långbyxa",
+    "description": "Orden kortbyxa och långbyxa beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”kortbyxa” och det andra som ”långbyxa”.",
+      "Orden ”kortbyxa” och ”långbyxa” ställdes mot varandra."
+    ],
+    "related": [
+      "långbyxa"
+    ]
+  },
+  "långbyxa": {
+    "opposite": "kortbyxa",
+    "description": "Orden kortbyxa och långbyxa beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”kortbyxa” och det andra som ”långbyxa”.",
+      "Orden ”kortbyxa” och ”långbyxa” ställdes mot varandra."
+    ],
+    "related": [
+      "kortbyxa"
+    ]
+  },
+  "kortväxt": {
+    "opposite": "storvuxen",
+    "description": "Kortväxt och storvuxen uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”kortväxt” och ”storvuxen”.",
+      "Övningen innehöll både ordet ”kortväxt” och ordet ”storvuxen”."
+    ],
+    "related": [
+      "storvuxen"
+    ]
+  },
+  "storvuxen": {
+    "opposite": "kortväxt",
+    "description": "Kortväxt och storvuxen uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”kortväxt” och ”storvuxen”.",
+      "Övningen innehöll både ordet ”kortväxt” och ordet ”storvuxen”."
+    ],
+    "related": [
+      "kortväxt"
+    ]
+  },
+  "kostnadsreduktion": {
+    "opposite": "kostnadsstegring",
+    "description": "Kostnadsreduktion och kostnadsstegring används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”kostnadsreduktion” med ”kostnadsstegring”.",
+      "I exemplet används både ”kostnadsreduktion” och ”kostnadsstegring”."
+    ],
+    "related": [
+      "kostnadsstegring"
+    ]
+  },
+  "kostnadsstegring": {
+    "opposite": "kostnadsreduktion",
+    "description": "Kostnadsreduktion och kostnadsstegring används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”kostnadsreduktion” med ”kostnadsstegring”.",
+      "I exemplet används både ”kostnadsreduktion” och ”kostnadsstegring”."
+    ],
+    "related": [
+      "kostnadsreduktion"
+    ]
+  },
+  "kroppsarbete": {
+    "opposite": "tankearbete",
+    "description": "Kroppsarbete står i tydlig kontrast till tankearbete.",
+    "examples": [
+      "Skillnaden mellan ”kroppsarbete” och ”tankearbete” blev tydlig.",
+      "Förklaringen visar hur ”kroppsarbete” skiljer sig från ”tankearbete”."
+    ],
+    "related": [
+      "tankearbete"
+    ]
+  },
+  "tankearbete": {
+    "opposite": "kroppsarbete",
+    "description": "Kroppsarbete står i tydlig kontrast till tankearbete.",
+    "examples": [
+      "Skillnaden mellan ”kroppsarbete” och ”tankearbete” blev tydlig.",
+      "Förklaringen visar hur ”kroppsarbete” skiljer sig från ”tankearbete”."
+    ],
+    "related": [
+      "kroppsarbete"
+    ]
+  },
+  "kulturfolk": {
+    "opposite": "naturfolk",
+    "description": "Orden kulturfolk och naturfolk beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”kulturfolk” och det andra som ”naturfolk”.",
+      "Orden ”kulturfolk” och ”naturfolk” ställdes mot varandra."
+    ],
+    "related": [
+      "naturfolk"
+    ]
+  },
+  "naturfolk": {
+    "opposite": "kulturfolk",
+    "description": "Orden kulturfolk och naturfolk beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”kulturfolk” och det andra som ”naturfolk”.",
+      "Orden ”kulturfolk” och ”naturfolk” ställdes mot varandra."
+    ],
+    "related": [
+      "kulturfolk"
+    ]
+  },
+  "längslutning": {
+    "opposite": "tvärfall",
+    "description": "Längslutning och tvärfall uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”längslutning” och ”tvärfall”.",
+      "Övningen innehöll både ordet ”längslutning” och ordet ”tvärfall”."
+    ],
+    "related": [
+      "tvärfall"
+    ]
+  },
+  "tvärfall": {
+    "opposite": "längslutning",
+    "description": "Längslutning och tvärfall uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”längslutning” och ”tvärfall”.",
+      "Övningen innehöll både ordet ”längslutning” och ordet ”tvärfall”."
+    ],
+    "related": [
+      "längslutning"
+    ]
+  },
+  "lantis": {
+    "opposite": "stadsbo",
+    "description": "Lantis och stadsbo används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”lantis” med ”stadsbo”.",
+      "I exemplet används både ”lantis” och ”stadsbo”."
+    ],
+    "related": [
+      "stadsbo"
+    ]
+  },
+  "stadsbo": {
+    "opposite": "lantis",
+    "description": "Lantis och stadsbo används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”lantis” med ”stadsbo”.",
+      "I exemplet används både ”lantis” och ”stadsbo”."
+    ],
+    "related": [
+      "lantis"
+    ]
+  },
+  "latitud": {
+    "opposite": "longitud",
+    "description": "Latitud står i tydlig kontrast till longitud.",
+    "examples": [
+      "Skillnaden mellan ”latitud” och ”longitud” blev tydlig.",
+      "Förklaringen visar hur ”latitud” skiljer sig från ”longitud”."
+    ],
+    "related": [
+      "longitud"
+    ]
+  },
+  "longitud": {
+    "opposite": "latitud",
+    "description": "Latitud står i tydlig kontrast till longitud.",
+    "examples": [
+      "Skillnaden mellan ”latitud” och ”longitud” blev tydlig.",
+      "Förklaringen visar hur ”latitud” skiljer sig från ”longitud”."
+    ],
+    "related": [
+      "latitud"
+    ]
+  },
+  "likhetsfeminism": {
+    "opposite": "särartsfeminism",
+    "description": "Orden likhetsfeminism och särartsfeminism beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”likhetsfeminism” och det andra som ”särartsfeminism”.",
+      "Orden ”likhetsfeminism” och ”särartsfeminism” ställdes mot varandra."
+    ],
+    "related": [
+      "särartsfeminism"
+    ]
+  },
+  "särartsfeminism": {
+    "opposite": "likhetsfeminism",
+    "description": "Orden likhetsfeminism och särartsfeminism beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”likhetsfeminism” och det andra som ”särartsfeminism”.",
+      "Orden ”likhetsfeminism” och ”särartsfeminism” ställdes mot varandra."
+    ],
+    "related": [
+      "likhetsfeminism"
+    ]
+  },
+  "lillasyrra": {
+    "opposite": "storasyrra",
+    "description": "Lillasyrra och storasyrra uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”lillasyrra” och ”storasyrra”.",
+      "Övningen innehöll både ordet ”lillasyrra” och ordet ”storasyrra”."
+    ],
+    "related": [
+      "storasyrra"
+    ]
+  },
+  "storasyrra": {
+    "opposite": "lillasyrra",
+    "description": "Lillasyrra och storasyrra uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”lillasyrra” och ”storasyrra”.",
+      "Övningen innehöll både ordet ”lillasyrra” och ordet ”storasyrra”."
+    ],
+    "related": [
+      "lillasyrra"
+    ]
+  },
+  "lillebrorsa": {
+    "opposite": "storebrorsa",
+    "description": "Lillebrorsa och storebrorsa används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”lillebrorsa” med ”storebrorsa”.",
+      "I exemplet används både ”lillebrorsa” och ”storebrorsa”."
+    ],
+    "related": [
+      "storebrorsa"
+    ]
+  },
+  "storebrorsa": {
+    "opposite": "lillebrorsa",
+    "description": "Lillebrorsa och storebrorsa används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”lillebrorsa” med ”storebrorsa”.",
+      "I exemplet används både ”lillebrorsa” och ”storebrorsa”."
+    ],
+    "related": [
+      "lillebrorsa"
+    ]
+  },
+  "lilltånagel": {
+    "opposite": "stortånagel",
+    "description": "Lilltånagel står i tydlig kontrast till stortånagel.",
+    "examples": [
+      "Skillnaden mellan ”lilltånagel” och ”stortånagel” blev tydlig.",
+      "Förklaringen visar hur ”lilltånagel” skiljer sig från ”stortånagel”."
+    ],
+    "related": [
+      "stortånagel"
+    ]
+  },
+  "stortånagel": {
+    "opposite": "lilltånagel",
+    "description": "Lilltånagel står i tydlig kontrast till stortånagel.",
+    "examples": [
+      "Skillnaden mellan ”lilltånagel” och ”stortånagel” blev tydlig.",
+      "Förklaringen visar hur ”lilltånagel” skiljer sig från ”stortånagel”."
+    ],
+    "related": [
+      "lilltånagel"
+    ]
+  },
+  "lindrigt": {
+    "opposite": "svårt",
+    "description": "Orden lindrigt och svårt beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”lindrigt” och det andra som ”svårt”.",
+      "Orden ”lindrigt” och ”svårt” ställdes mot varandra."
+    ],
+    "related": [
+      "svårt"
+    ]
+  },
+  "svårt": {
+    "opposite": "lindrigt",
+    "description": "Orden lindrigt och svårt beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”lindrigt” och det andra som ”svårt”.",
+      "Orden ”lindrigt” och ”svårt” ställdes mot varandra."
+    ],
+    "related": [
+      "lindrigt"
+    ]
+  },
+  "ljushyad": {
+    "opposite": "mörkhyad",
+    "description": "Ljushyad och mörkhyad uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”ljushyad” och ”mörkhyad”.",
+      "Övningen innehöll både ordet ”ljushyad” och ordet ”mörkhyad”."
+    ],
+    "related": [
+      "mörkhyad"
+    ]
+  },
+  "mörkhyad": {
+    "opposite": "ljushyad",
+    "description": "Ljushyad och mörkhyad uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”ljushyad” och ”mörkhyad”.",
+      "Övningen innehöll både ordet ”ljushyad” och ordet ”mörkhyad”."
+    ],
+    "related": [
+      "ljushyad"
+    ]
+  },
+  "lomhördhet": {
+    "opposite": "lyhördhet",
+    "description": "Lomhördhet och lyhördhet används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”lomhördhet” med ”lyhördhet”.",
+      "I exemplet används både ”lomhördhet” och ”lyhördhet”."
+    ],
+    "related": [
+      "lyhördhet"
+    ]
+  },
+  "lyhördhet": {
+    "opposite": "lomhördhet",
+    "description": "Lomhördhet och lyhördhet används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”lomhördhet” med ”lyhördhet”.",
+      "I exemplet används både ”lomhördhet” och ”lyhördhet”."
+    ],
+    "related": [
+      "lomhördhet"
+    ]
+  },
+  "lössnus": {
+    "opposite": "portionssnus",
+    "description": "Lössnus står i tydlig kontrast till portionssnus.",
+    "examples": [
+      "Skillnaden mellan ”lössnus” och ”portionssnus” blev tydlig.",
+      "Förklaringen visar hur ”lössnus” skiljer sig från ”portionssnus”."
+    ],
+    "related": [
+      "portionssnus"
+    ]
+  },
+  "portionssnus": {
+    "opposite": "lössnus",
+    "description": "Lössnus står i tydlig kontrast till portionssnus.",
+    "examples": [
+      "Skillnaden mellan ”lössnus” och ”portionssnus” blev tydlig.",
+      "Förklaringen visar hur ”lössnus” skiljer sig från ”portionssnus”."
+    ],
+    "related": [
+      "lössnus"
+    ]
+  },
+  "lyckodag": {
+    "opposite": "olycksdag",
+    "description": "Orden lyckodag och olycksdag beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”lyckodag” och det andra som ”olycksdag”.",
+      "Orden ”lyckodag” och ”olycksdag” ställdes mot varandra."
+    ],
+    "related": [
+      "olycksdag"
+    ]
+  },
+  "olycksdag": {
+    "opposite": "lyckodag",
+    "description": "Orden lyckodag och olycksdag beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”lyckodag” och det andra som ”olycksdag”.",
+      "Orden ”lyckodag” och ”olycksdag” ställdes mot varandra."
+    ],
+    "related": [
+      "lyckodag"
+    ]
+  },
+  "lyckost": {
+    "opposite": "olycksfågel",
+    "description": "Lyckost och olycksfågel uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”lyckost” och ”olycksfågel”.",
+      "Övningen innehöll både ordet ”lyckost” och ordet ”olycksfågel”."
+    ],
+    "related": [
+      "olycksfågel"
+    ]
+  },
+  "olycksfågel": {
+    "opposite": "lyckost",
+    "description": "Lyckost och olycksfågel uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”lyckost” och ”olycksfågel”.",
+      "Övningen innehöll både ordet ”lyckost” och ordet ”olycksfågel”."
+    ],
+    "related": [
+      "lyckost"
+    ]
+  },
+  "märgfull": {
+    "opposite": "märglös",
+    "description": "Märgfull och märglös används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”märgfull” med ”märglös”.",
+      "I exemplet används både ”märgfull” och ”märglös”."
+    ],
+    "related": [
+      "märglös"
+    ]
+  },
+  "märglös": {
+    "opposite": "märgfull",
+    "description": "Märgfull och märglös används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”märgfull” med ”märglös”.",
+      "I exemplet används både ”märgfull” och ”märglös”."
+    ],
+    "related": [
+      "märgfull"
+    ]
+  },
+  "märgfullhet": {
+    "opposite": "märglöshet",
+    "description": "Märgfullhet står i tydlig kontrast till märglöshet.",
+    "examples": [
+      "Skillnaden mellan ”märgfullhet” och ”märglöshet” blev tydlig.",
+      "Förklaringen visar hur ”märgfullhet” skiljer sig från ”märglöshet”."
+    ],
+    "related": [
+      "märglöshet"
+    ]
+  },
+  "märglöshet": {
+    "opposite": "märgfullhet",
+    "description": "Märgfullhet står i tydlig kontrast till märglöshet.",
+    "examples": [
+      "Skillnaden mellan ”märgfullhet” och ”märglöshet” blev tydlig.",
+      "Förklaringen visar hur ”märgfullhet” skiljer sig från ”märglöshet”."
+    ],
+    "related": [
+      "märgfullhet"
+    ]
+  },
+  "maximistorlek": {
+    "opposite": "minimistorlek",
+    "description": "Orden maximistorlek och minimistorlek beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”maximistorlek” och det andra som ”minimistorlek”.",
+      "Orden ”maximistorlek” och ”minimistorlek” ställdes mot varandra."
+    ],
+    "related": [
+      "minimistorlek"
+    ]
+  },
+  "minimistorlek": {
+    "opposite": "maximistorlek",
+    "description": "Orden maximistorlek och minimistorlek beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”maximistorlek” och det andra som ”minimistorlek”.",
+      "Orden ”maximistorlek” och ”minimistorlek” ställdes mot varandra."
+    ],
+    "related": [
+      "maximistorlek"
+    ]
+  },
+  "medljud": {
+    "opposite": "självljud",
+    "description": "Medljud och självljud uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”medljud” och ”självljud”.",
+      "Övningen innehöll både ordet ”medljud” och ordet ”självljud”."
+    ],
+    "related": [
+      "självljud"
+    ]
+  },
+  "självljud": {
+    "opposite": "medljud",
+    "description": "Medljud och självljud uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”medljud” och ”självljud”.",
+      "Övningen innehöll både ordet ”medljud” och ordet ”självljud”."
+    ],
+    "related": [
+      "medljud"
+    ]
+  },
+  "mildvinter": {
+    "opposite": "vargavinter",
+    "description": "Mildvinter och vargavinter används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”mildvinter” med ”vargavinter”.",
+      "I exemplet används både ”mildvinter” och ”vargavinter”."
+    ],
+    "related": [
+      "vargavinter"
+    ]
+  },
+  "vargavinter": {
+    "opposite": "mildvinter",
+    "description": "Mildvinter och vargavinter används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”mildvinter” med ”vargavinter”.",
+      "I exemplet används både ”mildvinter” och ”vargavinter”."
+    ],
+    "related": [
+      "mildvinter"
+    ]
+  },
+  "milissoldat": {
+    "opposite": "yrkessoldat",
+    "description": "Milissoldat står i tydlig kontrast till yrkessoldat.",
+    "examples": [
+      "Skillnaden mellan ”milissoldat” och ”yrkessoldat” blev tydlig.",
+      "Förklaringen visar hur ”milissoldat” skiljer sig från ”yrkessoldat”."
+    ],
+    "related": [
+      "yrkessoldat"
+    ]
+  },
+  "yrkessoldat": {
+    "opposite": "milissoldat",
+    "description": "Milissoldat står i tydlig kontrast till yrkessoldat.",
+    "examples": [
+      "Skillnaden mellan ”milissoldat” och ”yrkessoldat” blev tydlig.",
+      "Förklaringen visar hur ”milissoldat” skiljer sig från ”yrkessoldat”."
+    ],
+    "related": [
+      "milissoldat"
+    ]
+  },
+  "morot": {
+    "opposite": "piska",
+    "description": "Orden morot och piska beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”morot” och det andra som ”piska”.",
+      "Orden ”morot” och ”piska” ställdes mot varandra."
+    ],
+    "related": [
+      "piska"
+    ]
+  },
+  "piska": {
+    "opposite": "morot",
+    "description": "Orden morot och piska beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”morot” och det andra som ”piska”.",
+      "Orden ”morot” och ”piska” ställdes mot varandra."
+    ],
+    "related": [
+      "morot"
+    ]
+  },
+  "neutrum": {
+    "opposite": "utrum",
+    "description": "Neutrum och utrum uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”neutrum” och ”utrum”.",
+      "Övningen innehöll både ordet ”neutrum” och ordet ”utrum”."
+    ],
+    "related": [
+      "utrum"
+    ]
+  },
+  "utrum": {
+    "opposite": "neutrum",
+    "description": "Neutrum och utrum uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”neutrum” och ”utrum”.",
+      "Övningen innehöll både ordet ”neutrum” och ordet ”utrum”."
+    ],
+    "related": [
+      "neutrum"
+    ]
+  },
+  "nordostpassagen": {
+    "opposite": "nordvästpassagen",
+    "description": "Nordostpassagen och nordvästpassagen används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”nordostpassagen” med ”nordvästpassagen”.",
+      "I exemplet används både ”nordostpassagen” och ”nordvästpassagen”."
+    ],
+    "related": [
+      "nordvästpassagen"
+    ]
+  },
+  "nordvästpassagen": {
+    "opposite": "nordostpassagen",
+    "description": "Nordostpassagen och nordvästpassagen används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”nordostpassagen” med ”nordvästpassagen”.",
+      "I exemplet används både ”nordostpassagen” och ”nordvästpassagen”."
+    ],
+    "related": [
+      "nordostpassagen"
+    ]
+  },
+  "occidental": {
+    "opposite": "orientalisk",
+    "description": "Occidental står i tydlig kontrast till orientalisk.",
+    "examples": [
+      "Skillnaden mellan ”occidental” och ”orientalisk” blev tydlig.",
+      "Förklaringen visar hur ”occidental” skiljer sig från ”orientalisk”."
+    ],
+    "related": [
+      "orientalisk"
+    ]
+  },
+  "orientalisk": {
+    "opposite": "occidental",
+    "description": "Occidental står i tydlig kontrast till orientalisk.",
+    "examples": [
+      "Skillnaden mellan ”occidental” och ”orientalisk” blev tydlig.",
+      "Förklaringen visar hur ”occidental” skiljer sig från ”orientalisk”."
+    ],
+    "related": [
+      "occidental"
+    ]
+  },
+  "ouppfostrad": {
+    "opposite": "väluppfostrad",
+    "description": "Orden ouppfostrad och väluppfostrad beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”ouppfostrad” och det andra som ”väluppfostrad”.",
+      "Orden ”ouppfostrad” och ”väluppfostrad” ställdes mot varandra."
+    ],
+    "related": [
+      "väluppfostrad"
+    ]
+  },
+  "väluppfostrad": {
+    "opposite": "ouppfostrad",
+    "description": "Orden ouppfostrad och väluppfostrad beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”ouppfostrad” och det andra som ”väluppfostrad”.",
+      "Orden ”ouppfostrad” och ”väluppfostrad” ställdes mot varandra."
+    ],
+    "related": [
+      "ouppfostrad"
+    ]
+  },
+  "partåig": {
+    "opposite": "uddatåig",
+    "description": "Partåig och uddatåig uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”partåig” och ”uddatåig”.",
+      "Övningen innehöll både ordet ”partåig” och ordet ”uddatåig”."
+    ],
+    "related": [
+      "uddatåig"
+    ]
+  },
+  "uddatåig": {
+    "opposite": "partåig",
+    "description": "Partåig och uddatåig uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”partåig” och ”uddatåig”.",
+      "Övningen innehöll både ordet ”partåig” och ordet ”uddatåig”."
+    ],
+    "related": [
+      "partåig"
+    ]
+  },
+  "pionjärträd": {
+    "opposite": "sekundärträd",
+    "description": "Pionjärträd och sekundärträd används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”pionjärträd” med ”sekundärträd”.",
+      "I exemplet används både ”pionjärträd” och ”sekundärträd”."
+    ],
+    "related": [
+      "sekundärträd"
+    ]
+  },
+  "sekundärträd": {
+    "opposite": "pionjärträd",
+    "description": "Pionjärträd och sekundärträd används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”pionjärträd” med ”sekundärträd”.",
+      "I exemplet används både ”pionjärträd” och ”sekundärträd”."
+    ],
+    "related": [
+      "pionjärträd"
+    ]
+  },
+  "pliktförgätenhet": {
+    "opposite": "plikttrogenhet",
+    "description": "Pliktförgätenhet står i tydlig kontrast till plikttrogenhet.",
+    "examples": [
+      "Skillnaden mellan ”pliktförgätenhet” och ”plikttrogenhet” blev tydlig.",
+      "Förklaringen visar hur ”pliktförgätenhet” skiljer sig från ”plikttrogenhet”."
+    ],
+    "related": [
+      "plikttrogenhet"
+    ]
+  },
+  "plikttrogenhet": {
+    "opposite": "pliktförgätenhet",
+    "description": "Pliktförgätenhet står i tydlig kontrast till plikttrogenhet.",
+    "examples": [
+      "Skillnaden mellan ”pliktförgätenhet” och ”plikttrogenhet” blev tydlig.",
+      "Förklaringen visar hur ”pliktförgätenhet” skiljer sig från ”plikttrogenhet”."
+    ],
+    "related": [
+      "pliktförgätenhet"
+    ]
+  },
+  "pojktokig": {
+    "opposite": "tjejtokig",
+    "description": "Orden pojktokig och tjejtokig beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”pojktokig” och det andra som ”tjejtokig”.",
+      "Orden ”pojktokig” och ”tjejtokig” ställdes mot varandra."
+    ],
+    "related": [
+      "tjejtokig"
+    ]
+  },
+  "tjejtokig": {
+    "opposite": "pojktokig",
+    "description": "Orden pojktokig och tjejtokig beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”pojktokig” och det andra som ”tjejtokig”.",
+      "Orden ”pojktokig” och ”tjejtokig” ställdes mot varandra."
+    ],
+    "related": [
+      "pojktokig"
+    ]
+  },
+  "principfasthet": {
+    "opposite": "principlöshet",
+    "description": "Principfasthet och principlöshet uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”principfasthet” och ”principlöshet”.",
+      "Övningen innehöll både ordet ”principfasthet” och ordet ”principlöshet”."
+    ],
+    "related": [
+      "principlöshet"
+    ]
+  },
+  "principlöshet": {
+    "opposite": "principfasthet",
+    "description": "Principfasthet och principlöshet uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”principfasthet” och ”principlöshet”.",
+      "Övningen innehöll både ordet ”principfasthet” och ordet ”principlöshet”."
+    ],
+    "related": [
+      "principfasthet"
+    ]
+  },
+  "proximat": {
+    "opposite": "ultimat",
+    "description": "Proximat och ultimat används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”proximat” med ”ultimat”.",
+      "I exemplet används både ”proximat” och ”ultimat”."
+    ],
+    "related": [
+      "ultimat"
+    ]
+  },
+  "ultimat": {
+    "opposite": "proximat",
+    "description": "Proximat och ultimat används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”proximat” med ”ultimat”.",
+      "I exemplet används både ”proximat” och ”ultimat”."
+    ],
+    "related": [
+      "proximat"
+    ]
+  },
+  "ringandshane": {
+    "opposite": "ringandshona",
+    "description": "Ringandshane står i tydlig kontrast till ringandshona.",
+    "examples": [
+      "Skillnaden mellan ”ringandshane” och ”ringandshona” blev tydlig.",
+      "Förklaringen visar hur ”ringandshane” skiljer sig från ”ringandshona”."
+    ],
+    "related": [
+      "ringandshona"
+    ]
+  },
+  "ringandshona": {
+    "opposite": "ringandshane",
+    "description": "Ringandshane står i tydlig kontrast till ringandshona.",
+    "examples": [
+      "Skillnaden mellan ”ringandshane” och ”ringandshona” blev tydlig.",
+      "Förklaringen visar hur ”ringandshane” skiljer sig från ”ringandshona”."
+    ],
+    "related": [
+      "ringandshane"
+    ]
+  },
+  "rostandshane": {
+    "opposite": "rostandshona",
+    "description": "Orden rostandshane och rostandshona beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”rostandshane” och det andra som ”rostandshona”.",
+      "Orden ”rostandshane” och ”rostandshona” ställdes mot varandra."
+    ],
+    "related": [
+      "rostandshona"
+    ]
+  },
+  "rostandshona": {
+    "opposite": "rostandshane",
+    "description": "Orden rostandshane och rostandshona beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”rostandshane” och det andra som ”rostandshona”.",
+      "Orden ”rostandshane” och ”rostandshona” ställdes mot varandra."
+    ],
+    "related": [
+      "rostandshane"
+    ]
+  },
+  "russofili": {
+    "opposite": "russofobi",
+    "description": "Russofili och russofobi uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”russofili” och ”russofobi”.",
+      "Övningen innehöll både ordet ”russofili” och ordet ”russofobi”."
+    ],
+    "related": [
+      "russofobi"
+    ]
+  },
+  "russofobi": {
+    "opposite": "russofili",
+    "description": "Russofili och russofobi uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”russofili” och ”russofobi”.",
+      "Övningen innehöll både ordet ”russofili” och ordet ”russofobi”."
+    ],
+    "related": [
+      "russofili"
+    ]
+  },
+  "samhällsfrånvänd": {
+    "opposite": "samhällstillvänd",
+    "description": "Samhällsfrånvänd och samhällstillvänd används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”samhällsfrånvänd” med ”samhällstillvänd”.",
+      "I exemplet används både ”samhällsfrånvänd” och ”samhällstillvänd”."
+    ],
+    "related": [
+      "samhällstillvänd"
+    ]
+  },
+  "samhällstillvänd": {
+    "opposite": "samhällsfrånvänd",
+    "description": "Samhällsfrånvänd och samhällstillvänd används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”samhällsfrånvänd” med ”samhällstillvänd”.",
+      "I exemplet används både ”samhällsfrånvänd” och ”samhällstillvänd”."
+    ],
+    "related": [
+      "samhällsfrånvänd"
+    ]
+  },
+  "samhällsfrånvändhet": {
+    "opposite": "samhällstillvändhet",
+    "description": "Samhällsfrånvändhet står i tydlig kontrast till samhällstillvändhet.",
+    "examples": [
+      "Skillnaden mellan ”samhällsfrånvändhet” och ”samhällstillvändhet” blev tydlig.",
+      "Förklaringen visar hur ”samhällsfrånvändhet” skiljer sig från ”samhällstillvändhet”."
+    ],
+    "related": [
+      "samhällstillvändhet"
+    ]
+  },
+  "samhällstillvändhet": {
+    "opposite": "samhällsfrånvändhet",
+    "description": "Samhällsfrånvändhet står i tydlig kontrast till samhällstillvändhet.",
+    "examples": [
+      "Skillnaden mellan ”samhällsfrånvändhet” och ”samhällstillvändhet” blev tydlig.",
+      "Förklaringen visar hur ”samhällsfrånvändhet” skiljer sig från ”samhällstillvändhet”."
+    ],
+    "related": [
+      "samhällsfrånvändhet"
+    ]
+  },
+  "sittkissa": {
+    "opposite": "ståkissa",
+    "description": "Orden sittkissa och ståkissa beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”sittkissa” och det andra som ”ståkissa”.",
+      "Orden ”sittkissa” och ”ståkissa” ställdes mot varandra."
+    ],
+    "related": [
+      "ståkissa"
+    ]
+  },
+  "ståkissa": {
+    "opposite": "sittkissa",
+    "description": "Orden sittkissa och ståkissa beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”sittkissa” och det andra som ”ståkissa”.",
+      "Orden ”sittkissa” och ”ståkissa” ställdes mot varandra."
+    ],
+    "related": [
+      "sittkissa"
+    ]
+  },
+  "sittkissare": {
+    "opposite": "ståkissare",
+    "description": "Sittkissare och ståkissare uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”sittkissare” och ”ståkissare”.",
+      "Övningen innehöll både ordet ”sittkissare” och ordet ”ståkissare”."
+    ],
+    "related": [
+      "ståkissare"
+    ]
+  },
+  "ståkissare": {
+    "opposite": "sittkissare",
+    "description": "Sittkissare och ståkissare uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”sittkissare” och ”ståkissare”.",
+      "Övningen innehöll både ordet ”sittkissare” och ordet ”ståkissare”."
+    ],
+    "related": [
+      "sittkissare"
+    ]
+  },
+  "skedandshane": {
+    "opposite": "skedandshona",
+    "description": "Skedandshane och skedandshona används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”skedandshane” med ”skedandshona”.",
+      "I exemplet används både ”skedandshane” och ”skedandshona”."
+    ],
+    "related": [
+      "skedandshona"
+    ]
+  },
+  "skedandshona": {
+    "opposite": "skedandshane",
+    "description": "Skedandshane och skedandshona används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”skedandshane” med ”skedandshona”.",
+      "I exemplet används både ”skedandshane” och ”skedandshona”."
+    ],
+    "related": [
+      "skedandshane"
+    ]
+  },
+  "småväxt": {
+    "opposite": "storväxt",
+    "description": "Småväxt står i tydlig kontrast till storväxt.",
+    "examples": [
+      "Skillnaden mellan ”småväxt” och ”storväxt” blev tydlig.",
+      "Förklaringen visar hur ”småväxt” skiljer sig från ”storväxt”."
+    ],
+    "related": [
+      "storväxt"
+    ]
+  },
+  "storväxt": {
+    "opposite": "småväxt",
+    "description": "Småväxt står i tydlig kontrast till storväxt.",
+    "examples": [
+      "Skillnaden mellan ”småväxt” och ”storväxt” blev tydlig.",
+      "Förklaringen visar hur ”småväxt” skiljer sig från ”storväxt”."
+    ],
+    "related": [
+      "småväxt"
+    ]
+  },
+  "snatterandshane": {
+    "opposite": "snatterandshona",
+    "description": "Orden snatterandshane och snatterandshona beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”snatterandshane” och det andra som ”snatterandshona”.",
+      "Orden ”snatterandshane” och ”snatterandshona” ställdes mot varandra."
+    ],
+    "related": [
+      "snatterandshona"
+    ]
+  },
+  "snatterandshona": {
+    "opposite": "snatterandshane",
+    "description": "Orden snatterandshane och snatterandshona beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”snatterandshane” och det andra som ”snatterandshona”.",
+      "Orden ”snatterandshane” och ”snatterandshona” ställdes mot varandra."
+    ],
+    "related": [
+      "snatterandshane"
+    ]
+  },
+  "solo": {
+    "opposite": "tutti",
+    "description": "Solo och tutti uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”solo” och ”tutti”.",
+      "Övningen innehöll både ordet ”solo” och ordet ”tutti”."
+    ],
+    "related": [
+      "tutti"
+    ]
+  },
+  "tutti": {
+    "opposite": "solo",
+    "description": "Solo och tutti uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”solo” och ”tutti”.",
+      "Övningen innehöll både ordet ”solo” och ordet ”tutti”."
+    ],
+    "related": [
+      "solo"
+    ]
+  },
+  "sparvhökshane": {
+    "opposite": "sparvhökshona",
+    "description": "Sparvhökshane och sparvhökshona används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”sparvhökshane” med ”sparvhökshona”.",
+      "I exemplet används både ”sparvhökshane” och ”sparvhökshona”."
+    ],
+    "related": [
+      "sparvhökshona"
+    ]
+  },
+  "sparvhökshona": {
+    "opposite": "sparvhökshane",
+    "description": "Sparvhökshane och sparvhökshona används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”sparvhökshane” med ”sparvhökshona”.",
+      "I exemplet används både ”sparvhökshane” och ”sparvhökshona”."
+    ],
+    "related": [
+      "sparvhökshane"
+    ]
+  },
+  "stjärtandshane": {
+    "opposite": "stjärtandshona",
+    "description": "Stjärtandshane står i tydlig kontrast till stjärtandshona.",
+    "examples": [
+      "Skillnaden mellan ”stjärtandshane” och ”stjärtandshona” blev tydlig.",
+      "Förklaringen visar hur ”stjärtandshane” skiljer sig från ”stjärtandshona”."
+    ],
+    "related": [
+      "stjärtandshona"
+    ]
+  },
+  "stjärtandshona": {
+    "opposite": "stjärtandshane",
+    "description": "Stjärtandshane står i tydlig kontrast till stjärtandshona.",
+    "examples": [
+      "Skillnaden mellan ”stjärtandshane” och ”stjärtandshona” blev tydlig.",
+      "Förklaringen visar hur ”stjärtandshane” skiljer sig från ”stjärtandshona”."
+    ],
+    "related": [
+      "stjärtandshane"
+    ]
+  },
+  "strömandshane": {
+    "opposite": "strömandshona",
+    "description": "Orden strömandshane och strömandshona beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”strömandshane” och det andra som ”strömandshona”.",
+      "Orden ”strömandshane” och ”strömandshona” ställdes mot varandra."
+    ],
+    "related": [
+      "strömandshona"
+    ]
+  },
+  "strömandshona": {
+    "opposite": "strömandshane",
+    "description": "Orden strömandshane och strömandshona beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”strömandshane” och det andra som ”strömandshona”.",
+      "Orden ”strömandshane” och ”strömandshona” ställdes mot varandra."
+    ],
+    "related": [
+      "strömandshane"
+    ]
+  },
+  "svärdotter": {
+    "opposite": "svärson",
+    "description": "Svärdotter och svärson uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”svärdotter” och ”svärson”.",
+      "Övningen innehöll både ordet ”svärdotter” och ordet ”svärson”."
+    ],
+    "related": [
+      "svärson"
+    ]
+  },
+  "svärson": {
+    "opposite": "svärdotter",
+    "description": "Svärdotter och svärson uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”svärdotter” och ”svärson”.",
+      "Övningen innehöll både ordet ”svärdotter” och ordet ”svärson”."
+    ],
+    "related": [
+      "svärdotter"
+    ]
+  },
+  "teorikongruent": {
+    "opposite": "teorividrig",
+    "description": "Teorikongruent och teorividrig används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”teorikongruent” med ”teorividrig”.",
+      "I exemplet används både ”teorikongruent” och ”teorividrig”."
+    ],
+    "related": [
+      "teorividrig"
+    ]
+  },
+  "teorividrig": {
+    "opposite": "teorikongruent",
+    "description": "Teorikongruent och teorividrig används som motsatser i den här betydelsen.",
+    "examples": [
+      "Texten jämför ”teorikongruent” med ”teorividrig”.",
+      "I exemplet används både ”teorikongruent” och ”teorividrig”."
+    ],
+    "related": [
+      "teorikongruent"
+    ]
+  },
+  "traditionsfattigdom": {
+    "opposite": "traditionsrikedom",
+    "description": "Traditionsfattigdom står i tydlig kontrast till traditionsrikedom.",
+    "examples": [
+      "Skillnaden mellan ”traditionsfattigdom” och ”traditionsrikedom” blev tydlig.",
+      "Förklaringen visar hur ”traditionsfattigdom” skiljer sig från ”traditionsrikedom”."
+    ],
+    "related": [
+      "traditionsrikedom"
+    ]
+  },
+  "traditionsrikedom": {
+    "opposite": "traditionsfattigdom",
+    "description": "Traditionsfattigdom står i tydlig kontrast till traditionsrikedom.",
+    "examples": [
+      "Skillnaden mellan ”traditionsfattigdom” och ”traditionsrikedom” blev tydlig.",
+      "Förklaringen visar hur ”traditionsfattigdom” skiljer sig från ”traditionsrikedom”."
+    ],
+    "related": [
+      "traditionsfattigdom"
+    ]
+  },
+  "världsfrånvändhet": {
+    "opposite": "världstillvändhet",
+    "description": "Orden världsfrånvändhet och världstillvändhet beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”världsfrånvändhet” och det andra som ”världstillvändhet”.",
+      "Orden ”världsfrånvändhet” och ”världstillvändhet” ställdes mot varandra."
+    ],
+    "related": [
+      "världstillvändhet"
+    ]
+  },
+  "världstillvändhet": {
+    "opposite": "världsfrånvändhet",
+    "description": "Orden världsfrånvändhet och världstillvändhet beskriver två motsatta begrepp.",
+    "examples": [
+      "Det ena beskrevs som ”världsfrånvändhet” och det andra som ”världstillvändhet”.",
+      "Orden ”världsfrånvändhet” och ”världstillvändhet” ställdes mot varandra."
+    ],
+    "related": [
+      "världsfrånvändhet"
+    ]
+  },
+  "vigghane": {
+    "opposite": "vigghona",
+    "description": "Vigghane och vigghona uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”vigghane” och ”vigghona”.",
+      "Övningen innehöll både ordet ”vigghane” och ordet ”vigghona”."
+    ],
+    "related": [
+      "vigghona"
+    ]
+  },
+  "vigghona": {
+    "opposite": "vigghane",
+    "description": "Vigghane och vigghona uttrycker motsatta egenskaper, tillstånd eller riktningar.",
+    "examples": [
+      "Läraren förklarade motsatsen mellan ”vigghane” och ”vigghona”.",
+      "Övningen innehöll både ordet ”vigghane” och ordet ”vigghona”."
+    ],
+    "related": [
+      "vigghane"
+    ]
   }
 };
-

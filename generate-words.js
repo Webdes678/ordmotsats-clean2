@@ -2,6 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { additionalPairs } from './additional-pairs.js';
 import { expansionPairs } from './expansion-pairs.js';
+import { expansionPairs2 } from './expansion-pairs-2.js';
 
 // This list is intentionally curated. Do not infer antonyms from word prefixes.
 const curatedPairs = [
@@ -9007,7 +9008,7 @@ const curatedPairs = [
   }
 ];
 
-curatedPairs.push(...additionalPairs, ...expansionPairs);
+curatedPairs.push(...additionalPairs, ...expansionPairs, ...expansionPairs2);
 
 const seenWords = new Set();
 for (const pair of curatedPairs) {
@@ -9034,4 +9035,3 @@ const outputPath = path.join(process.cwd(), 'src', 'data', 'words.ts');
 const wordEntryType = "export type WordEntry = Readonly<Record<'opposite' | 'description', string> & Record<'examples' | 'related', readonly string[]>>;\n\n";
 fs.writeFileSync(outputPath, wordEntryType + 'export const words: Record<string, WordEntry> = ' + JSON.stringify(words, null, 2) + ';\n', 'utf-8');
 console.log('Generated ' + Object.keys(words).length + ' curated word pages.');
-

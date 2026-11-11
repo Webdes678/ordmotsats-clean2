@@ -3,82 +3,82 @@ export const directoryLetters = [
   {
     "letter": "a",
     "slug": "a",
-    "count": 162
+    "count": 195
   },
   {
     "letter": "b",
     "slug": "b",
-    "count": 145
+    "count": 218
   },
   {
     "letter": "c",
     "slug": "c",
-    "count": 8
+    "count": 15
   },
   {
     "letter": "d",
     "slug": "d",
-    "count": 99
+    "count": 128
   },
   {
     "letter": "e",
     "slug": "e",
-    "count": 82
+    "count": 102
   },
   {
     "letter": "f",
     "slug": "f",
-    "count": 209
+    "count": 269
   },
   {
     "letter": "g",
     "slug": "g",
-    "count": 60
+    "count": 82
   },
   {
     "letter": "h",
     "slug": "h",
-    "count": 130
+    "count": 175
   },
   {
     "letter": "i",
     "slug": "i",
-    "count": 183
+    "count": 220
   },
   {
     "letter": "j",
     "slug": "j",
-    "count": 19
+    "count": 27
   },
   {
     "letter": "k",
     "slug": "k",
-    "count": 157
+    "count": 199
   },
   {
     "letter": "l",
     "slug": "l",
-    "count": 134
+    "count": 171
   },
   {
     "letter": "m",
     "slug": "m",
-    "count": 167
+    "count": 194
   },
   {
     "letter": "n",
     "slug": "n",
-    "count": 86
+    "count": 108
   },
   {
     "letter": "o",
     "slug": "o",
-    "count": 423
+    "count": 711
   },
   {
     "letter": "p",
     "slug": "p",
-    "count": 107
+    "count": 128
   },
   {
     "letter": "q",
@@ -88,27 +88,27 @@ export const directoryLetters = [
   {
     "letter": "r",
     "slug": "r",
-    "count": 105
+    "count": 129
   },
   {
     "letter": "s",
     "slug": "s",
-    "count": 274
+    "count": 349
   },
   {
     "letter": "t",
     "slug": "t",
-    "count": 102
+    "count": 136
   },
   {
     "letter": "u",
     "slug": "u",
-    "count": 146
+    "count": 175
   },
   {
     "letter": "v",
     "slug": "v",
-    "count": 127
+    "count": 168
   },
   {
     "letter": "w",
@@ -123,27 +123,26 @@ export const directoryLetters = [
   {
     "letter": "y",
     "slug": "y",
-    "count": 8
+    "count": 11
   },
   {
     "letter": "z",
     "slug": "z",
-    "count": 1
+    "count": 2
   },
   {
     "letter": "å",
     "slug": "aa",
-    "count": 4
+    "count": 6
   },
   {
     "letter": "ä",
     "slug": "ae",
-    "count": 6
+    "count": 14
   },
   {
     "letter": "ö",
     "slug": "oe",
-    "count": 55
+    "count": 67
   }
 ]
-
