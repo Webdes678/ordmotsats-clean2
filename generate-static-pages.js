@@ -126,9 +126,9 @@ function homeMarkup(words) {
     + '<a class="directory-link" href="/ordlista">Se alla ord i ordlistan A–Ö →</a>'
     + '</div>'
     + '<div class="trust-row" id="about">'
-    + '<div><span aria-hidden="true">✓</span><strong>' + Object.keys(words).length + ' granskade ord</strong></div>'
-    + '<div><span aria-hidden="true">✓</span><strong>' + Math.floor(Object.keys(words).length / 2) + ' kontrollerade ordpar</strong></div>'
-    + '<div><span aria-hidden="true">✓</span><strong>2 granskade exempel per ordpar</strong></div>'
+    + '<div><span aria-hidden="true">✓</span><strong>' + Object.keys(words).length + ' ord</strong></div>'
+    + '<div><span aria-hidden="true">✓</span><strong>' + Math.floor(Object.keys(words).length / 2) + ' ordpar</strong></div>'
+    + '<div><span aria-hidden="true">✓</span><strong>2 exempel per ordpar</strong></div>'
     + '</div>'
     + '</section>'
     + footer()
@@ -252,4 +252,3 @@ function generateStaticPages() {
 }
 
 generateStaticPages();
-
