@@ -442,10 +442,11 @@ function PrivacyPage() {
           <p>Tekniska loggar används för att leverera webbplatsen, upptäcka fel, skydda tjänsten och förbättra driftsäkerheten. Behandlingen grundas på vårt berättigade intresse av att erbjuda en säker och fungerande webbplats. Kontaktuppgifter används endast för att hantera och besvara din förfrågan.</p>
 
           <h2>Cookies och annonser</h2>
-          <p>motsatsord.se använder inte egna cookies för användarkonton. Om Google AdSense aktiveras kan Google och dess annonspartners använda cookies eller liknande identifierare för att visa, mäta och anpassa annonser. Där samtycke krävs kommer du att kunna välja innan icke nödvändiga cookies används. Du kan läsa mer och hantera personanpassade annonser i <a href="https://adssettings.google.com/" rel="noreferrer">Googles annonsinställningar</a>.</p>
+          <p>motsatsord.se använder inte cookies för besöksstatistik eller användarkonton. Webbplatsen använder Vercel Web Analytics för anonym och sammanställd statistik om exempelvis besökare och sidvisningar. Tjänsten använder inte cookies och är inte avsedd att identifiera enskilda besökare.</p>
+          <p>Om Google AdSense aktiveras kan Google och dess annonspartners använda cookies eller liknande identifierare för att visa, mäta och anpassa annonser. Där samtycke krävs kommer du att kunna välja innan icke nödvändiga cookies används. Du kan läsa mer och hantera personanpassade annonser i <a href="https://adssettings.google.com/" rel="noreferrer">Googles annonsinställningar</a>.</p>
 
           <h2>Tjänsteleverantörer och överföringar</h2>
-          <p>Webbplatsen driftas av Vercel, som kan behandla tekniska uppgifter för att leverera och skydda tjänsten. Vid framtida annonsering kan Google behandla uppgifter enligt sina villkor och integritetsregler. Leverantörer kan behandla uppgifter utanför EU/EES med de skyddsåtgärder som krävs enligt tillämplig dataskyddslagstiftning.</p>
+          <p>Webbplatsen driftas av Vercel, som kan behandla tekniska uppgifter för att leverera och skydda tjänsten samt tillhandahålla anonym besöksstatistik. Vid framtida annonsering kan Google behandla uppgifter enligt sina villkor och integritetsregler. Leverantörer kan behandla uppgifter utanför EU/EES med de skyddsåtgärder som krävs enligt tillämplig dataskyddslagstiftning.</p>
 
           <h2>Hur länge uppgifterna sparas</h2>
           <p>Tekniska loggar sparas endast så länge de behövs för drift, säkerhet och felsökning enligt tjänsteleverantörens inställningar. E-postmeddelanden sparas så länge det behövs för att hantera ärendet och eventuella uppföljningar.</p>
