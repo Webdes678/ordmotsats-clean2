@@ -18,7 +18,7 @@ function generateSitemap() {
   const directoryUrls = [baseUrl + '/ordlista', ...groupDirectory(words)
     .filter((group) => group.entries.length > 0)
     .map((group) => baseUrl + letterUrl(group.letter))];
-  const urls = [baseUrl + '/', ...directoryUrls].concat(
+  const urls = [baseUrl + '/', baseUrl + '/integritetspolicy', ...directoryUrls].concat(
     Object.keys(words).map((word) => baseUrl + '/ord/' + encodeURIComponent(word.trim().toLowerCase()))
   );
 

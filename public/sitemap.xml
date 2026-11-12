@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://www.motsatsord.se/</loc></url>
+  <url><loc>https://www.motsatsord.se/integritetspolicy</loc></url>
   <url><loc>https://www.motsatsord.se/ordlista</loc></url>
   <url><loc>https://www.motsatsord.se/ordlista/a</loc></url>
   <url><loc>https://www.motsatsord.se/ordlista/b</loc></url>
@@ -4030,3 +4031,4 @@
   <url><loc>https://www.motsatsord.se/ord/vigghane</loc></url>
   <url><loc>https://www.motsatsord.se/ord/vigghona</loc></url>
 </urlset>
+

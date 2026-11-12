@@ -212,6 +212,18 @@ function SiteHeader({ showNavigation = true }: { showNavigation?: boolean }) {
   )
 }
 
+function SiteFooter() {
+  return (
+    <footer className="footer">
+      <span>© 2026 motsatsord.se · Svenska motsatsord · </span>
+      <a href="/integritetspolicy">Integritetspolicy</a>
+      <span> · Ordpar med stöd av </span>
+      <a href="https://sv.wiktionary.org/">Wiktionary</a>
+      <span> (</span><a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a><span>)</span>
+    </footer>
+  )
+}
+
 function HomePage() {
   useEffect(() => {
     updateStructuredData(homeStructuredData())
@@ -269,7 +281,7 @@ function HomePage() {
         </div>
       </section>
 
-      <footer className="footer">© 2026 motsatsord.se · Svenska motsatsord · Ordpar med stöd av <a href="https://sv.wiktionary.org/">Wiktionary</a> (<a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>)</footer>
+      <SiteFooter />
     </main>
   )
 }
@@ -371,7 +383,7 @@ function WordPage({ cleanWord }: { cleanWord: string }) {
         )}
       </section>
 
-      <footer className="footer">© 2026 motsatsord.se · Svenska motsatsord · Ordpar med stöd av <a href="https://sv.wiktionary.org/">Wiktionary</a> (<a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>)</footer>
+      <SiteFooter />
     </main>
   )
 }
@@ -385,6 +397,60 @@ function AlphabetNav({ activeLetter }: { activeLetter?: string }) {
         <span key={letter} className="alphabet-disabled" aria-disabled="true" title="Inga ord på denna bokstav ännu">{letter.toLocaleUpperCase("sv")}</span>
       ))}
     </nav>
+  )
+}
+
+function PrivacyPage() {
+  useEffect(() => {
+    updateStructuredData()
+    updateSeo(
+      "Integritetspolicy – motsatsord.se",
+      "Läs hur motsatsord.se hanterar personuppgifter, tekniska loggar, cookies och framtida annonsering.",
+      "https://www.motsatsord.se/integritetspolicy",
+    )
+  }, [])
+
+  return (
+    <main className="page legal-page">
+      <SiteHeader />
+      <section className="legal-shell">
+        <nav className="breadcrumbs" aria-label="Brödsmulor">
+          <Link to="/">Startsidan</Link><span aria-hidden="true">›</span><span aria-current="page">Integritetspolicy</span>
+        </nav>
+
+        <article className="legal-card">
+          <span className="hero-eyebrow">Din integritet</span>
+          <h1>Integritetspolicy</h1>
+          <p className="legal-updated">Senast uppdaterad: 12 november 2026</p>
+          <p>Den här policyn förklarar hur motsatsord.se hanterar information när du använder webbplatsen.</p>
+
+          <h2>Personuppgiftsansvarig och kontakt</h2>
+          <p>Webbplatsansvarig för motsatsord.se är personuppgiftsansvarig för den behandling som beskrivs här. Frågor om integritet och personuppgifter kan skickas till <a href="mailto:motsatsord.se@gmail.com">motsatsord.se@gmail.com</a>.</p>
+
+          <h2>Vilka uppgifter som kan behandlas</h2>
+          <p>Webbplatsen har inga användarkonton, kommentarer eller nyhetsbrev. När du besöker webbplatsen kan grundläggande teknisk information behandlas i serverloggar, till exempel IP-adress, tidpunkt, begärd webbadress samt typ av webbläsare och enhet. Om du kontaktar oss via e-post behandlar vi din e-postadress och innehållet i meddelandet för att kunna svara.</p>
+
+          <h2>Varför uppgifterna behandlas</h2>
+          <p>Tekniska loggar används för att leverera webbplatsen, upptäcka fel, skydda tjänsten och förbättra driftsäkerheten. Behandlingen grundas på vårt berättigade intresse av att erbjuda en säker och fungerande webbplats. Kontaktuppgifter används endast för att hantera och besvara din förfrågan.</p>
+
+          <h2>Cookies och annonser</h2>
+          <p>motsatsord.se använder inte egna cookies för användarkonton. Om Google AdSense aktiveras kan Google och dess annonspartners använda cookies eller liknande identifierare för att visa, mäta och anpassa annonser. Där samtycke krävs kommer du att kunna välja innan icke nödvändiga cookies används. Du kan läsa mer och hantera personanpassade annonser i <a href="https://adssettings.google.com/" rel="noreferrer">Googles annonsinställningar</a>.</p>
+
+          <h2>Tjänsteleverantörer och överföringar</h2>
+          <p>Webbplatsen driftas av Vercel, som kan behandla tekniska uppgifter för att leverera och skydda tjänsten. Vid framtida annonsering kan Google behandla uppgifter enligt sina villkor och integritetsregler. Leverantörer kan behandla uppgifter utanför EU/EES med de skyddsåtgärder som krävs enligt tillämplig dataskyddslagstiftning.</p>
+
+          <h2>Hur länge uppgifterna sparas</h2>
+          <p>Tekniska loggar sparas endast så länge de behövs för drift, säkerhet och felsökning enligt tjänsteleverantörens inställningar. E-postmeddelanden sparas så länge det behövs för att hantera ärendet och eventuella uppföljningar.</p>
+
+          <h2>Dina rättigheter</h2>
+          <p>Du kan ha rätt att begära tillgång till, rättelse eller radering av dina personuppgifter samt att invända mot eller begränsa viss behandling. Om behandling grundas på samtycke kan du återkalla samtycket. Kontakta oss på adressen ovan. Du kan också lämna klagomål till <a href="https://www.imy.se/" rel="noreferrer">Integritetsskyddsmyndigheten (IMY)</a>.</p>
+
+          <h2>Ändringar i policyn</h2>
+          <p>Policyn kan uppdateras när webbplatsen eller de tjänster som används förändras. Datumet högst upp visar när den senast uppdaterades.</p>
+        </article>
+      </section>
+      <SiteFooter />
+    </main>
   )
 }
 
@@ -449,7 +515,7 @@ function DirectoryPage({ slug }: { slug?: string }) {
           </div>
         )}
       </section>
-      <footer className="footer">© 2026 motsatsord.se · Svenska motsatsord · Ordpar med stöd av <a href="https://sv.wiktionary.org/">Wiktionary</a> (<a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>)</footer>
+      <SiteFooter />
     </main>
   )
 }
@@ -483,6 +549,7 @@ function NotFoundPage() {
         </div>
         <SearchBar />
       </section>
+      <SiteFooter />
     </main>
   )
 }
@@ -494,9 +561,11 @@ function App() {
       <Route path="/ord/:word" element={<WordPageRoute />} />
       <Route path="/ordlista" element={<DirectoryRoute />} />
       <Route path="/ordlista/:letter" element={<DirectoryRoute />} />
+      <Route path="/integritetspolicy" element={<PrivacyPage />} />
       <Route path="*" element={<NotFoundPage />} />
     </Routes>
   )
 }
 
 export default App
+

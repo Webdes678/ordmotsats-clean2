@@ -94,9 +94,28 @@ function searchBar({ buttonLabel = 'Sök', placeholder = 'Sök bland kontrollera
 }
 
 function footer() {
-  return '<footer class="footer">© 2026 motsatsord.se · Svenska motsatsord · Ordpar med stöd av '
+  return '<footer class="footer">© 2026 motsatsord.se · Svenska motsatsord · '
+    + '<a href="/integritetspolicy">Integritetspolicy</a> · Ordpar med stöd av '
     + '<a href="https://sv.wiktionary.org/">Wiktionary</a> '
     + '(<a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>)</footer>';
+}
+
+function privacyMarkup() {
+  return '<main class="page legal-page">' + siteHeader()
+    + '<section class="legal-shell">'
+    + '<nav class="breadcrumbs" aria-label="Brödsmulor"><a href="/">Startsidan</a><span aria-hidden="true">›</span><span aria-current="page">Integritetspolicy</span></nav>'
+    + '<article class="legal-card"><span class="hero-eyebrow">Din integritet</span><h1>Integritetspolicy</h1>'
+    + '<p class="legal-updated">Senast uppdaterad: 12 november 2026</p>'
+    + '<p>Den här policyn förklarar hur motsatsord.se hanterar information när du använder webbplatsen.</p>'
+    + '<h2>Personuppgiftsansvarig och kontakt</h2><p>Webbplatsansvarig för motsatsord.se är personuppgiftsansvarig för den behandling som beskrivs här. Frågor om integritet och personuppgifter kan skickas till <a href="mailto:motsatsord.se@gmail.com">motsatsord.se@gmail.com</a>.</p>'
+    + '<h2>Vilka uppgifter som kan behandlas</h2><p>Webbplatsen har inga användarkonton, kommentarer eller nyhetsbrev. När du besöker webbplatsen kan grundläggande teknisk information behandlas i serverloggar, till exempel IP-adress, tidpunkt, begärd webbadress samt typ av webbläsare och enhet. Om du kontaktar oss via e-post behandlar vi din e-postadress och innehållet i meddelandet för att kunna svara.</p>'
+    + '<h2>Varför uppgifterna behandlas</h2><p>Tekniska loggar används för att leverera webbplatsen, upptäcka fel, skydda tjänsten och förbättra driftsäkerheten. Behandlingen grundas på vårt berättigade intresse av att erbjuda en säker och fungerande webbplats. Kontaktuppgifter används endast för att hantera och besvara din förfrågan.</p>'
+    + '<h2>Cookies och annonser</h2><p>motsatsord.se använder inte egna cookies för användarkonton. Om Google AdSense aktiveras kan Google och dess annonspartners använda cookies eller liknande identifierare för att visa, mäta och anpassa annonser. Där samtycke krävs kommer du att kunna välja innan icke nödvändiga cookies används. Du kan läsa mer och hantera personanpassade annonser i <a href="https://adssettings.google.com/" rel="noreferrer">Googles annonsinställningar</a>.</p>'
+    + '<h2>Tjänsteleverantörer och överföringar</h2><p>Webbplatsen driftas av Vercel, som kan behandla tekniska uppgifter för att leverera och skydda tjänsten. Vid framtida annonsering kan Google behandla uppgifter enligt sina villkor och integritetsregler. Leverantörer kan behandla uppgifter utanför EU/EES med de skyddsåtgärder som krävs enligt tillämplig dataskyddslagstiftning.</p>'
+    + '<h2>Hur länge uppgifterna sparas</h2><p>Tekniska loggar sparas endast så länge de behövs för drift, säkerhet och felsökning enligt tjänsteleverantörens inställningar. E-postmeddelanden sparas så länge det behövs för att hantera ärendet och eventuella uppföljningar.</p>'
+    + '<h2>Dina rättigheter</h2><p>Du kan ha rätt att begära tillgång till, rättelse eller radering av dina personuppgifter samt att invända mot eller begränsa viss behandling. Om behandling grundas på samtycke kan du återkalla samtycket. Kontakta oss på adressen ovan. Du kan också lämna klagomål till <a href="https://www.imy.se/" rel="noreferrer">Integritetsskyddsmyndigheten (IMY)</a>.</p>'
+    + '<h2>Ändringar i policyn</h2><p>Policyn kan uppdateras när webbplatsen eller de tjänster som används förändras. Datumet högst upp visar när den senast uppdaterades.</p>'
+    + '</article></section>' + footer() + '</main>';
 }
 
 function homeMarkup(words) {
@@ -184,6 +203,16 @@ function generateStaticPages() {
   );
   fs.writeFileSync(templatePath, homeHtml, 'utf-8');
 
+  const privacyHtml = setRoot(
+    setHead(template, {
+      title: 'Integritetspolicy – motsatsord.se',
+      description: 'Läs hur motsatsord.se hanterar personuppgifter, tekniska loggar, cookies och framtida annonsering.',
+      canonical: baseUrl + '/integritetspolicy',
+    }),
+    privacyMarkup(),
+  );
+  fs.writeFileSync(path.join(distPath, 'integritetspolicy.html'), privacyHtml, 'utf-8');
+
   const groups = groupDirectory(words);
   const directoryOutputPath = path.join(distPath, 'ordlista');
   fs.mkdirSync(directoryOutputPath, { recursive: true });
@@ -248,7 +277,8 @@ function generateStaticPages() {
     noindex: true,
   }), errorMarkup), 'utf-8');
 
-  console.log('Pre-rendered homepage, 404 page and ' + Object.keys(words).length + ' word pages with structured data.');
+  console.log('Pre-rendered homepage, privacy policy, 404 page and ' + Object.keys(words).length + ' word pages with structured data.');
 }
 
 generateStaticPages();
+
