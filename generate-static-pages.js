@@ -144,11 +144,17 @@ function homeMarkup(words) {
     + '<div class="chips">' + chips + '</div>'
     + '<a class="directory-link" href="/ordlista">Se alla ord i ordlistan A–Ö →</a>'
     + '</div>'
-    + '<div class="trust-row" id="about">'
+    + '<div class="trust-row">'
     + '<div><span aria-hidden="true">✓</span><strong>' + Object.keys(words).length + ' ord</strong></div>'
     + '<div><span aria-hidden="true">✓</span><strong>' + Math.floor(Object.keys(words).length / 2) + ' ordpar</strong></div>'
     + '<div><span aria-hidden="true">✓</span><strong>2 exempel per ordpar</strong></div>'
     + '</div>'
+    + '<section class="about-section" id="about" aria-labelledby="about-heading">'
+    + '<span class="hero-eyebrow">Om webbplatsen</span><h2 id="about-heading">Om motsatsord.se</h2>'
+    + '<p>motsatsord.se är en kostnadsfri svensk ordlista som hjälper dig att snabbt hitta motsatsen till ett ord. För varje ord visar vi ett motsatsord, en kort förklaring och tydliga exempelmeningar.</p>'
+    + '<p>Ordlistan utvecklas och uppdateras löpande. Delar av underlaget bygger på information från <a href="https://sv.wiktionary.org/">Wiktionary</a>, som används enligt licensen <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.</p>'
+    + '<p>Har du hittat ett fel eller vill föreslå ett ord? Kontakta oss på <a href="mailto:motsatsord.se@gmail.com">motsatsord.se@gmail.com</a>.</p>'
+    + '</section>'
     + '</section>'
     + footer()
     + '</main>';

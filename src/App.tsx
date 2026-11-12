@@ -274,11 +274,19 @@ function HomePage() {
           <a className="directory-link" href="/ordlista">Se alla ord i ordlistan A–Ö →</a>
         </div>
 
-        <div className="trust-row" id="about">
+        <div className="trust-row">
           <div><span aria-hidden="true">✓</span><strong>{wordCount} ord</strong></div>
           <div><span aria-hidden="true">✓</span><strong>{pairCount} ordpar</strong></div>
           <div><span aria-hidden="true">✓</span><strong>2 exempel per ordpar</strong></div>
         </div>
+
+        <section className="about-section" id="about" aria-labelledby="about-heading">
+          <span className="hero-eyebrow">Om webbplatsen</span>
+          <h2 id="about-heading">Om motsatsord.se</h2>
+          <p>motsatsord.se är en kostnadsfri svensk ordlista som hjälper dig att snabbt hitta motsatsen till ett ord. För varje ord visar vi ett motsatsord, en kort förklaring och tydliga exempelmeningar.</p>
+          <p>Ordlistan utvecklas och uppdateras löpande. Delar av underlaget bygger på information från <a href="https://sv.wiktionary.org/">Wiktionary</a>, som används enligt licensen <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.</p>
+          <p>Har du hittat ett fel eller vill föreslå ett ord? Kontakta oss på <a href="mailto:motsatsord.se@gmail.com">motsatsord.se@gmail.com</a>.</p>
+        </section>
       </section>
 
       <SiteFooter />

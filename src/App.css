@@ -446,6 +446,37 @@ a {
   font-weight: 900;
 }
 
+.about-section {
+  width: min(820px, calc(100% - 48px));
+  margin: 54px auto 0;
+  padding: clamp(30px, 5vw, 48px);
+  scroll-margin-top: 24px;
+  border: 1px solid var(--line);
+  border-radius: 24px;
+  background: linear-gradient(135deg, #f5faff, #fffdf6);
+  color: #425b78;
+  text-align: left;
+}
+
+.about-section h2 {
+  margin: 8px 0 18px;
+  color: var(--ink);
+  font-size: clamp(28px, 4vw, 38px);
+  letter-spacing: -0.8px;
+}
+
+.about-section p {
+  margin: 0 0 14px;
+  line-height: 1.7;
+}
+
+.about-section p:last-child { margin-bottom: 0; }
+
+.about-section a {
+  color: var(--blue);
+  font-weight: 700;
+}
+
 /* Word result pages */
 .directory-link {
   display: inline-block;
@@ -858,6 +889,12 @@ a {
 
   .trust-row > div {
     padding: 15px;
+  }
+
+  .about-section {
+    width: calc(100% - 32px);
+    margin-top: 40px;
+    padding: 28px 22px;
   }
 
   .word-hero {
