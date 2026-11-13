@@ -85,6 +85,16 @@ function getEmbeddedWord(word: string) {
   return embedded?.word === word ? embedded.entry : undefined
 }
 
+function seoTitleForWord(word: string, opposite: string) {
+  const capitalizedWord = word.charAt(0).toLocaleUpperCase("sv-SE") + word.slice(1)
+  return capitalizedWord + " – motsatsordet " + opposite + " och exempel"
+}
+
+function seoDescriptionForWord(word: string, entry: WordEntry) {
+  return "Vad är motsatsen till " + word + "? Motsatsordet är " + entry.opposite + ". "
+    + entry.description + " Se två tydliga exempel."
+}
+
 function updateSeo(title: string, description: string, canonical?: string, noindex = false) {
   document.title = title
 
@@ -319,17 +329,10 @@ function WordPage({ cleanWord }: { cleanWord: string }) {
 
   useEffect(() => {
     if (result) {
-      const seoTitle = cleanWord === "rigiditet"
-        ? "Rigiditet – motsatsordet flexibilitet och exempel"
-        : "Motsatsord till " + cleanWord + " – motsatsord.se"
-      const seoDescription = cleanWord === "rigiditet"
-        ? "Vad är motsatsen till rigiditet? Motsatsordet är flexibilitet. Rigiditet innebär stelhet och liten möjlighet till förändring. Se två tydliga exempel."
-        : result.description + " Se motsatsordet och exempelmeningar."
-
       updateStructuredData(wordStructuredData(cleanWord, result))
       updateSeo(
-        seoTitle,
-        seoDescription,
+        seoTitleForWord(cleanWord, result.opposite),
+        seoDescriptionForWord(cleanWord, result),
         "https://www.motsatsord.se/ord/" + encodeURIComponent(cleanWord),
       )
     } else if (result === null) {
