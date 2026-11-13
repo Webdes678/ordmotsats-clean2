@@ -361,29 +361,49 @@ function WordPage({ cleanWord }: { cleanWord: string }) {
         <SearchBar />
 
         {result ? (
-          <div className="word-page">
-            <div className="word-card">
-              <p>Motsatsord till</p>
-              <h1>{cleanWord}</h1>
-              <h2>↔ <Link to={"/ord/" + encodeURIComponent(result.opposite)}>{result.opposite}</Link></h2>
-            </div>
+          <article className="word-page">
+            <header className="word-card">
+              <span className="word-eyebrow">Svenskt motsatsord</span>
+              <h1>Vad är motsatsen till <span>{cleanWord}</span>?</h1>
+              <div className="word-pair" aria-label={`${cleanWord} och ${result.opposite} är motsatsord`}>
+                <div className="word-pair__item">
+                  <small>Ord</small>
+                  <strong>{cleanWord}</strong>
+                </div>
+                <span className="word-pair__arrow" aria-hidden="true">↔</span>
+                <Link className="word-pair__item word-pair__item--opposite" to={"/ord/" + encodeURIComponent(result.opposite)}>
+                  <small>Motsats</small>
+                  <strong>{result.opposite}</strong>
+                </Link>
+              </div>
+              <p className="direct-answer"><strong>{result.opposite}</strong> är motsatsen till <strong>{cleanWord}</strong>.</p>
+            </header>
 
-            <p className="word-description">{result.description}</p>
+            <section className="word-detail-card" aria-labelledby="explanation-heading">
+              <span className="section-label">Förklaring</span>
+              <h2 id="explanation-heading">Skillnaden mellan {cleanWord} och {result.opposite}</h2>
+              <p className="word-description">{result.description}</p>
+            </section>
 
-            <h3>Exempelmeningar</h3>
-            <div className="examples">
-              {result.examples.map((example) => <p key={example}>{example}</p>)}
-            </div>
+            <section className="examples-section" aria-labelledby="examples-heading">
+              <span className="section-label">Så används orden</span>
+              <h2 id="examples-heading">Exempelmeningar</h2>
+              <ol className="examples">
+                {result.examples.map((example, index) => (
+                  <li key={example}><span aria-hidden="true">{index + 1}</span><p>{example}</p></li>
+                ))}
+              </ol>
+            </section>
 
-            <div className="related">
-              <h3>Fler vanliga ordpar</h3>
+            <nav className="related" aria-labelledby="related-heading">
+              <h2 id="related-heading">Upptäck fler motsatsord</h2>
               {browseWords.map((otherWord) => (
                 <Link key={otherWord} to={"/ord/" + encodeURIComponent(otherWord)}>
                   {otherWord} ↔ {featuredOpposites[otherWord]}
                 </Link>
               ))}
-            </div>
-          </div>
+            </nav>
+          </article>
         ) : (
           <div className="result-card" style={{ marginTop: "24px" }}>
             {loadFailed ? (

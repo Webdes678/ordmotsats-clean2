@@ -178,24 +178,31 @@ function wordMarkup(word, entry, words) {
     return '<a href="' + wordUrl(otherWord) + '">' + escapeHtml(otherWord) + ' ↔ ' + escapeHtml(opposite) + '</a>';
   }).join('');
 
-  const examples = entry.examples.map((example) => '<p>' + escapeHtml(example) + '</p>').join('');
+  const examples = entry.examples.map((example, index) => '<li><span aria-hidden="true">' + (index + 1) + '</span><p>' + escapeHtml(example) + '</p></li>').join('');
 
   return '<main class="page word-page-shell">'
     + siteHeader()
     + '<section class="word-hero">'
     + '<nav class="breadcrumbs" aria-label="Brödsmulor"><a href="/">Startsidan</a><span aria-hidden="true">›</span><span aria-current="page">' + escapeHtml(word) + '</span></nav>'
     + searchBar()
-    + '<div class="word-page">'
-    + '<div class="word-card">'
-    + '<p>Motsatsord till</p>'
-    + '<h1>' + escapeHtml(word) + '</h1>'
-    + '<h2>↔ <a href="' + wordUrl(entry.opposite) + '">' + escapeHtml(entry.opposite) + '</a></h2>'
+    + '<article class="word-page">'
+    + '<header class="word-card">'
+    + '<span class="word-eyebrow">Svenskt motsatsord</span>'
+    + '<h1>Vad är motsatsen till <span>' + escapeHtml(word) + '</span>?</h1>'
+    + '<div class="word-pair" aria-label="' + escapeHtml(word) + ' och ' + escapeHtml(entry.opposite) + ' är motsatsord">'
+    + '<div class="word-pair__item"><small>Ord</small><strong>' + escapeHtml(word) + '</strong></div>'
+    + '<span class="word-pair__arrow" aria-hidden="true">↔</span>'
+    + '<a class="word-pair__item word-pair__item--opposite" href="' + wordUrl(entry.opposite) + '"><small>Motsats</small><strong>' + escapeHtml(entry.opposite) + '</strong></a>'
     + '</div>'
-    + '<p class="word-description">' + escapeHtml(entry.description) + '</p>'
-    + '<h3>Exempelmeningar</h3>'
-    + '<div class="examples">' + examples + '</div>'
-    + '<div class="related"><h3>Fler vanliga ordpar</h3>' + related + '</div>'
-    + '</div>'
+    + '<p class="direct-answer"><strong>' + escapeHtml(entry.opposite) + '</strong> är motsatsen till <strong>' + escapeHtml(word) + '</strong>.</p>'
+    + '</header>'
+    + '<section class="word-detail-card" aria-labelledby="explanation-heading"><span class="section-label">Förklaring</span>'
+    + '<h2 id="explanation-heading">Skillnaden mellan ' + escapeHtml(word) + ' och ' + escapeHtml(entry.opposite) + '</h2>'
+    + '<p class="word-description">' + escapeHtml(entry.description) + '</p></section>'
+    + '<section class="examples-section" aria-labelledby="examples-heading"><span class="section-label">Så används orden</span>'
+    + '<h2 id="examples-heading">Exempelmeningar</h2><ol class="examples">' + examples + '</ol></section>'
+    + '<nav class="related" aria-labelledby="related-heading"><h2 id="related-heading">Upptäck fler motsatsord</h2>' + related + '</nav>'
+    + '</article>'
     + '</section>'
     + footer()
     + '</main>';

@@ -625,10 +625,12 @@ a {
 }
 
 .word-page {
-  margin-top: 34px;
+  margin-top: 30px;
 }
 
 .word-card,
+.word-detail-card,
+.examples-section,
 .result-card {
   border: 1px solid var(--line);
   border-radius: 24px;
@@ -637,72 +639,174 @@ a {
 }
 
 .word-card {
-  padding: 35px 38px;
+  padding: 40px;
+  overflow: hidden;
+  background: linear-gradient(135deg, #f4f9ff 0%, #fffdf7 100%);
 }
 
-.word-card p {
-  margin: 0 0 10px;
-  color: var(--muted);
-  font-size: 16px;
+.word-eyebrow,
+.section-label {
+  display: block;
+  color: var(--blue);
+  font-size: 13px;
+  font-weight: 900;
+  letter-spacing: 1.15px;
+  text-transform: uppercase;
 }
 
 .word-card h1 {
-  margin: 0;
+  margin: 10px 0 0;
   color: var(--ink);
-  font-size: 46px;
+  font-size: clamp(31px, 5vw, 44px);
   font-weight: 900;
-  letter-spacing: -1.5px;
-  line-height: 1;
+  letter-spacing: -1.25px;
+  line-height: 1.12;
 }
 
-.word-card h2 {
-  margin: 20px 0 0;
-  color: #617a98;
-  font-size: 38px;
-  font-weight: 800;
-}
-
-.word-card h2 a {
+.word-card h1 span {
   color: var(--blue);
+}
+
+.word-pair {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 64px minmax(0, 1fr);
+  align-items: stretch;
+  margin-top: 30px;
+  border: 1px solid #cfe1f3;
+  border-radius: 20px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 10px 24px rgba(40, 91, 137, 0.08);
+}
+
+.word-pair__item {
+  display: flex;
+  min-width: 0;
+  min-height: 120px;
+  padding: 22px 24px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #075eaa;
+  text-align: center;
+}
+
+.word-pair__item small {
+  margin-bottom: 7px;
+  color: #5c7592;
+  font-size: 12px;
+  font-weight: 850;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.word-pair__item strong {
+  max-width: 100%;
+  font-size: clamp(23px, 4vw, 34px);
+  line-height: 1.08;
+  overflow-wrap: anywhere;
+}
+
+.word-pair__item--opposite {
+  color: #8d6400;
+  background: #fff7dc;
   text-decoration: none;
 }
 
+.word-pair__item--opposite:hover,
+.word-pair__item--opposite:focus-visible {
+  background: #ffefb7;
+}
+
+.word-pair__arrow {
+  display: grid;
+  place-items: center;
+  color: #537291;
+  font-size: 24px;
+  font-weight: 900;
+  background: #fff;
+}
+
+.direct-answer {
+  margin: 22px 0 0;
+  color: #304c69;
+  font-size: 17px;
+  line-height: 1.55;
+  text-align: center;
+}
+
+.word-detail-card,
+.examples-section {
+  margin-top: 18px;
+  padding: 30px 32px;
+  box-shadow: none;
+}
+
+.word-detail-card h2,
+.examples-section h2,
+.related h2 {
+  margin: 8px 0 0;
+  color: var(--ink);
+  font-size: 23px;
+  line-height: 1.25;
+}
+
 .word-description {
-  margin: 24px 2px 0;
+  margin: 14px 0 0;
   color: #4d6582;
   font-size: 17px;
   line-height: 1.65;
 }
 
-.word-page h3 {
-  margin: 34px 0 16px;
-  color: var(--ink);
-  font-size: 18px;
-}
-
 .examples {
   display: grid;
+  margin: 20px 0 0;
+  padding: 0;
   gap: 10px;
+  list-style: none;
 }
 
-.examples p {
-  margin: 0;
-  padding: 17px 19px;
+.examples li {
+  display: flex;
+  padding: 16px 18px;
+  align-items: flex-start;
+  gap: 13px;
   border: 1px solid var(--line);
   border-radius: 16px;
   color: #334d6b;
-  background: #fff;
+  background: #f9fcff;
   line-height: 1.5;
+}
+
+.examples li > span {
+  display: grid;
+  width: 27px;
+  height: 27px;
+  flex: 0 0 27px;
+  place-items: center;
+  border-radius: 50%;
+  color: #fff;
+  background: var(--blue);
+  font-size: 13px;
+  font-weight: 850;
+}
+
+.examples p {
+  margin: 1px 0 0;
 }
 
 .related {
   display: flex;
+  margin-top: 32px;
+  padding-top: 28px;
   flex-wrap: wrap;
   gap: 10px;
+  border-top: 1px solid var(--line);
 }
 
-.related h3 {
+.related h2 {
   width: 100%;
+  margin: 0 0 8px;
 }
 
 .related a {
@@ -911,11 +1015,12 @@ a {
   }
 
   .word-card h1 {
-    font-size: 40px;
+    font-size: clamp(30px, 8vw, 38px);
   }
 
-  .word-card h2 {
-    font-size: 31px;
+  .word-detail-card,
+  .examples-section {
+    padding: 25px 24px;
   }
 }
 
@@ -934,6 +1039,41 @@ a {
 
   .search-container--default .search input {
     padding-left: 15px;
+  }
+
+  .word-card {
+    padding: 25px 18px;
+  }
+
+  .word-pair {
+    grid-template-columns: 1fr;
+    margin-top: 24px;
+  }
+
+  .word-pair__item {
+    min-height: 96px;
+    padding: 17px 18px;
+  }
+
+  .word-pair__arrow {
+    min-height: 42px;
+    border-top: 1px solid #e2edf7;
+    border-bottom: 1px solid #e2edf7;
+  }
+
+  .direct-answer {
+    font-size: 16px;
+  }
+
+  .word-detail-card,
+  .examples-section {
+    padding: 23px 19px;
+  }
+
+  .word-detail-card h2,
+  .examples-section h2,
+  .related h2 {
+    font-size: 21px;
   }
 
   .footer {
