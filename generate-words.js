@@ -9,10 +9,15 @@ const curatedPairs = [
   {
     "a": "stor",
     "b": "liten",
-    "description": "Stor och liten beskriver hur stort något är.",
-    "examples": [
-      "Huset är stort, men stugan är liten.",
-      "Vi valde ett stort bord i stället för ett litet."
+    "descriptionA": "Stor betyder att något tar mycket plats eller har större mått än något annat. Motsatsen är liten.",
+    "examplesA": [
+      "Det stora huset står bredvid en liten stuga.",
+      "Vi valde ett stort bord eftersom det lilla bordet inte räckte."
+    ],
+    "descriptionB": "Liten betyder att något tar lite plats eller har mindre mått än något annat. Motsatsen är stor.",
+    "examplesB": [
+      "Den lilla väskan får plats under den stora väskan.",
+      "Katten var liten jämfört med den stora hunden."
     ]
   },
   {
@@ -9018,7 +9023,12 @@ for (const pair of curatedPairs) {
   if (seenWords.has(pair.a) || seenWords.has(pair.b)) {
     throw new Error('A word occurs in more than one pair: ' + pair.a + ' / ' + pair.b);
   }
-  if (!pair.description || !Array.isArray(pair.examples) || pair.examples.length !== 2 || pair.examples.some((example) => !example.trim())) {
+  const descriptionA = pair.descriptionA ?? pair.description;
+  const descriptionB = pair.descriptionB ?? pair.description;
+  const examplesA = pair.examplesA ?? pair.examples;
+  const examplesB = pair.examplesB ?? pair.examples;
+  const invalidExamples = (examples) => !Array.isArray(examples) || examples.length !== 2 || examples.some((example) => !example.trim());
+  if (!descriptionA || !descriptionB || invalidExamples(examplesA) || invalidExamples(examplesB)) {
     throw new Error('Every pair needs a description and exactly two examples: ' + pair.a + ' / ' + pair.b);
   }
   seenWords.add(pair.a);
@@ -9027,11 +9037,22 @@ for (const pair of curatedPairs) {
 
 const words = {};
 for (const pair of curatedPairs) {
-  words[pair.a] = { opposite: pair.b, description: pair.description, examples: pair.examples, related: [pair.b] };
-  words[pair.b] = { opposite: pair.a, description: pair.description, examples: pair.examples, related: [pair.a] };
+  words[pair.a] = {
+    opposite: pair.b,
+    description: pair.descriptionA ?? pair.description,
+    examples: pair.examplesA ?? pair.examples,
+    related: [pair.b],
+  };
+  words[pair.b] = {
+    opposite: pair.a,
+    description: pair.descriptionB ?? pair.description,
+    examples: pair.examplesB ?? pair.examples,
+    related: [pair.a],
+  };
 }
 
 const outputPath = path.join(process.cwd(), 'src', 'data', 'words.ts');
 const wordEntryType = "export type WordEntry = Readonly<Record<'opposite' | 'description', string> & Record<'examples' | 'related', readonly string[]>>;\n\n";
 fs.writeFileSync(outputPath, wordEntryType + 'export const words: Record<string, WordEntry> = ' + JSON.stringify(words, null, 2) + ';\n', 'utf-8');
 console.log('Generated ' + Object.keys(words).length + ' curated word pages.');
+
