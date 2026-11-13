@@ -251,8 +251,12 @@ function generateStaticPages() {
   }
 
   for (const [word, entry] of Object.entries(words)) {
-    const title = 'Motsatsord till ' + word + ' – motsatsord.se';
-    const description = entry.description + ' Se motsatsordet och exempelmeningar.';
+    const title = word === 'rigiditet'
+      ? 'Rigiditet – motsatsordet flexibilitet och exempel'
+      : 'Motsatsord till ' + word + ' – motsatsord.se';
+    const description = word === 'rigiditet'
+      ? 'Vad är motsatsen till rigiditet? Motsatsordet är flexibilitet. Rigiditet innebär stelhet och liten möjlighet till förändring. Se två tydliga exempel.'
+      : entry.description + ' Se motsatsordet och exempelmeningar.';
     const canonical = baseUrl + wordUrl(word);
     const html = setRoot(
       setEmbeddedWordData(

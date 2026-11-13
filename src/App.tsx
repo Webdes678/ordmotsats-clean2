@@ -319,10 +319,17 @@ function WordPage({ cleanWord }: { cleanWord: string }) {
 
   useEffect(() => {
     if (result) {
+      const seoTitle = cleanWord === "rigiditet"
+        ? "Rigiditet – motsatsordet flexibilitet och exempel"
+        : "Motsatsord till " + cleanWord + " – motsatsord.se"
+      const seoDescription = cleanWord === "rigiditet"
+        ? "Vad är motsatsen till rigiditet? Motsatsordet är flexibilitet. Rigiditet innebär stelhet och liten möjlighet till förändring. Se två tydliga exempel."
+        : result.description + " Se motsatsordet och exempelmeningar."
+
       updateStructuredData(wordStructuredData(cleanWord, result))
       updateSeo(
-        "Motsatsord till " + cleanWord + " – motsatsord.se",
-        result.description + " Se motsatsordet och exempelmeningar.",
+        seoTitle,
+        seoDescription,
         "https://www.motsatsord.se/ord/" + encodeURIComponent(cleanWord),
       )
     } else if (result === null) {
